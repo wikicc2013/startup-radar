@@ -1,0 +1,39 @@
+# 【当前停用自动触发】本地模式下由 Claude Code 的 /ingest 和 /research 命令驱动。
+# 保留 workflow_dispatch 作为手动兜底；未来要启用云端自动化：
+#   方案 A（推荐）：Routines —— 在 claude.ai/code/routines 建两条例程，
+#     提示词用 routines/ingest.md 和 routines/research.md，无需本文件；
+#   方案 B：取消下方 push/schedule 触发器的注释，并在仓库 Secrets 配置 ANTHROPIC_API_KEY。
+# 注意：Routines 与本文件的自动触发二选一，不要同时开。
+
+name: startup-radar
+on:
+  workflow_dispatch:
+  # push:
+  #   paths:
+  #     - "inbox/**"
+  # schedule:
+  #   - cron: "0 23 * * 0-4"   # 北京时间工作日 07:00
+
+permissions:
+  contents: write
+
+jobs:
+  ingest:
+    if: github.event_name == 'push' || github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: anthropics/claude-code-action@v1
+        with:
+          anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
+          prompt_file: routines/ingest.md
+
+  research:
+    if: github.event_name == 'schedule'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: anthropics/claude-code-action@v1
+        with:
+          anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
+          prompt_file: routines/research.md

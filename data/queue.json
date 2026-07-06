@@ -1,0 +1,134 @@
+{
+ "policy": {
+  "per_run": 3,
+  "order": "A1 制造直击优先，用户可手动置顶"
+ },
+ "queue": [
+  {
+   "slug": "foaster",
+   "name": "Foaster",
+   "tier": "A2",
+   "status": "pending",
+   "priority": 1
+  },
+  {
+   "slug": "ontora",
+   "name": "Ontora",
+   "tier": "A2",
+   "status": "pending",
+   "priority": 2
+  },
+  {
+   "slug": "korso",
+   "name": "Korso",
+   "tier": "A1",
+   "status": "pending",
+   "priority": 3
+  },
+  {
+   "slug": "arzana",
+   "name": "Arzana",
+   "tier": "A1",
+   "status": "pending",
+   "priority": 99
+  },
+  {
+   "slug": "saudara-ai",
+   "name": "Saudara AI",
+   "tier": "A1",
+   "status": "pending",
+   "priority": 99
+  },
+  {
+   "slug": "walter",
+   "name": "Walter",
+   "tier": "A1",
+   "status": "pending",
+   "priority": 99
+  },
+  {
+   "slug": "parrot",
+   "name": "Parrot",
+   "tier": "A1",
+   "status": "pending",
+   "priority": 99
+  },
+  {
+   "slug": "prototyping-io",
+   "name": "Prototyping.io",
+   "tier": "A1",
+   "status": "pending",
+   "priority": 99
+  },
+  {
+   "slug": "pairio",
+   "name": "Pairio",
+   "tier": "A1",
+   "status": "pending",
+   "priority": 99
+  },
+  {
+   "slug": "qomplement",
+   "name": "qomplement",
+   "tier": "A1",
+   "status": "pending",
+   "priority": 99
+  },
+  {
+   "slug": "andustry",
+   "name": "Andustry",
+   "tier": "A1",
+   "status": "pending",
+   "priority": 99
+  },
+  {
+   "slug": "hexa",
+   "name": "Hexa",
+   "tier": "A1",
+   "status": "pending",
+   "priority": 99
+  },
+  {
+   "slug": "advanced-metal-research",
+   "name": "Advanced Metal Research",
+   "tier": "A1",
+   "status": "pending",
+   "priority": 99
+  },
+  {
+   "slug": "smartbase",
+   "name": "Smartbase",
+   "tier": "A1",
+   "status": "pending",
+   "priority": 99
+  },
+  {
+   "slug": "hyper",
+   "name": "Hyper",
+   "tier": "A2",
+   "status": "pending",
+   "priority": 99
+  },
+  {
+   "slug": "flowscope",
+   "name": "flowscope",
+   "tier": "A2",
+   "status": "pending",
+   "priority": 99
+  },
+  {
+   "slug": "pentagon",
+   "name": "Pentagon",
+   "tier": "A2",
+   "status": "pending",
+   "priority": 99
+  },
+  {
+   "slug": "autostep",
+   "name": "Autostep",
+   "tier": "A2",
+   "status": "pending",
+   "priority": 99
+  }
+ ]
+}

@@ -1,0 +1,27 @@
+# 直通模式补丁：Routines 研究预览期的分支护栏会把提交推到 claude/ 前缀分支，
+# 本 workflow 自动把这些分支合并进 main 并删除，保证看板与数据真源始终最新。
+# 若某次合并冲突（极少见，通常是两条 Routine 同时改了 companies.json），
+# 本 workflow 会失败并保留分支，届时手动合一次即可。
+name: auto-merge-claude-branches
+on:
+  push:
+    branches:
+      - "claude/**"
+permissions:
+  contents: write
+jobs:
+  merge:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - name: merge claude branch into main
+        run: |
+          BRANCH="${GITHUB_REF#refs/heads/}"
+          git config user.name "radar-bot"
+          git config user.email "radar-bot@users.noreply.github.com"
+          git merge --no-edit "origin/${BRANCH}"
+          git push origin main
+          git push origin --delete "${BRANCH}" || true

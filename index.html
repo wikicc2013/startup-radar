@@ -1,0 +1,3974 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>转型有术 · 新锐AI创业公司档案库</title>
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  :root{ }
+  body{
+    background:#EFF4F9;
+    background-image:linear-gradient(#D5E2EF66 1px, transparent 1px),linear-gradient(90deg,#D5E2EF66 1px, transparent 1px);
+    background-size:28px 28px;
+    color:#0E2E52;
+    font-family:-apple-system,"PingFang SC","Microsoft YaHei",sans-serif;
+    font-size:14px; line-height:1.55;
+  }
+  .wrap{ max-width:1180px; margin:0 auto; padding:20px 16px 60px; }
+
+  /* ── 图签栏（工程图纸 title block）── */
+  .titleblock{
+    background:#fff; border:2px solid #123C6B; display:grid;
+    grid-template-columns: 1fr auto auto auto; align-items:stretch;
+  }
+  .titleblock > div{ padding:14px 18px; border-left:1px solid #123C6B; }
+  .titleblock > div:first-child{ border-left:none; }
+  .tb-name h1{
+    font-family:"Songti SC","STSong","SimSun",serif;
+    font-size:22px; letter-spacing:2px; color:#123C6B; font-weight:700;
+  }
+  .tb-name p{ font-size:12px; color:#2F6FB1; margin-top:2px; letter-spacing:1px;}
+  .tb-cell{ min-width:96px; }
+  .tb-cell .k{ font-size:11px; color:#6B87A6; letter-spacing:1px; }
+  .tb-cell .v{ font-family:ui-monospace,"SF Mono",Consolas,monospace; font-size:20px; font-weight:700; color:#123C6B; }
+  .tb-cell .v small{ font-size:11px; font-weight:400; color:#6B87A6; }
+
+  /* ── 统计条（点击即筛）── */
+  .stats{ display:flex; flex-wrap:wrap; gap:8px; margin:14px 0; }
+  .stat{
+    background:#fff; border:1px solid #B9CDE0; padding:6px 14px; cursor:pointer;
+    font-family:ui-monospace,"SF Mono",Consolas,monospace; font-size:13px; color:#0E2E52;
+    user-select:none;
+  }
+  .stat b{ font-size:16px; margin-left:6px; }
+  .stat.on{ background:#123C6B; color:#fff; border-color:#123C6B; }
+  .stat .dot{ display:inline-block; width:9px; height:9px; margin-right:7px; }
+
+  /* ── 主体：筛选轨 + 列表 ── */
+  .main{ display:grid; grid-template-columns:200px 1fr; gap:14px; align-items:start; }
+  .rail{ background:#fff; border:1px solid #B9CDE0; padding:14px; position:sticky; top:12px; }
+  .rail h3{ font-size:12px; color:#6B87A6; letter-spacing:2px; margin:12px 0 6px; font-weight:600;}
+  .rail h3:first-child{ margin-top:0; }
+  .chip{ display:block; width:100%; text-align:left; background:none; border:none; cursor:pointer;
+    padding:5px 8px; font-size:13px; color:#0E2E52; border-left:3px solid transparent; }
+  .chip:hover{ background:#EFF4F9; }
+  .chip.on{ border-left-color:#B03A2E; background:#EFF4F9; font-weight:600; }
+  .chip .n{ float:right; color:#6B87A6; font-family:ui-monospace,monospace; font-size:12px; }
+  #q{ width:100%; border:1px solid #B9CDE0; padding:8px 10px; font-size:13px;
+      background:#EFF4F9; color:#0E2E52; outline:none; }
+  #q:focus{ border-color:#2F6FB1; }
+  .reset{ margin-top:14px; width:100%; border:1px solid #B9CDE0; background:#fff; color:#2F6FB1;
+      padding:7px; font-size:13px; cursor:pointer; }
+
+  /* ── 公司行 ── */
+  .list{ background:#fff; border:1px solid #B9CDE0; }
+  .listhead{ display:flex; justify-content:space-between; align-items:center;
+    padding:10px 16px; border-bottom:2px solid #123C6B; }
+  .listhead .count{ font-family:ui-monospace,monospace; font-size:13px; color:#2F6FB1; }
+  .row{ border-bottom:1px solid #E3ECF5; cursor:pointer; }
+  .row:last-child{ border-bottom:none; }
+  .rhead{ display:grid; grid-template-columns:44px 170px 1fr auto auto; gap:10px;
+    align-items:center; padding:10px 16px; }
+  .rhead:hover{ background:#F6FAFD; }
+  .num{ font-family:ui-monospace,monospace; font-size:12px; color:#9FB3C8; }
+  .name{ font-weight:600; color:#123C6B; font-size:14px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;}
+  .name small{ display:block; font-weight:400; font-size:11px; color:#6B87A6; }
+  .liner{ color:#33517A; font-size:13px; }
+  .tier{ font-family:ui-monospace,monospace; font-size:11px; padding:2px 8px; color:#fff; letter-spacing:1px; white-space:nowrap;}
+  .tA1{ background:#123C6B; } .tA2{ background:#2F6FB1; } .tB{ background:#6B87A6; } .tC{ background:#C1CFDD; color:#54708D; }
+
+  /* ── 印章 ── */
+  .seal{ font-size:11px; padding:3px 9px; border-radius:50% / 42%; white-space:nowrap; letter-spacing:1px; transform:rotate(-6deg); font-weight:600;}
+  .s-reviewed{ border:2px solid #B03A2E; color:#B03A2E; }
+  .s-auto{ border:2px solid #2F6FB1; color:#2F6FB1; }
+  .s-researched{ border:2px dashed #B98116; color:#B98116; }
+  .s-pending{ border:1px solid #9FB3C8; color:#6B87A6; transform:none; border-radius:0; font-weight:400;}
+  .s-card{ border:1px solid #6B87A6; color:#54708D; transform:none; border-radius:0; font-weight:400;}
+  .s-named{ color:#B9CDE0; border:none; transform:none; font-weight:400;}
+
+  .detail{ display:none; padding:4px 16px 16px 70px; }
+  .row.open .detail{ display:block; }
+  .detail .en{ font-size:12px; color:#6B87A6; font-style:italic; margin-bottom:6px;}
+  .detail .why{ font-size:13px; color:#0E2E52; background:#EFF4F9; border-left:3px solid #B03A2E;
+    padding:8px 12px; margin-bottom:6px;}
+  .detail .meta{ font-family:ui-monospace,monospace; font-size:12px; color:#6B87A6; }
+  .detail a{ color:#2F6FB1; }
+  .empty{ padding:40px; text-align:center; color:#6B87A6; }
+  footer{ margin-top:16px; font-size:12px; color:#6B87A6; text-align:center; }
+
+  @media (max-width:760px){
+    .main{ grid-template-columns:1fr; }
+    .rail{ position:static; }
+    .titleblock{ grid-template-columns:1fr 1fr; }
+    .tb-name{ grid-column:1 / -1; border-bottom:1px solid #123C6B; }
+    .titleblock > div:nth-child(2){ border-left:none; }
+    .rhead{ grid-template-columns:34px 1fr auto; }
+    .liner{ display:none; }
+    .detail{ padding-left:16px; }
+    .detail .liner2{ display:block; font-size:13px; color:#33517A; margin-bottom:6px;}
+  }
+  @media (min-width:761px){ .detail .liner2{ display:none; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="titleblock">
+    <div class="tb-name">
+      <h1>新锐 AI 创业公司档案库</h1>
+      <p>转型有术 · STARTUP RADAR · 清单进，档案出</p>
+    </div>
+    <div class="tb-cell"><div class="k">批次 BATCH</div><div class="v" id="tb-batches">—</div></div>
+    <div class="tb-cell"><div class="k">在库 TOTAL</div><div class="v" id="tb-total">—</div></div>
+    <div class="tb-cell"><div class="k">更新 UPDATED</div><div class="v" id="tb-updated" style="font-size:14px;">—</div></div>
+  </div>
+
+  <div class="stats" id="stats"></div>
+
+  <div class="main">
+    <aside class="rail">
+      <h3>检索</h3>
+      <input id="q" type="search" placeholder="公司名 / 业务关键词">
+      <h3>品类</h3><div id="f-cat"></div>
+      <h3>状态</h3><div id="f-status"></div>
+      <h3>批次</h3><div id="f-batch"></div>
+      <button class="reset" id="reset">清除全部筛选</button>
+    </aside>
+
+    <section class="list">
+      <div class="listhead">
+        <span style="font-size:13px;color:#6B87A6;">点击任意公司行展开分诊理由与档案状态</span>
+        <span class="count" id="count">—</span>
+      </div>
+      <div id="rows"></div>
+    </section>
+  </div>
+
+  <footer>数据真源 data/companies.json · 当前为直通模式：深研完成自动入正式档案 · 蓝章=自动通过（AI 生成，未经人工复核）· 红章=响哥审核</footer>
+</div>
+
+<script id="fallback" type="application/json">{
+ "meta": {
+  "name": "转型有术 · 新锐AI创业公司档案库",
+  "updated": "2026-07-06",
+  "batches": [
+   {
+    "id": "B001",
+    "source": "YC Spring 2026 (X26) Launch · YC 官方目录（截至 2026-06-09）",
+    "date": "2026-07-07",
+    "total": 194,
+    "A": 18,
+    "B": 21,
+    "C": 155
+   }
+  ]
+ },
+ "companies": [
+  {
+   "num": 1,
+   "name": "Akkari",
+   "slug": "akkari",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "B2B",
+   "subcategory": "",
+   "one_liner_en": "Autonomous customer operations",
+   "one_liner_zh": "自主化客户运营",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 2,
+   "name": "HeyClicky",
+   "slug": "heyclicky",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "Consumer",
+   "subcategory": "",
+   "one_liner_en": "An AI buddy that lives on your Mac",
+   "one_liner_zh": "住在你 Mac 里的 AI 伙伴",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 3,
+   "name": "Huscarl Inc.",
+   "slug": "huscarl-inc",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "Fintech",
+   "subcategory": "Insurance",
+   "one_liner_en": "Actuarial intelligence for corporate risk managers",
+   "one_liner_zh": "面向企业风控经理的精算智能",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 4,
+   "name": "Thomas",
+   "slug": "thomas",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "B2B",
+   "subcategory": "",
+   "one_liner_en": "The first AI founder: a virtual human who runs his own companies",
+   "one_liner_zh": "首位 AI 创始人：自己经营公司的虚拟人",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 5,
+   "name": "Cohesion",
+   "slug": "cohesion",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "B2B",
+   "subcategory": "Finance",
+   "one_liner_en": "Your public equities agentic teammate",
+   "one_liner_zh": "你的二级市场股票智能体队友",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 6,
+   "name": "Maquoketa Research",
+   "slug": "maquoketa-research",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "Industrials",
+   "subcategory": "Defense",
+   "one_liner_en": "The intelligence layer for drones",
+   "one_liner_zh": "无人机的智能层",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 7,
+   "name": "Intelligence Factory",
+   "slug": "intelligence-factory",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "Industrials",
+   "subcategory": "Robotics",
+   "one_liner_en": "Human intelligence for robots",
+   "one_liner_zh": "为机器人注入人类智能",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 8,
+   "name": "Clawvisor",
+   "slug": "clawvisor",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "B2B",
+   "subcategory": "Security",
+   "one_liner_en": "The authorization layer for AI agents",
+   "one_liner_zh": "AI 智能体的授权层",
+   "tier": "B",
+   "triage_reason": "Agent 安全治理",
+   "status": "card",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 9,
+   "name": "Framewise Health",
+   "slug": "framewise-health",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "Healthcare",
+   "subcategory": "",
+   "one_liner_en": "AI-native patient engagement",
+   "one_liner_zh": "AI 原生的患者互动",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 10,
+   "name": "Arctic Health",
+   "slug": "arctic-health",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "Healthcare",
+   "subcategory": "Services",
+   "one_liner_en": "AI-native credentialing and contracting for healthcare",
+   "one_liner_zh": "医疗领域 AI 原生的资质认证与签约",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 11,
+   "name": "Playabl.ai",
+   "slug": "playabl-ai",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "Consumer",
+   "subcategory": "Gaming",
+   "one_liner_en": "TikTok for user-generated games",
+   "one_liner_zh": "用户生成游戏版的 TikTok",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 12,
+   "name": "Enjamb Labs",
+   "slug": "enjamb-labs",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "B2B",
+   "subcategory": "",
+   "one_liner_en": "Full-stack AI agents accelerating biopharma R&D",
+   "one_liner_zh": "加速生物制药研发的全栈 AI 智能体",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 13,
+   "name": "Hyper",
+   "slug": "hyper",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "B2B",
+   "subcategory": "Productivity",
+   "one_liner_en": "The self-driving company brain",
+   "one_liner_zh": "自动驾驶式的公司大脑",
+   "tier": "A2",
+   "triage_reason": "“公司大脑”与组织大脑七病理框架正面对话",
+   "status": "pending",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 14,
+   "name": "InsForge",
+   "slug": "insforge",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "B2B",
+   "subcategory": "Engineering",
+   "one_liner_en": "The agent-native cloud infrastructure platform",
+   "one_liner_zh": "智能体原生的云基础设施平台",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 15,
+   "name": "ReasonBlocks",
+   "slug": "reasonblocks",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "B2B",
+   "subcategory": "",
+   "one_liner_en": "The runtime layer that makes AI agents cheaper and more reliable",
+   "one_liner_zh": "让 AI 智能体更便宜更可靠的运行时层",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 16,
+   "name": "Modern",
+   "slug": "modern",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "B2B",
+   "subcategory": "Operations",
+   "one_liner_en": "AI-native ServiceNow run by always-on AI agents",
+   "one_liner_zh": "由常驻 AI 智能体运行的 AI 原生版 ServiceNow",
+   "tier": "B",
+   "triage_reason": "ITSM 域 AI 原生重做范式",
+   "status": "card",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 17,
+   "name": "Panacea",
+   "slug": "panacea",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "Healthcare",
+   "subcategory": "Services",
+   "one_liner_en": "AI-native FDA regulatory services",
+   "one_liner_zh": "AI 原生的 FDA 合规监管服务",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 18,
+   "name": "CentralComs",
+   "slug": "centralcoms",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "Real Estate & Construction",
+   "subcategory": "",
+   "one_liner_en": "AI agents for property management",
+   "one_liner_zh": "物业管理 AI 智能体",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 19,
+   "name": "KugelAudio",
+   "slug": "kugelaudio",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "B2B",
+   "subcategory": "Infrastructure",
+   "one_liner_en": "On-prem enterprise TTS supporting 25+ languages",
+   "one_liner_zh": "支持 25+ 语种的本地部署企业级 TTS",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 20,
+   "name": "Klaimee",
+   "slug": "klaimee",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "Fintech",
+   "subcategory": "Insurance",
+   "one_liner_en": "Liability insurance for AI agents",
+   "one_liner_zh": "面向 AI 智能体的责任险",
+   "tier": "B",
+   "triage_reason": "Agent 风险定价，组织采纳 AI 的制度配套",
+   "status": "card",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 21,
+   "name": "flowscope",
+   "slug": "flowscope",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "B2B",
+   "subcategory": "",
+   "one_liner_en": "AI-native consulting to map and automate business processes",
+   "one_liner_zh": "梳理并自动化业务流程的 AI 原生咨询",
+   "tier": "A2",
+   "triage_reason": "流程咨询 AI 化，看它怎么产品化交付",
+   "status": "pending",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 22,
+   "name": "Gigacatalyst",
+   "slug": "gigacatalyst",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "B2B",
+   "subcategory": "Engineering",
+   "one_liner_en": "Customize your software to every user with AI",
+   "one_liner_zh": "用 AI 为每个用户定制软件",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 23,
+   "name": "Arlo Industries",
+   "slug": "arlo-industries",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "Industrials",
+   "subcategory": "Defense",
+   "one_liner_en": "Passive aerial sensing mesh to track drones and missiles",
+   "one_liner_zh": "追踪无人机与导弹的被动式空中感知网",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 24,
+   "name": "Astraea",
+   "slug": "astraea",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "B2B",
+   "subcategory": "",
+   "one_liner_en": "Agents that accelerate clinical trials",
+   "one_liner_zh": "加速临床试验的智能体",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 25,
+   "name": "Lattice Health",
+   "slug": "lattice-health",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "Healthcare",
+   "subcategory": "",
+   "one_liner_en": "Monitoring and governance for deployed medical imaging AI",
+   "one_liner_zh": "已部署医学影像 AI 的监控与治理",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 26,
+   "name": "Manicule",
+   "slug": "manicule",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "B2B",
+   "subcategory": "Marketing",
+   "one_liner_en": "AI-native developer relations",
+   "one_liner_zh": "AI 原生的开发者关系（DevRel）",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 27,
+   "name": "Avea Robotics",
+   "slug": "avea-robotics",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "Industrials",
+   "subcategory": "Robotics",
+   "one_liner_en": "Teleoperate your robots from anywhere in the world",
+   "one_liner_zh": "在全球任意位置远程操控你的机器人",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 28,
+   "name": "Mochatrade",
+   "slug": "mochatrade",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "Fintech",
+   "subcategory": "Consumer",
+   "one_liner_en": "US stock perps for Indian traders",
+   "one_liner_zh": "面向印度交易者的美股永续合约",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 29,
+   "name": "Asendia AI",
+   "slug": "asendia-ai",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "B2B",
+   "subcategory": "",
+   "one_liner_en": "AI recruiters for staffing agencies",
+   "one_liner_zh": "面向人力中介的 AI 招聘官",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 30,
+   "name": "Revnu",
+   "slug": "revnu",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "B2B",
+   "subcategory": "Marketing",
+   "one_liner_en": "The AI that replaces your growth team",
+   "one_liner_zh": "替代你增长团队的 AI",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 31,
+   "name": "Uno Wallet",
+   "slug": "uno-wallet",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "Fintech",
+   "subcategory": "Payments",
+   "one_liner_en": "The AI wallet that picks the best card at checkout",
+   "one_liner_zh": "结账时自动挑最优信用卡的 AI 钱包",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 32,
+   "name": "Arden",
+   "slug": "arden",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "B2B",
+   "subcategory": "Finance",
+   "one_liner_en": "AI agents that automate SOX control testing",
+   "one_liner_zh": "自动化 SOX 内控测试的 AI 智能体",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 33,
+   "name": "AgentPhone",
+   "slug": "agentphone",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "B2B",
+   "subcategory": "Infrastructure",
+   "one_liner_en": "Phone numbers for AI agents",
+   "one_liner_zh": "给 AI 智能体配电话号码",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 34,
+   "name": "Gravy",
+   "slug": "gravy",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "Fintech",
+   "subcategory": "Consumer Finance",
+   "one_liner_en": "AI agent for your personal finances",
+   "one_liner_zh": "管理你个人财务的 AI 智能体",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 35,
+   "name": "Kinect",
+   "slug": "kinect",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "B2B",
+   "subcategory": "",
+   "one_liner_en": "Brand layer for AI-native commerce",
+   "one_liner_zh": "AI 原生电商的品牌层",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 36,
+   "name": "Runtime",
+   "slug": "runtime",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "B2B",
+   "subcategory": "Engineering",
+   "one_liner_en": "Sandboxed coding agents for everyone on your team",
+   "one_liner_zh": "给团队每个人的沙箱化编码智能体",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 37,
+   "name": "YouArt",
+   "slug": "youart",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "Consumer",
+   "subcategory": "Content",
+   "one_liner_en": "Patreon for AI originals",
+   "one_liner_zh": "AI 原创内容版的 Patreon",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 38,
+   "name": "Expanse",
+   "slug": "expanse",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "B2B",
+   "subcategory": "Infrastructure",
+   "one_liner_en": "Unlock wasted GPU capacity",
+   "one_liner_zh": "释放被浪费的 GPU 算力",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 39,
+   "name": "CharacterQuilt",
+   "slug": "characterquilt",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "B2B",
+   "subcategory": "Marketing",
+   "one_liner_en": "AI infrastructure for marketers, shipping campaigns in your tools",
+   "one_liner_zh": "面向营销人的 AI 基础设施，在你的工具里发活动",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 40,
+   "name": "Pentagon",
+   "slug": "pentagon",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "B2B",
+   "subcategory": "Productivity",
+   "one_liner_en": "A coordination layer for humans and agents",
+   "one_liner_zh": "人与智能体的协同层",
+   "tier": "A2",
+   "triage_reason": "人机协同的基础设施化，九宫格的工程实现参照",
+   "status": "pending",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 41,
+   "name": "Arzana",
+   "slug": "arzana",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "B2B",
+   "subcategory": "Operations",
+   "one_liner_en": "AI automation for the manufacturing office",
+   "one_liner_zh": "制造业办公室的 AI 自动化",
+   "tier": "A1",
+   "triage_reason": "直击制造业后台流程，与「组织革命」正面相关",
+   "status": "pending",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 42,
+   "name": "Auxos",
+   "slug": "auxos",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "B2B",
+   "subcategory": "",
+   "one_liner_en": "Simulations of real people for market research",
+   "one_liner_zh": "用于市场调研的真人仿真",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 43,
+   "name": "ProjectX",
+   "slug": "projectx",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "B2B",
+   "subcategory": "Infrastructure",
+   "one_liner_en": "Infinity: the first OS where humans and agents work with no limits",
+   "one_liner_zh": "Infinity：首个人与智能体无限协作的操作系统",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 44,
+   "name": "OpenWork",
+   "slug": "openwork",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "B2B",
+   "subcategory": "Productivity",
+   "one_liner_en": "The open-source alternative to Claude Cowork",
+   "one_liner_zh": "Claude Cowork 的开源替代品",
+   "tier": "B",
+   "triage_reason": "Claude Code 生态追踪（github-radar 交叉信号）",
+   "status": "card",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 45,
+   "name": "Apollo Atomics, Inc.",
+   "slug": "apollo-atomics-inc",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "Industrials",
+   "subcategory": "Energy",
+   "one_liner_en": "The most compact nuclear machines",
+   "one_liner_zh": "最紧凑的核能机器",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 46,
+   "name": "General Aviation",
+   "slug": "general-aviation",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "Industrials",
+   "subcategory": "Aviation & Space",
+   "one_liner_en": "Fix ATC by connecting aircraft to the internet",
+   "one_liner_zh": "让飞机联网以修复空管系统",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 47,
+   "name": "OpenProse",
+   "slug": "openprose",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "B2B",
+   "subcategory": "Engineering",
+   "one_liner_en": "Open-source infrastructure for reliable long-running agents",
+   "one_liner_zh": "可靠长时运行智能体的开源基础设施",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 48,
+   "name": "Aster",
+   "slug": "aster",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "B2B",
+   "subcategory": "Productivity",
+   "one_liner_en": "The first AI-native AI research lab",
+   "one_liner_zh": "首个 AI 原生的 AI 研究实验室",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 49,
+   "name": "Amboras",
+   "slug": "amboras",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "B2B",
+   "subcategory": "",
+   "one_liner_en": "Let AI sell your stuff on autopilot",
+   "one_liner_zh": "让 AI 自动帮你卖货",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 50,
+   "name": "Hessian",
+   "slug": "hessian",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "B2B",
+   "subcategory": "",
+   "one_liner_en": "Forward-deployed AI agents",
+   "one_liner_zh": "前置部署的 AI 智能体",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 51,
+   "name": "RASPIRE",
+   "slug": "raspire",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "B2B",
+   "subcategory": "Security",
+   "one_liner_en": "App security at AI speed",
+   "one_liner_zh": "以 AI 速度做应用安全",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 52,
+   "name": "Plena Health",
+   "slug": "plena-health",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "Healthcare",
+   "subcategory": "Services",
+   "one_liner_en": "The AI operating system for specialty medical practices",
+   "one_liner_zh": "专科诊所的 AI 操作系统",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 53,
+   "name": "TesterArmy",
+   "slug": "testerarmy",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "B2B",
+   "subcategory": "Engineering",
+   "one_liner_en": "Test your app with AI, catch bugs before users do",
+   "one_liner_zh": "用 AI 测应用，在用户之前抓出 bug",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 54,
+   "name": "Eden Robotics",
+   "slug": "eden-robotics",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "Industrials",
+   "subcategory": "Robotics",
+   "one_liner_en": "Autonomous services for humanity",
+   "one_liner_zh": "为人类提供自主化服务",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 55,
+   "name": "Foaster",
+   "slug": "foaster",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "B2B",
+   "subcategory": "",
+   "one_liner_en": "The AI-native consulting firm for AI transformation",
+   "one_liner_zh": "专做 AI 转型的 AI 原生咨询公司",
+   "tier": "A2",
+   "triage_reason": "与转型有术直接同构，竞品情报级优先",
+   "status": "pending",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 56,
+   "name": "AquaShield",
+   "slug": "aquashield",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "Real Estate & Construction",
+   "subcategory": "",
+   "one_liner_en": "AI water leak detection for buildings",
+   "one_liner_zh": "楼宇 AI 漏水检测",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 57,
+   "name": "Ornadyne",
+   "slug": "ornadyne",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "Industrials",
+   "subcategory": "Drones",
+   "one_liner_en": "Robot birds for surveillance",
+   "one_liner_zh": "用于监视的仿生机器鸟",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 58,
+   "name": "ANORIA",
+   "slug": "anoria",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "Consumer",
+   "subcategory": "Electronics",
+   "one_liner_en": "A wearable that reads your emotions to enhance your EQ",
+   "one_liner_zh": "读取情绪、提升你情商的可穿戴设备",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 59,
+   "name": "AbInitio Bio",
+   "slug": "abinitio-bio",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "Healthcare",
+   "subcategory": "Drug Discovery",
+   "one_liner_en": "The intelligence layer for drug manufacturing",
+   "one_liner_zh": "药品制造的智能层",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 60,
+   "name": "Memory Store",
+   "slug": "memory-store",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "B2B",
+   "subcategory": "Productivity",
+   "one_liner_en": "Shared context for all of your team's agents",
+   "one_liner_zh": "为团队所有智能体提供共享上下文",
+   "tier": "B",
+   "triage_reason": "多智能体协同基础设施",
+   "status": "card",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 61,
+   "name": "Saudara AI",
+   "slug": "saudara-ai",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "B2B",
+   "subcategory": "",
+   "one_liner_en": "AI-native sourcing broker for overseas manufacturing",
+   "one_liner_zh": "海外制造 AI 原生采购经纪",
+   "tier": "A1",
+   "triage_reason": "跨境采购经纪 AI 化，出海制造企业相关",
+   "status": "pending",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 62,
+   "name": "Pops",
+   "slug": "pops",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "Consumer",
+   "subcategory": "Gaming",
+   "one_liner_en": "Create and play AI games with friends",
+   "one_liner_zh": "和朋友一起创建并玩 AI 游戏",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 63,
+   "name": "Silmaril",
+   "slug": "silmaril",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "B2B",
+   "subcategory": "",
+   "one_liner_en": "Self-healing prompt injection defense",
+   "one_liner_zh": "自愈式提示词注入防御",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 64,
+   "name": "BioStack Platforms",
+   "slug": "biostack-platforms",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "Healthcare",
+   "subcategory": "",
+   "one_liner_en": "Real-world training environments for healthcare AI models",
+   "one_liner_zh": "医疗 AI 模型的真实世界训练环境",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 65,
+   "name": "Ardent",
+   "slug": "ardent",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "B2B",
+   "subcategory": "Infrastructure",
+   "one_liner_en": "Database sandboxes for agents",
+   "one_liner_zh": "给智能体的数据库沙箱",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 66,
+   "name": "Kuli",
+   "slug": "kuli",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "B2B",
+   "subcategory": "Marketing",
+   "one_liner_en": "AI coworker for marketing teams at the largest consumer brands",
+   "one_liner_zh": "头部消费品牌营销团队的 AI 同事",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 67,
+   "name": "Wato",
+   "slug": "wato",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "B2B",
+   "subcategory": "Infrastructure",
+   "one_liner_en": "Shared memory, tools, and workflows for agents across teams",
+   "one_liner_zh": "跨团队智能体的共享记忆、工具与工作流",
+   "tier": "B",
+   "triage_reason": "多智能体协同基础设施",
+   "status": "card",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 68,
+   "name": "Tasklet",
+   "slug": "tasklet",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "B2B",
+   "subcategory": "Productivity",
+   "one_liner_en": "The cloud agent operating system for knowledge work",
+   "one_liner_zh": "面向知识工作的云端智能体操作系统",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 69,
+   "name": "Chronicle Labs",
+   "slug": "chronicle-labs",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "B2B",
+   "subcategory": "",
+   "one_liner_en": "Staging environments for enterprise AI agents",
+   "one_liner_zh": "企业 AI 智能体的预发布环境",
+   "tier": "B",
+   "triage_reason": "企业 Agent 治理环节",
+   "status": "card",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 70,
+   "name": "Walter",
+   "slug": "walter",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "B2B",
+   "subcategory": "Operations",
+   "one_liner_en": "AI employee for manufacturing operations",
+   "one_liner_zh": "制造运营的 AI 员工",
+   "tier": "A1",
+   "triage_reason": "“AI 员工”进制造运营，人机协同九宫格的活案例",
+   "status": "pending",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 71,
+   "name": "Aseon Labs",
+   "slug": "aseon-labs",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "Industrials",
+   "subcategory": "Robotics",
+   "one_liner_en": "Robotic pit-stops for self-driving cars",
+   "one_liner_zh": "自动驾驶汽车的机器人维保站",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 72,
+   "name": "Soria",
+   "slug": "soria",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "Fintech",
+   "subcategory": "Asset Management",
+   "one_liner_en": "AI Bloomberg Terminal built for healthcare (and beyond)",
+   "one_liner_zh": "为医疗（及更多领域）打造的 AI 版彭博终端",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 73,
+   "name": "Armature",
+   "slug": "armature",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "B2B",
+   "subcategory": "Engineering",
+   "one_liner_en": "Monitor and optimize the agent experience",
+   "one_liner_zh": "监控并优化智能体体验",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 74,
+   "name": "PLAN0 AI",
+   "slug": "plan0-ai",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "Real Estate & Construction",
+   "subcategory": "",
+   "one_liner_en": "AI-native construction cost estimation and analytics",
+   "one_liner_zh": "AI 原生的建筑造价估算与分析",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 75,
+   "name": "Zibra Labs",
+   "slug": "zibra-labs",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "B2B",
+   "subcategory": "Infrastructure",
+   "one_liner_en": "Distributed compute for AI",
+   "one_liner_zh": "面向 AI 的分布式算力",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 76,
+   "name": "Ara",
+   "slug": "ara",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "B2B",
+   "subcategory": "Productivity",
+   "one_liner_en": "The self-driving IDE for software teams",
+   "one_liner_zh": "软件团队的自动驾驶式 IDE",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 77,
+   "name": "ValCtrl",
+   "slug": "valctrl",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "Fintech",
+   "subcategory": "Banking & Exchange",
+   "one_liner_en": "A world model for prediction finance",
+   "one_liner_zh": "预测金融的世界模型",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 78,
+   "name": "General Instinct",
+   "slug": "general-instinct",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "B2B",
+   "subcategory": "Infrastructure",
+   "one_liner_en": "Deployable physical AI on any edge device",
+   "one_liner_zh": "可部署到任意边缘设备的物理 AI",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 79,
+   "name": "tday.com",
+   "slug": "tday-com",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "B2B",
+   "subcategory": "Marketing",
+   "one_liner_en": "AI that turns your product into on-brand marketing content",
+   "one_liner_zh": "把产品变成符合品牌调性营销内容的 AI",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 80,
+   "name": "Datost",
+   "slug": "datost",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "B2B",
+   "subcategory": "Analytics",
+   "one_liner_en": "The proactive AI data analyst",
+   "one_liner_zh": "主动出击的 AI 数据分析师",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 81,
+   "name": "Minicor",
+   "slug": "minicor",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "B2B",
+   "subcategory": "Infrastructure",
+   "one_liner_en": "RPA platform for deploying AI into legacy desktop systems",
+   "one_liner_zh": "把 AI 部署进老旧桌面系统的 RPA 平台",
+   "tier": "B",
+   "triage_reason": "制造业遗留系统改造的现实路径",
+   "status": "card",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 82,
+   "name": "Archer",
+   "slug": "archer",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "B2B",
+   "subcategory": "Marketing",
+   "one_liner_en": "AI-powered gifting for customer acquisition and retention",
+   "one_liner_zh": "用于获客与留存的 AI 礼赠",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 83,
+   "name": "River Markets",
+   "slug": "river-markets",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "Fintech",
+   "subcategory": "",
+   "one_liner_en": "Prime brokerage for prediction markets",
+   "one_liner_zh": "预测市场的主经纪商",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 84,
+   "name": "smol machines",
+   "slug": "smol-machines",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "B2B",
+   "subcategory": "Infrastructure",
+   "one_liner_en": "Portable, self-contained virtual machines to ship software faster",
+   "one_liner_zh": "可移植、自包含的虚拟机，让软件交付更快",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 85,
+   "name": "Allowance",
+   "slug": "allowance",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "Fintech",
+   "subcategory": "Payments",
+   "one_liner_en": "Scoped payment credentials for AI agents",
+   "one_liner_zh": "为 AI 智能体提供限定范围的支付凭证",
+   "tier": "B",
+   "triage_reason": "Agent 经济基础设施",
+   "status": "card",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 86,
+   "name": "Harbor",
+   "slug": "harbor",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "Healthcare",
+   "subcategory": "",
+   "one_liner_en": "AI-native CRO for clinical trial operations",
+   "one_liner_zh": "临床试验运营的 AI 原生 CRO",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 87,
+   "name": "Alchemize",
+   "slug": "alchemize",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "B2B",
+   "subcategory": "Supply Chain & Logistics",
+   "one_liner_en": "AI-native customs brokerage",
+   "one_liner_zh": "AI 原生的报关行",
+   "tier": "B",
+   "triage_reason": "供应链合规环节，出海制造相关",
+   "status": "card",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 88,
+   "name": "Complir",
+   "slug": "complir",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "B2B",
+   "subcategory": "Retail",
+   "one_liner_en": "Vanta for physical products",
+   "one_liner_zh": "实体产品版的 Vanta（合规）",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 89,
+   "name": "AICE",
+   "slug": "aice",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "Industrials",
+   "subcategory": "Defense",
+   "one_liner_en": "Submarine drones for defense",
+   "one_liner_zh": "用于国防的水下无人潜航器",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 90,
+   "name": "Infera",
+   "slug": "infera",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "Healthcare",
+   "subcategory": "Industrial Bio",
+   "one_liner_en": "Control lab instruments with natural language",
+   "one_liner_zh": "用自然语言操控实验室仪器",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 91,
+   "name": "Mount",
+   "slug": "mount",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "Fintech",
+   "subcategory": "Insurance",
+   "one_liner_en": "The AI insurance carrier",
+   "one_liner_zh": "AI 保险承保公司",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 92,
+   "name": "Parrot",
+   "slug": "parrot",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "B2B",
+   "subcategory": "",
+   "one_liner_en": "Agentic operating system for auto repair shops",
+   "one_liner_zh": "汽修门店的智能体操作系统",
+   "tier": "A1",
+   "triage_reason": "汽车汽配产业重点覆盖方向，后市场切入点",
+   "status": "pending",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 93,
+   "name": "Result",
+   "slug": "result",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "Consumer",
+   "subcategory": "",
+   "one_liner_en": "Where new internet entrepreneurs build and run their companies",
+   "one_liner_zh": "新一代互联网创业者搭建并运营公司的地方",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 94,
+   "name": "Sidekick",
+   "slug": "sidekick",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "B2B",
+   "subcategory": "Operations",
+   "one_liner_en": "AI-powered SMS assistant for deskless workers",
+   "one_liner_zh": "面向一线无桌员工的 AI 短信助手",
+   "tier": "B",
+   "triage_reason": "一线工人触达方式，培训场景可引用",
+   "status": "card",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 95,
+   "name": "Prototyping.io",
+   "slug": "prototyping-io",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "Industrials",
+   "subcategory": "Robotics",
+   "one_liner_en": "Autonomous manufacturing for mechanical parts",
+   "one_liner_zh": "机械零件的自主化制造",
+   "tier": "A1",
+   "triage_reason": "自主化机加工，“智能体工厂”点线面体的“点”",
+   "status": "pending",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 96,
+   "name": "Lumius",
+   "slug": "lumius",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "Healthcare",
+   "subcategory": "Medical Devices",
+   "one_liner_en": "Fast, smart, accessible 3D ultrasound for everyone",
+   "one_liner_zh": "人人可用的快速智能 3D 超声",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 97,
+   "name": "Adialante",
+   "slug": "adialante",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "Healthcare",
+   "subcategory": "Diagnostics",
+   "one_liner_en": "Cancer screening without barriers",
+   "one_liner_zh": "无门槛的癌症筛查",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 98,
+   "name": "Keyframe Labs",
+   "slug": "keyframe-labs",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "B2B",
+   "subcategory": "",
+   "one_liner_en": "Turn agents into lifelike video calls at $0.06 a minute",
+   "one_liner_zh": "以每分钟 0.06 美元把智能体变成逼真视频通话",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 99,
+   "name": "Voquill",
+   "slug": "voquill",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "Healthcare",
+   "subcategory": "",
+   "one_liner_en": "The modern AI-native operating system for medical labs",
+   "one_liner_zh": "医学实验室的现代 AI 原生操作系统",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 100,
+   "name": "Oddpool",
+   "slug": "oddpool",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "B2B",
+   "subcategory": "Engineering",
+   "one_liner_en": "Institutional infrastructure for prediction markets",
+   "one_liner_zh": "预测市场的机构级基础设施",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 101,
+   "name": "Ontora",
+   "slug": "ontora",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "B2B",
+   "subcategory": "Operations",
+   "one_liner_en": "AI agents that interview every employee to map how work gets done",
+   "one_liner_zh": "逐一访谈员工、还原工作如何完成的 AI 智能体",
+   "tier": "A2",
+   "triage_reason": "与 loop-work 方法几乎同一命题，验证/借鉴双重价值",
+   "status": "pending",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 102,
+   "name": "Napkin Math",
+   "slug": "napkin-math",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "Consumer",
+   "subcategory": "",
+   "one_liner_en": "The personalized AI food journal people love to use",
+   "one_liner_zh": "人人爱用的个性化 AI 饮食日记",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 103,
+   "name": "Gojiberry AI",
+   "slug": "gojiberry-ai",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "B2B",
+   "subcategory": "Sales",
+   "one_liner_en": "AI GTM agents for B2B teams",
+   "one_liner_zh": "面向 B2B 团队的 AI GTM 智能体",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 104,
+   "name": "Lab0",
+   "slug": "lab0",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "B2B",
+   "subcategory": "",
+   "one_liner_en": "Automated forward-deployed engineers (AI FDEs)",
+   "one_liner_zh": "自动化的前置部署工程师（AI FDE）",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 105,
+   "name": "BentoLabs AI",
+   "slug": "bentolabs-ai",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "B2B",
+   "subcategory": "",
+   "one_liner_en": "Monitoring and learning layer for long-running agents",
+   "one_liner_zh": "长时运行智能体的监控与学习层",
+   "tier": "B",
+   "triage_reason": "Agent 运维层",
+   "status": "card",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 106,
+   "name": "Lamina Labs",
+   "slug": "lamina-labs",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "B2B",
+   "subcategory": "Engineering",
+   "one_liner_en": "Near-real-time structured video generation infrastructure for LLMs",
+   "one_liner_zh": "面向 LLM 的近实时结构化视频生成基础设施",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 107,
+   "name": "Kimpton AI",
+   "slug": "kimpton-ai",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "Fintech",
+   "subcategory": "Asset Management",
+   "one_liner_en": "AI-native investment research",
+   "one_liner_zh": "AI 原生的投资研究",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 108,
+   "name": "StableBrowse",
+   "slug": "stablebrowse",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "B2B",
+   "subcategory": "Infrastructure",
+   "one_liner_en": "Browser layer for AI agents",
+   "one_liner_zh": "AI 智能体的浏览器层",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 109,
+   "name": "Taiga",
+   "slug": "taiga",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "Healthcare",
+   "subcategory": "Services",
+   "one_liner_en": "Autonomous medical billing",
+   "one_liner_zh": "自主化的医疗账单处理",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 110,
+   "name": "Pairio",
+   "slug": "pairio",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "B2B",
+   "subcategory": "",
+   "one_liner_en": "AI-native industrial maintenance software",
+   "one_liner_zh": "AI 原生的工业维护软件",
+   "tier": "A1",
+   "triage_reason": "设备维护是案例库高频场景，可对标国内预测性维护厂商",
+   "status": "pending",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 111,
+   "name": "Callab AI",
+   "slug": "callab-ai",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "B2B",
+   "subcategory": "Operations",
+   "one_liner_en": "AI voice agents for on-prem telephony stacks",
+   "one_liner_zh": "面向本地电话系统的 AI 语音智能体",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 112,
+   "name": "Synphony",
+   "slug": "synphony",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "Industrials",
+   "subcategory": "Robotics",
+   "one_liner_en": "Robots and software for farms",
+   "one_liner_zh": "面向农场的机器人与软件",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 113,
+   "name": "Drip",
+   "slug": "drip",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "B2B",
+   "subcategory": "Infrastructure",
+   "one_liner_en": "AI that books meetings for you",
+   "one_liner_zh": "帮你约会议的 AI",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 114,
+   "name": "Arga Labs",
+   "slug": "arga-labs",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "B2B",
+   "subcategory": "",
+   "one_liner_en": "Real-world sandboxes to test agents and agent-facing software",
+   "one_liner_zh": "测试智能体及面向智能体软件的真实世界沙箱",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 115,
+   "name": "Andco",
+   "slug": "andco",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "B2B",
+   "subcategory": "Legal",
+   "one_liner_en": "End-to-end case workups for personal injury firms",
+   "one_liner_zh": "人身伤害律所的端到端案件梳理",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 116,
+   "name": "RentAHuman",
+   "slug": "rentahuman",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "Consumer",
+   "subcategory": "Job & Career Services",
+   "one_liner_en": "Marketplace for AI agents to hire humans",
+   "one_liner_zh": "让 AI 智能体雇佣人类的市场",
+   "tier": "B",
+   "triage_reason": "人机协同反转样本，内容素材",
+   "status": "card",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 117,
+   "name": "InstaAgent",
+   "slug": "instaagent",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "B2B",
+   "subcategory": "Marketing",
+   "one_liner_en": "Scale marketing campaigns across hundreds of personas",
+   "one_liner_zh": "跨数百个人设规模化投放营销活动",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 118,
+   "name": "Salesgraph",
+   "slug": "salesgraph",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "B2B",
+   "subcategory": "Sales",
+   "one_liner_en": "The context layer for fast-moving sales teams",
+   "one_liner_zh": "快节奏销售团队的上下文层",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 119,
+   "name": "Sherpa",
+   "slug": "sherpa",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "B2B",
+   "subcategory": "",
+   "one_liner_en": "Turn more website visitors into customers",
+   "one_liner_zh": "把更多网站访客转化为客户",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 120,
+   "name": "Userlens",
+   "slug": "userlens",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "B2B",
+   "subcategory": "Productivity",
+   "one_liner_en": "Agentic CSMs to upsell and renew six-figure deals",
+   "one_liner_zh": "用于增购与续约六位数订单的智能体客户成功经理",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 121,
+   "name": "transload",
+   "slug": "transload",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "B2B",
+   "subcategory": "Supply Chain & Logistics",
+   "one_liner_en": "Measure freight items with security cameras",
+   "one_liner_zh": "用监控摄像头测量货物",
+   "tier": "B",
+   "triage_reason": "物流视觉计量，仓储物流域场景",
+   "status": "card",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 122,
+   "name": "Standout",
+   "slug": "standout",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "B2B",
+   "subcategory": "Recruiting & Talent",
+   "one_liner_en": "Agentic hiring marketplace",
+   "one_liner_zh": "智能体招聘市场",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 123,
+   "name": "shotwell.ai",
+   "slug": "shotwell-ai",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "Industrials",
+   "subcategory": "Robotics",
+   "one_liner_en": "Automated scale AI for robotics data",
+   "one_liner_zh": "机器人数据的自动化规模标注 AI",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 124,
+   "name": "Madrone",
+   "slug": "madrone",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "Industrials",
+   "subcategory": "Energy",
+   "one_liner_en": "Maximizing compute via hyper-efficient cooling",
+   "one_liner_zh": "以超高效散热最大化算力",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 125,
+   "name": "Pavoot",
+   "slug": "pavoot",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "B2B",
+   "subcategory": "Marketing",
+   "one_liner_en": "AI event manager for customer events",
+   "one_liner_zh": "客户活动的 AI 活动经理",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 126,
+   "name": "qomplement",
+   "slug": "qomplement",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "B2B",
+   "subcategory": "",
+   "one_liner_en": "The agentic ERP for supply chain operations",
+   "one_liner_zh": "供应链运营的智能体 ERP",
+   "tier": "A1",
+   "triage_reason": "SCCT 2.0 视角的对标物，“智能体 ERP”提法值得拆",
+   "status": "pending",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 127,
+   "name": "Deep Interactions",
+   "slug": "deep-interactions",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "B2B",
+   "subcategory": "",
+   "one_liner_en": "Collaborative AI app builder for teams",
+   "one_liner_zh": "面向团队的协作式 AI 应用搭建器",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 128,
+   "name": "KelAI",
+   "slug": "kelai",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "Fintech",
+   "subcategory": "Asset Management",
+   "one_liner_en": "The AI quant: autonomous alpha engine for funds and traders",
+   "one_liner_zh": "AI 量化：面向基金与交易者的自主 alpha 引擎",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 129,
+   "name": "HEVN, inc",
+   "slug": "hevn-inc",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "Fintech",
+   "subcategory": "",
+   "one_liner_en": "A payment primitive for global payroll",
+   "one_liner_zh": "全球薪酬发放的支付原语",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 130,
+   "name": "Wealor",
+   "slug": "wealor",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "Fintech",
+   "subcategory": "Asset Management",
+   "one_liner_en": "AI-native platform for wealth managers",
+   "one_liner_zh": "面向财富管理人的 AI 原生平台",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 131,
+   "name": "Elyra",
+   "slug": "elyra",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "B2B",
+   "subcategory": "",
+   "one_liner_en": "AI reservation system for restaurants",
+   "one_liner_zh": "餐厅 AI 订位系统",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 132,
+   "name": "Interfaze",
+   "slug": "interfaze",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "B2B",
+   "subcategory": "Infrastructure",
+   "one_liner_en": "AI model built for deterministic developer tasks like OCR",
+   "one_liner_zh": "为 OCR 等确定性开发任务打造的 AI 模型",
+   "tier": "B",
+   "triage_reason": "单据处理，制造业办公高频",
+   "status": "card",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 133,
+   "name": "Zolvo",
+   "slug": "zolvo",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "Fintech",
+   "subcategory": "Credit & Lending",
+   "one_liner_en": "AI that automates servicing for commercial lenders",
+   "one_liner_zh": "自动化商业放贷机构贷后服务的 AI",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 134,
+   "name": "Juno",
+   "slug": "juno",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "Healthcare",
+   "subcategory": "Consumer Health",
+   "one_liner_en": "AI health assistant for chronic illness",
+   "one_liner_zh": "慢病患者的 AI 健康助手",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 135,
+   "name": "Kinro",
+   "slug": "kinro",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "B2B",
+   "subcategory": "Sales",
+   "one_liner_en": "AI sales agents for insurance",
+   "one_liner_zh": "保险行业的 AI 销售智能体",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 136,
+   "name": "GovGuard",
+   "slug": "govguard",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "Government",
+   "subcategory": "",
+   "one_liner_en": "Automating government workflows, starting with FOIA",
+   "one_liner_zh": "自动化政务流程，从信息公开（FOIA）开始",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 137,
+   "name": "Superlog",
+   "slug": "superlog",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "B2B",
+   "subcategory": "Engineering",
+   "one_liner_en": "Observability that installs itself and fixes the bugs it finds",
+   "one_liner_zh": "自我安装并修复所发现 bug 的可观测性工具",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 138,
+   "name": "Limrun",
+   "slug": "limrun",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "B2B",
+   "subcategory": "Infrastructure",
+   "one_liner_en": "Extend your cloud agent with Xcode, Android, and more",
+   "one_liner_zh": "用 Xcode、Android 等扩展你的云端智能体",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 139,
+   "name": "Light Anchor",
+   "slug": "light-anchor",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "Consumer",
+   "subcategory": "",
+   "one_liner_en": "AI-run consumer brands",
+   "one_liner_zh": "由 AI 运营的消费品牌",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 140,
+   "name": "Hub.xyz",
+   "slug": "hub-xyz",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "B2B",
+   "subcategory": "",
+   "one_liner_en": "The API for real-world training data",
+   "one_liner_zh": "真实世界训练数据的 API",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 141,
+   "name": "Tenet Industries",
+   "slug": "tenet-industries",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "Industrials",
+   "subcategory": "Defense",
+   "one_liner_en": "Low-cost, mass-produced attack drones",
+   "one_liner_zh": "低成本、可量产的攻击型无人机",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 142,
+   "name": "Atrisa (formerly Refortifai)",
+   "slug": "atrisa",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "B2B",
+   "subcategory": "Engineering",
+   "one_liner_en": "AI agents for analog circuit design",
+   "one_liner_zh": "模拟电路设计的 AI 智能体",
+   "tier": "B",
+   "triage_reason": "研发域，EDA",
+   "status": "card",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 143,
+   "name": "Trellis",
+   "slug": "trellis",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "B2B",
+   "subcategory": "Operations",
+   "one_liner_en": "The platform where short-term rentals run themselves",
+   "one_liner_zh": "让短租房自运营的平台",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 144,
+   "name": "The Company Company",
+   "slug": "the-company-company",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "B2B",
+   "subcategory": "",
+   "one_liner_en": "The last agent your company will ever need",
+   "one_liner_zh": "你公司需要的最后一个智能体",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 145,
+   "name": "Dayjob",
+   "slug": "dayjob",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "B2B",
+   "subcategory": "Supply Chain & Logistics",
+   "one_liner_en": "AI scheduling for short-haul trucks",
+   "one_liner_zh": "短途卡车的 AI 排程",
+   "tier": "B",
+   "triage_reason": "运输排程，物流域",
+   "status": "card",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 146,
+   "name": "InLoop Robotics",
+   "slug": "inloop-robotics",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "Industrials",
+   "subcategory": "Robotics",
+   "one_liner_en": "Staff your warehouse with robotic employees today",
+   "one_liner_zh": "今天就用机器人员工填满你的仓库",
+   "tier": "B",
+   "triage_reason": "仓储机器人",
+   "status": "card",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 147,
+   "name": "Zenbu",
+   "slug": "zenbu",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "B2B",
+   "subcategory": "Engineering",
+   "one_liner_en": "The extensible IDE for coding agents",
+   "one_liner_zh": "面向编码智能体的可扩展 IDE",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 148,
+   "name": "Andustry",
+   "slug": "andustry",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "B2B",
+   "subcategory": "Supply Chain & Logistics",
+   "one_liner_en": "Help manufacturers find suppliers for industrial goods",
+   "one_liner_zh": "帮制造商寻找工业品供应商",
+   "tier": "A1",
+   "triage_reason": "AI 寻源，采购域场景，可进场景词典",
+   "status": "pending",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 149,
+   "name": "Nine Fives",
+   "slug": "nine-fives",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "Industrials",
+   "subcategory": "Robotics",
+   "one_liner_en": "Simple, networked, driverless RF test equipment",
+   "one_liner_zh": "简单、联网、无人值守的射频测试设备",
+   "tier": "B",
+   "triage_reason": "测试环节自动化",
+   "status": "card",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 150,
+   "name": "Incandor",
+   "slug": "incandor",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "B2B",
+   "subcategory": "",
+   "one_liner_en": "Behavioral intelligence infrastructure for anti-fraud",
+   "one_liner_zh": "反欺诈的行为智能基础设施",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 151,
+   "name": "Chert",
+   "slug": "chert",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "B2B",
+   "subcategory": "",
+   "one_liner_en": "iMessage infrastructure for trusted communication at scale",
+   "one_liner_zh": "规模化可信通信的 iMessage 基础设施",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 152,
+   "name": "Saffron",
+   "slug": "saffron",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "B2B",
+   "subcategory": "Recruiting & Talent",
+   "one_liner_en": "Helping your company find 10x engineers",
+   "one_liner_zh": "帮你公司找到 10 倍工程师",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 153,
+   "name": "matforge",
+   "slug": "matforge",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "Industrials",
+   "subcategory": "Energy",
+   "one_liner_en": "AI scientists to discover materials for the semiconductor industry",
+   "one_liner_zh": "为半导体行业发现材料的 AI 科学家",
+   "tier": "B",
+   "triage_reason": "研发域，材料发现",
+   "status": "card",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 154,
+   "name": "Lightsprint",
+   "slug": "lightsprint",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "B2B",
+   "subcategory": "Engineering",
+   "one_liner_en": "Collaborative product development platform",
+   "one_liner_zh": "协作式产品开发平台",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 155,
+   "name": "Twolabs",
+   "slug": "twolabs",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "Industrials",
+   "subcategory": "Robotics",
+   "one_liner_en": "Humanoid robots for elder care",
+   "one_liner_zh": "用于养老护理的人形机器人",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 156,
+   "name": "Scope",
+   "slug": "scope",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "B2B",
+   "subcategory": "",
+   "one_liner_en": "The infra layer for AI agent experience",
+   "one_liner_zh": "AI 智能体体验的基础设施层",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 157,
+   "name": "Hexa",
+   "slug": "hexa",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "B2B",
+   "subcategory": "Supply Chain & Logistics",
+   "one_liner_en": "Autonomous operations for industrial distributors",
+   "one_liner_zh": "工业经销商的自主化运营",
+   "tier": "A1",
+   "triage_reason": "工业分销渠道 AI 化，国内工业品电商可对照",
+   "status": "pending",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 158,
+   "name": "Rudus",
+   "slug": "rudus",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "Real Estate & Construction",
+   "subcategory": "",
+   "one_liner_en": "AI takeoffs for concrete",
+   "one_liner_zh": "混凝土工程量 AI 算量",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 159,
+   "name": "Replicas",
+   "slug": "replicas",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "B2B",
+   "subcategory": "Engineering",
+   "one_liner_en": "Run any coding agent harness in the cloud",
+   "one_liner_zh": "在云端运行任意编码智能体框架",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 160,
+   "name": "Totalis",
+   "slug": "totalis",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "Fintech",
+   "subcategory": "Consumer Finance",
+   "one_liner_en": "Derivative layer for prediction markets",
+   "one_liner_zh": "预测市场的衍生品层",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 161,
+   "name": "WithAI",
+   "slug": "withai",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "B2B",
+   "subcategory": "",
+   "one_liner_en": "Agent harnesses for asset managers",
+   "one_liner_zh": "面向资管机构的智能体框架",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 162,
+   "name": "Memoir",
+   "slug": "memoir",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "B2B",
+   "subcategory": "Marketing",
+   "one_liner_en": "AI CMO for software companies",
+   "one_liner_zh": "软件公司的 AI 首席营销官",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 163,
+   "name": "PerfectBit",
+   "slug": "perfectbit",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "B2B",
+   "subcategory": "",
+   "one_liner_en": "Training data for frontier AI labs",
+   "one_liner_zh": "为前沿 AI 实验室提供训练数据",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 164,
+   "name": "Stage",
+   "slug": "stage",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "B2B",
+   "subcategory": "Engineering",
+   "one_liner_en": "Code review platform for humans and agents",
+   "one_liner_zh": "面向人与智能体的代码评审平台",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 165,
+   "name": "Standard Signal",
+   "slug": "standard-signal",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "Fintech",
+   "subcategory": "Asset Management",
+   "one_liner_en": "Hedge fund where AI researches and executes every trade",
+   "one_liner_zh": "由 AI 研究并执行每笔交易的对冲基金",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 166,
+   "name": "primitive",
+   "slug": "primitive",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "B2B",
+   "subcategory": "Infrastructure",
+   "one_liner_en": "Communication for agents",
+   "one_liner_zh": "智能体之间的通信",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 167,
+   "name": "Korso",
+   "slug": "korso",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "B2B",
+   "subcategory": "Operations",
+   "one_liner_en": "The intelligence layer for manufacturing",
+   "one_liner_zh": "制造业的智能层",
+   "tier": "A1",
+   "triage_reason": "定位与“组织大脑”高度重叠，需拆它的智能层架构",
+   "status": "pending",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 168,
+   "name": "Klarify",
+   "slug": "klarify",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "Healthcare",
+   "subcategory": "Healthcare IT",
+   "one_liner_en": "AI agent for therapists",
+   "one_liner_zh": "心理治疗师的 AI 智能体",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 169,
+   "name": "Surtr Defense Systems",
+   "slug": "surtr-defense-systems",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "Industrials",
+   "subcategory": "Defense",
+   "one_liner_en": "The open operating system for counter-UAS",
+   "one_liner_zh": "反无人机（counter-UAS）的开放操作系统",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 170,
+   "name": "Hedge",
+   "slug": "hedge",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "Fintech",
+   "subcategory": "Insurance",
+   "one_liner_en": "AI-native specialty insurance company",
+   "one_liner_zh": "AI 原生的专业险公司",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 171,
+   "name": "Dispatch",
+   "slug": "dispatch",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "Industrials",
+   "subcategory": "Aviation & Space",
+   "one_liner_en": "Satellites for manufacturing in space",
+   "one_liner_zh": "用于太空制造的卫星",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 172,
+   "name": "Bloom",
+   "slug": "bloom",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "B2B",
+   "subcategory": "",
+   "one_liner_en": "Brand infrastructure for AI",
+   "one_liner_zh": "面向 AI 的品牌基础设施",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 173,
+   "name": "Regbase",
+   "slug": "regbase",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "B2B",
+   "subcategory": "Legal",
+   "one_liner_en": "The source of truth for global and local regulation",
+   "one_liner_zh": "全球与本地法规的权威事实源",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 174,
+   "name": "Inth",
+   "slug": "inth",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "B2B",
+   "subcategory": "Infrastructure",
+   "one_liner_en": "Privacy compliance, enforced in code",
+   "one_liner_zh": "以代码强制执行的隐私合规",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 175,
+   "name": "Superset",
+   "slug": "superset",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "B2B",
+   "subcategory": "Engineering",
+   "one_liner_en": "The IDE for the AI agents era",
+   "one_liner_zh": "AI 智能体时代的 IDE",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 176,
+   "name": "Netter",
+   "slug": "netter",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "B2B",
+   "subcategory": "Analytics",
+   "one_liner_en": "AI-native Palantir for mid-market",
+   "one_liner_zh": "面向中型市场的 AI 原生版 Palantir",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 177,
+   "name": "Sazabi",
+   "slug": "sazabi",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "B2B",
+   "subcategory": "Infrastructure",
+   "one_liner_en": "AI-native observability for fast-moving engineering teams",
+   "one_liner_zh": "面向快节奏工程团队的 AI 原生可观测性",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 178,
+   "name": "9 Mothers",
+   "slug": "9-mothers",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "Industrials",
+   "subcategory": "Defense",
+   "one_liner_en": "AI mission systems",
+   "one_liner_zh": "AI 任务系统",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 179,
+   "name": "Drafted",
+   "slug": "drafted",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "Consumer",
+   "subcategory": "",
+   "one_liner_en": "Design your home instantly with AI",
+   "one_liner_zh": "用 AI 即刻设计你的家",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 180,
+   "name": "Cignara",
+   "slug": "cignara",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "B2B",
+   "subcategory": "",
+   "one_liner_en": "AI agents for Fortune 500-grade customer support",
+   "one_liner_zh": "财富 500 强级别客服的 AI 智能体",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 181,
+   "name": "Fuchsia",
+   "slug": "fuchsia",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "B2B",
+   "subcategory": "",
+   "one_liner_en": "Vanta for hardware",
+   "one_liner_zh": "硬件版的 Vanta（合规）",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 182,
+   "name": "Imperfect",
+   "slug": "imperfect",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "Consumer",
+   "subcategory": "",
+   "one_liner_en": "AI coach for athletes with real lives and epic goals",
+   "one_liner_zh": "为有真实生活与宏大目标运动者打造的 AI 教练",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 183,
+   "name": "Clara",
+   "slug": "clara",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "Healthcare",
+   "subcategory": "Consumer Health",
+   "one_liner_en": "AI primary care doctor",
+   "one_liner_zh": "AI 全科医生",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 184,
+   "name": "Advanced Metal Research",
+   "slug": "advanced-metal-research",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "Industrials",
+   "subcategory": "Robotics",
+   "one_liner_en": "Machine intelligence for American welding",
+   "one_liner_zh": "面向美国焊接业的机器智能",
+   "tier": "A1",
+   "triage_reason": "焊接工艺 AI，离散制造硬场景",
+   "status": "pending",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 185,
+   "name": "Ploy",
+   "slug": "ploy",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "B2B",
+   "subcategory": "",
+   "one_liner_en": "Turn your website into your company's growth engine",
+   "one_liner_zh": "把官网变成公司的增长引擎",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 186,
+   "name": "TakeCareOS",
+   "slug": "takecareos",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "B2B",
+   "subcategory": "",
+   "one_liner_en": "AI-native operating system for long-term care providers",
+   "one_liner_zh": "长期护理机构的 AI 原生操作系统",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 187,
+   "name": "Prism",
+   "slug": "prism",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "B2B",
+   "subcategory": "Recruiting & Talent",
+   "one_liner_en": "AI-native recruiting agency",
+   "one_liner_zh": "AI 原生的招聘代理机构",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 188,
+   "name": "FinalDose",
+   "slug": "finaldose",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "Healthcare",
+   "subcategory": "Therapeutics",
+   "one_liner_en": "Programmable DNA drug aimed at destroying cancers",
+   "one_liner_zh": "旨在摧毁癌症的可编程 DNA 药物",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 189,
+   "name": "Smartbase",
+   "slug": "smartbase",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "B2B",
+   "subcategory": "Operations",
+   "one_liner_en": "AI-native ERP for manufacturers",
+   "one_liner_zh": "面向制造商的 AI 原生 ERP",
+   "tier": "A1",
+   "triage_reason": "AI 原生 ERP 正面挑战用友/SAP 范式",
+   "status": "pending",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 190,
+   "name": "Foresight",
+   "slug": "foresight",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "B2B",
+   "subcategory": "Analytics",
+   "one_liner_en": "On-demand consumer insights",
+   "one_liner_zh": "按需的消费者洞察",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 191,
+   "name": "Miso Labs",
+   "slug": "miso-labs",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "B2B",
+   "subcategory": "Infrastructure",
+   "one_liner_en": "The most emotive foundation models for voice",
+   "one_liner_zh": "最具情感表现力的语音基础模型",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 192,
+   "name": "Humwork",
+   "slug": "humwork",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "B2B",
+   "subcategory": "",
+   "one_liner_en": "Connect AI agents to human experts in 30 seconds",
+   "one_liner_zh": "30 秒内把 AI 智能体接入人类专家",
+   "tier": "B",
+   "triage_reason": "HITP 兜底的市场化形态",
+   "status": "card",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 193,
+   "name": "Autostep",
+   "slug": "autostep",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "B2B",
+   "subcategory": "Operations",
+   "one_liner_en": "Uncover repetitive tasks and turn them into agents",
+   "one_liner_zh": "识别重复性任务并将其变成智能体",
+   "tier": "A2",
+   "triage_reason": "与 loop-me→skill 封装流水线同构",
+   "status": "pending",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  },
+  {
+   "num": 194,
+   "name": "jo",
+   "slug": "jo",
+   "batch": "B001",
+   "source": "YC Spring 2026 (X26) Launch",
+   "category": "Consumer",
+   "subcategory": "",
+   "one_liner_en": "A new personal AI that actually knows you",
+   "one_liner_zh": "一个真正懂你的全新个人 AI",
+   "tier": "C",
+   "triage_reason": "",
+   "status": "named",
+   "review": "none",
+   "appeared_in": [
+    "B001"
+   ],
+   "updated": "2026-07-06"
+  }
+ ]
+}</script>
+<script>
+const TIER_LABEL={A1:"A1 制造直击",A2:"A2 组织范式",B:"B 速写卡",C:"C 记名"};
+const STATUS_LABEL={pending:"待深研",researched:"待审核",reviewed:"正式档案",card:"速写卡",named:"记名"};
+const SEAL={pending:"s-pending",researched:"s-researched",reviewed:"s-reviewed",card:"s-card",named:"s-named"};
+function sealOf(c){ // 直通模式：reviewed 分「响哥审核」红章与「自动通过」蓝章
+  if(c.status==="reviewed") return c.review==="approved"
+    ? {cls:"s-reviewed",label:"响哥审核"} : {cls:"s-auto",label:"自动通过"};
+  return {cls:SEAL[c.status],label:STATUS_LABEL[c.status]};
+}
+const TIER_DOT={A1:"#123C6B",A2:"#2F6FB1",B:"#6B87A6",C:"#C1CFDD"};
+
+let DATA=null;
+const state={tier:null,cat:null,status:null,batch:null,q:""};
+
+async function load(){
+  try{
+    const r=await fetch("./data/companies.json",{cache:"no-store"});
+    if(r.ok){ DATA=await r.json(); }
+  }catch(e){ /* file:// 或离线时走内嵌快照 */ }
+  if(!DATA){ DATA=JSON.parse(document.getElementById("fallback").textContent); }
+  init();
+}
+
+function counts(list,key){ const m={}; list.forEach(c=>{const k=c[key]||"—"; m[k]=(m[k]||0)+1;}); return m; }
+
+function init(){
+  const cs=DATA.companies;
+  document.getElementById("tb-total").innerHTML=cs.length+"<small> 家</small>";
+  document.getElementById("tb-batches").innerHTML=DATA.meta.batches.length+"<small> 批</small>";
+  document.getElementById("tb-updated").textContent=DATA.meta.updated;
+  render();
+}
+
+function chip(host,key,val,label,n){
+  const b=document.createElement("button");
+  b.className="chip"+(state[key]===val?" on":"");
+  b.innerHTML=label+'<span class="n">'+n+"</span>";
+  b.onclick=()=>{ state[key]=(state[key]===val?null:val); render(); };
+  host.appendChild(b);
+}
+
+function filtered(){
+  const q=state.q.trim().toLowerCase();
+  return DATA.companies.filter(c=>
+    (!state.tier||c.tier===state.tier)&&
+    (!state.cat||c.category===state.cat)&&
+    (!state.status||c.status===state.status)&&
+    (!state.batch||c.appeared_in.includes(state.batch))&&
+    (!q||(c.name+" "+c.one_liner_zh+" "+c.one_liner_en+" "+c.subcategory).toLowerCase().includes(q))
+  );
+}
+
+function render(){
+  const all=DATA.companies, f=filtered();
+
+  // 统计条：档位（在其余筛选条件下计数）
+  const base=all.filter(c=>
+    (!state.cat||c.category===state.cat)&&(!state.status||c.status===state.status)&&
+    (!state.batch||c.appeared_in.includes(state.batch)));
+  const tc=counts(base,"tier");
+  const st=document.getElementById("stats"); st.innerHTML="";
+  const allBtn=document.createElement("button");
+  allBtn.className="stat"+(state.tier===null?" on":"");
+  allBtn.innerHTML="全部<b>"+base.length+"</b>";
+  allBtn.onclick=()=>{state.tier=null;render();};
+  st.appendChild(allBtn);
+  ["A1","A2","B","C"].forEach(t=>{
+    const b=document.createElement("button");
+    b.className="stat"+(state.tier===t?" on":"");
+    b.innerHTML='<span class="dot" style="background:'+TIER_DOT[t]+'"></span>'+TIER_LABEL[t]+"<b>"+(tc[t]||0)+"</b>";
+    b.onclick=()=>{ state.tier=(state.tier===t?null:t); render(); };
+    st.appendChild(b);
+  });
+
+  // 筛选轨
+  const catHost=document.getElementById("f-cat"); catHost.innerHTML="";
+  const cc=counts(all,"category");
+  Object.keys(cc).sort((a,b)=>cc[b]-cc[a]).forEach(k=>chip(catHost,"cat",k,k,cc[k]));
+  const stHost=document.getElementById("f-status"); stHost.innerHTML="";
+  const sc=counts(all,"status");
+  ["pending","researched","reviewed","card","named"].forEach(k=>{ if(sc[k]) chip(stHost,"status",k,STATUS_LABEL[k],sc[k]); });
+  const bHost=document.getElementById("f-batch"); bHost.innerHTML="";
+  DATA.meta.batches.forEach(b=>chip(bHost,"batch",b.id,b.id+" · "+b.source.split("·")[0].trim(),b.total));
+
+  // 列表
+  document.getElementById("count").textContent=f.length+" / "+all.length;
+  const rows=document.getElementById("rows"); rows.innerHTML="";
+  if(!f.length){ rows.innerHTML='<div class="empty">没有匹配的公司。清除部分筛选条件再试。</div>'; return; }
+  const order={A1:0,A2:1,B:2,C:3};
+  f.sort((a,b)=>(order[a.tier]-order[b.tier])||(a.num-b.num));
+  f.forEach(c=>{
+    const r=document.createElement("div"); r.className="row";
+    const reappear=c.appeared_in.length>1?' · 再现×'+c.appeared_in.length:'';
+    r.innerHTML=
+      '<div class="rhead">'+
+        '<span class="num">'+String(c.num).padStart(3,"0")+'</span>'+
+        '<span class="name">'+c.name+'<small>'+c.category+(c.subcategory?" / "+c.subcategory:"")+'</small></span>'+
+        '<span class="liner">'+c.one_liner_zh+'</span>'+
+        '<span class="tier t'+c.tier+'">'+c.tier+'</span>'+
+        (s=>'<span class="seal '+s.cls+'">'+s.label+'</span>')(sealOf(c))+
+      '</div>'+
+      '<div class="detail">'+
+        '<span class="liner2">'+c.one_liner_zh+'</span>'+
+        '<div class="en">'+c.one_liner_en+'</div>'+
+        (c.triage_reason?'<div class="why">分诊理由：'+c.triage_reason+'</div>':"")+
+        '<div class="meta">批次 '+c.appeared_in.join(", ")+reappear+' · 更新 '+c.updated+
+        (c.archive?' · <a href="'+c.archive.replace(/\.md$/,".md")+'">深研档案 →</a>':"")+'</div>'+
+      '</div>';
+    r.querySelector(".rhead").onclick=()=>r.classList.toggle("open");
+    rows.appendChild(r);
+  });
+}
+
+document.getElementById("q").addEventListener("input",e=>{ state.q=e.target.value; render(); });
+document.getElementById("reset").onclick=()=>{ state.tier=state.cat=state.status=state.batch=null; state.q=""; document.getElementById("q").value=""; render(); };
+load();
+</script>
+</body>
+</html>
