@@ -194,7 +194,7 @@
 | 504 | **NOSO** | 现场服务团队的 AI 智能体 | 现场服务团队 AI 智能体，设备维护/现场服务 | ✅ [档案](companies/noso.md) |
 | 515 | **Fleetline** | 卡车车队的 AI 调度引擎 | 卡车车队 AI 调度引擎，运输物流 | ✅ [档案](companies/fleetline.md) |
 | 518 | **Flywheel AI** | 面向工程的挖掘机远程操控 | 挖掘机远程操控，工程机械/设备 | ✅ [档案](companies/flywheel-ai.md) |
-| 522 | **dScribe AI** | 面向散货库存盘点的 3D 视觉 AI | 散货库存 3D 视觉盘点，仓储供应链 | ⬜ 待深研 |
+| 522 | **dScribe AI** | 面向散货库存盘点的 3D 视觉 AI | 散货库存 3D 视觉盘点，仓储供应链 | ✅ [档案](companies/dscribe-ai.md) |
 | 535 | **F4 Industries** | 面向工程图纸的形位公差(GD&T)分析软件 | 工程图纸形位公差(GD&T)分析，工艺质量 | ✅ [档案](companies/f4-industries.md) |
 | 568 | **Comena** | 面向 B2B 订单录入的 AI 智能体 | B2B 订单录入智能体，供应链订单 | ✅ [档案](companies/comena.md) |
 | 575 | **Flai** | 面向汽车经销商的 AI 数字员工 | 汽车经销商 AI 数字员工，汽车 | ✅ [档案](companies/flai.md) |

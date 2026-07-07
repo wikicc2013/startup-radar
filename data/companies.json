@@ -11482,12 +11482,52 @@
    "one_liner_zh": "面向散货库存盘点的 3D 视觉 AI",
    "tier": "A1",
    "triage_reason": "散货库存 3D 视觉盘点，仓储供应链",
-   "status": "pending",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B004"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-07",
+   "funding": [
+    {
+     "round": "Pre-Seed",
+     "amount": "$1.2M",
+     "date": "2025-03",
+     "source_url": "https://startlandnews.com/2025/03/dscribe-ai-pre-seed/"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "美国某大型农业饲料分销商（未具名）",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/dscribe-ai"
+    },
+    {
+     "name": "Charm Industrial（碳移除/生物质，作为合作伙伴被提及）",
+     "confidence": "低",
+     "source_url": "https://www.workatastartup.com/companies/30763"
+    }
+   ],
+   "cn_benchmarks": [
+    "梅卡曼德 Mech-Mind（工业 3D 视觉，机器人引导/测量，散料体积测算方向可迁移）",
+    "海康威视/海康机器人（机器视觉、无人机与工业相机，仓储盘点）",
+    "旷视 Megvii（AI 视觉 + 河图仓储物流方案，无人化盘点）",
+    "国内无人机航测/堆体积测算服务商（如大疆行业应用生态下的第三方测绘方案）"
+   ],
+   "scene_tags": [
+    "散货库存盘点",
+    "3D视觉重建",
+    "无人机航测体积测算",
+    "堆料/料堆重量换算",
+    "仓储无人化盘点",
+    "供应链库存可视化",
+    "农业饲料/谷物库存",
+    "矿业/砂石骨料堆场",
+    "铁路车皮转运追踪"
+   ],
+   "archive": "companies/dscribe-ai.md",
+   "researched_at": "2026-07-07",
+   "research_status": "researched"
   },
   {
    "num": 523,
