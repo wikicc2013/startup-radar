@@ -8,14 +8,14 @@
    "slug": "foaster",
    "name": "Foaster",
    "tier": "A2",
-   "status": "pending",
+   "status": "reviewed",
    "priority": 1
   },
   {
    "slug": "ontora",
    "name": "Ontora",
    "tier": "A2",
-   "status": "pending",
+   "status": "reviewed",
    "priority": 2
   },
   {
@@ -50,21 +50,21 @@
    "slug": "parrot",
    "name": "Parrot",
    "tier": "A1",
-   "status": "pending",
+   "status": "reviewed",
    "priority": 99
   },
   {
    "slug": "prototyping-io",
    "name": "Prototyping.io",
    "tier": "A1",
-   "status": "pending",
+   "status": "reviewed",
    "priority": 99
   },
   {
    "slug": "pairio",
    "name": "Pairio",
    "tier": "A1",
-   "status": "pending",
+   "status": "reviewed",
    "priority": 99
   },
   {
@@ -92,7 +92,7 @@
    "slug": "advanced-metal-research",
    "name": "Advanced Metal Research",
    "tier": "A1",
-   "status": "pending",
+   "status": "reviewed",
    "priority": 99
   },
   {
@@ -127,7 +127,7 @@
    "slug": "autostep",
    "name": "Autostep",
    "tier": "A2",
-   "status": "pending",
+   "status": "reviewed",
    "priority": 99
   },
   {
@@ -484,7 +484,7 @@
    "slug": "groundcontrol",
    "name": "GroundControl",
    "tier": "A1",
-   "status": "pending",
+   "status": "reviewed",
    "priority": 99
   },
   {
@@ -540,7 +540,7 @@
    "slug": "sennu-ai",
    "name": "Sennu AI",
    "tier": "A2",
-   "status": "pending",
+   "status": "reviewed",
    "priority": 99
   },
   {
@@ -631,7 +631,7 @@
    "slug": "galini",
    "name": "Galini",
    "tier": "A2",
-   "status": "pending",
+   "status": "reviewed",
    "priority": 99
   }
  ]

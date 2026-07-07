@@ -1107,12 +1107,31 @@
    "one_liner_zh": "专做 AI 转型的 AI 原生咨询公司",
    "tier": "A2",
    "triage_reason": "与转型有术直接同构，竞品情报级优先",
-   "status": "pending",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-07",
+   "funding": [],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "实在智能/澜码科技等 Agent 落地服务商(做流程自动化，但少'诊断即产品'的一体化 AI 访谈层)",
+    "甲子光年/爱分析等 AI 咨询+研究机构(偏人力咨询与榜单，未 agent 化交付)",
+    "BCG X 等埋在传统咨询体系内的 AI 转型团队(人力密集，非 AI 原生)",
+    "钉钉/飞书生态 AI 助手(有全员触点但无咨询诊断层)"
+   ],
+   "scene_tags": [
+    "AI转型咨询",
+    "AI原生专业服务",
+    "组织流程诊断",
+    "agent访谈",
+    "员工upskilling",
+    "forward-deployed engineering"
+   ],
+   "archive": "companies/foaster.md",
+   "researched_at": "2026-07-07",
+   "research_status": "researched"
   },
   {
    "num": 56,
@@ -1814,12 +1833,47 @@
    "one_liner_zh": "汽修门店的智能体操作系统",
    "tier": "A1",
    "triage_reason": "汽车汽配产业重点覆盖方向，后市场切入点",
-   "status": "pending",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-07",
+   "funding": [],
+   "early_customers": [
+    {
+     "name": "两家独立汽修门店(未具名)，各以 $30K/年签约",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/launches/QdR-parrot-ai-native-os-for-auto-repair-shops"
+    },
+    {
+     "name": "Apex Auto Collision(Austin, Texas，店主 Edwin Garcia，官网证言)",
+     "confidence": "中",
+     "source_url": "https://www.useparrot.com/"
+    }
+   ],
+   "cn_benchmarks": [
+    "途虎养车(汽车后市场门店与 SaaS 化连锁)",
+    "天猫养车/新康众(阿里系汽配供应链+门店赋能)",
+    "京东京车会",
+    "开思/门店通(汽配供应链撮合与门店管理，开思接近其'配件采购比价'环节)",
+    "保险系定损/估损系统(对应理赔与估价环节)"
+   ],
+   "scene_tags": [
+    "汽车后市场",
+    "汽修门店",
+    "碰撞修理/collision",
+    "垂直行业操作系统",
+    "语音AI智能体",
+    "保险理赔自动化",
+    "配件采购比价",
+    "发票对账",
+    "估价复核",
+    "门店排产派工"
+   ],
+   "archive": "companies/parrot.md",
+   "researched_at": "2026-07-07",
+   "research_status": "researched"
   },
   {
    "num": 93,
@@ -1871,12 +1925,39 @@
    "one_liner_zh": "机械零件的自主化制造",
    "tier": "A1",
    "triage_reason": "自主化机加工，“智能体工厂”点线面体的“点”",
-   "status": "pending",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-07",
+   "funding": [],
+   "early_customers": [
+    {
+     "name": "未披露具名客户(仅笼统称覆盖创业公司到数十亿美元企业，涉机器人/AI基础设施/能源/汽车/国防)",
+     "confidence": "低",
+     "source_url": "https://www.ycombinator.com/launches/QFc-prototyping-io-autonomous-manufacturing-for-mechanical-parts"
+    }
+   ],
+   "cn_benchmarks": [
+    "极致工厂",
+    "云工厂(Cloudmfg)",
+    "三维猴",
+    "嘉立创(CNC 打样与一站式)",
+    "立创商城生态快速打样"
+   ],
+   "scene_tags": [
+    "在线CNC加工",
+    "按需制造",
+    "可制造性分析DFM自动化",
+    "CAM/机床程序自动生成",
+    "快速打样",
+    "硬件迭代提速",
+    "制造业AI-native"
+   ],
+   "archive": "companies/prototyping-io.md",
+   "researched_at": "2026-07-07",
+   "research_status": "researched"
   },
   {
    "num": 96,
@@ -1985,12 +2066,50 @@
    "one_liner_zh": "逐一访谈员工、还原工作如何完成的 AI 智能体",
    "tier": "A2",
    "triage_reason": "与 loop-work 方法几乎同一命题，验证/借鉴双重价值",
-   "status": "pending",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-07",
+   "funding": [
+    {
+     "round": "Pre-seed(开正式轮前已募，仍在募资中)",
+     "amount": "约 $700K",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/launches/QiD-ontora-the-discovery-layer-for-ai-transformation"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "Vertiv(战略经理 Julien Kang 具名背书)",
+     "confidence": "中",
+     "source_url": "https://ontora.com/"
+    },
+    {
+     "name": "欧洲某媒体代理公司(800+ 员工，设计合作伙伴，未具名)",
+     "confidence": "低",
+     "source_url": "https://www.ycombinator.com/companies/ontora"
+    },
+    {
+     "name": "旧金山某 PE 私募基金(设计合作伙伴，未具名)",
+     "confidence": "低",
+     "source_url": "https://www.ycombinator.com/companies/ontora"
+    }
+   ],
+   "cn_benchmarks": [],
+   "scene_tags": [
+    "员工访谈自动化",
+    "流程发现/流程挖掘",
+    "隐性知识显性化",
+    "AI转型诊断",
+    "运营上下文层",
+    "自动化机会识别",
+    "异步语音AI访谈"
+   ],
+   "archive": "companies/ontora.md",
+   "researched_at": "2026-07-07",
+   "research_status": "researched"
   },
   {
    "num": 102,
@@ -2156,12 +2275,47 @@
    "one_liner_zh": "AI 原生的工业维护软件",
    "tier": "A1",
    "triage_reason": "设备维护是案例库高频场景，可对标国内预测性维护厂商",
-   "status": "pending",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-07",
+   "funding": [],
+   "early_customers": [
+    {
+     "name": "KNIPPING Kunststofftechnik(德国塑料件制造商)",
+     "confidence": "高",
+     "source_url": "https://pairio.com/"
+    },
+    {
+     "name": "德国 4 家工厂(官方称已用于减少停机，未全部具名)",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/pairio"
+    }
+   ],
+   "cn_benchmarks": [
+    "寄云科技(NeuControls，预测性维护/PHM)",
+    "天泽智云(工业智能运维)",
+    "艾普工华(MES/设备管理)",
+    "蘑菇物联(工业设备远程运维+AI诊断)",
+    "格创东智(设备运维数字化)"
+   ],
+   "scene_tags": [
+    "工业维护",
+    "设备维修",
+    "预测性维护",
+    "CMMS/EAM",
+    "知识管理",
+    "语音AI助手",
+    "备件识别",
+    "SOP自动生成",
+    "智能眼镜",
+    "制造业一线数字化"
+   ],
+   "archive": "companies/pairio.md",
+   "researched_at": "2026-07-07",
+   "research_status": "researched"
   },
   {
    "num": 111,
@@ -3629,12 +3783,33 @@
    "one_liner_zh": "面向美国焊接业的机器智能",
    "tier": "A1",
    "triage_reason": "焊接工艺 AI，离散制造硬场景",
-   "status": "pending",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-07",
+   "funding": [],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "卡诺普(KENO)—焊接机器人控制系统与整机",
+    "时代集团—弧焊机器人与焊接自动化",
+    "埃夫特(EFORT)—工业机器人含焊接工作站集成",
+    "新松机器人—焊接机器人工作站",
+    "柏楚电子(激光焊接切割视觉与运动控制，视觉闭环层面可类比)"
+   ],
+   "scene_tags": [
+    "机器人焊接",
+    "焊接自动化",
+    "计算机视觉质检",
+    "焊缝跟踪",
+    "闭环制造",
+    "制造业用工短缺替代",
+    "工艺知识数字化"
+   ],
+   "archive": "companies/advanced-metal-research.md",
+   "researched_at": "2026-07-07",
+   "research_status": "researched"
   },
   {
    "num": 185,
@@ -3836,12 +4011,43 @@
    "one_liner_zh": "识别重复性任务并将其变成智能体",
    "tier": "A2",
    "triage_reason": "与 loop-me→skill 封装流水线同构",
-   "status": "pending",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-07",
+   "funding": [
+    {
+     "round": "Pre-seed(YC + Neo)",
+     "amount": "约 $1.1M",
+     "date": "2026",
+     "source_url": "https://www.linkedin.com/in/aidan-pratt/"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "未披露具名客户(官方仅称已在与若干公司合作，举例'最小 10 人团队也挖出 $100K+ 运营浪费')",
+     "confidence": "低",
+     "source_url": "https://www.ycombinator.com/launches/PYq-autostep-uncover-repetitive-tasks-ready-for-ai"
+    }
+   ],
+   "cn_benchmarks": [
+    "望繁信科技/云智慧等流程挖掘厂商(多依赖日志/系统埋点)",
+    "影刀 RPA、来也科技、艺赛旗(RPA 阵营，做发现重复工作→自动化)",
+    "实在智能、澜码科技(处在 Autostep 定位的下游 Agent 构建层)"
+   ],
+   "scene_tags": [
+    "流程挖掘/任务挖掘",
+    "知识工作 ROI 度量",
+    "桌面端行为观测",
+    "重复任务发现",
+    "Agent 前置发现层",
+    "运营降本"
+   ],
+   "archive": "companies/autostep.md",
+   "researched_at": "2026-07-07",
+   "research_status": "researched"
   },
   {
    "num": 194,
@@ -14931,12 +15137,57 @@
    "one_liner_zh": "新一代质检自动化软件",
    "tier": "A1",
    "triage_reason": "质检自动化软件，工艺质量",
-   "status": "pending",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B005"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-07",
+   "funding": [
+    {
+     "round": "Seed",
+     "amount": "$2,000,000",
+     "date": "2025-06-13",
+     "source_url": "https://app.fundz.net/fundings/groundcontrol-software-funding-round-379431"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "AdvancedPCB(Chandler, Arizona 工厂，航空航天/国防 PCB 制造商，2024-08 起试点，一月内清理 60+ FAIR)",
+     "confidence": "高",
+     "source_url": "https://www.gndctl.com/case-studies/advanced-pcb-as9102-software-case-study"
+    },
+    {
+     "name": "Summit Interconnect/US Circuits/Emerald Technologies/FFMP/Phenx Products 等官网 logo 墙客户",
+     "confidence": "中",
+     "source_url": "https://www.gndctl.com/"
+    },
+    {
+     "name": "目标 OEM：Lockheed、SpaceX、Anduril(YC 页陈述为目标客户，非已签约)",
+     "confidence": "低",
+     "source_url": "https://www.ycombinator.com/companies/groundcontrol"
+    }
+   ],
+   "cn_benchmarks": [
+    "创新奇智(工业质检 AI)",
+    "阿丘科技 AIDI(工业视觉缺陷检测)",
+    "思谋科技 SMore(工业质检/视觉平台)",
+    "格创东智(制造质量数字化)",
+    "海克斯康/天准/思看(首件检验 FAI 与三坐标测量报告)"
+   ],
+   "scene_tags": [
+    "质检自动化",
+    "首件检验FAI/AS9102",
+    "GD&T与图纸ballooning",
+    "CMM三坐标数据对接",
+    "航空航天国防合规",
+    "供应商质量管理SQM",
+    "垂直行业SaaS",
+    "AI文档解析OCR"
+   ],
+   "archive": "companies/groundcontrol.md",
+   "researched_at": "2026-07-07",
+   "research_status": "researched"
   },
   {
    "num": 769,
@@ -16289,13 +16540,38 @@
    "one_liner_en": "Claude enterprise rollout and integration",
    "one_liner_zh": "面向企业的 Claude 落地与集成",
    "tier": "A2",
-   "triage_reason": "企业 Claude 落地与集成，AI 原生落地咨询",
-   "status": "pending",
-   "review": "none",
+   "triage_reason": "⚠️原判据(企业Claude落地集成)依据的YC一句话已过时；深研查明实为Salesforce AI代码审查(已3次转型)，非Anthropic生态。建议重新分诊(更接近B档开发者工具)",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-07",
+   "funding": [
+    {
+     "round": "Seed(含 YC 标准投资)",
+     "amount": "约 $500K",
+     "date": "2025(YC W25)",
+     "source_url": "https://startupintros.com/orgs/sennu-ai"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "通义灵码/CodeGeeX 等通用 AI code review(未做垂直平台上下文)",
+    "面向国产 ERP/低代码平台(钉钉宜搭、飞书多维、简道云、用友 YonBIP)的 AI 变更审查与自动化测试——尚属空白"
+   ],
+   "scene_tags": [
+    "Salesforce 生态",
+    "AI 代码审查",
+    "QA 测试自动化",
+    "开发者工具",
+    "AI SDR(历史形态)",
+    "YC W25"
+   ],
+   "archive": "companies/sennu-ai.md",
+   "researched_at": "2026-07-07",
+   "research_status": "researched",
+   "retriage_flag": true
   },
   {
    "num": 837,
@@ -19983,12 +20259,36 @@
    "one_liner_zh": "AI 落地与 ROI 服务",
    "tier": "A2",
    "triage_reason": "AI 落地与 ROI 服务，AI 原生落地咨询",
-   "status": "pending",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B007"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-07",
+   "funding": [
+    {
+     "round": "Seed(含 YC 标准投资，General Catalyst 参投)",
+     "amount": "约 $500K(多源转述，非一手披露)",
+     "date": "2024-12",
+     "source_url": "https://tracxn.com/d/companies/galini/__TYKg0DPrmjC0JhhTky-fh0Nrr5h-kVpKSiaEyZRA7iI"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各家 AI 咨询/集成商的企业落地陪跑业务(接近形态)",
+    "转型有术自身的岗位重构/场景梳理方法论(同赛道方法)"
+   ],
+   "scene_tags": [
+    "AI落地服务",
+    "AI采用ROI",
+    "企业AI enablement",
+    "工作流配置",
+    "AI合规护栏(原形态)",
+    "受监管行业"
+   ],
+   "archive": "companies/galini.md",
+   "researched_at": "2026-07-07",
+   "research_status": "researched"
   },
   {
    "num": 1031,
