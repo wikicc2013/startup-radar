@@ -14711,12 +14711,35 @@
    "one_liner_zh": "面向直接采购的 AI 供应链平台",
    "tier": "A1",
    "triage_reason": "直接采购 AI 供应链平台，采购/供应链",
-   "status": "pending",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B005"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-07",
+   "funding": [],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "简单汇（SRM/寻源协同）",
+    "甄云科技 SmartX（数字化采购 SaaS）",
+    "云采云（工业品/直接物料采购）",
+    "冰鉴/企查类供应商风险数据（供应商风险监控对标）",
+    "菜鸟/富勒 WMS 类供应链执行系统（PO/交期跟踪部分对标）"
+   ],
+   "scene_tags": [
+    "直接采购",
+    "直接物料/BOM 寻源",
+    "RFQ 询价自动化",
+    "报价对比",
+    "PO 催单与确认",
+    "供应商邮件解析回写 ERP",
+    "交期跟踪与风险升级",
+    "AI Agent 常驻数字员工",
+    "供应商协同 SRM"
+   ],
+   "archive": "companies/lumari.md",
+   "researched_at": "2026-07-07",
+   "research_status": "researched"
   },
   {
    "num": 671,
@@ -14844,12 +14867,60 @@
    "one_liner_zh": "AI 合规与工业数据自动化",
    "tier": "A1",
    "triage_reason": "AI 合规与工业数据自动化，工业数据",
-   "status": "pending",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B005"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-07",
+   "funding": [
+    {
+     "round": "累计/早期(含竞赛奖金)",
+     "amount": "约 $1.4M",
+     "date": "2025",
+     "source_url": "https://poetsandquants.com/2026/03/14/2025-most-disruptive-mba-startups-rimba-u-c-berkeley-haas/"
+    },
+    {
+     "round": "竞赛奖金明细",
+     "amount": "UC LAUNCH 一等奖 $25,000 + AI Entrepreneurs at Berkeley / NFX Berkeley FAST 约 $150,000（含 $100K）+ Berkeley StEP $5,000，合计约 $175K",
+     "date": "2024-2025",
+     "source_url": "https://newsroom.haas.berkeley.edu/startup-spotlight-rimba-taps-ai-to-streamline-industrial-compliance/"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "Novilla",
+     "confidence": "中",
+     "source_url": "https://www.rimba.ai/"
+    },
+    {
+     "name": "Morrow Renewables",
+     "confidence": "中",
+     "source_url": "https://www.rimba.ai/"
+    },
+    {
+     "name": "8 家美国 RNG（可再生天然气）工厂（未逐一具名）",
+     "confidence": "中",
+     "source_url": "https://poetsandquants.com/2026/03/14/2025-most-disruptive-mba-startups-rimba-u-c-berkeley-haas/"
+    }
+   ],
+   "cn_benchmarks": [
+    "工业数据集成/时序采集：宝信软件、中控技术(SCADA/数据历史库对标)",
+    "EHS/环境合规 SaaS：赛为安全、辰安科技、以及各类环保 EHS 数字化厂商",
+    "能碳管理/双碳报告：远景 EnOS、施耐德绿色能源管理、朗新科技、以及碳阻迹(Carbonstop)等碳核算平台"
+   ],
+   "scene_tags": [
+    "工业合规自动化",
+    "低碳燃料/RNG 合规(RFS/LCFS/ISCC)",
+    "非结构化文档抽取(PDF/Excel→结构化)",
+    "SCADA/数据历史库/IoT 数据集成",
+    "审计就绪工作流",
+    "异常检测与合规风险预警",
+    "能碳与可持续报告自动生成"
+   ],
+   "archive": "companies/rimba.md",
+   "researched_at": "2026-07-07",
+   "research_status": "researched"
   },
   {
    "num": 678,
@@ -14863,12 +14934,50 @@
    "one_liner_zh": "面向业务流程优化的高级自动化",
    "tier": "A2",
    "triage_reason": "业务流程优化自动化，流程自动化",
-   "status": "pending",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B005"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-07",
+   "funding": [
+    {
+     "round": "Pre-seed",
+     "amount": "1,800,000 美元",
+     "date": "2025-04（2025-05-21 官宣）",
+     "source_url": "https://www.newswire.com/news/workdone-a-y-combinator-backed-startup-raises-1-8m-in-vc-funding-to-22578866"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "某药物/酒精戒瘾康复机构（rehab，未具名，签约于首次接洽后两周内）",
+     "confidence": "中",
+     "source_url": "https://news.ycombinator.com/item?id=44063000"
+    },
+    {
+     "name": "启动时 3 家付费诊所（未具名）",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/workdone"
+    }
+   ],
+   "cn_benchmarks": [
+    "流程自动化/RPA：来也科技（UiBot）、影刀 RPA、艺赛旗、弘玑 Cyclone",
+    "流程挖掘：望繁信科技（ABI）、九科信息",
+    "垂直医疗合规/病历质控方向国内多为医院 HIS/病案质控系统内嵌模块，尚缺独立『实时 EHR 合规副驾』对标"
+   ],
+   "scene_tags": [
+    "医疗文档合规",
+    "实时流程监控",
+    "EHR/EMR 集成",
+    "保险拒付防控",
+    "收入周期管理(RCM)",
+    "AI Agent 协同纠错",
+    "垂直行业 Agent",
+    "康复机构/中小诊所"
+   ],
+   "archive": "companies/workdone.md",
+   "researched_at": "2026-07-07",
+   "research_status": "researched"
   },
   {
    "num": 679,
@@ -14920,12 +15029,30 @@
    "one_liner_zh": "面向时效敏感运输的物流平台",
    "tier": "A1",
    "triage_reason": "时效敏感物流平台，物流",
-   "status": "pending",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B005"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-07",
+   "funding": [],
+   "early_customers": [],
+   "cn_benchmarks": [],
+   "scene_tags": [
+    "时效物流",
+    "当日达/同城即时",
+    "加急运输",
+    "货代数字化",
+    "白手套配送",
+    "医疗冷链/疗法运输",
+    "制造业关键备件运输",
+    "货物实时追踪硬件",
+    "AI Agent 调度",
+    "司机/车队管理"
+   ],
+   "archive": "companies/chrt.md",
+   "researched_at": "2026-07-07",
+   "research_status": "researched"
   },
   {
    "num": 682,
@@ -14996,12 +15123,46 @@
    "one_liner_zh": "面向承运商的 AI 货运运营伙伴",
    "tier": "A1",
    "triage_reason": "承运商 AI 货运运营伙伴，物流货运",
-   "status": "pending",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B005"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-07",
+   "funding": [
+    {
+     "round": "Seed",
+     "amount": "$1.8M（超过 180 万美元），投后估值约 $30M",
+     "date": "2025-08",
+     "source_url": "https://hemut.com/our-story"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "Meiborg Brothers（伊利诺伊/德州 3PL；官网有 CEO Zach Meiborg 与 COO James Cooper 具名证言，官网故事称 2024-12 首个定制技术合作）",
+     "confidence": "高",
+     "source_url": "https://hemut.com/"
+    }
+   ],
+   "cn_benchmarks": [
+    "G7 易流（车队/货运物联网 + 数字货运运营）",
+    "满帮集团 / 运满满（数字货运撮合与承运运营）",
+    "维天运通（路歌，承运商 SaaS + 网络货运）",
+    "福佑卡车（数字化整车运力平台）",
+    "中交兴路（车队管理与货运大数据 SaaS）"
+   ],
+   "scene_tags": [
+    "AI 语音坐席（inbound/outbound 呼叫自动化）",
+    "货运单证 AI 解析/自动录入",
+    "找货订舱自动化（load sourcing/booking）",
+    "运输管理系统 TMS 一体化",
+    "车队/承运商后台运营数字化",
+    "自动化记账与结算",
+    "AI Agent 替代多岗位后台人力"
+   ],
+   "archive": "companies/hemut.md",
+   "researched_at": "2026-07-07",
+   "research_status": "researched"
   },
   {
    "num": 686,
@@ -15319,12 +15480,56 @@
    "one_liner_zh": "面向预算员的 AI 钢材算量软件",
    "tier": "A1",
    "triage_reason": "AI 钢材算量软件，工程建材算量",
-   "status": "pending",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B005"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-07",
+   "funding": [
+    {
+     "round": "YC / Pre-Seed",
+     "amount": "未披露（YC X25 标准投资，公开渠道无独立金额披露）",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/alkali"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "D5 Iron Works",
+     "confidence": "低",
+     "source_url": "https://www.alkali.engineering/"
+    },
+    {
+     "name": "Eagle Fabricators",
+     "confidence": "低",
+     "source_url": "https://www.alkali.engineering/"
+    },
+    {
+     "name": "Skyline",
+     "confidence": "低",
+     "source_url": "https://www.alkali.engineering/"
+    }
+   ],
+   "cn_benchmarks": [
+    "广联达（土建/钢结构算量与造价，钢结构 GJG 及云计价体系）",
+    "品茗（BIM 算量/施工 BIM 与造价软件）",
+    "鲁班软件（Luban，土建/钢结构 BIM 算量）"
+   ],
+   "scene_tags": [
+    "钢结构算量",
+    "投标预算/估价",
+    "PDF图纸识别",
+    "计算机视觉构件识别",
+    "AISC吨位计算",
+    "改版/补遗变更追踪",
+    "料表nesting优化",
+    "多人实时协作估价",
+    "Tekla/Bluebeam导出"
+   ],
+   "archive": "companies/alkali.md",
+   "researched_at": "2026-07-07",
+   "research_status": "researched"
   },
   {
    "num": 703,
@@ -15414,12 +15619,41 @@
    "one_liner_zh": "面向企业岗位的专用 AI 智能体",
    "tier": "A2",
    "triage_reason": "面向企业岗位的专用 AI 智能体，岗位 AI",
-   "status": "pending",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B005"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-07",
+   "funding": [
+    {
+     "round": "YC Spring 2025 (X25) 标准投资",
+     "amount": "约 $500K（YC 标准 deal；具名投资方经聚合源确认，确切金额未见一手披露）",
+     "date": "2025",
+     "source_url": "https://www.crunchbase.com/organization/theta-software"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "面壁智能/各‘数字员工’与岗位 Agent 平台（专用岗位 Agent 方向）",
+    "澜码科技（企业级 Agent 平台，面向业务流程）",
+    "实在智能 / 来也科技（RPA→Agent，数字员工方向）",
+    "记忆层/Agent 基础设施：国内尚以 Mem0 类开源方案二次开发为主，专注‘Agent 记忆层’的独立创业标的稀缺"
+   ],
+   "scene_tags": [
+    "企业专用AI智能体",
+    "Agent记忆层/自学习",
+    "工作流仿真环境训练",
+    "数字员工",
+    "后台运营自动化",
+    "财务建模",
+    "供应链/库存",
+    "强化学习/post-training",
+    "前置部署(forward-deployed)"
+   ],
+   "archive": "companies/theta-software.md",
+   "researched_at": "2026-07-07",
+   "research_status": "researched"
   },
   {
    "num": 708,
@@ -15509,12 +15743,34 @@
    "one_liner_zh": "面向运营团队的 AI 车队数据平台",
    "tier": "A1",
    "triage_reason": "AI 车队数据平台，车队/物流运营",
-   "status": "pending",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B005"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-07",
+   "funding": [],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "G7 易流（G7 物联，货运车队 IoT 数据与车队管理 SaaS，与本项目「实时追踪+运营分析」定位最接近）",
+    "易流科技 E6（车队/运输过程可视化与温控冷链监控）",
+    "中交兴路（商用车车联网数据平台，货车轨迹/风控/运营数据）",
+    "狮桥/福佑卡车类数字货运（延伸对标，运力调度与账单结算）"
+   ],
+   "scene_tags": [
+    "车队管理OS",
+    "AI-native运营中台",
+    "实时车辆追踪",
+    "油耗/里程/驾驶时长监控",
+    "自动开票与支付",
+    "动态定价",
+    "调度派单Agent",
+    "物流运输SaaS",
+    "运营到财务一体化分析"
+   ],
+   "archive": "companies/flott-hq.md",
+   "researched_at": "2026-07-07",
+   "research_status": "researched"
   },
   {
    "num": 713,
@@ -15699,12 +15955,50 @@
    "one_liner_zh": "面向现场报告的 AI 巡检软件",
    "tier": "A1",
    "triage_reason": "现场报告 AI 巡检软件，设备巡检",
-   "status": "pending",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B005"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-07",
+   "funding": [
+    {
+     "round": "Seed",
+     "amount": "$500K（聚合站数据，未见一手新闻稿证实，置信度中）",
+     "date": "2025-06",
+     "source_url": "https://startupintros.com/orgs/opusense-ai"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "北美多家中型建筑/工程咨询公司（未具名）",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/opusense-ai"
+    },
+    {
+     "name": "在试用中的跨国工程公司（未具名）",
+     "confidence": "低",
+     "source_url": "https://news.ycombinator.com/item?id=44042791"
+    }
+   ],
+   "cn_benchmarks": [
+    "巡检机器人/无人化点检：优艾智合、国自机器人（电力/工业巡检）",
+    "EHS 与现场作业数字化：赛为安全、辰安科技（安全巡查、隐患排查数字化）",
+    "设备点检/工单：PreMaint、蘑菇物联（设备巡检、点检与工单）",
+    "建筑/工程现场管理：广联达、品茗（施工现场质量安全巡检与资料生成）"
+   ],
+   "scene_tags": [
+    "现场巡检报告自动化",
+    "语音转结构化报告",
+    "拍照+语音+笔记多模态采集",
+    "离线现场作业",
+    "巡检历史可搜索数据集",
+    "模板/品牌样式学习",
+    "工程咨询交付物生成"
+   ],
+   "archive": "companies/opusense-ai.md",
+   "researched_at": "2026-07-07",
+   "research_status": "researched"
   },
   {
    "num": 723,
@@ -15870,12 +16164,55 @@
    "one_liner_zh": "航天与工业加工制造服务",
    "tier": "A1",
    "triage_reason": "航天与工业加工制造服务，工业加工",
-   "status": "pending",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B005"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-07",
+   "funding": [],
+   "early_customers": [
+    {
+     "name": "SpaceX",
+     "confidence": "中",
+     "source_url": "https://americanbazaaronline.com/2025/05/27/how-jeevy-fabrication-uses-ai-to-transform-the-welding-industry-463093/"
+    },
+    {
+     "name": "Joby Aviation",
+     "confidence": "中",
+     "source_url": "https://americanbazaaronline.com/2025/05/27/how-jeevy-fabrication-uses-ai-to-transform-the-welding-industry-463093/"
+    },
+    {
+     "name": "Commonwealth Fusion Systems",
+     "confidence": "中",
+     "source_url": "https://americanbazaaronline.com/2025/05/27/how-jeevy-fabrication-uses-ai-to-transform-the-welding-industry-463093/"
+    },
+    {
+     "name": "Lockheed（工装维护多年合同，媒体转述）",
+     "confidence": "低",
+     "source_url": "https://pitchbook.com/profiles/company/863180-56"
+    }
+   ],
+   "cn_benchmarks": [
+    "极致工厂",
+    "云工厂",
+    "Xometry（美，撮合类对标）",
+    "快包（钣金/CNC 在线加工）"
+   ],
+   "scene_tags": [
+    "航天焊接制造",
+    "压力容器/撬块/管道流体组件",
+    "焊接工单撮合",
+    "AI 自动生成 BOM",
+    "AI 排产/资源负载排期",
+    "分布式工厂网络",
+    "EPC 全流程托管",
+    "制造质量 QA 数字化",
+    "国防/能源供应链"
+   ],
+   "archive": "companies/jeevy-fabrication.md",
+   "researched_at": "2026-07-07",
+   "research_status": "researched"
   },
   {
    "num": 732,
@@ -16003,12 +16340,50 @@
    "one_liner_zh": "面向产品团队的 AI 协同层",
    "tier": "A2",
    "triage_reason": "产品团队 AI 协同层，人机协同",
-   "status": "pending",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B005"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-07",
+   "funding": [
+    {
+     "round": "YC Spring 2025 (X25)",
+     "amount": "未披露（YC 标准投资，具体金额未见公开具名来源）",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/kestral"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "某大型 LLM 提供商的 GTM 团队（未具名，'a Major LLM Provider'）",
+     "confidence": "低",
+     "source_url": "https://www.ycombinator.com/launches/NYC-kestral-your-ai-work-prioritizer"
+    },
+    {
+     "name": "某 Series B 创业公司销售负责人 / 某 C 级高管（未具名设计合作伙伴）",
+     "confidence": "低",
+     "source_url": "https://www.ycombinator.com/companies/kestral"
+    }
+   ],
+   "cn_benchmarks": [
+    "飞书（Lark）+ 多维表格 / 飞书智能伙伴：把会议纪要、客户反馈自动转任务并同步到项目视图，人机协同的研发协作场景对标",
+    "PingCode / ONES：研发项目管理与需求-任务打通，可对标其'客户反馈→研发路线图'的连接层",
+    "Tapd（腾讯）：需求管理与研发协作，缺的是 AI 自动优先级排序这一层",
+    "语鲸 / 通义 + 钉钉：客户原声（销售录音/工单）自动提炼为待办并回写协作平台的 Agent 化尝试"
+   ],
+   "scene_tags": [
+    "客户原声→研发需求自动化",
+    "多智能体工作编排",
+    "需求去重与优先级排序",
+    "销售-研发孤岛打通",
+    "AI 协同层 / coordination layer",
+    "MCP 连接编码 Agent（Claude Code/Codex）",
+    "产品路线图智能对齐"
+   ],
+   "archive": "companies/kestral.md",
+   "researched_at": "2026-07-07",
+   "research_status": "researched"
   },
   {
    "num": 739,
@@ -16506,12 +16881,45 @@
    "one_liner_zh": "面向服务团队的 AI 原生实施系统",
    "tier": "A2",
    "triage_reason": "面向服务团队的 AI 原生实施系统，AI 原生交付",
-   "status": "pending",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B005"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-07",
+   "funding": [
+    {
+     "round": "Series A",
+     "amount": "$20M",
+     "date": "2026-04-15",
+     "source_url": "https://finance.yahoo.com/news/auctor-raises-20m-led-sequoia-130000020.html"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "Valiantys（Atlassian 全球最大合作伙伴）",
+     "confidence": "高",
+     "source_url": "https://finance.yahoo.com/news/auctor-raises-20m-led-sequoia-130000020.html"
+    }
+   ],
+   "cn_benchmarks": [
+    "实施交付自动化/PSA 方向：可类比国内 ERP/CRM 实施商内部的交付中台与文档自动化尝试",
+    "AI 落地服务：面向系统集成商的 AI 交付助手（需求捕获→SoW/BRD 自动生成）",
+    "低代码/流程编排厂商向实施交付延伸的 AI 能力"
+   ],
+   "scene_tags": [
+    "企业软件实施",
+    "系统集成商(SI)",
+    "需求捕获自动化",
+    "SoW/BRD自动生成",
+    "交付物同步与防漂移",
+    "专业服务自动化(PSA)",
+    "discovery会议记录",
+    "固定费用交付模式"
+   ],
+   "archive": "companies/auctor.md",
+   "researched_at": "2026-07-07",
+   "research_status": "researched"
   },
   {
    "num": 763,
@@ -17235,12 +17643,71 @@
    "one_liner_zh": "面向经销商与制造商的 AI 数字员工",
    "tier": "A1",
    "triage_reason": "面向经销商与制造商的 AI 数字员工，制造/分销",
-   "status": "pending",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-07",
+   "funding": [
+    {
+     "round": "Seed/Pre-seed",
+     "amount": "约 500K 美元（据 Tracxn/媒体转述，Crunchbase 与 Tracxn 为付费/登录墙，未逐条核对）",
+     "date": "2025",
+     "source_url": "https://tracxn.com/d/companies/axal/__NI4-rWBZFYb9Wy6xeBpp_1HH3ixs0yfXL3G4mrGQwco/funding-and-investors"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "Rimeco Products, Inc.",
+     "confidence": "中",
+     "source_url": "https://www.axal.ai/"
+    },
+    {
+     "name": "W/GOOD CO.",
+     "confidence": "中",
+     "source_url": "https://www.axal.ai/"
+    },
+    {
+     "name": "Asendia",
+     "confidence": "中",
+     "source_url": "https://www.axal.ai/"
+    },
+    {
+     "name": "WLS",
+     "confidence": "中",
+     "source_url": "https://www.axal.ai/"
+    },
+    {
+     "name": "Custom Agronomics",
+     "confidence": "中",
+     "source_url": "https://www.axal.ai/"
+    },
+    {
+     "name": "ADS Advanced Distribution",
+     "confidence": "中",
+     "source_url": "https://www.axal.ai/"
+    }
+   ],
+   "cn_benchmarks": [
+    "用友 YonSuite / 用友 BIP —— 工业分销与制造后台 ERP 及智能单据处理",
+    "金蝶云·星空 智能财务/智能单据 OCR —— 应付应收、发票识别自动入账",
+    "来也科技 UiBot / 弘玑 Cyclone RPA+IDP —— 订单/发票非结构化文档抽取入 ERP",
+    "合思/分贝通、云扩科技等 RPA+大模型的销售订单自动录入方案",
+    "SAP/用友生态内的 AI Agent 订单录入服务商（如慧算账类财税智能体延伸）"
+   ],
+   "scene_tags": [
+    "工业分销订单录入自动化",
+    "PO/发票/RFQ 邮箱到 ERP",
+    "非结构化文档抽取(IDP)",
+    "报价与定价校验",
+    "应付应收后台数字员工",
+    "中端市场制造商与经销商",
+    "老旧工业ERP对接"
+   ],
+   "archive": "companies/axal.md",
+   "researched_at": "2026-07-07",
+   "research_status": "researched"
   },
   {
    "num": 799,
@@ -17254,12 +17721,53 @@
    "one_liner_zh": "带运营记忆的 AI 工作空间",
    "tier": "A2",
    "triage_reason": "带运营记忆的 AI 工作空间，公司大脑方向",
-   "status": "pending",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-07",
+   "funding": [
+    {
+     "round": "Pre-Seed",
+     "amount": "未披露具体金额（YC 支持；多处自述『7 位数（7-figure）』顶级投资人背书，深科技投资人参与；Crunchbase 有 Pre-Seed 轮条目但未公开金额明细）",
+     "date": "未披露（2025，随 YC W25 批次）",
+     "source_url": "https://www.crunchbase.com/funding_round/dex-3c7b-pre-seed--bd5f9271"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "官网宣称『被 Google、OpenAI、Goldman Sachs、Salesforce、Palantir、Meta 等及 10,000+ operator 使用』",
+     "confidence": "低",
+     "source_url": "https://www.joindex.com/"
+    },
+    {
+     "name": "证言中出现的 PE 合伙人、创始人、BD 负责人、VC（均未具名，无法核验为签约客户）",
+     "confidence": "低",
+     "source_url": "https://www.joindex.com/"
+    }
+   ],
+   "cn_benchmarks": [
+    "公司大脑 / 组织记忆层：把企业跨系统的运营事件沉淀成可推理的『组织级记忆图谱』——对标国内『企业大脑/数字员工中台』方向",
+    "AI 工作空间：类飞书/钉钉的智能工作台 + AI 助理（飞书智能伙伴、钉钉 AI 助理），但 Dex 更强调浏览器内跨 SaaS 的运营记忆",
+    "记忆层基础设施：对标国内做 Agent 长期记忆/上下文中台的创业方向（记忆层、Context Engine）",
+    "浏览器 Agent / RPA 升级版：类『AI 浏览器助手 + 智能 RPA』，把点选填表自动化与语义记忆结合"
+   ],
+   "scene_tags": [
+    "运营记忆",
+    "AI 工作空间",
+    "浏览器 Copilot",
+    "跨 SaaS 自动化",
+    "组织知识图谱",
+    "CRM 自动更新",
+    "会前准备",
+    "operator 提效",
+    "人机共驾",
+    "24x7 后台推理 Agent"
+   ],
+   "archive": "companies/dexterity-dex.md",
+   "researched_at": "2026-07-07",
+   "research_status": "researched"
   },
   {
    "num": 800,

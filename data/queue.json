@@ -393,77 +393,77 @@
    "slug": "lumari",
    "name": "Lumari",
    "tier": "A1",
-   "status": "pending",
+   "status": "reviewed",
    "priority": 99
   },
   {
    "slug": "rimba",
    "name": "Rimba",
    "tier": "A1",
-   "status": "pending",
+   "status": "reviewed",
    "priority": 99
   },
   {
    "slug": "workdone",
    "name": "WorkDone",
    "tier": "A2",
-   "status": "pending",
+   "status": "reviewed",
    "priority": 99
   },
   {
    "slug": "chrt",
    "name": "chrt",
    "tier": "A1",
-   "status": "pending",
+   "status": "reviewed",
    "priority": 99
   },
   {
    "slug": "hemut",
    "name": "Hemut",
    "tier": "A1",
-   "status": "pending",
+   "status": "reviewed",
    "priority": 99
   },
   {
    "slug": "alkali",
    "name": "Alkali",
    "tier": "A1",
-   "status": "pending",
+   "status": "reviewed",
    "priority": 99
   },
   {
    "slug": "theta-software",
    "name": "Theta Software",
    "tier": "A2",
-   "status": "pending",
+   "status": "reviewed",
    "priority": 99
   },
   {
    "slug": "flott-hq",
    "name": "Flott HQ",
    "tier": "A1",
-   "status": "pending",
+   "status": "reviewed",
    "priority": 99
   },
   {
    "slug": "opusense-ai",
    "name": "Opusense AI",
    "tier": "A1",
-   "status": "pending",
+   "status": "reviewed",
    "priority": 99
   },
   {
    "slug": "jeevy-fabrication",
    "name": "Jeevy Fabrication",
    "tier": "A1",
-   "status": "pending",
+   "status": "reviewed",
    "priority": 99
   },
   {
    "slug": "kestral",
    "name": "Kestral",
    "tier": "A2",
-   "status": "pending",
+   "status": "reviewed",
    "priority": 99
   },
   {
@@ -477,7 +477,7 @@
    "slug": "auctor",
    "name": "Auctor",
    "tier": "A2",
-   "status": "pending",
+   "status": "reviewed",
    "priority": 99
   },
   {
@@ -491,14 +491,14 @@
    "slug": "axal",
    "name": "Axal",
    "tier": "A1",
-   "status": "pending",
+   "status": "reviewed",
    "priority": 99
   },
   {
    "slug": "dexterity-dex",
    "name": "Dexterity (Dex)",
    "tier": "A2",
-   "status": "pending",
+   "status": "reviewed",
    "priority": 99
   },
   {
