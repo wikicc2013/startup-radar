@@ -129,6 +129,510 @@
    "tier": "A2",
    "status": "pending",
    "priority": 99
+  },
+  {
+   "slug": "jinba",
+   "name": "Jinba",
+   "tier": "A2",
+   "status": "pending",
+   "priority": 99
+  },
+  {
+   "slug": "ressl",
+   "name": "Ressl",
+   "tier": "A2",
+   "status": "pending",
+   "priority": 99
+  },
+  {
+   "slug": "revion",
+   "name": "Revion",
+   "tier": "A1",
+   "status": "pending",
+   "priority": 99
+  },
+  {
+   "slug": "tensol",
+   "name": "Tensol",
+   "tier": "A2",
+   "status": "pending",
+   "priority": 99
+  },
+  {
+   "slug": "pollinate",
+   "name": "Pollinate",
+   "tier": "A1",
+   "status": "pending",
+   "priority": 99
+  },
+  {
+   "slug": "burt",
+   "name": "Burt",
+   "tier": "A1",
+   "status": "pending",
+   "priority": 99
+  },
+  {
+   "slug": "servo7",
+   "name": "Servo7",
+   "tier": "A1",
+   "status": "pending",
+   "priority": 99
+  },
+  {
+   "slug": "remy-ai",
+   "name": "Remy Ai",
+   "tier": "A1",
+   "status": "pending",
+   "priority": 99
+  },
+  {
+   "slug": "reframe",
+   "name": "Reframe",
+   "tier": "A1",
+   "status": "pending",
+   "priority": 99
+  },
+  {
+   "slug": "sila",
+   "name": "Sila",
+   "tier": "A2",
+   "status": "pending",
+   "priority": 99
+  },
+  {
+   "slug": "cofia",
+   "name": "Cofia",
+   "tier": "A2",
+   "status": "pending",
+   "priority": 99
+  },
+  {
+   "slug": "squid",
+   "name": "Squid",
+   "tier": "A1",
+   "status": "pending",
+   "priority": 99
+  },
+  {
+   "slug": "hlabs",
+   "name": "Hlabs",
+   "tier": "A1",
+   "status": "pending",
+   "priority": 99
+  },
+  {
+   "slug": "openroll",
+   "name": "Openroll",
+   "tier": "A2",
+   "status": "pending",
+   "priority": 99
+  },
+  {
+   "slug": "autoace",
+   "name": "AutoAce",
+   "tier": "A1",
+   "status": "pending",
+   "priority": 99
+  },
+  {
+   "slug": "prox",
+   "name": "Prox",
+   "tier": "A1",
+   "status": "pending",
+   "priority": 99
+  },
+  {
+   "slug": "articulate",
+   "name": "Articulate",
+   "tier": "A1",
+   "status": "pending",
+   "priority": 99
+  },
+  {
+   "slug": "allus",
+   "name": "Allus",
+   "tier": "A1",
+   "status": "pending",
+   "priority": 99
+  },
+  {
+   "slug": "lunavo",
+   "name": "Lunavo",
+   "tier": "A1",
+   "status": "pending",
+   "priority": 99
+  },
+  {
+   "slug": "nox-metals",
+   "name": "Nox Metals",
+   "tier": "A1",
+   "status": "pending",
+   "priority": 99
+  },
+  {
+   "slug": "paloma",
+   "name": "Paloma",
+   "tier": "A1",
+   "status": "pending",
+   "priority": 99
+  },
+  {
+   "slug": "getburnt",
+   "name": "Getburnt",
+   "tier": "A1",
+   "status": "pending",
+   "priority": 99
+  },
+  {
+   "slug": "avent",
+   "name": "Avent",
+   "tier": "A1",
+   "status": "pending",
+   "priority": 99
+  },
+  {
+   "slug": "noso",
+   "name": "NOSO",
+   "tier": "A1",
+   "status": "pending",
+   "priority": 99
+  },
+  {
+   "slug": "fleetline",
+   "name": "Fleetline",
+   "tier": "A1",
+   "status": "pending",
+   "priority": 99
+  },
+  {
+   "slug": "flywheel-ai",
+   "name": "Flywheel AI",
+   "tier": "A1",
+   "status": "pending",
+   "priority": 99
+  },
+  {
+   "slug": "dscribe-ai",
+   "name": "dScribe AI",
+   "tier": "A1",
+   "status": "pending",
+   "priority": 99
+  },
+  {
+   "slug": "f4-industries",
+   "name": "F4 Industries",
+   "tier": "A1",
+   "status": "pending",
+   "priority": 99
+  },
+  {
+   "slug": "comena",
+   "name": "Comena",
+   "tier": "A1",
+   "status": "pending",
+   "priority": 99
+  },
+  {
+   "slug": "flai",
+   "name": "Flai",
+   "tier": "A1",
+   "status": "pending",
+   "priority": 99
+  },
+  {
+   "slug": "trace",
+   "name": "Trace",
+   "tier": "A2",
+   "status": "pending",
+   "priority": 99
+  },
+  {
+   "slug": "doe-labs",
+   "name": "Doe Labs",
+   "tier": "A2",
+   "status": "pending",
+   "priority": 99
+  },
+  {
+   "slug": "sidekick-2",
+   "name": "Sidekick",
+   "tier": "A2",
+   "status": "pending",
+   "priority": 99
+  },
+  {
+   "slug": "verne-robotics",
+   "name": "Verne Robotics",
+   "tier": "A1",
+   "status": "pending",
+   "priority": 99
+  },
+  {
+   "slug": "lanesurf",
+   "name": "Lanesurf",
+   "tier": "A1",
+   "status": "pending",
+   "priority": 99
+  },
+  {
+   "slug": "bond",
+   "name": "Bond",
+   "tier": "A2",
+   "status": "pending",
+   "priority": 99
+  },
+  {
+   "slug": "linewise",
+   "name": "LineWise",
+   "tier": "A1",
+   "status": "pending",
+   "priority": 99
+  },
+  {
+   "slug": "lumari",
+   "name": "Lumari",
+   "tier": "A1",
+   "status": "pending",
+   "priority": 99
+  },
+  {
+   "slug": "rimba",
+   "name": "Rimba",
+   "tier": "A1",
+   "status": "pending",
+   "priority": 99
+  },
+  {
+   "slug": "workdone",
+   "name": "WorkDone",
+   "tier": "A2",
+   "status": "pending",
+   "priority": 99
+  },
+  {
+   "slug": "chrt",
+   "name": "chrt",
+   "tier": "A1",
+   "status": "pending",
+   "priority": 99
+  },
+  {
+   "slug": "hemut",
+   "name": "Hemut",
+   "tier": "A1",
+   "status": "pending",
+   "priority": 99
+  },
+  {
+   "slug": "alkali",
+   "name": "Alkali",
+   "tier": "A1",
+   "status": "pending",
+   "priority": 99
+  },
+  {
+   "slug": "theta-software",
+   "name": "Theta Software",
+   "tier": "A2",
+   "status": "pending",
+   "priority": 99
+  },
+  {
+   "slug": "flott-hq",
+   "name": "Flott HQ",
+   "tier": "A1",
+   "status": "pending",
+   "priority": 99
+  },
+  {
+   "slug": "opusense-ai",
+   "name": "Opusense AI",
+   "tier": "A1",
+   "status": "pending",
+   "priority": 99
+  },
+  {
+   "slug": "jeevy-fabrication",
+   "name": "Jeevy Fabrication",
+   "tier": "A1",
+   "status": "pending",
+   "priority": 99
+  },
+  {
+   "slug": "kestral",
+   "name": "Kestral",
+   "tier": "A2",
+   "status": "pending",
+   "priority": 99
+  },
+  {
+   "slug": "mbodi-ai",
+   "name": "Mbodi AI",
+   "tier": "A1",
+   "status": "pending",
+   "priority": 99
+  },
+  {
+   "slug": "auctor",
+   "name": "Auctor",
+   "tier": "A2",
+   "status": "pending",
+   "priority": 99
+  },
+  {
+   "slug": "groundcontrol",
+   "name": "GroundControl",
+   "tier": "A1",
+   "status": "pending",
+   "priority": 99
+  },
+  {
+   "slug": "axal",
+   "name": "Axal",
+   "tier": "A1",
+   "status": "pending",
+   "priority": 99
+  },
+  {
+   "slug": "dexterity-dex",
+   "name": "Dexterity (Dex)",
+   "tier": "A2",
+   "status": "pending",
+   "priority": 99
+  },
+  {
+   "slug": "mercura",
+   "name": "Mercura",
+   "tier": "A1",
+   "status": "pending",
+   "priority": 99
+  },
+  {
+   "slug": "tamlabs",
+   "name": "TamLabs",
+   "tier": "A2",
+   "status": "pending",
+   "priority": 99
+  },
+  {
+   "slug": "rebolt",
+   "name": "Rebolt",
+   "tier": "A2",
+   "status": "pending",
+   "priority": 99
+  },
+  {
+   "slug": "optifye",
+   "name": "Optifye",
+   "tier": "A1",
+   "status": "pending",
+   "priority": 99
+  },
+  {
+   "slug": "forge-automation",
+   "name": "Forge Automation",
+   "tier": "A1",
+   "status": "pending",
+   "priority": 99
+  },
+  {
+   "slug": "sennu-ai",
+   "name": "Sennu AI",
+   "tier": "A2",
+   "status": "pending",
+   "priority": 99
+  },
+  {
+   "slug": "macadamia",
+   "name": "Macadamia",
+   "tier": "A1",
+   "status": "pending",
+   "priority": 99
+  },
+  {
+   "slug": "pave-robotics",
+   "name": "Pave Robotics",
+   "tier": "A1",
+   "status": "pending",
+   "priority": 99
+  },
+  {
+   "slug": "salespatriot",
+   "name": "SalesPatriot",
+   "tier": "A1",
+   "status": "pending",
+   "priority": 99
+  },
+  {
+   "slug": "ovlo",
+   "name": "Ovlo",
+   "tier": "A1",
+   "status": "pending",
+   "priority": 99
+  },
+  {
+   "slug": "astro",
+   "name": "Astro",
+   "tier": "A1",
+   "status": "pending",
+   "priority": 99
+  },
+  {
+   "slug": "dartboard-energy",
+   "name": "Dartboard Energy",
+   "tier": "A1",
+   "status": "pending",
+   "priority": 99
+  },
+  {
+   "slug": "revise-robotics",
+   "name": "Revise Robotics",
+   "tier": "A1",
+   "status": "pending",
+   "priority": 99
+  },
+  {
+   "slug": "forerunner",
+   "name": "Forerunner",
+   "tier": "A1",
+   "status": "pending",
+   "priority": 99
+  },
+  {
+   "slug": "metreecs",
+   "name": "Metreecs",
+   "tier": "A1",
+   "status": "pending",
+   "priority": 99
+  },
+  {
+   "slug": "andtiny",
+   "name": "Andtiny",
+   "tier": "A1",
+   "status": "pending",
+   "priority": 99
+  },
+  {
+   "slug": "sandra-ai",
+   "name": "Sandra AI",
+   "tier": "A1",
+   "status": "pending",
+   "priority": 99
+  },
+  {
+   "slug": "getcho",
+   "name": "Getcho",
+   "tier": "A1",
+   "status": "pending",
+   "priority": 99
+  },
+  {
+   "slug": "galini",
+   "name": "Galini",
+   "tier": "A2",
+   "status": "pending",
+   "priority": 99
   }
  ]
 }

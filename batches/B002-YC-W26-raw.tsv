@@ -1,0 +1,183 @@
+1	Travo	Real Estate & Construction		AI to collect and analyze real estate data	用 AI 采集与分析房地产数据
+2	Bidflow	Real Estate & Construction		AI Copilot for electrical estimating	电气工程预算的 AI 副驾
+3	Scout Out	Real Estate & Construction		AI-generated proposals for residential construction	住宅建筑项目的 AI 自动生成标书
+4	Velum Labs	B2B		The OS for data quality across any stack	跨任意技术栈的数据质量操作系统
+5	Cardboard	B2B		Agentic video editor	智能体视频剪辑器
+6	Polymath	B2B		Automating RL environment generation	自动化生成强化学习训练环境
+7	Mendral	B2B		AI DevOps engineer	AI 运维工程师
+8	Jinba	B2B		Automate any enterprise workflow through chat	用对话自动化任意企业工作流
+9	Polymorph	B2B		Personalized notifications & attribution for consumer/self-serve apps	面向消费/自助应用的个性化推送与归因
+10	Sponge	B2B		Financial infrastructure for the agent economy	智能体经济的金融基础设施
+11	Cajal	B2B		Scaling formal verification to accelerate scientific discovery	规模化形式化验证以加速科学发现
+12	Confluence Labs	B2B		AI research lab focused on learning efficiency	专注学习效率的 AI 研究实验室
+13	Oxus	B2B		AI-powered automation for internal audit workflows	内审工作流的 AI 自动化
+14	Envariant	B2B		Interpretability and reasoning infra for foundation models	基础模型的可解释性与推理基础设施
+15	Lance	B2B		AI-powered hotel employees	AI 酒店员工
+16	Tepali	B2B		AI-native operating system for medspas	医美机构的 AI 原生操作系统
+17	CardinalAI	B2B		Platform for precision outbound sales	精准外呼销售平台
+18	Chasi	B2B		AI revenue engine for the equipment industry	设备行业的 AI 营收引擎
+19	Fern (Formerly Ishiki Labs)	B2B		Realtime AI starting with sales	从销售切入的实时 AI
+20	Clam	B2B		Enterprise-grade security for broad-access AI agents	面向广权限 AI 智能体的企业级安全
+21	Carson	B2B		More capable, more secure AI computer-use for enterprise	更强更安全的企业 AI 电脑操作
+22	Lucent	B2B		AI that watches session replays to detect bugs	自动看回放录像抓 bug 的 AI
+23	Stilta	B2B		Agentic AI for patent attorneys	专利律师的智能体 AI
+24	Agentic Fabriq	B2B		Okta for AI agents (identity & access)	AI 智能体版的 Okta(身份与权限)
+25	Booko	B2B		Dynamic pricing for businesses that sell time slots	按时段售卖业务的动态定价
+26	Arzule	B2B		AI-native revenue engine, starting with B2B partnerships	从 B2B 合作切入的 AI 原生营收引擎
+27	Ressl	B2B		AI transformation for the trades	蓝领技工行业的 AI 转型
+28	Traverse	B2B		RL environments for non-deterministic work	面向非确定性工作的强化学习环境
+29	Librar Labs	B2B		The intelligence layer for the physical world	物理世界的智能层
+30	MouseCat	B2B		The AI toolkit for risk teams	风控团队的 AI 工具箱
+31	Avoice	B2B		The AI workspace for architects	建筑师的 AI 工作空间
+32	Zymbly	B2B		Automates admin for aircraft technicians	自动化飞机维修技师的文书工作
+33	Crow	B2B		Let users control your app through chat	让用户用对话操控你的应用
+34	10x Science	B2B		AI-native platform for protein characterization	蛋白质表征的 AI 原生平台
+35	Revion	B2B		Intelligence for automotive operations	汽车运营智能
+36	Veriad	B2B		AI compliance officer	AI 合规官
+37	Vela	B2B		The AI scheduling assistant that truly knows you	真正懂你的 AI 日程助手
+38	Aemon	B2B		The AI R&D engineer	AI 研发工程师
+39	Overshoot	B2B		Build and run AI vision applications	构建并运行 AI 视觉应用
+40	VOYGR	B2B		Real-world place intelligence for AI apps and agents	面向 AI 应用与智能体的真实地点智能
+41	Rhizome AI	B2B		Always know what the FDA thinks	实时掌握 FDA 的监管动向
+42	Byteport	B2B		Global upload acceleration for 1GB–100TB files	1GB–100TB 大文件的全球上传加速
+43	RamAIn	B2B		Super fast computer-use agents to build AI employees	用超快电脑操作智能体打造 AI 员工
+44	Perfectly	B2B		The AI-native recruiting operating system	AI 原生的招聘操作系统
+45	Samora AI	B2B		Multilingual voice agents with safe human escalation	可安全转人工的多语种语音智能体
+46	Inviscid	B2B Engineering		Real-time building simulations to optimize energy & ops	实时楼宇仿真,优化能耗与运营
+47	Sentrial	B2B Engineering		Production monitoring for AI products	AI 产品的生产环境监控
+48	21st Dev	B2B Engineering		Orchestration layer for coding agents	编码智能体的编排层
+49	Shortkit	B2B Engineering		Enterprise-scale short-form video, made simple	企业级短视频制作,化繁为简
+50	Bubble Lab	B2B Engineering		Your ops super-employee in Slack	住在 Slack 里的运营超级员工
+51	Corelayer	B2B Engineering		AI on-call engineer that debugs using data	用数据排障的 AI 值班工程师
+52	Synthetic Sciences	B2B Engineering		AI co-scientists that run research end-to-end	端到端跑科研的 AI 协作科学家
+53	REV1	B2B Engineering		Shortening hardware design cycles by automating post-CAD work	自动化 CAD 后置工作,缩短硬件设计周期
+54	Valgo	B2B Engineering		Algorithmic safety validation tools for autonomy	自动驾驶的算法安全验证工具
+55	Aurorin CAD	B2B Engineering		Help hardware companies ship faster with smarter CAD	用更聪明的 CAD 让硬件公司更快出货
+56	Sonarly	B2B Engineering		AI engineer to triage and fix production alerts	分诊并修复生产告警的 AI 工程师
+57	Martini	B2B Engineering		Collaborative AI-native filmmaking for professionals	面向专业人士的协作式 AI 原生电影制作
+58	Sparkles	B2B Engineering		Make everyone on your team an engineer	让团队里每个人都成为工程师
+59	Canary	B2B Engineering		The first AI QA engineer that understands your codebase	首个读懂你代码库的 AI 测试工程师
+60	Visibl Semiconductors	B2B Engineering		AI agents for chip design	芯片设计的 AI 智能体
+61	Crosslayer Labs	B2B Engineering		Protect, monitor and defend your internet presence	保护、监控并防御你的互联网资产
+62	Button Computer	B2B Engineering		Button is the wearable AI that can talk	可对话的可穿戴 AI
+63	Autumn AI	B2B Infrastructure		Deep prospect research at scale	规模化的潜客深度调研
+64	Salus	B2B Infrastructure		Guardrails to validate your agent's actions before execution	在执行前校验智能体动作的护栏
+65	Maven	B2B Infrastructure		Payments for voice agents	语音智能体的支付
+66	Moda	B2B Infrastructure		The monitoring & analytics layer your AI agents need	AI 智能体所需的监控与分析层
+67	Piris Labs	B2B Infrastructure		Inference at light speed	光速推理
+68	Chamber	B2B Infrastructure		Autopiloting your AI infrastructure	自动驾驶式管理 AI 基础设施
+69	RunAnywhere	B2B Infrastructure		The default way of running on-device AI at scale	规模化端侧 AI 运行的默认方式
+70	Cascade	B2B Infrastructure		Making autonomous intelligence safe & reliable	让自主智能安全可靠
+71	IncidentFox	B2B Infrastructure		AI SRE agent that triages and fixes production incidents	分诊并修复生产事故的 AI SRE 智能体
+72	Haladir	B2B Infrastructure		Building operational superintelligence	构建运营超级智能
+73	Captain	B2B Infrastructure		Accurate knowledge search that scales (RAG)	可规模化的精准知识检索(RAG)
+74	Tensol	B2B Infrastructure		AI employees for your business	为你的业务配 AI 员工
+75	Terminal Use	B2B Infrastructure		Vercel for background agents	后台智能体版的 Vercel
+76	Luel	B2B Infrastructure		Turning everyday words and actions into training data	把日常言行转化为训练数据
+77	Shofo	B2B Infrastructure		Common Crawl for video	视频版的 Common Crawl
+78	Oximy	B2B Infrastructure		The system of record for enterprise AI usage	企业 AI 使用情况的记录系统
+79	Compresr	B2B Infrastructure		LLM-native context compression	LLM 原生的上下文压缩
+80	Cumulus Labs	B2B Infrastructure		Performant serverless GPU inference	高性能无服务器 GPU 推理
+81	Orthogonal	B2B Infrastructure		Agentic payments for APIs	面向 API 的智能体支付
+82	Didit	B2B Infrastructure		All-in-one identity platform for fast human verification	一体化身份平台,快速验证真人
+83	Bits	B2B Infrastructure		Fast and safe cloud computing infrastructure	快速安全的云计算基础设施
+84	Axis	FinTech		An AI trading system for commodities markets	大宗商品市场的 AI 交易系统
+85	Kita	FinTech		Turn documents into signals for lenders	把文档转化为放贷机构的信号
+86	Unifold	FinTech		Multi-chain deposit and payment infrastructure	多链充值与支付基础设施
+87	Panta	FinTech		Commercial insurance brokerage run by AI agents	由 AI 智能体运营的商业保险经纪
+88	Fenrock AI	FinTech		AI agents for financial crime compliance	金融犯罪合规的 AI 智能体
+89	Pollinate	B2B Supply Chain & Logistics		AI agents for the supply chain	供应链 AI 智能体
+90	Burt	B2B Supply Chain & Logistics		AI teammates for logistics	物流 AI 队友
+91	Asimov	B2B Supply Chain & Logistics		Internet-scale marketplace for robot training data	互联网级别的机器人训练数据市场
+92	Ditto Biosciences	Healthcare		Evolutionary therapies for autoimmune disease	针对自身免疫病的进化疗法
+93	Origin	Healthcare		AI for safer cell & gene therapies	让细胞与基因疗法更安全的 AI
+94	CellType	Healthcare		The agentic drug company simulating human biology	仿真人体生物学的智能体药企
+95	Beacon Health	Healthcare		AI agents for primary care	全科医疗的 AI 智能体
+96	Eos Ai	Healthcare		The autonomous operating system for healthcare	医疗的自主化操作系统
+97	Docura Health	Healthcare		An AI-native medico-legal firm	AI 原生的医疗法律事务所
+98	Patientdesk AI	Healthcare		AI voice agent for patient calls & admin	处理患者来电与行政事务的 AI 语音智能体
+99	Ritivel	Healthcare		AI-native platform for regulatory document submission	监管文件申报的 AI 原生平台
+100	Overdrive	Healthcare		AI-powered medical billing	AI 医疗账单处理
+101	Zatanna	Healthcare		Adaptive healthcare admin agents	自适应的医疗行政智能体
+102	Ruma Care	Healthcare		Help clinics get patients on biologics faster	帮诊所更快让患者用上生物制剂
+103	Strand AI	Healthcare		Curated multimodal datasets for biology AI	为生物 AI 精选的多模态数据集
+104	Prana	Healthcare		An AI primary care doctor in your pocket	口袋里的 AI 全科医生
+105	Opalite Health	Healthcare		Solving language barriers in healthcare	破解医疗中的语言障碍
+106	Mango Medical	Healthcare		Simulating orthopedic surgeries based on CT scans	基于 CT 仿真骨科手术
+107	Seeing Systems	Industrials · Defense		AI drone systems for defence	国防 AI 无人机系统
+108	Servo7	Industrials · Manufacturing & Robotics		Simple, rapidly deployed robots for industry	简单、快速部署的工业机器人
+109	Remy Ai	Industrials · Manufacturing & Robotics		Automating dexterous tasks in warehouses	自动化仓库里的精细操作任务
+110	Human Archive	Industrials · Manufacturing & Robotics		Multimodal data provider for robotics learning	机器人学习的多模态数据供应商
+111	OneRobot	Industrials · Manufacturing & Robotics		World models for VLA evals and training	用于 VLA 评测与训练的世界模型
+112	General Astronautics	Industrials · Manufacturing & Robotics		The space robotics company	太空机器人公司
+113	Kyten Technologies	Industrials · Manufacturing & Robotics		Custom aerospace-grade battery pack factory	定制航天级电池包工厂
+114	FullSeam	B2B Finance & Accounting		An AI employee for finance and accounting teams	财务会计团队的 AI 员工
+115	Payna	B2B Finance & Accounting		Crypto/fintech compliance simplified	简化加密/金融科技合规
+116	Balance	B2B Finance & Accounting		Full-stack AI accounting	全栈 AI 会计
+117	End Close	B2B Finance & Accounting		AI-powered reconciliation for high-volume payments	面向高交易量支付公司的 AI 对账
+118	Copperlane	B2B Finance & Accounting		AI agents for mortgage origination	房贷发放的 AI 智能体
+119	Q2Q	B2B Finance & Accounting		Tools in the finance and accounting space	财务会计领域工具
+120	o11	B2B Finance & Accounting		The AI agent inside every app	嵌入每个应用的 AI 智能体
+121	Wideframe	B2B Marketing		AI agent for video work outside the editor	剪辑器之外视频工作的 AI 智能体
+122	Reframe	B2B Marketing		AI agents to automate hardware procurement	自动化硬件采购的 AI 智能体
+123	Sitefire	B2B Marketing		Marketing suite for the agentic web	面向智能体网络的营销套件
+124	Sequence Markets	FinTech · Payments		Smarter, faster trade execution for digital assets	数字资产更智能更快的交易执行
+125	ZeroSettle	FinTech · Payments		Support direct billing to avoid the 30% app store tax	支持应用内直接计费,规避 30% 应用商店抽成
+126	Grade	FinTech · Payments		Payroll for performance	按绩效发薪
+127	Forum	FinTech · Payments		The first regulated exchange to trade on attention	首个可交易'注意力'的受监管交易所
+128	Terranox AI	Industrials · Energy		AI-powered uranium exploration	AI 铀矿勘探
+129	Condor Energy	Industrials · Energy		Energy OS for reliable, cheap, sustainable electricity	让电力可靠、便宜、可持续的能源操作系统
+130	Lexius	B2B Security		AI security guards	AI 保安
+131	Hex Security	B2B Security		Agentic offensive security at scale	规模化的智能体攻防安全
+132	Protent	B2B Security		Turning passive surveillance into proactive intelligence	把被动监控变成主动情报
+133	BeeSafe AI	B2B Security		Stopping scams before they reach your customers	在诈骗触达客户前拦截
+134	CatchBack Cards	Consumer · Gaming		Maximizing the thrill of collecting trading cards	放大集换式卡牌收藏的乐趣
+135	Mantis Biotechnology	Consumer · Gaming		Physics-enhanced datasets for low-resource ML	面向低资源机器学习的物理增强数据集
+136	CodeWisp	Consumer · Gaming		Anyone can create real games with AI	人人都能用 AI 做出真正的游戏
+137	Pax Historia	Consumer · Gaming		The first AI-powered grand strategy sandbox game	首款 AI 驱动的大战略沙盒游戏
+138	Corvera	B2B Operations		AI agents for CPG brands	快消品牌的 AI 智能体
+139	MochaCare	B2B Operations		AI-supercharged humans for home care agency growth	用 AI 赋能护理人员,助力居家护理机构增长
+140	EigenPal	B2B Operations		AI document workflows for enterprises	企业 AI 文档工作流
+141	Pollen	B2B Operations		AI agents for customer success	客户成功的 AI 智能体
+142	Galactic Resource Utilization Space	Industrials · Aviation & Space		Building the first hotel on the Moon	建造月球上的第一家酒店
+143	Beyond Reach Labs	Industrials · Aviation & Space		Space solar arrays that grow to football-field size in orbit	在轨可展开至足球场大小的太空太阳能阵列
+144	AxionOrbital Space	Industrials · Aviation & Space		Foundation models for 24/7 Earth observation	面向全天候对地观测的基础模型
+145	Sila	B2B Productivity		Agent & team communication workspace	智能体与团队的协作工作空间
+146	Unisson	B2B Productivity		The AI product specialist for customer-facing teams	面向客户的团队的 AI 产品专家
+147	Emdash	B2B Productivity		Open-source agentic development environment	开源的智能体开发环境
+148	Cofia	B2B Productivity		AI automations that write themselves	自我编写的 AI 自动化
+149	Robby	B2B Productivity		Agentic revenue growth for home service businesses	家政服务企业的智能体营收增长
+150	Approxima	B2B Analytics		One package to take your mobile app to production	一站式把移动应用推上线
+151	Laurence	B2B Analytics		Reinforcement learning for performance marketing	用强化学习做效果营销
+152	Constellation Space	B2B Analytics		AI for space mission assurance	太空任务保障的 AI
+153	Proximitty	FinTech · Credit & Lending		Autonomous loan servicing and collections	自主化贷后服务与催收
+154	Squid	Industrials · Energy		AI-powered grid planning in your browser	浏览器里的 AI 电网规划
+155	RoboDock	Industrials · Energy		Robots that run autonomous depots for autonomous fleets	为自动驾驶车队运营无人站点的机器人
+156	Voxel Energy	Industrials · Energy		Energy-independent data centers with solar & reused batteries	用光伏与梯次电池实现能源自给的数据中心
+157	Return Signals	B2B Retail		AI luxury concierge for e-commerce brands	电商品牌的 AI 奢侈品礼宾
+158	General Legal	B2B Legal		The AI-native law firm for growth-stage companies	面向成长期公司的 AI 原生律所
+159	AutoSitu	B2B Legal		AI-native workspace for municipal development review	市政开发审批的 AI 原生工作空间
+160	Vector Legal	B2B Legal		AI law firm + legal tech platform for startups	面向初创的 AI 律所+法律科技平台
+161	Wayco	B2B Legal		AI operator for legal case referrals	法律案件转介的 AI 操盘手
+162	Fed10	B2B Legal		AI agents that replace your policy consultants	替代政策顾问的 AI 智能体
+163	LegalOS	B2B Legal		The AI-powered law firm for complex work visas	专攻复杂工作签证的 AI 律所
+164	Arcline	B2B Legal		Startup legal work by elite lawyers, same-day turnaround	精英律师当天交付的初创法律服务
+165	Fort	Consumer · Electronics		A strength tracking wearable	力量训练追踪可穿戴设备
+166	Doomersion	Consumer · Electronics		Doomscroll to learn languages	边刷边学外语
+167	Pocket	Consumer · Electronics		The world's best AI note-taking device and app	全球最好的 AI 笔记硬件与应用
+168	Ashr	B2B Human Resources		Mimic users in production to catch agent failures	在生产环境模拟用户以捕捉智能体失败
+169	Skillsync	B2B Human Resources		Find anyone in open source and across companies	在开源与各公司中找到任何人才
+170	Resonate	Consumer		The first AI-native messaging platform	首个 AI 原生即时通讯平台
+171	Origami Robotic	Industrials · Robotics		Manipulate-anything robots	能抓取任意物体的机器人
+172	Hlabs	Industrials · Robotics		An industrial supply chain for building robots in the USA	在美国本土打造机器人制造供应链
+173	Congruent	Industrials · Autonomy		Radars for end-to-end autonomy	面向端到端自动驾驶的雷达
+174	DAIVIN	Industrials · Deep Tech		Tankless dive gear for sea, land & space	无气瓶潜水装备,通用于海陆空
+175	ARC Prize Foundation	Industrials · AI Benchmarking		AI benchmarks that measure general intelligence	衡量通用智能的 AI 基准测试
+176	OctaPulse	Industrials · Climate		Robotics & vision to automate fish farming	用机器人与视觉自动化养鱼
+177	Maywood	FinTech · Banking & Exchange		AI for mergers and acquisitions	并购(M&A)的 AI
+178	Verdex	FinTech · Insurance		Satellite imagery verification for insurance	用卫星影像为保险做核验
+179	Caretta	B2B Sales		Realtime AI for sales calls	销售通话的实时 AI
+180	SpotPay	FinTech · Consumer Finance		Cross-border personal finance on stablecoins	基于稳定币的跨境个人金融
+181	GrazeMate	Industrials · Agriculture		Robot cowboys that herd cattle with AI drones	用 AI 无人机放牧的机器人牛仔
+182	Voltair	Industrials · Drones		Self-charging drones	自充电无人机
+183	DroneTector	Industrials · Drones		Technology to detect and track hostile drones	侦测并追踪敌方无人机的技术
