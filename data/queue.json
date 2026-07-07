@@ -29,21 +29,21 @@
    "slug": "arzana",
    "name": "Arzana",
    "tier": "A1",
-   "status": "pending",
+   "status": "reviewed",
    "priority": 99
   },
   {
    "slug": "saudara-ai",
    "name": "Saudara AI",
    "tier": "A1",
-   "status": "pending",
+   "status": "reviewed",
    "priority": 99
   },
   {
    "slug": "walter",
    "name": "Walter",
    "tier": "A1",
-   "status": "pending",
+   "status": "reviewed",
    "priority": 99
   },
   {
@@ -78,14 +78,14 @@
    "slug": "andustry",
    "name": "Andustry",
    "tier": "A1",
-   "status": "pending",
+   "status": "reviewed",
    "priority": 99
   },
   {
    "slug": "hexa",
    "name": "Hexa",
    "tier": "A1",
-   "status": "pending",
+   "status": "reviewed",
    "priority": 99
   },
   {
@@ -106,21 +106,21 @@
    "slug": "hyper",
    "name": "Hyper",
    "tier": "A2",
-   "status": "pending",
+   "status": "reviewed",
    "priority": 99
   },
   {
    "slug": "flowscope",
    "name": "flowscope",
    "tier": "A2",
-   "status": "pending",
+   "status": "reviewed",
    "priority": 99
   },
   {
    "slug": "pentagon",
    "name": "Pentagon",
    "tier": "A2",
-   "status": "pending",
+   "status": "reviewed",
    "priority": 99
   },
   {
@@ -134,42 +134,42 @@
    "slug": "jinba",
    "name": "Jinba",
    "tier": "A2",
-   "status": "pending",
+   "status": "reviewed",
    "priority": 99
   },
   {
    "slug": "ressl",
    "name": "Ressl",
    "tier": "A2",
-   "status": "pending",
+   "status": "reviewed",
    "priority": 99
   },
   {
    "slug": "revion",
    "name": "Revion",
    "tier": "A1",
-   "status": "pending",
+   "status": "reviewed",
    "priority": 99
   },
   {
    "slug": "tensol",
    "name": "Tensol",
    "tier": "A2",
-   "status": "pending",
+   "status": "reviewed",
    "priority": 99
   },
   {
    "slug": "pollinate",
    "name": "Pollinate",
    "tier": "A1",
-   "status": "pending",
+   "status": "reviewed",
    "priority": 99
   },
   {
    "slug": "burt",
    "name": "Burt",
    "tier": "A1",
-   "status": "pending",
+   "status": "reviewed",
    "priority": 99
   },
   {

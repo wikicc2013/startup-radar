@@ -309,12 +309,51 @@
    "one_liner_zh": "自动驾驶式的公司大脑",
    "tier": "A2",
    "triage_reason": "“公司大脑”与组织大脑七病理框架正面对话",
-   "status": "pending",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-07",
+   "funding": [
+    {
+     "round": "YC Spring 2026 标准投资",
+     "amount": "未披露(除 YC 标准 deal 外无公开金额)",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/hyper-4"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "Razorpay(付费设计试点/scoping 阶段)",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/launches/QKg-hyper-the-self-driving-company-brain"
+    },
+    {
+     "name": "Snorkel AI(付费设计试点/scoping 阶段)",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/launches/QKg-hyper-the-self-driving-company-brain"
+    }
+   ],
+   "cn_benchmarks": [
+    "Mem0(开源 agent 记忆层)",
+    "智谱/百川企业私域知识 Agent",
+    "国内 RAG 中间件(RAGFlow、FastGPT、Dify 知识库模块)",
+    "有道/字节企业知识库智能问答"
+   ],
+   "scene_tags": [
+    "公司大脑",
+    "Agent 记忆层",
+    "自维护知识图谱",
+    "企业上下文注入",
+    "跨工具知识聚合",
+    "事实时效戳(valid_until)",
+    "AI 员工赋能",
+    "MCP 上下文层"
+   ],
+   "archive": "companies/hyper.md",
+   "researched_at": "2026-07-07",
+   "research_status": "researched"
   },
   {
    "num": 14,
@@ -461,12 +500,38 @@
    "one_liner_zh": "梳理并自动化业务流程的 AI 原生咨询",
    "tier": "A2",
    "triage_reason": "流程咨询 AI 化，看它怎么产品化交付",
-   "status": "pending",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-07",
+   "funding": [],
+   "early_customers": [
+    {
+     "name": "一家工业人力派遣公司(未具名)——官网博客提及为其重设计招聘与入职流程",
+     "confidence": "低",
+     "source_url": "https://www.flowscope.com/blog"
+    }
+   ],
+   "cn_benchmarks": [
+    "实在智能(RPA+Agent 流程自动化)",
+    "来也科技 Laiye(RPA+对话式 AI)",
+    "云扩科技 Encoo(RPA)",
+    "望繁信科技/帆软(流程挖掘对标)"
+   ],
+   "scene_tags": [
+    "业务流程梳理与自动化",
+    "财务共享中心自动化",
+    "运营流程 process mining",
+    "招聘与入职流程自动化",
+    "服务即软件(services-as-software)",
+    "forward-deployed agent",
+    "AI 原生咨询/替代传统咨询交付"
+   ],
+   "archive": "companies/flowscope.md",
+   "researched_at": "2026-07-07",
+   "research_status": "researched"
   },
   {
    "num": 22,
@@ -822,12 +887,31 @@
    "one_liner_zh": "人与智能体的协同层",
    "tier": "A2",
    "triage_reason": "人机协同的基础设施化，九宫格的工程实现参照",
-   "status": "pending",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-07",
+   "funding": [],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "扣子/Coze(字节，智能体编排与多 Agent 协作)",
+    "钉钉 AI 助理/通义(阿里)",
+    "腾讯元器(多智能体编排平台)",
+    "面壁/AutoAgents 等国内 multi-agent 框架"
+   ],
+   "scene_tags": [
+    "多智能体协同",
+    "Agent 编排控制平面",
+    "人机协同工作空间",
+    "机构记忆/上下文共享",
+    "human-in-the-loop 治理",
+    "企业级权限与审计"
+   ],
+   "archive": "companies/pentagon.md",
+   "researched_at": "2026-07-07",
+   "research_status": "researched"
   },
   {
    "num": 41,
@@ -841,12 +925,66 @@
    "one_liner_zh": "制造业办公室的 AI 自动化",
    "tier": "A1",
    "triage_reason": "直击制造业后台流程，与「组织革命」正面相关",
-   "status": "pending",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-07",
+   "funding": [
+    {
+     "round": "Pre-Seed(含 YC 投资)",
+     "amount": "约 $500K",
+     "date": "2026",
+     "source_url": "https://pitchbook.com/profiles/company/1153535-23"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "Milltown Paper",
+     "confidence": "中",
+     "source_url": "https://www.arzana.com/"
+    },
+    {
+     "name": "Iowa Mold(Iowa Mold Tooling 疑似)",
+     "confidence": "中",
+     "source_url": "https://www.arzana.com/"
+    },
+    {
+     "name": "Koike",
+     "confidence": "中",
+     "source_url": "https://www.arzana.com/"
+    },
+    {
+     "name": "Givi",
+     "confidence": "中",
+     "source_url": "https://www.arzana.com/"
+    },
+    {
+     "name": "Zeiss(官网 logo 墙，深度/合同未披露)",
+     "confidence": "低",
+     "source_url": "https://www.arzana.com/"
+    }
+   ],
+   "cn_benchmarks": [
+    "合思等费控报销 AI(前台单据自动化类比)",
+    "金蝶/用友 ERP 的 AI Agent 与智能报价、智能订单模块",
+    "黑湖智造、鼎捷等制造后台/MES 侧自动化",
+    "采购/寻源 SaaS 上的 AI 报价与 RFQ 处理(震坤行等)"
+   ],
+   "scene_tags": [
+    "制造业前台自动化",
+    "报价/RFQ 自动生成",
+    "订单录入自动化",
+    "开票与采购自动化",
+    "ERP/邮件 Agent 集成",
+    "中端制造商与分销商",
+    "定制模型训练(工厂历史数据)",
+    "内部销售/客服 AI"
+   ],
+   "archive": "companies/arzana.md",
+   "researched_at": "2026-07-07",
+   "research_status": "researched"
   },
   {
    "num": 42,
@@ -1240,12 +1378,32 @@
    "one_liner_zh": "海外制造 AI 原生采购经纪",
    "tier": "A1",
    "triage_reason": "跨境采购经纪 AI 化，出海制造企业相关",
-   "status": "pending",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-07",
+   "funding": [],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "焦点科技/中国制造网(Made-in-China.com) 的 AI 寻源升级",
+    "阿里巴巴国际站 AI Sourcing Agent(Accio)",
+    "满帮/找钢网等垂直交易撮合平台的跨境版本",
+    "敦煌网(DHgate)、大健云仓等跨境 B2B 供应链服务商"
+   ],
+   "scene_tags": [
+    "跨境采购寻源",
+    "供应商审核与撮合",
+    "AI+真人经纪混合服务",
+    "海外工厂关系网",
+    "采购报价与质检(QC)",
+    "供应链物流与账期融资",
+    "印尼/东南亚制造出口"
+   ],
+   "archive": "companies/saudara-ai.md",
+   "researched_at": "2026-07-07",
+   "research_status": "researched"
   },
   {
    "num": 62,
@@ -1411,12 +1569,45 @@
    "one_liner_zh": "制造运营的 AI 员工",
    "tier": "A1",
    "triage_reason": "“AI 员工”进制造运营，人机协同九宫格的活案例",
-   "status": "pending",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-07",
+   "funding": [
+    {
+     "round": "YC Spring 2026 标准投资",
+     "amount": "未披露(除 YC 标准投资外无公开金额)",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/walter"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "未披露(官方仅自述服务多家'9 位数营收'制造商、以包装行业为主，均未具名)",
+     "confidence": "低",
+     "source_url": "https://www.ycombinator.com/launches/Qdh-walter-ai-employee-for-the-manufacturing-back-office"
+    }
+   ],
+   "cn_benchmarks": [
+    "用友/金蝶 + AI Agent(ERP 厂商侧智能录单/智能采购)",
+    "黑湖智造、鼎捷(数字员工/MOM 与流程自动化)",
+    "实在智能、来也科技(RPA+大模型数字员工，面向采购/单据录入)"
+   ],
+   "scene_tags": [
+    "制造业后台自动化",
+    "采购订单录入(PO)",
+    "供应商下单",
+    "价格/报价一致性校验",
+    "ERP 操作自动化(SAP/Dynamics/Oracle)",
+    "数字员工/AI Agent",
+    "包装与工业制造",
+    "Teams/邮件协同"
+   ],
+   "archive": "companies/walter.md",
+   "researched_at": "2026-07-07",
+   "research_status": "researched"
   },
   {
    "num": 71,
@@ -3079,12 +3270,37 @@
    "one_liner_zh": "帮制造商寻找工业品供应商",
    "tier": "A1",
    "triage_reason": "AI 寻源，采购域场景，可进场景词典",
-   "status": "pending",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-07",
+   "funding": [],
+   "early_customers": [
+    {
+     "name": "某 CNC 机床采购客户(未具名，首客)",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/launches/QP4-andustry-ai-native-broker-for-industrial-equipment"
+    }
+   ],
+   "cn_benchmarks": [
+    "震坤行(工业品 MRO 一站式供应链)",
+    "工品汇(工业品数字化寻源/交易)",
+    "国联股份等 B2B 工业电商"
+   ],
+   "scene_tags": [
+    "工业品寻源",
+    "供应商发现与核验",
+    "采购降本",
+    "MRO/机床采购",
+    "跨境工业采购",
+    "B2B 撮合经纪",
+    "报价比价"
+   ],
+   "archive": "companies/andustry.md",
+   "researched_at": "2026-07-07",
+   "research_status": "researched"
   },
   {
    "num": 149,
@@ -3252,12 +3468,40 @@
    "one_liner_zh": "工业经销商的自主化运营",
    "tier": "A1",
    "triage_reason": "工业分销渠道 AI 化，国内工业品电商可对照",
-   "status": "pending",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-07",
+   "funding": [],
+   "early_customers": [
+    {
+     "name": "未披露具体客户名(相关信息称上线约 6 周内签下 3 家付费客户、月收入约 $9000)",
+     "confidence": "低",
+     "source_url": "https://www.ycombinator.com/companies/hexa"
+    }
+   ],
+   "cn_benchmarks": [
+    "震坤行工业超市(MRO 工业品电商)",
+    "西域/工品汇等 MRO 平台",
+    "国联股份(多多电商，B2B 工业品撮合)"
+   ],
+   "scene_tags": [
+    "工业分销",
+    "MRO 采购",
+    "RFQ 报价自动化",
+    "订单录入",
+    "CPQ 报价",
+    "ERP 内嵌 AI agent",
+    "供应商比价与 PO 生成",
+    "发票对账 AP/AR",
+    "forward-deployed 前置部署",
+    "文档理解(邮件/PDF/Excel/传真)"
+   ],
+   "archive": "companies/hexa.md",
+   "researched_at": "2026-07-07",
+   "research_status": "researched"
   },
   {
    "num": 158,
@@ -4213,12 +4457,62 @@
    "one_liner_zh": "用对话自动化任意企业工作流",
    "tier": "A2",
    "triage_reason": "对话自动化任意企业工作流，流程发现与自动化正面同构",
-   "status": "pending",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-07",
+   "funding": [
+    {
+     "round": "Seed(YC 标准投资，金额为第三方聚合估算，未见一手新闻稿，置信度低)",
+     "amount": "约 $500K",
+     "date": "2026-01",
+     "source_url": "https://tracxn.com/d/companies/jinba/__D8RuWHODJaGiA0NiL-nfgkFJryL_V1R1XxH4L-2pypo"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "MUFG(三菱UFJ金融集团)",
+     "confidence": "中",
+     "source_url": "https://jinba.io/uses/ai-in-banking-and-finance"
+    },
+    {
+     "name": "Suntory(三得利，生物医药数据分析用例)",
+     "confidence": "中",
+     "source_url": "https://jinba.io/"
+    },
+    {
+     "name": "Bloomo(官网 testimonial)",
+     "confidence": "中",
+     "source_url": "https://jinba.io/"
+    },
+    {
+     "name": "Mitsubishi(官网/媒体提及)",
+     "confidence": "低",
+     "source_url": "https://jinba.io/"
+    }
+   ],
+   "cn_benchmarks": [
+    "影刀 RPA/来也科技 UiBot",
+    "实在智能(Agentic RPA)",
+    "阿里云百炼/钉钉 AI 助理",
+    "字节扣子 Coze/腾讯元器",
+    "澜码科技 AskXBOT"
+   ],
+   "scene_tags": [
+    "对话式工作流生成(Chat-to-Flow)",
+    "企业流程自动化",
+    "强监管行业AI(银行/保险)",
+    "KYC/合规文档处理",
+    "合同审查与贷款核保",
+    "on-prem私有化部署",
+    "MCP/API化工作流",
+    "no-code替代"
+   ],
+   "archive": "companies/jinba.md",
+   "researched_at": "2026-07-07",
+   "research_status": "researched"
   },
   {
    "num": 203,
@@ -4574,12 +4868,47 @@
    "one_liner_zh": "蓝领技工行业的 AI 转型",
    "tier": "A2",
    "triage_reason": "蓝领技工行业 AI 转型，AI 转型直接命题",
-   "status": "pending",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-07",
+   "funding": [
+    {
+     "round": "Pre-Seed",
+     "amount": "$500K",
+     "date": "2025",
+     "source_url": "https://www.angelsround.com/p/ressl"
+    },
+    {
+     "round": "Seed(进行中)",
+     "amount": "目标 $2.5M",
+     "date": "2026",
+     "source_url": "https://www.angelsround.com/p/ressl"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "神策/售后宝等家服/售后 SaaS 中的 AI 派单调度",
+    "容联云/百应/追一等 AI 外呼与智能客服",
+    "汇联易/合思等费控开票自动化",
+    "国内暂无专门面向'蓝领技工小企业、架在现有工单系统上的 AI 员工'的成熟玩家，属空白位"
+   ],
+   "scene_tags": [
+    "蓝领技工数字化",
+    "家庭服务(HVAC/水暖/电工)",
+    "AI 员工/数字员工",
+    "线索即时响应与自动排期",
+    "自动报价与投标",
+    "采购与配件调度",
+    "后台开票与工单跟进",
+    "架在存量系统之上(无迁移)",
+    "私募 roll-up 赋能"
+   ],
+   "archive": "companies/ressl.md",
+   "researched_at": "2026-07-07",
+   "research_status": "researched"
   },
   {
    "num": 222,
@@ -4726,12 +5055,57 @@
    "one_liner_zh": "汽车运营智能",
    "tier": "A1",
    "triage_reason": "汽车运营智能，OEM/后市场运营直击",
-   "status": "pending",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-07",
+   "funding": [
+    {
+     "round": "YC 标准投资",
+     "amount": "约 $500K",
+     "date": "2025-12",
+     "source_url": "https://www.ycombinator.com/companies/revion"
+    },
+    {
+     "round": "Seed",
+     "amount": "未披露",
+     "date": "2026-03",
+     "source_url": "https://www.crunchbase.com/organization/revion"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "Ewing Automotive Group / Mercedes-Benz of Plano",
+     "confidence": "中",
+     "source_url": "https://revion.inc"
+    },
+    {
+     "name": "AM 100 Group (英国经销集团)",
+     "confidence": "中",
+     "source_url": "https://revion.inc"
+    }
+   ],
+   "cn_benchmarks": [
+    "汽车经销集团售后 DMS 服务模块(中驰车福、开思等)",
+    "途虎养车/天猫养车等连锁后市场的工单与检测数字化",
+    "主机厂/4S 保修工单与多点检查(MPI)电子化",
+    "语音转写+工单结构化方向的国内客服/工单类语音 AI"
+   ],
+   "scene_tags": [
+    "售后固定运营(Fixed Ops)",
+    "维修工单自动生成",
+    "语音优先/免手操作",
+    "保修合规(Complaint-Cause-Correction)",
+    "多点检查(MPI)",
+    "技师工时找回",
+    "DMS 系统集成",
+    "OEM 手册/TSB 智能检索"
+   ],
+   "archive": "companies/revion.md",
+   "researched_at": "2026-07-07",
+   "research_status": "researched"
   },
   {
    "num": 230,
@@ -5469,12 +5843,35 @@
    "one_liner_zh": "为你的业务配 AI 员工",
    "tier": "A2",
    "triage_reason": "为业务配 AI 员工，人机协同平台样本",
-   "status": "pending",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-07",
+   "funding": [],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "实在智能(数字员工/RPA+Agent)",
+    "来也科技 UiBot",
+    "钉钉 AI 助理/阿里云百炼 Agent 平台",
+    "字节扣子 Coze",
+    "澜码科技 Ask-XBOT"
+   ],
+   "scene_tags": [
+    "AI员工",
+    "自主智能体",
+    "Agent托管平台",
+    "客服自动化",
+    "研发运维Agent(SRE/oncall)",
+    "SDR销售线索",
+    "隔离VM沙箱",
+    "OAuth企业集成",
+    "OpenClaw商业化"
+   ],
+   "archive": "companies/tensol.md",
+   "researched_at": "2026-07-07",
+   "research_status": "researched"
   },
   {
    "num": 269,
@@ -5754,12 +6151,44 @@
    "one_liner_zh": "供应链 AI 智能体",
    "tier": "A1",
    "triage_reason": "供应链 AI 智能体，供应链域正面覆盖",
-   "status": "pending",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-07",
+   "funding": [
+    {
+     "round": "YC W26 标准投资",
+     "amount": "约 $500K(约合 74.7 万澳元)",
+     "date": "2026-01",
+     "source_url": "https://ventures.uq.edu.au/article/2025/12/pollinate-represent-australia-ycombinator"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "Gnocchi Gnocchi Brothers(意式面食餐饮/供应企业，从试点扩展到 12 门店)",
+     "confidence": "中",
+     "source_url": "https://ventures.uq.edu.au/blog/2026/01/5-early-signs-these-best-friends-brissy-are-building-unicorn"
+    }
+   ],
+   "cn_benchmarks": [
+    "供应链协同(供应商发票/PO 协同)",
+    "黑湖智造(制造执行与工单/排程数字化)",
+    "慧联(工业物联/供应链数据连接)"
+   ],
+   "scene_tags": [
+    "供应链自动化",
+    "采购三方匹配",
+    "发票OCR与对账",
+    "ERP集成/中间件",
+    "AI智能体",
+    "准时制生产排程",
+    "应付账款自动化"
+   ],
+   "archive": "companies/pollinate.md",
+   "researched_at": "2026-07-07",
+   "research_status": "researched"
   },
   {
    "num": 284,
@@ -5773,12 +6202,33 @@
    "one_liner_zh": "物流 AI 队友",
    "tier": "A1",
    "triage_reason": "物流 AI 队友，运营层 AI 员工",
-   "status": "pending",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-07",
+   "funding": [],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "货拉拉/满帮(货运数字化撮合与运力调度)",
+    "G7易流(车队与运输可视化、在途监控)",
+    "运联/oTMS 等 TMS 及运输管理 SaaS",
+    "菜鸟、京东物流的智能客服与单证自动化"
+   ],
+   "scene_tags": [
+    "货运经纪/货代",
+    "AI 智能体/AI 队友",
+    "在途追踪与状态确认(check call)",
+    "单证处理(POD/运价确认单)",
+    "运力寻源与订舱",
+    "发票审计与账单对账",
+    "报价与建单",
+    "TMS 系统集成/自动化"
+   ],
+   "archive": "companies/burt.md",
+   "researched_at": "2026-07-07",
+   "research_status": "researched"
   },
   {
    "num": 285,
