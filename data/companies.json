@@ -2456,12 +2456,57 @@
    "one_liner_zh": "供应链运营的智能体 ERP",
    "tier": "A1",
    "triage_reason": "SCCT 2.0 视角的对标物，“智能体 ERP”提法值得拆",
-   "status": "pending",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-07",
+   "funding": [
+    {
+     "round": "Pre-seed",
+     "amount": "未披露",
+     "date": "2025-05",
+     "source_url": "https://www.crunchbase.com/organization/qomplement"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "CFM（物流/货运公司）",
+     "confidence": "中",
+     "source_url": "https://www.qomplement.com/customers"
+    },
+    {
+     "name": "Grupo Cruces（墨西哥汽车经销集团，宣称手工工作减少 80%+）",
+     "confidence": "中",
+     "source_url": "https://www.qomplement.com/customers"
+    },
+    {
+     "name": "Gran Chapur（墨西哥尤卡坦百货/零售集团）",
+     "confidence": "中",
+     "source_url": "https://www.qomplement.com/customers"
+    }
+   ],
+   "cn_benchmarks": [
+    "黑湖智造（工厂协同/生产数据）",
+    "慧联/网易供应链（供应链数字化）",
+    "聚水潭/旺店通（电商 ERP）",
+    "汇联易/每刻报销（AP/费用自动化）",
+    "来也科技/实在智能（RPA+Agent 文档处理）"
+   ],
+   "scene_tags": [
+    "供应链后台自动化",
+    "采购到付款(P2P)",
+    "三单匹配",
+    "AP/AR 自动化",
+    "库存对账",
+    "货运履约",
+    "AI-native ERP",
+    "文档数据抽取"
+   ],
+   "archive": "companies/qomplement.md",
+   "researched_at": "2026-07-07",
+   "research_status": "researched"
   },
   {
    "num": 127,
@@ -3235,12 +3280,30 @@
    "one_liner_zh": "制造业的智能层",
    "tier": "A1",
    "triage_reason": "定位与“组织大脑”高度重叠，需拆它的智能层架构",
-   "status": "pending",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-07",
+   "funding": [],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "聚水潭/旺店通（订单-采购协同，偏电商）",
+    "黑湖智造（制造协同/工单）",
+    "简道云+ERP 集成类低代码工作流",
+    "用友/金蝶生态内的 AI Agent 插件方向"
+   ],
+   "scene_tags": [
+    "询价报价自动化(RFQ-to-Quote)",
+    "采购订单审批与供应商协调",
+    "订单履约异常监控",
+    "ERP工作流自主执行Agent",
+    "制造业后台协调自动化"
+   ],
+   "archive": "companies/korso.md",
+   "researched_at": "2026-07-07",
+   "research_status": "researched"
   },
   {
    "num": 168,
@@ -3653,12 +3716,48 @@
    "one_liner_zh": "面向制造商的 AI 原生 ERP",
    "tier": "A1",
    "triage_reason": "AI 原生 ERP 正面挑战用友/SAP 范式",
-   "status": "pending",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-07",
+   "funding": [
+    {
+     "round": "YC Spring 2026 (X26) 标准投资",
+     "amount": "未披露具体金额（YC 标准条款，未见独立轮次披露）",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/smartbase"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "首个签约客户（未具名美国制造商）",
+     "confidence": "中",
+     "source_url": "https://x.com/ycombinator/status/2044490946411143266"
+    }
+   ],
+   "cn_benchmarks": [
+    "用友（U8/YonSuite）",
+    "金蝶（K/3 Cloud、星空）",
+    "鼎捷软件（易飞/易拓）",
+    "SAP Business One / S4HANA 本地化实施商",
+    "Oracle NetSuite 中国代理实施商"
+   ],
+   "scene_tags": [
+    "制造业ERP",
+    "订单录入自动化",
+    "PO自动处理",
+    "文档AI抽取",
+    "供应商对账",
+    "生产排产",
+    "库存补货",
+    "财务三单匹配",
+    "AI原生ERP"
+   ],
+   "archive": "companies/smartbase.md",
+   "researched_at": "2026-07-07",
+   "research_status": "researched"
   },
   {
    "num": 190,
@@ -9087,12 +9186,79 @@
    "one_liner_zh": "面向制造业的视觉基础模型",
    "tier": "A1",
    "triage_reason": "面向制造业的视觉基础模型，工艺质检强相关",
-   "status": "pending",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B003"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-07",
+   "funding": [
+    {
+     "round": "Seed（官方称超额认购）",
+     "amount": "未披露",
+     "date": "2025-11",
+     "source_url": "https://www.007venturepartners.com/signals/allus-ai"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "Foxconn 富士康",
+     "confidence": "中",
+     "source_url": "https://www.allus.ai/"
+    },
+    {
+     "name": "Panasonic 松下",
+     "confidence": "中",
+     "source_url": "https://www.allus.ai/"
+    },
+    {
+     "name": "TDK",
+     "confidence": "中",
+     "source_url": "https://www.allus.ai/"
+    },
+    {
+     "name": "Tencent 腾讯（同时为其种子轮投资方）",
+     "confidence": "中",
+     "source_url": "https://www.allus.ai/"
+    },
+    {
+     "name": "Hikvision 海康威视",
+     "confidence": "中",
+     "source_url": "https://www.allus.ai/"
+    },
+    {
+     "name": "Mondelēz 亿滋",
+     "confidence": "中",
+     "source_url": "https://www.allus.ai/"
+    },
+    {
+     "name": "Apple / Tesla / KUKA / Corning（仅 VC 信号页点名，官网未见）",
+     "confidence": "低",
+     "source_url": "https://www.007venturepartners.com/signals/allus-ai"
+    }
+   ],
+   "cn_benchmarks": [
+    "创新奇智 AInno",
+    "阿丘科技 AQROSE",
+    "格创东智（TCL 系）",
+    "腾讯优图工业质检",
+    "华为云盘古工业大模型",
+    "百度飞桨工业视觉",
+    "商汤 SenseCore 工业视觉"
+   ],
+   "scene_tags": [
+    "工业质检",
+    "缺陷检测",
+    "视觉基础模型",
+    "少样本/prompt 部署",
+    "半导体/电子",
+    "食品饮料",
+    "机器人视觉",
+    "过程监控 OCR/计数"
+   ],
+   "archive": "companies/allus.md",
+   "researched_at": "2026-07-07",
+   "research_status": "researched"
   },
   {
    "num": 476,
@@ -9467,12 +9633,31 @@
    "one_liner_zh": "面向制造商的嵌入式 AI 软件",
    "tier": "A1",
    "triage_reason": "面向制造商的嵌入式 AI 软件，直击制造",
-   "status": "pending",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B004"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-07",
+   "funding": [],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "钉钉宜搭/简道云/明道云/轻流（低代码 aPaaS 上层制造运营工具）",
+    "用友/金蝶生态二开服务商（ERP 上层数据打通/运营智能）",
+    "制造业『咨询+定制软件』一体化数字化服务商"
+   ],
+   "scene_tags": [
+    "制造业运营数字化",
+    "定制内部工具",
+    "AI-native 软件",
+    "工作流自动化",
+    "运营智能/ERP上层",
+    "嵌入式工程团队",
+    "实体经济/real economy"
+   ],
+   "archive": "companies/paloma.md",
+   "researched_at": "2026-07-07",
+   "research_status": "researched"
   },
   {
    "num": 496,
@@ -10227,12 +10412,40 @@
    "one_liner_zh": "面向工程图纸的形位公差(GD&T)分析软件",
    "tier": "A1",
    "triage_reason": "工程图纸形位公差(GD&T)分析，工艺质量",
-   "status": "pending",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B004"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-07",
+   "funding": [
+    {
+     "round": "Seed（YC S25 标准投资）",
+     "amount": "未披露（第三方口径不一：Tracxn 记 $500K、Extruct 记 $1M；无一手来源/官方公告核实）",
+     "date": "2025 年",
+     "source_url": "https://tracxn.com/d/companies/f4industries/__IxONqmQbsk7nFw6jPYnbL4XVzSNgsub8ZPC7Ql0MW-8"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "杭州新迪数字（SView/CAD 轻量化与三维标注 MBD）",
+    "海克斯康/天准/思看中国区（首件检验 FAI 与三坐标测量报告自动化，含 ballooning、AS9102/FAIR）",
+    "武汉益模、山东山大华天(CrownCAD/SINOVATION)（国产 CAD/CAE 生态中 GD&T 与公差分析）",
+    "PTC/西门子/达索在华 MBD 与公差管理方案（Creo GD&T Advisor 由 Sigmetrix 提供）"
+   ],
+   "scene_tags": [
+    "GD&T形位公差",
+    "工程图纸智能解析",
+    "公差叠加分析(tolerance stackup)",
+    "首件检验FAI/AS9102/FAIR自动化",
+    "MBD/DRF可视化",
+    "航空航天/国防合规(ITAR/EAR)",
+    "制造前DFM合规校验",
+    "QA/质量工程提效"
+   ],
+   "archive": "companies/f4-industries.md",
+   "researched_at": "2026-07-07",
+   "research_status": "researched"
   },
   {
    "num": 536,
@@ -14180,12 +14393,59 @@
    "one_liner_zh": "面向工厂、用自然语言教机器人技能",
    "tier": "A1",
    "triage_reason": "面向工厂用自然语言教机器人技能，工厂自动化",
-   "status": "pending",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B005"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-07",
+   "funding": [
+    {
+     "round": "ABB AI Startup Challenge 奖金",
+     "amount": "约 $30,000 项目资金 + SynerLeap（ABB 加速器）6 个月会员",
+     "date": "2024",
+     "source_url": "https://new.abb.com/news/detail/122287/abb-robotics-names-t-robotics-and-mbodi-as-ai-startup-challenge-winners"
+    },
+    {
+     "round": "种子/早期（第三方数据库口径，未见一手新闻稿）",
+     "amount": "约 $500K（PitchBook）/ ~$530K（CB Insights），另获 YC 标准投资",
+     "date": "2025",
+     "source_url": "https://pitchbook.com/profiles/company/596003-41"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "ABB Robotics（联合商业化伙伴，AI Startup Challenge 冠军）",
+     "confidence": "高",
+     "source_url": "https://new.abb.com/news/detail/122287/abb-robotics-names-t-robotics-and-mbodi-as-ai-startup-challenge-winners"
+    },
+    {
+     "name": "某 Fortune 100 消费品(CPG)公司（未具名，PoC 阶段，托盘/货架装填场景）",
+     "confidence": "中",
+     "source_url": "https://techcrunch.com/2025/10/27/mbodi-will-show-how-it-can-train-a-robot-using-ai-agents-at-techcrunch-disrupt-2025/"
+    }
+   ],
+   "cn_benchmarks": [
+    "非夕科技（Flexiv，力控自适应+AI）",
+    "珞石机器人（ROKAE，协作机器人+智能示教）",
+    "节卡机器人（JAKA，协作机器人+免编程示教）",
+    "达闼机器人（CloudMinds，云端大脑+具身智能）",
+    "银河通用（Galbot，具身大模型）",
+    "智元机器人（AgiBot，具身智能通用机器人）"
+   ],
+   "scene_tags": [
+    "具身智能",
+    "工业机器人",
+    "自然语言示教",
+    "免编程/低代码示教",
+    "VLA/机器人技能学习",
+    "机器人机队协同",
+    "拣选与包装",
+    "柔性制造/换线"
+   ],
+   "archive": "companies/mbodi-ai.md",
+   "researched_at": "2026-07-07",
+   "research_status": "researched"
   },
   {
    "num": 744,
@@ -15700,12 +15960,50 @@
    "one_liner_zh": "面向产线效率的 AI 摄像头",
    "tier": "A1",
    "triage_reason": "面向产线效率的 AI 摄像头，工厂产线",
-   "status": "pending",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-07",
+   "funding": [
+    {
+     "round": "Pre-Seed / Seed（口径不一）",
+     "amount": "约 $500K（第三方数据库口径，未见一手权威披露；YC 标准投资通常 $500K，疑同一笔）",
+     "date": "2025",
+     "source_url": "https://www.crunchbase.com/organization/optifye-ai/financial_details"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "Maso Group（负责人 Aditi Someshwar 具名证言）",
+     "confidence": "中",
+     "source_url": "https://www.optifye.ai/"
+    },
+    {
+     "name": "官网称 'Trusted by 50+ manufacturers'（未具名、未交叉验证）",
+     "confidence": "低",
+     "source_url": "https://www.optifye.ai/"
+    }
+   ],
+   "cn_benchmarks": [
+    "格创东智（面向电子制造车间效率）",
+    "思谋科技 SmartMore（工业视觉，延伸产线监控）",
+    "创新奇智 AInno（含产线动作/效率分析）",
+    "海康威视/大华的工厂行为分析+工时统计",
+    "国内 IE 工时/动作分析软件（视频标准工时测定）"
+   ],
+   "scene_tags": [
+    "产线效率监控",
+    "工人工时/动作分析",
+    "视觉 AI 车间管理",
+    "SOP 合规检测",
+    "节拍与瓶颈识别",
+    "废品率控制"
+   ],
+   "archive": "companies/optifye.md",
+   "researched_at": "2026-07-07",
+   "research_status": "researched"
   },
   {
    "num": 824,
@@ -15776,12 +16074,39 @@
    "one_liner_zh": "面向定制金属件的软件化工厂",
    "tier": "A1",
    "triage_reason": "定制金属件软件化工厂，工厂运营",
-   "status": "pending",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-07",
+   "funding": [
+    {
+     "round": "Seed（含 YC 标准投资）",
+     "amount": "累计约 $635K（聚合口径，未见官方新闻稿确认完整轮次结构）",
+     "date": "2025-02（Pioneer Fund 参投披露）",
+     "source_url": "https://www.crunchbase.com/organization/forge-automation"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "极致工厂（钣金/CNC 在线制造平台）",
+    "三维猴（在线 3D 打印/CNC 报价）",
+    "云工厂（在线制造撮合）",
+    "快格/工匠云"
+   ],
+   "scene_tags": [
+    "定制金属件",
+    "CNC 加工",
+    "在线制造/quick-turn",
+    "软件化工厂",
+    "CAD 直传报价",
+    "分布式/本地化生产",
+    "硬件研发打样供应链"
+   ],
+   "archive": "companies/forge-automation.md",
+   "researched_at": "2026-07-07",
+   "research_status": "researched"
   },
   {
    "num": 828,
@@ -18740,12 +19065,36 @@
    "one_liner_zh": "面向工厂的智能体 ERP",
    "tier": "A1",
    "triage_reason": "面向工厂的智能体 ERP，工厂 ERP",
-   "status": "pending",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B007"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-07",
+   "funding": [],
+   "early_customers": [
+    {
+     "name": "印尼、越南、印度的若干汽车/电子行业供应商工厂（未具名）",
+     "confidence": "低",
+     "source_url": "https://www.ycombinator.com/companies/tiny"
+    }
+   ],
+   "cn_benchmarks": [
+    "黑湖智造",
+    "简道云/轻流类低代码工作流",
+    "金蝶/用友的 AI ERP 转型"
+   ],
+   "scene_tags": [
+    "面向工厂的ERP",
+    "AI智能体自动化",
+    "报价/询价流程",
+    "供应链协同",
+    "东南亚制造供应商",
+    "SAP低成本替代"
+   ],
+   "archive": "companies/andtiny.md",
+   "researched_at": "2026-07-07",
+   "research_status": "researched"
   },
   {
    "num": 985,

@@ -22,7 +22,7 @@
    "slug": "korso",
    "name": "Korso",
    "tier": "A1",
-   "status": "pending",
+   "status": "reviewed",
    "priority": 3
   },
   {
@@ -71,7 +71,7 @@
    "slug": "qomplement",
    "name": "qomplement",
    "tier": "A1",
-   "status": "pending",
+   "status": "reviewed",
    "priority": 99
   },
   {
@@ -99,7 +99,7 @@
    "slug": "smartbase",
    "name": "Smartbase",
    "tier": "A1",
-   "status": "pending",
+   "status": "reviewed",
    "priority": 99
   },
   {
@@ -253,7 +253,7 @@
    "slug": "allus",
    "name": "Allus",
    "tier": "A1",
-   "status": "pending",
+   "status": "reviewed",
    "priority": 99
   },
   {
@@ -274,7 +274,7 @@
    "slug": "paloma",
    "name": "Paloma",
    "tier": "A1",
-   "status": "pending",
+   "status": "reviewed",
    "priority": 99
   },
   {
@@ -323,7 +323,7 @@
    "slug": "f4-industries",
    "name": "F4 Industries",
    "tier": "A1",
-   "status": "pending",
+   "status": "reviewed",
    "priority": 99
   },
   {
@@ -470,7 +470,7 @@
    "slug": "mbodi-ai",
    "name": "Mbodi AI",
    "tier": "A1",
-   "status": "pending",
+   "status": "reviewed",
    "priority": 99
   },
   {
@@ -526,14 +526,14 @@
    "slug": "optifye",
    "name": "Optifye",
    "tier": "A1",
-   "status": "pending",
+   "status": "reviewed",
    "priority": 99
   },
   {
    "slug": "forge-automation",
    "name": "Forge Automation",
    "tier": "A1",
-   "status": "pending",
+   "status": "reviewed",
    "priority": 99
   },
   {
@@ -610,7 +610,7 @@
    "slug": "andtiny",
    "name": "Andtiny",
    "tier": "A1",
-   "status": "pending",
+   "status": "reviewed",
    "priority": 99
   },
   {
