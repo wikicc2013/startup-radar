@@ -537,13 +537,6 @@
    "priority": 99
   },
   {
-   "slug": "sennu-ai",
-   "name": "Sennu AI",
-   "tier": "A2",
-   "status": "reviewed",
-   "priority": 99
-  },
-  {
    "slug": "macadamia",
    "name": "Macadamia",
    "tier": "A1",

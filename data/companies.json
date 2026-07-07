@@ -16539,8 +16539,8 @@
    "subcategory": "",
    "one_liner_en": "Claude enterprise rollout and integration",
    "one_liner_zh": "面向企业的 Claude 落地与集成",
-   "tier": "A2",
-   "triage_reason": "⚠️原判据(企业Claude落地集成)依据的YC一句话已过时；深研查明实为Salesforce AI代码审查(已3次转型)，非Anthropic生态。建议重新分诊(更接近B档开发者工具)",
+   "tier": "B",
+   "triage_reason": "深研后重新分诊：实为 Salesforce AI 代码审查开发者工具（原 A2 判据依据的 Claude 落地一句话已过时，公司 3 次转型）。归 B 档开发者工具/Agent 基础设施",
    "status": "reviewed",
    "review": "auto",
    "appeared_in": [
@@ -16570,8 +16570,7 @@
    ],
    "archive": "companies/sennu-ai.md",
    "researched_at": "2026-07-07",
-   "research_status": "researched",
-   "retriage_flag": true
+   "research_status": "researched"
   },
   {
    "num": 837,
