@@ -6615,12 +6615,32 @@
    "one_liner_zh": "自动化仓库里的精细操作任务",
    "tier": "A1",
    "triage_reason": "仓库精细操作自动化，仓储物流域",
-   "status": "pending",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-07",
+   "funding": [],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "极智嘉 Geek+（仓储移动机器人/货到人拣选，全球出货领先）",
+    "海柔创新 Hai Robotics（箱式仓储机器人 ACR，密集存储+拣选）",
+    "梅卡曼德 Mech-Mind（3D 视觉+AI 引导的机械臂拣选/上下料，接近 Remy 的'视觉+操作'定位）"
+   ],
+   "scene_tags": [
+    "仓储物流自动化",
+    "电商3PL/第三方物流",
+    "灵巧操作/双臂机器人",
+    "拣选打包组套收货",
+    "具身智能/物理AI",
+    "触觉传感+视觉+力控",
+    "仿真+域随机化训练",
+    "机器人即服务(潜在RaaS)"
+   ],
+   "archive": "companies/remy-ai.md",
+   "researched_at": "2026-07-07",
+   "research_status": "researched"
   },
   {
    "num": 304,
@@ -6864,12 +6884,32 @@
    "one_liner_zh": "自动化硬件采购的 AI 智能体",
    "tier": "A1",
    "triage_reason": "自动化硬件采购，采购域场景可进词典",
-   "status": "pending",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-07",
+   "funding": [],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "立创商城（元器件现货商城，中小硬件团队一站式采购）",
+    "云汉芯城（电子元器件 B2B 交易+供应链服务）",
+    "华秋（华秋商城/华强等，PCB+元器件+一站式电子制造供应链）"
+   ],
+   "scene_tags": [
+    "硬件采购自动化",
+    "BOM 管理",
+    "供应商协调",
+    "AI 采购智能体",
+    "供应链延误处理",
+    "ERP 集成",
+    "元器件寻源",
+    "跨境代工协调"
+   ],
+   "archive": "companies/reframe.md",
+   "researched_at": "2026-07-07",
+   "research_status": "researched"
   },
   {
    "num": 317,
@@ -7301,12 +7341,36 @@
    "one_liner_zh": "智能体与团队的协作工作空间",
    "tier": "A2",
    "triage_reason": "智能体与团队协作工作空间，人机协同层工程参照",
-   "status": "pending",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-07",
+   "funding": [],
+   "early_customers": [
+    {
+     "name": "多家世界 500 强企业（未具名）",
+     "confidence": "低",
+     "source_url": "https://silahq.com/"
+    }
+   ],
+   "cn_benchmarks": [
+    "钉钉 AI（AI 助理 / 数字员工，嵌入群聊与工作流）",
+    "飞书 AI（飞书智能伙伴，会话内 AI 协作与知识库联动）",
+    "企业微信 AI（智能机器人与会话内能力）"
+   ],
+   "scene_tags": [
+    "人机协同工作空间",
+    "团队协作 IM + Agent",
+    "常驻频道智能体",
+    "共享 AI 会话",
+    "企业上下文持续学习",
+    "跨工具自动执行"
+   ],
+   "archive": "companies/sila.md",
+   "researched_at": "2026-07-07",
+   "research_status": "researched"
   },
   {
    "num": 340,
@@ -7358,12 +7422,34 @@
    "one_liner_zh": "自我编写的 AI 自动化",
    "tier": "A2",
    "triage_reason": "自我编写的 AI 自动化，与 Autostep/loop 封装同构",
-   "status": "pending",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-07",
+   "funding": [],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "影刀 RPA / UiBot（来也）——桌面级流程自动化，但仍以人工录制/搭建流程为主",
+    "实在智能 TARS / 来也科技——RPA + Agent 融合方向",
+    "字节『扣子/Coze』、腾讯元器等 Agent 编排平台——低代码搭建 vs Cofia 的自动发现",
+    "钉钉/飞书的流程自动化与 AI 助手——观测协同数据生成自动化的思路可类比"
+   ],
+   "scene_tags": [
+    "流程自动化",
+    "RPA",
+    "AI Agent",
+    "桌面观测/行为挖掘",
+    "工作流发现",
+    "运营自动化",
+    "销售外联自动化",
+    "招聘流程自动化",
+    "无提示自动化"
+   ],
+   "archive": "companies/cofia.md",
+   "researched_at": "2026-07-07",
+   "research_status": "researched"
   },
   {
    "num": 343,
@@ -8117,12 +8203,68 @@
    "one_liner_zh": "面向人力与财务团队的 AI 数字员工",
    "tier": "A2",
    "triage_reason": "人力与财务 AI 数字员工平台，AI 员工方向",
-   "status": "pending",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B003"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-07",
+   "funding": [
+    {
+     "round": "Pre-Seed",
+     "amount": "约 $500K（据 PitchBook/Crunchbase 第三方聚合，官方未正式披露，供参考）",
+     "date": "2025",
+     "source_url": "https://pitchbook.com/profiles/company/1131628-78"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "Notion（Simon Tong, Head of Total Rewards 具名背书）",
+     "confidence": "中",
+     "source_url": "https://www.openroll.com/"
+    },
+    {
+     "name": "Planhat（Kaveh Rostampor, CEO 具名背书）",
+     "confidence": "中",
+     "source_url": "https://www.openroll.com/"
+    },
+    {
+     "name": "Mentimeter（Christian Finstad, CSO 具名背书）",
+     "confidence": "中",
+     "source_url": "https://www.openroll.com/"
+    },
+    {
+     "name": "Wallenstam（Sandra Strindeborn, Head of HR 具名背书）",
+     "confidence": "中",
+     "source_url": "https://www.openroll.com/"
+    },
+    {
+     "name": "Truecaller / Hebbia / Flock / Marshall / Viaplay 等（官网 logo 墙列出，未具名个人背书）",
+     "confidence": "低",
+     "source_url": "https://www.openroll.com/"
+    }
+   ],
+   "cn_benchmarks": [
+    "北森（HR SaaS 一体化，含薪酬/绩效模块，对标其向 AI 数字员工延伸的方向）",
+    "薪人薪事（薪酬与人力数据，最贴近 Openroll 的薪酬+人力数据定位）",
+    "汇联易（费用/财务共享数字员工，对标其财务侧自动化审计工作流）",
+    "薪酬情报可另参考：Moka、盖雅工场（劳动力管理）——国内尚无逐公司竞对薪资情报的直接对标"
+   ],
+   "scene_tags": [
+    "薪酬情报",
+    "定薪决策",
+    "竞对薪资 benchmarking",
+    "编制/人头规划",
+    "预算跟踪",
+    "HR 数字员工",
+    "财务数字员工",
+    "ERP/HRIS/ATS 打通",
+    "可审计工作流",
+    "总薪酬（Total Rewards）"
+   ],
+   "archive": "companies/openroll.md",
+   "researched_at": "2026-07-07",
+   "research_status": "researched"
   },
   {
    "num": 380,
@@ -9204,12 +9346,56 @@
    "one_liner_zh": "面向汽车经销商的 AI 来电处理",
    "tier": "A1",
    "triage_reason": "汽车经销商 AI 来电处理，汽车后市场运营",
-   "status": "pending",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B003"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-07",
+   "funding": [
+    {
+     "round": "Pre-seed / 早期",
+     "amount": "$500K",
+     "date": "2025",
+     "source_url": "https://pitchbook.com/profiles/company/962132-77"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "McGovern Auto Group（Newton, New England）",
+     "confidence": "中",
+     "source_url": "https://www.autoace.ai/case-studies"
+    },
+    {
+     "name": "Lexington Toyota（Massachusetts）",
+     "confidence": "中",
+     "source_url": "https://www.autoace.ai/case-studies"
+    },
+    {
+     "name": "Bonnell Ford（Massachusetts）",
+     "confidence": "中",
+     "source_url": "https://www.autoace.ai/case-studies"
+    }
+   ],
+   "cn_benchmarks": [
+    "汽车经销/后市场 AI 外呼与智能客服：容联云、思必驰、追一科技等在汽车 4S/售后场景的 AI 电话/语音机器人",
+    "汽车行业 SCRM + 智能外呼：如网易七鱼、天润融通面向 4S 店的呼叫中心 AI 化",
+    "整车厂/经销商集团自建的智能客服与保养召回外呼系统（缺公开对标点名，以行业方案商为主）"
+   ],
+   "scene_tags": [
+    "AI语音接待",
+    "来电不漏接",
+    "预约排程自动化",
+    "外呼营销/召回提醒",
+    "多语言客服",
+    "DMS/CRM回写",
+    "汽车后市场",
+    "服务部门AI化",
+    "垂直行业AI操作系统"
+   ],
+   "archive": "companies/autoace.md",
+   "researched_at": "2026-07-07",
+   "research_status": "researched"
   },
   {
    "num": 437,
@@ -9850,12 +10036,91 @@
    "one_liner_zh": "面向建筑与光伏的自动化采购",
    "tier": "A1",
    "triage_reason": "建筑与光伏自动化采购，采购/供应链",
-   "status": "pending",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B003"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-07",
+   "funding": [
+    {
+     "round": "YC 标准 deal（Fall 2025 批次）",
+     "amount": "约 50 万美元（YC 标准 $500K SAFE，未经一手确认）",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/helonic"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "Barnhill Contracting",
+     "confidence": "中",
+     "source_url": "https://helonic.com"
+    },
+    {
+     "name": "Swinerton",
+     "confidence": "中",
+     "source_url": "https://helonic.com"
+    },
+    {
+     "name": "Whiting-Turner",
+     "confidence": "中",
+     "source_url": "https://helonic.com"
+    },
+    {
+     "name": "LS Black Constructors",
+     "confidence": "中",
+     "source_url": "https://helonic.com"
+    },
+    {
+     "name": "Omni Structural",
+     "confidence": "中",
+     "source_url": "https://helonic.com"
+    },
+    {
+     "name": "Lema Construction",
+     "confidence": "中",
+     "source_url": "https://helonic.com"
+    },
+    {
+     "name": "Urban Core",
+     "confidence": "中",
+     "source_url": "https://helonic.com"
+    },
+    {
+     "name": "Johnson Pace",
+     "confidence": "中",
+     "source_url": "https://helonic.com"
+    },
+    {
+     "name": "Archi Group of Builders",
+     "confidence": "低",
+     "source_url": "https://helonic.com"
+    },
+    {
+     "name": "LMG Ventures",
+     "confidence": "低",
+     "source_url": "https://helonic.com"
+    }
+   ],
+   "cn_benchmarks": [
+    "广联达（建筑工程造价/BIM/施工协同龙头，最接近的图纸/工程数据平台对标）",
+    "品茗股份（BIM 与施工安全/图纸审查工具）",
+    "鲁班软件（BIM 与工程算量）",
+    "光伏 EPC 采购/供应链侧对标：正泰、天合光能等一体化 EPC 的项目采购数字化，及震坤行等工业品 MRO 采购平台（对应 Articulate 早期‘自动化采购’设想）"
+   ],
+   "scene_tags": [
+    "施工图审查",
+    "跨专业碰撞检测",
+    "RFI自动生成",
+    "工程返工预防",
+    "光伏EPC设计协同",
+    "AEC工作流自动化",
+    "工程采购自动化",
+    "施工班组沟通agent"
+   ],
+   "archive": "companies/articulate.md",
+   "researched_at": "2026-07-07",
+   "research_status": "researched"
   },
   {
    "num": 471,
@@ -10126,12 +10391,51 @@
    "one_liner_zh": "面向货代的 AI 数字员工",
    "tier": "A1",
    "triage_reason": "面向货代的 AI 数字员工，物流货代",
-   "status": "pending",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B003"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-07",
+   "funding": [
+    {
+     "round": "YC F25（标准投资）",
+     "amount": "未披露具体条款（YC 标准为 $500K）",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/lunavo"
+    },
+    {
+     "round": "非稀释性资助：EXIST Gründerstipendium + 德国经济部（Wirtschaftsministerium）支持",
+     "amount": "未披露",
+     "date": "未披露",
+     "source_url": "https://www.lunavo.ai/?lang=en"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "某联运货代（intermodal forwarder，未具名）",
+     "confidence": "中",
+     "source_url": "https://www.lunavo.ai/?lang=en"
+    }
+   ],
+   "cn_benchmarks": [
+    "运去哪（国际货代/跨境物流数字化平台）",
+    "YQN 运去那/云通（国际物流数字货代平台）",
+    "大件运输与货代 SaaS：oTMS、易流、G7 等物流数字化厂商的运营自动化模块"
+   ],
+   "scene_tags": [
+    "货代后台自动化",
+    "订单录入/建单（邮件·PDF·门户解析）",
+    "TMS 数据回填",
+    "运价报价与调度比价",
+    "运费账单稽核",
+    "在途状态客服代答",
+    "异常处理（滞期/BOL/错送）",
+    "AI 数字员工替代运营人力"
+   ],
+   "archive": "companies/lunavo.md",
+   "researched_at": "2026-07-07",
+   "research_status": "researched"
   },
   {
    "num": 482,
@@ -10354,12 +10658,87 @@
    "one_liner_zh": "AI 驱动的铝板供应商",
    "tier": "A1",
    "triage_reason": "AI 驱动的铝板供应商，AI 原生工业材料供应",
-   "status": "pending",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B004"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-07",
+   "funding": [
+    {
+     "round": "Seed",
+     "amount": "$11.5M",
+     "date": "2026-06 (announced)",
+     "source_url": "https://noxmetals.co/blog/nox-metals-seed-round"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "Stoke Space",
+     "confidence": "高",
+     "source_url": "https://noxmetals.co/"
+    },
+    {
+     "name": "Reflect Orbital",
+     "confidence": "高",
+     "source_url": "https://noxmetals.co/"
+    },
+    {
+     "name": "Heart Aerospace",
+     "confidence": "高",
+     "source_url": "https://noxmetals.co/"
+    },
+    {
+     "name": "Safran",
+     "confidence": "高",
+     "source_url": "https://noxmetals.co/"
+    },
+    {
+     "name": "Sharrow Marine",
+     "confidence": "高",
+     "source_url": "https://noxmetals.co/"
+    },
+    {
+     "name": "Mac Mold",
+     "confidence": "高",
+     "source_url": "https://noxmetals.co/"
+    },
+    {
+     "name": "Northwood",
+     "confidence": "高",
+     "source_url": "https://noxmetals.co/"
+    },
+    {
+     "name": "Anduril",
+     "confidence": "中",
+     "source_url": "https://app.dealroom.co/news/note/nox-metals-raises-11-5m-seed-to-build-ai-run-metals-factories"
+    },
+    {
+     "name": "SpaceX",
+     "confidence": "中",
+     "source_url": "https://app.dealroom.co/news/note/nox-metals-raises-11-5m-seed-to-build-ai-run-metals-factories"
+    }
+   ],
+   "cn_benchmarks": [
+    "钢银电商（钢铁 B2B 电商 + 仓储加工配送一体化）",
+    "欧冶云商（宝武旗下钢铁产业互联网，交易+加工配送+供应链金融）",
+    "找钢网（钢铁撮合/自营电商，标准化在线交易与物流协同）"
+   ],
+   "scene_tags": [
+    "金属材料数字化分销",
+    "即时在线报价（instant quote）",
+    "料单/零件规格 AI 解析",
+    "自动化下料切割（robotic cutting line）",
+    "下料路径优化 / bin-packing",
+    "ML 排产与工时预测",
+    "预测性库存",
+    "次日交付 / 短交期履约",
+    "垂直整合自建工厂",
+    "美国再工业化 / 供应链国产化"
+   ],
+   "archive": "companies/nox-metals.md",
+   "researched_at": "2026-07-07",
+   "research_status": "researched"
   },
   {
    "num": 494,

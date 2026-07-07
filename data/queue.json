@@ -183,28 +183,28 @@
    "slug": "remy-ai",
    "name": "Remy Ai",
    "tier": "A1",
-   "status": "pending",
+   "status": "reviewed",
    "priority": 99
   },
   {
    "slug": "reframe",
    "name": "Reframe",
    "tier": "A1",
-   "status": "pending",
+   "status": "reviewed",
    "priority": 99
   },
   {
    "slug": "sila",
    "name": "Sila",
    "tier": "A2",
-   "status": "pending",
+   "status": "reviewed",
    "priority": 99
   },
   {
    "slug": "cofia",
    "name": "Cofia",
    "tier": "A2",
-   "status": "pending",
+   "status": "reviewed",
    "priority": 99
   },
   {
@@ -225,14 +225,14 @@
    "slug": "openroll",
    "name": "Openroll",
    "tier": "A2",
-   "status": "pending",
+   "status": "reviewed",
    "priority": 99
   },
   {
    "slug": "autoace",
    "name": "AutoAce",
    "tier": "A1",
-   "status": "pending",
+   "status": "reviewed",
    "priority": 99
   },
   {
@@ -246,7 +246,7 @@
    "slug": "articulate",
    "name": "Articulate",
    "tier": "A1",
-   "status": "pending",
+   "status": "reviewed",
    "priority": 99
   },
   {
@@ -260,14 +260,14 @@
    "slug": "lunavo",
    "name": "Lunavo",
    "tier": "A1",
-   "status": "pending",
+   "status": "reviewed",
    "priority": 99
   },
   {
    "slug": "nox-metals",
    "name": "Nox Metals",
    "tier": "A1",
-   "status": "pending",
+   "status": "reviewed",
    "priority": 99
   },
   {
