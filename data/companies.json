@@ -9428,12 +9428,46 @@
    "one_liner_zh": "物流运营的数字同事",
    "tier": "A1",
    "triage_reason": "物流运营数字同事，物流域",
-   "status": "pending",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B003"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-07",
+   "funding": [
+    {
+     "round": "YC Fall 2025 + seed（具体总额未确认，第三方聚合站数据相互矛盾，见 sources 中 Extruct 标 $500K 而标题写 $1M，均无一手来源）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/prox"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "ShipBob（独角兽 3PL，年处理 1 亿+包裹）",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/prox"
+    }
+   ],
+   "cn_benchmarks": [
+    "G7易流（货运物联网/运营数字化）",
+    "满帮（货运匹配平台，物流数字化）",
+    "oTMS（运输管理 SaaS）",
+    "售后/技术支持方向国内对标：智齿科技、容联七陌等客服/售后 AI（更贴近其当前『手册知识底座售后支持』形态）"
+   ],
+   "scene_tags": [
+    "复杂实体产品售后支持",
+    "说明书/手册知识底座(RAG)",
+    "现场服务(field service)",
+    "经销商门户助手",
+    "承运商理赔自动化",
+    "3PL/履约运营数字劳动力",
+    "多模态agent(接线图/CAD/现场视频/语音)",
+    "MCP接入(ChatGPT/Claude/Copilot/Gemini)"
+   ],
+   "archive": "companies/prox.md",
+   "researched_at": "2026-07-07",
+   "research_status": "researched"
   },
   {
    "num": 439,
