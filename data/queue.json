@@ -176,7 +176,7 @@
    "slug": "servo7",
    "name": "Servo7",
    "tier": "A1",
-   "status": "pending",
+   "status": "reviewed",
    "priority": 99
   },
   {
@@ -211,14 +211,14 @@
    "slug": "squid",
    "name": "Squid",
    "tier": "A1",
-   "status": "pending",
+   "status": "reviewed",
    "priority": 99
   },
   {
    "slug": "hlabs",
    "name": "Hlabs",
    "tier": "A1",
-   "status": "pending",
+   "status": "reviewed",
    "priority": 99
   },
   {
@@ -281,7 +281,7 @@
    "slug": "getburnt",
    "name": "Getburnt",
    "tier": "A1",
-   "status": "pending",
+   "status": "reviewed",
    "priority": 99
   },
   {

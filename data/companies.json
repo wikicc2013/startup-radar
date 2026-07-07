@@ -6565,12 +6565,43 @@
    "one_liner_zh": "简单、快速部署的工业机器人",
    "tier": "A1",
    "triage_reason": "快速部署工业机器人，工厂自动化硬场景",
-   "status": "pending",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-07",
+   "funding": [
+    {
+     "round": "Seed (YC)",
+     "amount": "约 500K 美元（多家聚合数据库记为 YC 标准 seed，2026-01；金额未见官方独立披露，谨慎采用）",
+     "date": "2026-01",
+     "source_url": "https://tracxn.com/d/companies/servo7/__HzDxH0REQJH24VIu6qXCiSRUC66_aeAL4KocW5jbFHM/funding-and-investors"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "埃斯顿（工业机器人/伺服系统本体）",
+    "埃夫特（工业机器人本体）",
+    "节卡机器人（协作机器人）",
+    "珞石机器人（协作/工业机器人）",
+    "梅卡曼德 Mech-Mind（3D 视觉+AI 拆码垛/上下料，最接近 Servo7 的『视觉+AI 少示教』路线）",
+    "非夕 Flexiv（自适应力控机器人，具身智能路线对标）"
+   ],
+   "scene_tags": [
+    "仓储物流自动化",
+    "拆散装集装箱/卸货",
+    "码垛/拆垛",
+    "上下料搬运",
+    "3PL/电商履约",
+    "具身智能/轮式人形",
+    "少样本示教学习",
+    "在岗持续学习",
+    "免改造快速部署"
+   ],
+   "archive": "companies/servo7.md",
+   "researched_at": "2026-07-07",
+   "research_status": "researched"
   },
   {
    "num": 303,
@@ -7441,12 +7472,45 @@
    "one_liner_zh": "浏览器里的 AI 电网规划",
    "tier": "A1",
    "triage_reason": "浏览器里的 AI 电网规划，能源基础设施 AI 化",
-   "status": "pending",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-07",
+   "funding": [],
+   "early_customers": [
+    {
+     "name": "National Grid Electricity Distribution（DSO）",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/launches/PHP-squid-ai-powered-grid-planning-in-your-browser"
+    },
+    {
+     "name": "Octopus Energy（Flexibility Markets 负责人证言，早期用户/背书）",
+     "confidence": "低",
+     "source_url": "https://www.squid.energy/"
+    }
+   ],
+   "cn_benchmarks": [
+    "国电南瑞（电网自动化/调度与规划软件龙头）",
+    "远光软件（电力企业数字化）",
+    "朗新科技（能源数字化/电力营销与用能服务）",
+    "东方电子（电网自动化）",
+    "恒华科技（电网规划设计与 GIS 平台）"
+   ],
+   "scene_tags": [
+    "电网规划",
+    "能源数字化",
+    "配电网/输电网建模",
+    "并网接入管理",
+    "GIS 电网数据统一",
+    "版本化数字孪生",
+    "AI Agent 工作流",
+    "公用事业 SaaS"
+   ],
+   "archive": "companies/squid.md",
+   "researched_at": "2026-07-07",
+   "research_status": "researched"
   },
   {
    "num": 349,
@@ -7783,12 +7847,35 @@
    "one_liner_zh": "在美国本土打造机器人制造供应链",
    "tier": "A1",
    "triage_reason": "美国本土机器人制造供应链，制造回流宏观信号",
-   "status": "pending",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-07",
+   "funding": [],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "绿的谐波（谐波减速器龙头，机器人核心零部件）",
+    "汇川技术（伺服系统/驱动器）",
+    "埃斯顿（伺服+机器人本体，一体化关节模组）",
+    "步科/昊志机电（电机/关节执行器方向）",
+    "宇树科技（四足/人形机器人整机与自研执行器，需求侧对标）"
+   ],
+   "scene_tags": [
+    "机器人核心零部件",
+    "关节执行器/一体化关节模组",
+    "减速器（行星/摆线）",
+    "伺服与FOC电机驱动",
+    "本土化供应链/去中国化",
+    "人形机器人",
+    "四足机器人",
+    "机器人开发套件",
+    "国防机器人"
+   ],
+   "archive": "companies/hlabs.md",
+   "researched_at": "2026-07-07",
+   "research_status": "researched"
   },
   {
    "num": 367,
@@ -10419,12 +10506,49 @@
    "one_liner_zh": "食品分销的 AI 智能体",
    "tier": "A1",
    "triage_reason": "食品分销 AI 智能体，分销物流",
-   "status": "pending",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B004"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-07",
+   "funding": [
+    {
+     "round": "Seed 种子轮",
+     "amount": "$3.8M（380 万美元）",
+     "date": "2025-09-25",
+     "source_url": "https://www.prnewswire.com/news-releases/burnt-raises-3-8m-in-seed-funding-to-accelerate-food-supply-chain-302567414.html"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "La Tua Pasta",
+     "confidence": "高",
+     "source_url": "https://www.prnewswire.com/news-releases/burnt-raises-3-8m-in-seed-funding-to-accelerate-food-supply-chain-302567414.html"
+    },
+    {
+     "name": "肉类、海鲜、特色食材品类的头部/独立食品分销商（未具名）",
+     "confidence": "中",
+     "source_url": "https://theaiinsider.tech/2025/10/08/burnt-secures-3-8m-in-seed-funding-to-accelerate-food-supply-chain/"
+    }
+   ],
+   "cn_benchmarks": [
+    "美菜网（餐饮食材 B2B 分销）",
+    "蜀海供应链（餐饮供应链/中央厨房）",
+    "美团快驴（餐饮商户食材采购）",
+    "望家欢/宋小菜等生鲜食材分销与供应链平台"
+   ],
+   "scene_tags": [
+    "食品分销订单自动化",
+    "多渠道来单智能识别（邮件/电话/传真/WhatsApp）",
+    "订单录入 ERP 集成",
+    "餐饮供应链 B2B",
+    "岗位级 AI 智能体替代",
+    "legacy ERP 之上叠加智能体"
+   ],
+   "archive": "companies/getburnt.md",
+   "researched_at": "2026-07-07",
+   "research_status": "researched"
   },
   {
    "num": 501,
