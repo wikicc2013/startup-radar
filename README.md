@@ -1,4 +1,4 @@
-# startup-radar · 新锐 AI 创业公司档案库
+# startup-radar · AI青梅—创业公司数据库
 
 清单进，档案出。GitHub 仓库即数据库，本地 Claude Code 是研究引擎，看板是你的"IT桔子"。
 
