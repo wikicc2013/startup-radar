@@ -17819,12 +17819,63 @@
    "one_liner_zh": "面向经销商的 AI 报价与订单自动化",
    "tier": "A1",
    "triage_reason": "经销商 AI 报价与订单自动化，工业分销",
-   "status": "pending",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-07",
+   "funding": [
+    {
+     "round": "Seed",
+     "amount": "$2.1M+",
+     "date": "2025-12-29",
+     "source_url": "https://www.startbase.com/news/ki-startup-mercura-sammelt-ueber-21-millionen-us-dollar-ein/"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "Bauder",
+     "confidence": "中",
+     "source_url": "https://www.startbase.com/news/ki-startup-mercura-sammelt-ueber-21-millionen-us-dollar-ein/"
+    },
+    {
+     "name": "Reisser AG",
+     "confidence": "中",
+     "source_url": "https://www.startbase.com/news/ki-startup-mercura-sammelt-ueber-21-millionen-us-dollar-ein/"
+    },
+    {
+     "name": "Siteco",
+     "confidence": "中",
+     "source_url": "https://www.startbase.com/news/ki-startup-mercura-sammelt-ueber-21-millionen-us-dollar-ein/"
+    },
+    {
+     "name": "BME Group（含 BAUKING、SHK Deutschland）",
+     "confidence": "中",
+     "source_url": "https://www.startbase.com/news/ki-startup-mercura-sammelt-ueber-21-millionen-us-dollar-ein/"
+    }
+   ],
+   "cn_benchmarks": [
+    "工业品分销报价/CPQ：震坤行、西域（工品汇）等 MRO 平台的报价与订单履约",
+    "国产 CPQ 与销售报价工具：销售易/纷享销客 CPQ 模块、数商云、商越（工业品采购）报价引擎",
+    "订单自动化/OCR 单据解析：合合信息（TextIn）、来也/实在智能 RPA 做的询价单-ERP 录入自动化",
+    "建材/机电分销 ERP 侧：用友/金蝶行业版 + 智能报价插件"
+   ],
+   "scene_tags": [
+    "报价自动化",
+    "RFQ处理",
+    "非结构化单据解析",
+    "产品目录匹配",
+    "ERP自动录入",
+    "CPQ",
+    "工业分销",
+    "建材机电分销",
+    "语音AI坐席",
+    "订单自动化"
+   ],
+   "archive": "companies/mercura.md",
+   "researched_at": "2026-07-07",
+   "research_status": "researched"
   },
   {
    "num": 803,
@@ -17895,12 +17946,40 @@
    "one_liner_zh": "面向专业工作的智能体团队",
    "tier": "A2",
    "triage_reason": "面向专业工作的智能体团队，AI 员工",
-   "status": "pending",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-07",
+   "funding": [
+    {
+     "round": "早期（种子/预种子，具体轮次名未直接核实）",
+     "amount": "约 US$500K（第三方数据库口径，未获官方确认）",
+     "date": "2025-02-28",
+     "source_url": "https://www.crunchbase.com/organization/tamlabs"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "多智能体/数字员工方向：面向专业服务的国内对标可参考「实在智能」「澜码科技」等 Agent 平台，但尚无专攻投行/PE/法律高端文档交付的直接对标",
+    "法律/专业文书 AI：可类比法律大模型与合同审查类产品（如智谱/百川生态下的法律应用、幂律智能 MegaTron 类合同智能）",
+    "投研/尽调 AI：可类比面向金融机构的智能投研助手（如同花顺问财、部分券商内部研报 Agent）"
+   ],
+   "scene_tags": [
+    "多智能体团队",
+    "专业服务AI",
+    "数字员工/AI交付",
+    "尽职调查自动化",
+    "投研与M&A",
+    "法律文书/合同红线",
+    "Word文档AI编辑",
+    "管理咨询辅助",
+    "SOC2企业级"
+   ],
+   "archive": "companies/tamlabs.md",
+   "researched_at": "2026-07-07",
+   "research_status": "researched"
   },
   {
    "num": 807,
@@ -18066,12 +18145,45 @@
    "one_liner_zh": "面向运营的 AI 软件工厂",
    "tier": "A2",
    "triage_reason": "面向运营的 AI 软件工厂，流程自动化",
-   "status": "pending",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-07",
+   "funding": [
+    {
+     "round": "Seed / YC W25",
+     "amount": "未确认（聚合站口径互相冲突：Tracxn 记 50 万美元、StartupHub 记 400 万美元，均无一手来源；YC 标准投资通常为可转换票据形式，官方未披露具体金额）",
+     "date": "2025-02-27（Tracxn 记录的最近一轮日期，未经一手核实）",
+     "source_url": "https://tracxn.com/d/companies/rebolt/__xKCdok7aKe2Bg_f3mSwpsKJnE3_2i0-YXBdrwm7w4KU"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "Burger King 母公司（Restaurant Brands International，媒体未点名具体主体）",
+     "confidence": "低",
+     "source_url": "https://techcrunch.com/2025/03/13/10-startups-to-watch-from-y-combinators-w25-demo-day/"
+    }
+   ],
+   "cn_benchmarks": [
+    "低代码/内部工具搭建：阿里宜搭、腾讯微搭、明道云、简道云、氚云",
+    "企业 AI 应用/Agent 平台：字节扣子（Coze）、腾讯元器、百度千帆 AppBuilder",
+    "「软件工厂」/AI 生成应用：钉钉 AI 助理搭建、飞书多维表格+AI，以及面向企业的 aPaaS 厂商"
+   ],
+   "scene_tags": [
+    "AI 内部工具生成",
+    "对话式建应用",
+    "企业 AI 运营系统",
+    "数据统一/AI 大脑(Holocron)",
+    "制造业报价与生产排程",
+    "餐饮库存与供应商自动化",
+    "低代码替代/去 SaaS 化",
+    "企业级权限与审计治理"
+   ],
+   "archive": "companies/rebolt.md",
+   "researched_at": "2026-07-07",
+   "research_status": "researched"
   },
   {
    "num": 816,
@@ -19107,12 +19219,40 @@
    "one_liner_zh": "面向工业工程的 AI 智能体",
    "tier": "A1",
    "triage_reason": "面向工业工程的 AI 智能体，工业工程",
-   "status": "pending",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-07",
+   "funding": [
+    {
+     "round": "Pre-Seed",
+     "amount": "未披露",
+     "date": "未披露",
+     "source_url": "https://www.crunchbase.com/organization/macadamia"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "工业软件/工艺仿真国产替代方向：安世亚太（PERA，仿真+工业互联网）",
+    "CAE/结构仿真国产厂商：云道智造（Simdroid 国产通用仿真平台）",
+    "EPC 工程数字化/设计院数字化：广联达（工程建造软件）、中望软件（中望CAD/CAE，国产CAD替代）",
+    "工业工程/工艺仿真与数字孪线方向：数码大方 CAXA（工艺+CAD）"
+   ],
+   "scene_tags": [
+    "工业工程IE",
+    "机械设计错误检查",
+    "工艺仿真/CAE",
+    "EPC工程文档核对",
+    "CAD图纸自动生成与尺寸校核",
+    "P&ID工艺流程图一致性检查",
+    "工程知识断层弥合",
+    "AI工程智能体"
+   ],
+   "archive": "companies/macadamia.md",
+   "researched_at": "2026-07-07",
+   "research_status": "researched"
   },
   {
    "num": 866,
@@ -19164,12 +19304,40 @@
    "one_liner_zh": "面向沥青裂缝灌封的自主机器人",
    "tier": "A1",
    "triage_reason": "沥青裂缝灌封自主机器人，道路设备维护",
-   "status": "pending",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-07",
+   "funding": [
+    {
+     "round": "Seed",
+     "amount": "$5,000,000",
+     "date": "2025-04-02",
+     "source_url": "https://www.trysignalbase.com/news/funding/pave-robotics-secures-5m-seed-funding-to-revolutionize-road-repairs-with-robotics"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "道路养护机器人 / 智慧养护装备方向：中公高科、达刻（DACHE）等公路检测与养护装备厂商",
+    "工程机械自动化 / 无人化施工：三一重工、徐工（XCMG）、中联重科的无人压路机/无人摊铺机等自动驾驶筑养路机械",
+    "路面裂缝智能检测：基于机器视觉的路面病害巡检（多家高校与养护科技公司在做，但『检测+自动灌封一体化机器人』国内尚少成熟商业化对标）"
+   ],
+   "scene_tags": [
+    "道路养护",
+    "沥青裂缝灌封",
+    "自主移动机器人(AMR)",
+    "户外非结构化环境作业",
+    "机器视觉缺陷检测",
+    "热熔胶精密施加",
+    "基建维护自动化",
+    "替代高危/缺工工种",
+    "24/7 无人化作业"
+   ],
+   "archive": "companies/pave-robotics.md",
+   "researched_at": "2026-07-07",
+   "research_status": "researched"
   },
   {
    "num": 869,
@@ -19584,12 +19752,72 @@
    "one_liner_zh": "面向经销商与 OEM 的运营 AI",
    "tier": "A1",
    "triage_reason": "面向经销商与 OEM 的运营 AI，工业分销/OEM",
-   "status": "pending",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-07",
+   "funding": [
+    {
+     "round": "Seed",
+     "amount": "$5M（累计融资约 $6.3M）",
+     "date": "2025-10-28",
+     "source_url": "https://www.vestbee.com/insights/articles/sales-patriot-raises-5-m"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "Jamaica Bearings Group",
+     "confidence": "中",
+     "source_url": "https://piraiee.com/blog/salespatriot-joins-polands-elite-yc-alumni"
+    },
+    {
+     "name": "AllClear Aerospace",
+     "confidence": "中",
+     "source_url": "https://piraiee.com/blog/salespatriot-joins-polands-elite-yc-alumni"
+    },
+    {
+     "name": "STATZ Corporation",
+     "confidence": "中",
+     "source_url": "https://piraiee.com/blog/salespatriot-joins-polands-elite-yc-alumni"
+    },
+    {
+     "name": "Echelon Supply & Service（官网案例：投标量提升 283%）",
+     "confidence": "中",
+     "source_url": "https://salespatriot.com/"
+    },
+    {
+     "name": "FDH（官网案例）",
+     "confidence": "中",
+     "source_url": "https://salespatriot.com/"
+    },
+    {
+     "name": "Maven Engineering Corporation（官网战略合作）",
+     "confidence": "低",
+     "source_url": "https://salespatriot.com/"
+    }
+   ],
+   "cn_benchmarks": [
+    "工业品分销数字化 / MRO 电商：震坤行工业超市（工业用品一站式供应链，报价—寻源—采购数字化）",
+    "国联股份（多多电商，工业品 B2B 撮合与供应链交易平台）",
+    "上海钢联 / 我的钢铁网（大宗工业品行情与供应链数据）",
+    "OEM 报价与订单协同：鼎捷、金蝶/用友的制造 ERP + 报价（CPQ）模块；行业内的 SRM 供应商协同平台（如企企通、甄云 SRM）"
+   ],
+   "scene_tags": [
+    "工业分销运营AI",
+    "RFQ自动报价",
+    "采购与PO自动化",
+    "国防航空航天供应链",
+    "碎片化数据聚合",
+    "供应商协同",
+    "前置部署工程师(FDE)",
+    "报价提速7倍",
+    "赢单率与毛利分析"
+   ],
+   "archive": "companies/salespatriot.md",
+   "researched_at": "2026-07-07",
+   "research_status": "researched"
   },
   {
    "num": 891,
@@ -19869,12 +20097,40 @@
    "one_liner_zh": "面向供应链自动化的零代码 AI 工作流",
    "tier": "A1",
    "triage_reason": "供应链自动化零代码 AI 工作流，供应链",
-   "status": "pending",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-07",
+   "funding": [
+    {
+     "round": "YC 标准投资（Pre-seed/Seed）",
+     "amount": "500,000 美元",
+     "date": "2025",
+     "source_url": "https://tracxn.com/d/companies/ovlo/__jBZjf4iXJnqfX_OoemkWvLkLPlRvUyFxSH1UOQs-kcw"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "无代码 iPaaS / 集成自动化：阿里云集成平台、腾讯 iPaaS、轻流、简道云、氚云（低代码/工作流自动化）",
+    "供应链单据智能与 AP 自动化：合思（原易快报）、每刻、云单（发票/单据识别自动化）",
+    "供应链计划与需求预测：杉数科技、联想择数、聚水潭（电商供应链）、旭日蓝天等供应链 SaaS"
+   ],
+   "scene_tags": [
+    "供应链自动化",
+    "无代码/零代码 AI Agent",
+    "发票与单据智能识别",
+    "ERP 数据回写(NetSuite/SAP/Dynamics)",
+    "需求预测",
+    "对账/发票核对",
+    "库存优化",
+    "合规校验",
+    "human-in-the-loop 异常路由"
+   ],
+   "archive": "companies/ovlo.md",
+   "researched_at": "2026-07-07",
+   "research_status": "researched"
   },
   {
    "num": 906,
@@ -20040,12 +20296,40 @@
    "one_liner_zh": "AI 驱动的可再生能源开发",
    "tier": "A1",
    "triage_reason": "AI 驱动的可再生能源开发，能源",
-   "status": "pending",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-07",
+   "funding": [
+    {
+     "round": "Pre-Seed / YC 标准投资",
+     "amount": "约 500,000 美元（第三方数据平台 Crunchbase 摘要口径，标注 2025-03-12 来自 Y Combinator；金额与 YC 标准 deal 一致，疑为 YC 标准投资而非独立外部轮，未见官方独立确认）",
+     "date": "2025-03-12",
+     "source_url": "https://www.crunchbase.com/organization/astro-fb19"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "新能源开发前期选址/资源评估：金开新能、太阳能（中环/中节能太阳能）等电站开发商的前期开发团队",
+    "光伏/风电电站开发与并网咨询：三峡新能源、龙源电力等的项目前期与并网接入环节",
+    "能源数字化/电网仿真选址：远景能源 EnOS、国能日新（新能源功率预测）、朗新科技等能源数字化玩家",
+    "土地 + 并网资源整合的分布式/集中式电站开发商（如正泰安能、天合光能的电站开发业务）"
+   ],
+   "scene_tags": [
+    "AI 选址",
+    "电网并网成本预测",
+    "电网拥堵/interconnection 建模",
+    "可再生能源前期开发",
+    "太阳能+储能项目开发",
+    "土地资源获取",
+    "development-ready 项目转让",
+    "ERCOT 电力市场"
+   ],
+   "archive": "companies/astro.md",
+   "researched_at": "2026-07-07",
+   "research_status": "researched"
   },
   {
    "num": 915,
@@ -20059,12 +20343,40 @@
    "one_liner_zh": "面向电网运营商的遥测转事件引擎",
    "tier": "A1",
    "triage_reason": "面向电网运营商的遥测转事件引擎，能源电网",
-   "status": "pending",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-07",
+   "funding": [
+    {
+     "round": "Seed / YC",
+     "amount": "US$500K（YC 标准投资，公开数据库口径）",
+     "date": "2025-03-02",
+     "source_url": "https://tracxn.com/d/companies/dartboard-energy/__pDN9cVp9VjJErcOOaGqsdioY49bAausgMMm99EDQCiw/funding-and-investors"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "国电南瑞（电网自动化与调度、新能源并网监控）",
+    "远光软件（能源电力数字化、合规与经营分析）",
+    "朗新科技（能源营销/电力市场侧数字化）",
+    "国网系电力调度/AVC/AGC 与储能 EMS 厂商（如南瑞继保、许继等，对应告警合并与调度分析）"
+   ],
+   "scene_tags": [
+    "遥测转事件",
+    "告警降噪/合并（50告警→1事件）",
+    "根因分析",
+    "可审计合规记录",
+    "电网侧储能BMS/PCS监控",
+    "电力批发市场分析（ERCOT）",
+    "漏收收益挖掘",
+    "监管规则AI解读"
+   ],
+   "archive": "companies/dartboard-energy.md",
+   "researched_at": "2026-07-07",
+   "research_status": "researched"
   },
   {
    "num": 916,
@@ -20382,12 +20694,39 @@
    "one_liner_zh": "面向电子产品翻新的 AI 与机器人",
    "tier": "A1",
    "triage_reason": "面向电子产品翻新的 AI 与机器人，再制造",
-   "status": "pending",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-07",
+   "funding": [
+    {
+     "round": "Seed",
+     "amount": "$500K（另有 tracxn/startupintros 二手数据称累计约 $4.12M，与官方可锚定信息冲突，存疑，未获一手证实）",
+     "date": "2025-03-01",
+     "source_url": "https://startupintros.com/orgs/revise-robotics"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "爱回收（万物新生 ATRenew）——二手 3C 回收 + 自动化质检定级 + 转售，最接近的国内对标",
+    "闪回科技（闪回收）——手机 3C 回收与 B 端供应链，回收-翻新-分销链路对标",
+    "格林美 / 华新绿源等电子废弃物拆解再利用企业——e-waste 侧对标（偏材料回收而非整机翻新）"
+   ],
+   "scene_tags": [
+    "电子废弃物回收",
+    "3C/笔记本翻新",
+    "IT 资产处置(ITAD)",
+    "机器视觉质检定级",
+    "数据擦除合规",
+    "二手电子转售自动化",
+    "循环经济",
+    "翻新产线机器人自动化"
+   ],
+   "archive": "companies/revise-robotics.md",
+   "researched_at": "2026-07-07",
+   "research_status": "researched"
   },
   {
    "num": 933,
@@ -20876,12 +21215,39 @@
    "one_liner_zh": "面向航空维修(MRO)的 AI 操作系统",
    "tier": "A1",
    "triage_reason": "面向航空维修(MRO)的 AI 操作系统，设备维护",
-   "status": "pending",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B007"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-07",
+   "funding": [
+    {
+     "round": "Seed",
+     "amount": "约 500K 美元（第三方数据库 Tracxn 口径，置信度中；具体金额部分未披露，公开可确认投资方为 Y Combinator）",
+     "date": "2024",
+     "source_url": "https://tracxn.com/d/companies/forerunner/__yRQA3ReDJd1TFKr25GPxchcYuhDS5pSW_ki6rnU8Bn0"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "航空工业/航发领域的 MRO 与维修数字化：中国航发、海特高新、AMECO（Aircraft Maintenance and Engineering Corporation）等在航空维修数字化方向的探索",
+    "工业设备维护与预测性维护平台：格创东智、寄云科技、天泽智云 Cyber-Insight 等设备健康管理/PHM 厂商",
+    "工程研发知识管理与 PLM 智能化：能科科技、鼎捷、用友等 PLM/研发协同厂商叠加大模型副驾能力",
+    "制造业工程文档 RAG 副驾：面向研发文档/工艺文件的企业知识库+大模型问答（对标其 Confluence/GitHub 检索能力）"
+   ],
+   "scene_tags": [
+    "航空航天工程副驾",
+    "研发工作流自动化",
+    "工程文档RAG检索",
+    "测试计划/合规文档生成",
+    "航空维修MRO数字化",
+    "设计规格一致性校验",
+    "硬件研发提效"
+   ],
+   "archive": "companies/forerunner.md",
+   "researched_at": "2026-07-07",
+   "research_status": "researched"
   },
   {
    "num": 959,
@@ -20990,12 +21356,49 @@
    "one_liner_zh": "面向零售商的 AI 库存规划",
    "tier": "A1",
    "triage_reason": "面向零售商的 AI 库存规划，供应链库存",
-   "status": "pending",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B007"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-07",
+   "funding": [
+    {
+     "round": "Seed",
+     "amount": "€2.7M（约合 $2.7M，媒体亦以美元口径表述）",
+     "date": "2025-10-02",
+     "source_url": "https://www.startupbusiness.it/en/metreecs-closes-e2-7-million-funding-round-and-launches-operations-in-italy/147744/"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "Majestic Filatures",
+     "confidence": "中",
+     "source_url": "https://www.metreecs.com/"
+    },
+    {
+     "name": "Les Néréides",
+     "confidence": "中",
+     "source_url": "https://www.metreecs.com/"
+    }
+   ],
+   "cn_benchmarks": [
+    "聚水潭（电商 ERP / 库存与订单管理，覆盖多平台补货与调拨）",
+    "罗盘（零售数据分析，偏销售洞察）",
+    "杭州览众（览众数据，需求预测与智能补货，最接近对标）"
+   ],
+   "scene_tags": [
+    "零售需求预测",
+    "智能补货",
+    "库存再分配/调拨",
+    "买货/采购规划",
+    "缺货与呆滞治理",
+    "时尚零售供应链",
+    "多门店库存优化"
+   ],
+   "archive": "companies/metreecs.md",
+   "researched_at": "2026-07-07",
+   "research_status": "researched"
   },
   {
    "num": 965,
@@ -21831,12 +22234,42 @@
    "one_liner_zh": "面向汽车经销商运营的 AI 智能体",
    "tier": "A1",
    "triage_reason": "面向汽车经销商运营的 AI 智能体，汽车",
-   "status": "pending",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B007"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-07",
+   "funding": [
+    {
+     "round": "Seed / YC F24",
+     "amount": "约 $500K（第三方聚合源口径，疑为 YC 标准投资额；未见独立媒体披露的独立种子轮，金额待核）",
+     "date": "2024",
+     "source_url": "https://tracxn.com/d/companies/sandra-ai/__lb0-bgWG8AgIE4G7iIUFqWqurpNzaS0ub3-3Eo2iA3g/funding-and-investors"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "沃丰科技（Udesk / GaussMind / ServiceGo）—— 汽车行业智能客服与售后服务平台，有沃尔沃等车企案例",
+    "中关村科金·得助智能 —— 智能外呼机器人（ASR/NLP），汽车营销与售后外呼",
+    "智齿科技 —— 呼叫中心 + 在线/语音机器人，服务理想汽车等",
+    "瓴羊智能（阿里系）—— 超级客服 Agent，覆盖购车咨询到售后保养，宣称服务 70+ 汽车品牌",
+    "容联七陌 —— 全渠道智能客服 + 智能语音，多轮会话"
+   ],
+   "scene_tags": [
+    "汽车经销商",
+    "汽车后市场/售后",
+    "语音AI/AI接线员",
+    "呼入呼出自动化",
+    "预约排期",
+    "DMS集成",
+    "多语种客服",
+    "垂直行业运营OS",
+    "商机捕获/防流失"
+   ],
+   "archive": "companies/sandra-ai.md",
+   "researched_at": "2026-07-07",
+   "research_status": "researched"
   },
   {
    "num": 1009,
@@ -22059,12 +22492,35 @@
    "one_liner_zh": "面向本地商家的 AI 配送编排",
    "tier": "A1",
    "triage_reason": "面向本地商家的 AI 配送编排，物流配送",
-   "status": "pending",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B007"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-07",
+   "funding": [],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "达达（达达快送）——本地即时配送开放运力网络，可类比其做的多商家派单与同城履约",
+    "闪送——一对一急送/高价值物品同城直送，对标其『高可靠、不合流、易损贵重品』定位",
+    "顺丰同城——第三方即时配送 + 品牌商家履约与轨迹可视，对标其运力聚合+SLA 变现",
+    "顺丰同城/美团配送等的『聚合派单+运力编排』能力，可类比 Getcho 的多车队智能匹配"
+   ],
+   "scene_tags": [
+    "本地即时配送",
+    "最后一公里编排",
+    "多运力聚合派单",
+    "AI 语音坐席（司机侧）",
+    "配送异常识别与干预",
+    "GPS 轨迹监控",
+    "高价值/易损品同城履约",
+    "品牌化物流追踪",
+    "Shopify 履约集成",
+    "生鲜/鲜花/酒类 DTC 履约"
+   ],
+   "archive": "companies/getcho.md",
+   "researched_at": "2026-07-07",
+   "research_status": "researched"
   },
   {
    "num": 1021,

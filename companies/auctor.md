@@ -33,7 +33,14 @@
 4. **风险与存疑点**：① 深度绑定企业软件实施赛道，客户为 SI/咨询公司，销售周期长、集中度高；② 名录客户目前公开可查仅 Valiantys 一家，其余靠效率轶事支撑，规模化验证待观察；③ 与 Salesforce/SAP 等平台自带的实施 AI 工具存在被生态挤压风险；④ Series A 领投方为 Sequoia、并有 M12/HubSpot/Workday/OneStream 等战投，站队特征明显，需关注平台方立场变化；⑤ 融资公告日期为 2026-04-15，成立于 2025，扩张速度快，执行与交付一致性风险。未发现更名或 pivot 迹象。
 
 ## 信息来源溯源表
-（无）
+| 标题 | URL |
+|---|---|
+| Auctor: The agentic operating system for modern system integrators \| Y Combinator | https://www.ycombinator.com/companies/auctor |
+| Auctor 官网 | https://www.getauctor.com/ |
+| Auctor Raises $20M Led by Sequoia Capital (Yahoo Finance) | https://finance.yahoo.com/news/auctor-raises-20m-led-sequoia-130000020.html |
+| Sequoia backs YC alum Auctor in $20M raise (TechFundingNews) | https://techfundingnews.com/auctor-sequoia-series-a-enterprise-software/ |
+| Auctor Raises $20M (AIThority) | https://aithority.com/machine-learning/auctor-raises-20m-aims-to-build-the-ai-system-of-action-for-the-enterprise-software-implementation-market/ |
+| Auctor - Crunchbase Company Profile | https://www.crunchbase.com/organization/auctor |
 
 ---
 > 本档案由本地 /research 深研生成，直通模式 auto。数字与具名事实一律带来源；无来源者标"未披露"，未编造。

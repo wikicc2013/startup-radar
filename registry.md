@@ -301,24 +301,24 @@
 | # | 公司 | 一句话业务 | 分诊理由 | 深研状态 |
 |---|---|---|---|---|
 | 798 | **Axal** | 面向经销商与制造商的 AI 数字员工 | 面向经销商与制造商的 AI 数字员工，制造/分销 | ✅ [档案](companies/axal.md) |
-| 802 | **Mercura** | 面向经销商的 AI 报价与订单自动化 | 经销商 AI 报价与订单自动化，工业分销 | ⬜ 待深研 |
+| 802 | **Mercura** | 面向经销商的 AI 报价与订单自动化 | 经销商 AI 报价与订单自动化，工业分销 | ✅ [档案](companies/mercura.md) |
 | 823 | **Optifye** | 面向产线效率的 AI 摄像头 | 面向产线效率的 AI 摄像头，工厂产线 | ✅ [档案](companies/optifye.md) |
 | 827 | **Forge Automation** | 面向定制金属件的软件化工厂 | 定制金属件软件化工厂，工厂运营 | ✅ [档案](companies/forge-automation.md) |
-| 865 | **Macadamia** | 面向工业工程的 AI 智能体 | 面向工业工程的 AI 智能体，工业工程 | ⬜ 待深研 |
-| 868 | **Pave Robotics** | 面向沥青裂缝灌封的自主机器人 | 沥青裂缝灌封自主机器人，道路设备维护 | ⬜ 待深研 |
-| 890 | **SalesPatriot** | 面向经销商与 OEM 的运营 AI | 面向经销商与 OEM 的运营 AI，工业分销/OEM | ⬜ 待深研 |
-| 905 | **Ovlo** | 面向供应链自动化的零代码 AI 工作流 | 供应链自动化零代码 AI 工作流，供应链 | ⬜ 待深研 |
-| 914 | **Astro** | AI 驱动的可再生能源开发 | AI 驱动的可再生能源开发，能源 | ⬜ 待深研 |
-| 915 | **Dartboard Energy** | 面向电网运营商的遥测转事件引擎 | 面向电网运营商的遥测转事件引擎，能源电网 | ⬜ 待深研 |
-| 932 | **Revise Robotics** | 面向电子产品翻新的 AI 与机器人 | 面向电子产品翻新的 AI 与机器人，再制造 | ⬜ 待深研 |
+| 865 | **Macadamia** | 面向工业工程的 AI 智能体 | 面向工业工程的 AI 智能体，工业工程 | ✅ [档案](companies/macadamia.md) |
+| 868 | **Pave Robotics** | 面向沥青裂缝灌封的自主机器人 | 沥青裂缝灌封自主机器人，道路设备维护 | ✅ [档案](companies/pave-robotics.md) |
+| 890 | **SalesPatriot** | 面向经销商与 OEM 的运营 AI | 面向经销商与 OEM 的运营 AI，工业分销/OEM | ✅ [档案](companies/salespatriot.md) |
+| 905 | **Ovlo** | 面向供应链自动化的零代码 AI 工作流 | 供应链自动化零代码 AI 工作流，供应链 | ✅ [档案](companies/ovlo.md) |
+| 914 | **Astro** | AI 驱动的可再生能源开发 | AI 驱动的可再生能源开发，能源 | ✅ [档案](companies/astro.md) |
+| 915 | **Dartboard Energy** | 面向电网运营商的遥测转事件引擎 | 面向电网运营商的遥测转事件引擎，能源电网 | ✅ [档案](companies/dartboard-energy.md) |
+| 932 | **Revise Robotics** | 面向电子产品翻新的 AI 与机器人 | 面向电子产品翻新的 AI 与机器人，再制造 | ✅ [档案](companies/revise-robotics.md) |
 
 ### A2 · 组织范式同构（4 家）
 
 | # | 公司 | 一句话业务 | 分诊理由 | 深研状态 |
 |---|---|---|---|---|
 | 799 | **Dexterity (Dex)** | 带运营记忆的 AI 工作空间 | 带运营记忆的 AI 工作空间，公司大脑方向 | ⬜ 待深研 |
-| 806 | **TamLabs** | 面向专业工作的智能体团队 | 面向专业工作的智能体团队，AI 员工 | ⬜ 待深研 |
-| 815 | **Rebolt** | 面向运营的 AI 软件工厂 | 面向运营的 AI 软件工厂，流程自动化 | ⬜ 待深研 |
+| 806 | **TamLabs** | 面向专业工作的智能体团队 | 面向专业工作的智能体团队，AI 员工 | ✅ [档案](companies/tamlabs.md) |
+| 815 | **Rebolt** | 面向运营的 AI 软件工厂 | 面向运营的 AI 软件工厂，流程自动化 | ✅ [档案](companies/rebolt.md) |
 | 836 | **Sennu AI** | 面向企业的 Claude 落地与集成 | 企业 Claude 落地与集成，AI 原生落地咨询 | ✅ [档案](companies/sennu-ai.md) |
 
 ### B 档 · 速写卡（15 家，只做卡不深研）
@@ -354,11 +354,11 @@
 
 | # | 公司 | 一句话业务 | 分诊理由 | 深研状态 |
 |---|---|---|---|---|
-| 958 | **Forerunner** | 面向航空维修(MRO)的 AI 操作系统 | 面向航空维修(MRO)的 AI 操作系统，设备维护 | ⬜ 待深研 |
-| 964 | **Metreecs** | 面向零售商的 AI 库存规划 | 面向零售商的 AI 库存规划，供应链库存 | ⬜ 待深研 |
+| 958 | **Forerunner** | 面向航空维修(MRO)的 AI 操作系统 | 面向航空维修(MRO)的 AI 操作系统，设备维护 | ✅ [档案](companies/forerunner.md) |
+| 964 | **Metreecs** | 面向零售商的 AI 库存规划 | 面向零售商的 AI 库存规划，供应链库存 | ✅ [档案](companies/metreecs.md) |
 | 984 | **Andtiny** | 面向工厂的智能体 ERP | 面向工厂的智能体 ERP，工厂 ERP | ✅ [档案](companies/andtiny.md) |
-| 1008 | **Sandra AI** | 面向汽车经销商运营的 AI 智能体 | 面向汽车经销商运营的 AI 智能体，汽车 | ⬜ 待深研 |
-| 1020 | **Getcho** | 面向本地商家的 AI 配送编排 | 面向本地商家的 AI 配送编排，物流配送 | ⬜ 待深研 |
+| 1008 | **Sandra AI** | 面向汽车经销商运营的 AI 智能体 | 面向汽车经销商运营的 AI 智能体，汽车 | ✅ [档案](companies/sandra-ai.md) |
+| 1020 | **Getcho** | 面向本地商家的 AI 配送编排 | 面向本地商家的 AI 配送编排，物流配送 | ✅ [档案](companies/getcho.md) |
 
 ### A2 · 组织范式同构（1 家）
 
