@@ -288,28 +288,28 @@
    "slug": "avent",
    "name": "Avent",
    "tier": "A1",
-   "status": "pending",
+   "status": "reviewed",
    "priority": 99
   },
   {
    "slug": "noso",
    "name": "NOSO",
    "tier": "A1",
-   "status": "pending",
+   "status": "reviewed",
    "priority": 99
   },
   {
    "slug": "fleetline",
    "name": "Fleetline",
    "tier": "A1",
-   "status": "pending",
+   "status": "reviewed",
    "priority": 99
   },
   {
    "slug": "flywheel-ai",
    "name": "Flywheel AI",
    "tier": "A1",
-   "status": "pending",
+   "status": "reviewed",
    "priority": 99
   },
   {
@@ -330,63 +330,63 @@
    "slug": "comena",
    "name": "Comena",
    "tier": "A1",
-   "status": "pending",
+   "status": "reviewed",
    "priority": 99
   },
   {
    "slug": "flai",
    "name": "Flai",
    "tier": "A1",
-   "status": "pending",
+   "status": "reviewed",
    "priority": 99
   },
   {
    "slug": "trace",
    "name": "Trace",
    "tier": "A2",
-   "status": "pending",
+   "status": "reviewed",
    "priority": 99
   },
   {
    "slug": "doe-labs",
    "name": "Doe Labs",
    "tier": "A2",
-   "status": "pending",
+   "status": "reviewed",
    "priority": 99
   },
   {
    "slug": "sidekick-2",
    "name": "Sidekick",
    "tier": "A2",
-   "status": "pending",
+   "status": "reviewed",
    "priority": 99
   },
   {
    "slug": "verne-robotics",
    "name": "Verne Robotics",
    "tier": "A1",
-   "status": "pending",
+   "status": "reviewed",
    "priority": 99
   },
   {
    "slug": "lanesurf",
    "name": "Lanesurf",
    "tier": "A1",
-   "status": "pending",
+   "status": "reviewed",
    "priority": 99
   },
   {
    "slug": "bond",
    "name": "Bond",
    "tier": "A2",
-   "status": "pending",
+   "status": "reviewed",
    "priority": 99
   },
   {
    "slug": "linewise",
    "name": "LineWise",
    "tier": "A1",
-   "status": "pending",
+   "status": "reviewed",
    "priority": 99
   },
   {

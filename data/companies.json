@@ -10975,12 +10975,42 @@
    "one_liner_zh": "工业商贸的 AI 智能体",
    "tier": "A1",
    "triage_reason": "工业商贸 AI 智能体，工业分销",
-   "status": "pending",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B004"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-07",
+   "funding": [
+    {
+     "round": "Y Combinator（S25 标准投资）",
+     "amount": "500,000 美元",
+     "date": "2025年",
+     "source_url": "https://tracxn.com/d/companies/aventindustrial/__ZFgj7WMxZmqSaP_4s-gMl9ItW_vBUq8IYgrrvf27OqI"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "震坤行工业超市（工业品 MRO 一站式分销数字化）",
+    "工品汇 / 西域(震坤行)等工业品电商平台",
+    "国联股份（多多电商，工业品 B2B 撮合与自营）",
+    "京东工业（工业品数字化供应链与报价/寻源）"
+   ],
+   "scene_tags": [
+    "工业品分销",
+    "工业电商B2B",
+    "RFQ自动报价",
+    "订单录入自动化",
+    "PO-报价匹配",
+    "ERP集成",
+    "AI销售代理",
+    "MRO采购寻源",
+    "内部销售CSR提效",
+    "PIM产品目录同步"
+   ],
+   "archive": "companies/avent.md",
+   "researched_at": "2026-07-07",
+   "research_status": "researched"
   },
   {
    "num": 502,
@@ -11032,12 +11062,40 @@
    "one_liner_zh": "现场服务团队的 AI 智能体",
    "tier": "A1",
    "triage_reason": "现场服务团队 AI 智能体，设备维护/现场服务",
-   "status": "pending",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B004"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-07",
+   "funding": [
+    {
+     "round": "Pre-seed/Seed (YC S25)",
+     "amount": "约 $500K（媒体/搜索聚合口径，未见一手新闻稿确认）",
+     "date": "2025",
+     "source_url": "https://getlatka.com/companies/noso.so"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "售后宝（现场服务/售后管理 SaaS，覆盖派工、备件、知识库）",
+    "瑞云服务云（现场服务管理 FSM，工单/派工/远程协助）",
+    "神州云动/纷享销客（CRM 侧，可对标其未成交商机自动跟进）",
+    "涂鸦/万物云等设备运维平台（IoT + 现场运维侧参照）"
+   ],
+   "scene_tags": [
+    "现场服务(Field Service)",
+    "HVAC/暖通设备维修",
+    "现场技工 AI 副驾",
+    "工单自动记录",
+    "未成交报价单自动跟进转化",
+    "CRM/ERP 自动同步",
+    "短信/电话式免 App 交互",
+    "售后与设备运维"
+   ],
+   "archive": "companies/noso.md",
+   "researched_at": "2026-07-07",
+   "research_status": "researched"
   },
   {
    "num": 505,
@@ -11241,12 +11299,40 @@
    "one_liner_zh": "卡车车队的 AI 调度引擎",
    "tier": "A1",
    "triage_reason": "卡车车队 AI 调度引擎，运输物流",
-   "status": "pending",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B004"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-07",
+   "funding": [
+    {
+     "round": "Seed",
+     "amount": "$500K",
+     "date": "2025-09",
+     "source_url": "https://startupintros.com/orgs/fleetline"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "G7 易流（车队数字化 / 智能挂 / 车队管理 SaaS）",
+    "满帮集团（运满满+货车帮，货运撮合与调度平台）",
+    "福佑卡车（数字化整车运力平台，算法调度与运力优化）"
+   ],
+   "scene_tags": [
+    "货运调度",
+    "卡车车队",
+    "装载规划",
+    "司机排班优化",
+    "TMS集成",
+    "ELD数据",
+    "运力优化",
+    "优化算法+LLM",
+    "车队营收提升"
+   ],
+   "archive": "companies/fleetline.md",
+   "researched_at": "2026-07-07",
+   "research_status": "researched"
   },
   {
    "num": 516,
@@ -11298,12 +11384,34 @@
    "one_liner_zh": "面向工程的挖掘机远程操控",
    "tier": "A1",
    "triage_reason": "挖掘机远程操控，工程机械/设备",
-   "status": "pending",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B004"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-07",
+   "funding": [],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "三一重工（SANY）——无人挖掘机 / 遥控挖机、5G 远程操控矿卡与工程机械",
+    "徐工集团（XCMG）——无人化成套装备、遥控挖掘机、矿山无人驾驶",
+    "中联重科（Zoomlion）——工程机械智能化 / 远程操控与自动作业",
+    "踏歌智行 / 易控智驾 等——矿区无人运输（露天矿自动驾驶）对标其『矿业已成熟』的参照系"
+   ],
+   "scene_tags": [
+    "工程机械无人化",
+    "挖掘机远程操控",
+    "遥操作（teleoperation）",
+    "液压设备机械改装",
+    "力反馈双向遥操作",
+    "工地安全",
+    "技工短缺替代",
+    "作业数据采集数据飞轮",
+    "具身智能 / 机器人自主作业"
+   ],
+   "archive": "companies/flywheel-ai.md",
+   "researched_at": "2026-07-07",
+   "research_status": "researched"
   },
   {
    "num": 519,
@@ -12276,12 +12384,51 @@
    "one_liner_zh": "面向 B2B 订单录入的 AI 智能体",
    "tier": "A1",
    "triage_reason": "B2B 订单录入智能体，供应链订单",
-   "status": "pending",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B004"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-07",
+   "funding": [],
+   "early_customers": [
+    {
+     "name": "Alexander Paal GmbH",
+     "confidence": "高",
+     "source_url": "https://comena.ai/en/"
+    },
+    {
+     "name": "PIEL Die Technische Großhandlung GmbH",
+     "confidence": "高",
+     "source_url": "https://comena.ai/en/"
+    },
+    {
+     "name": "ETTINGER GmbH",
+     "confidence": "高",
+     "source_url": "https://comena.ai/en/"
+    }
+   ],
+   "cn_benchmarks": [
+    "订单录入/POA自动化：聚水潭、旺店通（电商/分销订单中台，侧重下游而非工业PO抽取）",
+    "文档抽取/单据识别：合合信息(TextIn/启信)、来也科技、云扩RPA + 大模型做PO/发票OCR抽取",
+    "B2B交易自动化/ERP侧：用友、金蝶、鼎捷的智能单据/AI销售助手模块",
+    "工业品B2B撮合/供应链：震坤行、西域、锐锢商城等MRO工业品平台的订单自动化环节"
+   ],
+   "scene_tags": [
+    "B2B订单录入自动化",
+    "采购订单(PO)智能抽取",
+    "RFQ询价单匹配",
+    "SKU自动匹配",
+    "邮件到ERP自动化",
+    "工业分销/MRO",
+    "内勤销售提效",
+    "human-in-the-loop审核",
+    "订单确认对账",
+    "EDI/ERP集成"
+   ],
+   "archive": "companies/comena.md",
+   "researched_at": "2026-07-07",
+   "research_status": "researched"
   },
   {
    "num": 569,
@@ -12409,12 +12556,73 @@
    "one_liner_zh": "面向汽车经销商的 AI 数字员工",
    "tier": "A1",
    "triage_reason": "汽车经销商 AI 数字员工，汽车",
-   "status": "pending",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B004"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-07",
+   "funding": [
+    {
+     "round": "Seed",
+     "amount": "$4.5M",
+     "date": "2025-10-03",
+     "source_url": "https://techcrunch.com/2025/10/03/flai-is-the-latest-startup-bringing-ai-to-car-dealerships/"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "Glendale Infiniti",
+     "confidence": "高",
+     "source_url": "https://www.useflai.com/"
+    },
+    {
+     "name": "Freeman Lexus (Freeman Motors)",
+     "confidence": "高",
+     "source_url": "https://www.useflai.com/"
+    },
+    {
+     "name": "San Leandro CDJR",
+     "confidence": "高",
+     "source_url": "https://www.useflai.com/"
+    },
+    {
+     "name": "Cardinale Automotive Group",
+     "confidence": "中",
+     "source_url": "https://www.useflai.com/"
+    },
+    {
+     "name": "Findlay Automotive",
+     "confidence": "中",
+     "source_url": "https://www.useflai.com/"
+    },
+    {
+     "name": "Price Family Dealerships",
+     "confidence": "中",
+     "source_url": "https://www.useflai.com/"
+    }
+   ],
+   "cn_benchmarks": [
+    "汽车之家/易车：线索分发与经销商数字化，但缺乏语音 AI 数字员工的深度",
+    "网易七鱼、容联云、思必驰、百度智能云等呼叫中心/外呼语音 AI 厂商在汽车 4S 店的客服/回访场景",
+    "深维智信 Megaview、循环智能等对话智能厂商切汽车销售会话场景",
+    "汽车后市场（保养/召回/续保回访）SCRM 与智能外呼服务商，如微盛、尘锋等在 4S 店私域的应用"
+   ],
+   "scene_tags": [
+    "汽车经销商/4S店",
+    "语音AI数字员工",
+    "7x24客服接听",
+    "试驾预约",
+    "保养/服务预约",
+    "召回转化(recall-to-appointment)",
+    "线索跟进与激活",
+    "全渠道(电话/短信/邮件)",
+    "DMS/CRM集成",
+    "汽车后市场"
+   ],
+   "archive": "companies/flai.md",
+   "researched_at": "2026-07-07",
+   "research_status": "researched"
   },
   {
    "num": 576,
@@ -12466,12 +12674,48 @@
    "one_liner_zh": "面向现代团队的 AI 编排层",
    "tier": "A2",
    "triage_reason": "面向团队的 AI 编排层，人机协同",
-   "status": "pending",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B004"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-07",
+   "funding": [
+    {
+     "round": "Seed",
+     "amount": "$3M",
+     "date": "2026-02（TechCrunch 报道日 2026-02-26）",
+     "source_url": "https://techcrunch.com/2026/02/26/trace-raises-3-million-to-solve-the-agent-adoption-problem/"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "未披露具名客户（官方与媒体仅给出『30+ 家公司在用』的数量，未点名）",
+     "confidence": "低",
+     "source_url": "https://www.ycombinator.com/companies/trace-so"
+    }
+   ],
+   "cn_benchmarks": [
+    "实在智能 / 澜码科技（Agent 编排 + 人机协同流程）",
+    "影刀 RPA、来也科技 UiBot（RPA 向 Agent 化演进，工作流自动化）",
+    "字节 扣子 Coze / 阿里 百炼（低代码 Agent 编排平台）",
+    "钉钉 / 飞书的 AI 工作流与审批流（组织内知识图谱 + 人机任务路由的对标场景）"
+   ],
+   "scene_tags": [
+    "AI Agent 编排",
+    "人机协同/任务路由",
+    "企业知识图谱/上下文层",
+    "后台流程自动化",
+    "自然语言转工作流",
+    "人工审批门 HITL",
+    "客户 onboarding",
+    "HR 简历筛选",
+    "文档处理",
+    "销售运营"
+   ],
+   "archive": "companies/trace.md",
+   "researched_at": "2026-07-07",
+   "research_status": "researched"
   },
   {
    "num": 579,
@@ -12504,12 +12748,49 @@
    "one_liner_zh": "面向企业工作的 AI 数字员工",
    "tier": "A2",
    "triage_reason": "面向企业工作的 AI 数字员工，AI 员工平台",
-   "status": "pending",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B004"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-07",
+   "funding": [
+    {
+     "round": "Pre-Seed",
+     "amount": "未披露",
+     "date": "未披露",
+     "source_url": "https://www.crunchbase.com/organization/doe-d565"
+    },
+    {
+     "round": "YC S25（标准 YC 投资，金额按 YC 标准条款）",
+     "amount": "未披露具体金额",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/doe"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "实在智能（数字员工 / RPA+Agent）",
+    "来也科技 UiBot / 智能体平台",
+    "澜码科技（企业级 Agent 平台）",
+    "字节扣子 Coze / 阿里百炼（Agent 编排平台）",
+    "面向多点位连锁运营的国内 SaaS+Agent（如通用型 ERP 厂商叠加 Agent 能力）"
+   ],
+   "scene_tags": [
+    "企业数字员工",
+    "AI Agent 平台",
+    "跨系统工作流自动化",
+    "机构知识检索与引用",
+    "多点位连锁运营",
+    "采购与库存优化",
+    "审批/排班/合规自动化",
+    "遗留系统集成",
+    "模型路由与治理",
+    "PE 投后运营提效"
+   ],
+   "archive": "companies/doe-labs.md",
+   "researched_at": "2026-07-07",
+   "research_status": "researched"
   },
   {
    "num": 581,
@@ -12827,12 +13108,33 @@
    "one_liner_zh": "自然语言驱动的工作流自动化平台",
    "tier": "A2",
    "triage_reason": "自然语言工作流自动化平台，流程自动化",
-   "status": "pending",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B004"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-07",
+   "funding": [],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "影刀 RPA（面向业务人员的低代码/对话式自动化）",
+    "实在智能（Agentic RPA，自然语言生成流程）",
+    "来也科技/UiBot（智能自动化平台）",
+    "钉钉宜搭 / 腾讯轻联（低代码 iPaaS + AI 编排）",
+    "阿里云百炼 / 扣子 Coze（对话式 Agent 编排）"
+   ],
+   "scene_tags": [
+    "自然语言生成工作流",
+    "对话式自动化",
+    "iPaaS / 应用集成",
+    "销售运营自动化",
+    "AI Agent 编排",
+    "低代码/无代码",
+    "SMB 自助自动化"
+   ],
+   "archive": "companies/sidekick-2.md",
+   "researched_at": "2026-07-07",
+   "research_status": "defunct"
   },
   {
    "num": 598,
@@ -13283,12 +13585,57 @@
    "one_liner_zh": "面向履约的物理 AI 机器人",
    "tier": "A1",
    "triage_reason": "履约物理 AI 机器人，仓储履约",
-   "status": "pending",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B004"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-07",
+   "funding": [
+    {
+     "round": "Pre-Seed / Seed（第三方聚合器口径，未见公司官方公告）",
+     "amount": "未披露（聚合器数据不一：Extruct 记 $1M、Tracxn 记 $500K，另有 YC 标准投资；各源口径冲突，未获公司确认）",
+     "date": "2025",
+     "source_url": "https://tracxn.com/d/companies/verne/__mxgU2jiVtdRTGB8gXJ1EnTR6ReQ0NX2IF4VXLZDKVys/funding-and-investors"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "ABClonal（生物科技独角兽）",
+     "confidence": "高",
+     "source_url": "https://www.vernerobotics.com/"
+    },
+    {
+     "name": "一家生物科技非营利机构（未具名）",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/verne-robotics"
+    },
+    {
+     "name": "一个 DTC 服装品牌（未具名）",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/verne-robotics"
+    }
+   ],
+   "cn_benchmarks": [
+    "极智嘉 Geek+（仓储履约移动机器人 AMR 龙头）",
+    "海柔创新 Hai Robotics（箱式仓储机器人 ACR）",
+    "擎朗智能 Keenon（服务/配送机器人，人机共处场景）"
+   ],
+   "scene_tags": [
+    "履约自动化",
+    "仓储拣选",
+    "双臂操作",
+    "代工包装/装配",
+    "具身智能/Physical AI",
+    "机器人即服务(RaaS)",
+    "按小时付费",
+    "快速技能学习(diffusion/遥操作)",
+    "退货分拣",
+    "混SKU变体装"
+   ],
+   "archive": "companies/verne-robotics.md",
+   "researched_at": "2026-07-07",
+   "research_status": "researched"
   },
   {
    "num": 622,
@@ -13435,12 +13782,60 @@
    "one_liner_zh": "面向运力寻源的 AI 货运经纪",
    "tier": "A1",
    "triage_reason": "运力寻源 AI 货运经纪，物流",
-   "status": "pending",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B004"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-07",
+   "funding": [
+    {
+     "round": "Pre-Seed / Seed",
+     "amount": "未披露（第三方数据库 Crunchbase/Tracxn 显示约 $500K，投资方含 Leo Capital、Transpose Platform Management、Y Combinator；与 YC/媒体口径提及的 General Catalyst、Naval Ravikant、Jawed Karim、Rajul Garg 等未在官方渠道对齐，故金额与完整名单以未披露计）",
+     "date": "2025",
+     "source_url": "https://www.crunchbase.com/organization/lanesurf"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "Midwest Freight Partners（官网证言，疑为示例/匿名化名称）",
+     "confidence": "低",
+     "source_url": "https://www.lanesurf.com/"
+    },
+    {
+     "name": "Pacific Coast Freight（官网证言，疑为示例/匿名化名称）",
+     "confidence": "低",
+     "source_url": "https://www.lanesurf.com/"
+    },
+    {
+     "name": "Heartland Brokerage Group（官网证言，疑为示例/匿名化名称）",
+     "confidence": "低",
+     "source_url": "https://www.lanesurf.com/"
+    },
+    {
+     "name": "Summit Transport（官网证言，疑为示例/匿名化名称）",
+     "confidence": "低",
+     "source_url": "https://www.lanesurf.com/"
+    }
+   ],
+   "cn_benchmarks": [
+    "满帮集团（运力撮合/司机-货主匹配的超级平台，语音/智能调度）",
+    "福佑卡车（数字化整车货运经纪，算法定价与运力池）",
+    "运去哪（数字货代，跨境物流订舱与流程自动化）"
+   ],
+   "scene_tags": [
+    "货运经纪",
+    "运力寻源/carrier sourcing",
+    "语音AI外呼与议价",
+    "并行多渠道触达（电话/邮件/短信）",
+    "承运商合规核验",
+    "TMS/load board 集成",
+    "订舱自动化",
+    "3PL"
+   ],
+   "archive": "companies/lanesurf.md",
+   "researched_at": "2026-07-07",
+   "research_status": "researched"
   },
   {
    "num": 630,
@@ -14006,12 +14401,40 @@
    "one_liner_zh": "面向高管的 AI 幕僚长",
    "tier": "A2",
    "triage_reason": "面向高管的 AI 幕僚长，公司大脑方向",
-   "status": "pending",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B005"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-07",
+   "funding": [
+    {
+     "round": "Seed",
+     "amount": "$3M",
+     "date": "2025-12-07",
+     "source_url": "https://www.linkedin.com/posts/chloesamaha_today-were-announcing-bond-ycx25s-3m-activity-7402384118543568897-hXKs"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "AI 高管助理 / CEO 数字幕僚（对标国内'公司大脑'类办公智能体）",
+    "钉钉 / 飞书类办公协同平台的 AI 助理与智能简报能力（跨工具聚合、日报周报自动生成）",
+    "企业级 AI Agent 办公助手（AI 办公、任务编排、异常预警方向的国内创业公司）"
+   ],
+   "scene_tags": [
+    "高管幕僚长",
+    "AI 办公助理",
+    "跨工具信息聚合",
+    "实时经营看板",
+    "每日经营简报",
+    "异常预警/风险雷达",
+    "任务自动编排",
+    "自我管理待办清单",
+    "CEO 决策支持"
+   ],
+   "archive": "companies/bond.md",
+   "researched_at": "2026-07-07",
+   "research_status": "researched"
   },
   {
    "num": 660,
@@ -14177,12 +14600,45 @@
    "one_liner_zh": "面向电力行业一线的专用工具产品",
    "tier": "A1",
    "triage_reason": "电力行业一线专用工具，能源/工业一线",
-   "status": "pending",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B005"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-07",
+   "funding": [
+    {
+     "round": "Pre-Seed",
+     "amount": "$1.1M",
+     "date": "2025-09",
+     "source_url": "https://technode.global/2025/09/05/thai-founded-linewise-raises-1-1m-in-pre-seed-funding-from-y-combinator-a2d-ventures/"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "5 家大型制造商付费试点（NASDAQ 上市企业，覆盖包装、食品饮料、消费电子；未具名）",
+     "confidence": "中",
+     "source_url": "https://www.startuphub.ai/ai-news/funding-round/2025/linewise-yc-x25-raises-1-1m-pre-seed-funding-to-end-costly-factory-downtime-and-yield-loss"
+    }
+   ],
+   "cn_benchmarks": [
+    "工业 AI / 预测性维护与 MES 智能排障方向的国内对标：树根互联（根云）、寄云科技、格创东智等（制造业侧）",
+    "任务书所列电力/能源数字化对标（国电南瑞/朗新/远光软件）与 LineWise 实际业务【不匹配】，仅作误标澄清记录，不作为真对标"
+   ],
+   "scene_tags": [
+    "制造业排障",
+    "非计划停机",
+    "良率/缺陷损失",
+    "根因分析",
+    "预测性维护",
+    "多智能体AI",
+    "虚拟工程师",
+    "制罐/包装产线",
+    "传感器数据+维修知识库"
+   ],
+   "archive": "companies/linewise.md",
+   "researched_at": "2026-07-07",
+   "research_status": "researched"
   },
   {
    "num": 669,
