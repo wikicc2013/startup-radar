@@ -1,0 +1,33 @@
+<!doctype html><html lang="zh-CN"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Lemma · AI青梅创业公司数据库</title>
+<link rel="stylesheet" href="company.css">
+</head><body>
+<div class="wrap">
+<a class="back" href="../index.html">← 返回看板</a>
+<header class="hero">
+ <div class="htop"><span class="badge a2">B</span><span class="badge batch">B003 · YC Fall 2025 (F25)</span><span class="badge ok">已深研</span><span class="badge auto">AI 自动通过</span></div>
+ <h1>Lemma</h1>
+ <p class="oneliner">Reliability platform for AI agents</p>
+ <p class="oneliner-zh">AI 智能体的可靠性平台</p>
+ <a class="site" href="https://www.ycombinator.com/companies/uselemma" target="_blank" rel="noopener">官网 / 锚定 ↗</a>
+ <p class="triage">分诊理由：AI 智能体可靠性平台</p>
+</header>
+
+<section class="card"><h2>公司画像</h2><div class="picture"><div class="prow"><div class="pk">团队</div><div class="pv">2 人核心团队。联合创始人 Jerry Zhang 与 Cole Gawin，USC（南加州大学）全额奖学金同学、自大一起的挚友与共建搭档；创业前分别在两家 AI 原生初创任工程师——Tandem（医疗 AI）与 Chipstack（芯片设计 AI Agent）。法律主体为 Forge AI Labs, Inc.。（来源：YC 页 / 官网页脚 / 创始人 LinkedIn）</div></div><div class="prow"><div class="pk">成立/批次</div><div class="pv">2025</div></div><div class="prow"><div class="pk">地点</div><div class="pv">美国加州旧金山（San Francisco, CA）</div></div><div class="prow"><div class="pk">产品</div><div class="pv">面向 AI Agent 的『可靠性平台』——集评测(evaluation)+可观测(observability)+自动优化于一体。定位不止于『度量』性能，更要『自动改进』性能：扫描每一条生产 trace，捕捉传统监控看不见的『语义级/静默失败』（Agent 看起来跑通了、实则输出错误），定位失败在 Agent 链路中的根因，运行针对性的 prompt 优化，并自动提交改进 prompt 的 Pull Request；上线修复后再用在线评测检测回归。核心叙事：生产环境中 prompt/Agent 会因真实输入漂移（新用户行为、未见边缘 case）持续退化，性能常在几周内下滑约 40%。宣称基于斯坦福前沿研究（prompt 自动优化方向）。集成生态：Vercel、OpenAI、Anthropic、Azure、Langfuse、Arize Phoenix、LangGraph。（来源：官网 / YC 页）</div></div><div class="prow"><div class="pk">商业模式</div><div class="pv">SaaS（面向构建/部署生产级 AI Agent 的团队的评测+可观测+持续优化平台）。官网未公开定价，走 book-a-demo/文档咨询路径。（来源：官网，定价未披露）</div></div><div class="prow"><div class="pk">竞争格局</div><div class="pv">AI Agent 可观测与评测赛道，直接对标 Arize（Phoenix）、Langfuse、LangSmith（LangChain）、Braintrust、Galileo、Patronus AI、HoneyHive 等；差异化主张是『不止测量、还自动优化并提 PR』的闭环。（来源：官网集成/定位综合）</div></div></div></section>
+
+<div class="grid2">
+ <section class="card"><h2>融资</h2><p class="none">未披露（未检索到带来源的融资信息，或仅 YC 标准投资未单列）</p></section>
+ <section class="card"><h2>早期客户信号</h2><p class="none">未披露（未检索到可采信的具名客户）</p><p class="hint">置信度：<span class="conf hi">高</span>官方case study/可交叉验证　<span class="conf mid">中</span>logo墙/媒体点名　<span class="conf lo">低</span>推断</p></section>
+</div>
+
+<section class="card"><h2>转型有术判断</h2><div class="insights"><div class="insight"><div class="ihead"><span class="iico">🏭</span><h3>对制造业客户意味着什么</h3></div><p>制造业上 AI Agent（如质检问答、工艺参数助手、供应链调度、售后工单 Copilot）最怕的正是 Lemma 主打的『静默失败』——Agent 给出一个看似合理、实则错误的答案，在产线/客服场景可能直接造成损失且难以事后追溯。Lemma 的『扫描每条 trace + 语义失败告警 + 根因定位 + 自动优化闭环』思路，对应制造企业把试点 Agent 从 Demo 推向车间/一线时最缺的『可靠性护栏』。制造业 IT 可借鉴其『先建可观测与评测基线，再谈规模化』的落地节奏。</p></div><div class="insight"><div class="ihead"><span class="iico">🇨🇳</span><h3>国内对标厂商</h3></div><p>阿里云百炼 / 通义（含 Agent 评测与可观测能力）、Dify（开源 LLMOps，评测与编排）、字节 扣子 Coze（Agent 评测/调试）、百度千帆（模型评估与调优）、创业侧 LLMOps/评测：如面向 Agent 可靠性与评测的国内团队（对标 LangSmith/Arize 的国产替代）</p><blockquote>国内暂无严格同款（评测+可观测+自动提 PR 三合一），能力被拆散在几处：可观测/评测偏向 Langfuse 国产替代与阿里百炼、Dify、扣子的内置评测；prompt/Agent 自动优化（DSPy/GEPA 式）在国内尚属早期。制造业客户落地时更现实的组合是『Dify/百炼做编排评测 + 自建离线评测集 + 人工回归』，Lemma 的价值在于把这条链自动化闭环。</blockquote></div><div class="insight"><div class="ihead"><span class="iico">🧩</span><h3>可迁移的干法 / 应进场景词典的词条</h3></div><p>AI Agent 可观测、LLMOps、prompt 自动优化、在线评测/回归检测、语义级静默失败检测、生产环境漂移治理、根因定位</p><blockquote>可迁移打法：1) 为每个生产 Agent 建立 trace 全量采集与『语义正确性』评测集（而非只看是否报错）；2) 用真实用户反馈与生产数据回灌，量化性能漂移（如设 40%/数周的退化警戒线）；3) 把 prompt/Agent 优化产物走版本化 PR、灰度上线并做在线回归；4) 制造业可把该模式先落在高频、低风险场景（内部知识问答）跑通可靠性基线，再向产线/对外客服扩展。</blockquote></div><div class="insight"><div class="ihead"><span class="iico">⚠️</span><h3>风险与存疑点</h3></div><p>1) 团队仅 2 人、2025 成立，极早期，公司/产品成熟度与长期可靠性存疑；2) 赛道拥挤（Arize/Langfuse/LangSmith/Braintrust 等在位者环伺），差异化『自动优化+提 PR』能否成为护城河待验证；3) 融资、客户、营收均未公开披露，商业化进度不明；4) 法律主体名为 Forge AI Labs, Inc. 而品牌为 Lemma，存在品牌/主体不一致，需留意后续更名或 pivot；5) 『基于斯坦福研究』『2–5%/轮性能提升』『减少 90% 人工调 prompt』等为官方口径，缺第三方验证。</p></div></div>
+ <div class="tagrow"><span class="tlabel">国内对标</span><span class="chip">阿里云百炼 / 通义（含 Agent 评测与可观测能力）</span><span class="chip">Dify（开源 LLMOps，评测与编排）</span><span class="chip">字节 扣子 Coze（Agent 评测/调试）</span><span class="chip">百度千帆（模型评估与调优）</span><span class="chip">创业侧 LLMOps/评测：如面向 Agent 可靠性与评测的国内团队（对标 LangSmith/Arize 的国产替代）</span></div>
+ <div class="tagrow"><span class="tlabel">场景词条</span><span class="chip">AI Agent 可观测</span><span class="chip">LLMOps</span><span class="chip">prompt 自动优化</span><span class="chip">在线评测/回归检测</span><span class="chip">语义级静默失败检测</span><span class="chip">生产环境漂移治理</span><span class="chip">根因定位</span></div>
+</section>
+
+<section class="card"><h2>信息来源溯源</h2><p class="none">（档案内未列独立溯源表；具体来源见上方各处「链接」）</p></section>
+
+<footer class="foot">批次来源 B003 · YC Fall 2025 (F25) Launch　|　深研日期 2026-07-07　|　直通模式 auto：AI 生成、未经人工复核。数字与具名事实一律带来源，无来源者标「未披露」，未编造。<br>数据真源 <code>data/companies.json</code> · 原始档案 <code>companies/lemma.md</code></footer>
+</div>
+</body></html>

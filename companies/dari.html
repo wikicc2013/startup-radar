@@ -1,0 +1,33 @@
+<!doctype html><html lang="zh-CN"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Dari · AI青梅创业公司数据库</title>
+<link rel="stylesheet" href="company.css">
+</head><body>
+<div class="wrap">
+<a class="back" href="../index.html">← 返回看板</a>
+<header class="hero">
+ <div class="htop"><span class="badge a2">B</span><span class="badge batch">B003 · YC Fall 2025 (F25)</span><span class="badge ok">已深研</span><span class="badge auto">AI 自动通过</span></div>
+ <h1>Dari</h1>
+ <p class="oneliner">Production-grade browser-use agents platform</p>
+ <p class="oneliner-zh">生产级的浏览器操作智能体平台</p>
+ <a class="site" href="https://www.ycombinator.com/companies/dari" target="_blank" rel="noopener">官网 / 锚定 ↗</a>
+ <p class="triage">分诊理由：生产级浏览器操作智能体平台</p>
+</header>
+
+<section class="card"><h2>公司画像</h2><div class="picture"><div class="prow"><div class="pk">团队</div><div class="pv">2 人。联合创始人 Avyay Varadarajan（CEO，Caltech 计算机本科，曾任 Uber 软件工程师、Lakers 做 ML、多家创业公司）与 Benjamin Hong（Caltech 计算机，曾在 Amazon）。两人自浏览器智能体模型早期就在构建 browser-use agents，长期受困于其生产环境不可靠。</div></div><div class="prow"><div class="pk">成立/批次</div><div class="pv">2025</div></div><div class="prow"><div class="pk">地点</div><div class="pv">美国旧金山湾区（San Francisco Bay Area）</div></div><div class="prow"><div class="pk">产品</div><div class="pv">生产级 browser-use（浏览器操作）智能体平台，对外是一套 API。核心机制：workflow 首次用 LLM 跑通后，缓存确定性的 DOM 操作步骤，后续用确定性回放执行，仅在网站变化或必要时才回退调用 LLM——由此比通用浏览器智能体更快、更便宜、更稳定，可跨数千次浏览器动作稳定运行。自动处理 2FA（短信验证码、TOTP 动态口令、邮箱验证），使需要登录鉴权的工作流可被自动化。集成方式含 chat-to-automation（对话生成自动化）、POST 触发的 API、Webhook、流程中途回调。</div></div><div class="prow"><div class="pk">商业模式</div><div class="pv">面向开发者/企业的 API + SaaS，用于生产环境的可靠网页自动化（数据录入、表单填写、鉴权站点工作流等）。具体定价未公开披露，走 demo/询价模式。</div></div><div class="prow"><div class="pk">竞争格局</div><div class="pv">同赛道有 Browser Use（YC W25，开源 web agent，已融 1700 万美元种子轮）、Browserbase（无头浏览器云基础设施，Series B 后估值约 3 亿美元）、Hyperbrowser、Anchor Browser 等；以及 OpenAI Operator 等大厂通用浏览器智能体。Dari 的差异化在‘缓存确定性回放 + 自动 2FA’以换取生产级可靠性与更低成本。</div></div></div></section>
+
+<div class="grid2">
+ <section class="card"><h2>融资</h2><p class="none">未披露（未检索到带来源的融资信息，或仅 YC 标准投资未单列）</p></section>
+ <section class="card"><h2>早期客户信号</h2><table class="tbl"><thead><tr><th>客户</th><th>置信度</th><th>来源</th></tr></thead><tbody><tr><td>一家语音 AI 公司（未具名）</td><td><span class="conf lo">低</span></td><td><a href="https://fondo.com/blog/dari-launches" target="_blank" rel="noopener">链接 ↗</a></td></tr></tbody></table><p class="hint">置信度：<span class="conf hi">高</span>官方case study/可交叉验证　<span class="conf mid">中</span>logo墙/媒体点名　<span class="conf lo">低</span>推断</p></section>
+</div>
+
+<section class="card"><h2>转型有术判断</h2><div class="insights"><div class="insight"><div class="ihead"><span class="iico">🏭</span><h3>对制造业客户意味着什么</h3></div><p>制造企业大量后台工作跑在没有 API 的老旧 Web/ERP/供应商门户、海关与物流平台、经销商系统上，这类系统正是 RPA 的主战场。Dari 的‘缓存确定性回放 + 大模型兜底 + 自动 2FA’直击传统 RPA 的两大痛点：脚本因页面改版频繁失效、以及无法自动过登录/二次验证。对制造场景可用于：向供应商/客户门户批量录单查单、跨海关与物流平台报关与轨迹抓取、经销商价格/库存同步、采购比价与对账等重复网页作业。</p></div><div class="insight"><div class="ihead"><span class="iico">🇨🇳</span><h3>国内对标厂商</h3></div><p>浏览器/网页智能体：智谱 AutoGLM、纳米 AI（360）浏览器智能体、扣子（Coze）浏览器操作、Manus 通用 Agent 的网页操作能力、RPA 厂商：影刀 RPA、来也科技 UiBot、艺赛旗 iS-RPA、弘玑 Cyclone——均在向 AI+RPA / Agentic 自动化演进、确定性回放 + 大模型兜底的‘AI 增强 RPA’思路，可对标国内 RPA 大厂的 AI Copilot 化路线</p><blockquote>国内直接对标是影刀、来也、弘玑、艺赛旗等 RPA 大厂的‘AI+RPA/Agentic 自动化’升级路线，以及智谱 AutoGLM、纳米 AI 等浏览器智能体；Dari 相当于把‘大模型跑通一次、之后确定性回放’这套可靠性工程封装成 API 对外售卖，国内 RPA 厂商多以‘录制脚本 + AI Copilot 辅助’形态提供，理念相近但打包与售卖方式不同。</blockquote></div><div class="insight"><div class="ihead"><span class="iico">🧩</span><h3>可迁移的干法 / 应进场景词典的词条</h3></div><p>浏览器自动化、browser-use agents、AI+RPA、鉴权工作流自动化（2FA/TOTP）、确定性回放缓存、数据录入/表单填写自动化、Agent 基础设施 API</p><blockquote>可迁移打法：①‘一次学习、确定性回放、必要时才调 LLM’——用大模型解决泛化、用缓存脚本保证稳定与低成本，是把 Agent 从 demo 推向生产的关键工程范式；②把不稳定的通用 Agent 收敛为‘版本化、可观测、可 Webhook 触发的 API 端点’，让自动化像调接口一样可被业务系统编排；③自动化 2FA/鉴权，攻下‘登录墙内’这块传统 RPA 与通用 Agent 都难啃的高价值场景。</blockquote></div><div class="insight"><div class="ihead"><span class="iico">⚠️</span><h3>风险与存疑点</h3></div><p>1) 疑似 pivot/定位漂移：官网 dari.dev 现标语已变为‘The Routing/Production Layer for AI Agents’（AI Agent 的路由/生产层），与 YC 目录页‘最可靠的 browser-use agents API’定位不一致，可能正从纯浏览器智能体向更泛的 Agent 基础设施扩张，方向未定型。2) 未查到任何融资披露（金额/轮次均未公开），仅 2 人团队、2025 年成立，早期风险高。3) 客户仅有一家未具名语音 AI 公司作为案例，置信度低，缺乏可核验客户名单。4) 赛道拥挤且巨头（OpenAI Operator）与已融资玩家（Browser Use 1700 万美元、Browserbase 约 3 亿美元估值）环伺。5) 自动处理 2FA/登录态涉及合规、账号风控与目标网站 ToS 风险。</p></div></div>
+ <div class="tagrow"><span class="tlabel">国内对标</span><span class="chip">浏览器/网页智能体：智谱 AutoGLM、纳米 AI（360）浏览器智能体、扣子（Coze）浏览器操作、Manus 通用 Agent 的网页操作能力</span><span class="chip">RPA 厂商：影刀 RPA、来也科技 UiBot、艺赛旗 iS-RPA、弘玑 Cyclone——均在向 AI+RPA / Agentic 自动化演进</span><span class="chip">确定性回放 + 大模型兜底的‘AI 增强 RPA’思路，可对标国内 RPA 大厂的 AI Copilot 化路线</span></div>
+ <div class="tagrow"><span class="tlabel">场景词条</span><span class="chip">浏览器自动化</span><span class="chip">browser-use agents</span><span class="chip">AI+RPA</span><span class="chip">鉴权工作流自动化（2FA/TOTP）</span><span class="chip">确定性回放缓存</span><span class="chip">数据录入/表单填写自动化</span><span class="chip">Agent 基础设施 API</span></div>
+</section>
+
+<section class="card"><h2>信息来源溯源</h2><p class="none">（档案内未列独立溯源表；具体来源见上方各处「链接」）</p></section>
+
+<footer class="foot">批次来源 B003 · YC Fall 2025 (F25) Launch　|　深研日期 2026-07-07　|　直通模式 auto：AI 生成、未经人工复核。数字与具名事实一律带来源，无来源者标「未披露」，未编造。<br>数据真源 <code>data/companies.json</code> · 原始档案 <code>companies/dari.md</code></footer>
+</div>
+</body></html>

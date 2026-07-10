@@ -10266,12 +10266,37 @@
    "one_liner_zh": "生产级的浏览器操作智能体平台",
    "tier": "B",
    "triage_reason": "生产级浏览器操作智能体平台",
-   "status": "card",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B003"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-07",
+   "funding": [],
+   "early_customers": [
+    {
+     "name": "一家语音 AI 公司（未具名）",
+     "confidence": "低",
+     "source_url": "https://fondo.com/blog/dari-launches"
+    }
+   ],
+   "cn_benchmarks": [
+    "浏览器/网页智能体：智谱 AutoGLM、纳米 AI（360）浏览器智能体、扣子（Coze）浏览器操作、Manus 通用 Agent 的网页操作能力",
+    "RPA 厂商：影刀 RPA、来也科技 UiBot、艺赛旗 iS-RPA、弘玑 Cyclone——均在向 AI+RPA / Agentic 自动化演进",
+    "确定性回放 + 大模型兜底的‘AI 增强 RPA’思路，可对标国内 RPA 大厂的 AI Copilot 化路线"
+   ],
+   "scene_tags": [
+    "浏览器自动化",
+    "browser-use agents",
+    "AI+RPA",
+    "鉴权工作流自动化（2FA/TOTP）",
+    "确定性回放缓存",
+    "数据录入/表单填写自动化",
+    "Agent 基础设施 API"
+   ],
+   "archive": "companies/dari.md",
+   "researched_at": "2026-07-07",
+   "research_status": "researched"
   },
   {
    "num": 424,
@@ -10285,12 +10310,31 @@
    "one_liner_zh": "生产环境智能体的 AI 可观测性",
    "tier": "B",
    "triage_reason": "生产环境智能体可观测性",
-   "status": "card",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B003"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-07",
+   "funding": [],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "国内 Agent 可观测/LLMOps 对标：阿里云百炼可观测、火山引擎/字节 LLMOps 观测能力、Dify（含可观测集成）、FastGPT；以及基于 OpenTelemetry/OpenLLMetry 的自建 LLM 追踪方案"
+   ],
+   "scene_tags": [
+    "AI可观测性",
+    "Agent可观测",
+    "LLMOps",
+    "静默失败检测",
+    "幻觉检测",
+    "工具调用监控",
+    "延迟与成本追踪",
+    "对话分析",
+    "本地优先调试"
+   ],
+   "archive": "companies/the-context-company.md",
+   "researched_at": "2026-07-07",
+   "research_status": "researched"
   },
   {
    "num": 425,
@@ -10380,12 +10424,65 @@
    "one_liner_zh": "硬件工程的 AI 智能体",
    "tier": "B",
    "triage_reason": "硬件工程 AI 智能体，研发域",
-   "status": "card",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B003"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-07",
+   "funding": [],
+   "early_customers": [
+    {
+     "name": "多支赛车队（dozens of racing teams，官方称已上线数十支）",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/launches/Om5-movedot-ai-agents-for-hardware-engineering"
+    },
+    {
+     "name": "Tractian（YC W21，制造业 POC）",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/launches/Om5-movedot-ai-agents-for-hardware-engineering"
+    },
+    {
+     "name": "Arrow McLaren（官网客户/合作 logo）",
+     "confidence": "中",
+     "source_url": "https://www.movedot.ai/"
+    },
+    {
+     "name": "Kaulig Inc.（官网客户/合作 logo）",
+     "confidence": "中",
+     "source_url": "https://www.movedot.ai/"
+    },
+    {
+     "name": "WRT BMW（官网客户/合作 logo）",
+     "confidence": "中",
+     "source_url": "https://www.movedot.ai/"
+    },
+    {
+     "name": "INDYCAR / IMSA / WEC / NASCAR / Supercars（官网列出的赛事/生态 logo，具体为赛队还是赛事方未明确）",
+     "confidence": "低",
+     "source_url": "https://www.movedot.ai/"
+    }
+   ],
+   "cn_benchmarks": [
+    "硬件研发/试验数据分析：国内主机厂与零部件企业的试验场/台架测试数据后处理平台（多为内部自研或系统集成商定制）",
+    "EDA/仿真后处理：国产 CAE 与仿真数据管理厂商（如云道智造/天洑软件等仿真与数据智能方向）",
+    "PLM/研发数据管理：数字化研发平台厂商（如用友、鼎捷、华天软件 PLM、思普等）承载测试/试验数据治理",
+    "工业时序/遥测数据分析：工业互联网与时序数据平台（如 TDengine 时序库 + 上层分析）在整车/装备测试场景的应用"
+   ],
+   "scene_tags": [
+    "硬件测试数据分析",
+    "试验/台架数据后处理",
+    "遥测telemetry分析",
+    "失效分析/根因定位",
+    "多模态工程数据（数据+视频+文档）",
+    "研发方法论沉淀为可复用工作流",
+    "赛车运动motorsports工程",
+    "自动生成测试报告与看板",
+    "工程AI Agent/copilot"
+   ],
+   "archive": "companies/movedot.md",
+   "researched_at": "2026-07-07",
+   "research_status": "researched"
   },
   {
    "num": 430,
@@ -10857,12 +10954,33 @@
    "one_liner_zh": "AI 智能体的可靠性平台",
    "tier": "B",
    "triage_reason": "AI 智能体可靠性平台",
-   "status": "card",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B003"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-07",
+   "funding": [],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "阿里云百炼 / 通义（含 Agent 评测与可观测能力）",
+    "Dify（开源 LLMOps，评测与编排）",
+    "字节 扣子 Coze（Agent 评测/调试）",
+    "百度千帆（模型评估与调优）",
+    "创业侧 LLMOps/评测：如面向 Agent 可靠性与评测的国内团队（对标 LangSmith/Arize 的国产替代）"
+   ],
+   "scene_tags": [
+    "AI Agent 可观测",
+    "LLMOps",
+    "prompt 自动优化",
+    "在线评测/回归检测",
+    "语义级静默失败检测",
+    "生产环境漂移治理",
+    "根因定位"
+   ],
+   "archive": "companies/lemma.md",
+   "researched_at": "2026-07-07",
+   "research_status": "researched"
   },
   {
    "num": 451,
@@ -11047,12 +11165,41 @@
    "one_liner_zh": "编码智能体的对齐层",
    "tier": "B",
    "triage_reason": "编码智能体对齐层，治理",
-   "status": "card",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B003"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-07",
+   "funding": [
+    {
+     "round": "Seed",
+     "amount": "约 $500K（第三方聚合平台数据，非官方披露）",
+     "date": "2025-09-29",
+     "source_url": "https://tracxn.com/d/companies/scottai/__hTmmwLSE7PjlcKDzP1PiHhaCSFfTF5SOoYa_L4L1jFg"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "通义灵码 / 阿里云 Lingma（编码智能体，含团队级规划与规范约束）",
+    "字节 Trae（AI IDE，具备 spec/plan 与多步骤执行）",
+    "腾讯 CodeBuddy / 混元编码助手（企业级编码智能体）",
+    "CodeGeeX（智谱，代码大模型与助手）",
+    "面向代码治理/评审方向：与 github-radar 交叉——国内 AI 代码评审与研发效能治理工具（如硅心 aiXcoder 的团队规范约束、各家 DevOps 平台的 AI PR 评审）"
+   ],
+   "scene_tags": [
+    "编码智能体对齐层",
+    "多智能体架构辩论",
+    "spec-driven 开发",
+    "AI 研发规划/评审",
+    "代码治理",
+    "上下文委派/交接",
+    "研发团队协同",
+    "agent-agnostic 编排"
+   ],
+   "archive": "companies/scott-ai.md",
+   "researched_at": "2026-07-07",
+   "research_status": "researched"
   },
   {
    "num": 461,
@@ -11688,12 +11835,61 @@
    "one_liner_zh": "AI 智能体的记忆层",
    "tier": "B",
    "triage_reason": "AI 智能体记忆层",
-   "status": "card",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B003"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-07",
+   "funding": [
+    {
+     "round": "YC Fall 2025（F25，种子前/早期）",
+     "amount": "未披露（YC 标准投资；第三方聚合站 Extruct/Tracxn 列约 $1M–$2M，未经官方披露证实，仅供参考）",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/hyperspell"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "AgentMail（创始人 Adi Singh 具名背书）",
+     "confidence": "中",
+     "source_url": "https://www.hyperspell.com/"
+    },
+    {
+     "name": "Hobbes（CTO Arjun Athreya 具名背书）",
+     "confidence": "中",
+     "source_url": "https://www.hyperspell.com/"
+    },
+    {
+     "name": "Scale Agentic（CEO Anna Yuan 具名背书）",
+     "confidence": "中",
+     "source_url": "https://www.hyperspell.com/"
+    },
+    {
+     "name": "Entelligence / Eragon / Corgi / Micro / Smallest / Bear / Virio / SuperMe / FinalRoundAI（官网展示客户 logo）",
+     "confidence": "低",
+     "source_url": "https://www.hyperspell.com/"
+    }
+   ],
+   "cn_benchmarks": [
+    "Agent 记忆层对标：Mem0（开源 agent 记忆框架，国内团队广泛使用）",
+    "向量库/检索底座：国内多用 Milvus（Zilliz）、腾讯云向量数据库、阿里云 AnalyticDB 向量版",
+    "企业知识接入/RAG 平台：字节 Coze、百度千帆、阿里百炼等平台内置的知识库与记忆能力",
+    "企业内数据接入+图谱：明略科技、达观数据等企业知识图谱/知识管理方案"
+   ],
+   "scene_tags": [
+    "Agent 记忆层",
+    "上下文工程",
+    "企业知识图谱",
+    "多源数据连接器",
+    "带权限检索/RAG",
+    "可溯源事实",
+    "开发者 SDK 基础设施",
+    "企业大脑"
+   ],
+   "archive": "companies/hyperspell.md",
+   "researched_at": "2026-07-07",
+   "research_status": "researched"
   },
   {
    "num": 485,
@@ -11707,12 +11903,56 @@
    "one_liner_zh": "面向自主智能体的企业 AI 基础设施",
    "tier": "B",
    "triage_reason": "自主智能体企业 AI 基础设施",
-   "status": "card",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B003"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-07",
+   "funding": [
+    {
+     "round": "Seed",
+     "amount": "$4.3M（媒体另有 €3.7M 表述，为同一轮不同币种口径）",
+     "date": "2026-03-31（媒体报道日期）",
+     "source_url": "https://thenextweb.com/news/nexus-4-3m-seed"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "Orange（Orange Belgium / Orange Group，电信）",
+     "confidence": "高",
+     "source_url": "https://thenextweb.com/news/nexus-4-3m-seed"
+    },
+    {
+     "name": "Proximus（Proximus Global，电信）",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/launches/OXb-nexus-enabling-business-teams-to-build-ai-agents-without-code"
+    },
+    {
+     "name": "Lambda（Lambda.ai，AI 云/基础设施）",
+     "confidence": "中",
+     "source_url": "https://thenextweb.com/news/nexus-4-3m-seed"
+    }
+   ],
+   "cn_benchmarks": [
+    "阿里云百炼 / 通义 AgentScope（企业智能体平台）",
+    "字节扣子 Coze / 扣子空间（no-code agent 构建）",
+    "腾讯元器 / 腾讯云智能体开发平台",
+    "实在智能、来也科技 UiBot（RPA 向 agent 演进的自动化平台）",
+    "澜码科技 AskXBOT（企业级 agent 编排平台）"
+   ],
+   "scene_tags": [
+    "企业AI智能体平台",
+    "no-code智能体构建",
+    "自主业务流程自动化",
+    "企业系统集成编排",
+    "客户onboarding智能体",
+    "非技术团队赋能",
+    "实施层自动化"
+   ],
+   "archive": "companies/nexus.md",
+   "researched_at": "2026-07-07",
+   "research_status": "researched"
   },
   {
    "num": 486,
@@ -12371,12 +12611,55 @@
    "one_liner_zh": "AI 治理平台",
    "tier": "B",
    "triage_reason": "AI 治理平台",
-   "status": "card",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B004"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-07",
+   "funding": [
+    {
+     "round": "未披露轮次（YC S25 相关早期融资）",
+     "amount": "$800K（累计，第三方数据源口径，官方未在官网披露）",
+     "date": "2025",
+     "source_url": "https://www.startuphub.ai/startups/tectoai-yc-s25"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "多家律师事务所（法律行业，未具名）",
+     "confidence": "中",
+     "source_url": "https://www.startuphub.ai/startups/tectoai-yc-s25"
+    },
+    {
+     "name": "Big 4 四大咨询公司（试点中，未具名）",
+     "confidence": "低",
+     "source_url": "https://www.startuphub.ai/startups/tectoai-yc-s25"
+    },
+    {
+     "name": "大型企业（试点中，未具名）",
+     "confidence": "低",
+     "source_url": "https://www.startuphub.ai/startups/tectoai-yc-s25"
+    }
+   ],
+   "cn_benchmarks": [
+    "蚂蚁集团『蚁鉴』AI 安全检测平台",
+    "瑞莱智慧 RealAI（AI 安全与可信）",
+    "合规科技/GRC 类：合合信息、上上签等企业合规方向（弱对标）",
+    "大模型安全评测：信通院『可信 AI』评估体系、清华/中科院系 AI 治理工具"
+   ],
+   "scene_tags": [
+    "AI 治理",
+    "Agent 全生命周期监控",
+    "合规与监管对齐(EU AI Act/GDPR)",
+    "敏感数据/PII 脱敏",
+    "受监管行业(法律/咨询/金融)",
+    "数据主权与本地化处理",
+    "AI 事件监控与告警"
+   ],
+   "archive": "companies/tecto.md",
+   "researched_at": "2026-07-07",
+   "research_status": "researched"
   },
   {
    "num": 511,
@@ -12708,12 +12991,54 @@
    "one_liner_zh": "面向网页智能体的浏览器基础设施",
    "tier": "B",
    "triage_reason": "面向网页智能体的浏览器基础设施",
-   "status": "card",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B004"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-07",
+   "funding": [
+    {
+     "round": "Seed + Series A（合并披露，未拆分具体金额）",
+     "amount": "$22,000,000",
+     "date": "2025-10-09",
+     "source_url": "https://siliconangle.com/2025/10/09/kernel-raises-22m-power-browser-infrastructure-ai-agents/"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "Cash App (Block)",
+     "confidence": "高",
+     "source_url": "https://www.ycombinator.com/companies/kernel"
+    },
+    {
+     "name": "Rye（电商基础设施）",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/kernel"
+    },
+    {
+     "name": "Framer",
+     "confidence": "中",
+     "source_url": "https://www.kernel.sh/"
+    }
+   ],
+   "cn_benchmarks": [
+    "浏览器基础设施 / 云浏览器方向：国内暂无完全对位的独立创业头部，通常由智能体厂商自建 headless 浏览器沙箱（如各家 Agent/RPA 平台内置的云端浏览器执行环境）",
+    "Computer-use / 网页智能体执行层：智谱 AutoGLM、月之暗面 Kimi 探索版、扣子/Coze 的浏览器操作能力、以及 RPA 厂商（影刀 RPA、来也 UiBot、实在智能）在向 Agentic 浏览器自动化演进",
+    "云沙箱/无头浏览器托管：可类比国内云厂商的 Serverless + 浏览器渲染方案，但作为独立商业化产品的对标尚不成熟"
+   ],
+   "scene_tags": [
+    "网页智能体基础设施",
+    "云端浏览器沙箱",
+    "Computer Use / 浏览器自动化",
+    "Agent 运行时",
+    "反检测与住宅代理",
+    "会话录制与实时观看",
+    "按量计费云基础设施"
+   ],
+   "archive": "companies/kernel.md",
+   "researched_at": "2026-07-07",
+   "research_status": "researched"
   },
   {
    "num": 524,
@@ -12784,12 +13109,41 @@
    "one_liner_zh": "面向 AI 智能体的浏览器基础设施",
    "tier": "B",
    "triage_reason": "面向 AI 智能体的浏览器基础设施",
-   "status": "card",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B004"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-07",
+   "funding": [
+    {
+     "round": "Pre-seed",
+     "amount": "$2.5M",
+     "date": "2025-07-18",
+     "source_url": "https://www.vestbee.com/insights/articles/notte-secures-2-5-m"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "浏览器基础设施对标：目前国内尚无强对标，方向可参照做 Web 自动化/RPA 的厂商向 agent infra 演进",
+    "computer-use / GUI agent 对标：智谱 AutoGLM、面壁智能 AgentCPM-GUI、阿里通义 Mobile-Agent 等 GUI/computer-use 智能体方向",
+    "RPA 转 AI agent：影刀 RPA、实在智能、来也科技 UiBot 等在向 agentic 自动化迁移"
+   ],
+   "scene_tags": [
+    "浏览器基础设施",
+    "AI-agent-infra",
+    "computer-use",
+    "Web自动化",
+    "RPA升级",
+    "数据抓取",
+    "表单自动填写",
+    "CAPTCHA处理",
+    "云浏览器会话",
+    "开源框架"
+   ],
+   "archive": "companies/notte-labs.md",
+   "researched_at": "2026-07-07",
+   "research_status": "researched"
   },
   {
    "num": 528,
@@ -12879,12 +13233,63 @@
    "one_liner_zh": "芯片设计的 AI 智能体",
    "tier": "B",
    "triage_reason": "芯片设计 AI 智能体，EDA",
-   "status": "card",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B004"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-07",
+   "funding": [
+    {
+     "round": "未明确（YC S25 参投，标准 Deal 通常为 50 万美元；第三方数据源 Extruct AI 记为约 100 万美元，置信度低、未见一手披露）",
+     "amount": "未披露（一手来源未披露具体金额）",
+     "date": "2025",
+     "source_url": "https://www.extruct.ai/hub/sigmanticai-com/"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "1 家付费客户（YC 页面提及但未具名）",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/sigmanticai"
+    },
+    {
+     "name": "Northrop Grumman（诺斯罗普·格鲁曼，工程师层面接触/对话，非确认签约客户）",
+     "confidence": "低",
+     "source_url": "https://www.ycombinator.com/companies/sigmanticai"
+    },
+    {
+     "name": "SciEngines（工程师层面接触/对话）",
+     "confidence": "低",
+     "source_url": "https://www.ycombinator.com/companies/sigmanticai"
+    },
+    {
+     "name": "Quadric（工程师层面接触/对话）",
+     "confidence": "低",
+     "source_url": "https://www.ycombinator.com/companies/sigmanticai"
+    }
+   ],
+   "cn_benchmarks": [
+    "华大九天（国产 EDA 龙头，模拟/数字全流程工具，AI 化方向对标）",
+    "芯华章（Chiplink/UnivEDA，专注数字验证与 EDA 2.0，与 Sigmantic 的验证自动化最贴近）",
+    "概伦电子（器件建模与电路仿真 EDA）",
+    "行芯 / 芯行纪等国产验证工具新锐（RTL 生成与验证 AI 赛道）"
+   ],
+   "scene_tags": [
+    "芯片设计/EDA",
+    "RTL 自动生成",
+    "硬件验证自动化",
+    "Verilog/HDL",
+    "UVM 测试平台",
+    "多智能体系统",
+    "代码智能体（Coding Agent）",
+    "半导体工程",
+    "气隙/私有化部署",
+    "强化学习+编译器反馈闭环"
+   ],
+   "archive": "companies/sigmantic.md",
+   "researched_at": "2026-07-07",
+   "research_status": "researched"
   },
   {
    "num": 533,
@@ -12983,12 +13388,51 @@
    "one_liner_zh": "企业智能体的学习与评测层",
    "tier": "B",
    "triage_reason": "企业智能体学习与评测层",
-   "status": "card",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B004"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-07",
+   "funding": [
+    {
+     "round": "YC S25 标准投资 + 种子轮（Seed）",
+     "amount": "金额未披露（Crunchbase 列有 Metis Labs 种子轮；据公开报道 YC S25 之后未再融机构资本）",
+     "date": "2025",
+     "source_url": "https://www.crunchbase.com/funding_round/metis-labs-seed--2cf678ea"
+    },
+    {
+     "round": "并购退出（被 DoorDash 全现金收购）",
+     "amount": "1.5 亿美元全现金（据 Arfur Rock 在 X 披露，$150M all cash；官方未披露具体对价）",
+     "date": "2026-03-18",
+     "source_url": "https://www.tbpndigest.com/story/2026-03-18/doordash-acquires-yc-backed-applied-ai-lab-metis-to-accelerate-agentic-commerce"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "DoorDash",
+     "confidence": "高",
+     "source_url": "https://www.fenwick.com/insights/experience/fenwick-represents-doordash-in-acquisition-of-metis"
+    }
+   ],
+   "cn_benchmarks": [
+    "Agent 评测/可观测：LangSmith 中文生态、以及国内 LLMOps/评测平台（如 Dify、FastGPT 的评测模块、百度千帆评测、阿里百炼评估）",
+    "后训练/强化学习与合成数据服务：面向企业的 RLHF/RL 微调与数据标注服务商（如数据堂、海天瑞声等在 agent 数据侧的延伸）",
+    "企业 Agent 平台+持续学习：字节扣子(Coze)、阿里百炼、腾讯元器等 agent 编排平台的『评测+迭代』闭环能力"
+   ],
+   "scene_tags": [
+    "企业智能体后训练",
+    "Agent 持续学习",
+    "Agent 评测与校验",
+    "强化学习(RL)微调",
+    "长多轮工作流可靠性",
+    "工具选择与状态恢复",
+    "LLMOps/可观测",
+    "agentic commerce（收购方场景）"
+   ],
+   "archive": "companies/metis.md",
+   "researched_at": "2026-07-07",
+   "research_status": "acquired"
   },
   {
    "num": 537,
@@ -13515,12 +13959,33 @@
    "one_liner_zh": "AI 智能体的监控与优化平台",
    "tier": "B",
    "triage_reason": "AI 智能体监控与优化",
-   "status": "card",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B004"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-07",
+   "funding": [],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "阿里云百炼/魔搭 Agent 可观测与评测能力",
+    "字节 Coze / 火山引擎的 Agent 监控与调试",
+    "LangSmith 中国生态对标（如观测云 Guance、TakinTalk 等 LLM 可观测方向）",
+    "国内 LLMOps/Agent 评测创业公司（如 Dify 的运行日志观测、Agent 评估方向）"
+   ],
+   "scene_tags": [
+    "Agent 可观测性",
+    "Agent 调试",
+    "执行流可视化",
+    "幻觉定位",
+    "Prompt 自动调优",
+    "回归检测",
+    "LLMOps",
+    "开发者工具/SDK"
+   ],
+   "archive": "companies/mohi.md",
+   "researched_at": "2026-07-07",
+   "research_status": "researched"
   },
   {
    "num": 565,
@@ -14030,12 +14495,44 @@
    "one_liner_zh": "临床 AI 的治理基础设施",
    "tier": "B",
    "triage_reason": "临床 AI 治理基础设施",
-   "status": "card",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B004"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-07",
+   "funding": [
+    {
+     "round": "总融资（含 YC，具体轮次/日期未逐一披露）",
+     "amount": "约 $2.3M（据第三方聚合 startupintros，横跨 2 轮；未见官方公告，含 YC 标准投资）",
+     "date": "2025",
+     "source_url": "https://startupintros.com/orgs/parachute"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "哥伦比亚大学欧文医学中心（Columbia University Irving Medical Center, CUIMC）",
+     "confidence": "高",
+     "source_url": "https://www.ycombinator.com/launches/O9A-parachute-evaluate-deploy-and-monitor-clinical-ai"
+    }
+   ],
+   "cn_benchmarks": [
+    "国家药监局（NMPA）医疗器械技术审评中心——AI 医疗器械（SaMD）注册审批与真实世界数据监管路径",
+    "医疗 AI 质控/上市后监测：类似‘AI 医疗器械算法性能持续监测’的合规诉求，国内多由医院信息科+第三方检测机构（如中检院）承担，尚缺横向 SaaS 治理层",
+    "医院 CDSS（临床决策支持系统）合规与算法备案——可对标国内医疗信息化厂商（东软、卫宁健康、创业慧康）在院内 AI 集成与审计侧的能力延伸"
+   ],
+   "scene_tags": [
+    "临床AI治理",
+    "医疗AI合规审计",
+    "模型漂移监控",
+    "AI供应商甄别与marketplace",
+    "不可篡改审计追踪",
+    "算法偏差/公平性监测",
+    "医院AI全生命周期管理"
+   ],
+   "archive": "companies/parachute.md",
+   "researched_at": "2026-07-07",
+   "research_status": "researched"
   },
   {
    "num": 583,
