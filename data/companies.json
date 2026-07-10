@@ -214,12 +214,33 @@
    "one_liner_zh": "AI 智能体的授权层",
    "tier": "B",
    "triage_reason": "Agent 安全治理",
-   "status": "card",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-07",
+   "funding": [],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "国内暂无严格同形态对标；相邻方向为面向大模型/Agent 的 API 网关与安全治理厂商，如阿里云 API 网关 + 通义 Agent 治理、火山引擎/字节的 Agent 安全能力，以及安全创业公司在『大模型应用安全 / AI 防火墙 / 数据脱敏网关』方向的探索（如深信服、奇安信、蚂蚁等在 AI 安全的布局）。",
+    "身份与权限侧对标：国内 IAM/特权访问管理（PAM）厂商（如派拉软件、竹云、芯盾时代）若延伸到『机器/Agent 身份』，是潜在同位竞品。"
+   ],
+   "scene_tags": [
+    "AI Agent 授权层",
+    "非人/机器身份治理",
+    "凭据保险库与零暴露",
+    "按任务用途的最小权限",
+    "每请求策略强制",
+    "Agent 审计与可追溯",
+    "MCP 网关",
+    "AI Agent 成本归因",
+    "RBAC/ABAC 策略",
+    "开源自托管安全网关"
+   ],
+   "archive": "companies/clawvisor.md",
+   "researched_at": "2026-07-07",
+   "research_status": "researched"
   },
   {
    "num": 9,
@@ -405,12 +426,33 @@
    "one_liner_zh": "由常驻 AI 智能体运行的 AI 原生版 ServiceNow",
    "tier": "B",
    "triage_reason": "ITSM 域 AI 原生重做范式",
-   "status": "card",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-07",
+   "funding": [],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "ServiceNow 本地化（本土 ITSM/ESM 交付与运维）",
+    "云智慧（智能运维 AIOps）",
+    "嘉为蓝鲸（蓝鲸体系 IT 运维与 ITSM）"
+   ],
+   "scene_tags": [
+    "AI 原生 ITSM",
+    "IT 服务台自动化",
+    "agentic 工单处理",
+    "推理与执行分离",
+    "员工自助（Slack/Teams 内发起）",
+    "访问权限即时授权/离职回收",
+    "入职离职自动化",
+    "策略校验与审计",
+    "AIOps/IT 运维"
+   ],
+   "archive": "companies/modern.md",
+   "researched_at": "2026-07-07",
+   "research_status": "researched"
   },
   {
    "num": 17,
@@ -481,12 +523,32 @@
    "one_liner_zh": "面向 AI 智能体的责任险",
    "tier": "B",
    "triage_reason": "Agent 风险定价，组织采纳 AI 的制度配套",
-   "status": "card",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-07",
+   "funding": [],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "众安保险（ZhongAn，科技驱动的互联网保险，具备新型险种快速定价与承保能力）",
+    "水滴/慧择等 InsurTech 平台（新兴风险产品化路径参考）",
+    "国内尚无成规模的『AI 智能体责任险』专营方，可对标『网络安全责任险 / 科技保险』承保方（如平安产险、太保产险的科技险条线）"
+   ],
+   "scene_tags": [
+    "AI Agent 责任险",
+    "AI 风险认证",
+    "企业 Agent 采购合规",
+    "保险科技 InsurTech",
+    "E&O/网络险除外缺口",
+    "Agent 行为红队测试",
+    "AI 治理与合规",
+    "第三方安全背书"
+   ],
+   "archive": "companies/klaimee.md",
+   "researched_at": "2026-07-07",
+   "research_status": "researched"
   },
   {
    "num": 21,
@@ -1036,12 +1098,31 @@
    "one_liner_zh": "Claude Cowork 的开源替代品",
    "tier": "B",
    "triage_reason": "Claude Code 生态追踪（github-radar 交叉信号）",
-   "status": "card",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-07",
+   "funding": [],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "Dify（开源 LLM 应用/Agent 编排平台，企业可私有化部署）",
+    "OpenManus（MetaGPT 团队开源的通用 Agent，对标闭源 Manus 的开源路线）",
+    "AgentScope（阿里通义开源多 Agent 框架）",
+    "扣子 Coze（字节，Agent/工作流编排，但非开源桌面且以云为主）"
+   ],
+   "scene_tags": [
+    "非技术员工 AI 助手",
+    "本地文件处理/桌面 Agent",
+    "企业私有化/on-prem 合规部署",
+    "BYO-LLM 多模型路由控成本",
+    "Skills/MCP/Plugin 生态扩展",
+    "团队配置一键分享"
+   ],
+   "archive": "companies/openwork.md",
+   "researched_at": "2026-07-07",
+   "research_status": "researched"
   },
   {
    "num": 45,
@@ -1359,12 +1440,31 @@
    "one_liner_zh": "为团队所有智能体提供共享上下文",
    "tier": "B",
    "triage_reason": "多智能体协同基础设施",
-   "status": "card",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-07",
+   "funding": [],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "Mem0（Agent 记忆层，最直接对标；YC 系）",
+    "国内向量数据库/记忆基座：Zilliz Milvus、腾讯云 VectorDB",
+    "企业知识/会话沉淀方向：飞书知识库、钉钉 AI 助理的组织记忆能力"
+   ],
+   "scene_tags": [
+    "Agent 记忆层",
+    "共享上下文",
+    "MCP 生态",
+    "企业知识沉淀",
+    "多智能体协同",
+    "会议/邮件/IM 自动归纳",
+    "活文档 Briefs"
+   ],
+   "archive": "companies/memory-store.md",
+   "researched_at": "2026-07-07",
+   "research_status": "researched"
   },
   {
    "num": 61,
@@ -1512,12 +1612,31 @@
    "one_liner_zh": "跨团队智能体的共享记忆、工具与工作流",
    "tier": "B",
    "triage_reason": "多智能体协同基础设施",
-   "status": "card",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-07",
+   "funding": [],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "多智能体协同/记忆基础设施方向国内对标：Dify、扣子（Coze）等 agent 编排平台在做团队级工作流与工具接入，但『跨团队共享记忆 + MCP 权限化 + agent 会话可接力』这一控制面尚不成熟",
+    "记忆基础设施可对标 Mem0（开源 agent 记忆层）思路的国内化尝试，以及国内做企业知识库+RAG+MCP 网关的中间层团队",
+    "MCP/工具治理方向可对标国内做『企业级 MCP 市场/网关+权限审计』的早期项目"
+   ],
+   "scene_tags": [
+    "多智能体协同",
+    "Agent 记忆基础设施",
+    "MCP 工具治理与权限",
+    "团队知识沉淀/复用",
+    "云端 Agent 会话协作",
+    "工具调用审计 tracing",
+    "企业 AI 工作空间"
+   ],
+   "archive": "companies/wato.md",
+   "researched_at": "2026-07-07",
+   "research_status": "researched"
   },
   {
    "num": 68,
@@ -1550,12 +1669,35 @@
    "one_liner_zh": "企业 AI 智能体的预发布环境",
    "tier": "B",
    "triage_reason": "企业 Agent 治理环节",
-   "status": "card",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-07",
+   "funding": [],
+   "early_customers": [
+    {
+     "name": "Remedy Meds",
+     "confidence": "中",
+     "source_url": "https://chronicle-labs.com/"
+    }
+   ],
+   "cn_benchmarks": [
+    "国内 Agent 测试/评测与治理尚无同名直接对标；相邻方向可参考：阿里/百度等大模型平台的 Agent 评测与回归测试模块、以及国内 MLOps/大模型可观测厂商（如面向大模型的评测与 Guardrail 类产品）",
+    "对标逻辑更接近『软件测试沙盒 + 数据回放』，可映射到国内 AI 中台/智能体平台厂商的『上线前灰度与仿真』能力"
+   ],
+   "scene_tags": [
+    "AI 智能体上线前测试",
+    "生产事件回放/回测",
+    "预发布沙盒环境(staging)",
+    "Agent 失败模式发现",
+    "AI 治理与风险拦截",
+    "企业级 AgentOps"
+   ],
+   "archive": "companies/chronicle-labs.md",
+   "researched_at": "2026-07-07",
+   "research_status": "researched"
   },
   {
    "num": 70,
@@ -1811,14 +1953,48 @@
    "one_liner_zh": "把 AI 部署进老旧桌面系统的 RPA 平台",
    "tier": "B",
    "triage_reason": "制造业遗留系统改造的现实路径",
-   "status": "card",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
    "updated": "2026-07-07",
    "card": "companies/B-cards.md",
-   "card_written_at": "2026-07-07"
+   "card_written_at": "2026-07-07",
+   "funding": [],
+   "early_customers": [
+    {
+     "name": "Mycroft",
+     "confidence": "低",
+     "source_url": "https://minicor.com/"
+    },
+    {
+     "name": "Pallet",
+     "confidence": "低",
+     "source_url": "https://minicor.com/"
+    }
+   ],
+   "cn_benchmarks": [
+    "来也科技（UiPath 式 RPA + IPA，遗留系统流程自动化）",
+    "影刀 RPA（易用录制式桌面自动化，中小企业遗留系统）",
+    "实在智能（TARS/Agentic RPA，屏幕理解 + 自愈式点击）",
+    "弘玑 Cyclone、艺赛旗（企业级 RPA，金融/制造遗留系统改造）"
+   ],
+   "scene_tags": [
+    "遗留系统不换系统上AI",
+    "无API系统自动化",
+    "桌面RPA",
+    "自愈式自动化",
+    "AI数据回写系统",
+    "Windows虚拟机自动化",
+    "医疗EHR自动化",
+    "供应链SAP自动化",
+    "汽车DMS自动化",
+    "on-prem合规部署"
+   ],
+   "archive": "companies/minicor.md",
+   "researched_at": "2026-07-07",
+   "research_status": "researched"
   },
   {
    "num": 82,
@@ -1889,12 +2065,40 @@
    "one_liner_zh": "为 AI 智能体提供限定范围的支付凭证",
    "tier": "B",
    "triage_reason": "Agent 经济基础设施",
-   "status": "card",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-07",
+   "funding": [
+    {
+     "round": "YC Spring 2026（P26）",
+     "amount": "未披露（YC 标准投资；未见公开独立种子轮金额）",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/allowance"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "蚂蚁/支付宝——智能体支付与『AI 付』方向，探索 Agent 代付与授权额度（对标 Agent 支付授权层）",
+    "连连数科——跨境虚拟卡发卡（对标一次性虚拟卡资金通道）",
+    "Ping++/易宝支付等聚合发卡与虚拟卡能力（对标发卡+控费基础设施）",
+    "腾讯财付通/微信支付的授权代扣与限额风控（对标消费上限/商户限定护栏）"
+   ],
+   "scene_tags": [
+    "Agent 支付",
+    "一次性虚拟卡",
+    "scoped 支付凭证",
+    "代理式商务 agentic commerce",
+    "人机审批回路 human-in-the-loop",
+    "消费限额与商户锁定",
+    "AI 智能体授权",
+    "自动比价下单/补货回补"
+   ],
+   "archive": "companies/allowance.md",
+   "researched_at": "2026-07-07",
+   "research_status": "researched"
   },
   {
    "num": 86,
@@ -1927,14 +2131,34 @@
    "one_liner_zh": "AI 原生的报关行",
    "tier": "B",
    "triage_reason": "供应链合规环节，出海制造相关",
-   "status": "card",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
    "updated": "2026-07-07",
    "card": "companies/B-cards.md",
-   "card_written_at": "2026-07-07"
+   "card_written_at": "2026-07-07",
+   "funding": [],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "关务云 / 一站式报关平台（如大森林、递四方、云关通等跨境报关/关务 SaaS）",
+    "跨境合规与关务代理（如各大货代/报关行的数字化关务系统）",
+    "海关 AEO 高级认证辅导 + 关务合规软件服务商"
+   ],
+   "scene_tags": [
+    "AI 报关",
+    "关务自动化",
+    "跨境进口合规",
+    "HS 编码归类",
+    "关税查询",
+    "报关单自动填制",
+    "供应链可视化",
+    "AI + 持牌专家协同"
+   ],
+   "archive": "companies/alchemize.md",
+   "researched_at": "2026-07-07",
+   "research_status": "researched"
   },
   {
    "num": 88,
@@ -2097,12 +2321,58 @@
    "one_liner_zh": "面向一线无桌员工的 AI 短信助手",
    "tier": "B",
    "triage_reason": "一线工人触达方式，培训场景可引用",
-   "status": "card",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-07",
+   "funding": [],
+   "early_customers": [
+    {
+     "name": "EDS Manufacturing",
+     "confidence": "中",
+     "source_url": "https://textsidekick.com/"
+    },
+    {
+     "name": "IPI Plastics",
+     "confidence": "中",
+     "source_url": "https://textsidekick.com/"
+    },
+    {
+     "name": "S&F Electropolishing",
+     "confidence": "中",
+     "source_url": "https://textsidekick.com/"
+    },
+    {
+     "name": "3D Dynamics Manufacturing",
+     "confidence": "中",
+     "source_url": "https://textsidekick.com/"
+    }
+   ],
+   "cn_benchmarks": [
+    "蓝领/一线员工触达与培训：钉钉、企业微信 + 内部知识库/培训号（一线蓝领高渗透的短信/IM 触达）",
+    "一线知识问答与 SOP 数字化：得帆/纷享等低代码 + 内部 AI 助手，或制造业「数字工牌+知识库」方案",
+    "设施/设备报修与工单：蓝凌、泛微流程，及制造现场的 TnPM/EAM 移动报修（如安簧、点检通类）",
+    "培训/学习平台侧对标：云学堂、UMU（一线员工移动化培训与考核）"
+   ],
+   "scene_tags": [
+    "一线无桌员工触达",
+    "蓝领 SaaS",
+    "短信/无 App 交互",
+    "多语言问答",
+    "拍照识别设备",
+    "语音免手操作",
+    "SOP 与作业指导书数字化",
+    "新员工入职培训",
+    "现场报修工单",
+    "企业知识库 RAG",
+    "管理者升级闭环学习",
+    "可审计维修记录"
+   ],
+   "archive": "companies/sidekick.md",
+   "researched_at": "2026-07-07",
+   "research_status": "researched"
   },
   {
    "num": 95,
@@ -2371,12 +2641,39 @@
    "one_liner_zh": "长时运行智能体的监控与学习层",
    "tier": "B",
    "triage_reason": "Agent 运维层",
-   "status": "card",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-07",
+   "funding": [],
+   "early_customers": [
+    {
+     "name": "未具名的独角兽级团队（'trusted by unicorns' / 'teams at unicorn scale'）",
+     "confidence": "低",
+     "source_url": "https://bentolabs.ai/about"
+    }
+   ],
+   "cn_benchmarks": [
+    "阿里云 - 通义/百炼平台的 Agent 可观测与评测能力",
+    "字节跳动火山引擎 - 大模型应用可观测/APMPlus 对 LLM 应用的追踪",
+    "国内 LLMOps/AgentOps 初创（如 Dify、FastGPT 等平台内置的运行日志与评测）",
+    "APM 与可观测老将向 LLM 延伸：观测云(Guance)、听云等对 AI 应用链路的监控"
+   ],
+   "scene_tags": [
+    "Agent 可观测性",
+    "智能体运维(AgentOps)",
+    "静默失败检测",
+    "生产环境漂移监控",
+    "自学习/持续改进闭环",
+    "LLMOps",
+    "根因定位",
+    "Prompt/Skill/Harness 修复建议"
+   ],
+   "archive": "companies/bentolabs-ai.md",
+   "researched_at": "2026-07-07",
+   "research_status": "researched"
   },
   {
    "num": 106,
@@ -2615,12 +2912,51 @@
    "one_liner_zh": "让 AI 智能体雇佣人类的市场",
    "tier": "B",
    "triage_reason": "人机协同反转样本，内容素材",
-   "status": "card",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-07",
+   "funding": [
+    {
+     "round": "Seed（存疑，仅见聚合站，未见一手来源）",
+     "amount": "聚合平台 startuphub.ai 标注约 $12M–$13M（同站两处数字不一致），无日期、无具名投资人一手佐证；YC 目录页未披露 YC 之外融资。早期支持者据 LinkedIn/媒体提及 Maple VC、Andre Charoo（天使/VC）。金额待一手来源核实。",
+     "date": "未披露",
+     "source_url": "https://www.startuphub.ai/startups/rentahuman"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "AI/机器人公司（用于采集机器人训练数据，如录制家务、实景拍摄）",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/rentahuman"
+    },
+    {
+     "name": "AI 托管运营的自助洗衣店（AI-managed laundromat 运营实验）",
+     "confidence": "低",
+     "source_url": "https://www.ycombinator.com/companies/rentahuman"
+    }
+   ],
+   "cn_benchmarks": [
+    "众包/威客平台：猪八戒网、一品威客（技能任务撮合）",
+    "本地跑腿/即时履约：美团跑腿、闪送、达达（物理世界执行网络）",
+    "数据标注/采集众包：百度众测、龙猫数据(整数智能)、京东众智（AI 训练数据人力）",
+    "灵活用工/零工平台：斗米、青团社（蓝领零工调度）"
+   ],
+   "scene_tags": [
+    "人机协同市场",
+    "AI-agent 雇佣人类",
+    "众包/零工调度",
+    "物理世界履约",
+    "机器人训练数据采集",
+    "MCP/API 接入劳动力",
+    "HITP 人兜底",
+    "冷启动供需倒挂"
+   ],
+   "archive": "companies/rentahuman.md",
+   "researched_at": "2026-07-07",
+   "research_status": "researched"
   },
   {
    "num": 117,
@@ -2710,12 +3046,32 @@
    "one_liner_zh": "用监控摄像头测量货物",
    "tier": "B",
    "triage_reason": "物流视觉计量，仓储物流域场景",
-   "status": "card",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-07",
+   "funding": [],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "梅卡曼德机器人（Mech-Mind，工业 3D 视觉/物流拆码垛与体积测量）",
+    "海康威视（Hikvision，安防摄像头 + 智能视觉分析，含仓储/物流场景）",
+    "图漾科技 / 奥比中光（3D 视觉传感，DWS 体积重量扫描）",
+    "中科微至 / 顺丰科技等物流 DWS（Dimension-Weight-Scan）动态量方方案"
+   ],
+   "scene_tags": [
+    "仓储物流视觉计量",
+    "货物3D体积测量(DWS)",
+    "月台/装卸口计算机视觉",
+    "LTL零担货运计费核验",
+    "安防摄像头复用/AI改造",
+    "挂车装载率优化",
+    "运费补收(rebilling)"
+   ],
+   "archive": "companies/transload.md",
+   "researched_at": "2026-07-07",
+   "research_status": "researched"
   },
   {
    "num": 122,

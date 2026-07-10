@@ -1,0 +1,33 @@
+<!doctype html><html lang="zh-CN"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Wato · AI青梅创业公司数据库</title>
+<link rel="stylesheet" href="company.css">
+</head><body>
+<div class="wrap">
+<a class="back" href="../index.html">← 返回看板</a>
+<header class="hero">
+ <div class="htop"><span class="badge a2">B</span><span class="badge batch">B001 · YC Spring 2026 (X26)</span><span class="badge ok">已深研</span><span class="badge auto">AI 自动通过</span></div>
+ <h1>Wato</h1>
+ <p class="oneliner">Shared memory, tools, and workflows for agents across teams</p>
+ <p class="oneliner-zh">跨团队智能体的共享记忆、工具与工作流</p>
+ <a class="site" href="https://www.ycombinator.com/companies/wato" target="_blank" rel="noopener">官网 / 锚定 ↗</a>
+ <p class="triage">分诊理由：多智能体协同基础设施</p>
+</header>
+
+<section class="card"><h2>公司画像</h2><div class="picture"><div class="prow"><div class="pk">团队</div><div class="pv">2 人小团队。联合创始人 Arihan Varanasi（斯坦福 CS，个人站 arihanv.com、GitHub @arihanv，曾与 Mercor ML 相关）与 Rahul Rejeev（斯坦福 CS，专注为机构构建 AI 编排层）。YC 负责合伙人 Nicolas Dessaigne（Algolia 联创）。</div></div><div class="prow"><div class="pk">成立/批次</div><div class="pv">2026 年</div></div><div class="prow"><div class="pk">地点</div><div class="pv">美国旧金山湾区（San Francisco, CA）</div></div><div class="prow"><div class="pk">产品</div><div class="pv">面向企业团队的『共享 AI 工作空间 / AI agent 控制点』。为每个团队提供一个受权限管控的共享 workspace：接入经批准的集成与 MCP 工具、沉淀可版本化的共享记忆（公司知识/决策/注意事项/playbook）、发布可复用 skills、运行可协作的云端 agent 会话（支持桌面/文件系统/浏览器/computer use）、托管实时 artifacts 与 dashboard，并对全组织的 tool 调用做 tracing 与审计。核心解决『AI 产出散落在个人聊天/本地文件/个人 AI 账号里、下一个人无法复用』的问题。通过一次接入 Wato MCP + 公司账号认证，让 Codex / Claude Desktop / Cursor / Claude Code 等 MCP 客户端获得团队记忆、skills 与授权工具。</div></div><div class="prow"><div class="pk">商业模式</div><div class="pv">企业 SaaS（self-serve + demo/申请访问）。官网未披露具体定价。可连接 Slack、GitHub、Linear、Salesforce、Gong 及内部工具，权限支持 org/team/user/connector/tool 多级颗粒度。</div></div><div class="prow"><div class="pk">竞争格局</div><div class="pv">与『AI agent 协作/记忆/编排层』赛道正面竞争：横向 MCP 网关与 agent 平台（如企业级 MCP 管理、Anthropic 官方 skills/memory 生态、各类 agent orchestration 创业公司），以及团队知识/上下文共享工具。差异点在于把『共享记忆 + 权限化工具 + 云端可协作 agent 会话 + 审计 tracing』捆成一个团队控制面，锚定已在用 Claude Code/Cursor/Codex 的团队。</div></div></div></section>
+
+<div class="grid2">
+ <section class="card"><h2>融资</h2><p class="none">未披露（未检索到带来源的融资信息，或仅 YC 标准投资未单列）</p></section>
+ <section class="card"><h2>早期客户信号</h2><p class="none">未披露（未检索到可采信的具名客户）</p><p class="hint">置信度：<span class="conf hi">高</span>官方case study/可交叉验证　<span class="conf mid">中</span>logo墙/媒体点名　<span class="conf lo">低</span>推断</p></section>
+</div>
+
+<section class="card"><h2>转型有术判断</h2><div class="insights"><div class="insight"><div class="ihead"><span class="iico">🏭</span><h3>对制造业客户意味着什么</h3></div><p>制造企业内部往往同时跑着研发、质量、供应链、售后多条线的 AI 试点，痛点正是 Wato 瞄准的：prompt、决策、工具配置散落在个人手里、无法沉淀复用、也无法审计。Wato 式『共享记忆 + 权限化工具 + 可接力的 agent 会话 + 全链路 tracing』提供了一个企业内 agent 治理与知识资产化的样板——把老师傅的经验、工艺 playbook、审批链沉淀成团队可版本化的 memory 与 skills，让下一个 agent/员工站在上一次运行的肩膀上。</p></div><div class="insight"><div class="ihead"><span class="iico">🇨🇳</span><h3>国内对标厂商</h3></div><p>多智能体协同/记忆基础设施方向国内对标：Dify、扣子（Coze）等 agent 编排平台在做团队级工作流与工具接入，但『跨团队共享记忆 + MCP 权限化 + agent 会话可接力』这一控制面尚不成熟、记忆基础设施可对标 Mem0（开源 agent 记忆层）思路的国内化尝试，以及国内做企业知识库+RAG+MCP 网关的中间层团队、MCP/工具治理方向可对标国内做『企业级 MCP 市场/网关+权限审计』的早期项目</p><blockquote>国内制造业落地更可能由信创友好的 agent 平台（Dify/扣子）或本地部署的知识中台承接，短期内『共享记忆+MCP 治理』这一层多为定制项目而非标准产品；Wato 的产品化打法（一次接 MCP 即获团队上下文）值得国内厂商借鉴，但需解决国产大模型/私有化部署与合规审计要求。</blockquote></div><div class="insight"><div class="ihead"><span class="iico">🧩</span><h3>可迁移的干法 / 应进场景词典的词条</h3></div><p>多智能体协同、Agent 记忆基础设施、MCP 工具治理与权限、团队知识沉淀/复用、云端 Agent 会话协作、工具调用审计 tracing、企业 AI 工作空间</p><blockquote>可迁移的打法：①以『控制点/治理层』而非又一个 agent 应用切入，绑定团队已在用的工具（Claude Code、Cursor 等）降低采纳门槛；②把每次成功运行沉淀为可版本化 memory + 可复用 skill，形成知识复利飞轮；③org/team/user/tool 多级权限 + 审计 tracing 直击企业合规采购决策；④用 MCP 标准做『一次接入、处处可用』的分发。</blockquote></div><div class="insight"><div class="ihead"><span class="iico">⚠️</span><h3>风险与存疑点</h3></div><p>①团队仅 2 人、2026 年新公司，产品 2026-06 才公开，极早期，无披露融资与具名客户，执行与留存均未验证；②所处赛道拥挤且强依赖 MCP 生态与上游模型厂（Anthropic 等）的官方 memory/skills 能力，存在被平台方原生功能吞并的风险；③企业记忆/工具审计涉及数据主权与安全信任，销售周期长；④『control point / 控制点』定位需在众多 agent orchestration 玩家中建立差异化护城河，尚待观察。未发现更名/pivot 迹象。</p></div></div>
+ <div class="tagrow"><span class="tlabel">国内对标</span><span class="chip">多智能体协同/记忆基础设施方向国内对标：Dify、扣子（Coze）等 agent 编排平台在做团队级工作流与工具接入，但『跨团队共享记忆 + MCP 权限化 + agent 会话可接力』这一控制面尚不成熟</span><span class="chip">记忆基础设施可对标 Mem0（开源 agent 记忆层）思路的国内化尝试，以及国内做企业知识库+RAG+MCP 网关的中间层团队</span><span class="chip">MCP/工具治理方向可对标国内做『企业级 MCP 市场/网关+权限审计』的早期项目</span></div>
+ <div class="tagrow"><span class="tlabel">场景词条</span><span class="chip">多智能体协同</span><span class="chip">Agent 记忆基础设施</span><span class="chip">MCP 工具治理与权限</span><span class="chip">团队知识沉淀/复用</span><span class="chip">云端 Agent 会话协作</span><span class="chip">工具调用审计 tracing</span><span class="chip">企业 AI 工作空间</span></div>
+</section>
+
+<section class="card"><h2>信息来源溯源</h2><p class="none">（档案内未列独立溯源表；具体来源见上方各处「链接」）</p></section>
+
+<footer class="foot">批次来源 B001 · YC Spring 2026 (X26) Launch　|　深研日期 2026-07-07　|　直通模式 auto：AI 生成、未经人工复核。数字与具名事实一律带来源，无来源者标「未披露」，未编造。<br>数据真源 <code>data/companies.json</code> · 原始档案 <code>companies/wato.md</code></footer>
+</div>
+</body></html>

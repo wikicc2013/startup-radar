@@ -1,0 +1,33 @@
+<!doctype html><html lang="zh-CN"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Chronicle Labs · AI青梅创业公司数据库</title>
+<link rel="stylesheet" href="company.css">
+</head><body>
+<div class="wrap">
+<a class="back" href="../index.html">← 返回看板</a>
+<header class="hero">
+ <div class="htop"><span class="badge a2">B</span><span class="badge batch">B001 · YC Spring 2026 (X26)</span><span class="badge ok">已深研</span><span class="badge auto">AI 自动通过</span></div>
+ <h1>Chronicle Labs</h1>
+ <p class="oneliner">Staging environments for enterprise AI agents</p>
+ <p class="oneliner-zh">企业 AI 智能体的预发布环境</p>
+ <a class="site" href="https://www.ycombinator.com/companies/chronicle-labs" target="_blank" rel="noopener">官网 / 锚定 ↗</a>
+ <p class="triage">分诊理由：企业 Agent 治理环节</p>
+</header>
+
+<section class="card"><h2>公司画像</h2><div class="picture"><div class="prow"><div class="pk">团队</div><div class="pv">2 人小团队（YC 目录口径）。联合创始人兼 CEO Ayman Saleh——曾在 NASA JPL 参与詹姆斯·韦伯太空望远镜（JWST）与火星 2020 毅力号（Perseverance）项目，后在自主无人机公司 FlightWave 领导工程，为创业从斯坦福研究生项目退学；联合创始人兼 COO Rowan Zyadeh（公开背景资料极少，LinkedIn 无可核信息，履历待考）。YC 对接合伙人 Pete Koomen。</div></div><div class="prow"><div class="pk">成立/批次</div><div class="pv">2026 年</div></div><div class="prow"><div class="pk">地点</div><div class="pv">美国加州旧金山（San Francisco / Bay Area）</div></div><div class="prow"><div class="pk">产品</div><div class="pv">面向企业 AI 智能体的『预发布/预演环境』（staging environment）。捕获智能体在生产环境中看到的每一个事件，把真实运营历史、策略与边界案例沉淀为『带种子的沙盒』(seeded sandboxes)，让团队在上线前用真实数据回测(backtest)新的 agent 行为——类比交易团队投入资金前先回测算法。官网宣称：生产衍生场景覆盖度 30x、上线前多捕获 12x 失败模式、工作流梳理提速 100x、关键故障减少 80%。</div></div><div class="prow"><div class="pk">商业模式</div><div class="pv">B2B SaaS（企业 AI 团队/开发团队）。采用免费漏斗+销售转化：提供『Free Agent Audit』免费智能体审计与免费注册，高级功能走 Demo/预约通话(book-call)。具体定价未公开披露。</div></div><div class="prow"><div class="pk">竞争格局</div><div class="pv">AI Agent 评测/仿真/上线前测试赛道。同类含 agent 评估与仿真平台（如 LangSmith/LangChain 评测、Braintrust、Galileo、Coval、TensorZero 等），以及内部自建 eval/回归测试。差异化卖点在于用『生产事件回放+真实运营沙盒』而非静态 eval 集。</div></div></div></section>
+
+<div class="grid2">
+ <section class="card"><h2>融资</h2><p class="none">未披露（未检索到带来源的融资信息，或仅 YC 标准投资未单列）</p></section>
+ <section class="card"><h2>早期客户信号</h2><table class="tbl"><thead><tr><th>客户</th><th>置信度</th><th>来源</th></tr></thead><tbody><tr><td>Remedy Meds</td><td><span class="conf mid">中</span></td><td><a href="https://chronicle-labs.com/" target="_blank" rel="noopener">链接 ↗</a></td></tr></tbody></table><p class="hint">置信度：<span class="conf hi">高</span>官方case study/可交叉验证　<span class="conf mid">中</span>logo墙/媒体点名　<span class="conf lo">低</span>推断</p></section>
+</div>
+
+<section class="card"><h2>转型有术判断</h2><div class="insights"><div class="insight"><div class="ihead"><span class="iico">🏭</span><h3>对制造业客户意味着什么</h3></div><p>制造业若要把 AI 智能体接入 MES/质检/排产/客服工单等真实工作流，最大顾虑是『agent 上线即出错、直接影响产线或客户』。Chronicle 这类『用真实历史事件做回测的预演环境』提供了一条可迁移的安全上线路径：先把历史工单/告警/工艺事件灌入沙盒回放，验证 agent 行为再灰度，天然契合制造业『不能停线、错误代价高』的约束。</p></div><div class="insight"><div class="ihead"><span class="iico">🇨🇳</span><h3>国内对标厂商</h3></div><p>国内 Agent 测试/评测与治理尚无同名直接对标；相邻方向可参考：阿里/百度等大模型平台的 Agent 评测与回归测试模块、以及国内 MLOps/大模型可观测厂商（如面向大模型的评测与 Guardrail 类产品）、对标逻辑更接近『软件测试沙盒 + 数据回放』，可映射到国内 AI 中台/智能体平台厂商的『上线前灰度与仿真』能力</p><blockquote>国内制造场景暂无直接同名产品；可由国内大模型平台厂商或工业软件厂商在『智能体上线前仿真/灰度』模块中补位，是一个尚未被充分占据的细分工具位。</blockquote></div><div class="insight"><div class="ihead"><span class="iico">🧩</span><h3>可迁移的干法 / 应进场景词典的词条</h3></div><p>AI 智能体上线前测试、生产事件回放/回测、预发布沙盒环境(staging)、Agent 失败模式发现、AI 治理与风险拦截、企业级 AgentOps</p><blockquote>可复用打法：①把企业既有运营历史（日志/工单/对话/事件流）资产化为可回放的『种子沙盒』；②以『回测』替代静态 eval 做上线门禁(gate)；③用可量化指标（多捕获 X 倍失败、关键故障降 X%）向 CIO/工程负责人讲价值；④免费审计(Free Agent Audit)做低门槛获客钩子，再转付费。</blockquote></div><div class="insight"><div class="ihead"><span class="iico">⚠️</span><h3>风险与存疑点</h3></div><p>1) 早期（2026 成立、2 人、YC P26/S26 批次口径在不同来源间不一致）；2) 联合创始人 Rowan Zyadeh 公开背景近乎空白，履历不可核；3) 融资金额/投资方均未公开披露（YC 批次公司通常有标准注资，但无来源不予填写）；4) 唯一具名客户 Remedy Meds 来自官网自述证言，置信度中；官网增长指标(30x/12x/80x)为厂商自述、未见第三方验证；5) 名称易与区块链预言机 Chronicle Labs(chroniclelabs.org / Chainlink 系) 及 Google Chronicle 安全产品混淆，本档案锚定 YC 的 chronicle-labs.com。</p></div></div>
+ <div class="tagrow"><span class="tlabel">国内对标</span><span class="chip">国内 Agent 测试/评测与治理尚无同名直接对标；相邻方向可参考：阿里/百度等大模型平台的 Agent 评测与回归测试模块、以及国内 MLOps/大模型可观测厂商（如面向大模型的评测与 Guardrail 类产品）</span><span class="chip">对标逻辑更接近『软件测试沙盒 + 数据回放』，可映射到国内 AI 中台/智能体平台厂商的『上线前灰度与仿真』能力</span></div>
+ <div class="tagrow"><span class="tlabel">场景词条</span><span class="chip">AI 智能体上线前测试</span><span class="chip">生产事件回放/回测</span><span class="chip">预发布沙盒环境(staging)</span><span class="chip">Agent 失败模式发现</span><span class="chip">AI 治理与风险拦截</span><span class="chip">企业级 AgentOps</span></div>
+</section>
+
+<section class="card"><h2>信息来源溯源</h2><p class="none">（档案内未列独立溯源表；具体来源见上方各处「链接」）</p></section>
+
+<footer class="foot">批次来源 B001 · YC Spring 2026 (X26) Launch　|　深研日期 2026-07-07　|　直通模式 auto：AI 生成、未经人工复核。数字与具名事实一律带来源，无来源者标「未披露」，未编造。<br>数据真源 <code>data/companies.json</code> · 原始档案 <code>companies/chronicle-labs.md</code></footer>
+</div>
+</body></html>
