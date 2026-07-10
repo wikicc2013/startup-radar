@@ -1,0 +1,44 @@
+# Truth Systems
+
+- **批次来源**：B004 / YC Summer 2025 (S25) Launch
+- **入库日期**：2026-07-07 ｜ **深研日期**：2026-07-10 ｜ **再现记录**：B004
+- **一句话定位**：AI governance and compliance browser agent（AI 治理与合规的浏览器智能体）
+- **官网/锚定**：https://www.ycombinator.com/launches/OA2-truthsystems-ai-governance-agent-for-regulated-industries
+- **深研状态**：researched
+
+## 公司画像
+- **团队**：三人核心团队，公司 4 人，总部旧金山。联合创始人 Alex Mac（CEO）与 Nam Nguyen（COO）为儿时好友，均曾在斯坦福法学院任 AI 研究员，师从 Dr. Megan Ma（现为顾问），长期与顶级律所合作研究 AI 合规。创始工程师 Mikolaj Bochenski 曾是全球头部法律 AI 公司 Legora 的第二号员工。
+- **成立/批次**：未披露（YC S25 批次，2025 年公开亮相；种子轮 2025-10 官宣）
+- **地点**：美国旧金山（San Francisco, CA）
+- **产品**：旗舰产品 Charter：一个部署在用户浏览器内的 AI 治理与合规智能体（浏览器扩展 + 平台）。先读取律所内部政策与具体客户委托函/业务约定（client engagement letters），将其翻译成动态、可执行的护栏；当用户向任意 AI 工具输入违反内部准则或客户约束的文本/prompt 时，实时拦截该 prompt 并弹出警示，同时生成不可篡改的审计日志。核心能力三项：①实时风险干预（拦截违规 prompt 与数据泄露）；②按客户事项动态分配软件权限（intelligent access provisioning）；③软件交互的不可篡改审计轨迹。技术上混用小模型+大模型；跨所有 AI 供应商平台在浏览器层统一监控。已获 SOC-2、ISO-27001 认证，支持本地化/单租户部署、SAML SSO、IP 白名单、细粒度 RBAC。
+- **商业模式**：B2B SaaS，面向受监管行业（尤以 AmLaw 200 律所、银行为主）。按浏览器扩展/平台部署，服务合规团队。具体定价未披露。
+- **竞争格局**：赛道为『生成式 AI 使用治理/DLP/合规护栏』。同 YC S25 批次的 Alter（AI agent security）为相邻竞品；更广义上与企业 AI 治理/Policy-as-Code 类产品（如 TruthVouch AI Governance）、数据防泄漏（DLP）厂商、以及法律 AI 平台自带的合规模块存在竞争。Truth Systems 的差异点是深耕法律/受监管行业、浏览器层跨平台统一拦截、并把律所政策与客户委托函自动转成可执行护栏。
+
+## 融资
+| 轮次 | 金额 | 时间 | 来源 |
+|---|---|---|---|
+| 种子轮（Seed） | 400 万美元 | 2025-10-28 | [链接](https://www.artificiallawyer.com/2025/10/28/truth-systems-bags-4m-to-enforce-ai-guardrails/) |
+
+## 早期客户信号
+| 客户 | 置信度 | 来源 |
+|---|---|---|
+| 两家合计营收 20 亿美元的律所（未具名），覆盖约 1,500 名律师 | 中 | [链接](https://www.ycombinator.com/launches/OA2-truthsystems-ai-governance-agent-for-regulated-industries) |
+
+## 转型有术判断
+1. **对制造业客户意味着什么**：对制造业而言，Truth Systems 的价值不在法律本身，而在它把『把公司规章/客户合同自动翻译成实时可执行护栏』这套范式跑通了。制造业同样是强监管、强客户约束场景：ITAR/出口管制、图纸与工艺的商业秘密、客户 NDA 与供应商保密条款、汽车/航空的质量与安全规范。当工程师、采购、质量人员把 BOM、CAD 参数、工艺配方、客户图纸贴进 ChatGPT/Copilot 类工具时，泄密与合规风险与律所把客户机密贴进 AI 如出一辙。Charter 这种『浏览器层拦截 + 按客户/项目动态授权 + 不可篡改审计』的架构，可直接迁移到制造企业的 AI 使用治理：谁能对哪个客户项目用哪个 AI、哪些受控数据禁止外发、每一次交互留痕以备审计。这为制造业 AI 落地的『敢用、合规用』提供了护栏底座。
+2. **国内对标厂商**：字节/阿里等的企业 DLP + AI 使用管控（数据防泄漏叠加对生成式 AI 的管控，但多为通用型，非按客户合同生成护栏）、深信服/奇安信等安全厂商的 AI 安全/数据外发管控网关（偏网络与终端 DLP，正在补 AI prompt 侧能力）、法大大/上海百事通等法律科技公司的合规模块（垂直法律，但护栏自动化与浏览器层拦截程度较弱）、国内大模型合规/内容安全中台（如各家『安全护栏』SDK，偏内容审核，非组织政策到护栏的自动翻译）
+   > 国内目前更多是『DLP/内容安全』与『AI 应用合规』两条线各自演进，尚缺像 Charter 这样把『组织政策 + 客户合同 → 动态可执行护栏 + 浏览器层跨平台实时拦截 + 审计留痕』捏成一体、且深扎某个受监管垂直行业的产品。国内厂商强在网络/终端管控与内容审核，弱在『政策语义自动转护栏』与『按客户事项动态授权』这类业务语义层能力。这正是可对标切入的空白。
+3. **可迁移的干法 / 应进场景词典的词条**：AI使用治理、浏览器层合规护栏、Policy-as-Code、数据防泄漏DLP、受监管行业AI落地、审计留痕、按项目动态授权
+   > 可迁移干法：无论律所还是制造/金融/医药，凡是员工大规模使用外部 AI 工具、又受强监管与客户合同约束的组织，都需要一层『把规章制度翻译成机器可执行护栏、在使用现场（浏览器）实时拦截、并全程留痕』的治理中间层。做法三步——①把散落的政策/合同/客户约束结构化为规则；②在数据离开组织进入 AI 之前（浏览器/网关层）实时判断与拦截；③按客户/项目粒度动态授权并生成不可篡改审计。这套干法可平移到制造企业的图纸/工艺保护、医药的 GxP 合规、金融的客户数据边界。
+4. **风险与存疑点**：①单点场景依赖：深绑法律行业与少数大客户（两家律所），客户集中度高，行业扩张与横向复制尚待验证。②护栏『误拦/漏拦』的信任风险：政策语义转规则若不准，误拦影响效率、漏拦造成合规事故，二者都直接侵蚀信任，是产品生死线。③被平台方与巨头夹击：浏览器层拦截可能被 OpenAI/微软 Copilot 等自带企业管控、或被 CASB/DLP 安全巨头（Netskope、Zscalar 等）纳入功能，护城河集中在垂直 know-how 与客户关系，需持续加深。
+
+## 信息来源溯源表
+| 标题 | URL |
+|---|---|
+| Launch YC: truthsystems: AI Governance Agent for Regulated Industries | https://www.ycombinator.com/launches/OA2-truthsystems-ai-governance-agent-for-regulated-industries |
+| truthsystems — Y Combinator 公司页 | https://www.ycombinator.com/companies/truthsystems |
+| Truth Systems Bags $4m To Enforce AI Guardrails — Artificial Lawyer | https://www.artificiallawyer.com/2025/10/28/truth-systems-bags-4m-to-enforce-ai-guardrails/ |
+| Truth Systems 官网 | https://www.truthsystems.ai/ |
+
+---
+> 本档案由本地 /research 深研生成，直通模式 auto。数字与具名事实一律带来源；无来源者标"未披露"，未编造。

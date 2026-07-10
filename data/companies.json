@@ -14641,12 +14641,43 @@
    "one_liner_zh": "面向电脑自动化的 AI 智能体",
    "tier": "B",
    "triage_reason": "电脑自动化 AI 智能体，computer-use",
-   "status": "card",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B004"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-10",
+   "funding": [
+    {
+     "round": "YC 标准投资（Pre-seed/加速器）",
+     "amount": "$500,000（YC 标准：$125K 换 7% + $375K 不封顶 SAFE）",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/launches/OEj-induction-labs-building-the-best-computer-use-model-in-the-world"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "智谱 AutoGLM / GLM-PC —— 国内最接近的「电脑/手机自主操作」Agent，能看屏幕自主点按完成任务",
+    "面壁智能 AgentCUA / 端侧多模态 —— computer-use 与端侧 agent 方向",
+    "阿里通义 / 智能体 GUI 操作能力（Mobile-Agent 系列） —— 大厂 GUI grounding 与手机/电脑操作智能体",
+    "实在智能（RPA + 大模型 TARS） —— 从 RPA 升级到「看得懂界面」的智能体自动化，商业化最成熟",
+    "来也科技 UiBot / 影刀 RPA —— 传统 RPA 头部，正加大模型化 GUI 理解",
+    "字节跳动 UI-TARS —— 开源的端到端 GUI agent 模型，与 Axiom 1 技术路线最直接可比"
+   ],
+   "scene_tags": [
+    "computer-use-agent",
+    "GUI自动化",
+    "无API-legacy系统自动化",
+    "单据录入与跨系统对账",
+    "供应商门户自动下单比价",
+    "行为数据驱动的模型训练",
+    "端到端统一模型（看屏-规划-动作一步出）",
+    "亚秒级低延迟推理",
+    "OSWorld基准评测"
+   ],
+   "archive": "companies/induction-labs.md",
+   "researched_at": "2026-07-10",
+   "research_status": "researched"
   },
   {
    "num": 589,
@@ -14928,12 +14959,43 @@
    "one_liner_zh": "面向 AI 智能体的统一零信任授权",
    "tier": "B",
    "triage_reason": "AI 智能体统一零信任授权",
-   "status": "card",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B004"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-10",
+   "funding": [
+    {
+     "round": "YC Summer 2025 标准投资",
+     "amount": "未披露（仅 YC 标准投资，暂无对外披露的独立融资轮次）",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/alter"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "Authing（认信/身份云）—— 国内领先的 IDaaS/统一身份认证，正在向 AI Agent 身份与 MCP 授权方向延伸，是最直接的能力对标",
+    "派拉软件 —— 企业身份安全与统一权限管理（IAM/IGA/PAM）上市厂商，向 agent/非人身份治理演进的传统安全一方",
+    "芯盾时代 —— 以零信任与业务安全见长，可对标 Alter 的零信任访问控制定位",
+    "竹云（Bearingpoint/Ceztek）—— 大型企业统一身份与访问管理，覆盖金融/央国企合规场景",
+    "宁盾 / 玖章（新兴）—— 面向 MCP/Agent 网关与凭证托管的早期国产尝试（能力零散，尚无对标级完整产品）"
+   ],
+   "scene_tags": [
+    "AI-agent授权",
+    "零信任",
+    "参数级RBAC/ABAC",
+    "临时凭证/短时令牌",
+    "MCP网关",
+    "非人身份治理",
+    "实时动作拦截",
+    "合规审计(SOC2/HIPAA/GDPR)",
+    "最小权限",
+    "凭证托管/密钥消除"
+   ],
+   "archive": "companies/alter.md",
+   "researched_at": "2026-07-10",
+   "research_status": "researched"
   },
   {
    "num": 603,
@@ -15004,12 +15066,50 @@
    "one_liner_zh": "自学习的 Windows 电脑操作智能体",
    "tier": "B",
    "triage_reason": "自学习 Windows computer-use 智能体",
-   "status": "card",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B004"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-10",
+   "funding": [
+    {
+     "round": "YC S25（种子/加速器）",
+     "amount": "未披露（YC 标准投资通常为 $500K；Crunchbase 记为 1 轮 Seed，具体金额与投资人未公开披露）",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/cyberdesk"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "OpenDental（作为被自动化的目标系统出现在官方用例中——某客户用 Cyberdesk 把患者数据录入 OpenDental 这一遗留牙科 EHR；OpenDental 本身是被操作对象而非付费客户）",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/launches/O4a-cyberdesk-the-computer-use-agent-for-developers-to-automate-legacy-windows-apps"
+    },
+    {
+     "name": "未具名的医院患者入院（intake）AI agent 厂商——用 Cyberdesk 替代一整队人工在桌面应用里点击/录入以预约挂号",
+     "confidence": "低",
+     "source_url": "https://fondo.com/blog/cyberdesk-launches"
+    }
+   ],
+   "cn_benchmarks": [
+    "影刀 RPA / 实在智能 IPA（国内 RPA 头部，正加 AI/大模型做「智能体」升级，同样主打无 API 老系统自动化）",
+    "来也科技 UiBot（RPA+对话式 AI）",
+    "字节「扣子/Coze」、智谱等的 computer-use / GUI agent 探索（PC agent 方向）",
+    "阿里通义、面壁智能等的 GUI/computer-use agent 研究（记忆与技能复用方向对标其「自学习重放」思路）"
+   ],
+   "scene_tags": [
+    "遗留系统自动化",
+    "无API集成",
+    "computer-use-agent",
+    "确定性重放",
+    "自愈自动化",
+    "桌面RPA升级",
+    "EHR/ERP数据录入"
+   ],
+   "archive": "companies/cyberdesk.md",
+   "researched_at": "2026-07-10",
+   "research_status": "researched"
   },
   {
    "num": 607,
@@ -15251,12 +15351,38 @@
    "one_liner_zh": "面向 AI 浏览器智能体的安全管控",
    "tier": "B",
    "triage_reason": "AI 浏览器智能体安全管控",
-   "status": "card",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B004"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-10",
+   "funding": [
+    {
+     "round": "YC Summer 2025（加速器）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/contextfort"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "奇安信 / 安恒信息（终端 EDR、数据防泄漏 DLP 转向 AI 智能体安全监控的传统安全厂商，属能力对标而非同款）",
+    "影刀 RPA / 实在智能（国内智能体/RPA 执行侧，若补『操作审计+越权阻断』即接近本命题）",
+    "国内新兴 AI Agent 安全创业（智能体行为围栏/权限最小化方向，赛道尚早，缺公开领跑者）"
+   ],
+   "scene_tags": [
+    "智能体安全护栏",
+    "内核/端点级可观测",
+    "操作审计留痕（防篡改）",
+    "越权动作阻断",
+    "跨站数据防泄漏(DLP)",
+    "本地优先隐私",
+    "多版图纸一致性核查(RFI)"
+   ],
+   "archive": "companies/contextfort.md",
+   "researched_at": "2026-07-10",
+   "research_status": "researched"
   },
   {
    "num": 620,
@@ -15270,12 +15396,37 @@
    "one_liner_zh": "面向智能体改进的 AI 评测平台",
    "tier": "B",
    "triage_reason": "智能体改进的 AI 评测平台",
-   "status": "card",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B004"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-10",
+   "funding": [
+    {
+     "round": "YC S25",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/zeroeval"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "上海人工智能实验室 OpenCompass / 司南评测体系（开源大模型与 agent 评测框架，偏学术/榜单，非商业化自改进闭环）",
+    "智源研究院 FlagEval（多模态与大模型评测基准）",
+    "国内 LLMOps/可观测创业公司如 Dify、FastGPT 等自带的评测模块（评测能力是平台的一部分，非独立评测产品）"
+   ],
+   "scene_tags": [
+    "AI 评测/eval",
+    "LLM-as-judge 校准",
+    "Agent 可观测与调优",
+    "Autotune 自动优化",
+    "人类反馈闭环",
+    "高风险领域评测"
+   ],
+   "archive": "companies/zeroeval.md",
+   "researched_at": "2026-07-10",
+   "research_status": "researched"
   },
   {
    "num": 621,
@@ -15391,12 +15542,36 @@
    "one_liner_zh": "带隐私管控的 AI 应用消息 API",
    "tier": "B",
    "triage_reason": "带隐私管控的 AI 应用消息 API",
-   "status": "card",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B004"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-10",
+   "funding": [
+    {
+     "round": "未披露",
+     "amount": "未披露",
+     "date": "",
+     "source_url": "https://www.ycombinator.com/companies/pond"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "企业微信 SCRM 厂商（微盛/尘锋/艾客等）——在企微侧边栏做「客户消息 + AI 话术推荐 + 客户上下文画像」，与 Pond 的消息智能层最接近，但绑定企微生态",
+    "有赞/微伴等客户运营工具的 AI 话术与自动回复模块",
+    "个人效率侧：国内尚缺 iMessage 级别的第三方消息客户端（微信生态封闭、API 化难度极大），更多以「输入法/浏览器插件式 AI 起草」形态出现"
+   ],
+   "scene_tags": [
+    "消息智能层",
+    "端侧隐私模型",
+    "个人上下文数据层",
+    "AI 语气起草回复",
+    "客户意图识别"
+   ],
+   "archive": "companies/pond.md",
+   "researched_at": "2026-07-10",
+   "research_status": "researched"
   },
   {
    "num": 625,
@@ -15591,12 +15766,45 @@
    "one_liner_zh": "AI 治理与合规的浏览器智能体",
    "tier": "B",
    "triage_reason": "AI 治理与合规浏览器智能体",
-   "status": "card",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B004"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-10",
+   "funding": [
+    {
+     "round": "种子轮（Seed）",
+     "amount": "400 万美元",
+     "date": "2025-10-28",
+     "source_url": "https://www.artificiallawyer.com/2025/10/28/truth-systems-bags-4m-to-enforce-ai-guardrails/"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "两家合计营收 20 亿美元的律所（未具名），覆盖约 1,500 名律师",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/launches/OA2-truthsystems-ai-governance-agent-for-regulated-industries"
+    }
+   ],
+   "cn_benchmarks": [
+    "字节/阿里等的企业 DLP + AI 使用管控（数据防泄漏叠加对生成式 AI 的管控，但多为通用型，非按客户合同生成护栏）",
+    "深信服/奇安信等安全厂商的 AI 安全/数据外发管控网关（偏网络与终端 DLP，正在补 AI prompt 侧能力）",
+    "法大大/上海百事通等法律科技公司的合规模块（垂直法律，但护栏自动化与浏览器层拦截程度较弱）",
+    "国内大模型合规/内容安全中台（如各家『安全护栏』SDK，偏内容审核，非组织政策到护栏的自动翻译）"
+   ],
+   "scene_tags": [
+    "AI使用治理",
+    "浏览器层合规护栏",
+    "Policy-as-Code",
+    "数据防泄漏DLP",
+    "受监管行业AI落地",
+    "审计留痕",
+    "按项目动态授权"
+   ],
+   "archive": "companies/truth-systems.md",
+   "researched_at": "2026-07-10",
+   "research_status": "researched"
   },
   {
    "num": 633,
@@ -15610,12 +15818,46 @@
    "one_liner_zh": "面向 AI 智能体的邮箱 API",
    "tier": "B",
    "triage_reason": "面向 AI 智能体的邮箱 API",
-   "status": "card",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B004"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-10",
+   "funding": [
+    {
+     "round": "种子轮（Seed）",
+     "amount": "600 万美元",
+     "date": "2026-03-10",
+     "source_url": "https://techcrunch.com/2026/03/10/agentmail-raises-6m-to-build-an-email-service-for-ai-agents/"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "OpenClaw（2026-01 上线后带动 AgentMail 用户数翻倍/翻四倍增长，媒体点名的集成/放量来源）",
+     "confidence": "中",
+     "source_url": "https://techcrunch.com/2026/03/10/agentmail-raises-6m-to-build-an-email-service-for-ai-agents/"
+    },
+    {
+     "name": "500+ 家 B2B 客户（数万人类用户、数十万智能体用户，未逐一具名）",
+     "confidence": "中",
+     "source_url": "https://techcrunch.com/2026/03/10/agentmail-raises-6m-to-build-an-email-service-for-ai-agents/"
+    }
+   ],
+   "cn_benchmarks": [
+    "阿里云邮件推送/腾讯云 SES、网易企业邮箱等（国内成熟的事务/企业邮件基础设施，但均面向人类与传统系统，尚无『按智能体开通收件箱+MCP+持久会话』的原语）",
+    "国内 Agent 基础设施/工具层创业公司（如面向智能体的记忆、身份、工具调用中间件），可类比其『给 Agent 补齐一种人类通用能力』的定位，但专攻邮箱这一细分尚属空白"
+   ],
+   "scene_tags": [
+    "智能体身份与账号",
+    "异步长任务协作",
+    "邮箱即API",
+    "供应商/产业链邮件自动化",
+    "MCP工具化"
+   ],
+   "archive": "companies/agentmail.md",
+   "researched_at": "2026-07-10",
+   "research_status": "researched"
   },
   {
    "num": 634,
@@ -15629,12 +15871,38 @@
    "one_liner_zh": "面向 AI 智能体的自愈式可观测性",
    "tier": "B",
    "triage_reason": "AI 智能体自愈式可观测性",
-   "status": "card",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B004"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-10",
+   "funding": [
+    {
+     "round": "Pre-seed/Seed（YC S25）",
+     "amount": "约 $500K（第三方数据库口径，未见官方新闻稿确认）",
+     "date": "2025",
+     "source_url": "https://pitchbook.com/profiles/company/902517-04"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "观测云（Guance）/ 云智慧 AIOps / 博睿数据：国内 APM·可观测老玩家，正加 LLM/Agent 观测能力，是传统可观测向 Agent 迁移的对标",
+    "Dify / FastGPT 等国内 Agent 平台自带的运行监控与日志模块：偏平台内建，非独立可观测层",
+    "阿里云 ARMS + 百炼、火山引擎等大厂的大模型可观测/评测套件：云厂商捆绑路线，与 TraceRoot 的开源中立路线相反",
+    "自愈/AI 排障方向国内尚无同等成熟独立创业标的，多由 AIOps 厂商（云智慧、擎创）在补 LLM 故障自愈"
+   ],
+   "scene_tags": [
+    "Agent可观测",
+    "自愈调试",
+    "LLM-as-judge检测",
+    "OpenTelemetry",
+    "自动生成修复PR",
+    "AI-SRE"
+   ],
+   "archive": "companies/traceroot-ai.md",
+   "researched_at": "2026-07-10",
+   "research_status": "researched"
   },
   {
    "num": 635,
@@ -15705,12 +15973,40 @@
    "one_liner_zh": "面向 AI 智能体的持久化 Linux 机器",
    "tier": "B",
    "triage_reason": "AI 智能体持久化 Linux 机器，沙箱",
-   "status": "card",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B004"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-10",
+   "funding": [
+    {
+     "round": "Seed",
+     "amount": "$11,000,000",
+     "date": "2025-10-15",
+     "source_url": "https://www.dedaluslabs.ai/blog/dedalus-seed-round"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "阿里云无影 AgentBay——专为 AI Agent 提供的云端沙箱/云电脑环境，定位与 Dedalus Machines 最接近（Agent 用的持久化机器）",
+    "火山引擎 veFaaS / 沙箱能力 + 扣子（Coza）——字节侧的 Agent 运行与函数计算/沙箱执行",
+    "腾讯云 CloudStudio / Cloud Sandbox 及云函数 SCF——代码执行与隔离环境",
+    "E2B（海外但国内团队常用作对标基准）、硅基流动等提供的 Agent 运行时"
+   ],
+   "scene_tags": [
+    "Agent 执行沙箱",
+    "持久化 Linux VM",
+    "MCP 服务器托管",
+    "按活跃算力计费",
+    "零冷启动/快照启动",
+    "硬件级隔离",
+    "Agent 云基础设施",
+    "非线性 Agent 编排"
+   ],
+   "archive": "companies/dedalus-labs.md",
+   "researched_at": "2026-07-10",
+   "research_status": "researched"
   },
   {
    "num": 639,
@@ -15743,12 +16039,38 @@
    "one_liner_zh": "WebVoyager 准确率 96.5% 的智能体浏览器",
    "tier": "B",
    "triage_reason": "高准确率智能体浏览器",
-   "status": "card",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B004"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-10",
+   "funding": [
+    {
+     "round": "未披露",
+     "amount": "未披露",
+     "date": "",
+     "source_url": "https://www.ycombinator.com/companies/meteor"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "纳米 AI 浏览器 / 360 AI 浏览器（360）——国内消费级 AI 浏览器，内置智能体做网页操作与总结",
+    "豆包 / 夸克 AI 浏览器（字节、阿里）——大厂把 AI agent 塞进浏览器入口，走流量+助手路线",
+    "Fellou（国内团队出海的 agentic browser）——同赛道最接近的智能体浏览器创业公司",
+    "浏览器 agent 基础设施侧对标：面向开发者的网页自动化/RPA-as-agent（可类比国内 RPA 厂商影刀、来也在往 agent 化演进）"
+   ],
+   "scene_tags": [
+    "智能体浏览器",
+    "网页任务自动化",
+    "无API系统对接",
+    "自然语言RPA",
+    "WebVoyager基准",
+    "Chromium-fork"
+   ],
+   "archive": "companies/meteor.md",
+   "researched_at": "2026-07-10",
+   "research_status": "researched"
   },
   {
    "num": 641,
@@ -16029,12 +16351,57 @@
    "one_liner_zh": "面向工程师的 AI 物理引擎",
    "tier": "B",
    "triage_reason": "面向工程师的 AI 物理引擎，仿真",
-   "status": "card",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B005"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-10",
+   "funding": [
+    {
+     "round": "Pre-seed/Seed (Y Combinator X25 标准投资 + 种子轮)",
+     "amount": "未披露（YC 标准 50 万美元投资；种子轮具体金额未公开）",
+     "date": "2025",
+     "source_url": "https://claivc.substack.com/p/clai-ventures-invests-in-godela-the"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "首个「替换 Ansys」的付费合同客户（未具名）",
+     "confidence": "中",
+     "source_url": "https://claivc.substack.com/p/clai-ventures-invests-in-godela-the"
+    },
+    {
+     "name": "Amazon（包装减废场景试点 pilot）",
+     "confidence": "低",
+     "source_url": "https://claivc.substack.com/p/clai-ventures-invests-in-godela-the"
+    },
+    {
+     "name": "Apple / Intel / 欧洲航天局 ESA（早期洽谈阶段，非签约）",
+     "confidence": "低",
+     "source_url": "https://claivc.substack.com/p/clai-ventures-invests-in-godela-the"
+    }
+   ],
+   "cn_benchmarks": [
+    "云道智造（Simdroid/天洑同源生态，国产通用多物理场 CAE 平台，主打自主求解器 + 仿真 App 化，与 Godela 的『降低仿真门槛』方向最接近）",
+    "十沣科技 TF-Solver（国产 CFD/多物理场求解器，聚焦航空航天、能源等高端工业仿真替代 Ansys Fluent）",
+    "前沿动力 AeroDynamic（气动/CFD 仿真，工业软件国产替代）",
+    "天洑软件（AI 工业软件，主打数据驱动的智能优化/代理模型 AIPod，与 Godela 的 surrogate-model 路线高度同型）",
+    "格物致道 / 非十科技 / 智机云等新兴 AI-for-CAE 团队（用 AI/神经算子做仿真加速的国产早期玩家）"
+   ],
+   "scene_tags": [
+    "AI物理引擎",
+    "代理模型surrogate",
+    "物理知情AI-PINN",
+    "生成式仿真",
+    "CAE国产替代",
+    "CAD直传自然语言",
+    "研发提效",
+    "跌落/热/CFD多物理场"
+   ],
+   "archive": "companies/godela.md",
+   "researched_at": "2026-07-10",
+   "research_status": "researched"
   },
   {
    "num": 656,
@@ -16190,12 +16557,43 @@
    "one_liner_zh": "面向智能体的开源上下文检索",
    "tier": "B",
    "triage_reason": "面向智能体的开源上下文检索，记忆",
-   "status": "card",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B005"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-10",
+   "funding": [
+    {
+     "round": "种子轮（Seed）",
+     "amount": "600 万美元",
+     "date": "2025-07-02",
+     "source_url": "https://airweave.ai/blog/airweave-raises-6m-seed-round"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "Donke（Airweave 自有的智能错误监控 Agent，内部/示例用例）",
+     "confidence": "中",
+     "source_url": "https://airweave.ai/blog/airweave-raises-6m-seed-round"
+    }
+   ],
+   "cn_benchmarks": [
+    "百炼/魔搭等的 RAG 与知识库检索能力（阿里云，偏平台化、非纯开源基础设施）",
+    "Dify / FastGPT（国内广泛使用的开源 LLM 应用与 RAG 编排框架，含数据接入与检索，但更偏应用编排层）",
+    "腾讯云/字节等的企业知识库检索服务（闭源 SaaS，非开发者基础设施定位）"
+   ],
+   "scene_tags": [
+    "上下文检索层",
+    "智能体基础设施",
+    "混合检索(语义+BM25+RRF)",
+    "MCP 原生",
+    "多源数据同步",
+    "开源自托管"
+   ],
+   "archive": "companies/airweave.md",
+   "researched_at": "2026-07-10",
+   "research_status": "researched"
   },
   {
    "num": 663,
@@ -16436,12 +16834,39 @@
    "one_liner_zh": "快速搭建智能体的 AI 工作空间",
    "tier": "B",
    "triage_reason": "快速搭建智能体的 AI 工作空间",
-   "status": "card",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B005"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-10",
+   "funding": [
+    {
+     "round": "种子轮（Seed，具体轮次标签未明确）",
+     "amount": "约 600 万美元（第三方聚合站 StartupHub.ai 记为 $6M，亦有 $6.3M 口径）",
+     "date": "2025 年（YC X25 期间，确切日期未披露）",
+     "source_url": "https://www.startuphub.ai/startups/den"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "钉钉 AI 助理 / 宜搭 + AI（阿里）——低代码 + agent，覆盖大量制造企业，与 Den「非工程师搭 agent + 协作载体」定位最接近",
+    "飞书多维表格 + 飞书智能伙伴（字节）——协作文档/表格 + AI agent，Notion/Slack 式载体的中国最强对标",
+    "腾讯乐言/企业微信 + 腾讯元器 agent 平台——协作入口 + agent 搭建市场雏形",
+    "扣子 Coze（字节）——no-code agent 搭建 + Bot 商店，对标 Den 的 Agent Marketplace 方向",
+    "汇智智能、澜码科技 Ask XBOT 等国内 agent 平台创业公司——面向企业的通用 agent 编排"
+   ],
+   "scene_tags": [
+    "非工程师自助搭 agent",
+    "自然语言统一生产力栈",
+    "AI 原生协作工作空间",
+    "agent 工作流市场",
+    "人机实时协作/下班后仍在跑",
+    "agent 集群编排（swarm）"
+   ],
+   "archive": "companies/den.md",
+   "researched_at": "2026-07-10",
+   "research_status": "researched"
   },
   {
    "num": 673,

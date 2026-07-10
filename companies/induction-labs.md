@@ -1,0 +1,47 @@
+# Induction Labs
+
+- **批次来源**：B004 / YC Summer 2025 (S25) Launch
+- **入库日期**：2026-07-07 ｜ **深研日期**：2026-07-10 ｜ **再现记录**：B004
+- **一句话定位**：AI agents for computer automation（面向电脑自动化的 AI 智能体）
+- **官网/锚定**：https://inductionlabs.com/
+- **深研状态**：researched
+
+## 公司画像
+- **团队**：两位联合创始人均为华裔、均来自 Cohere。Jonathan Li（李，CEO/联合创始人）此前在 Cohere 做强化学习基础设施并参与出货 Command 系列模型，更早在 Bloomberg 做文档处理系统，本科毕业于加拿大 Queen's University，第一作者论文《Prefix Propagation: Parameter-Efficient Tuning for Long Sequences》发表于 ACL 2023。Jeffrey Li（李，CTO/联合创始人）同样出身 Cohere（生成式 AI 工程师），学术背景为数学研究（University of Ottawa / Western University），做过李群与算子代数方向研究。团队规模 1-10 人，仍在大力招募工程师（hiring@inductionlabs.com）。YC 对接合伙人为 Harj Taggar。
+- **成立/批次**：2025 年（YC Summer 2025 / S25 批次）
+- **地点**：美国加州旧金山（San Francisco, CA）
+- **产品**：做「电脑使用（computer use）」基础模型的研究型实验室，目标是训练出能像人一样自主操作电脑软件、可靠且低延迟地完成任务的通用模型。核心产品是 2025-08-19 发布的 Axiom 1，官方称其为「世界上最强的 computer use 模型」：在业界标准 benchmark OSWorld-Verified 上取得 60.2% 的 SOTA 成绩，超过 OpenAI GPT-5、o3 与 Anthropic Claude 4 Sonnet；相比 GPT-5 的每步动作耗时低 16 倍（16× lower latency），主打亚秒级延迟。技术形态上，Axiom 1 是单一统一模型（single unified model），把「看屏幕—规划—输出动作」压缩到一步完成，不走多阶段管线；训练数据来自大规模专家在真实电脑上完成工作任务的操作演示（人类行为数据）。官方称模型甚至学会了自主调用现有软件工具（例如通过浏览器使用 ChatGPT）来完成任务，但也承认在复杂 UI 元素和超长程任务上仍有困难，当前重心放在对齐与鲁棒性研究上。
+- **商业模式**：尚未披露定价与明确 GTM。当前处于研究/发布模型阶段，官网只有模型发布与招聘信息，未见 API 定价页、产品化 SaaS 定价或商业签约信息。可推断的路径是以基础模型能力（computer-use 模型/API）对外提供软件自动化能力，面向 B2B、生产力（productivity）场景，但均属未披露。
+- **竞争格局**：正面对标 OpenAI（Operator / CUA、GPT-5 computer-use）与 Anthropic（Claude computer use / Claude 4 Sonnet），也与 Google 的 computer-use 方向竞争；同一 YC 生态里有 Induced.ai 等 RPA/自动化玩家。差异点：①押注单一统一模型端到端（看屏—规划—动作一步出），而非「大模型规划 + 工具/脚本执行」的多阶段管线；②极致低延迟（亚秒级、宣称比 GPT-5 快 16 倍），甚至表示愿意放弃 Transformer 架构以达成延迟目标；③以「人类真实操作电脑的最大规模数据集」作为护城河，用行为数据而非纯合成/网页文本来训练。
+
+## 融资
+| 轮次 | 金额 | 时间 | 来源 |
+|---|---|---|---|
+| YC 标准投资（Pre-seed/加速器） | $500,000（YC 标准：$125K 换 7% + $375K 不封顶 SAFE） | 2025 | [链接](https://www.ycombinator.com/launches/OEj-induction-labs-building-the-best-computer-use-model-in-the-world) |
+
+## 早期客户信号
+| 客户 | 置信度 | 来源 |
+|---|---|---|
+| 未见公开具名客户（极早期，官网/媒体暂无可采信客户信号） | — | — |
+
+## 转型有术判断
+1. **对制造业客户意味着什么**：对制造业客户而言，Induction Labs 代表的「computer-use 基础模型」这条路，最直接的落地面是电脑端重复性数字劳动的替代——ERP/MES/PLM/WMS 里的单据录入与流转、供应商门户的比价与下单、质检报告与 COA 的抓取录入、跨系统对账、EDI/客户门户里的订单确认等「人盯着屏幕点鼠标敲键盘」的活。它相比传统 RPA 的价值在于：不依赖脆弱的固定坐标/DOM 脚本，靠看屏幕理解界面，因此对老旧 MES/供应商系统频繁改版、无 API 的 legacy 软件更有韧性。但要清醒：制造业现场对可靠性、可审计、数据不出厂的要求极高，而该模型自身承认在复杂 UI 和长程任务上仍不稳定、且是纯云端研究阶段产品，现阶段更适合在「后台办公室数字流程」试点（采购、财务、客服、订单履约），而非直接碰产线控制或安全相关系统。
+2. **国内对标厂商**：智谱 AutoGLM / GLM-PC —— 国内最接近的「电脑/手机自主操作」Agent，能看屏幕自主点按完成任务、面壁智能 AgentCUA / 端侧多模态 —— computer-use 与端侧 agent 方向、阿里通义 / 智能体 GUI 操作能力（Mobile-Agent 系列） —— 大厂 GUI grounding 与手机/电脑操作智能体、实在智能（RPA + 大模型 TARS） —— 从 RPA 升级到「看得懂界面」的智能体自动化，商业化最成熟、来也科技 UiBot / 影刀 RPA —— 传统 RPA 头部，正加大模型化 GUI 理解、字节跳动 UI-TARS —— 开源的端到端 GUI agent 模型，与 Axiom 1 技术路线最直接可比
+   > 国内在「GUI/computer-use 智能体」上其实并不落后，甚至字节 UI-TARS 是全球公开可比的同类端到端模型代表，智谱 AutoGLM 则是消费级落地最激进的一个。与 Induction Labs 差异在于：国内玩家分两派——一派是大模型公司（智谱、面壁、字节）走「统一模型 + GUI grounding」的研究路线，与 Axiom 1 同赛道；另一派是 RPA 出身（实在、来也、影刀）走「存量 RPA + 大模型增强」的商业化路线，客户与营收更实。对制造业来说，后者（实在、影刀）落地路径更近、已有工厂案例，前者提供的是能力上限；Induction Labs 的「亚秒级延迟 + 单模型端到端」若成立，是对国内两派的能力标尺。
+3. **可迁移的干法 / 应进场景词典的词条**：computer-use-agent、GUI自动化、无API-legacy系统自动化、单据录入与跨系统对账、供应商门户自动下单比价、行为数据驱动的模型训练、端到端统一模型（看屏-规划-动作一步出）、亚秒级低延迟推理、OSWorld基准评测
+   > 可迁移的核心干法有三条。①「看屏幕而非读接口」的自动化范式：制造业大量 legacy MES/供应商系统没有 API、界面还常改版，用 computer-use 模型按视觉理解界面来操作，比写死坐标的传统 RPA 更抗改版，这是最值得迁移的打法。②「用真实操作演示训练」：把厂内熟练文员/采购/质检员完成数字任务的屏幕操作录成演示数据来微调/对齐 Agent，相当于把老师傅的数字操作经验数据化——这套「专家行为数据→模型」的方法可直接迁移到制造企业内部沉淀自动化能力。③「先量化再上线」的评测纪律：Induction 用 OSWorld-Verified 这样的公开基准逐项打分、公布成功率与延迟，制造业上任何 Agent 自动化前也应先建一套「任务成功率 + 出错回退」的内部 benchmark 再灰度，避免直接把不稳定 Agent 接进核心系统。
+4. **风险与存疑点**：①极早期、能力自证阶段：公司 2025 年才成立、团队 1-10 人，产品仅有一个刚发布的模型 Axiom 1，OSWorld 60.2% 意味着近四成任务仍失败，官方自认在复杂 UI 与长程任务上不稳，离生产级可靠还有距离。②融资信息不透明：除 YC 标准 $500K 外，未见公开的种子轮金额/投资人/估值披露，Crunchbase、PitchBook、Extruct 等均无实质融资数据，资金续航与商业化节奏成疑。③零可验证客户：官网无客户 logo、无 case study，early_customers 目前为空，商业化尚未起步。④赛道被巨头正面覆盖：OpenAI、Anthropic、Google 都在做 computer-use，且已被 Axiom 1 作为对标对象，一家小实验室在算力与数据上如何持续领先存疑。⑤技术路线激进带来的风险：宣称「愿意放弃 Transformer 以求延迟」，方向若不成立则前期投入沉没；单模型端到端在企业级可控性、可审计上也弱于「可解释的分步管线」。⑥所有中文判断为 AI 生成、未经人工复核。
+
+## 信息来源溯源表
+| 标题 | URL |
+|---|---|
+| Induction Labs 官网 | https://inductionlabs.com/ |
+| Introducing Axiom 1, the Best Computer Use Model in the World（官方发布） | https://inductionlabs.com/news/axiom-1 |
+| Launch YC: Induction Labs: Building the best computer use model in the world | https://www.ycombinator.com/launches/OEj-induction-labs-building-the-best-computer-use-model-in-the-world |
+| Induction Labs Funding | Extruct AI（团队/批次/合伙人） | https://www.extruct.ai/hub/inductionlabs-com/ |
+| Jonathan Li LinkedIn（CEO, prev. Cohere） | https://www.linkedin.com/in/jonatli/ |
+| Induction Labs - Crunchbase Company Profile & Funding | https://www.crunchbase.com/organization/induction-labs |
+| Induction Labs 2026 Company Profile | PitchBook | https://pitchbook.com/profiles/company/1083431-71 |
+
+---
+> 本档案由本地 /research 深研生成，直通模式 auto。数字与具名事实一律带来源；无来源者标"未披露"，未编造。
