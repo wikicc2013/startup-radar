@@ -1,0 +1,33 @@
+<!doctype html><html lang="zh-CN"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Inviscid · AI青梅创业公司数据库</title>
+<link rel="stylesheet" href="company.css">
+</head><body>
+<div class="wrap">
+<a class="back" href="../index.html">← 返回看板</a>
+<header class="hero">
+ <div class="htop"><span class="badge a2">B</span><span class="badge batch">B002 · YC Winter 2026 (W26)</span><span class="badge ok">已深研</span><span class="badge auto">AI 自动通过</span></div>
+ <h1>Inviscid</h1>
+ <p class="oneliner">Real-time building simulations to optimize energy &amp; ops</p>
+ <p class="oneliner-zh">实时楼宇仿真,优化能耗与运营</p>
+ <a class="site" href="https://www.ycombinator.com/companies/inviscid-ai" target="_blank" rel="noopener">官网 / 锚定 ↗</a>
+ <p class="triage">分诊理由：实时楼宇仿真优化能耗，仿真域</p>
+</header>
+
+<section class="card"><h2>公司画像</h2><div class="picture"><div class="prow"><div class="pk">团队</div><div class="pv">2 人（YC 页面披露）。联合创始人 Kabir Jain（牛津大学 CS 背景，NeurIPS 2024 / ICLR 2025 发表，曾在 MIT JuliaLabs 做用于 PDE 求解的 physics-informed ML；对外邮箱 kabir@inviscidai.com，个人签名坐标 San Francisco, CA）与 Ziming Qiu（新加坡国立大学 NUS 计算机与数学双荣誉学位，GPA 5.0/5.0；LinkedIn 显示 Singapore）。</div></div><div class="prow"><div class="pk">成立/批次</div><div class="pv">2025</div></div><div class="prow"><div class="pk">地点</div><div class="pv">官网/邮件署名 San Francisco, CA；YC 目录页登记地为 Singapore（两地信息并存，团队分布中美/新加坡）。</div></div><div class="prow"><div class="pk">产品</div><div class="pv">面向楼宇与数据中心的实时物理仿真『数字孪生』。核心是用 GPU 加速数值求解 + physics-informed neural operators/neural networks（PINN），把传统 CFD（计算流体力学）单次 8-12 小时的仿真加速到近实时（自称比传统 CFD 快 240x-1000x）。接入 IoT 传感器实时数据作为边界条件，构建气流/热负荷/能耗的空间模型，据此自动优化 HVAC 设定点，做热点消除、气流分布优化、what-if 情景模拟与设计迭代。</div></div><div class="prow"><div class="pk">商业模式</div><div class="pv">面向企业的定制数字孪生部署（deployment-based）。据媒体转述其自报测算：目标 ACV 3 万-30 万美元，销售周期 9-18 个月，基准情景规划 36 个月做到 100 家客户、混合 ACV 10 万美元 / 1000 万美元 ARR（均为公司自报的规划口径，非已实现业绩）。</div></div><div class="prow"><div class="pk">竞争格局</div><div class="pv">传统 CFD/仿真巨头 Ansys、Siemens Simcenter；数据中心冷却方向的超大厂自研（Google 强化学习控冷、Microsoft 浸没式液冷、Meta 冷机房自动化，被视为潜在替代而非买家）。相对定位是『比现有方案便宜到约 5%』、训练领域专用 PINN 花费数百美元级而非数十万美元级（媒体转述其自报口径）。</div></div></div></section>
+
+<div class="grid2">
+ <section class="card"><h2>融资</h2><p class="none">未披露（未检索到带来源的融资信息，或仅 YC 标准投资未单列）</p></section>
+ <section class="card"><h2>早期客户信号</h2><table class="tbl"><thead><tr><th>客户</th><th>置信度</th><th>来源</th></tr></thead><tbody><tr><td>Kajima（鹿岛建设 The GEAR Smart Building Pilot）</td><td><span class="conf mid">中</span></td><td><a href="https://inviscidai.com/" target="_blank" rel="noopener">链接 ↗</a></td></tr><tr><td>MPSEDC（Madhya Pradesh 政府相关机构，签署 MOU）</td><td><span class="conf lo">低</span></td><td><a href="https://inviscidai.com/" target="_blank" rel="noopener">链接 ↗</a></td></tr></tbody></table><p class="hint">置信度：<span class="conf hi">高</span>官方case study/可交叉验证　<span class="conf mid">中</span>logo墙/媒体点名　<span class="conf lo">低</span>推断</p></section>
+</div>
+
+<section class="card"><h2>转型有术判断</h2><div class="insights"><div class="insight"><div class="ihead"><span class="iico">🏭</span><h3>对制造业客户意味着什么</h3></div><p>对制造业最直接的价值点是『工厂/厂房/数据机房/冷库的实时热-流仿真闭环控制』。传统 CFD 单次仿真数小时、只能做设计期一次性校核；Inviscid 把仿真压到近实时，使 HVAC/通风/冷却可随占用、天气、设备状态动态调参，自报 15-30% 乃至 30%+ 冷却能耗下降、&lt;90 天见 ROI。对能耗占比高、有洁净/恒温恒湿要求的产线（半导体、制药、电子、冷链）尤其适配——把『仿真』从设计工具变成运行时控制器，是数字孪生真正落到能耗账单的关键一跳。</p></div><div class="insight"><div class="ihead"><span class="iico">🇨🇳</span><h3>国内对标厂商</h3></div><p>达实智能、和光同城、特斯联</p><blockquote>国内可对标三条线：①楼宇自控/机电节能——达实智能（医院、地铁、公共建筑的暖通节能与楼宇自控总集成，路径最接近『能耗账单导向』）；②AIoT 城市/空间数字孪生——特斯联（AIoT 平台 + 空间数字孪生，强在传感器接入与规模化，弱在流体物理内核）；③和光同城（本地化能源/空间服务）。差异点：Inviscid 的护城河在『物理内核（PINN/neural operator 把 CFD 提速百倍千倍）』，国内多数玩家强在集成与 IoT 侧、弱在自研求解器，这是可迁移的技术势能差。</blockquote></div><div class="insight"><div class="ihead"><span class="iico">🧩</span><h3>可迁移的干法 / 应进场景词典的词条</h3></div><p>楼宇能耗优化、HVAC/暖通空调实时控制、数据中心冷却、CFD/计算流体力学加速、physics-informed 神经网络(PINN)、数字孪生、冷链仓储温控、工业设施热管理</p><blockquote>可迁移打法：①以『单点热痛点』切入（数据中心热点/机房夹点、冷库温度分层），用低成本 PINN 训练做出可量化的气流/能耗改善再谈平台；②MOU + 灯塔试点（Kajima 智能楼宇试点、政府 MOU）先攒可展示案例，绕开长销售周期的信任门槛；③把『5% 成本、数百美元训练一个专用模型』作为对 Ansys/Siemens 的错位定价锚；④'仿真即控制器'——从设计期一次性交付转为运行时订阅，绑定持续能耗节省分成。</blockquote></div><div class="insight"><div class="ihead"><span class="iico">⚠️</span><h3>风险与存疑点</h3></div><p>①名称消歧：与流体力学术语『inviscid（无粘）流』重名，检索噪声大；公司多以『Inviscid AI』署名。②客户证据强度弱：Kajima 试点与 MPSEDC MOU 均为官网自述、处于试点/意向阶段，非营收合同，客户置信度中/低；一切能耗节省百分比、加速倍数、ROI 天数均为公司自报，缺第三方独立验证。③融资未披露，团队仅 2 人，早期风险高。④地点信息中美/新加坡并存，主体归属待厘清。⑤技术侧：PINN 在复杂几何/多物理场下的泛化与可信度仍是学界公开难题，实时闭环控制若仿真失真存在运行安全风险。</p></div></div>
+ <div class="tagrow"><span class="tlabel">国内对标</span><span class="chip">达实智能</span><span class="chip">和光同城</span><span class="chip">特斯联</span></div>
+ <div class="tagrow"><span class="tlabel">场景词条</span><span class="chip">楼宇能耗优化</span><span class="chip">HVAC/暖通空调实时控制</span><span class="chip">数据中心冷却</span><span class="chip">CFD/计算流体力学加速</span><span class="chip">physics-informed 神经网络(PINN)</span><span class="chip">数字孪生</span><span class="chip">冷链仓储温控</span><span class="chip">工业设施热管理</span></div>
+</section>
+
+<section class="card"><h2>信息来源溯源</h2><p class="none">（档案内未列独立溯源表；具体来源见上方各处「链接」）</p></section>
+
+<footer class="foot">批次来源 B002 · YC Winter 2026 (W26) Launch　|　深研日期 2026-07-07　|　直通模式 auto：AI 生成、未经人工复核。数字与具名事实一律带来源，无来源者标「未披露」，未编造。<br>数据真源 <code>data/companies.json</code> · 原始档案 <code>companies/inviscid.md</code></footer>
+</div>
+</body></html>

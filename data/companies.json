@@ -3320,14 +3320,62 @@
    "one_liner_zh": "为 OCR 等确定性开发任务打造的 AI 模型",
    "tier": "B",
    "triage_reason": "单据处理，制造业办公高频",
-   "status": "card",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
    "updated": "2026-07-07",
    "card": "companies/B-cards.md",
-   "card_written_at": "2026-07-07"
+   "card_written_at": "2026-07-07",
+   "funding": [
+    {
+     "round": "Pre-Seed（Antler，JigsawStack 母体）",
+     "amount": "US$500K",
+     "date": "2024",
+     "source_url": "https://updatedata.jigsawstack.com/jigsawstack-updates-500k-pre-seed-dev-events-new-ai-updates"
+    },
+    {
+     "round": "Pre-Seed（Ada Ventures 领投，JigsawStack 母体）",
+     "amount": "US$1M",
+     "date": "2025",
+     "source_url": "https://news.nestia.com/detail/-/13345901"
+    },
+    {
+     "round": "YC Spring 2026（P26/X26 批次，标准投资条款金额未单独披露）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/interfaze"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "官网『trusted by builders at』展示 NVIDIA、IBM、Vercel、Supabase、Notion、Zapier、Robinhood、Airwallex、Langflow、Smithery 等",
+     "confidence": "低",
+     "source_url": "https://interfaze.ai/"
+    }
+   ],
+   "cn_benchmarks": [
+    "合合信息 TextIn（智能文字识别/文档解析，OCR 与单据抽取直接对标）",
+    "来也科技 IDP（智能文档处理，票据/单据结构化抽取）",
+    "百度 OCR（通用及票据/卡证 OCR 云服务）",
+    "腾讯云/阿里云 OCR 与文档智能（结构化抽取云 API）"
+   ],
+   "scene_tags": [
+    "OCR文字识别",
+    "单据/票据结构化抽取",
+    "文档智能IDP",
+    "确定性AI",
+    "结构化网页抽取",
+    "语音转写STT",
+    "目标检测",
+    "Text-to-SQL",
+    "开发者API",
+    "工作流自动化"
+   ],
+   "archive": "companies/interfaze.md",
+   "researched_at": "2026-07-07",
+   "research_status": "researched"
   },
   {
    "num": 133,
@@ -3512,12 +3560,31 @@
    "one_liner_zh": "模拟电路设计的 AI 智能体",
    "tier": "B",
    "triage_reason": "研发域，EDA",
-   "status": "card",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-07",
+   "funding": [],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "华大九天（国产 EDA 龙头，模拟/数模混合设计工具）",
+    "概伦电子（器件建模与电路仿真 EDA）",
+    "芯华章（数字验证 EDA，AI 驱动）"
+   ],
+   "scene_tags": [
+    "模拟电路设计",
+    "AI EDA 智能体",
+    "自然语言芯片设计",
+    "电路调试自动化",
+    "拓扑综合",
+    "寄生/版图上下文推理",
+    "半导体研发提效"
+   ],
+   "archive": "companies/atrisa.md",
+   "researched_at": "2026-07-07",
+   "research_status": "researched"
   },
   {
    "num": 143,
@@ -3569,12 +3636,41 @@
    "one_liner_zh": "短途卡车的 AI 排程",
    "tier": "B",
    "triage_reason": "运输排程，物流域",
-   "status": "card",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-07",
+   "funding": [],
+   "early_customers": [
+    {
+     "name": "Allstone",
+     "confidence": "中",
+     "source_url": "https://www.getdayjob.ai/en-us"
+    },
+    {
+     "name": "Coastal Recycling",
+     "confidence": "中",
+     "source_url": "https://www.getdayjob.ai/en-us"
+    }
+   ],
+   "cn_benchmarks": [
+    "G7 易流（车队智能调度/AIoT）",
+    "满帮集团（干线运力撮合与调度）",
+    "唯捷城配（城配调度与运力管理）"
+   ],
+   "scene_tags": [
+    "短途运输排程",
+    "车队调度自动化",
+    "路线实时再优化",
+    "废弃物清运调度",
+    "ERP集成AI-agent",
+    "运输计划员替代"
+   ],
+   "archive": "companies/dayjob.md",
+   "researched_at": "2026-07-07",
+   "research_status": "researched"
   },
   {
    "num": 146,
@@ -3588,12 +3684,45 @@
    "one_liner_zh": "今天就用机器人员工填满你的仓库",
    "tier": "B",
    "triage_reason": "仓储机器人",
-   "status": "card",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-07",
+   "funding": [
+    {
+     "round": "YC / Seed（疑为 YC 标准投资）",
+     "amount": "约 500K 美元（未获官方一手确认，来源为社媒帖子标题）",
+     "date": "2026",
+     "source_url": "https://www.instagram.com/p/DWfX3L8EQUi/"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "未具名的付费试点仓库客户（paid pilots live in customer warehouses today）",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/launches/QPr-inloop-robotics-staff-your-warehouse-with-robots-today"
+    }
+   ],
+   "cn_benchmarks": [
+    "极智嘉 Geek+",
+    "海柔创新 Hai Robotics",
+    "快仓 Quicktron"
+   ],
+   "scene_tags": [
+    "仓储履约",
+    "机械臂拣选打包",
+    "RaaS 机器人即服务",
+    "人机协同远程接管(teleop)",
+    "码垛/装配/上料",
+    "具身智能/VLA",
+    "电商履约中心",
+    "旺季用工替代"
+   ],
+   "archive": "companies/inloop-robotics.md",
+   "researched_at": "2026-07-07",
+   "research_status": "researched"
   },
   {
    "num": 147,
@@ -3670,12 +3799,32 @@
    "one_liner_zh": "简单、联网、无人值守的射频测试设备",
    "tier": "B",
    "triage_reason": "测试环节自动化",
-   "status": "card",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-07",
+   "funding": [],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "普源精电 RIGOL（通用电子测试测量，示波器/频谱/信号源）",
+    "鼎阳科技 SIGLENT（示波器/频谱分析仪/矢量网络分析仪等测试测量）",
+    "坤恒顺维（射频/微波信道模拟与无线测试仪器，更贴近 RF 专用测试）"
+   ],
+   "scene_tags": [
+    "射频测试测量",
+    "产线自动化测试",
+    "免驱动即插即用仪器",
+    "SCPI/REST 双接口",
+    "PoE/USB-C 供电",
+    "模块化机架仪器",
+    "AI 辅助测试软件生成",
+    "卫星/无人机/手机无线电制造"
+   ],
+   "archive": "companies/nine-fives.md",
+   "researched_at": "2026-07-07",
+   "research_status": "researched"
   },
   {
    "num": 150,
@@ -3746,14 +3895,34 @@
    "one_liner_zh": "为半导体行业发现材料的 AI 科学家",
    "tier": "B",
    "triage_reason": "研发域，材料发现",
-   "status": "card",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
    "updated": "2026-07-07",
    "card": "companies/B-cards.md",
-   "card_written_at": "2026-07-07"
+   "card_written_at": "2026-07-07",
+   "funding": [],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "深势科技（DP Technology）—— AI+分子模拟/计算材料平台",
+    "晶泰科技（XtalPi）—— AI+自动化实验室驱动的材料与药物研发",
+    "matgen —— 计算材料/材料生成方向对标"
+   ],
+   "scene_tags": [
+    "AI 材料发现",
+    "半导体材料",
+    "计算材料学",
+    "自主实验室/AI Agent 群",
+    "芯片封装与热管理",
+    "纳米级互连",
+    "摩尔定律延续",
+    "数据中心散热"
+   ],
+   "archive": "companies/matforge.md",
+   "researched_at": "2026-07-07",
+   "research_status": "researched"
   },
   {
    "num": 154,
@@ -4592,12 +4761,27 @@
    "one_liner_zh": "30 秒内把 AI 智能体接入人类专家",
    "tier": "B",
    "triage_reason": "HITP 兜底的市场化形态",
-   "status": "card",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-07",
+   "funding": [],
+   "early_customers": [],
+   "cn_benchmarks": [],
+   "scene_tags": [
+    "AI智能体人工兜底(HITP)",
+    "智能体运行时专家升级",
+    "MCP专家路由",
+    "专家众包/按需专家网络",
+    "coding agent debug 升级",
+    "AI 输出合规/审美人工把关",
+    "agent-to-human 实时对话"
+   ],
+   "archive": "companies/humwork.md",
+   "researched_at": "2026-07-07",
+   "research_status": "researched"
   },
   {
    "num": 193,
@@ -4901,12 +5085,33 @@
    "one_liner_zh": "智能体经济的金融基础设施",
    "tier": "B",
    "triage_reason": "智能体经济金融基础设施",
-   "status": "card",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-07",
+   "funding": [],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "蚂蚁集团/支付宝——智能体支付与 Agent 商业化探索（如支付宝『支小宝』智能体、AP2 协议中国生态参与）",
+    "腾讯财付通/微信支付——面向 Agent 的自动化支付能力探索",
+    "连连数字、PingPong——跨境支付与账户基础设施，可类比 Agent 侧账户/结算底座",
+    "数字人民币（e-CNY）智能合约——可编程支付，与 Agent 自主付费场景相邻"
+   ],
+   "scene_tags": [
+    "智能体支付",
+    "Agent 钱包",
+    "自主结算",
+    "稳定币支付",
+    "机器对机器支付(M2M)",
+    "Agent 商务/onboarding",
+    "金融基础设施",
+    "按用量计费"
+   ],
+   "archive": "companies/sponge.md",
+   "researched_at": "2026-07-07",
+   "research_status": "researched"
   },
   {
    "num": 205,
@@ -5091,12 +5296,38 @@
    "one_liner_zh": "面向广权限 AI 智能体的企业级安全",
    "tier": "B",
    "triage_reason": "广权限 AI 智能体企业级安全",
-   "status": "card",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-07",
+   "funding": [
+    {
+     "round": "YC W26（标准投资，第三方数据库记为 seed）",
+     "amount": "约 $500K（Tracxn 记录，疑为 YC 标准 deal 金额；官方未单独披露融资）",
+     "date": "2026-01",
+     "source_url": "https://tracxn.com/d/companies/clam/__wyZgrId1tEN1KYxHO71uky7YUDb9TcBmrXcj9XU7sE8"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "蚂蚁集团「蚁天鉴」大模型安全一体化平台（大模型/Agent 安全评测与防护）",
+    "阿里通义大模型安全护栏、360 智脑安全、奇安信 / 深信服「安全 GPT」等大厂 AI 安全能力",
+    "云起无垠等 AI 原生安全 / 提示注入与内容安全 Guardrail 初创（对标 LLM 运行时防护）"
+   ],
+   "scene_tags": [
+    "AI Agent 运行时安全",
+    "语义防火墙 / Semantic Firewall",
+    "提示词注入防护",
+    "PII / 敏感数据泄露拦截",
+    "密钥与凭据网络层注入",
+    "企业级 AI 合规（金融/医疗/法律）",
+    "LLM 网关 / AI Gateway"
+   ],
+   "archive": "companies/clam.md",
+   "researched_at": "2026-07-07",
+   "research_status": "researched"
   },
   {
    "num": 215,
@@ -5110,12 +5341,33 @@
    "one_liner_zh": "更强更安全的企业 AI 电脑操作",
    "tier": "B",
    "triage_reason": "企业级 computer-use 安全",
-   "status": "card",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-07",
+   "funding": [],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "实在智能（Chatbot RPA / TARS 大模型驱动的数字员工）",
+    "来也科技 UiBot / 影刀 RPA（结合大模型的流程自动化）",
+    "澜码科技 AskXBOT（企业级 Agent 平台）",
+    "字节扣子 Coze / 智谱 AutoGLM（自动操作 App/网页的 agent）"
+   ],
+   "scene_tags": [
+    "企业AI-Agent平台",
+    "自适应界面/Generative-UI",
+    "AI安全与细粒度授权",
+    "销售线索研究与个性化触达",
+    "自动生成品牌提案/PPT",
+    "自然语言自动化",
+    "保险理赔处理（官方举例场景）",
+    "桌面AI工作区协作"
+   ],
+   "archive": "companies/carson.md",
+   "researched_at": "2026-07-07",
+   "research_status": "researched"
   },
   {
    "num": 216,
@@ -5167,12 +5419,39 @@
    "one_liner_zh": "AI 智能体版的 Okta(身份与权限)",
    "tier": "B",
    "triage_reason": "AI 智能体版 Okta，身份与权限",
-   "status": "card",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-07",
+   "funding": [
+    {
+     "round": "Seed (YC standard deal)",
+     "amount": "约 $500K",
+     "date": "2025-09-29",
+     "source_url": "https://tracxn.com/d/companies/agenticfabriq/__Qv3de16nJ4aoJ0PIWgWl4sVaOZyalyiyTKr-cCosrv8/funding-and-investors"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "身份认证/IAM 领域：玉符科技（IDaaS）、竹云、派拉软件（企业统一身份与权限治理）、宁盾、芯盾时代",
+    "云厂商 IAM 能力：阿里云 RAM/IDaaS、腾讯云 CAM、华为云 IAM",
+    "面向 agent/大模型的权限与安全治理国内尚属早期空白，多由上述 IAM 厂商与 MCP/agent 平台方摸索延伸"
+   ],
+   "scene_tags": [
+    "AI 智能体身份认证",
+    "最小权限访问控制",
+    "agent 权限治理",
+    "审计日志与合规",
+    "一键撤权",
+    "token 交换/凭证托管",
+    "MCP/OAuth 网关",
+    "企业 IdP 集成"
+   ],
+   "archive": "companies/agentic-fabriq.md",
+   "researched_at": "2026-07-07",
+   "research_status": "researched"
   },
   {
    "num": 219,
@@ -5608,12 +5887,59 @@
    "one_liner_zh": "用超快电脑操作智能体打造 AI 员工",
    "tier": "B",
    "triage_reason": "computer-use 智能体造 AI 员工，Agent 基础设施",
-   "status": "card",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-07",
+   "funding": [
+    {
+     "round": "YC Winter 2026 batch（标准孵化投资）",
+     "amount": "未披露具体金额（YC 标准 deal 通常为 $125K/7% + $375K SAFE）",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/ramain"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "未具名设计伙伴 A — 保险承保自动化（60+ 字段、5+ 页表单填报）",
+     "confidence": "中",
+     "source_url": "https://www.linkedin.com/posts/ramanivansh_meet-ramain-yc-w26-super-fast-activity-7418922008383610880-GZfW"
+    },
+    {
+     "name": "未具名设计伙伴 B — 遗留 dashboard 到供应商门户的数据管道",
+     "confidence": "中",
+     "source_url": "https://www.linkedin.com/posts/ramanivansh_meet-ramain-yc-w26-super-fast-activity-7418922008383610880-GZfW"
+    },
+    {
+     "name": "未具名设计伙伴 C — 多站点视觉化价格抓取",
+     "confidence": "中",
+     "source_url": "https://www.linkedin.com/posts/ramanivansh_meet-ramain-yc-w26-super-fast-activity-7418922008383610880-GZfW"
+    }
+   ],
+   "cn_benchmarks": [
+    "实在智能（TARS / Chat-RPA，视觉+大模型的屏幕操作智能体）",
+    "字节跳动 UI-TARS（开源 GUI/computer-use 操作模型）",
+    "智谱 AutoGLM（自主 GUI 操作智能体）",
+    "影刀 RPA（企业级流程自动化，UI 模拟操作）",
+    "来也科技 UiBot / 数字员工",
+    "澜码科技（企业 Agent 平台）"
+   ],
+   "scene_tags": [
+    "computer-use 智能体",
+    "AI 员工/数字员工",
+    "遗留系统 UI 自动化",
+    "无 API 门户自动化",
+    "采购 ERP + 供应商门户",
+    "保险承保/理赔表单填报",
+    "医疗 EHR / RCM（收入周期管理）",
+    "数据录入与对账",
+    "人在环实时接管"
+   ],
+   "archive": "companies/ramain.md",
+   "researched_at": "2026-07-07",
+   "research_status": "researched"
   },
   {
    "num": 238,
@@ -5665,12 +5991,43 @@
    "one_liner_zh": "实时楼宇仿真,优化能耗与运营",
    "tier": "B",
    "triage_reason": "实时楼宇仿真优化能耗，仿真域",
-   "status": "card",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-07",
+   "funding": [],
+   "early_customers": [
+    {
+     "name": "Kajima（鹿岛建设 The GEAR Smart Building Pilot）",
+     "confidence": "中",
+     "source_url": "https://inviscidai.com/"
+    },
+    {
+     "name": "MPSEDC（Madhya Pradesh 政府相关机构，签署 MOU）",
+     "confidence": "低",
+     "source_url": "https://inviscidai.com/"
+    }
+   ],
+   "cn_benchmarks": [
+    "达实智能",
+    "和光同城",
+    "特斯联"
+   ],
+   "scene_tags": [
+    "楼宇能耗优化",
+    "HVAC/暖通空调实时控制",
+    "数据中心冷却",
+    "CFD/计算流体力学加速",
+    "physics-informed 神经网络(PINN)",
+    "数字孪生",
+    "冷链仓储温控",
+    "工业设施热管理"
+   ],
+   "archive": "companies/inviscid.md",
+   "researched_at": "2026-07-07",
+   "research_status": "researched"
   },
   {
    "num": 241,
@@ -5798,14 +6155,34 @@
    "one_liner_zh": "自动化 CAD 后置工作,缩短硬件设计周期",
    "tier": "B",
    "triage_reason": "自动化 CAD 后置工作，硬件设计研发域",
-   "status": "card",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
    "updated": "2026-07-07",
    "card": "companies/B-cards.md",
-   "card_written_at": "2026-07-07"
+   "card_written_at": "2026-07-07",
+   "funding": [],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "立创EDA（EasyEDA）",
+    "华秋DFM",
+    "嘉立创"
+   ],
+   "scene_tags": [
+    "CAD后置自动化",
+    "工程图纸生成",
+    "3D转2D出图",
+    "GD&T几何公差",
+    "机械设计提效",
+    "硬件设计周期压缩",
+    "PLM协同",
+    "可制造性交付"
+   ],
+   "archive": "companies/rev1.md",
+   "researched_at": "2026-07-07",
+   "research_status": "researched"
   },
   {
    "num": 248,
