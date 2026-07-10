@@ -1,0 +1,42 @@
+# Lua AI
+
+- **批次来源**：B003 / YC Fall 2025 (F25) Launch
+- **入库日期**：2026-07-07 ｜ **深研日期**：2026-07-07 ｜ **再现记录**：B003
+- **一句话定位**：Mid-market agent platform built on TypeScript（基于 TypeScript 的中端智能体平台）
+- **官网/锚定**：https://www.ycombinator.com/companies/lua-global-inc
+- **深研状态**：researched
+
+## 公司画像
+- **团队**：联合创始人 Lorcan O'Cathain（CEO，前 4G Capital COO、Zephyr Management 非洲业务负责人、Money254 联合创始人）与 Stefan Kruger（CTO，前 Paystack 工程副总裁，Paystack 被 Stripe 收购前）。两人 8 年前在肯尼亚金融科技借贷公司共事，2025 年 3 月双双辞职创业，一个月后上线产品。团队约 5 人（YC 页面口径），总部伦敦、业务根植东非。来源：https://www.ycombinator.com/companies/lua-global-inc ; https://tech-ish.com/2026/04/20/lua-ai-agent-startup-5-8m-seed-norrsken22/
+- **成立/批次**：2025
+- **地点**：英国伦敦（法律实体 Lua Global Inc），业务运营根植东非（肯尼亚/内罗毕），规划向肯尼亚、美国、欧洲、亚洲扩张。来源：https://www.ycombinator.com/companies/lua-global-inc
+- **产品**：面向中端市场（mid-market）企业的统一智能体平台，自称 'Agent OS / agentOS'。核心是一套真正的 TypeScript 框架（非 YAML 配置），带 Zod 校验、可测试、现代开发工作流；可连接任意 API，在数小时而非数月内部署生产级对话与自动化智能体。支持一处管理、多渠道部署：移动端、Slack、Instagram、Facebook Messenger、邮件、Web。平台托管基础设施、模型编排、数据与监控，团队只写业务逻辑；同时提供 CLI 与自然语言两种界面，并支持人类接管（human handoff）做判断类决策。典型场景覆盖客服、内部运营、财务流程、电商等。来源：https://heylua.ai/ ; https://docs.heylua.ai/overview ; https://blog.heylua.ai/lua-raises-5-8m-to-help-build-operating-system-for-human-and-agent-collaboration/
+- **商业模式**：多层次分发：(1) 自助式 SMB 智能体，25–1000 美元/月，面向电商与服务类中小企业；(2) 面向中端市场（营收 5000 万–10 亿美元）企业的企业级直销；(3) 通过开发者代理商与渠道伙伴分发。定位刻意区别于传统企业级 AI 方案——主张免掉大额咨询预算、庞大前置部署团队与昂贵的按结果计价。来源：https://www.ycombinator.com/companies/lua-global-inc
+- **竞争格局**：对标企业级 agent 平台与 forward-deployed 咨询式交付（如需大量咨询/部署团队的方案）；也与各类低代码/无代码 agent 搭建平台、以及 YAML 配置式 agent 工具竞争。差异化打法是用真正的 TypeScript 代码 + 中端市场的速度与经济性。来源：https://www.ycombinator.com/launches/Opn-lua-ai-the-unified-agent-platform-for-mid-market-enterprises
+
+## 融资
+| 轮次 | 金额 | 时间 | 来源 |
+|---|---|---|---|
+| Seed | $5.8M | 2026-04-16 | [链接](https://blog.heylua.ai/lua-raises-5-8m-to-help-build-operating-system-for-human-and-agent-collaboration/) |
+
+## 早期客户信号
+| 客户 | 置信度 | 来源 |
+|---|---|---|
+| Turaco（微保险 microinsurer） | 中 | [链接](https://tech-ish.com/2026/04/20/lua-ai-agent-startup-5-8m-seed-norrsken22/) |
+| Numida（乌干达 MSME 借贷） | 中 | [链接](https://tech-ish.com/2026/04/20/lua-ai-agent-startup-5-8m-seed-norrsken22/) |
+| Umba（数字银行） | 中 | [链接](https://tech-ish.com/2026/04/20/lua-ai-agent-startup-5-8m-seed-norrsken22/) |
+| Tushop（社交电商 social commerce） | 中 | [链接](https://tech-ish.com/2026/04/20/lua-ai-agent-startup-5-8m-seed-norrsken22/) |
+
+## 转型有术判断
+1. **对制造业客户意味着什么**：Lua 的核心是'中端市场 + 代码优先 + 多渠道部署 + 人机接管'的组合拳，对制造业中端企业（营收 5000 万–10 亿美元区间正对应大量专精特新/中型制造商）有直接借鉴：制造企业的售后客服、经销商/分销商沟通、订单与报价问询、内部运营（如工单流转、财务对账）都可用一套可测试的 TypeScript Agent 框架落地，且部署到微信/企微、邮件、Web 等一线渠道。其'人类做判断类决策、Agent 处理高频事务'的 handoff 模式，天然契合制造业'高频重复咨询归 AI、异常/大单决策归人'的分工。
+2. **国内对标厂商**：澜码科技（Agent 企业级编排平台，面向业务流程自动化）、字节扣子 Coze / 阿里百炼 / 腾讯元器（低门槛 Agent 搭建与多渠道发布平台，对标其自助+多渠道部署）、实在智能 / 影刀 RPA（低代码自动化 + Agent，对标其运营/客服自动化场景）、面向开发者的 Agent 框架（如国内 LangChain/Dify 生态），对标其 TypeScript 代码优先路线
+   > 国内对标以扣子/百炼/元器（自助搭建+多渠道）、澜码（企业级 Agent 编排）、影刀/实在（低代码自动化）为主。差异点：Lua 强调'真正的 TypeScript 代码 + Zod 校验 + 测试'的工程化路线，而国内主流对标更偏可视化编排/低代码；制造业若已有工程团队，代码优先路线在可维护性与复杂集成上更有说服力。
+3. **可迁移的干法 / 应进场景词典的词条**：中端市场 Agent 平台、TypeScript Agent 框架、多渠道客服/销售 Agent、金融科技流程自动化（放贷/保险/开户）、人机协同 human handoff、低代码/代码优先 Agent 编排、Agent OS / 智能体操作系统
+   > 可迁移打法：(1) 用'咨询预算/前置部署团队昂贵'作为切入话术，向中端制造企业主打'数小时上线、按订阅计价'；(2) 单一 Agent 逻辑一处编写、多渠道（IM/邮件/Web）发布，降低渠道适配成本；(3) 先在一个高频窄场景（如售后客服或经销商问询）跑出可量化 ROI，再横向复制到财务、运营；(4) 用创始团队'金融科技老兵深耕东非'的行业纵深模式——即'创始人懂垂直行业 + 从单一区域高频场景起步'，制造业落地同样应从'懂车间/懂供应链的人 + 单一痛点'起步。
+4. **风险与存疑点**：(1) 公司极早期（2025 年成立、约 5 人、种子轮 $5.8M），产品与客户集中在东非金融科技，制造业与非洲外市场验证尚缺；(2) 客户名单（Turaco/Numida/Umba/Tushop）来自媒体报道而非官方案例页，置信度中；营收口径（$1M ARR、30% 周环比）为公司自述、未经第三方审计；(3) 赛道拥挤——中端 Agent 平台面临大厂（含 OpenAI/微软/国内扣子系）与众多 YC 同批公司挤压，代码优先路线可能限制非技术型中端客户自助采用；(4) 存在品牌通用词歧义（Lua 编程语言、其他 Lua 命名产品），检索与商标上均需注意。未发现更名或 pivot 记录。
+
+## 信息来源溯源表
+（无）
+
+---
+> 本档案由本地 /research 深研生成，直通模式 auto。数字与具名事实一律带来源；无来源者标"未披露"，未编造。

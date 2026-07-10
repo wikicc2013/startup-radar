@@ -1,0 +1,33 @@
+<!doctype html><html lang="zh-CN"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Multifactor · AI青梅创业公司数据库</title>
+<link rel="stylesheet" href="company.css">
+</head><body>
+<div class="wrap">
+<a class="back" href="../index.html">← 返回看板</a>
+<header class="hero">
+ <div class="htop"><span class="badge a2">B</span><span class="badge batch">B003 · YC Fall 2025 (F25)</span><span class="badge ok">已深研</span><span class="badge auto">AI 自动通过</span></div>
+ <h1>Multifactor</h1>
+ <p class="oneliner">Secure account sharing for humans and AI</p>
+ <p class="oneliner-zh">面向人与 AI 的安全账号共享</p>
+ <a class="site" href="https://www.ycombinator.com/companies/multifactor" target="_blank" rel="noopener">官网 / 锚定 ↗</a>
+ <p class="triage">分诊理由：人与 AI 的安全账号共享，身份</p>
+</header>
+
+<section class="card"><h2>公司画像</h2><div class="picture"><div class="prow"><div class="pk">团队</div><div class="pv">联合创始人 2 人 + 团队约 6 人。CEO Vivek Nair——UC Berkeley 最年轻的计算机科学博士，NSF/NPSC/Hertz Fellow，前 CIA / 美国国防部（DOD）精英网络单位特工，曾获局级 Exceptional Performance Award；CTO Colin Roberts——数学博士、密码学家，前 NASA 科学家。团队自述技术基于十年前沿网络安全研究，脱胎于国家安全高危环境中的攻防工具部署经验。</div></div><div class="prow"><div class="pk">成立/批次</div><div class="pv">2025</div></div><div class="prow"><div class="pk">地点</div><div class="pv">美国加州旧金山（San Francisco, CA）</div></div><div class="prow"><div class="pk">产品</div><div class="pv">面向人与 AI 智能体的安全账号共享平台。核心是把任意在线账号变成可撤销的「checkpoint 链接 / 只读链接」，像分享 Google Doc 一样共享账号，全程不暴露密码或底层凭据；支持细粒度权限、完整操作审计（事件历史）、一键登录、无需改密即可即时撤销。采用其专利的后量子（post-quantum）密码学技术，并与 agentic 软件集成以防御 prompt injection（提示词注入）、密码盗取和 confused-deputy（混淆代理）攻击。覆盖 Web/iOS/Android/Mac/Windows/Chrome，账号管理器免费。规划中：AI 助手「Multi」、开发者 API。定位为「AI 时代的第一款密码管理器」，替代传统密码管理器。</div></div><div class="prow"><div class="pk">商业模式</div><div class="pv">免费增值（Freemium）：个人账号管理器免费；规划企业版（enterprise plan）提供高级功能。目标客户为在高风险运营中管理 AI 智能体的企业。</div></div><div class="prow"><div class="pk">竞争格局</div><div class="pv">传统密码/身份管理器 1Password、Dashlane、Bitwarden、LastPass；企业特权访问/密钥管理 CyberArk、HashiCorp Vault；新兴 AI 智能体身份/授权赛道 Astrix、Okta（含 Auth0 的 Auth for GenAI）、WorkOS 等。差异点：账号共享而非仅存密码、后量子密码学、面向 AI agent 的零信任授权与审计。</div></div></div></section>
+
+<div class="grid2">
+ <section class="card"><h2>融资</h2><table class="tbl"><thead><tr><th>轮次</th><th>金额</th><th>时间</th><th>来源</th></tr></thead><tbody><tr><td>Seed</td><td class="amt">$15M</td><td>2025-12-04</td><td><a href="https://www.prnewswire.com/news-releases/yc-f25-startup-multifactor-raises-15m-seed-round-to-make-online-accounts-safe-for-ai-agents-302633496.html" target="_blank" rel="noopener">链接 ↗</a></td></tr></tbody></table></section>
+ <section class="card"><h2>早期客户信号</h2><table class="tbl"><thead><tr><th>客户</th><th>置信度</th><th>来源</th></tr></thead><tbody><tr><td>未具名制造业供应链企业（合作方合计管理 75 亿+美元制造业供应链）</td><td><span class="conf lo">低</span></td><td><a href="https://www.ycombinator.com/companies/multifactor" target="_blank" rel="noopener">链接 ↗</a></td></tr></tbody></table><p class="hint">置信度：<span class="conf hi">高</span>官方case study/可交叉验证　<span class="conf mid">中</span>logo墙/媒体点名　<span class="conf lo">低</span>推断</p></section>
+</div>
+
+<section class="card"><h2>转型有术判断</h2><div class="insights"><div class="insight"><div class="ihead"><span class="iico">🏭</span><h3>对制造业客户意味着什么</h3></div><p>制造企业正把 AI 智能体接入采购、供应链、ERP、供应商门户等系统，普遍靠共享账号/明文凭据授权，风险巨大。Multifactor 的「只读 checkpoint 链接 + 不暴露密码 + 即时撤销 + 全程审计」直击这一痛点：给 AI agent 或外部合作方授权而不交出密码，出问题一键收回并可追溯谁在何时做了什么。官方已提及合作方管理 75 亿+美元制造业供应链，说明该场景是其明确落点。</p></div><div class="insight"><div class="ihead"><span class="iico">🇨🇳</span><h3>国内对标厂商</h3></div><p>身份认证/IAM：竹云、派拉软件（IAM/特权访问管理 PAM）、密码/密钥管理：宁盾、玖章（企业密码保险箱类）、以及安全厂商奇安信/深信服的统一身份与访问管理模块、AI 智能体权限/授权：国内尚处早期，可对标各大模型平台的 Agent 权限管控与 MCP 鉴权探索</p><blockquote>国内在传统 IAM/PAM（竹云、派拉、奇安信）已有成熟供给，但面向 AI 智能体的『可撤销账号共享 + 操作级审计』仍是空白；后量子密码学在国产密码（商密 SM 系列）体系下有独立演进路径，直接照搬需本地化改造。</blockquote></div><div class="insight"><div class="ihead"><span class="iico">🧩</span><h3>可迁移的干法 / 应进场景词典的词条</h3></div><p>AI 智能体身份与授权、零信任访问、账号安全共享、密码管理、后量子密码学、操作审计/可撤销授权、prompt injection 防御</p><blockquote>1) 把「共享账号」重构为「可撤销授权链接」——制造业给外协/供应商/AI agent 授权时不再发账号密码；2) 授权粒度化 + 全量审计，满足合规与追责；3) 免费个人版做入口、企业版做变现的 PLG 路径；4) 用『AI 时代第一款密码管理器』这类强定位卡位新品类，把安全痛点包装成协作效率产品。</blockquote></div><div class="insight"><div class="ihead"><span class="iico">⚠️</span><h3>风险与存疑点</h3></div><p>1) 强安全叙事（前 CIA/NASA、后量子、专利）需实测验证，安全产品口碑靠时间与第三方审计沉淀；2) 免费策略下企业版付费转化与商业模式尚未验证；3) 赛道拥挤，巨头 Okta/1Password 及 AI-agent 身份创业公司均在抢位；4) 早期客户未具名、客户置信度低，规模化落地待观察；5) 未见 pivot 或更名。</p></div></div>
+ <div class="tagrow"><span class="tlabel">国内对标</span><span class="chip">身份认证/IAM：竹云、派拉软件（IAM/特权访问管理 PAM）</span><span class="chip">密码/密钥管理：宁盾、玖章（企业密码保险箱类）、以及安全厂商奇安信/深信服的统一身份与访问管理模块</span><span class="chip">AI 智能体权限/授权：国内尚处早期，可对标各大模型平台的 Agent 权限管控与 MCP 鉴权探索</span></div>
+ <div class="tagrow"><span class="tlabel">场景词条</span><span class="chip">AI 智能体身份与授权</span><span class="chip">零信任访问</span><span class="chip">账号安全共享</span><span class="chip">密码管理</span><span class="chip">后量子密码学</span><span class="chip">操作审计/可撤销授权</span><span class="chip">prompt injection 防御</span></div>
+</section>
+
+<section class="card"><h2>信息来源溯源</h2><ol class="srclist"><li><a href="https://www.ycombinator.com/companies/multifactor" target="_blank" rel="noopener">Multifactor — Y Combinator 公司页（Zero-trust auth/authorization/auditing for AI agents，F25，SF，6 人）</a></li><li><a href="https://www.prnewswire.com/news-releases/yc-f25-startup-multifactor-raises-15m-seed-round-to-make-online-accounts-safe-for-ai-agents-302633496.html" target="_blank" rel="noopener">YC F25 Startup Multifactor Raises $15M Seed Round to Make Online Accounts Safe for AI Agents — PR Newswire（2025-12-04，$15M 种子轮，Nexus 领投）</a></li><li><a href="https://finance.yahoo.com/news/yc-startup-multifactor-launches-first-133000696.html" target="_blank" rel="noopener">YC Startup Multifactor Launches the First Password Manager Built for the AI era, Making Anything a Read-Only Link — Yahoo Finance / Morningstar</a></li><li><a href="https://multifactor.com/" target="_blank" rel="noopener">Multifactor 官网 — Secure Online Account Sharing for Humans &amp; AI</a></li><li><a href="https://pulse2.com/multifactor-15-million-seed-funding/" target="_blank" rel="noopener">Multifactor: $15 Million Seed Funding Raised To Advance Post-Quantum Account-Sharing Security — Pulse 2.0</a></li></ol></section>
+
+<footer class="foot">批次来源 B003 · YC Fall 2025 (F25) Launch　|　深研日期 2026-07-07　|　直通模式 auto：AI 生成、未经人工复核。数字与具名事实一律带来源，无来源者标「未披露」，未编造。<br>数据真源 <code>data/companies.json</code> · 原始档案 <code>companies/multifactor.md</code></footer>
+</div>
+</body></html>

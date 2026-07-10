@@ -1,0 +1,33 @@
+<!doctype html><html lang="zh-CN"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Moda · AI青梅创业公司数据库</title>
+<link rel="stylesheet" href="company.css">
+</head><body>
+<div class="wrap">
+<a class="back" href="../index.html">← 返回看板</a>
+<header class="hero">
+ <div class="htop"><span class="badge a2">B</span><span class="badge batch">B002 · YC Winter 2026 (W26)</span><span class="badge ok">已深研</span><span class="badge auto">AI 自动通过</span></div>
+ <h1>Moda</h1>
+ <p class="oneliner">The monitoring &amp; analytics layer your AI agents need</p>
+ <p class="oneliner-zh">AI 智能体所需的监控与分析层</p>
+ <a class="site" href="https://www.ycombinator.com/companies/moda" target="_blank" rel="noopener">官网 / 锚定 ↗</a>
+ <p class="triage">分诊理由：AI 智能体监控与分析层</p>
+</header>
+
+<section class="card"><h2>公司画像</h2><div class="picture"><div class="prow"><div class="pk">团队</div><div class="pv">联合创始人 Mohammed Al-Rasheed 与 Pranav Bedi，均为滑铁卢大学（University of Waterloo）辍学生；Mohammed 曾在 Shopify、Notion、Clio 构建 AI Agent 与基础设施，Pranav 曾在银行/保险机构做数据基础设施、后在 Shopify 与 Cerebral Valley 做 AI Agent。YC 官方页显示团队 5 人（来源：https://www.ycombinator.com/companies/moda）。注：部分第三方聚合站（Extruct）列出 Sean McGuire/Svetlana 等其他姓名，与 YC 官方口径不符，以 YC 官方为准。</div></div><div class="prow"><div class="pk">成立/批次</div><div class="pv">2025</div></div><div class="prow"><div class="pk">地点</div><div class="pv">美国旧金山湾区（San Francisco Bay Area）</div></div><div class="prow"><div class="pk">产品</div><div class="pv">面向 AI Agent 的监控与可靠性/持续学习层（The monitoring &amp; reliability layer your AI agents need）。把生产环境中的对话与工具调用 trace 转化为低噪声、可行动的信号：trace-first 下钻调试（从指标直达具体消息与工具调用）、对话自动分段（把长对话切成主题片段）、工具调用错误/超时检测、质量与安全信号（幻觉、prompt injection 提示注入）、回归追踪（衡量 prompt/工具/集成改动对可靠性的影响）。官网 moda.dev 进一步呈现为「诊断失败→生成修复→回放历史 trace 验证再上线」的持续学习闭环。同时提供用户侧分析：用户挫败度、NPS、留存、流失率。</div></div><div class="prow"><div class="pk">商业模式</div><div class="pv">面向开发者/AI 产品团队的 B2B SaaS，提供 CLI + SDK 接入，约 60 分钟即可在客户数据上跑起 demo。具体定价未在官网披露（未披露）。</div></div><div class="prow"><div class="pk">竞争格局</div><div class="pv">最直接对标 Langfuse、LangSmith（LLM 应用的 session tracing 与成本追踪）；差异化在于从「trace 观测」进一步走向「Agent 可靠性诊断 + 回放验证 + 持续学习闭环」，聚焦 Agent 级失败模式（幻觉、偷懒、遗忘、工具调用失败）而非仅 LLM 调用日志。</div></div></div></section>
+
+<div class="grid2">
+ <section class="card"><h2>融资</h2><p class="none">未披露（未检索到带来源的融资信息，或仅 YC 标准投资未单列）</p></section>
+ <section class="card"><h2>早期客户信号</h2><p class="none">未披露（未检索到可采信的具名客户）</p><p class="hint">置信度：<span class="conf hi">高</span>官方case study/可交叉验证　<span class="conf mid">中</span>logo墙/媒体点名　<span class="conf lo">低</span>推断</p></section>
+</div>
+
+<section class="card"><h2>转型有术判断</h2><div class="insights"><div class="insight"><div class="ihead"><span class="iico">🏭</span><h3>对制造业客户意味着什么</h3></div><p>制造业正把 Agent 铺进质检工单、设备运维问答、售后客服、供应链协同等场景，而工业场景对「静默失败」零容忍——一次工具调用超时或幻觉可能导致错误工单或错误配料。Moda 这类『Agent 可靠性监控 + 上线前回放验证』的能力，正是工业 Agent 从 PoC 走向生产必需的安全带：把历史生产 trace 当作回归测试集，prompt/工具改动前先回放验证，可显著降低产线 Agent 的上线风险。</p></div><div class="insight"><div class="ihead"><span class="iico">🇨🇳</span><h3>国内对标厂商</h3></div><p>Dify / FastGPT（国内 LLMOps / Agent 平台，内置调用日志与可观测能力）、观测云 Guance、阿里云 ARMS + 通义（APM 向 LLM/Agent 可观测延伸）、字节 Coze / 火山引擎（Agent 平台自带监控与评测）、澜码科技等 LLMOps 方向创业公司</p><blockquote>国内目前 Agent 可观测/LLMOps 多附着在 Dify、Coze、阿里云百炼等平台内，独立的『Agent 可靠性诊断 + 回放验证』产品尚不成熟，存在对标空档；观测云、澜码等在向该方向探索。</blockquote></div><div class="insight"><div class="ihead"><span class="iico">🧩</span><h3>可迁移的干法 / 应进场景词典的词条</h3></div><p>AI Agent 可观测性、LLMOps、智能体质量监控、生产环境 Agent 调试、幻觉与提示注入检测、工具调用失败追踪、Agent 回归测试与回放验证</p><blockquote>可迁移打法：①把『生产 trace = 回归测试资产』的理念引入工业 Agent 交付，形成上线前回放门禁；②面向非 AI 专家的运维/工艺人员做 trace-first 下钻（从异常指标一键定位到具体工具调用），降低排障门槛；③以幻觉率、工具重试率、挫败率等可量化信号做持续改进闭环，替代人工翻聊天记录。</blockquote></div><div class="insight"><div class="ihead"><span class="iico">⚠️</span><h3>风险与存疑点</h3></div><p>①同名公司消歧风险：另有一家 Moda 为『设计 Agent』平台并融资 750 万美元（General Catalyst），与本档监控层 Moda 无关，检索易混淆；②本档 Moda 融资未公开披露（仅 YC 背书），团队 5 人、2025 年成立，尚处早期，产品定位在『监控层』与『持续学习层』之间仍在演进，存在 pivot 可能；③赛道拥挤（Langfuse/LangSmith/Braintrust 等），需持续验证差异化；④第三方聚合站创始人信息与 YC 官方不一致，以官方为准。</p></div></div>
+ <div class="tagrow"><span class="tlabel">国内对标</span><span class="chip">Dify / FastGPT（国内 LLMOps / Agent 平台，内置调用日志与可观测能力）</span><span class="chip">观测云 Guance、阿里云 ARMS + 通义（APM 向 LLM/Agent 可观测延伸）</span><span class="chip">字节 Coze / 火山引擎（Agent 平台自带监控与评测）</span><span class="chip">澜码科技等 LLMOps 方向创业公司</span></div>
+ <div class="tagrow"><span class="tlabel">场景词条</span><span class="chip">AI Agent 可观测性</span><span class="chip">LLMOps</span><span class="chip">智能体质量监控</span><span class="chip">生产环境 Agent 调试</span><span class="chip">幻觉与提示注入检测</span><span class="chip">工具调用失败追踪</span><span class="chip">Agent 回归测试与回放验证</span></div>
+</section>
+
+<section class="card"><h2>信息来源溯源</h2><p class="none">（档案内未列独立溯源表；具体来源见上方各处「链接」）</p></section>
+
+<footer class="foot">批次来源 B002 · YC Winter 2026 (W26) Launch　|　深研日期 2026-07-07　|　直通模式 auto：AI 生成、未经人工复核。数字与具名事实一律带来源，无来源者标「未披露」，未编造。<br>数据真源 <code>data/companies.json</code> · 原始档案 <code>companies/moda.md</code></footer>
+</div>
+</body></html>
