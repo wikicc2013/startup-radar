@@ -1,0 +1,33 @@
+<!doctype html><html lang="zh-CN"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Remy Ai · AI青梅创业公司数据库</title>
+<link rel="stylesheet" href="company.css">
+</head><body>
+<div class="wrap">
+<a class="back" href="../index.html">← 返回看板</a>
+<header class="hero">
+ <div class="htop"><span class="badge a1">A1</span><span class="badge batch">B002 · YC Winter 2026 (W26)</span><span class="badge ok">已深研</span><span class="badge auto">AI 自动通过</span></div>
+ <h1>Remy Ai</h1>
+ <p class="oneliner">Automating dexterous tasks in warehouses</p>
+ <p class="oneliner-zh">自动化仓库里的精细操作任务</p>
+ <a class="site" href="https://www.ycombinator.com/companies/remy-ai" target="_blank" rel="noopener">官网 / 锚定 ↗</a>
+ <p class="triage">分诊理由：仓库精细操作自动化，仓储物流域</p>
+</header>
+
+<section class="card"><h2>公司画像</h2><div class="picture"><div class="prow"><div class="pk">团队</div><div class="pv">两位创始人（团队约2人，2025年成立）。CEO Oscar Brisset：牛津经济学本科，BCG 咨询约1.5年（做私募/供应链），后在 BCG X 任 AI 工程师约8个月。CTO Ben Kaye：牛津 MEng 一等学位，牛津 ML 在读 PhD（导师 Andrea Vedaldi，Visual Geometry Group），在 OrganOx 做过3年+固件/控制/机器人，有专利待授权，另有 CVPR 2025 Highlight 论文（3D 重建）。两人7年前在牛津本科相识。</div></div><div class="prow"><div class="pk">成立/批次</div><div class="pv">2025</div></div><div class="prow"><div class="pk">地点</div><div class="pv">美国旧金山（San Francisco, CA）</div></div><div class="prow"><div class="pk">产品</div><div class="pv">面向电商 3PL（第三方物流）仓库的 AI 驱动机器人。采用双臂移动平台（bi-manual mobile platform），从打包工位切入，可处理不断变化的 SKU 与订单结构，覆盖拣选、打包、组套(kitting)、收货等高灵巧度操作；宣称无需重训/重编程即可适配新 SKU（含透明、可变形、不规则、易碎物品）。技术路径：用头戴式采集 + 可穿戴触觉传感器记录真人作业中的同步视觉/本体感觉/接触力数据，结合预训练机器人与视觉模型、仿真 + 域随机化(domain randomization)做定制，并配错误恢复算法保障产线级可靠性。声称通过'用智能替代机械复杂度'实现比现有方案低约50%的成本，数天而非数月完成部署。</div></div><div class="prow"><div class="pk">商业模式</div><div class="pv">B2B 机器人/自动化，面向电商第三方物流(3PL)。切入'插入现有工作流、数周见 ROI'。官网另设数据采集(in-the-wild data collection)请求入口，暗示可能存在数据服务/采集侧的辅助模式。具体定价/交付方式（购买 vs. RaaS 机器人即服务）未公开披露。</div></div><div class="prow"><div class="pk">竞争格局</div><div class="pv">对标现有仓储自动化与拣选/操作机器人方案（据其宣称成本高、需重编程、灵活性差）。所处赛道包括通用抓取/操作机器人、仓储移动机器人厂商；YC W26 被 CB Insights 描述为'物理 AI'密集的一批，同类具身智能/机器人操作创业公司较多。</div></div></div></section>
+
+<div class="grid2">
+ <section class="card"><h2>融资</h2><p class="none">未披露（未检索到带来源的融资信息，或仅 YC 标准投资未单列）</p></section>
+ <section class="card"><h2>早期客户信号</h2><p class="none">未披露（未检索到可采信的具名客户）</p><p class="hint">置信度：<span class="conf hi">高</span>官方case study/可交叉验证　<span class="conf mid">中</span>logo墙/媒体点名　<span class="conf lo">低</span>推断</p></section>
+</div>
+
+<section class="card"><h2>转型有术判断</h2><div class="insights"><div class="insight"><div class="ihead"><span class="iico">🏭</span><h3>对制造业客户意味着什么</h3></div><p>Remy 的核心可迁移点在于'用模型智能替代机械专用化'：传统产线/仓库自动化每换一个 SKU 或工位就要重新编程与改机械夹具，成本与周期高；Remy 用预训练视觉-操作模型 + 仿真域随机化，让同一双臂平台适配多变来料。对制造业尤其适用于多品种小批量(高混合)场景的上下料、装配辅助、来料分拣——这些正是国内离散制造'柔性产线'最难啃的骨头。</p></div><div class="insight"><div class="ihead"><span class="iico">🇨🇳</span><h3>国内对标厂商</h3></div><p>极智嘉 Geek+（仓储移动机器人/货到人拣选，全球出货领先）、海柔创新 Hai Robotics（箱式仓储机器人 ACR，密集存储+拣选）、梅卡曼德 Mech-Mind（3D 视觉+AI 引导的机械臂拣选/上下料，接近 Remy 的'视觉+操作'定位）</p><blockquote>国内仓储侧已高度成熟（极智嘉/海柔的货到人体系全球领先），Remy 与它们并非正面竞争——中国强在'搬运/存储的系统集成'，Remy 押注的是更上游的'末端灵巧操作(拣选打包本身)'。真正对标 Remy 技术路线的是梅卡曼德这类'3D 视觉 + AI 引导机械臂'厂商，以及新一批做具身操作大模型的中国创业公司。可关注点：Remy 靠头戴采集 + 触觉手套获取真人作业数据的'数据飞轮'，是国内对标者相对薄弱的一环。</blockquote></div><div class="insight"><div class="ihead"><span class="iico">🧩</span><h3>可迁移的干法 / 应进场景词典的词条</h3></div><p>仓储物流自动化、电商3PL/第三方物流、灵巧操作/双臂机器人、拣选打包组套收货、具身智能/物理AI、触觉传感+视觉+力控、仿真+域随机化训练、机器人即服务(潜在RaaS)</p><blockquote>1) 用可穿戴/头戴设备在真实工位低成本采集'视觉+本体+接触力'多模态示范数据，绕开纯遥操作采数的高成本；2) 仿真 + 域随机化把少量真数据放大到产线级泛化；3) 从单一高频工位（如打包）切入、插入现有工作流、以'数周见 ROI'降低客户决策门槛，而非一次性大改造。这套'轻切入+数据飞轮+柔性泛化'打法可直接映射到国内制造业的柔性上下料/分拣立项逻辑。</blockquote></div><div class="insight"><div class="ihead"><span class="iico">⚠️</span><h3>风险与存疑点</h3></div><p>1) 极早期（2025年成立、约2人团队、W26 刚 launch），产品成熟度与量产可靠性未经验证；2) 融资与客户/试点均未公开披露，商业化实据缺失；3) 灵巧操作在真实仓库的长尾可靠性(易碎/透明/形变物)是行业公认难题，'50%成本'与'数天部署'均为公司自述、无第三方验证；4) 赛道拥挤（YC W26 物理 AI 扎堆 + 国内成熟仓储机器人厂商下沉操作环节），竞争激烈；5) 同名干扰：需与欧洲的 REMY Robotics（餐饮机器人）区分，非同一公司。</p></div></div>
+ <div class="tagrow"><span class="tlabel">国内对标</span><span class="chip">极智嘉 Geek+（仓储移动机器人/货到人拣选，全球出货领先）</span><span class="chip">海柔创新 Hai Robotics（箱式仓储机器人 ACR，密集存储+拣选）</span><span class="chip">梅卡曼德 Mech-Mind（3D 视觉+AI 引导的机械臂拣选/上下料，接近 Remy 的'视觉+操作'定位）</span></div>
+ <div class="tagrow"><span class="tlabel">场景词条</span><span class="chip">仓储物流自动化</span><span class="chip">电商3PL/第三方物流</span><span class="chip">灵巧操作/双臂机器人</span><span class="chip">拣选打包组套收货</span><span class="chip">具身智能/物理AI</span><span class="chip">触觉传感+视觉+力控</span><span class="chip">仿真+域随机化训练</span><span class="chip">机器人即服务(潜在RaaS)</span></div>
+</section>
+
+<section class="card"><h2>信息来源溯源</h2><ol class="srclist"><li><a href="https://www.ycombinator.com/companies/remy-ai" target="_blank" rel="noopener">Remy AI — Y Combinator 公司页</a></li><li><a href="https://x.com/ycombinator/status/2024227432174141473" target="_blank" rel="noopener">Y Combinator on X：Remy AI 为电商履约打造 AI 机器人（发布推文，@oscar__2025）</a></li><li><a href="https://fondo.com/blog/remy-ai-launches" target="_blank" rel="noopener">Remy AI Launches: Dexterous Robots for E-Commerce 3PLs — Fondo</a></li><li><a href="https://f4.fund/startups/tryremy" target="_blank" rel="noopener">Remy AI — f4.fund 创业公司页（Robotics &amp; Automation）</a></li><li><a href="https://www.tryremy.ai/" target="_blank" rel="noopener">Remy AI 官网（tryremy.ai，'We capture how humans move through the world' 数据采集）</a></li><li><a href="https://www.linkedin.com/posts/y-combinator_remy-ai-yc-w26-builds-ai-powered-robots-activity-7429993130260844544-2nEj" target="_blank" rel="noopener">Y Combinator（LinkedIn）：Remy AI (YC W26) builds AI-powered robots</a></li><li><a href="https://yctierlist.com/w26/remy-ai/" target="_blank" rel="noopener">Remy AI — The YC Tier List (W26)</a></li><li><a href="https://www.cbinsights.com/research/y-combinator-winter-2026/" target="_blank" rel="noopener">YC Winter 2026 批次为物理 AI 密集批 — CB Insights</a></li></ol></section>
+
+<footer class="foot">批次来源 B002 · YC Winter 2026 (W26) Launch　|　深研日期 2026-07-07　|　直通模式 auto：AI 生成、未经人工复核。数字与具名事实一律带来源，无来源者标「未披露」，未编造。<br>数据真源 <code>data/companies.json</code> · 原始档案 <code>companies/remy-ai.md</code></footer>
+</div>
+</body></html>

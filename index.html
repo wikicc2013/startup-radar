@@ -3959,7 +3959,7 @@ function render(){
         '<div class="en">'+c.one_liner_en+'</div>'+
         (c.triage_reason?'<div class="why">分诊理由：'+c.triage_reason+'</div>':"")+
         '<div class="meta">批次 '+c.appeared_in.join(", ")+reappear+' · 更新 '+c.updated+
-        (c.archive?' · <a href="'+c.archive.replace(/\.md$/,".md")+'">深研档案 →</a>':"")+'</div>'+
+        (c.archive?' · <a href="'+c.archive.replace(/\.md$/,".html")+'" target="_blank">深研档案 →</a>':"")+'</div>'+
       '</div>';
     r.querySelector(".rhead").onclick=()=>r.classList.toggle("open");
     rows.appendChild(r);

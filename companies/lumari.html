@@ -1,0 +1,33 @@
+<!doctype html><html lang="zh-CN"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Lumari · AI青梅创业公司数据库</title>
+<link rel="stylesheet" href="company.css">
+</head><body>
+<div class="wrap">
+<a class="back" href="../index.html">← 返回看板</a>
+<header class="hero">
+ <div class="htop"><span class="badge a1">A1</span><span class="badge batch">B005 · YC Spring 2025 (X25)</span><span class="badge ok">已深研</span><span class="badge auto">AI 自动通过</span></div>
+ <h1>Lumari</h1>
+ <p class="oneliner">AI supply chain platform for direct procurement</p>
+ <p class="oneliner-zh">面向直接采购的 AI 供应链平台</p>
+ <a class="site" href="https://www.ycombinator.com/companies/lumari" target="_blank" rel="noopener">官网 / 锚定 ↗</a>
+ <p class="triage">分诊理由：直接采购 AI 供应链平台，采购/供应链</p>
+</header>
+
+<section class="card"><h2>公司画像</h2><div class="picture"><div class="prow"><div class="pk">团队</div><div class="pv">联合创始人 Sam Lamba（前 Google 工程 lead，曾任职 Amazon、Tesla，2 项 AI 专利，杜克大学 ECE/CS）与 Eshani Mehta（前 Stripe 支付智能产品负责人，曾任职 Robinhood、Snap，UC Berkeley CS）。YC 页面显示团队约 5 人。</div></div><div class="prow"><div class="pk">成立/批次</div><div class="pv">2025（旧金山）</div></div><div class="prow"><div class="pk">地点</div><div class="pv">San Francisco, CA, USA</div></div><div class="prow"><div class="pk">产品</div><div class="pv">面向直接采购/直接物料（direct materials）的 AI 供应链执行平台。部署数百个常驻 AI agent，端到端自动化寻源、RFQ 询价、报价对比、PO 催单确认、供应商邮件解析与交期跟踪、风险升级；从 BOM/物料清单出发识别供应商、发询价、追催未回复方并生成结构化报价对比；读取供应商来信、抽取数据回写 ERP，需人工决策处直接标记（配置化审批护栏，可用自然语言配置 agent 行为）。</div></div><div class="prow"><div class="pk">商业模式</div><div class="pv">B2B SaaS（推测订阅制，官方未披露定价）。核心卖点为叠加在现有 ERP/邮件/Slack/Excel 之上，无需 rip-and-replace、无需供应商入驻门户。目标客户从成长型硬件/制造 scaleup 到 Fortune 500。</div></div><div class="prow"><div class="pk">竞争格局</div><div class="pv">直接采购/供应商协同数字化赛道，与 SAP Ariba、Coupa 等传统采购套件形成'叠加而非替换'的差异化；同期 AI 采购/供应链 agent 类创业公司（含多家 YC 同批公司）为潜在竞争。</div></div></div></section>
+
+<div class="grid2">
+ <section class="card"><h2>融资</h2><p class="none">未披露（未检索到带来源的融资信息，或仅 YC 标准投资未单列）</p></section>
+ <section class="card"><h2>早期客户信号</h2><p class="none">未披露（未检索到可采信的具名客户）</p><p class="hint">置信度：<span class="conf hi">高</span>官方case study/可交叉验证　<span class="conf mid">中</span>logo墙/媒体点名　<span class="conf lo">低</span>推断</p></section>
+</div>
+
+<section class="card"><h2>转型有术判断</h2><div class="insights"><div class="insight"><div class="ihead"><span class="iico">🏭</span><h3>对制造业客户意味着什么</h3></div><p>直击制造业采购部门最脏最累的环节：询价追催、报价整理、PO 确认、供应商邮件往返、交期催跟。这些恰是制造企业采购员每天 60%+ 时间消耗、却难以标准化的'人肉中间件'工作，且高度依赖非结构化邮件与 Excel。Lumari 用'叠加在现有 ERP 之上、不动供应商'的路线，绕开了国内制造企业最怕的'换系统/供应商不配合'两大落地阻力，对国产替代与自建有直接借鉴。</p></div><div class="insight"><div class="ihead"><span class="iico">🇨🇳</span><h3>国内对标厂商</h3></div><p>简单汇（SRM/寻源协同）、甄云科技 SmartX（数字化采购 SaaS）、云采云（工业品/直接物料采购）、冰鉴/企查类供应商风险数据（供应商风险监控对标）、菜鸟/富勒 WMS 类供应链执行系统（PO/交期跟踪部分对标）</p><blockquote>国内直接采购数字化以甄云、简单汇、云采云等 SRM/寻源 SaaS 为主，多数仍是'流程线上化'而非'agent 自动执行'；Lumari 的差异在于把采购员的执行动作（发询价、追催、回写）交给常驻 AI agent，这一步国内平台普遍尚未打通，是可迁移的空白点。</blockquote></div><div class="insight"><div class="ihead"><span class="iico">🧩</span><h3>可迁移的干法 / 应进场景词典的词条</h3></div><p>直接采购、直接物料/BOM 寻源、RFQ 询价自动化、报价对比、PO 催单与确认、供应商邮件解析回写 ERP、交期跟踪与风险升级、AI Agent 常驻数字员工、供应商协同 SRM</p><blockquote>可迁移打法：①从 BOM/物料清单一键触发多供应商询价 + 自动追催 + 结构化报价对比；②供应商来信（报价/延期）自动解析并回写 ERP，仅在需决策处升级给人；③自然语言配置 agent 行为 + 审批护栏，降低采购员上手门槛；④'叠加不替换'部署，规避 ERP 迁移与供应商入驻两大摩擦。制造业采购场景可直接照搬到国内离散制造（电子、装备、能源系统）采购中台。</blockquote></div><div class="insight"><div class="ihead"><span class="iico">⚠️</span><h3>风险与存疑点</h3></div><p>1) 名称高度撞车：存在光学 AI 公司 Lumai（融资 $10M）、Proxima 的游戏 Lumari（$1.6M pre-seed）等同名/近名实体，检索与尽调需严格用'direct procurement / supply chain / YC X25'消歧。2) 融资金额未获可信来源锚定：聚合站（Crunchbase/Tracxn）快照曾显示约 $500K pre-seed 及 Y Combinator/Sterling Road/Matador Ventures 等投资方，但 Crunchbase 页面 403 无法直接核实、且与同名实体数据存在混淆风险，故 funding 留空，仅确认'YC X25 backed'。3) 官方站与 Fondo 均未披露具名客户与定价；'数百 AI agent''Fortune 500 客户'等为公司自述，未见第三方佐证。4) 直接物料采购强依赖供应商侧邮件/流程配合，实际自动化覆盖率与准确率有待验证。5) 赛道拥挤，AI 采购 agent 同质化竞争风险高。</p></div></div>
+ <div class="tagrow"><span class="tlabel">国内对标</span><span class="chip">简单汇（SRM/寻源协同）</span><span class="chip">甄云科技 SmartX（数字化采购 SaaS）</span><span class="chip">云采云（工业品/直接物料采购）</span><span class="chip">冰鉴/企查类供应商风险数据（供应商风险监控对标）</span><span class="chip">菜鸟/富勒 WMS 类供应链执行系统（PO/交期跟踪部分对标）</span></div>
+ <div class="tagrow"><span class="tlabel">场景词条</span><span class="chip">直接采购</span><span class="chip">直接物料/BOM 寻源</span><span class="chip">RFQ 询价自动化</span><span class="chip">报价对比</span><span class="chip">PO 催单与确认</span><span class="chip">供应商邮件解析回写 ERP</span><span class="chip">交期跟踪与风险升级</span><span class="chip">AI Agent 常驻数字员工</span><span class="chip">供应商协同 SRM</span></div>
+</section>
+
+<section class="card"><h2>信息来源溯源</h2><ol class="srclist"><li><a href="https://www.ycombinator.com/companies/lumari" target="_blank" rel="noopener">Lumari — YC 公司页（X25 / Spring 2025，团队/创始人/定位锚点）</a></li><li><a href="https://www.ycombinator.com/launches/NYi-lumari-ai-digital-workers-for-supply-chain" target="_blank" rel="noopener">Launch YC: Lumari — AI Digital Workers for Supply Chain（产品/问题/客户/护栏）</a></li><li><a href="https://lumari.ai/" target="_blank" rel="noopener">Lumari 官网（tagline / 产品能力 / 目标行业）</a></li><li><a href="https://lumari.ai/about-us" target="_blank" rel="noopener">Lumari About Us（创始人背景）</a></li><li><a href="https://fondo.com/blog/lumari-launches" target="_blank" rel="noopener">Fondo — Lumari Launches（发布时间/目标市场/商业模式，未披露融资）</a></li><li><a href="https://www.linkedin.com/in/samarthlamba/" target="_blank" rel="noopener">Sam Lamba LinkedIn（创始人锚点，用于消歧）</a></li><li><a href="https://www.extruct.ai/data-room/ycombinator-companies-x25/" target="_blank" rel="noopener">Extruct AI — YC X25 完整名单（批次核对）</a></li></ol></section>
+
+<footer class="foot">批次来源 B005 · YC Spring 2025 (X25) Launch　|　深研日期 2026-07-07　|　直通模式 auto：AI 生成、未经人工复核。数字与具名事实一律带来源，无来源者标「未披露」，未编造。<br>数据真源 <code>data/companies.json</code> · 原始档案 <code>companies/lumari.md</code></footer>
+</div>
+</body></html>

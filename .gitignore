@@ -9,3 +9,6 @@ Thumbs.db
 # Logs / temp
 *.log
 *.tmp
+
+# 本机预览配置（含绝对路径，不入库）
+.claude/launch.json

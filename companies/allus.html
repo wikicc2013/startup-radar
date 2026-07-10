@@ -1,0 +1,33 @@
+<!doctype html><html lang="zh-CN"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Allus · AI青梅创业公司数据库</title>
+<link rel="stylesheet" href="company.css">
+</head><body>
+<div class="wrap">
+<a class="back" href="../index.html">← 返回看板</a>
+<header class="hero">
+ <div class="htop"><span class="badge a1">A1</span><span class="badge batch">B003 · YC Fall 2025 (F25)</span><span class="badge ok">已深研</span><span class="badge auto">AI 自动通过</span></div>
+ <h1>Allus</h1>
+ <p class="oneliner">Vision foundation model for manufacturing</p>
+ <p class="oneliner-zh">面向制造业的视觉基础模型</p>
+ <a class="site" href="https://www.allus.ai/" target="_blank" rel="noopener">官网 / 锚定 ↗</a>
+ <p class="triage">分诊理由：面向制造业的视觉基础模型，工艺质检强相关</p>
+</header>
+
+<section class="card"><h2>公司画像</h2><div class="picture"><div class="prow"><div class="pk">团队</div><div class="pv">3 人创始团队，均与佐治亚理工（Georgia Tech）渊源深厚。Kai Cui（Chris Kai Cui，CEO）出身制造业世家、自幼在工厂长大，18 岁即管理 iPhone 后盖板生产；Shijie Wang（CTO）佐治亚理工 CS，曾任 NVIDIA Lab LLM 科学家；Jason An（Zhisen An，COO）佐治亚理工 CS 硕士。</div></div><div class="prow"><div class="pk">成立/批次</div><div class="pv">2025（YC F25；部分数据库记 2023，以官方/YC 为准）</div></div><div class="prow"><div class="pk">地点</div><div class="pv">美国佐治亚州亚特兰大（Atlanta, GA）</div></div><div class="prow"><div class="pk">产品</div><div class="pv">面向制造业的视觉基础模型，旗舰 AllusONE，号称 1B 参数通用 transformer 视觉大模型，基于 15 亿+工业/机器人/制造图文对训练。通过自然语言 prompt + 少量参考图数分钟内完成质检/流程监控定制部署。官方 benchmark：缺陷检测 99.9%、计数 98.6%、OCR 92.6%、VQA 91.9%。对标 DINOv2/v3、SigLIP2、PE 等视觉骨干。</div></div><div class="prow"><div class="pk">商业模式</div><div class="pv">SaaS 订阅（按站点/月）。Trial $0；Launch $1,000/site/month；Custom 定制。资质 ISO 27001、SOC 2 Type II。卖点：把传统 3–6 个月、百万美元级机器视觉质检压缩到 10–30 分钟部署，宣称成本降约 93%。</div></div><div class="prow"><div class="pk">竞争格局</div><div class="pv">国际对标 Landing AI（吴恩达）、Instrumental、Elementary、Averroes；底层与 DINOv2/v3、Meta PE、SigLIP2 竞争。差异在自建工业专用大规模数据集 + prompt/少样本快速部署。</div></div></div></section>
+
+<div class="grid2">
+ <section class="card"><h2>融资</h2><table class="tbl"><thead><tr><th>轮次</th><th>金额</th><th>时间</th><th>来源</th></tr></thead><tbody><tr><td>Seed（官方称超额认购）</td><td class="amt">未披露</td><td>2025-11</td><td><a href="https://www.007venturepartners.com/signals/allus-ai" target="_blank" rel="noopener">链接 ↗</a></td></tr></tbody></table></section>
+ <section class="card"><h2>早期客户信号</h2><table class="tbl"><thead><tr><th>客户</th><th>置信度</th><th>来源</th></tr></thead><tbody><tr><td>Foxconn 富士康</td><td><span class="conf mid">中</span></td><td><a href="https://www.allus.ai/" target="_blank" rel="noopener">链接 ↗</a></td></tr><tr><td>Panasonic 松下</td><td><span class="conf mid">中</span></td><td><a href="https://www.allus.ai/" target="_blank" rel="noopener">链接 ↗</a></td></tr><tr><td>TDK</td><td><span class="conf mid">中</span></td><td><a href="https://www.allus.ai/" target="_blank" rel="noopener">链接 ↗</a></td></tr><tr><td>Tencent 腾讯（同时为其种子轮投资方）</td><td><span class="conf mid">中</span></td><td><a href="https://www.allus.ai/" target="_blank" rel="noopener">链接 ↗</a></td></tr><tr><td>Hikvision 海康威视</td><td><span class="conf mid">中</span></td><td><a href="https://www.allus.ai/" target="_blank" rel="noopener">链接 ↗</a></td></tr><tr><td>Mondelēz 亿滋</td><td><span class="conf mid">中</span></td><td><a href="https://www.allus.ai/" target="_blank" rel="noopener">链接 ↗</a></td></tr><tr><td>Apple / Tesla / KUKA / Corning（仅 VC 信号页点名，官网未见）</td><td><span class="conf lo">低</span></td><td><a href="https://www.007venturepartners.com/signals/allus-ai" target="_blank" rel="noopener">链接 ↗</a></td></tr></tbody></table><p class="hint">置信度：<span class="conf hi">高</span>官方case study/可交叉验证　<span class="conf mid">中</span>logo墙/媒体点名　<span class="conf lo">低</span>推断</p></section>
+</div>
+
+<section class="card"><h2>转型有术判断</h2><div class="insights"><div class="insight"><div class="ihead"><span class="iico">🏭</span><h3>对制造业客户意味着什么</h3></div><p>视觉基础模型 + 自建工业数据集，做成 prompt+参考图分钟级上线的质检 agent，直打传统机器视觉『交付慢、贵、依赖算法工程师逐个调模型』的痛点。价值主张：从『3–6 个月、百万美元项目』变成『30 分钟、$1000/月/站点』，把质检从项目制变成 SaaS 订阅制。</p></div><div class="insight"><div class="ihead"><span class="iico">🇨🇳</span><h3>国内对标厂商</h3></div><p>创新奇智 AInno、阿丘科技 AQROSE、格创东智（TCL 系）、腾讯优图工业质检、华为云盘古工业大模型、百度飞桨工业视觉、商汤 SenseCore 工业视觉</p><blockquote>国内已有成规模对标军团（创新奇智/阿丘/格创东智/腾讯优图/华为盘古/百度飞桨）。Allus 差异不在场景而在『基础模型+少样本快速部署』的产品形态与 GTM。值得注意：腾讯既是其官网 logo 墙客户、又是种子轮投资方，且腾讯自有优图工业质检，交叉关系待观察。</blockquote></div><div class="insight"><div class="ihead"><span class="iico">🧩</span><h3>可迁移的干法 / 应进场景词典的词条</h3></div><p>工业质检、缺陷检测、视觉基础模型、少样本/prompt 部署、半导体/电子、食品饮料、机器人视觉、过程监控 OCR/计数</p><blockquote>①『基础模型+少样本 prompt 部署』替代『一个场景训一个模型』；②一个通用大模型横扫多行业摊薄成本；③定价从项目制转 SaaS 订阅降低决策门槛；④创始人『工厂长大+NVIDIA LLM 科学家』的稀缺组合值得国内组队借鉴。</blockquote></div><div class="insight"><div class="ihead"><span class="iico">⚠️</span><h3>风险与存疑点</h3></div><p>①核心数字（99.9% 检测、100x 精度/数据、5 家 Fortune 500 部署）多为官方自述、缺第三方验证；②官网 logo 墙未见 case study 佐证，可能是 POC/试用；③公司极早期（2025、3 人、种子金额未披露）；④与 Landing AI 及国内军团正面竞争，工业视觉『最后一公里』现场部署壁垒极高，分钟级部署的实际泛化存疑。</p></div></div>
+ <div class="tagrow"><span class="tlabel">国内对标</span><span class="chip">创新奇智 AInno</span><span class="chip">阿丘科技 AQROSE</span><span class="chip">格创东智（TCL 系）</span><span class="chip">腾讯优图工业质检</span><span class="chip">华为云盘古工业大模型</span><span class="chip">百度飞桨工业视觉</span><span class="chip">商汤 SenseCore 工业视觉</span></div>
+ <div class="tagrow"><span class="tlabel">场景词条</span><span class="chip">工业质检</span><span class="chip">缺陷检测</span><span class="chip">视觉基础模型</span><span class="chip">少样本/prompt 部署</span><span class="chip">半导体/电子</span><span class="chip">食品饮料</span><span class="chip">机器人视觉</span><span class="chip">过程监控 OCR/计数</span></div>
+</section>
+
+<section class="card"><h2>信息来源溯源</h2><ol class="srclist"><li><a href="https://www.allus.ai/" target="_blank" rel="noopener">Allus AI 官网</a></li><li><a href="https://www.ycombinator.com/companies/allus-ai" target="_blank" rel="noopener">Allus AI - Y Combinator 官方公司页（F25）</a></li><li><a href="https://www.007venturepartners.com/signals/allus-ai" target="_blank" rel="noopener">007 Venture Partners - Allus AI 投资信号页</a></li><li><a href="https://www.linkedin.com/posts/007-venture-partners_allus-ai-building-the-universal-vision-intelligence-activity-7411415939281256448-JEwm" target="_blank" rel="noopener">007 VP LinkedIn - Allus 种子轮公告</a></li><li><a href="https://www.crunchbase.com/organization/allus-ai" target="_blank" rel="noopener">Crunchbase - Allus AI</a></li></ol></section>
+
+<footer class="foot">批次来源 B003 · YC Fall 2025 (F25) Launch　|　深研日期 2026-07-07　|　直通模式 auto：AI 生成、未经人工复核。数字与具名事实一律带来源，无来源者标「未披露」，未编造。<br>数据真源 <code>data/companies.json</code> · 原始档案 <code>companies/allus.md</code></footer>
+</div>
+</body></html>
