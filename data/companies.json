@@ -17425,14 +17425,45 @@
    "subcategory": "",
    "one_liner_en": "AI-native ad network for conversations",
    "one_liner_zh": "面向对话场景的 AI 原生广告网络",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B004"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-11",
+   "funding": [
+    {
+     "round": "Pre-Seed",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.crunchbase.com/organization/imprezia"
+    },
+    {
+     "round": "YC S25（种子期，含 YC 标准投资）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/imprezia"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "巨量引擎/腾讯广告等信息流广告平台——同为『注意力+意图』货币化，但仍在传统 App/短视频载体，尚未大规模迁入对话内",
+    "百度/夸克等厂商的 AI 搜索广告——中文侧最接近『AI 对话内商业化』的一方，由搜索厂商自建而非独立广告网络",
+    "秒哒/各类 AI Agent 变现工具、以及为大模型应用做流量分成的中间层创业公司——对标『帮 AI 应用变现』这一层，但国内尚无明确对标的独立『AI 原生广告网络』龙头"
+   ],
+   "scene_tags": [
+    "AI原生广告",
+    "对话内广告",
+    "意图变现",
+    "AI应用货币化",
+    "SDK变现层",
+    "生成式引擎优化GEO"
+   ],
+   "archive": "companies/imprezia.md",
+   "researched_at": "2026-07-11",
+   "research_status": "researched"
   },
   {
    "num": 604,
@@ -17615,14 +17646,60 @@
    "subcategory": "",
    "one_liner_en": "AI GTM workflows for sales teams",
    "one_liner_zh": "面向销售团队的 AI GTM 工作流",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B004"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-11",
+   "funding": [
+    {
+     "round": "YC 种子/加速器",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/orange-slice"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "Oracle",
+     "confidence": "低",
+     "source_url": "https://syncgtm.com/blog/orange-slice-review"
+    },
+    {
+     "name": "Confido Health",
+     "confidence": "低",
+     "source_url": "https://syncgtm.com/blog/orange-slice-review"
+    },
+    {
+     "name": "Pirros",
+     "confidence": "低",
+     "source_url": "https://syncgtm.com/blog/orange-slice-review"
+    },
+    {
+     "name": "Glass Health",
+     "confidence": "低",
+     "source_url": "https://syncgtm.com/blog/orange-slice-review"
+    }
+   ],
+   "cn_benchmarks": [
+    "探迹（Tungee）——线索智能挖掘+销售云，最贴近的国内对标，同样做企业信号富化与智能获客，但偏 SaaS 打包而非代码优先",
+    "AiTDR/AI 外呼类如深维智信 Megaview、循环智能——偏销售会话与 SDR 自动化，与富化环节互补",
+    "硅基智能/线索猫等 To B 获客工具——数据富化+外呼，本土数据源（企查查/天眼查生态）为主"
+   ],
+   "scene_tags": [
+    "意图信号获客",
+    "可编程富化表格",
+    "AI-Agent-销售",
+    "GTM自动化",
+    "招聘/新闻信号挖掘",
+    "CRM双向同步"
+   ],
+   "archive": "companies/orange-slice.md",
+   "researched_at": "2026-07-11",
+   "research_status": "researched"
   },
   {
    "num": 612,
@@ -18379,14 +18456,80 @@
    "subcategory": "",
    "one_liner_en": "AI visibility for software products",
    "one_liner_zh": "面向软件产品的 AI 可见度(GEO)",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B004"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-11",
+   "funding": [
+    {
+     "round": "Seed",
+     "amount": "$6.5M",
+     "date": "2025-10-30",
+     "source_url": "https://techcrunch.com/2025/10/30/the-prompting-company-snags-6-5m-to-help-products-get-mentioned-in-chatgpt-and-other-ai-apps/"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "Rippling",
+     "confidence": "高",
+     "source_url": "https://techcrunch.com/2025/10/30/the-prompting-company-snags-6-5m-to-help-products-get-mentioned-in-chatgpt-and-other-ai-apps/"
+    },
+    {
+     "name": "Rho",
+     "confidence": "高",
+     "source_url": "https://techcrunch.com/2025/10/30/the-prompting-company-snags-6-5m-to-help-products-get-mentioned-in-chatgpt-and-other-ai-apps/"
+    },
+    {
+     "name": "Motion",
+     "confidence": "高",
+     "source_url": "https://techcrunch.com/2025/10/30/the-prompting-company-snags-6-5m-to-help-products-get-mentioned-in-chatgpt-and-other-ai-apps/"
+    },
+    {
+     "name": "Vapi",
+     "confidence": "高",
+     "source_url": "https://techcrunch.com/2025/10/30/the-prompting-company-snags-6-5m-to-help-products-get-mentioned-in-chatgpt-and-other-ai-apps/"
+    },
+    {
+     "name": "Fondo",
+     "confidence": "高",
+     "source_url": "https://techcrunch.com/2025/10/30/the-prompting-company-snags-6-5m-to-help-products-get-mentioned-in-chatgpt-and-other-ai-apps/"
+    },
+    {
+     "name": "Kernel",
+     "confidence": "高",
+     "source_url": "https://techcrunch.com/2025/10/30/the-prompting-company-snags-6-5m-to-help-products-get-mentioned-in-chatgpt-and-other-ai-apps/"
+    },
+    {
+     "name": "Traceloop",
+     "confidence": "高",
+     "source_url": "https://techcrunch.com/2025/10/30/the-prompting-company-snags-6-5m-to-help-products-get-mentioned-in-chatgpt-and-other-ai-apps/"
+    },
+    {
+     "name": "一家未具名 Fortune 10 公司",
+     "confidence": "中",
+     "source_url": "https://techcrunch.com/2025/10/30/the-prompting-company-snags-6-5m-to-help-products-get-mentioned-in-chatgpt-and-other-ai-apps/"
+    }
+   ],
+   "cn_benchmarks": [
+    "Profound / AISEOTracker 类的中国对应——目前国内尚无完全对标的规模化独立 GEO 公司，但方向上对应「AI 搜索优化/AI 可见度」新赛道",
+    "传统 SEO/内容营销服务商（如爱番番、火山引擎旗下营销工具）向 AIGC 搜索优化延伸的部分能力",
+    "百度/字节等在「AI 搜索（如豆包、文心一言、百度 AI 搜索）」侧对品牌内容收录与引用的规则，构成国内 GEO 的底层战场"
+   ],
+   "scene_tags": [
+    "GEO生成式引擎优化",
+    "AI可见度监测",
+    "AI-Agent可用性",
+    "品牌被AI提及率",
+    "AI优化页托管",
+    "B2B采购AI触点"
+   ],
+   "archive": "companies/prompting-company.md",
+   "researched_at": "2026-07-11",
+   "research_status": "researched"
   },
   {
    "num": 637,
@@ -18398,14 +18541,48 @@
    "subcategory": "",
    "one_liner_en": "Enterprise voice agents for on-prem deployments",
    "one_liner_zh": "面向本地部署的企业语音智能体",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B004"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-11",
+   "funding": [
+    {
+     "round": "YC Seed（S25 标准投资）",
+     "amount": "约 $500K",
+     "date": "2025",
+     "source_url": "https://app.dealroom.co/companies/acrely_yc_s25_"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "6 家家庭服务承包商（HVAC/水暖/电工，未具名）",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/launches/OH3-acrely-the-ai-customer-service-representative-for-home-services"
+    }
+   ],
+   "cn_benchmarks": [
+    "晓多科技 / 追一科技（智能客服语音+文本，偏电商与大 B）",
+    "阿里云/火山引擎 语音对话式 AI 与呼叫中心方案（水平平台）",
+    "容联云、思必驰、云蝠智能（外呼/呼入语音机器人）",
+    "ServiceTitan 无国内直接对标——国内家庭服务派单更接近『到家』类平台内建调度，缺独立语音 agent 层"
+   ],
+   "scene_tags": [
+    "AI客服代表",
+    "语音智能体",
+    "漏接挽回",
+    "工单落单闭环",
+    "CRM深度对接",
+    "本地部署on-prem",
+    "派单调度",
+    "家庭服务/售后"
+   ],
+   "archive": "companies/acrely-ai.md",
+   "researched_at": "2026-07-11",
+   "research_status": "researched"
   },
   {
    "num": 638,
@@ -18675,14 +18852,50 @@
    "subcategory": "",
    "one_liner_en": "AI phone operator for real estate",
    "one_liner_zh": "面向房地产的 AI 电话接线员",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B004"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-11",
+   "funding": [
+    {
+     "round": "Pre-seed",
+     "amount": "500K USD（约50万美元，媒体转述，待一手确认）",
+     "date": "2025-09",
+     "source_url": "https://www.welcome.ai/company/wayline"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "Baker Street（创始人自举的精品物业管理公司，属关联客户）",
+     "confidence": "中",
+     "source_url": "https://fondo.com/blog/wayline-launches"
+    },
+    {
+     "name": "McKinley（管理数千套单元的物业管理商）",
+     "confidence": "中",
+     "source_url": "https://fondo.com/blog/wayline-launches"
+    }
+   ],
+   "cn_benchmarks": [
+    "百应科技 / 容联云 / 思必驰 等智能语音客服与外呼平台（通用型语音 AI，缺房地产垂直深度）",
+    "贝壳找房内部的智能客服与 AI 带看助手（房地产垂直，但为自有生态而非对外 SaaS）",
+    "阿里云/火山引擎的语音智能体（AI Agent）能力（底座能力强，需自行组装垂直场景）"
+   ],
+   "scene_tags": [
+    "AI语音接线员",
+    "垂直知识库",
+    "7x24客服自动化",
+    "工单分诊",
+    "线索转化",
+    "与现有电话/管理系统打通"
+   ],
+   "archive": "companies/wayline.md",
+   "researched_at": "2026-07-11",
+   "research_status": "researched"
   },
   {
    "num": 649,
@@ -18694,14 +18907,40 @@
    "subcategory": "",
    "one_liner_en": "AI account manager for enterprise revenue",
    "one_liner_zh": "面向企业营收的 AI 客户经理",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B004"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-11",
+   "funding": [
+    {
+     "round": "Pre-seed/Seed（含 YC 标准投资）",
+     "amount": "未披露（第三方数据平台显示约 50 万美元级，另有来源称约 100 万美元/一轮超额认购；官方未公开确认具体数额，数字存分歧不采信单一值）",
+     "date": "2025",
+     "source_url": "https://www.extruct.ai/hub/ambral-com/"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "卫瓴科技 / 探迹 / 销售易（国内 CRM + 智能销售线索一侧，偏获客与线索，尚未做到自主 AM）",
+    "神策数据 / 数势科技（客户数据平台 CDP + 客户健康分，偏分析预警，缺自主执行）",
+    "国内『客户成功（CS）』SaaS 仍薄弱，尚无对标 Gainsight 的规模玩家，AI 原生自主 AM 更属空白"
+   ],
+   "scene_tags": [
+    "AI客户经理",
+    "客户成功自动化",
+    "扩张营收/NDR",
+    "流失预警与续约",
+    "长尾客户运营",
+    "营收信号挖掘",
+    "自主外联Agent"
+   ],
+   "archive": "companies/ambral.md",
+   "researched_at": "2026-07-11",
+   "research_status": "researched"
   },
   {
    "num": 650,
@@ -18771,14 +19010,52 @@
    "subcategory": "",
    "one_liner_en": "AI growth engine for local service sales",
    "one_liner_zh": "面向本地服务业销售的 AI 增长引擎",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B005"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-11",
+   "funding": [
+    {
+     "round": "种子前 / YC",
+     "amount": "约 50 万美元（$500K，多来源汇总，未见官方一手确认，置信度中）",
+     "date": "2025",
+     "source_url": "https://pitchbook.com/profiles/company/539183-35"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "官网展示 8+ 服务品牌 Logo：Anago、Corporate Cleaning、GotFlow、JanPro、KitchenGuard、Rolling Suds、ServiceMaster 等（多为清洁/服务加盟连锁品牌；无法确认是付费客户还是目标行业标识，置信度低）",
+     "confidence": "低",
+     "source_url": "https://getcohesiveai.com/"
+    },
+    {
+     "name": "YC 披露：服务 350+ 商业清洁、园艺、虫害防治企业主；官网另称 1000+ 服务企业在用（数字口径不一，未点名具体客户，置信度中）",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/cohesive"
+    }
+   ],
+   "cn_benchmarks": [
+    "探迹（Tungee）——B2B 智能销售获客/拓客，AI 找客+触达+SDR 自动化，与 Cohesive 的『潜客名单+自动外呼』最接近",
+    "卫瓴·协同 CRM / 尘锋 / 微伴——企业微信生态 SCRM，侧重私域线索跟进与会话，覆盖 Cohesive 的『统一会话看板+跟进』环节",
+    "微盟 / 有赞——本地商业营销与门店获客工具，对应『面向本地生意的增长引擎』定位",
+    "容联七陌 / 智齿科技——AI 外呼与智能客服，对应 Cohesive 的电话/短信自动外呼与漏接来电处理能力"
+   ],
+   "scene_tags": [
+    "agentic CRM",
+    "AI SDR 自动外呼",
+    "本地服务业获客",
+    "沉睡线索唤醒",
+    "长尾客户下沉",
+    "多渠道自动跟进",
+    "增长运营内部化"
+   ],
+   "archive": "companies/cohesive.md",
+   "researched_at": "2026-07-11",
+   "research_status": "researched"
   },
   {
    "num": 654,
@@ -19163,14 +19440,47 @@
    "subcategory": "",
    "one_liner_en": "AI call answering for trades",
    "one_liner_zh": "面向技工行业的 AI 接听来电",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B005"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-11",
+   "funding": [
+    {
+     "round": "Seed",
+     "amount": "7000000",
+     "date": "2025-11-05",
+     "source_url": "https://www.prnewswire.com/news-releases/cactus-raises-7m-seed-round-to-launch-ai-copilot-for-home-service-businesses-302605470.html"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "Blue Best Plumbing（盐湖城管道公司）",
+     "confidence": "中",
+     "source_url": "https://www.prnewswire.com/news-releases/cactus-raises-7m-seed-round-to-launch-ai-copilot-for-home-service-businesses-302605470.html"
+    }
+   ],
+   "cn_benchmarks": [
+    "晓多科技 / 智齿科技（智能客服+外呼，覆盖售前售后全渠道）",
+    "容联云 / 百度智能云曦灵-数字人外呼（AI 语音呼叫中心）",
+    "得助智能（中关村科金，AI 外呼与智能客服）",
+    "水滴/微丰等 SCRM 线索跟进（营销侧的线索盘活）"
+   ],
+   "scene_tags": [
+    "AI语音接听",
+    "线索资质筛选",
+    "漏接挽回",
+    "预约自动写入排班",
+    "沉睡客户唤醒外呼",
+    "售后复购自动化",
+    "投放ROI放大"
+   ],
+   "archive": "companies/cactus-2.md",
+   "researched_at": "2026-07-11",
+   "research_status": "researched"
   },
   {
    "num": 668,
@@ -19696,14 +20006,52 @@
    "subcategory": "",
    "one_liner_en": "Automated GEO optimization for AI search",
    "one_liner_zh": "面向 AI 搜索的自动化 GEO 优化",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B005"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-11",
+   "funding": [
+    {
+     "round": "Seed（种子轮，超额认购）",
+     "amount": "200 万美元",
+     "date": "2025-11",
+     "source_url": "https://www.finsmes.com/2025/11/relixir-raises-2m-in-seed-funding.html"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "Rippling",
+     "confidence": "中",
+     "source_url": "https://www.menlotimes.com/post/yc-backed-relixir-announces-oversubscribed-2-million-seed-round"
+    },
+    {
+     "name": "Airwallex",
+     "confidence": "中",
+     "source_url": "https://www.menlotimes.com/post/yc-backed-relixir-announces-oversubscribed-2-million-seed-round"
+    },
+    {
+     "name": "HackerRank",
+     "confidence": "中",
+     "source_url": "https://www.menlotimes.com/post/yc-backed-relixir-announces-oversubscribed-2-million-seed-round"
+    }
+   ],
+   "cn_benchmarks": [
+    "目前国内暂无严格对标的『GEO/AI 搜索优化』独立创业公司（截至查询未见明确公开案例，标注为空缺）；相邻可参照者：传统 SEO/内容营销与舆情监测服务商（如做百度 SEO、内容分发的营销代理），以及围绕文心一言/豆包/Kimi 等国内大模型做『品牌在 AI 答案中可见度』探索的营销机构与 MCN——但成体系的自动化 GEO 平台化产品尚未成熟。"
+   ],
+   "scene_tags": [
+    "GEO生成式引擎优化",
+    "AI搜索可见度监测",
+    "代理式内容自动生成",
+    "inbound线索归因",
+    "竞品推荐缺口分析"
+   ],
+   "archive": "companies/relixir.md",
+   "researched_at": "2026-07-11",
+   "research_status": "researched"
   },
   {
    "num": 684,
@@ -20323,14 +20671,62 @@
    "subcategory": "",
    "one_liner_en": "AI-native meeting platform for GTM teams",
    "one_liner_zh": "面向 GTM 团队的 AI 原生会议平台",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B005"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-11",
+   "funding": [
+    {
+     "round": "Seed",
+     "amount": "600万美元",
+     "date": "2025-07-24",
+     "source_url": "https://aijourn.com/lyra-emerges-with-6m-as-one-of-ycs-fastest-growing-startups-building-the-ai-native-meeting-platform-for-sales-teams/"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "Helix",
+     "confidence": "中",
+     "source_url": "https://aijourn.com/lyra-emerges-with-6m-as-one-of-ycs-fastest-growing-startups-building-the-ai-native-meeting-platform-for-sales-teams/"
+    },
+    {
+     "name": "Relate",
+     "confidence": "中",
+     "source_url": "https://aijourn.com/lyra-emerges-with-6m-as-one-of-ycs-fastest-growing-startups-building-the-ai-native-meeting-platform-for-sales-teams/"
+    },
+    {
+     "name": "Context",
+     "confidence": "低",
+     "source_url": "https://aijourn.com/lyra-emerges-with-6m-as-one-of-ycs-fastest-growing-startups-building-the-ai-native-meeting-platform-for-sales-teams/"
+    },
+    {
+     "name": "Educate",
+     "confidence": "低",
+     "source_url": "https://aijourn.com/lyra-emerges-with-6m-as-one-of-ycs-fastest-growing-startups-building-the-ai-native-meeting-platform-for-sales-teams/"
+    }
+   ],
+   "cn_benchmarks": [
+    "深维智信 Megaview（销售会话智能，事后复盘+实时话术辅助，最贴近 Lyra 的销售侧价值）",
+    "循环智能 Rhino AI（对话洞察+销售赋能，沟通数据分析）",
+    "飞书妙记 / 腾讯会议 AI 小助手 / 阿里通义听悟（会议转录·纪要·行动项的通用底座）",
+    "科大讯飞听见（转录纪要）"
+   ],
+   "scene_tags": [
+    "销售会话智能",
+    "会议内AI副驾",
+    "实时协作白板",
+    "deal-room",
+    "CRM自动化",
+    "新人快速ramp",
+    "AI原生会议平台"
+   ],
+   "archive": "companies/lyra.md",
+   "researched_at": "2026-07-11",
+   "research_status": "researched"
   },
   {
    "num": 709,
@@ -20361,14 +20757,55 @@
    "subcategory": "",
    "one_liner_en": "Outbound for traditional industries",
    "one_liner_zh": "面向传统行业的外呼获客",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B005"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-11",
+   "funding": [
+    {
+     "round": "Seed",
+     "amount": "$6.2M",
+     "date": "2025-09-04",
+     "source_url": "https://gohub.vc/throxy-raises-6m-seed-round/"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "Imnoo（面向 CNC 制造商的 AI 报价应用）",
+     "confidence": "高",
+     "source_url": "https://gohub.vc/throxy-raises-6m-seed-round/"
+    },
+    {
+     "name": "Santillana（教育解决方案）",
+     "confidence": "高",
+     "source_url": "https://gohub.vc/throxy-raises-6m-seed-round/"
+    },
+    {
+     "name": "Pycad（医疗解决方案）",
+     "confidence": "高",
+     "source_url": "https://gohub.vc/throxy-raises-6m-seed-round/"
+    }
+   ],
+   "cn_benchmarks": [
+    "探迹（Tungee）——AI 销售线索/智能获客，覆盖工商大数据 + 触达，最接近『数据库+外呼』定位",
+    "销氪/EC 等 SCRM + 智能外呼厂商——偏 CRM 与呼叫环节",
+    "线索宝/企查查+销售线索类工具——数据侧对标，但缺垂直行业深挖与人工 SDR 交付"
+   ],
+   "scene_tags": [
+    "AI+人工混合外呼",
+    "垂直行业专有数据库",
+    "全托管获客（Meetings-as-a-Service）",
+    "超个性化冷邮件",
+    "传统行业 B2B 拓客",
+    "出海获客"
+   ],
+   "archive": "companies/throxy.md",
+   "researched_at": "2026-07-11",
+   "research_status": "researched"
   },
   {
    "num": 711,
@@ -20478,14 +20915,41 @@
    "subcategory": "",
    "one_liner_en": "Real-time AI sales copilot for live calls",
    "one_liner_zh": "面向实时通话的 AI 销售副驾",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B005"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-11",
+   "funding": [
+    {
+     "round": "YC X25（种子前/加速器标准投资）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/nomi"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "循环智能（Recurrent AI）——对话智能起家，会话洞察+实时坐席辅助，最贴近",
+    "深维智信 Megaview——SaaS 会话智能/销售赋能，Gong 式复盘对标",
+    "百应科技/容联云——外呼+实时坐席助手（更偏电销/客服呼叫中心）",
+    "阿里/腾讯系智能客服与坐席辅助（大厂通用能力，非纯销售副驾）"
+   ],
+   "scene_tags": [
+    "实时销售副驾",
+    "会话智能",
+    "通话中即时提词",
+    "异议处理RAG",
+    "playbook自进化",
+    "CRM自动回写",
+    "founder-led-sales赋能"
+   ],
+   "archive": "companies/nomi.md",
+   "researched_at": "2026-07-11",
+   "research_status": "researched"
   },
   {
    "num": 716,
@@ -20780,14 +21244,56 @@
    "subcategory": "",
    "one_liner_en": "AI-driven platform for deep people search",
    "one_liner_zh": "面向深度人才搜索的 AI 平台",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B005"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-11",
+   "funding": [
+    {
+     "round": "Seed（种子轮，SAFE）",
+     "amount": "约 200 万美元（约 280 万加元）",
+     "date": "2025",
+     "source_url": "https://betakit.com/team-of-toronto-talent-unites-after-y-combinator-to-build-clado/"
+    },
+    {
+     "round": "YC 批次投资（YC X25）",
+     "amount": "未披露（YC 标准条款）",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/launches/NbA-clado-deep-research-for-people"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "Turing（AI 数据/工程外包平台，逾 200 万工程师网络）",
+     "confidence": "中",
+     "source_url": "https://betakit.com/team-of-toronto-talent-unites-after-y-combinator-to-build-clado/"
+    },
+    {
+     "name": "Mercor（人才招募平台，数万承包者）",
+     "confidence": "中",
+     "source_url": "https://betakit.com/team-of-toronto-talent-unites-after-y-combinator-to-build-clado/"
+    }
+   ],
+   "cn_benchmarks": [
+    "探迹 Tungee——B2B 销售线索智能挖掘与触达，最接近 Clado 的「销售侧人物/企业搜索」定位",
+    "脉脉 Maimai——职业社交+人才智库，覆盖中文语境职业档案与人才搜索",
+    "BOSS 直聘 / 猎聘的 AI 猎头与智能寻访功能——对标「招聘侧 agentic sourcing」",
+    "火眼云 / 卫瓴——ABM 营销与线索智能，对标「按画像找决策人并富集联系方式」一环"
+   ],
+   "scene_tags": [
+    "agentic-people-search",
+    "销售线索智能挖掘",
+    "AI 招聘寻访 talent-sourcing",
+    "联系方式富集 contact-enrichment",
+    "自然语言画像检索"
+   ],
+   "archive": "companies/clado.md",
+   "researched_at": "2026-07-11",
+   "research_status": "researched"
   },
   {
    "num": 728,
@@ -20818,14 +21324,49 @@
    "subcategory": "",
    "one_liner_en": "Voice interface for Mac and Windows",
    "one_liner_zh": "面向 Mac 与 Windows 的语音交互",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B005"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-11",
+   "funding": [
+    {
+     "round": "YC Spring 2025（种子/加速器）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/voiceos"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "Gabe Perez（Product Hunt 产品策展负责人，官网具名推荐语）",
+     "confidence": "中",
+     "source_url": "https://www.voiceos.com/"
+    },
+    {
+     "name": "Usutaku（日本头部 AI 影响者，官网具名推荐语）",
+     "confidence": "低",
+     "source_url": "https://www.voiceos.com/"
+    }
+   ],
+   "cn_benchmarks": [
+    "讯飞听见/科大讯飞语音输入（听写与语音转写的国内标杆，行业与方言覆盖强，但偏『转写』而非『跨应用执行』）",
+    "阿里通义/豆包等大模型厂商的语音助手（具备意图理解与部分应用编排，生态更偏移动端与自家 App）",
+    "出门问问 / 思必驰（对话式语音交互与语音 Agent 底座，含 To B 语音方案）"
+   ],
+   "scene_tags": [
+    "语音转动作(voice-to-action)",
+    "MCP跨应用编排",
+    "桌面级系统交互层",
+    "免手输入(hands-free)",
+    "听写智能排版"
+   ],
+   "archive": "companies/voiceos.md",
+   "researched_at": "2026-07-11",
+   "research_status": "researched"
   },
   {
    "num": 730,
