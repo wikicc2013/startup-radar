@@ -17648,12 +17648,37 @@
    "one_liner_zh": "面向关键行业的 AI 部署层",
    "tier": "B",
    "triage_reason": "面向关键行业的 AI 部署层",
-   "status": "card",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B005"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-11",
+   "funding": [
+    {
+     "round": "YC (Spring 2025 / X25)",
+     "amount": "未披露（标准 YC 投资）",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/kairos"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "澜码科技：企业级 Agent 平台，主张把业务专家经验沉淀为可执行 Agent，与 Kairos「编码 operator 专家经验」思路同源",
+    "实在智能：Agent + RPA 自动化企业繁重手工流程，可对标其「自动化最manual工作流」一面",
+    "中关村科金 / 竹间智能：面向金融等强监管行业的私有化大模型 + Agent 落地，对标 Kairos「关键行业 + 私有化部署 + 合规」定位",
+    "工业侧参照：格创东智、蘑菇物联等在工业场景做 AI 可靠落地的厂商，对应「关键行业最后一公里可靠性」"
+   ],
+   "scene_tags": [
+    "确定性AI/护栏",
+    "operator专家经验编码",
+    "私有化/环境内部署",
+    "关键行业last-mile可靠性",
+    "Agent仿真压测与evals"
+   ],
+   "archive": "companies/janus-kairos.md",
+   "researched_at": "2026-07-11",
+   "research_status": "researched"
   },
   {
    "num": 685,
@@ -18603,12 +18628,40 @@
    "one_liner_zh": "面向工程系统的 AI 光学设计",
    "tier": "B",
    "triage_reason": "面向工程系统的 AI 光学设计，研发",
-   "status": "card",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B005"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-11",
+   "funding": [
+    {
+     "round": "YC / 种子前",
+     "amount": "未披露（第三方聚合站曾列约 $500K，等于 YC 标准投资额，未经官方确认）",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/photonium"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "国产光学设计软件：目前主流仍是进口 Zemax/CODE V/LightTools，国产替代薄弱；高校/院所有 SOD88、GOLD、CIOMP（长春光机所）系工具积累，但商用化、生态与自动化程度远不及，AI-native 光学 EDA 基本空白",
+    "光子学/集成光子 EDA：国内如 Latitude Design Systems（鲁汶仪器/珠海）等在做光子集成芯片（PIC）设计自动化，赛道相邻但对象是片上光子而非宏观光学系统",
+    "AI+仿真/CAE 提效：国产 CAE（云道智造/中望 ZWSim、安世亚太等）在结构/流体仿真做 AI 加速，方法论可迁移到光学寻优，但暂未见专攻光学设计自动化者",
+    "光学制造龙头研发端：舜宇光学、水晶光电、蓝特光学、炬光科技（激光/光学）等是潜在需求方与本土化落地场景"
+   ],
+   "scene_tags": [
+    "光学设计自动化",
+    "光学界EDA",
+    "规格到设计(spec-to-design)",
+    "AI+仿真优化",
+    "公差分析自动化",
+    "设计-制造-采购一体",
+    "AI副驾驶+专家咨询",
+    "研发提效"
+   ],
+   "archive": "companies/photonium.md",
+   "researched_at": "2026-07-11",
+   "research_status": "researched"
   },
   {
    "num": 725,
@@ -19200,12 +19253,38 @@
    "one_liner_zh": "面向智能体的开源 AI 工作空间",
    "tier": "B",
    "triage_reason": "面向智能体的开源 AI 工作空间",
-   "status": "card",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B005"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-11",
+   "funding": [
+    {
+     "round": "Series A",
+     "amount": "$7,000,000",
+     "date": "2025-11-14",
+     "source_url": "https://pulse2.com/sim-ai-7-million-series-a-closed-to-advance-development-of-its-agentic-ai-platform/"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "Dify（开源 LLM 应用/Agent 编排平台，可视化编排 + 自托管，与 Sim 定位最接近，国内制造与政企私有化部署案例多）",
+    "扣子 / Coze（字节，对话式 + 可视化搭建 Agent，集成生态强，但偏 SaaS、开源与自托管弱于 Sim）",
+    "阿里百炼 / 通义 AppFlow（模型 + 工作流编排 + 企业集成，云厂商一体化路线）",
+    "腾讯元器 / 智谱 AgentBuilder（大厂 Agent 搭建平台，生态绑定各自云与模型）"
+   ],
+   "scene_tags": [
+    "可视化 Agent 工作流编排",
+    "对话式生成智能体",
+    "1000+ SaaS/LLM 集成开箱即用",
+    "开源可自托管 Apache 2.0",
+    "自然语言控制面板(Mothership)",
+    "低代码 AI 自动化"
+   ],
+   "archive": "companies/sim-studio.md",
+   "researched_at": "2026-07-11",
+   "research_status": "researched"
   },
   {
    "num": 749,
@@ -19219,12 +19298,44 @@
    "one_liner_zh": "面向受监管团队的可治理无代码 AI 智能体",
    "tier": "B",
    "triage_reason": "受监管团队可治理无代码智能体，治理",
-   "status": "card",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B005"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-11",
+   "funding": [
+    {
+     "round": "YC Spring 2025 (X25)",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/clarm"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "Legacy（生育/男性生育力诊所 fertility clinic）",
+     "confidence": "中",
+     "source_url": "https://clarm.com/"
+    }
+   ],
+   "cn_benchmarks": [
+    "澜码科技 / 实在智能等企业级 Agent 平台（可治理、面向业务人员搭建 Agent，与 Clarm 无代码 Agent 定位相近，但受监管垂直与审计深度不同）",
+    "钉钉 AI 助理 / 飞书智能伙伴（无代码搭 Agent + 企业数据接入，面向泛企业办公，合规/审计弱于 Clarm）",
+    "阿里云百炼 / 火山引擎等企业级 RAG+Agent 平台（可私有化/断网部署，对标 Clarm 的 on-prem/air-gapped 卖点，但『每条答案带批准来源+全动作审计』这一治理叙事尚未成为主打）"
+   ],
+   "scene_tags": [
+    "无代码Agent",
+    "AI治理",
+    "零幻觉/来源可溯",
+    "审计日志",
+    "断网/本地部署",
+    "受监管行业",
+    "AI同事/自主工作流"
+   ],
+   "archive": "companies/clarm.md",
+   "researched_at": "2026-07-11",
+   "research_status": "researched"
   },
   {
    "num": 750,
@@ -19257,12 +19368,80 @@
    "one_liner_zh": "面向数据智能体的开源上下文层",
    "tier": "B",
    "triage_reason": "面向数据智能体的开源上下文层",
-   "status": "card",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B005"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-11",
+   "funding": [
+    {
+     "round": "Y Combinator（X25 / 2025 春批次标准投资）",
+     "amount": "约 $500K（第三方数据源 startuphub.ai / Crunchbase 报告口径，未见官方披露）",
+     "date": "2025",
+     "source_url": "https://www.startuphub.ai/startups/kaelio"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "Mercy（医疗系统，转型前医疗期客户）",
+     "confidence": "中",
+     "source_url": "https://www.kaelio.com/about"
+    },
+    {
+     "name": "Maximus",
+     "confidence": "中",
+     "source_url": "https://www.kaelio.com/about"
+    },
+    {
+     "name": "Gladia",
+     "confidence": "中",
+     "source_url": "https://www.kaelio.com/about"
+    },
+    {
+     "name": "Vapi",
+     "confidence": "中",
+     "source_url": "https://www.kaelio.com/about"
+    },
+    {
+     "name": "Handshake",
+     "confidence": "中",
+     "source_url": "https://www.kaelio.com/about"
+    },
+    {
+     "name": "Junction",
+     "confidence": "中",
+     "source_url": "https://www.kaelio.com/about"
+    },
+    {
+     "name": "Raft",
+     "confidence": "中",
+     "source_url": "https://www.kaelio.com/about"
+    },
+    {
+     "name": "Poppins / BeSimple / Alt",
+     "confidence": "中",
+     "source_url": "https://www.kaelio.com/about"
+    }
+   ],
+   "cn_benchmarks": [
+    "衡石科技 HengShi Sense（语义模型/指标平台 + ChatBI，最接近『语义层 + 对话查询』定位）",
+    "数势科技 SwiftAgent / 指标平台（企业指标中台 + 数据分析智能体）",
+    "网易有数 ChatBI / 有数 BI（语义层 + 自然语言取数）",
+    "思迈特 Smartbi、观远数据 ChatBI（增强分析/对话式 BI，偏前端而非中间层）"
+   ],
+   "scene_tags": [
+    "上下文即代码",
+    "语义层治理",
+    "MCP 数据接入",
+    "数据智能体",
+    "Text2SQL 治理",
+    "review-as-governance",
+    "指标口径即代码"
+   ],
+   "archive": "companies/kaelio.md",
+   "researched_at": "2026-07-11",
+   "research_status": "researched"
   },
   {
    "num": 752,
@@ -19333,12 +19512,49 @@
    "one_liner_zh": "用 Rust 写的原生图-向量数据库",
    "tier": "B",
    "triage_reason": "原生图-向量数据库，AI 数据基础设施",
-   "status": "card",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B005"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-11",
+   "funding": [
+    {
+     "round": "Pre-seed / Seed",
+     "amount": "官方未披露；媒体（Crunchbase/getLatka）报道约 $500K",
+     "date": "2025-06-09",
+     "source_url": "https://www.crunchbase.com/organization/helixdb"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "MuskMap / TrumpMap（病毒式社交图谱应用，峰值约 2.5 万用户；用 HelixDB 做最短路查询把延迟从 Postgres 的 >5s 降到 50ms）",
+     "confidence": "中（创始人在 Show HN 具名描述，非官方 case study）",
+     "source_url": "https://news.ycombinator.com/item?id=43975423"
+    },
+    {
+     "name": "官网 logo 墙列出 Ashler、Orbit、Orchid 等早期用户",
+     "confidence": "低（仅官网 logo 墙，未见可验证 case study）",
+     "source_url": "https://www.helix-db.com/"
+    }
+   ],
+   "cn_benchmarks": [
+    "星环科技 Transwarp：Hippo（向量库）+ StellarDB（图数据库），是国内少数同时具备图与向量能力、且面向企业私有化的厂商，最接近'一体化'叙事",
+    "蚂蚁 TuGraph（图）/ 阿里 AnalyticDB、腾讯云 VectorDB、百度 VectorDB（向量）——多为图、向量分立产品",
+    "Zilliz/Milvus：全球领先的国产开源向量库（向量单点最强，但非原生图-向量融合）",
+    "NebulaGraph（图）——图侧代表，需与向量库拼装"
+   ],
+   "scene_tags": [
+    "AI记忆/Agent-Memory",
+    "GraphRAG",
+    "图向量融合",
+    "RAG基础设施",
+    "Rust高性能数据库",
+    "企业知识底座/CompanyBrain"
+   ],
+   "archive": "companies/helixdb.md",
+   "researched_at": "2026-07-11",
+   "research_status": "researched"
   },
   {
    "num": 756,
@@ -19569,12 +19785,68 @@
    "one_liner_zh": "带云沙箱的电脑操作智能体",
    "tier": "B",
    "triage_reason": "带云沙箱的电脑操作智能体，computer-use",
-   "status": "card",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B005"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-11",
+   "funding": [
+    {
+     "round": "Seed（聚合器口径，未见官方公告）",
+     "amount": "约 $500K",
+     "date": "2025-06",
+     "source_url": "https://www.rl-list.com/vendors/cua"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "Google DeepMind（官网 logo 墙）",
+     "confidence": "中",
+     "source_url": "https://cua.ai/"
+    },
+    {
+     "name": "Qwen Code（官网 logo 墙）",
+     "confidence": "中",
+     "source_url": "https://cua.ai/"
+    },
+    {
+     "name": "Hugging Face（第三方 profile 列示的 logo 墙，标注 self-claimed）",
+     "confidence": "低",
+     "source_url": "https://www.rl-list.com/vendors/cua"
+    },
+    {
+     "name": "Datadog（同上 logo 墙，self-claimed）",
+     "confidence": "低",
+     "source_url": "https://www.rl-list.com/vendors/cua"
+    },
+    {
+     "name": "Meta（同上 logo 墙，self-claimed）",
+     "confidence": "低",
+     "source_url": "https://www.rl-list.com/vendors/cua"
+    },
+    {
+     "name": "Elastic / Apple / Red Hat / NVIDIA / Duolingo（同上 logo 墙，self-claimed）",
+     "confidence": "低",
+     "source_url": "https://www.rl-list.com/vendors/cua"
+    }
+   ],
+   "cn_benchmarks": [
+    "云沙箱/agent 运行时：目前国内缺少完全对位的『跨全 OS + 开源 + 自带 RL 基准』一体化玩家；相邻方向是各云厂商的 Serverless 沙箱、无影/云电脑（阿里）等云桌面能力可作运行时底座",
+    "RPA→Agent 转型：来也科技 UiBot、影刀 RPA、实在智能 Chat-RPA/TARS——都在把『GUI 操作自动化』从固定脚本升级为 LLM 驱动的智能体，是 Cua『computer-use』理念在国内 to B 自动化市场最贴近的对标",
+    "Agent 沙箱/执行环境：字节扣子（Coze）、通用 agent 平台的代码/工具执行沙箱可类比其隔离运行的价值"
+   ],
+   "scene_tags": [
+    "computer-use-agent",
+    "云沙箱/隔离执行",
+    "GUI自动化",
+    "RL环境与轨迹数据",
+    "跨OS虚拟化",
+    "RPA智能化升级"
+   ],
+   "archive": "companies/cua.md",
+   "researched_at": "2026-07-11",
+   "research_status": "researched"
   },
   {
    "num": 766,
@@ -19773,12 +20045,37 @@
    "one_liner_zh": "智能体 AI 的安全与治理",
    "tier": "B",
    "triage_reason": "智能体 AI 安全与治理",
-   "status": "card",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B005"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-11",
+   "funding": [
+    {
+     "round": "YC Spring 2025 (X25) 标准投资 + 天使",
+     "amount": "未披露（YC X25 标准 $500K；另获 ElevenLabs 天使/背书支持，具体金额未公开）",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/golf"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "MCP/智能体安全治理国内尚属空白早期，暂无完全对位的成熟对标；最接近的是安全大厂（奇安信、深信服、绿盟）向「AI 安全/大模型安全」延伸的产品线，以及数据安全/DLP 厂商（美创、天空卫士）——它们做数据层防护，但尚未形成 MCP 层控制平面",
+    "云厂商 AI 网关（阿里云百炼、火山引擎方舟的模型网关/可观测）在「调用可观测 + 策略」上有部分重叠，但偏自家生态、非跨工具影子 AI 发现",
+    "开源框架侧可对标国内 MCP/Agent 框架生态（如各家 Agent 中间件），但「开源引流→企业治理付费」的商业闭环国内尚未跑通"
+   ],
+   "scene_tags": [
+    "影子AI发现",
+    "MCP控制平面",
+    "AI智能体治理",
+    "工具调用网关",
+    "合规证据自动化",
+    "开源引流企业变现"
+   ],
+   "archive": "companies/golf.md",
+   "researched_at": "2026-07-11",
+   "research_status": "researched"
   },
   {
    "num": 774,
@@ -19963,12 +20260,54 @@
    "one_liner_zh": "面向 AI 智能体的常驻沙箱基础设施",
    "tier": "B",
    "triage_reason": "面向 AI 智能体的常驻沙箱基础设施",
-   "status": "card",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B005"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-11",
+   "funding": [
+    {
+     "round": "种子轮 Seed",
+     "amount": "730 万美元",
+     "date": "2025-12-03",
+     "source_url": "https://blaxel.ai/blog/Blaxel-Raises-7-3M-Seed-Round-led-by-First-Round-to-Build-Cloud-Infrastructure-for-the-AI-Agent-Eco-23247e47b1ea8067b923d998364e3ced"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "Human Behavior",
+     "confidence": "中",
+     "source_url": "https://blaxel.ai/blog/Blaxel-Raises-7-3M-Seed-Round-led-by-First-Round-to-Build-Cloud-Infrastructure-for-the-AI-Agent-Eco-23247e47b1ea8067b923d998364e3ced"
+    },
+    {
+     "name": "Vybe",
+     "confidence": "中",
+     "source_url": "https://blaxel.ai/blog/Blaxel-Raises-7-3M-Seed-Round-led-by-First-Round-to-Build-Cloud-Infrastructure-for-the-AI-Agent-Eco-23247e47b1ea8067b923d998364e3ced"
+    },
+    {
+     "name": "Jazzberry",
+     "confidence": "中",
+     "source_url": "https://blaxel.ai/blog/Blaxel-Raises-7-3M-Seed-Round-led-by-First-Round-to-Build-Cloud-Infrastructure-for-the-AI-Agent-Eco-23247e47b1ea8067b923d998364e3ced"
+    }
+   ],
+   "cn_benchmarks": [
+    "阿里云函数计算 FC / Serverless 沙箱（国内 serverless 计算与 AI 沙箱能力最接近的大厂基座，但非专为智能体常驻设计）",
+    "字节跳动 火山引擎 veFaaS / 微沙箱（面向 AI 应用的 serverless 与代码执行沙箱）",
+    "E2B/Daytona 的国内替代仍空缺——目前国内暂无专注『AI 智能体常驻沙箱基础设施』的独立创业公司对标 Blaxel 这一细分定位"
+   ],
+   "scene_tags": [
+    "智能体沙箱",
+    "缩容到零",
+    "毫秒级恢复",
+    "内存态持久化",
+    "按秒计费",
+    "serverless智能体托管",
+    "AI网关"
+   ],
+   "archive": "companies/blaxel.md",
+   "researched_at": "2026-07-11",
+   "research_status": "researched"
   },
   {
    "num": 784,
@@ -20020,12 +20359,45 @@
    "one_liner_zh": "GPU 加速的芯片设计工具",
    "tier": "B",
    "triage_reason": "GPU 加速芯片设计工具，EDA",
-   "status": "card",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B005"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-11",
+   "funding": [
+    {
+     "round": "Pre-Seed / Seed",
+     "amount": "约 $500K",
+     "date": "2025-04",
+     "source_url": "https://www.crunchbase.com/organization/partcl"
+    },
+    {
+     "round": "Seed（领投 Khosla Ventures）",
+     "amount": "$5M",
+     "date": "2025",
+     "source_url": "https://www.linkedin.com/posts/william-salcedo_today-were-excited-to-share-that-partcl-activity-7449860857120866305-u_9l"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "华大九天（Empyrean）：国产 EDA 龙头，模拟全流程 + 数字部分点工具，STA/时序签核仍在补齐，可对标 Partcl 的时序/物理设计方向",
+    "芯华章（X-EPIC）：以数字验证/EDA 2.0、GPU 与云加速仿真为叙事，理念与 Partcl「GPU-native EDA」最接近",
+    "概伦电子（Primarius）：器件建模与电路仿真、DTCO 见长，物理信息建模思路可类比 Partcl 的 physics-informed models",
+    "鸿芯微纳/芯行纪（Rapid Design）：国产数字后端（布局布线/时序）新势力，直接对应 Partcl 的 placement/STA 场景"
+   ],
+   "scene_tags": [
+    "GPU加速EDA",
+    "静态时序分析STA",
+    "物理信息建模",
+    "布局布线加速",
+    "AI-native芯片设计",
+    "秒级迭代反馈",
+    "PPA自动寻优"
+   ],
+   "archive": "companies/partcl.md",
+   "researched_at": "2026-07-11",
+   "research_status": "researched"
   },
   {
    "num": 787,
@@ -20077,12 +20449,49 @@
    "one_liner_zh": "可规模化的 3D 光刻代工",
    "tier": "B",
    "triage_reason": "可规模化 3D 光刻代工，半导体制造",
-   "status": "card",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B005"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-11",
+   "funding": [
+    {
+     "round": "Pre-seed/Seed（公开披露）",
+     "amount": "约 $500K（第三方数据库口径，可能仅为早期披露部分）",
+     "date": "未披露",
+     "source_url": "https://www.crunchbase.com/organization/atum-works"
+    },
+    {
+     "round": "YC Spring 2025 (X25) 标准投资",
+     "amount": "未披露（YC 标准条款）",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/atum-works"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "NVIDIA（联合开发意向书 LOI）",
+     "confidence": "中",
+     "source_url": "https://fondo.com/blog/atum-works-launches"
+    }
+   ],
+   "cn_benchmarks": [
+    "国产光刻设备：上海微电子装备（SMEE）——传统投影光刻路线，与 Atum 的 3D 直写并非同一技术范式，但同处「打破 ASML 垄断」的宏大叙事下",
+    "微纳 3D 打印/双光子聚合：摩方精密（BMF, Boston Micro Fabrication，深圳/波士顿双总部，微尺度 PµSL 面投影微立体光刻）是国内最接近的微纳增材制造玩家，分辨率可达 2µm 级",
+    "先进封装/3D 集成代工：长电科技、通富微电等封测厂在做的 2.5D/3D 堆叠封装，正是 Atum 想用一次成型 3D 工艺去替代的「堆叠」路线的对照面"
+   ],
+   "scene_tags": [
+    "3D光刻直写",
+    "晶圆级增材制造",
+    "多材料纳米打印",
+    "先进封装替代",
+    "光聚合纳米制造",
+    "硬科技设备代工"
+   ],
+   "archive": "companies/atum-works.md",
+   "researched_at": "2026-07-11",
+   "research_status": "researched"
   },
   {
    "num": 790,
@@ -20096,12 +20505,45 @@
    "one_liner_zh": "面向 AI 智能体的企业上下文引擎",
    "tier": "B",
    "triage_reason": "面向 AI 智能体的企业上下文引擎",
-   "status": "card",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B005"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-11",
+   "funding": [
+    {
+     "round": "Seed / YC",
+     "amount": "未披露（第三方数据库估 $500K，未官方确认）",
+     "date": "2025-06",
+     "source_url": "https://www.ycombinator.com/companies/leeroo"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "匿名 $1B 规模企业（官网 production 案例，未具名）",
+     "confidence": "低",
+     "source_url": "https://leeroo.com/"
+    }
+   ],
+   "cn_benchmarks": [
+    "澜码科技 AskXBOT（企业级 Agent 平台，连接企业系统做流程自动化，主打私有化）",
+    "数势科技 SwiftData/analytic agent（面向企业数据的分析型智能体，找增长/风险机会）",
+    "阿里瓴羊（DataPhin/Quick BI + Analytic AI，企业数据资产化 + 分析智能体）",
+    "面壁/智谱等做企业私有化大模型 + Agent 编排的一体机厂商（对标 Sovereign 本地部署路线）"
+   ],
+   "scene_tags": [
+    "企业上下文引擎",
+    "统一业务本体（实体+关系+置信度）",
+    "持续学习智能体",
+    "跨系统数据孤岛打通",
+    "机会发现（增收/风险/浪费）",
+    "人审批闭环（human-in-the-loop）",
+    "气隙/私有化部署（VPC/on-prem/air-gapped）"
+   ],
+   "archive": "companies/leeroo.md",
+   "researched_at": "2026-07-11",
+   "research_status": "researched"
   },
   {
    "num": 791,
@@ -20229,12 +20671,80 @@
    "one_liner_zh": "面向硬件团队的协作式 ECAD",
    "tier": "B",
    "triage_reason": "面向硬件团队的协作式 ECAD，研发",
-   "status": "card",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-11",
+   "funding": [
+    {
+     "round": "Seed",
+     "amount": "$3.5M",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/artifact-2"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "Boom Supersonic",
+     "confidence": "中",
+     "source_url": "https://www.artifact.engineer/"
+    },
+    {
+     "name": "Hermeus",
+     "confidence": "中",
+     "source_url": "https://www.artifact.engineer/"
+    },
+    {
+     "name": "Castelion",
+     "confidence": "中",
+     "source_url": "https://www.artifact.engineer/"
+    },
+    {
+     "name": "Applied Intuition",
+     "confidence": "中",
+     "source_url": "https://www.artifact.engineer/"
+    },
+    {
+     "name": "K2 Space",
+     "confidence": "中",
+     "source_url": "https://www.artifact.engineer/"
+    },
+    {
+     "name": "Peak Energy",
+     "confidence": "中",
+     "source_url": "https://www.artifact.engineer/"
+    },
+    {
+     "name": "Skyways",
+     "confidence": "中",
+     "source_url": "https://www.artifact.engineer/"
+    },
+    {
+     "name": "Astro Mechanica",
+     "confidence": "中",
+     "source_url": "https://www.artifact.engineer/"
+    }
+   ],
+   "cn_benchmarks": [
+    "立创EDA（EasyEDA/嘉立创EDA）——国内云端协作式 EDA 代表，浏览器内画原理图+PCB、天然多人协作、与嘉立创 PCB/贴片制造闭环打通；但聚焦板级设计，缺 Artifact 的系统级线束/整机电气与 AI 生成能力。",
+    "华大九天（Empyrean）——国产 EDA 龙头，能力偏 IC/板级仿真设计，非协作 SaaS、非线束系统层，可作『国产 EDA 工具链』大盘参照。",
+    "嘉立创供应链（JLC）——把 PCB/PCBA 制造做成在线一体化的国内标杆，可类比 Artifact『设计直连制造』的闭环诉求，但其自身不做协作式电气系统设计工具。"
+   ],
+   "scene_tags": [
+    "协作式ECAD",
+    "电气线束设计",
+    "单一真源",
+    "设计-制造闭环",
+    "AI生成原理图",
+    "硬件研发IDE",
+    "版本控制",
+    "航空航天与国防"
+   ],
+   "archive": "companies/artifact.md",
+   "researched_at": "2026-07-11",
+   "research_status": "researched"
   },
   {
    "num": 798,
@@ -20548,12 +21058,44 @@
    "one_liner_zh": "面向任意网站的 AI 浏览器自动化",
    "tier": "B",
    "triage_reason": "面向任意网站的 AI 浏览器自动化",
-   "status": "card",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-11",
+   "funding": [
+    {
+     "round": "种子轮（Seed）",
+     "amount": "1700 万美元",
+     "date": "2025-03-22",
+     "source_url": "https://browser-use.com/posts/seed-round"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "未披露具名企业客户（官方仅称 15,000+ 开发者在用与贡献，场景涵盖登录自动化、数据抽取、QA 测试、CRM 集成）",
+     "confidence": "低",
+     "source_url": "https://browser-use.com/posts/seed-round"
+    }
+   ],
+   "cn_benchmarks": [
+    "智谱 AutoGLM / Open-AutoGLM（GLM-4.5、GLM-4.5V 驱动的国产 GUI/浏览器 Agent，含 autoglm-browser-agent，走开源+自研模型路线，是最接近的国产对标）",
+    "通义/阿里系及各大厂的 GUI Agent 研究方向（RPA+大模型融合，多为闭源或企业内用）",
+    "国产 RPA 厂商（影刀、来也 UiBot、艺赛旗等）在向 LLM 驱动的智能 RPA 演进，与 Browser Use 在「网页流程自动化」上功能重叠，但技术路线偏录制/规则+大模型增强"
+   ],
+   "scene_tags": [
+    "浏览器自动化",
+    "Web Agent",
+    "无API系统集成",
+    "DOM结构化",
+    "跨系统数据搬运",
+    "开源社区飞轮",
+    "LLM无关基础设施"
+   ],
+   "archive": "companies/browser-use.md",
+   "researched_at": "2026-07-11",
+   "research_status": "researched"
   },
   {
    "num": 806,

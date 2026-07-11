@@ -1,0 +1,46 @@
+# Clarm
+
+- **批次来源**：B005 / YC Spring 2025 (X25) Launch
+- **入库日期**：2026-07-07 ｜ **深研日期**：2026-07-11 ｜ **再现记录**：B005
+- **一句话定位**：Governed no-code AI agents for regulated teams（面向受监管团队的可治理无代码 AI 智能体）
+- **官网/锚定**：https://www.ycombinator.com/companies/clarm
+- **深研状态**：researched
+
+## 公司画像
+- **团队**：2 人创始团队。Marcus Storm-Mollard（CEO）——2019-21 年在德意志银行 SeS 组建并领导 AI 团队、2 年做到 $10m ARR，此前在 NielsenIQ 做预测模型（0→7m ARR），Imperial College London 物理 MSci，自称会 8 门语言；Alex Usher——曾在 Amazon Prime Video 构建并维护每年处理数十亿美元的支付系统，Imperial College London 同班第一。两人均在 AI 与高风险行业（德银、亚马逊）出身。
+- **成立/批次**：2025
+- **地点**：美国旧金山（San Francisco）；创始人此前在英国孵化约 6 个月，入选 YC X25 后迁至旧金山
+- **产品**：旗舰产品 Clarm Atlas：无代码 AI 智能体/「AI 同事」构建平台。让非技术运营人员从『已批准的数据源、工具、记忆、审计规则』出发搭建可执行多步工作的智能体（而非仅问答的聊天机器人）。核心卖点是可治理与零幻觉：每条回答标注来源、所有原语确定性可控、每个动作留审计日志、可自带 AI 模型（BYO model）；连接 40+ 企业集成（CRM、邮件、知识库）；可部署到 Microsoft Teams、Slack、自定义 webhook。上手节奏宣称『1 分钟第一个智能体、1 小时第一个团队、1 周一个部门』。
+- **商业模式**：面向企业 B2B。定价按工作区规模与铺开范围定制（custom），典型以单一工作流起步、4-6 周试点（pilot）。合规为核心销售抓手：SOC 2 Type II、HIPAA、GDPR 认证，提供云、本地部署及断网（air-gapped）选项，声明不拿客户数据训练。
+- **竞争格局**：对标『会做事的 Agent』而非『会聊的 Chatbot』，官方以 HubSpot 生成的营销文案作为个性化能力上的反面对照。广义竞品为面向受监管企业的可治理/无代码 Agent 构建平台（如 YC 同期 Nexus/14.ai 等无代码 Agent 方向，以及企业级 RAG/Copilot 类工具）。未见官方点名直接竞对。
+
+## 融资
+| 轮次 | 金额 | 时间 | 来源 |
+|---|---|---|---|
+| YC Spring 2025 (X25) | 未披露 | 2025 | [链接](https://www.ycombinator.com/companies/clarm) |
+
+## 早期客户信号
+| 客户 | 置信度 | 来源 |
+|---|---|---|
+| Legacy（生育/男性生育力诊所 fertility clinic） | 中 | [链接](https://clarm.com/) |
+
+## 转型有术判断
+1. **对制造业客户意味着什么**：Clarm 的价值不在『造一个更强的 Agent』，而在把 Agent 装进『可治理、可审计、可断网』的外壳里——每条输出绑定已批准数据源、每个动作留日志、支持本地与 air-gapped 部署。这正是制造业推 AI 时被合规、质量与信息安全部门卡住的症结：质量追溯、工艺变更、供应商审计、SOP 问答这类场景，一旦 AI『编造』就无法进产线。对制造业的启示是：AI 落地的瓶颈往往不是模型能力，而是『谁批准了这个数据源、这个结论能否追溯、断网车间能否用』。把治理与审计当成产品一等公民（而非事后补丁），并支持 on-prem/air-gapped，是拿下工厂、军工、汽车等强监管、强保密现场的入场券。其『已批准源 + 确定性原语 + 审计日志 + BYO 模型』的组合，可直接映射到制造企业的 MES/PLM/质量体系知识问答与工单流程。
+2. **国内对标厂商**：澜码科技 / 实在智能等企业级 Agent 平台（可治理、面向业务人员搭建 Agent，与 Clarm 无代码 Agent 定位相近，但受监管垂直与审计深度不同）、钉钉 AI 助理 / 飞书智能伙伴（无代码搭 Agent + 企业数据接入，面向泛企业办公，合规/审计弱于 Clarm）、阿里云百炼 / 火山引擎等企业级 RAG+Agent 平台（可私有化/断网部署，对标 Clarm 的 on-prem/air-gapped 卖点，但『每条答案带批准来源+全动作审计』这一治理叙事尚未成为主打）
+   > 国内不缺无代码 Agent 平台（澜码、实在、钉钉、飞书、百炼、火山），也不缺私有化/断网部署能力，但 Clarm 真正的差异是把『合规治理』做成产品主线——面向银行、医疗、上市公司这类『AI 说错一句就会被法务/合规叫停』的团队，用『来源可溯 + 动作可审 + 确定性原语 + 断网』换取采用许可。国内对标更多把治理当交付时的私有化选项，而非产品叙事的第一性主张。对国内玩家的镜像启发：在金融、医疗、央国企、军工等强监管行业，『可审计、可追溯、可断网』的治理叙事可能比『更聪明的 Agent』更能打穿采购与合规关卡。
+3. **可迁移的干法 / 应进场景词典的词条**：无代码Agent、AI治理、零幻觉/来源可溯、审计日志、断网/本地部署、受监管行业、AI同事/自主工作流
+   > 可迁移的干法有三条：其一『已批准源 + 强制引用』——让 Agent 只从白名单数据源作答并逐条标注出处，把幻觉从『技术风险』降级为『可核对的引用』，这是制造业质量/工艺问答敢上线的前提；其二『确定性原语 + 全动作审计日志』——把 Agent 的每一步拆成可预期、可回放、可审计的积木，满足变更追溯与合规留痕；其三『合规即入场券』——SOC2/HIPAA/GDPR + on-prem + air-gapped 的组合直接对应工厂断网车间、军工保密、汽车供应链审计等现场。任何面向强监管 B 端客户的 AI 产品，都可复用这套『治理外壳』把演示级 Demo 变成能过法务/信息安全评审的可交付系统。
+4. **风险与存疑点**：①仅 2 人团队、2025 年成立、融资未公开披露，规模与资金跑道不确定，抗风险与交付能力待验证；②公开可验证的具名客户极少（官网仅 Legacy 一家诊所案例，且『8× 用量』为自述口径），法律/资管/奢侈品等亮眼案例均为匿名行业描述，落地深度与续约情况无法核实；③赛道高度拥挤——无代码 Agent + 企业 RAG 是巨头（微软 Copilot、OpenAI、各云厂商）与大量初创的红海，Clarm 以『治理/合规』差异化，但治理能力容易被大平台补齐，护城河存疑，且强监管客户销售周期长、试点转付费转化不确定。
+
+## 信息来源溯源表
+| 标题 | URL |
+|---|---|
+| Clarm 官网（Clarm Atlas 产品页） | https://clarm.com/ |
+| Y Combinator 公司目录页 Clarm（X25，创始人/团队/融资） | https://www.ycombinator.com/companies/clarm |
+| Launch YC: Clarm - Zero Hallucination AI Deep Research agents | https://www.ycombinator.com/launches/Nac-clarm-zero-hallucination-ai-deep-research-agents |
+| YC 官方 LinkedIn：Clarm (YC X25) builds AI deep research agents | https://www.linkedin.com/posts/y-combinator_clarm-yc-x25-builds-ai-deep-research-agents-activity-7331742681561214976-D7g0 |
+| every.io：Marcus Storm-Mollard is Building Clarm | https://www.every.io/blog-post/marcus-storm-mollard-is-building-clarm-to-help-teams-turn-github-repos-into-sustainable-businesses |
+| Marcus Storm-Mollard LinkedIn（Founder @ Clarm YC X25） | https://www.linkedin.com/in/marcus-storm-mollard-a0514aa1/ |
+
+---
+> 本档案由本地 /research 深研生成，直通模式 auto。数字与具名事实一律带来源；无来源者标"未披露"，未编造。

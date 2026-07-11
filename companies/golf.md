@@ -1,0 +1,48 @@
+# Golf
+
+- **批次来源**：B005 / YC Spring 2025 (X25) Launch
+- **入库日期**：2026-07-07 ｜ **深研日期**：2026-07-11 ｜ **再现记录**：B005
+- **一句话定位**：Agentic AI security and governance（智能体 AI 的安全与治理）
+- **官网/锚定**：https://www.ycombinator.com/companies/golf
+- **深研状态**：researched
+
+## 公司画像
+- **团队**：联合创始人 2 人：Wojciech Błaszak（CEO）、Antoni Gmitruk（CTO），波兰背景、少年创业者（Wojciech 14 岁创业做到 $200k 营收，Antoni 15 岁造全自动 3D 打印机），二人各读一学期大学后退学全职创业。YC 页显示 team size=1（早期陈旧数据），实际为 2 名联创的小团队。
+- **成立/批次**：2025
+- **地点**：旧金山（San Francisco, CA）
+- **产品**：面向企业的「MCP / AI 智能体控制平面」，工作在 MCP 层而非 LLM 层。三层产品：①GolfMCP——开源框架（Apache/MIT，主仓 github.com/golf-mcp/golf 约 830+ star），用文件式结构定义智能体可调用的 tools/prompts/resources，免样板代码，自动处理路由/鉴权/遥测/错误上报/部署，golf deploy 60 秒起一个生产级 MCP 服务；②Golf Gateway——托管层，实时 trace、工具调用与错误监控；③Control Plane / AI 治理平台——发现（Discovery，扫出组织内全部 AI 智能体、MCP 服务与数据连接，含影子 AI）、执行（Enforcement，按工具/团队/数据源设细粒度策略，亚毫秒延迟实时拦截 PII 外泄、凭证泄露、越权访问）、审计（Audit，90 天 prompt/动作/数据访问留痕，预映射 SOC2/ISO27001/NIST AI RMF/FINRA 合规证据）。兼容 Claude Code、GitHub Copilot、ChatGPT Enterprise、Cursor、Windsurf 及 40+ 集成；对接企业 SIEM、可观测与身份平台。自身已 SOC 2 Type II 认证。
+- **商业模式**：开源引流 + 企业 SaaS：开源 GolfMCP 框架获取开发者心智与装机量，向上收托管 Gateway 与企业治理控制平面费用（B2B SaaS，按企业级治理/合规订阅）。官网未披露具体价格。
+- **竞争格局**：MCP/智能体安全治理是 2025-2026 年爆发赛道，同期强竞品密集：Runlayer（2025-11 带 8 家独角兽客户、Khosla/Felicis 领投 $11M 高调发布）、Manufact（$6.3M 种子，MCP 智能体基础设施）、Alpic（$6M pre-seed，MCP 原生云）；广义上还面临 AI 网关/API 安全、数据防泄漏（DLP）、CASB 类厂商向「AI 治理」延伸，以及 Anthropic 将 MCP 捐给 Linux 基金会旗下 AAIF 后协议层标准化带来的平台化竞争。Golf 差异点：开源框架切入 + 影子 AI 发现 + MCP 网关三合一。
+
+## 融资
+| 轮次 | 金额 | 时间 | 来源 |
+|---|---|---|---|
+| YC Spring 2025 (X25) 标准投资 + 天使 | 未披露（YC X25 标准 $500K；另获 ElevenLabs 天使/背书支持，具体金额未公开） | 2025 | [链接](https://www.ycombinator.com/companies/golf) |
+
+## 早期客户信号
+| 客户 | 置信度 | 来源 |
+|---|---|---|
+| 未见公开具名客户（极早期，官网/媒体暂无可采信客户信号） | — | — |
+
+## 转型有术判断
+1. **对制造业客户意味着什么**：对制造业的意义在「影子 AI 治理」这一即将到来的合规刚需。制造企业正把 Copilot、Cursor、Claude Code、各类 MCP 服务接入研发、MES、PLM、供应链系统，工程师私接第三方 AI 工具连生产系统会造成图纸、工艺参数、BOM、客户数据的隐性外泄，且难以审计——这正是 Golf 说的「治理你管不了的 AI 工具」。对制造 IT/安全负责人，Golf 代表一种新范式：不在 LLM 层堵，而在 MCP/工具调用层设网关，做到「先看清连了什么、再按数据源和团队设策略、再留可审计证据」。制造业受 ISO 27001、行业合规（如汽车 TISAX、军工/FINRA 类监管客户）约束，这类「发现-执行-审计」控制平面会比通用互联网企业更早成为采购项。启示：企业 AI 落地的下一道关卡不是模型能力，而是「智能体接入生产系统后的可见性与可控性」，制造企业应提前把 MCP 网关/AI 治理纳入 IT 架构规划。
+2. **国内对标厂商**：MCP/智能体安全治理国内尚属空白早期，暂无完全对位的成熟对标；最接近的是安全大厂（奇安信、深信服、绿盟）向「AI 安全/大模型安全」延伸的产品线，以及数据安全/DLP 厂商（美创、天空卫士）——它们做数据层防护，但尚未形成 MCP 层控制平面、云厂商 AI 网关（阿里云百炼、火山引擎方舟的模型网关/可观测）在「调用可观测 + 策略」上有部分重叠，但偏自家生态、非跨工具影子 AI 发现、开源框架侧可对标国内 MCP/Agent 框架生态（如各家 Agent 中间件），但「开源引流→企业治理付费」的商业闭环国内尚未跑通
+   > 国内目前没有「MCP 治理控制平面」的直接对标，属于反向情报里的「空白位」信号：一边是安全大厂手握合规渠道但产品未到 MCP 层，一边是云厂商有网关但被生态绑定。Golf 的三合一打法（开源发现 + 网关执行 + 合规审计）指向一个国内 12-24 个月内大概率跟进的品类。对国内做企业 AI 安全的团队，可参考其「以开源 MCP 框架获取开发者装机、再向企业收治理费」的路径，以及把 SOC2/ISO27001/NIST AI RMF 合规证据「预映射」做成卖点的产品化手法。
+3. **可迁移的干法 / 应进场景词典的词条**：影子AI发现、MCP控制平面、AI智能体治理、工具调用网关、合规证据自动化、开源引流企业变现
+   > 可迁移干法有三：①「在中间层设网关而非在模型层堵」——制造企业治理 AI 接入生产系统时，与其审查每个模型，不如在 MCP/工具调用层做统一发现+策略+审计，一处管控全部智能体；②「合规证据预映射」——把散落的操作日志预先映射到 SOC2/ISO27001/行业监管框架，把审计从数月压到分钟级，这套思路可直接迁移到制造业的体系审核、TISAX/IATF 证据准备；③「开源框架当获客漏斗」——用开源工具让工程师先用起来、沉淀装机量，再向企业侧收治理与合规费，是 to-developer 产品进企业的通用打法。
+4. **风险与存疑点**：①产品与团队极早期：YC X25 刚起步、公开仅 2 名联创小团队，无一家具名可验证客户（官网仅一句匿名「某企业软件公司 Head of AI」背书），商业化证据薄弱，getlatka 上流传的营收数字来源存疑、未采信；②赛道拥挤且资本更青睐对手：Runlayer（$11M、8 家独角兽客户）、Manufact（$6.3M）等同期强融资竞品已抢跑，Golf 除 YC 标准投资 + ElevenLabs 背书外未见公开大额融资，卡位窗口紧；③标准化与平台吞噬风险：MCP 已被 Anthropic 捐给 Linux 基金会 AAIF、协议层加速标准化，云厂商与身份/安全大厂可能把「MCP 治理」并入平台原生能力，独立控制平面的独立价值面临被上游收编的长期风险。
+
+## 信息来源溯源表
+| 标题 | URL |
+|---|---|
+| Golf: Agentic AI Security and Governance | Y Combinator | https://www.ycombinator.com/companies/golf |
+| Golf 官网 golf.dev（产品/发现-执行-审计/集成/SOC2） | https://www.golf.dev/ |
+| GitHub golf-mcp/golf 开源 MCP 框架主仓 | https://github.com/golf-mcp/golf |
+| Golf: Open-source platform for MCP servers | YC LinkedIn 发布 | https://www.linkedin.com/posts/y-combinator_golf-yc-x25-is-an-open-source-platform-activity-7330989520076582912-wdGq |
+| Launching Golf MCP Control Plane | Wojciech Błaszak LinkedIn | https://www.linkedin.com/posts/wojciech-b%C5%82aszak11_launching-today-golf-mcp-control-plane-activity-7404475027821359104-gU1g |
+| Golf is redefining the way you write MCPs | MCP Jam（提及 YC + ElevenLabs 背书） | https://mcpjam.substack.com/p/golf-mcp |
+| MCP AI agent security startup Runlayer launches with $11M | TechCrunch（竞品/赛道） | https://techcrunch.com/2025/11/17/mcp-ai-agent-security-startup-runlayer-launches-with-8-unicorns-11m-from-khoslas-keith-rabois-and-felicis/ |
+| Y Combinator's Spring 2025 batch / agentic AI | CB Insights（X25 批次背景） | https://www.cbinsights.com/research/y-combinator-spring25-agentic-ai/ |
+
+---
+> 本档案由本地 /research 深研生成，直通模式 auto。数字与具名事实一律带来源；无来源者标"未披露"，未编造。

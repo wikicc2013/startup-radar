@@ -781,6 +781,20 @@
   "riveter-ai": "aiinfra",
   "andoria": "corp",
   "fixa": "aigov",
-  "variant": "aiinfra"
+  "variant": "aiinfra",
+  "janus-kairos": "aigov",
+  "clarm": "aigov",
+  "golf": "aigov",
+  "photonium": "rnd",
+  "partcl": "rnd",
+  "artifact": "rnd",
+  "atum-works": "prod",
+  "sim-studio": "aiinfra",
+  "kaelio": "aiinfra",
+  "helixdb": "aiinfra",
+  "cua": "aiinfra",
+  "blaxel": "aiinfra",
+  "leeroo": "aiinfra",
+  "browser-use": "aiinfra"
  }
 }

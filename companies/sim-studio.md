@@ -1,0 +1,48 @@
+# Sim Studio
+
+- **批次来源**：B005 / YC Spring 2025 (X25) Launch
+- **入库日期**：2026-07-07 ｜ **深研日期**：2026-07-11 ｜ **再现记录**：B005
+- **一句话定位**：Open-source AI workspace for agents（面向智能体的开源 AI 工作空间）
+- **官网/锚定**：https://www.ycombinator.com/companies/sim
+- **深研状态**：researched（在营。原名 Sim Studio，现更名为 Sim / sim.ai。2025 年 11 月完成 $7M Series A，2026 年 3 月产品线升级重定位为 The AI Workspace，推出自然语言控制面板 Mothership。GitHub 约 28.8K star（2026-06），社区活跃。）
+
+## 公司画像
+- **团队**：两位联合创始人均为 UC Berkeley 校友：Emir Karabeg（联合创始人 / CEO，数据科学 + 认知科学背景，此前做过 AI 学习平台 WorkNinja，宣称 30 万+ MAU）；Waleed Latif（联合创始人 / CTO，CS + 认知科学背景，曾在 Amazon Ring 负责后端基础设施，宣称处理 100 万+ 事务/秒）。YC 页显示团队规模约 6 人（2025 末）。
+- **成立/批次**：2025
+- **地点**：美国旧金山（San Francisco, CA）
+- **产品**：开源的 AI 智能体 / 工作流搭建与编排平台。核心是 Figma 式可视化画布，拖拽把 LLM 与工具（Slack、Notion、HubSpot、Salesforce、Gmail、Supabase、数据库等 1000+ 集成）连成智能体工作流，可一键部署为 API、聊天或定时任务。提供三种搭建方式：对话式（描述需求自动生成）、可视化画布、代码。开源协议 Apache 2.0，可自托管。2026 年 3 月重定位为 The AI Workspace，推出 Mothership——用一段自然语言对话统一编排工作流、数据表、文件与集成的控制面板。宣称 SOC2 合规、production-ready。
+- **商业模式**：开源核心（Apache 2.0，免费自托管）+ 托管云服务（sim.ai 托管版，面向团队与企业，按用量/席位商业化，配合 SOC2 合规主打企业采用）的开源商业化路径。官方未公开披露具体定价档位与营收（未披露）。
+- **竞争格局**：与 n8n、Flowise、Langflow、Dify、Zapier/Make（自动化编排）、以及 LangGraph / CrewAI 等 Agent 编排框架正面竞争；差异点是「可视化画布 + 对话式生成 + 代码」三形态合一、1000+ 集成开箱即用、开源可自托管，定位介于低代码自动化与代码级 Agent 框架之间。
+
+## 融资
+| 轮次 | 金额 | 时间 | 来源 |
+|---|---|---|---|
+| Series A | $7,000,000 | 2025-11-14 | [链接](https://pulse2.com/sim-ai-7-million-series-a-closed-to-advance-development-of-its-agentic-ai-platform/) |
+
+## 早期客户信号
+| 客户 | 置信度 | 来源 |
+|---|---|---|
+| 未见公开具名客户（极早期，官网/媒体暂无可采信客户信号） | — | — |
+
+## 转型有术判断
+1. **对制造业客户意味着什么**：Sim 代表的是「让业务人员自己拼装 AI 智能体工作流」的低门槛编排层，对制造业的意义在于把 AI 从 IT 部门的专属项目下沉为一线可自助搭建的工具。制造场景里大量重复的跨系统流转——质检异常自动开工单并通知班组、供应商来料信息从邮件/PDF 抽取回填 ERP、设备报警触发排产调整与备件查询、销售询价自动跑 BOM 估价——本质都是「LLM + 若干企业系统集成 + 定时/事件触发」的工作流，正是这类画布擅长的形态。其 1000+ 集成与可自托管（数据不出厂、贴合制造业对数据主权和产线内网的要求）是落地关键。但需注意：制造核心系统（MES、SCADA、PLC、专有 ERP）往往不在通用 SaaS 集成清单里，真正落地仍需自建连接器和现场集成，画布只解决「编排与试错」的前半程。
+2. **国内对标厂商**：Dify（开源 LLM 应用/Agent 编排平台，可视化编排 + 自托管，与 Sim 定位最接近，国内制造与政企私有化部署案例多）、扣子 / Coze（字节，对话式 + 可视化搭建 Agent，集成生态强，但偏 SaaS、开源与自托管弱于 Sim）、阿里百炼 / 通义 AppFlow（模型 + 工作流编排 + 企业集成，云厂商一体化路线）、腾讯元器 / 智谱 AgentBuilder（大厂 Agent 搭建平台，生态绑定各自云与模型）
+   > 国内对标呈两条路线：一是以 Dify 为代表的开源可自托管编排平台，与 Sim 在「开源 + 可视化 + 私有化」上几乎正面镜像，是制造业私有部署最直接的替代；二是扣子/百炼/元器等大厂 SaaS 化 Agent 搭建平台，集成生态和模型更全但把用户锁进各自云。Sim 的差异优势在开源自托管 + 三形态（对话/画布/代码）合一 + 海量通用 SaaS 集成；国内厂商在中文生态、微信/钉钉/飞书/国产 ERP 等本土集成上更强。制造业选型的现实判据往往是：数据能不能不出厂（选开源自托管系）、要不要接国产办公与工业系统（选本土系）。
+3. **可迁移的干法 / 应进场景词典的词条**：可视化 Agent 工作流编排、对话式生成智能体、1000+ SaaS/LLM 集成开箱即用、开源可自托管 Apache 2.0、自然语言控制面板(Mothership)、低代码 AI 自动化
+   > 可迁移的干法有三条：①「三形态合一」——同一平台同时给出对话式生成、可视化画布、代码三种搭建入口，让不同能力层级的人（业务、运营、工程师）在同一制品上协作，降低从原型到生产的交接损耗；这套「先对话生成骨架、再画布微调、必要处降到代码」的渐进式路径，任何面向企业内部工具搭建的产品都可复用。②「集成即护城河」——用 1000+ 开箱即用连接器把编排的边际成本压到最低，制造业做内部 AI 平台时应优先补齐 ERP/MES/OA/工单/供应商门户的连接器而非纠结模型。③「开源自托管做信任、托管云做商业化」——以开源换社区与私有化部署信任（对数据主权敏感的制造/政企尤其吃这一套），再用托管版和合规能力变现，是 To B AI 基础设施的通用打法。
+4. **风险与存疑点**：①赛道极度拥挤且同质化：n8n、Dify、Flowise、Langflow、Zapier 及各大云厂商 Agent 平台都在抢同一块「可视化 Agent 编排」，开源项目 star 高但商业化转化与留存是真正考验，2026 年后其 star 增速已明显放缓。②开源反噬与被平台化风险：核心可自托管意味着大客户可能自建、云厂商也可能把同类能力做进平台白送，托管版付费意愿受挤压。③定位漂移：一年内从 Sim Studio(Agent UI) → The AI Workspace(Mothership 控制面板)，重定位频繁反映产品尚在找 PMF，企业采购者可能观望；且早期客户以开发者/builder 为主（宣称 7 万-10 万），缺乏公开可验证的具名企业灯塔客户，规模化落地证据不足。
+
+## 信息来源溯源表
+| 标题 | URL |
+|---|---|
+| Sim - Y Combinator 公司页 | https://www.ycombinator.com/companies/sim |
+| Launch YC: Sim Studio: UI to Build AI Agents | https://www.ycombinator.com/launches/NRf-sim-studio-ui-to-build-ai-agents |
+| Sim.ai: $7 Million Series A Closed (Pulse 2.0) | https://pulse2.com/sim-ai-7-million-series-a-closed-to-advance-development-of-its-agentic-ai-platform/ |
+| Sim.ai Series A led by Standard Capital (Standard Capital Changelog) | https://www.standardcap.com/changelog/post/sim-ai-series-a-led-by-standard-capital |
+| simstudioai/sim - GitHub 开源仓库 | https://github.com/simstudioai/sim |
+| Sim - 官网 sim.ai | https://www.sim.ai/ |
+| Introduction | Sim Docs | https://docs.sim.ai/introduction |
+| Show HN: Sim Studio – Open-Source Agent Workflow GUI (Hacker News) | https://news.ycombinator.com/item?id=43823096 |
+
+---
+> 本档案由本地 /research 深研生成，直通模式 auto。数字与具名事实一律带来源；无来源者标"未披露"，未编造。
