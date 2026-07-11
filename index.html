@@ -45,8 +45,16 @@
   .stat.on{ background:#123C6B; color:#fff; border-color:#123C6B; }
   .stat .dot{ display:inline-block; width:9px; height:9px; margin-right:7px; }
 
-  /* ── 主体：筛选轨 + 列表 ── */
-  .main{ display:grid; grid-template-columns:200px 1fr; gap:14px; align-items:start; }
+  /* ── 主体：横向筛选栏 + 列表 ── */
+  .main{ display:block; }
+  .filterbar{ display:flex; flex-wrap:wrap; gap:8px; align-items:center; background:#fff; border:1px solid #B9CDE0; padding:10px 12px; margin-bottom:12px; }
+  .filterbar .fk{ font-size:12px; color:#6B87A6; letter-spacing:1px; }
+  .fsel{ border:1px solid #B9CDE0; background:#EFF4F9; color:#0E2E52; padding:7px 10px; font-size:13px; outline:none; cursor:pointer; }
+  .fsel:focus{ border-color:#2F6FB1; }
+  .ftoggle{ border:1px solid #B9CDE0; background:#fff; color:#33517A; padding:7px 11px; font-size:12.5px; cursor:pointer; }
+  .ftoggle.on{ background:#123C6B; color:#fff; border-color:#123C6B; }
+  .filterbar #q{ width:auto; flex:1; min-width:220px; }
+  .filterbar .reset{ width:auto; margin-top:0; margin-left:auto; }
   .rail{ background:#fff; border:1px solid #B9CDE0; padding:14px; position:sticky; top:12px; }
   .rail h3{ font-size:12px; color:#6B87A6; letter-spacing:2px; margin:12px 0 6px; font-weight:600;}
   .rail h3:first-child{ margin-top:0; }
@@ -132,15 +140,16 @@
   <div class="stats" id="stats"></div>
 
   <div class="main">
-    <aside class="rail">
-      <h3>检索</h3>
-      <input id="q" type="search" placeholder="公司名 / 业务关键词">
-      <div id="f-toggle" style="display:flex;gap:6px;flex-wrap:wrap;margin:10px 0 4px"></div>
-      <h3>价值链</h3><div id="f-chain"></div>
-      <h3>状态</h3><div id="f-status"></div>
-      <h3>批次</h3><div id="f-batch"></div>
-      <button class="reset" id="reset">清除全部筛选</button>
-    </aside>
+    <div class="filterbar">
+      <input id="q" type="search" placeholder="🔍 公司名 / 业务关键词">
+      <select id="s-chain" class="fsel"></select>
+      <select id="s-status" class="fsel"></select>
+      <select id="s-batch" class="fsel"></select>
+      <select id="s-sort" class="fsel"></select>
+      <button class="ftoggle" id="tg-funded">💰 有融资</button>
+      <button class="ftoggle" id="tg-beacon">🏮 有灯塔客户</button>
+      <button class="reset" id="reset">重置</button>
+    </div>
 
     <section class="list">
       <div class="listhead">
@@ -3871,7 +3880,7 @@ function sealOf(c){ // 直通模式：reviewed 分「响哥审核」红章与「
 const TIER_DOT={A1:"#123C6B",A2:"#2F6FB1",B:"#6B87A6",C:"#C1CFDD"};
 
 let DATA=null, THEMES=null, CHAIN_META=null;
-const state={tier:null,chain:null,status:null,batch:null,q:"",funded:false,beacon:false};
+const state={tier:null,chain:null,status:null,batch:null,q:"",funded:false,beacon:false,sort:"num"};
 
 async function load(){
   try{
@@ -3915,6 +3924,17 @@ function chip(host,key,val,label,n){
   b.onclick=()=>{ state[key]=(state[key]===val?null:val); render(); };
   host.appendChild(b);
 }
+function fillSel(id,key,opts,allLabel){
+  const sel=document.getElementById(id); if(!sel) return;
+  sel.innerHTML='<option value="">'+allLabel+'</option>'+opts.map(o=>'<option value="'+o.v+'"'+(state[key]===o.v?" selected":"")+'>'+o.label+(o.n!=null?" ("+o.n+")":"")+'</option>').join("");
+  sel.onchange=()=>{ state[key]=sel.value||null; render(); };
+}
+function fillSort(){
+  const sel=document.getElementById("s-sort"); if(!sel) return;
+  sel.innerHTML=[["num","↕ 默认排序"],["fund","💰 融资降序"],["name","🔤 名称"]].map(([v,l])=>'<option value="'+v+'"'+(state.sort===v?" selected":"")+'>'+l+'</option>').join("");
+  sel.onchange=()=>{ state.sort=sel.value; render(); };
+}
+function fundVal(c){ let v=0; (c.funding||[]).forEach(f=>{ const a=(f.amount||"").replace(/[, ]/g,""); let m; if(/亿/.test(a))v=Math.max(v,parseFloat(a)*1e8); else if(m=a.match(/([\d.]+)万/))v=Math.max(v,parseFloat(m[1])*1e4); else if(m=a.match(/[$€¥]?([\d.]+)M/i))v=Math.max(v,parseFloat(m[1])*1e6); else if(m=a.match(/[$€¥]?([\d.]+)K/i))v=Math.max(v,parseFloat(m[1])*1e3); else if(m=a.match(/[$€¥]([\d.]+)/))v=Math.max(v,parseFloat(m[1])); }); return v; }
 
 function filtered(){
   const q=state.q.trim().toLowerCase();
@@ -3952,24 +3972,23 @@ function render(){
   });
 
   // 筛选轨
-  const tgHost=document.getElementById("f-toggle"); tgHost.innerHTML="";
-  [["funded","💰 有融资"],["beacon","🏮 有灯塔客户"]].forEach(([k,lbl])=>{ const b=document.createElement("button"); b.className="chip"+(state[k]?" on":""); b.style.cssText="width:auto;border:1px solid #B9CDE0;font-size:12px"; b.textContent=lbl; b.onclick=()=>{ state[k]=!state[k]; render(); }; tgHost.appendChild(b); });
-  const chHost=document.getElementById("f-chain"); chHost.innerHTML="";
-  if(CHAIN_META){ const cc={}; all.forEach(c=>{ if(c.chainId) cc[c.chainId]=(cc[c.chainId]||0)+1; });
-    CHAIN_META.forEach(t=>{ if(cc[t.id]) chip(chHost,"chain",t.id,t.emoji+" "+t.title,cc[t.id]); }); }
-  else { chHost.innerHTML='<div style="font-size:12px;color:#9FB3C8;padding:4px 8px">价值链维度需 http 访问（themes.json）</div>'; }
-  const stHost=document.getElementById("f-status"); stHost.innerHTML="";
+  const cc={}; if(CHAIN_META) all.forEach(c=>{ if(c.chainId) cc[c.chainId]=(cc[c.chainId]||0)+1; });
+  fillSel("s-chain","chain", CHAIN_META?CHAIN_META.filter(t=>cc[t.id]).map(t=>({v:t.id,label:t.emoji+" "+t.title,n:cc[t.id]})):[], "🔗 全部价值链");
   const sc=counts(all,"status");
-  ["pending","researched","reviewed","card","named"].forEach(k=>{ if(sc[k]) chip(stHost,"status",k,STATUS_LABEL[k],sc[k]); });
-  const bHost=document.getElementById("f-batch"); bHost.innerHTML="";
-  DATA.meta.batches.forEach(b=>chip(bHost,"batch",b.id,b.id+" · "+b.source.split("·")[0].trim(),b.total));
+  fillSel("s-status","status", ["pending","researched","reviewed","card","named"].filter(k=>sc[k]).map(k=>({v:k,label:STATUS_LABEL[k],n:sc[k]})), "📋 全部状态");
+  fillSel("s-batch","batch", DATA.meta.batches.map(b=>({v:b.id,label:b.id+" · "+b.source.split("·")[0].trim(),n:b.total})), "📦 全部批次");
+  fillSort();
+  document.getElementById("tg-funded").className="ftoggle"+(state.funded?" on":"");
+  document.getElementById("tg-beacon").className="ftoggle"+(state.beacon?" on":"");
 
   // 列表
   document.getElementById("count").textContent=f.length+" / "+all.length;
   const rows=document.getElementById("rows"); rows.innerHTML="";
   if(!f.length){ rows.innerHTML='<div class="empty">没有匹配的公司。清除部分筛选条件再试。</div>'; return; }
   const order={A1:0,A2:1,B:2,C:3};
-  f.sort((a,b)=>(order[a.tier]-order[b.tier])||(a.num-b.num));
+  if(state.sort==="fund") f.sort((a,b)=>fundVal(b)-fundVal(a)||(a.num-b.num));
+  else if(state.sort==="name") f.sort((a,b)=>a.name.localeCompare(b.name));
+  else f.sort((a,b)=>(order[a.tier]-order[b.tier])||(a.num-b.num));
   f.forEach(c=>{
     const r=document.createElement("div"); r.className="row";
     const reappear=c.appeared_in.length>1?' · 再现×'+c.appeared_in.length:'';
@@ -3995,7 +4014,9 @@ function render(){
 }
 
 document.getElementById("q").addEventListener("input",e=>{ state.q=e.target.value; render(); });
-document.getElementById("reset").onclick=()=>{ state.tier=state.chain=state.status=state.batch=null; state.funded=state.beacon=false; state.q=""; document.getElementById("q").value=""; render(); };
+document.getElementById("tg-funded").onclick=()=>{ state.funded=!state.funded; render(); };
+document.getElementById("tg-beacon").onclick=()=>{ state.beacon=!state.beacon; render(); };
+document.getElementById("reset").onclick=()=>{ state.tier=state.chain=state.status=state.batch=null; state.funded=state.beacon=false; state.sort="num"; state.q=""; document.getElementById("q").value=""; render(); };
 load();
 </script>
 </body>
