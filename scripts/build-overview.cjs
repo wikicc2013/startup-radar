@@ -161,7 +161,7 @@ function card(x) {
 
 function buildHtml() {
   let h = `<!doctype html><html lang="zh-CN"><head>\n<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">\n<title>深研档案总览 · AI青梅创业公司数据库</title>\n<link rel="stylesheet" href="companies/company.css">\n<style>\n${STYLE}\n</style></head><body>\n<div class="owrap">\n`;
-  h += `<div class="obar"><a class="back" href="index.html">← 查询看板</a><span><a href="benchmarks.html">国内对标索引</a> · <a href="rankings.html">榜单</a> · 数据真源 data/companies.json</span></div>\n`;
+  h += `<div class="obar"><a class="back" href="index.html">← 查询看板</a><span><a href="benchmarks.html">国内对标索引</a> · <a href="rankings.html">榜单</a> · <a href="trends.html">趋势</a> · 数据真源 data/companies.json</span></div>\n`;
   h += `<header class="ohero">\n <div class="kicker">转型有术 · STARTUP RADAR</div>\n <h1>深研档案总览</h1>\n`;
   h += ` <p>YC 新锐 AI 创业公司数据库中，已完成联网深度调查、进入正式档案的 <b>${reviewed.length}</b> 家公司。按主题聚类，点任意卡片进入该公司的深研详情页。</p>\n`;
   h += ` <div class="statgrid">\n  <div class="stile"><div class="sn">${reviewed.length}</div><div class="sl">深研档案</div></div><div class="stile"><div class="sn">${funded.length}</div><div class="sl">有具体金额披露</div></div><div class="stile"><div class="sn">${withCust.length} / ${hiCust.length}</div><div class="sl">有具名客户 / 含高置信</div></div><div class="stile"><div class="sn">${themes.length}</div><div class="sl">主题簇</div></div><div class="stile"><div class="sn">${dead.length}</div><div class="sl">已关停/被收购</div></div>\n </div>\n</header>\n`;
