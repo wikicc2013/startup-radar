@@ -795,6 +795,20 @@
   "cua": "aiinfra",
   "blaxel": "aiinfra",
   "leeroo": "aiinfra",
-  "browser-use": "aiinfra"
+  "browser-use": "aiinfra",
+  "dalus": "rnd",
+  "adam": "rnd",
+  "inversion-semiconductor": "prod",
+  "lucidic-ai": "aigov",
+  "cardamon": "aigov",
+  "sublingual": "aigov",
+  "pig": "aiinfra",
+  "woz": "aiinfra",
+  "mastra": "aiinfra",
+  "asteroid": "aiinfra",
+  "zeroentropy": "aiinfra",
+  "a1base": "aiinfra",
+  "superglue": "aiinfra",
+  "humanlayer": "aiinfra"
  }
 }

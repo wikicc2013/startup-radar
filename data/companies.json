@@ -21222,12 +21222,37 @@
    "one_liner_zh": "面向 Windows 应用自动化的 API",
    "tier": "B",
    "triage_reason": "Windows 应用自动化 API，computer-use",
-   "status": "card",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-11",
+   "funding": [
+    {
+     "round": "Pre-Seed（YC 标准投资）",
+     "amount": "约 500,000 美元",
+     "date": "2025",
+     "source_url": "https://www.crunchbase.com/organization/pig-9bcb"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "影刀 RPA / UiBot（来也）—— 国内 RPA 龙头，正把大模型 computer-use 能力叠加到传统桌面自动化上，对标 Pig 的「无 API 桌面软件自动化」定位，且已跑通制造/金融的交付与商业化",
+    "实在智能 TARS —— 主打「大模型 + RPA」的智能体，强调看屏操作，与 Pig 的拟人化 computer-use 思路相近",
+    "阿里/字节等大厂的 computer-use / GUI Agent 研究（如 UI-TARS 系列）—— 对应 Pig 底层依赖的通用 computer-use 模型层"
+   ],
+   "scene_tags": [
+    "无API遗留系统自动化",
+    "Windows桌面computer-use",
+    "拟人化操作API",
+    "自托管机器接入控制平面",
+    "human-in-the-loop关键步骤兜底",
+    "Agent行为缓存(Muscle-Mem)"
+   ],
+   "archive": "companies/pig.md",
+   "researched_at": "2026-07-11",
+   "research_status": "researched"
   },
   {
    "num": 811,
@@ -21279,12 +21304,55 @@
    "one_liner_zh": "面向硬件团队的 AI 系统工程",
    "tier": "B",
    "triage_reason": "面向硬件团队的 AI 系统工程，研发",
-   "status": "card",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-11",
+   "funding": [
+    {
+     "round": "Seed（含 YC W25 标准投资）",
+     "amount": "约 50 万美元（第三方聚合数据，未见官方披露）",
+     "date": "2025",
+     "source_url": "https://tracxn.com/d/companies/dalus/__KXOL07pGBNbae1c0_fuA--tpWbxuiNfsHjvyo63shto/funding-and-investors"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "Israel Aerospace Industries（IAI，以色列航空航天工业公司）",
+     "confidence": "高",
+     "source_url": "https://www.ycombinator.com/companies/dalus"
+    },
+    {
+     "name": "IOX Lab（IoT 系统开发，系统工程师 Matthias Priebe 具名背书）",
+     "confidence": "高",
+     "source_url": "https://dalus.io/"
+    },
+    {
+     "name": "DefendTex（国防装备）",
+     "confidence": "中",
+     "source_url": "https://dalus.io/"
+    }
+   ],
+   "cn_benchmarks": [
+    "索为系统（Sysware）——面向航空航天/复杂装备的国产工业软件与 MBSE/知识自动化平台，最接近 Dalus 的复杂系统研发定位",
+    "安世亚太（PERA）——综合仿真 + 正向设计/MBSE 方法论与工具，服务航空航天军工",
+    "北京神舟/中船/航天院所自研 MBSE 工具链——多为体制内配套，未产品化为通用 SaaS",
+    "PLM 侧的 CAXA（数码大方）、山大华天——偏 CAD/PLM，缺原生 SysML v2 与 AI Copilot 能力"
+   ],
+   "scene_tags": [
+    "MBSE 数字主线",
+    "需求-架构-验证一体化",
+    "文档转结构化模型",
+    "AI Copilot 自动生成架构",
+    "复杂装备研发协同",
+    "SysML v2",
+    "系统安全/危害分析"
+   ],
+   "archive": "companies/dalus.md",
+   "researched_at": "2026-07-11",
+   "research_status": "researched"
   },
   {
    "num": 814,
@@ -21400,14 +21468,50 @@
    "one_liner_zh": "让编码更省钱的 Claude Code 插件",
    "tier": "B",
    "triage_reason": "让编码更省钱的 Claude Code 插件，github-radar 交叉",
-   "status": "card",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07",
+   "updated": "2026-07-11",
    "card": "companies/B-cards.md",
-   "card_written_at": "2026-07-07"
+   "card_written_at": "2026-07-07",
+   "funding": [
+    {
+     "round": "Seed",
+     "amount": "$6,000,000",
+     "date": "2025-10-15",
+     "source_url": "https://www.prnewswire.com/news-releases/woz-raises-6m-to-build-enterprise-grade-ai-apps-that-businesses-can-trust-302584904.html"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "SimpliSafe",
+     "confidence": "中",
+     "source_url": "https://www.wozcode.com/"
+    },
+    {
+     "name": "Attention Labs（David Kim, Cofounder & CEO 具名背书）",
+     "confidence": "中",
+     "source_url": "https://www.wozcode.com/"
+    }
+   ],
+   "cn_benchmarks": [
+    "字节 Trae / 阿里通义灵码 / 腾讯 CodeBuddy 等国产 AI 编码工具——但它们是『助手本体』，Woz 是叠在助手之上的省钱优化层，国内暂缺纯做『Claude Code/Cursor 之上降本插件』的对标",
+    "面壁/各类上下文压缩与 KV-cache 优化厂商——技术路径部分重叠（省 token），但面向的是模型推理侧而非 IDE 插件侧",
+    "『AI 造 app+人工质检』叙事对标国内低代码+AI 外包工作室（如各类 AI 建站/小程序代做团队），但 Woz 强调工程专家质检的品控闭环"
+   ],
+   "scene_tags": [
+    "AI调用成本优化层",
+    "工具调用编排压缩",
+    "省钱可观测化（savings 实时计量）",
+    "复用已有订阅不转售额度",
+    "anti-vibe-coding人工质检兜底",
+    "只读探索用小模型（haiku降本）"
+   ],
+   "archive": "companies/woz.md",
+   "researched_at": "2026-07-11",
+   "research_status": "researched"
   },
   {
    "num": 818,
@@ -21693,12 +21797,89 @@
    "one_liner_zh": "TypeScript 的 AI 智能体框架",
    "tier": "B",
    "triage_reason": "TypeScript AI 智能体框架",
-   "status": "card",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-11",
+   "funding": [
+    {
+     "round": "Seed",
+     "amount": "1300 万美元",
+     "date": "2025-10-08",
+     "source_url": "https://mastra.ai/blog/seed-round"
+    },
+    {
+     "round": "Series A",
+     "amount": "2200 万美元",
+     "date": "2026-04-09",
+     "source_url": "https://mastra.ai/blog/series-a"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "Replit（Agent 3 用 Mastra 让用户规模化构建 agent）",
+     "confidence": "高",
+     "source_url": "https://mastra.ai/blog/seed-round"
+    },
+    {
+     "name": "Marsh McLennan（用 Mastra 构建的企业级 agentic 搜索，官方口径 10 万+ 人每日使用）",
+     "confidence": "高",
+     "source_url": "https://mastra.ai/blog/series-a"
+    },
+    {
+     "name": "Indeed（用 Mastra 构建全国投放的职业顾问 agent）",
+     "confidence": "高",
+     "source_url": "https://mastra.ai/blog/series-a"
+    },
+    {
+     "name": "Brex（在自家应用内构建 agent；官方称支撑其 Capital One 收购相关工作）",
+     "confidence": "高",
+     "source_url": "https://mastra.ai/blog/series-a"
+    },
+    {
+     "name": "Sanity、Factorial（在应用内构建 agent）",
+     "confidence": "高",
+     "source_url": "https://mastra.ai/blog/series-a"
+    },
+    {
+     "name": "MongoDB、Workday、Salesforce（平台团队用其自动化 DevOps/SRE）",
+     "confidence": "高",
+     "source_url": "https://mastra.ai/blog/series-a"
+    },
+    {
+     "name": "SoftBank（在发布会上展示用 Mastra 构建的产品）",
+     "confidence": "中",
+     "source_url": "https://mastra.ai/blog/seed-round"
+    },
+    {
+     "name": "PayPal、Adobe（官方称正投产 Mastra）",
+     "confidence": "中",
+     "source_url": "https://mastra.ai/blog/seed-round"
+    },
+    {
+     "name": "Elastic、Docker（发博客介绍其 Mastra 用法）",
+     "confidence": "中",
+     "source_url": "https://mastra.ai/blog/seed-round"
+    }
+   ],
+   "cn_benchmarks": [
+    "字节 Coze/扣子（可视化 Agent 搭建平台，面向业务而非代码框架，定位互补而非同类）",
+    "Dify（LangGenius，开源 LLM 应用/agent 编排平台，但后端 Python、偏低代码可视化编排，非 TS 代码框架）",
+    "阿里 Spring AI Alibaba / 百炼（Java/云平台路线的 agent 开发栈，语言生态不同）"
+   ],
+   "scene_tags": [
+    "TypeScript-agent框架",
+    "开源拉采用+企业授权变现",
+    "嵌入既有Web系统",
+    "human-in-the-loop审批",
+    "创始团队复用前作分发力",
+    "模型路由统一接口"
+   ],
+   "archive": "companies/mastra.md",
+   "researched_at": "2026-07-11",
+   "research_status": "researched"
   },
   {
    "num": 829,
@@ -22204,12 +22385,73 @@
    "one_liner_zh": "面向可靠 AI 智能体的训练层",
    "tier": "B",
    "triage_reason": "面向可靠 AI 智能体的训练层",
-   "status": "card",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-11",
+   "funding": [
+    {
+     "round": "Seed / YC 标准投资",
+     "amount": "约 $500K（YC 标准 deal，第三方数据库口径，未见官方独立披露）",
+     "date": "2025-02",
+     "source_url": "https://tracxn.com/d/companies/lucidicai/__I1k0FOlstHguHPk4RTa0YoHDqnNfv81v8I8GLUYfFvU/funding-and-investors"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "Cresta",
+     "confidence": "高",
+     "source_url": "https://lucidic.ai/case-studies"
+    },
+    {
+     "name": "某匿名企业（75%→92% 准确率、优化 116 个参数）",
+     "confidence": "中",
+     "source_url": "https://lucidic.ai/case-studies"
+    },
+    {
+     "name": "Expedia",
+     "confidence": "中",
+     "source_url": "https://lucidic.ai/"
+    },
+    {
+     "name": "Palantir",
+     "confidence": "中",
+     "source_url": "https://lucidic.ai/"
+    },
+    {
+     "name": "Galen AI",
+     "confidence": "中",
+     "source_url": "https://lucidic.ai/"
+    },
+    {
+     "name": "Stanford AI Labs",
+     "confidence": "中",
+     "source_url": "https://lucidic.ai/"
+    },
+    {
+     "name": "Human Behavior",
+     "confidence": "中",
+     "source_url": "https://lucidic.ai/"
+    }
+   ],
+   "cn_benchmarks": [
+    "Dify / Coze（字节）—— agent 编排与调试，覆盖可观测/调试一段，但缺自动寻优训练层",
+    "阿里云百炼 / 通义 agent 平台 —— 有 agent 评测与追踪模块，偏平台自带，非独立训练优化层",
+    "面壁/智谱等模型厂的 agent 评测工具链 —— 侧重模型与 agent 效果评估，RL/遗传自动调参的'训练层'国内基本空白"
+   ],
+   "scene_tags": [
+    "参数空间自动寻优",
+    "数字孪生/仿真先行",
+    "失败模式聚类(类FMEA)",
+    "灰度上线+回归监控",
+    "上线前验证",
+    "DOE实验设计思维"
+   ],
+   "archive": "companies/lucidic-ai.md",
+   "researched_at": "2026-07-11",
+   "research_status": "researched"
   },
   {
    "num": 854,
@@ -22479,12 +22721,76 @@
    "one_liner_zh": "面向企业自动化的 AI 浏览器智能体",
    "tier": "B",
    "triage_reason": "企业自动化的 AI 浏览器智能体",
-   "status": "card",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-11",
+   "funding": [
+    {
+     "round": "Pre-seed（Sacra 估算/汇总，非官方披露）",
+     "amount": "约 $500,000",
+     "date": "2025-04",
+     "source_url": "https://sacra.com/c/asteroid/"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "Moonset Health",
+     "confidence": "中",
+     "source_url": "https://asteroid.ai/"
+    },
+    {
+     "name": "Thyme Care",
+     "confidence": "中",
+     "source_url": "https://asteroid.ai/"
+    },
+    {
+     "name": "Vitable Health",
+     "confidence": "中",
+     "source_url": "https://asteroid.ai/"
+    },
+    {
+     "name": "InTouchNow",
+     "confidence": "中",
+     "source_url": "https://asteroid.ai/"
+    },
+    {
+     "name": "Delfa",
+     "confidence": "中",
+     "source_url": "https://asteroid.ai/"
+    },
+    {
+     "name": "Trifetch",
+     "confidence": "中",
+     "source_url": "https://asteroid.ai/"
+    },
+    {
+     "name": "Strala",
+     "confidence": "中",
+     "source_url": "https://asteroid.ai/"
+    }
+   ],
+   "cn_benchmarks": [
+    "影刀 RPA（上海）——面向业务人员的低代码 RPA，正加 AI Agent 能力，最贴近『非技术人员搭浏览器自动化』定位",
+    "实在智能 TARS/实在 Agent（杭州）——RPA 起家、主打屏幕语义理解的 AI Agent，覆盖无 API 遗留系统操作",
+    "来也科技 UiBot/Laiye——RPA+对话式 AI，企业级后台自动化",
+    "智谱 AutoGLM / 字节 UI-TARS（豆包）——通用 GUI/浏览器 Agent 模型层，可视为底层能力对标而非产品形态对标"
+   ],
+   "scene_tags": [
+    "浏览器Agent",
+    "计算机使用Agent",
+    "无API遗留系统自动化",
+    "后台运营自动化",
+    "人在环护栏",
+    "门户数据录入",
+    "自愈流程",
+    "用量计费SaaS"
+   ],
+   "archive": "companies/asteroid.md",
+   "researched_at": "2026-07-11",
+   "research_status": "researched"
   },
   {
    "num": 867,
@@ -22804,12 +23110,68 @@
    "one_liner_zh": "专用的 AI 重排序器与向量嵌入",
    "tier": "B",
    "triage_reason": "专用 AI 重排序器与向量嵌入，检索",
-   "status": "card",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-11",
+   "funding": [
+    {
+     "round": "种子轮 Seed",
+     "amount": "420万美元（约 4.2M USD，累计约 4.4M）",
+     "date": "2025-07-09",
+     "source_url": "https://techcrunch.com/2025/07/09/moroccan-founder-raises-4-2m-for-her-yc-backed-startup-building-the-next-layer-of-ai-search/"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "Vera Health（医疗）",
+     "confidence": "中",
+     "source_url": "https://zeroentropy.dev/articles/zeroentropy-raises-4-2m-seed-round-to-make-ai-retrieval-truly-intelligent/"
+    },
+    {
+     "name": "Equall（法律）",
+     "confidence": "中",
+     "source_url": "https://zeroentropy.dev/articles/zeroentropy-raises-4-2m-seed-round-to-make-ai-retrieval-truly-intelligent/"
+    },
+    {
+     "name": "Assembled（客服/支持）",
+     "confidence": "中",
+     "source_url": "https://zeroentropy.dev/articles/zeroentropy-raises-4-2m-seed-round-to-make-ai-retrieval-truly-intelligent/"
+    },
+    {
+     "name": "Mem0（AI 记忆层）",
+     "confidence": "中",
+     "source_url": "https://zeroentropy.dev/articles/zeroentropy-raises-4-2m-seed-round-to-make-ai-retrieval-truly-intelligent/"
+    },
+    {
+     "name": "My AskAI（客服 AI）",
+     "confidence": "中",
+     "source_url": "https://zeroentropy.dev/articles/zeroentropy-raises-4-2m-seed-round-to-make-ai-retrieval-truly-intelligent/"
+    },
+    {
+     "name": "turbopuffer（向量数据库，联合技术博客）",
+     "confidence": "高",
+     "source_url": "https://medium.com/@ghitahouiralami/hybrid-search-reranking-in-practice-turbopuffer-zeroentropy-5ceae7200bfc"
+    }
+   ],
+   "cn_benchmarks": [
+    "智源研究院 BGE 系列（BAAI）——国内最主流的开源嵌入 + 重排序模型（bge-reranker），与 zerank/zembed 直接同类，且同为开源可自托管路线",
+    "阿里通义 Qwen3-Embedding / GTE 系列——大厂出品的开源嵌入模型，覆盖多语言检索",
+    "InfiniFlow RAGFlow / 上海稀宇 等 RAG 平台厂商——对标 zsearch 的托管检索一侧（端到端检索管线），但自研模型深度不及 ZeroEntropy"
+   ],
+   "scene_tags": [
+    "重排序器 reranker",
+    "嵌入模型 embedding",
+    "RAG 检索增强",
+    "托管检索 API",
+    "交叉编码器 cross-encoder",
+    "非结构化文档检索"
+   ],
+   "archive": "companies/zeroentropy.md",
+   "researched_at": "2026-07-11",
+   "research_status": "researched"
   },
   {
    "num": 882,
@@ -22823,12 +23185,40 @@
    "one_liner_zh": "面向监管合规的可审计 AI",
    "tier": "B",
    "triage_reason": "面向监管合规的可审计 AI，治理",
-   "status": "card",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-11",
+   "funding": [
+    {
+     "round": "Y Combinator（Winter 2025 批次）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/cardamon"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "合合信息/启信宝、天眼查——企业合规与风险数据侧，但偏工商风险而非法规义务映射",
+    "蚂蚁/合规科技类 RegTech（如同盾、百融）——金融风控合规，缺口在「监管文本→义务」的可解释抽取",
+    "法大大/e签宝等合规工具——偏电子签与流程合规，非监管义务引擎",
+    "制造业侧：赛宝、SGS/TÜV 数字化合规工具、以及各质量管理软件(QMS)厂商的法规库模块"
+   ],
+   "scene_tags": [
+    "可审计AI",
+    "合规副驾",
+    "监管义务映射",
+    "Horizon-Scanning",
+    "缺口分析",
+    "Citation-Backed引用溯源",
+    "人在环复核",
+    "RegTech"
+   ],
+   "archive": "companies/cardamon.md",
+   "researched_at": "2026-07-11",
+   "research_status": "researched"
   },
   {
    "num": 883,
@@ -22918,14 +23308,43 @@
    "one_liner_zh": "面向机械工程师的 AI CAD 智能体",
    "tier": "B",
    "triage_reason": "面向机械工程师的 AI CAD 智能体，研发",
-   "status": "card",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07",
+   "updated": "2026-07-11",
    "card": "companies/B-cards.md",
-   "card_written_at": "2026-07-07"
+   "card_written_at": "2026-07-07",
+   "funding": [
+    {
+     "round": "种子轮 Seed",
+     "amount": "4,100,000 美元",
+     "date": "2025-10-31",
+     "source_url": "https://techcrunch.com/2025/10/31/yc-alum-adam-raises-4-1m-to-turn-viral-text-to-3d-tool-into-ai-copilot/"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "中望软件 ZWCAD/中望3D——国产 CAD 龙头，已在 CAD 中引入 AI 辅助绘图/命令，几何内核自主可控，是最贴近的国产对标",
+    "华天软件 CrownCAD——云原生国产三维 CAD，自研几何内核，适合承接『云端 + AI 生成参数化几何』路线",
+    "浩辰 CAD（Gstarsoft）——二维为主的国产 CAD，AI 更多在图纸辅助层面",
+    "新迪数字（原 SolidWorks 中国团队背景）——三维 CAD 与云 CAD 方向可承接 AI 建模",
+    "对标视角补充：Adam 的差异点是『text/image → 参数化 + 智能体操作既有 CAD』，国内目前多为在自家 CAD 内嵌 AI 命令助手，尚缺独立的 text-to-CAD 智能体层"
+   ],
+   "scene_tags": [
+    "text-to-CAD",
+    "生成式CAD",
+    "CAD智能体/Copilot",
+    "参数化建模自动化",
+    "机械设计提效",
+    "Onshape集成",
+    "OpenSCAD代码生成",
+    "3D打印就绪"
+   ],
+   "archive": "companies/adam.md",
+   "researched_at": "2026-07-11",
+   "research_status": "researched"
   },
   {
    "num": 888,
@@ -22939,12 +23358,49 @@
    "one_liner_zh": "面向半导体的粒子加速器光刻",
    "tier": "B",
    "triage_reason": "半导体粒子加速器光刻，硬科技",
-   "status": "card",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-11",
+   "funding": [
+    {
+     "round": "Seed / YC",
+     "amount": "500,000 美元",
+     "date": "2025-03",
+     "source_url": "https://www.trysignalbase.com/news/funding/inversion-semiconductor-raises-500k"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "Tesla（探索性接触，非确认客户）",
+     "confidence": "低",
+     "source_url": "https://www.ycombinator.com/launches/Mqu-inversion-semiconductor-scaling-chips-to-their-physical-limits"
+    },
+    {
+     "name": "Applied Materials（对 x 射线成像/掩模检测应用感兴趣，探索性）",
+     "confidence": "低",
+     "source_url": "https://www.ycombinator.com/launches/Mqu-inversion-semiconductor-scaling-chips-to-their-physical-limits"
+    }
+   ],
+   "cn_benchmarks": [
+    "上海微电子 SMEE：国产光刻机整机唯一主力，仍在攻 28nm 及以下浸没式，EUV 整机尚是空白——Inversion 打的正是它上不去的 EUV 光源环节",
+    "清华大学 SSMB-EUV（稳态微聚束）：清华与业界推进的加速器基 EUV 光源方案，与 Inversion 的'加速器造 EUV 光'属同一大方向，是国内最对口的技术对标",
+    "中科院上海光机所 / 强场激光物理：国内 LWFA（激光尾场加速）与超强超短激光的主力研究单位，对应 Inversion 的核心加速器技术",
+    "华为/长江存储等被 EUV 管制卡住的先进制程需求方：他们是国产 EUV 光源一旦成熟的天然拉动方"
+   ],
+   "scene_tags": [
+    "EUV光源",
+    "激光尾场加速LWFA",
+    "先进光刻设备",
+    "卡脖子硬科技",
+    "加速器小型化",
+    "半导体设备国产替代"
+   ],
+   "archive": "companies/inversion-semiconductor.md",
+   "researched_at": "2026-07-11",
+   "research_status": "researched"
   },
   {
    "num": 889,
@@ -23225,12 +23681,52 @@
    "one_liner_zh": "面向 AI 智能体的电话/社交基础设施",
    "tier": "B",
    "triage_reason": "面向 AI 智能体的电话/社交基础设施",
-   "status": "card",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-11",
+   "funding": [
+    {
+     "round": "Pre-Seed",
+     "amount": "约 50 万美元（$500K）",
+     "date": "2025-03-12",
+     "source_url": "https://www.crunchbase.com/funding_round/a1base-pre-seed--ec1d37ed"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "UT Austin（『Rate My Rent』租房评分工具）",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/a1zap-by-a1base"
+    },
+    {
+     "name": "Harvard（群配对/matchmaker 工具）",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/a1zap-by-a1base"
+    },
+    {
+     "name": "校园铺开名单：Texas A&M / Oregon State / UMich / UNSW / UTS 等",
+     "confidence": "低",
+     "source_url": "https://www.ycombinator.com/companies/a1zap-by-a1base"
+    }
+   ],
+   "cn_benchmarks": [
+    "阿里云通信 / 腾讯云通信（CPaaS：短信、语音、号码，可作为 Agent 对外通道底座，但缺『Agent 可信身份』这层语义）",
+    "容联云、玻森/环信等云通讯厂商（企业级消息/客服通道，正探索与 AI Agent 结合）",
+    "企业微信/钉钉开放平台（国内 Agent 对外沟通更可能走这两大 IM 生态的机器人/身份体系，而非独立电话号）"
+   ],
+   "scene_tags": [
+    "Agent 可信身份",
+    "对外通信通道",
+    "免垃圾/反诈信任层",
+    "Agent 即数字员工",
+    "创作即分发"
+   ],
+   "archive": "companies/a1base.md",
+   "researched_at": "2026-07-11",
+   "research_status": "researched"
   },
   {
    "num": 900,
@@ -23301,12 +23797,37 @@
    "one_liner_zh": "无需改代码的 LLM 可观测性",
    "tier": "B",
    "triage_reason": "无需改代码的 LLM 可观测性",
-   "status": "card",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-11",
+   "funding": [
+    {
+     "round": "Pre-Seed",
+     "amount": "约 $500,000（Crunchbase 口径，YC 标准投资）",
+     "date": "2025-03-12",
+     "source_url": "https://www.crunchbase.com/funding_round/sublingual-pre-seed--b13513ea"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "国内 LLM 应用可观测目前多由大模型平台/MLOps 厂商附带提供，尚无与 Sublingual 完全对位的独立「零代码本地可观测」创业公司；相近方向可参照阿里云百炼、火山方舟等平台内置的调用追踪/评测能力（平台绑定、非独立开源工具）",
+    "开源可观测基座层面，国内团队多基于 OpenTelemetry / Langfuse 自建，或使用 LangSmith 等海外工具，缺少『pip 一行、本地留存』这种极简本地化产品",
+    "评测/监控偏应用侧的国内玩家更多是模型评测与 Agent 调试工具方向（多为大厂内部平台或早期项目），成熟独立商业产品稀缺"
+   ],
+   "scene_tags": [
+    "LLM可观测性",
+    "零代码接入",
+    "本地优先/数据不出域",
+    "自动prompt模板发现",
+    "开发者工具",
+    "LLM调用审计"
+   ],
+   "archive": "companies/sublingual.md",
+   "researched_at": "2026-07-11",
+   "research_status": "researched"
   },
   {
    "num": 904,
@@ -23412,12 +23933,91 @@
    "one_liner_zh": "AI 原生的企业集成搭建器",
    "tier": "B",
    "triage_reason": "AI 原生企业集成搭建器",
-   "status": "card",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-11",
+   "funding": [
+    {
+     "round": "Pre-Seed / YC",
+     "amount": "未披露（YC 标准投资，通常约 $500K）",
+     "date": "2025-03",
+     "source_url": "https://www.ycombinator.com/companies/superglue"
+    },
+    {
+     "round": "Seed",
+     "amount": "未披露（第三方数据平台估累计约 $500K+，未经官方确认）",
+     "date": "2025",
+     "source_url": "https://startupintros.com/orgs/superglue"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "Cedar（YC 创业公司，客户 onboarding 加速案例，官网具名 case study）",
+     "confidence": "高",
+     "source_url": "https://superglue.ai/"
+    },
+    {
+     "name": "某 Sage VAR 合作伙伴（40 个 Sage Intacct 固定费用实施项目，迁移工时降约 80%）",
+     "confidence": "中",
+     "source_url": "https://superglue.ai/"
+    },
+    {
+     "name": "某欧洲头部在线交易市场（让多系统企业数据可被其 AI 工具读取）",
+     "confidence": "中",
+     "source_url": "https://superglue.ai/"
+    },
+    {
+     "name": "Google（官网 logo 墙）",
+     "confidence": "中",
+     "source_url": "https://superglue.ai/"
+    },
+    {
+     "name": "Netlify（官网 logo 墙）",
+     "confidence": "中",
+     "source_url": "https://superglue.ai/"
+    },
+    {
+     "name": "Sylvera（官网 logo 墙）",
+     "confidence": "中",
+     "source_url": "https://superglue.ai/"
+    },
+    {
+     "name": "mobile.de（官网 logo 墙）",
+     "confidence": "中",
+     "source_url": "https://superglue.ai/"
+    },
+    {
+     "name": "UCLA（官网 logo 墙，某美国头部高校）",
+     "confidence": "中",
+     "source_url": "https://superglue.ai/"
+    },
+    {
+     "name": "Weave / TicketingHub（官网 logo 墙）",
+     "confidence": "中",
+     "source_url": "https://superglue.ai/"
+    }
+   ],
+   "cn_benchmarks": [
+    "谷云科技 RestCloud —— 国内老牌 iPaaS/ETL 集成中间件，主打企业数据/应用集成，是 superglue「集成层」对标最贴近者，但 AI 原生程度低",
+    "集简云 / 轻流 —— 面向业务侧的低代码集成与连接器平台，对标 superglue 的「无代码打通 SaaS」一面",
+    "数环通、iPaaS 类（如阿里云集成、腾讯轻联）—— 连接器 + 编排，缺少 LLM 自动映射与自愈",
+    "金蝶苍穹 / 用友 BIP 集成平台 —— ERP 大厂自带的集成中台，对标其 ERP 实施与主数据打通场景"
+   ],
+   "scene_tags": [
+    "AI原生集成",
+    "自愈集成/schema漂移检测",
+    "ERP实施Agent",
+    "遗留系统/SOAP打通",
+    "企业数据接入AI(治理)",
+    "自然语言生成集成管线",
+    "客户onboarding自动化"
+   ],
+   "archive": "companies/superglue.md",
+   "researched_at": "2026-07-11",
+   "research_status": "researched"
   },
   {
    "num": 908,
@@ -24225,12 +24825,48 @@
    "one_liner_zh": "编排 AI 编码智能体的 IDE",
    "tier": "B",
    "triage_reason": "编排 AI 编码智能体的 IDE，coding 生态",
-   "status": "card",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B007"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-11",
+   "funding": [
+    {
+     "round": "Seed（YC F24 标准投资 + 天使）",
+     "amount": "未披露确切金额；第三方数据源不一致：Tracxn 记为约 $500K（1 轮，YC）；HumanLayer 招聘页自述『raised over $3M from YC, Pioneer Fund, and angels（含 Guillermo Rauch、Paul Klein 等）』。以自述口径为准约 $3M+，但无独立媒体披露确切数额",
+     "date": "2024",
+     "source_url": "https://www.ycombinator.com/companies/humanlayer/jobs/oBCZzc7-founding-product-engineer"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "Boundary（BAML，YC W23）——创始人 Vaibhav Gupta 具名背书",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/humanlayer"
+    },
+    {
+     "name": "Upstart / Casco / Osmosis / Ambral / Nautilus / Weave / Roadrunner 等（官网 logo 墙）",
+     "confidence": "低",
+     "source_url": "https://www.humanlayer.dev/"
+    }
+   ],
+   "cn_benchmarks": [
+    "编码 Agent/IDE 侧：通义灵码、腾讯 CodeBuddy、字节 Trae、百度 Comate、阿里通义 Lingma——均在做 AI 编码助手/Agent，但少有把『并行多会话编排 + 计划阶段人审』作为主卖点",
+    "human-in-the-loop / Agent 审批中间件：国内暂缺纯对标的独立创业公司；多以各家 Agent 平台（扣子/Coze、百炼、字节 Agent 平台）内嵌审批节点，或 RPA 厂商（影刀、来也）的人工复核环节承载",
+    "面向企业的 Agent 治理/护栏：与国内 AI 中台/MLOps 及信创合规审批流有功能重叠，但方法论化（context engineering、QRSPI）程度不及"
+   ],
+   "scene_tags": [
+    "human-in-the-loop 审批层",
+    "AI Agent 编排 IDE",
+    "上下文工程 context engineering",
+    "并行编码 agent（MULTICLAUDE）",
+    "计划阶段人审 / QRSPI 工作流",
+    "自带密钥 BYOK 商业模式"
+   ],
+   "archive": "companies/humanlayer.md",
+   "researched_at": "2026-07-11",
+   "research_status": "researched"
   },
   {
    "num": 945,
