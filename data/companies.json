@@ -21957,14 +21957,41 @@
    "subcategory": "",
    "one_liner_en": "Managed influencer marketing for brands",
    "one_liner_zh": "面向品牌的托管式达人营销",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B005"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-11",
+   "funding": [
+    {
+     "round": "YC + 种子",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/beluga"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "巨量星图（字节/抖音官方达人营销撮合平台，偏工具/撮合，非全托管）",
+    "蒲公英（小红书官方达人合作平台，同为撮合+交易，托管程度低）",
+    "微播易（老牌社会化媒体/达人营销交易与代运营平台，最接近『半托管+数据匹配』）",
+    "达人营销/MCN 代运营服务商（如各类效果营销代理），对应 Beluga 的『全托管人力代运营』部分"
+   ],
+   "scene_tags": [
+    "达人营销托管",
+    "KOC/网红投放",
+    "营销归因看板",
+    "数据化人货匹配",
+    "内容种草留资",
+    "按月订阅服务化",
+    "创作者经济后台"
+   ],
+   "archive": "companies/beluga-labs.md",
+   "researched_at": "2026-07-11",
+   "research_status": "researched"
   },
   {
    "num": 751,
@@ -22487,14 +22514,40 @@
    "subcategory": "",
    "one_liner_en": "AI sales coworker for industrial teams",
    "one_liner_zh": "面向工业团队的 AI 销售同事",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B005"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-11",
+   "funding": [
+    {
+     "round": "YC / Pre-Seed",
+     "amount": "约 $500K（多为 YC 标准投资口径，未见独立轮次官方披露）",
+     "date": "2025",
+     "source_url": "https://getlatka.com/companies/kanava.ai"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "探迹科技——以销售智能与智能外呼切入 B2B 获客，垂直行业销售 Agent 打法可对标",
+    "百应科技 / 循环智能——智能语音外呼与会话式 AI，语音承接来电/外呼的能力对标",
+    "深维智信 Megaview——销售会话智能与话术辅导，对应 Kanava『学习顶尖销售、辅导团队』的进阶路线",
+    "思必驰 / 容联云——语音识别与呼叫中心 AI 底座，对应其语音交互与集成层"
+   ],
+   "scene_tags": [
+    "语音AI销售代表",
+    "实时ERP/CRM集成",
+    "分销商来电自动化",
+    "RAG交易型工单",
+    "老龄化用工缺口替代",
+    "沉睡客户激活"
+   ],
+   "archive": "companies/kanava-ai.md",
+   "researched_at": "2026-07-11",
+   "research_status": "researched"
   },
   {
    "num": 768,
@@ -23773,14 +23826,68 @@
    "subcategory": "",
    "one_liner_en": "AI revenue ops for autonomous CRMs",
    "one_liner_zh": "面向自主 CRM 的 AI 营收运营",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-11",
+   "funding": [
+    {
+     "round": "Seed",
+     "amount": "$2.8M",
+     "date": "2026-06-16",
+     "source_url": "https://natlawreview.com/press-releases/ergo-raises-28m-build-revenue-infrastructure-ai-native-era"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "Rho",
+     "confidence": "高",
+     "source_url": "https://natlawreview.com/press-releases/ergo-raises-28m-build-revenue-infrastructure-ai-native-era"
+    },
+    {
+     "name": "Retell AI",
+     "confidence": "高",
+     "source_url": "https://natlawreview.com/press-releases/ergo-raises-28m-build-revenue-infrastructure-ai-native-era"
+    },
+    {
+     "name": "Corgi",
+     "confidence": "高",
+     "source_url": "https://natlawreview.com/press-releases/ergo-raises-28m-build-revenue-infrastructure-ai-native-era"
+    },
+    {
+     "name": "Greptile",
+     "confidence": "高",
+     "source_url": "https://natlawreview.com/press-releases/ergo-raises-28m-build-revenue-infrastructure-ai-native-era"
+    },
+    {
+     "name": "Whop",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/ergo"
+    }
+   ],
+   "cn_benchmarks": [
+    "循环智能（对话捕获+销售赋能，已被字节收购，思路最接近）",
+    "深维智能 Deepshare / 会话智能类厂商（会议与通话洞察）",
+    "销售易、纷享销客（国产 CRM，正在叠加 AI 自动录入与营收智能）",
+    "腾讯企点/企业微信侧的会话存档+AI（渠道捕获底座）"
+   ],
+   "scene_tags": [
+    "对话捕获",
+    "CRM自动更新",
+    "营收智能",
+    "统一数据层",
+    "成交风险预警",
+    "自动跟进",
+    "销售预测与辅导",
+    "人机共享上下文"
+   ],
+   "archive": "companies/ergo.md",
+   "researched_at": "2026-07-11",
+   "research_status": "researched"
   },
   {
    "num": 808,
@@ -24057,14 +24164,52 @@
    "subcategory": "",
    "one_liner_en": "AI-native ATS and CRM for recruiters",
    "one_liner_zh": "面向招聘的 AI 原生 ATS 与 CRM",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-11",
+   "funding": [
+    {
+     "round": "种子轮（Seed）",
+     "amount": "320 万美元",
+     "date": "2026-03-27",
+     "source_url": "https://spott.io/resources/spott-raises-3-2m-to-launch-first-ai-native-platform-for-recruitment-firms"
+    },
+    {
+     "round": "YC 标准投资",
+     "amount": "50 万美元",
+     "date": "2025",
+     "source_url": "https://www.aibase.com/news/18420"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "Stanton Chase（全球高管猎头机构）",
+     "confidence": "高",
+     "source_url": "https://spott.io/resources/spott-raises-3-2m-to-launch-first-ai-native-platform-for-recruitment-firms"
+    }
+   ],
+   "cn_benchmarks": [
+    "北森（Beisen，一体化 HR SaaS，含招聘管理 ATS）",
+    "Moka（AI 原生招聘管理系统，主打智能招聘）",
+    "猎聘/猎头云、i人事、Boss 直聘企业版（招聘 SaaS + 人才 CRM 方向）"
+   ],
+   "scene_tags": [
+    "AI原生ATS",
+    "猎头/派遣机构SaaS",
+    "向量语义人才检索",
+    "通话转录与AI记笔记",
+    "统一沟通收件箱Unibox",
+    "候选人报告自动生成",
+    "招聘全工作流Agent"
+   ],
+   "archive": "companies/spott.md",
+   "researched_at": "2026-07-11",
+   "research_status": "researched"
   },
   {
    "num": 817,
@@ -24171,14 +24316,40 @@
    "subcategory": "",
    "one_liner_en": "AI SEO for ecommerce brands",
    "one_liner_zh": "面向电商品牌的 AI SEO/GEO",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-11",
+   "funding": [
+    {
+     "round": "未披露（YC W25 backed）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/wildcard"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "暂无严格同类（电商 GEO/AEO 平台）国内成熟对标",
+    "相邻参照：电商代运营/PIM 富化（如宝尊、若羽臣的数据运营；数商云等 PIM 服务商）",
+    "相邻参照：AI 搜索优化萌芽——部分 SEO/内容营销服务商开始试水「AI 搜索被引用率」优化"
+   ],
+   "scene_tags": [
+    "GEO 生成式引擎优化",
+    "AEO 答案引擎优化",
+    "AI 导购可见性",
+    "产品结构化属性富化",
+    "SKU 级 AI 监测",
+    "站外可发现性（Reddit/YouTube）",
+    "Agentic Commerce 结账协议(ACP/UCP)"
+   ],
+   "archive": "companies/wildcard.md",
+   "researched_at": "2026-07-11",
+   "research_status": "researched"
   },
   {
    "num": 821,
@@ -24292,14 +24463,41 @@
    "subcategory": "",
    "one_liner_en": "Real-time speech translation and AI dubbing",
    "one_liner_zh": "实时语音翻译与 AI 配音",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-11",
+   "funding": [
+    {
+     "round": "Y Combinator（W25）/ Pre-seed",
+     "amount": "约 $500K",
+     "date": "2025",
+     "source_url": "https://tracxn.com/d/companies/pinch/__NGJEBpB5oLhm0PIi7XajYk5LbR5CZ9zevPVPXfIn5fo"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "讯飞听见/科大讯飞同传（会议实时翻译、字幕，国内落地成熟，但音色保留与配音能力弱于 Pinch）",
+    "网易见外 / 网易有道（视频翻译、AI 配音、字幕，偏内容本地化）",
+    "腾讯会议 AI 小助手 / 腾讯同传（会中实时翻译，绑定自家会议生态）",
+    "字节火山引擎语音（Speech-to-Speech、语音翻译 API，底座层最接近 Pinch 的 API 定位）",
+    "魔珐/出门问问等语音克隆厂商（在保音色 TTS 上有积累，可拼出类似配音能力）"
+   ],
+   "scene_tags": [
+    "跨国会议实时口译",
+    "保音色视频配音",
+    "语音翻译API底座",
+    "桌面端本地转写无机器人",
+    "多语内容本地化",
+    "开发者SDK交付"
+   ],
+   "archive": "companies/pinch.md",
+   "researched_at": "2026-07-11",
+   "research_status": "researched"
   },
   {
    "num": 825,
@@ -24520,14 +24718,41 @@
    "subcategory": "",
    "one_liner_en": "Agentic AI outbound sales platform",
    "one_liner_zh": "智能体式外呼销售平台",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-11",
+   "funding": [
+    {
+     "round": "Pre-seed",
+     "amount": "$2.15M",
+     "date": "未披露（约 2025，YC W25 期间）",
+     "source_url": "https://theaiagentindex.com/agents/fuseai"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "探迹科技（Tungee）——B2B 智能销售全流程，线索挖掘+触达+CRM，最贴近的国内对标",
+    "AiseSalesGPT / 火山引擎·智能外呼类——大模型驱动外呼与客服",
+    "硅基智能 / 百应科技——智能语音外呼机器人（偏呼叫中心）",
+    "水滴/销售易等 CRM 厂商叠加的 AI SDR 能力"
+   ],
+   "scene_tags": [
+    "AI SDR",
+    "外呼销售 Agent",
+    "GTM 全栈整合",
+    "意向信号（intent signal）",
+    "网站访客去匿名化",
+    "多渠道自动化触达",
+    "并行拨号"
+   ],
+   "archive": "companies/fuse-ai.md",
+   "researched_at": "2026-07-11",
+   "research_status": "researched"
   },
   {
    "num": 831,
@@ -24596,14 +24821,46 @@
    "subcategory": "",
    "one_liner_en": "Real-time AI copilot for sales calls",
    "one_liner_zh": "面向销售通话的实时 AI 副驾",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-11",
+   "funding": [
+    {
+     "round": "Pre-seed/Seed（含 YC 标准投资）",
+     "amount": "约 $500K（第三方数据库口径，未经公司确认）",
+     "date": "2025-02（Crunchbase 另记 2025-03-12 一轮）",
+     "source_url": "https://www.crunchbase.com/organization/peppr-ai"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "Citrix",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/peppr-ai"
+    }
+   ],
+   "cn_benchmarks": [
+    "深维智信 Megaview（会话智能/销售 SaaS，偏事后分析与教练，实时侧较弱）",
+    "循环智能 Circular（对话数据+大模型，销售会话洞察，近年转 AGI 应用）",
+    "百应科技/容联云等智能客服·外呼厂商（实时话术辅助更偏呼叫中心场景）",
+    "腾讯企点/销售易等 CRM 自带的 AI 助手（通话/沟通辅助为附加能力，非专注实时副驾）"
+   ],
+   "scene_tags": [
+    "实时销售副驾",
+    "通话中知识接地",
+    "技术型问答秒答",
+    "知识库自更新",
+    "销售使能可见性",
+    "售前/技术销售提效"
+   ],
+   "archive": "companies/peppr.md",
+   "researched_at": "2026-07-11",
+   "research_status": "researched"
   },
   {
    "num": 835,
@@ -24784,14 +25041,41 @@
    "subcategory": "",
    "one_liner_en": "AI support team for customer service",
    "one_liner_zh": "面向客服的 AI 支持团队",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-11",
+   "funding": [
+    {
+     "round": "Pre-Seed/Seed（各库口径不一）",
+     "amount": "500K 美元",
+     "date": "2025（VCBacked 记为 2025-03）",
+     "source_url": "https://www.crunchbase.com/organization/calltree-ai"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "循环智能（Recurrent AI）——会话智能/坐席实时辅助与质检，最接近 Calltree「分析通话找低效」一侧",
+    "追一科技（Zhuiyi）——智能客服/智能外呼/坐席辅助，对话式 AI 客服代表厂商",
+    "中关村科金·得助智能——大模型客服一体机+联络中心，覆盖语音与工具打通",
+    "容联云（Ronglian）——云联络中心 CPaaS + 智能客服，贴近呼叫中心基础设施层",
+    "智齿科技（Sobot）/晓多科技——在线客服与电商客服机器人（营销销售客服侧对标）"
+   ],
+   "scene_tags": [
+    "呼叫中心/联络中心",
+    "AI语音坐席",
+    "内部工具打通(CRM/工单)",
+    "坐席流程挖掘",
+    "客服opex量化降本",
+    "售后与保修话务"
+   ],
+   "archive": "companies/calltree-ai.md",
+   "researched_at": "2026-07-11",
+   "research_status": "researched"
   },
   {
    "num": 843,
@@ -24860,14 +25144,46 @@
    "subcategory": "",
    "one_liner_en": "AI voice agents for hotels",
    "one_liner_zh": "面向酒店的 AI 语音智能体",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-11",
+   "funding": [
+    {
+     "round": "Pre-Seed",
+     "amount": "约 50 万美元（$500K，含 YC 标准投资）",
+     "date": "2025",
+     "source_url": "https://pitchbook.com/profiles/company/739926-55"
+    },
+    {
+     "round": "YC W25",
+     "amount": "未披露（YC 标准 $125K/$375K SAFE，未单独确认）",
+     "date": "2025-01",
+     "source_url": "https://www.ycombinator.com/companies/riviera"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "百应科技/容联云·诸葛智能等『AI 语音外呼+呼入』厂商（通用智能客服语音，未垂直酒店，但技术栈同源）",
+    "思必驰/云知声（语音识别合成+行业对话，可做酒店/物业语音，偏底层能力供给）",
+    "石基信息（中国酒店 PMS 龙头，若叠加 AI 语音即为 Riviera 的『系统集成方+渠道』对标，反向情报价值高）",
+    "跨境电商/出海客服赛道的 SaaS（如做多语种智能客服的厂商），对应其多语种卖点"
+   ],
+   "scene_tags": [
+    "多语种语音Agent",
+    "7×24电话入口",
+    "前台/客服替代",
+    "PMS系统集成",
+    "按私有数据训练的语音模型",
+    "漏接营收挽回"
+   ],
+   "archive": "companies/riviera.md",
+   "researched_at": "2026-07-11",
+   "research_status": "researched"
   },
   {
    "num": 847,
@@ -25130,14 +25446,60 @@
    "subcategory": "",
    "one_liner_en": "AEO and GEO command center",
    "one_liner_zh": "AEO/GEO 指挥中心",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-11",
+   "funding": [
+    {
+     "round": "Seed（含 YC，官方口径总融资 2.7M）",
+     "amount": "2,200,000 美元（本轮公布额；累计约 2.7M）",
+     "date": "2025-07-07",
+     "source_url": "https://www.marketingtechnews.net/news/athena-raises-2m-to-track-how-brands-appear-in-ai-responses/"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "Coupons.com",
+     "confidence": "中",
+     "source_url": "https://www.marketingtechnews.net/news/athena-raises-2m-to-track-how-brands-appear-in-ai-responses/"
+    },
+    {
+     "name": "Checkr",
+     "confidence": "中",
+     "source_url": "https://www.marketingtechnews.net/news/athena-raises-2m-to-track-how-brands-appear-in-ai-responses/"
+    },
+    {
+     "name": "Artisan",
+     "confidence": "中",
+     "source_url": "https://www.marketingtechnews.net/news/athena-raises-2m-to-track-how-brands-appear-in-ai-responses/"
+    },
+    {
+     "name": "Ollie",
+     "confidence": "中",
+     "source_url": "https://www.marketingtechnews.net/news/athena-raises-2m-to-track-how-brands-appear-in-ai-responses/"
+    }
+   ],
+   "cn_benchmarks": [
+    "国内暂无严格对标的成规模 GEO/AEO 指挥中心，但可类比：传统 SEO/口碑监测厂商（如识微科技、鹰眼舆情、蚁坊软件的品牌监测）向「AI 搜索可见度」延伸的方向；营销云/内容营销侧（如玄武云、卫瓴科技）在私域内容分发上的能力可迁移。",
+    "生成式搜索本身的国内主场是豆包、文心一言、Kimi、DeepSeek、腾讯元宝、百度 AI 搜索——真正的国内对标应是『针对这些国产大模型/AI 搜索做品牌可见度监测与优化』的工具，目前仍是空白/极早期。"
+   ],
+   "scene_tags": [
+    "生成引擎优化GEO",
+    "答案引擎优化AEO",
+    "AI搜索可见度",
+    "品牌情报监测",
+    "幻觉检测",
+    "营销copilot",
+    "竞品情报"
+   ],
+   "archive": "companies/athenahq.md",
+   "researched_at": "2026-07-11",
+   "research_status": "researched"
   },
   {
    "num": 858,
@@ -25149,14 +25511,56 @@
    "subcategory": "",
    "one_liner_en": "Operations data platform for RevOps teams",
    "one_liner_zh": "面向 RevOps 团队的运营数据平台",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-11",
+   "funding": [
+    {
+     "round": "YC W25（种子）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/lopus-ai"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "Alphie（CEO Yura Riphyak 官网证言）",
+     "confidence": "中",
+     "source_url": "https://lopus.ai/"
+    },
+    {
+     "name": "Wako AI（创始人 Ari Ramsan 官网证言）",
+     "confidence": "中",
+     "source_url": "https://lopus.ai/"
+    },
+    {
+     "name": "Corgi（GTM Lead Russell 官网证言）",
+     "confidence": "中",
+     "source_url": "https://lopus.ai/"
+    }
+   ],
+   "cn_benchmarks": [
+    "观远数据（Guandata）——BI+AI 决策，主打指标平台与 Copilot，零售/消费领先，正切制造",
+    "数势科技（ShuShi）——指标平台+数据分析 Agent『SwiftAgent』，与 Lopus 语义层+自助问答思路最接近",
+    "Kyligence 跬智——指标平台 + AI 数智助理，企业级指标口径治理",
+    "帆软 FineBI / DataFocus——自助式 BI + 自然语言查询，制造业客户基数大",
+    "神策数据 / 网易有数——用户行为与经营分析，覆盖 GTM 数据整合"
+   ],
+   "scene_tags": [
+    "语义层/指标口径治理",
+    "RevOps自助分析",
+    "数据血缘回溯",
+    "指标异动根因告警",
+    "自然语言问数"
+   ],
+   "archive": "companies/lopus-ai.md",
+   "researched_at": "2026-07-11",
+   "research_status": "researched"
   },
   {
    "num": 859,
@@ -25566,14 +25970,82 @@
    "subcategory": "",
    "one_liner_en": "AI real-time translator for global teams",
    "one_liner_zh": "面向全球团队的 AI 实时翻译",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-11",
+   "funding": [
+    {
+     "round": "Seed",
+     "amount": "$1.8M",
+     "date": "2025-11",
+     "source_url": "https://www.thesaasnews.com/news/cuckoo-raises-1-8-million-in-seed-round"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "Snowflake",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/cuckoo-labs"
+    },
+    {
+     "name": "PagerDuty",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/cuckoo-labs"
+    },
+    {
+     "name": "Weights & Biases",
+     "confidence": "中",
+     "source_url": "https://www.thesaasnews.com/news/cuckoo-raises-1-8-million-in-seed-round"
+    },
+    {
+     "name": "ClickHouse",
+     "confidence": "低",
+     "source_url": "https://www.ycombinator.com/companies/cuckoo-labs"
+    },
+    {
+     "name": "dbt Labs",
+     "confidence": "低",
+     "source_url": "https://www.ycombinator.com/companies/cuckoo-labs"
+    },
+    {
+     "name": "SeAH Steel（世亚制钢，制造业）",
+     "confidence": "低",
+     "source_url": "https://www.ycombinator.com/companies/cuckoo-labs"
+    },
+    {
+     "name": "GS（零售）",
+     "confidence": "低",
+     "source_url": "https://www.ycombinator.com/companies/cuckoo-labs"
+    },
+    {
+     "name": "SNOMED（医疗）",
+     "confidence": "低",
+     "source_url": "https://www.ycombinator.com/companies/cuckoo-labs"
+    }
+   ],
+   "cn_benchmarks": [
+    "讯飞听见 / 科大讯飞同传（会议实时转写 + 翻译，术语库定制，最贴近 Cuckoo 的会议口译定位）",
+    "时空壶 Timekettle（AI 同传耳机 / 硬件为主，覆盖线下面对面与会议场景）",
+    "腾讯会议 / 飞书妙记内置实时翻译字幕（大厂协作套件内嵌，通用而非垂直定制）",
+    "网易有道 / 有道翻译（通用翻译，会议同传方向延伸）"
+   ],
+   "scene_tags": [
+    "会议实时口译",
+    "出海跨语言协作",
+    "文档喂入术语定制",
+    "会议bot",
+    "现场收音同传",
+    "GTM销售营销客服",
+    "跨国供应链谈判"
+   ],
+   "archive": "companies/cuckoo-labs.md",
+   "researched_at": "2026-07-11",
+   "research_status": "researched"
   },
   {
    "num": 874,
@@ -26137,14 +26609,55 @@
    "subcategory": "",
    "one_liner_en": "AI workforce for residential roofing sales",
    "one_liner_zh": "面向住宅屋顶销售的 AI 数字员工",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-11",
+   "funding": [
+    {
+     "round": "Seed / YC 标准投资",
+     "amount": "约 500K 美元（$500K）",
+     "date": "2025-03-05",
+     "source_url": "https://startupintros.com/orgs/maive"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "Vertex Service Partners",
+     "confidence": "中",
+     "source_url": "https://www.maive.ai/"
+    },
+    {
+     "name": "Panda Exteriors",
+     "confidence": "中",
+     "source_url": "https://www.maive.ai/"
+    },
+    {
+     "name": "Findlay Roofing",
+     "confidence": "中",
+     "source_url": "https://www.maive.ai/"
+    }
+   ],
+   "cn_benchmarks": [
+    "深维智信 Megaview（会话智能/销售赋能龙头，录音转写+剧本打分+销售陪练）",
+    "循环智能（对话情报与销售 AI，会话洞察+话术推荐）",
+    "尘锋 SCRM / 微丰等（销售过程管理与话术赋能，偏 SCRM 侧）"
+   ],
+   "scene_tags": [
+    "会话智能",
+    "销售陪练/赋能",
+    "成交即付费(outcome-based pricing)",
+    "蓝领/小微垂直SaaS",
+    "现场/上门销售(field sales)",
+    "保险理赔谈判"
+   ],
+   "archive": "companies/maive.md",
+   "researched_at": "2026-07-11",
+   "research_status": "researched"
   },
   {
    "num": 892,
