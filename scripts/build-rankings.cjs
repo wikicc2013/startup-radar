@@ -31,10 +31,13 @@ function parseAmt(a) {
   return 0;
 }
 const amountLabel = a => String(a || '').split(/[（(]/)[0].trim();
-function bestFunding(x) { // 取金额最大的一条
+function bestFunding(x) { // 取金额最大的一条「融资轮」（排除并购/收购/退出对价，避免把退出价当融资）
   let best = null, bv = -1;
-  for (const f of (x.funding || [])) { const v = parseAmt(f.amount); if (v > bv) { bv = v; best = f; } }
-  return best ? { f: best, usd: bv } : null;
+  for (const f of (x.funding || [])) {
+    if (/并购|收购|退出|acquired|acquisition|IPO|上市/i.test(f.round || '')) continue;
+    const v = parseAmt(f.amount); if (v > bv) { bv = v; best = f; }
+  }
+  return best && bv > 0 ? { f: best, usd: bv } : null;
 }
 // 融资榜
 const fundRank = reviewed.map(x => { const b = bestFunding(x); return b && b.usd > 0 ? { x, usd: b.usd, f: b.f } : null; })
