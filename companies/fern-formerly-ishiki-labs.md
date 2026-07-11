@@ -1,0 +1,47 @@
+# Fern (Formerly Ishiki Labs)
+
+- **批次来源**：B002 / YC Winter 2026 (W26) Launch
+- **入库日期**：2026-07-07 ｜ **深研日期**：2026-07-11 ｜ **再现记录**：B002
+- **一句话定位**：Realtime AI starting with sales（从销售切入的实时 AI）
+- **官网/锚定**：https://www.ycombinator.com/companies/ishikilabs
+- **深研状态**：researched（锚定确切。正式实体为 Ishiki Labs, Inc.（YC W26，2025 年成立），产品名 Fern。2025 年 11 月 Launch YC 时定位为「Realtime Socially Aware AI for Meetings，从销售场景切入」。但截至 2026 年 7 月，官网 ishikilabs.ai 已 307 跳转至 www.fern.bot，页面主张变为「Physical AI Platform / 高保真机器人世界模型，用于评估与训练机器人策略」——同一实体（Ishiki Labs, Inc.），疑似从『会议/销售实时 AI』转向/扩展到『具身智能·世界模型』赛道，且 YC 目录同时存在会议助手与 physical AI 两条描述。当前主线存在不确定性，本档案以其原始销售定位为主、附注疑似转向。）
+
+## 公司画像
+- **团队**：两位联合创始人。Amit Yadav（CEO）：Purdue 大学 AI 方向博士，曾任 Meta AI 研究科学家——先在 LLaMA 团队训练多模态大模型，后在 Reality Labs 为智能眼镜（Orion AR）训练视频助手；CVPR/NeurIPS/ICASSP 等顶会 20+ 篇论文。Robert Xu（CTO）：曾在 Meta Reality Labs 负责系统/基础设施，参与 Orion AR 眼镜的多模态低延迟系统；此前在 Citadel Securities 做研究基础设施，约 4 年低延迟多模态系统经验。均为多模态/端侧/低延迟背景。
+- **成立/批次**：2025
+- **地点**：未披露（YC 页面未列明，推测美国旧金山湾区）
+- **产品**：Fern：实时、社交语境感知的 AI 会议助手，原始切入点为销售场景。两种模式：①Full Presence（全在场）——作为可见参与者加入会议，被点名时发表观点、做调研、执行记笔记/发邮件等任务，面向内部产品/工程/战略会；②Shadow Mode（影子模式）——对其他人不可见，仅给使用者私有实时信息流：现场纪要、建议追问的问题、上下文情报、对对方参会者的洞察，面向客户电话/投资人会谈/敏感对话。核心主张是让销售/创始人/招聘/投资等『高风险对话』中任何人都能表现得像 top 1% 专业人士，等于在每通电话背后配一位资深销售总监做实时提示。均含会后纪要、转录与洞察。技术难点为『隐形助手需以极低延迟理解现场语境并在正确时刻推正确内容』。（注：官网现已转向机器人世界模型，见 status_note）
+- **商业模式**：未正式披露。原始定位指向 B2B SaaS，参照销售赋能/对话智能市场（Gong 等），可行路径为按席位或团队订阅收费。转向 physical AI 后商业模式（面向机器人策略训练客户的世界模型服务）未披露。
+- **竞争格局**：销售/会议助手方向：Gong、Chorus（ZoomInfo）等对话智能；实时提词/销售 copilot 类如 Attention、Nooks、Cresta、以及 Otter、Fireflies、Read AI 等会议助手，微软 Copilot/Zoom AI Companion 亦覆盖。转向的 physical AI 世界模型方向：NVIDIA Cosmos、Google DeepMind Genie、World Labs（李飞飞）等巨头与新锐。
+
+## 融资
+| 轮次 | 金额 | 时间 | 来源 |
+|---|---|---|---|
+| 未披露 | 未披露 | 未披露 | [链接](https://www.ycombinator.com/companies/ishikilabs) |
+
+## 早期客户信号
+| 客户 | 置信度 | 来源 |
+|---|---|---|
+| 未见公开具名客户（极早期，官网/媒体暂无可采信客户信号） | — | — |
+
+## 转型有术判断
+1. **对制造业客户意味着什么**：对制造业/工业企业而言，Fern 的原始形态（销售场景实时 AI 副驾）直接映射到工业品复杂销售：机床、自动化产线、工业软件、非标设备等客单价高、技术门槛高、销售周期长的 B2B 场景，一线销售常无法即时回答客户关于参数、竞品对比、集成能力的深问。一个『影子模式』的实时助手能在客户电话/现场答疑中后台调取产品规格库、竞品情报、历史成交话术，把新手 FAE/销售拉到资深水平，缩短复杂工业品的谈单周期、降低对少数明星销售的依赖。会后自动纪要+洞察也利于把车间/客户现场的隐性需求结构化沉淀。而其疑似转向的『机器人世界模型（评估/训练机器人策略）』则更贴工业本体——制造业的具身智能落地（上下料、装配、巡检机器人）正卡在真实数据昂贵、策略验证慢上，高保真世界模型正是用仿真放大策略训练与评估的关键基础设施，这条线若成立与智能制造的相关性远高于销售助手线。
+2. **国内对标厂商**：深维智信 Megaview（对话智能/销售会话分析，最接近的对话智能对标）、循环智能 Recurrent AI（销售赋能、销售话术洞察）、会畅通讯/听脑 AI、通义听悟、飞书妙记（会议实时转录+纪要，覆盖会议助手基础层）、（转向线对标）NVIDIA Cosmos 之国内对应：银河通用/星海图/穹彻智能等具身智能公司自建的仿真与世界模型能力
+   > 国内对话智能/销售 SaaS 已有深维智信、循环智能等成熟玩家，但均偏『会后分析+教练复盘』，缺 Fern 强调的『会中隐形实时提示、低延迟社交语境感知』这一层，实时对话副驾在国内尚是空白，主要受限于实时 ASR+大模型的延迟与成本。会议纪要层（飞书妙记、通义听悟）已高度内卷且免费化，单靠转录无差异。若按其疑似转向的机器人世界模型看，国内对标应换成具身智能/仿真赛道玩家，与销售 SaaS 完全不同——这也提示分诊维度（营销销售客服）可能需随其转向重新归类。
+3. **可迁移的干法 / 应进场景词典的词条**：实时对话副驾、销售赋能/对话智能、影子模式实时提示、会中语境感知、会后纪要与洞察、（潜在）机器人世界模型/具身仿真
+   > 可迁移干法：①『影子模式』这一交互范式——AI 只对使用者可见、在关键时刻后台推送而非抢麦——可迁移到任何高压实时人际场景：工业客户答疑、面试、投诉处理、现场谈判、客服升级；本质是把知识库/情报做成『耳边提示器』而非『事后报告』。②低延迟+社交时机感知（在正确时刻说正确的话）是其技术护城河思路，可迁移到工厂现场作业指导、设备巡检口头问答等需实时响应的场景。③其疑似转向印证的方法论：用世界模型/仿真放大稀缺的真实数据来训练与评估策略，可迁移到制造业任何数据昂贵的 AI 落地（机器人、工艺参数寻优、排产策略）。
+4. **风险与存疑点**：①主线方向剧烈漂移风险：从『销售会议实时 AI』到官网现挂『机器人世界模型』，产品定位在极早期即大幅摆动，反映 PMF 未定，跟踪价值与归类都需打问号，不宜此刻当成熟销售赛道标的入档。②竞争夹击：会议助手层被飞书/Zoom/微软等免费内卷，销售 copilot 层被 Gong 及一众新锐占位，若转具身智能则直面 NVIDIA、World Labs 等巨头，两条线都无明显护城河。③极早期信息稀薄：仅两人团队、2025 年成立、无公开融资金额、无披露客户与营收，实时对话助手还有隐私/合规（未告知即录音提示）与延迟成本等落地硬约束。
+
+## 信息来源溯源表
+| 标题 | URL |
+|---|---|
+| Fern (Formerly Ishiki Labs): Proactive AI assistant starting with sales | Y Combinator | https://www.ycombinator.com/companies/ishikilabs |
+| Launch YC: Fern – Realtime Socially Aware AI for Meetings | https://www.ycombinator.com/launches/PTp-fern-realtime-socially-aware-ai-for-meetings |
+| Fern: Enabling physical AI at scale. | Y Combinator | https://www.ycombinator.com/companies/fern-bot |
+| Fern (Physical AI Platform / robot world models) 官网 | https://www.fern.bot/ |
+| Ishiki Labs 官网（现跳转至 fern.bot） | https://ishikilabs.ai/ |
+| Ishiki Labs Launches Fern — Amit Yadav LinkedIn 公告 | https://www.linkedin.com/posts/amit-kumar-singh-yadav_at-ishiki-labs-yc-w26-we-are-building-socially-activity-7430324837748862976-klme |
+| Fern Launches: Realtime Socially Aware AI for Meetings | Fondo | https://fondo.com/blog/fern-launches-nk05v |
+
+---
+> 本档案由本地 /research 深研生成，直通模式 auto。数字与具名事实一律带来源；无来源者标"未披露"，未编造。

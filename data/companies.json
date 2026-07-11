@@ -4555,14 +4555,41 @@
    "subcategory": "",
    "one_liner_en": "AI takeoffs for concrete",
    "one_liner_zh": "混凝土工程量 AI 算量",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-11",
+   "funding": [
+    {
+     "round": "YC Spring 2026 (P26/X26)",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/rudus"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "广联达（Glodon）——国内建筑算量/造价软件绝对龙头，GTJ 土建算量、云计价，已在推 AI 算量/AI 审图",
+    "品茗科技（Pinming）——BIM 算量与施工安全，造价算量老牌",
+    "斯维尔（THScloud）、鲁班软件（Luban）——三维算量/BIM 造价第二梯队",
+    "橄榄山、小马智算等 AI 审图/智能算量新势力（对标其 CV 识图路线）"
+   ],
+   "scene_tags": [
+    "AI算量/takeoff",
+    "看图报价",
+    "计算机视觉识图",
+    "投标产能放大",
+    "垂直工种SaaS",
+    "估价副驾驶",
+    "工程BOM自动化"
+   ],
+   "archive": "companies/rudus.md",
+   "researched_at": "2026-07-11",
+   "research_status": "researched"
   },
   {
    "num": 159,
@@ -4631,14 +4658,60 @@
    "subcategory": "Marketing",
    "one_liner_en": "AI CMO for software companies",
    "one_liner_zh": "软件公司的 AI 首席营销官",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-11",
+   "funding": [
+    {
+     "round": "YC Spring 2026（P26/X26）批次投资",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/memoir"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "Datost",
+     "confidence": "中",
+     "source_url": "https://www.trymemoir.ai/"
+    },
+    {
+     "name": "TraceRoot",
+     "confidence": "中",
+     "source_url": "https://www.trymemoir.ai/"
+    },
+    {
+     "name": "Smol Machines",
+     "confidence": "中",
+     "source_url": "https://www.trymemoir.ai/"
+    },
+    {
+     "name": "Zatanna",
+     "confidence": "中",
+     "source_url": "https://www.trymemoir.ai/"
+    }
+   ],
+   "cn_benchmarks": [
+    "Jasper / Copy.ai 的中国同类：出门问问「奇妙文案」、火山引擎/百度等大厂 AIGC 营销文案——通用营销内容生成，但缺 Memoir 的「接研发工具链、以产品真相为源」这一层",
+    "有赞/微盟等营销 SaaS 内嵌的 AI 内容与素材生成——偏电商/私域营销自动化，行业与触点不同",
+    "面向 B2B/工业的内容与线索自动化：致趣百川（BesageAI 系）、径硕科技 JINGdigital——做营销自动化与内容分发，但内容源仍靠人工，未打通产品/研发系统"
+   ],
+   "scene_tags": [
+    "产品真相驱动内容",
+    "研发工具链接入",
+    "多触点内容自动化",
+    "品牌语气学习飞轮",
+    "AI 生成演示视频",
+    "变更事件→对外沟通"
+   ],
+   "archive": "companies/memoir.md",
+   "researched_at": "2026-07-11",
+   "research_status": "researched"
   },
   {
    "num": 163,
@@ -4991,14 +5064,48 @@
    "subcategory": "",
    "one_liner_en": "AI agents for Fortune 500-grade customer support",
    "one_liner_zh": "财富 500 强级别客服的 AI 智能体",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-11",
+   "funding": [
+    {
+     "round": "YC (Spring 2026 / P26)",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/cignara"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "LG",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/launches/QYm-cignara-ai-agents-to-automate-b2c-sales-customer-support"
+    }
+   ],
+   "cn_benchmarks": [
+    "阿里小蜜/阿里云智能客服（大厂客服中台，正在向大模型 agent 化）",
+    "网易七鱼、智齿科技 Sobot（SaaS 客服/联络中心，语音+文本）",
+    "追一科技、容联云（对话式 AI 与云联络中心，语音能力强）",
+    "百度智能云客服 / 火山引擎（语音+大模型 agent，多语言）"
+   ],
+   "scene_tags": [
+    "AI客服agent",
+    "语音agent",
+    "联络中心自动化",
+    "服务转销售",
+    "政策绑定/可治理执行",
+    "人工坐席copilot",
+    "多语言外呼",
+    "售后/保修/退款工作流"
+   ],
+   "archive": "companies/cignara.md",
+   "researched_at": "2026-07-11",
+   "research_status": "researched"
   },
   {
    "num": 181,
@@ -5769,14 +5876,82 @@
    "subcategory": "",
    "one_liner_en": "Platform for precision outbound sales",
    "one_liner_zh": "精准外呼销售平台",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-11",
+   "funding": [
+    {
+     "round": "合计（含 YC 及天使/种子）",
+     "amount": "5,000,000 美元以上（多家二级来源称『raised over $5M from YC, Audacious Ventures 等』；YC 官方页面标注未披露，故置信度中）",
+     "date": "2026",
+     "source_url": "https://yeamt.com/ex-yc-founders-returned-to-build-cardinal-ai-precision-outbound/"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "Mintlify",
+     "confidence": "高",
+     "source_url": "https://www.ycombinator.com/companies/trycardinal-ai"
+    },
+    {
+     "name": "Greptile",
+     "confidence": "高",
+     "source_url": "https://www.ycombinator.com/companies/trycardinal-ai"
+    },
+    {
+     "name": "Luminai",
+     "confidence": "高",
+     "source_url": "https://www.ycombinator.com/companies/trycardinal-ai"
+    },
+    {
+     "name": "Bilanc",
+     "confidence": "中",
+     "source_url": "https://trycardinal.ai/"
+    },
+    {
+     "name": "Voxel Energy",
+     "confidence": "中",
+     "source_url": "https://trycardinal.ai/"
+    },
+    {
+     "name": "Claybird",
+     "confidence": "中",
+     "source_url": "https://trycardinal.ai/"
+    },
+    {
+     "name": "Docsum",
+     "confidence": "中",
+     "source_url": "https://trycardinal.ai/"
+    },
+    {
+     "name": "Kaizen",
+     "confidence": "中",
+     "source_url": "https://trycardinal.ai/"
+    }
+   ],
+   "cn_benchmarks": [
+    "探迹 Tungee（销售线索挖掘+智能外呼，覆盖制造业 To B 获客）",
+    "硅基智能 / 百应 Baiying（AI 外呼机器人，偏电话触达）",
+    "卫瓴科技（企微生态下的营销获客与客户经营）",
+    "AiseSDR 类国内 AI SDR 新锐（对标 Clay/Cardinal 的信号驱动外联）"
+   ],
+   "scene_tags": [
+    "精准外呼",
+    "信号驱动获客",
+    "AI SDR",
+    "ICP 自动构建",
+    "多渠道序列编排",
+    "GTM 工程自动化",
+    "出海线索获取"
+   ],
+   "archive": "companies/cardinalai.md",
+   "researched_at": "2026-07-11",
+   "research_status": "researched"
   },
   {
    "num": 212,
@@ -5807,14 +5982,40 @@
    "subcategory": "",
    "one_liner_en": "Realtime AI starting with sales",
    "one_liner_zh": "从销售切入的实时 AI",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-11",
+   "funding": [
+    {
+     "round": "未披露",
+     "amount": "未披露",
+     "date": "",
+     "source_url": "https://www.ycombinator.com/companies/ishikilabs"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "深维智信 Megaview（对话智能/销售会话分析，最接近的对话智能对标）",
+    "循环智能 Recurrent AI（销售赋能、销售话术洞察）",
+    "会畅通讯/听脑 AI、通义听悟、飞书妙记（会议实时转录+纪要，覆盖会议助手基础层）",
+    "（转向线对标）NVIDIA Cosmos 之国内对应：银河通用/星海图/穹彻智能等具身智能公司自建的仿真与世界模型能力"
+   ],
+   "scene_tags": [
+    "实时对话副驾",
+    "销售赋能/对话智能",
+    "影子模式实时提示",
+    "会中语境感知",
+    "会后纪要与洞察",
+    "（潜在）机器人世界模型/具身仿真"
+   ],
+   "archive": "companies/fern-formerly-ishiki-labs.md",
+   "researched_at": "2026-07-11",
+   "research_status": "researched"
   },
   {
    "num": 214,
@@ -6676,14 +6877,85 @@
    "subcategory": "",
    "one_liner_en": "AI on-call engineer that debugs using data",
    "one_liner_zh": "用数据排障的 AI 值班工程师",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-11",
+   "funding": [
+    {
+     "round": "Pre-Seed / YC W26",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/corelayer"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "Finzly",
+     "confidence": "中",
+     "source_url": "https://www.corelayer.com/"
+    },
+    {
+     "name": "Broadridge",
+     "confidence": "中",
+     "source_url": "https://www.corelayer.com/"
+    },
+    {
+     "name": "Pump",
+     "confidence": "高",
+     "source_url": "https://www.corelayer.com/"
+    },
+    {
+     "name": "Ridery",
+     "confidence": "高",
+     "source_url": "https://www.corelayer.com/"
+    },
+    {
+     "name": "Moda",
+     "confidence": "高",
+     "source_url": "https://www.corelayer.com/"
+    },
+    {
+     "name": "Rilla",
+     "confidence": "中",
+     "source_url": "https://www.corelayer.com/"
+    },
+    {
+     "name": "Hyperspell",
+     "confidence": "中",
+     "source_url": "https://www.corelayer.com/"
+    },
+    {
+     "name": "Ressio",
+     "confidence": "中",
+     "source_url": "https://www.corelayer.com/"
+    }
+   ],
+   "cn_benchmarks": [
+    "观测云（Guance）——一体化可观测平台，正加 AIOps/智能排障能力",
+    "云智慧 AIOps（智能运维，故障根因分析）",
+    "博睿数据 Bonree（APM/可观测 + 智能告警）",
+    "擎创科技 Cloudwise（面向金融的智能运维、告警降噪与根因定位）"
+   ],
+   "scene_tags": [
+    "AI-SRE",
+    "AI-on-call",
+    "智能运维/AIOps",
+    "告警降噪",
+    "根因分析(RCA)",
+    "数据异常检测",
+    "静默数据故障",
+    "私有化/on-prem部署",
+    "可观测性",
+    "MCP接入"
+   ],
+   "archive": "companies/corelayer.md",
+   "researched_at": "2026-07-11",
+   "research_status": "researched"
   },
   {
    "num": 246,
@@ -8423,14 +8695,56 @@
    "subcategory": "",
    "one_liner_en": "AI agent for video work outside the editor",
    "one_liner_zh": "剪辑器之外视频工作的 AI 智能体",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-11",
+   "funding": [
+    {
+     "round": "YC Winter 2026（W26）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/wideframe"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "Goodo Studios（创始人 Matthew Gattozzi 具名背书，称每位剪辑师每天可省约 2 小时）",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/launches/PUI-wideframe-ai-agent-for-video-work-outside-the-nle"
+    },
+    {
+     "name": "某代理商（未具名，称可为剪辑师每周省约 10 小时）",
+     "confidence": "低",
+     "source_url": "https://www.ycombinator.com/companies/wideframe"
+    },
+    {
+     "name": "某纪录片团队（未具名，将 2500+ 视频 / 500+ 音频 / 2.5+ TB 的整部纪录片素材从数周整理压缩到数小时）",
+     "confidence": "低",
+     "source_url": "https://www.ycombinator.com/companies/wideframe"
+    }
+   ],
+   "cn_benchmarks": [
+    "剪映/CapCut 企业版及即梦（字节）——素材管理+AI 辅助剪辑+生成，覆盖量产短视频",
+    "来画/一帧秒创/万兴喵影(Wondershare Filmora)——AI 剪辑与模板量产",
+    "Sora 类国内对应的通义万相/可灵(快手)——但属生成式，与 Wideframe 的『检索真实素材』路线相反，仅部分场景重叠",
+    "MAM/智能媒资类：新奥特、索贝、当虹科技等广电媒资打标检索厂商——偏 B 端媒资中台"
+   ],
+   "scene_tags": [
+    "素材整理自动化",
+    "AI助理剪辑",
+    "帧级视频理解检索",
+    "量产短视频",
+    "NLE工程文件roundtrip",
+    "本机端媒体分析"
+   ],
+   "archive": "companies/wideframe.md",
+   "researched_at": "2026-07-11",
+   "research_status": "researched"
   },
   {
    "num": 316,
@@ -8481,14 +8795,55 @@
    "subcategory": "",
    "one_liner_en": "Marketing suite for the agentic web",
    "one_liner_zh": "面向智能体网络的营销套件",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-11",
+   "funding": [
+    {
+     "round": "YC W26（种子前/加速器）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/sitefire"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "BMW",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/launches/PPv-sitefire-marketing-suite-for-the-agentic-web"
+    },
+    {
+     "name": "Xtrackers（德意志银行旗下 DWS 的 ETF 品牌）",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/launches/PPv-sitefire-marketing-suite-for-the-agentic-web"
+    },
+    {
+     "name": "DWS（德意志资产管理）",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/launches/PPv-sitefire-marketing-suite-for-the-agentic-web"
+    }
+   ],
+   "cn_benchmarks": [
+    "专注 GEO/AI 搜索可见度的国内新锐（如面向大模型答案优化的营销 SaaS，属早期分散赛道）",
+    "传统 SEO/内容营销与 MarTech 服务商向 GEO 延伸（如受启发的国内 SEO/新媒体代运营机构）",
+    "字节/百度等平台侧的「AI 搜索广告与品牌词优化」能力（生态位不同，属平台方而非独立工具）"
+   ],
+   "scene_tags": [
+    "GEO生成式引擎优化",
+    "AI可见度",
+    "品牌被引优化",
+    "智能体营销",
+    "内容自动生产推送CMS",
+    "AI答案监测"
+   ],
+   "archive": "companies/sitefire.md",
+   "researched_at": "2026-07-11",
+   "research_status": "researched"
   },
   {
    "num": 318,
@@ -9059,14 +9414,40 @@
    "subcategory": "",
    "one_liner_en": "Reinforcement learning for performance marketing",
    "one_liner_zh": "用强化学习做效果营销",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-11",
+   "funding": [
+    {
+     "round": "YC W26",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/laurence"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "赛狐 ERP（Sellfox）——亚马逊广告自动化调价/否词规则引擎",
+    "SIF（Sif，赛费）——亚马逊 Listing 与广告优化 AI 分析工具（含 MCP，供 AI 客户端调用运营数据做广告复盘）",
+    "卖家精灵（SellerSprite）——选品与关键词工具（广告决策上游）",
+    "Perpetua / Pacvue / Quartile 的中国区服务商及本土跨境 ERP 的广告模块"
+   ],
+   "scene_tags": [
+    "效果营销自动化",
+    "强化学习决策",
+    "量化式预算分配",
+    "出价/竞价优化",
+    "电商广告托管",
+    "AI-native 双人团队"
+   ],
+   "archive": "companies/laurence.md",
+   "researched_at": "2026-07-11",
+   "research_status": "researched"
   },
   {
    "num": 346,
@@ -9206,14 +9587,46 @@
    "subcategory": "",
    "one_liner_en": "AI luxury concierge for e-commerce brands",
    "one_liner_zh": "电商品牌的 AI 奢侈品礼宾",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-11",
+   "funding": [
+    {
+     "round": "YC W26 (Winter 2026)",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/return-signals"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "Jordan Craig",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/launches/PV9-return-signals-proactive-high-touch-support-for-e-commerce-brands"
+    }
+   ],
+   "cn_benchmarks": [
+    "尊龙云/网易七鱼/智齿科技（智能客服 + 会话式营销，覆盖购后触达与工单）",
+    "有赞/微盟（私域 SCRM，做购后关怀、复购与换货挽回，但偏营销自动化、AI 对话深度较浅）",
+    "快麦/售后宝/Baklib 类售后与退换货 SaaS（对标 Loop Returns 的换货流程侧）",
+    "阿里/京东体系内的智能导购与退货挽留（大平台内建能力，非独立第三方）"
+   ],
+   "scene_tags": [
+    "购后主动触达",
+    "退货转换货挽回",
+    "会话式营收通道",
+    "客户对话可归因增量收入",
+    "agentic-search 对话洞察",
+    "高触感 AI 礼宾"
+   ],
+   "archive": "companies/return-signals.md",
+   "researched_at": "2026-07-11",
+   "research_status": "researched"
   },
   {
    "num": 352,
@@ -9647,14 +10060,39 @@
    "subcategory": "",
    "one_liner_en": "Realtime AI for sales calls",
    "one_liner_zh": "销售通话的实时 AI",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-11",
+   "funding": [
+    {
+     "round": "Pre-seed",
+     "amount": "$1.3M",
+     "date": "2026",
+     "source_url": "https://app.dealroom.co/news/feed/turkish-co-founder-s-caretta-raises-1-3m-pre-seed-led-by-y-combinator-for-ai-sales-tools"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "循环智能（Recurrent AI）——对话智能起家，会话记录质检/销售辅助，偏事后分析与话术挖掘",
+    "深维智信 Megaview——销售会话智能（Conversation Intelligence），录音转写+商机洞察，与 Gong 对标",
+    "腾讯云/百应科技等智能外呼与话术辅助——偏电销/客服场景的实时提示"
+   ],
+   "scene_tags": [
+    "实时通话副驾",
+    "销售知识组织化",
+    "隐性经验产品化",
+    "技术售前赋能",
+    "异议库沉淀",
+    "Slack内组织记忆"
+   ],
+   "archive": "companies/caretta.md",
+   "researched_at": "2026-07-11",
+   "research_status": "researched"
   },
   {
    "num": 374,
@@ -9843,14 +10281,39 @@
    "subcategory": "",
    "one_liner_en": "Automatically hire remote knowledge workers",
    "one_liner_zh": "自动招募远程知识工作者",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B003"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-11",
+   "funding": [
+    {
+     "round": "Seed（含 YC）",
+     "amount": "约 500K 美元",
+     "date": "2025-09-29",
+     "source_url": "https://www.crunchbase.com/organization/fixpoint-19a5"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "数据标注/众包供给侧：龙猫数据(Testin云测)、数据堂、百度众测、阿里巴巴众包——对标 Fixpoint 的『AI 训练数据人力』一线，但国内多为体力众包，专家化程度低",
+    "灵活用工/招聘中台：北森、Moka、用友大易——对标其『按岗位画像自动寻源招募』的招聘自动化能力",
+    "背景/资质核验：全景求是、i背调、连方背调——对标其 Worker Vetting API 的反欺诈核验能力"
+   ],
+   "scene_tags": [
+    "专家灵活用工",
+    "AI训练数据人力外包",
+    "人在环路(HITL)监督",
+    "背景核验API",
+    "反欺诈资质核验",
+    "众包质检"
+   ],
+   "archive": "companies/fixpoint.md",
+   "researched_at": "2026-07-11",
+   "research_status": "researched"
   },
   {
    "num": 381,
@@ -9862,14 +10325,55 @@
    "subcategory": "",
    "one_liner_en": "Generative engine optimization for AI search visibility",
    "one_liner_zh": "面向 AI 搜索可见度的生成式引擎优化(GEO)",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B003"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-11",
+   "funding": [
+    {
+     "round": "YC Fall 2025 (F25)",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/bear"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "Browserbase",
+     "confidence": "高",
+     "source_url": "https://www.ycombinator.com/companies/bear"
+    },
+    {
+     "name": "Wispr Flow",
+     "confidence": "高",
+     "source_url": "https://www.ycombinator.com/companies/bear"
+    },
+    {
+     "name": "Cal.com",
+     "confidence": "高",
+     "source_url": "https://www.ycombinator.com/companies/bear"
+    }
+   ],
+   "cn_benchmarks": [
+    "Profound / Scrunch AI（美国同赛道，非国内，但是国内团队最直接的抄作业对象）",
+    "国内暂无明确同名龙头；最接近的是各大 SEO/营销 SaaS 厂商正在加的'AI 搜索可见度/AI 品牌监测'模块，以及舆情/口碑监测厂商（如百度营销、蝉妈妈/新榜等内容营销数据商）向 GEO 延伸",
+    "字节/百度等自带搜索与生成入口的巨头，未来更可能内建'AI 品牌曝光分析'能力"
+   ],
+   "scene_tags": [
+    "GEO生成式引擎优化",
+    "AI搜索可见度",
+    "AI品牌监测",
+    "营销Agent",
+    "引用建设/PR自动化",
+    "AI流量转化"
+   ],
+   "archive": "companies/bear-ai.md",
+   "researched_at": "2026-07-11",
+   "research_status": "researched"
   },
   {
    "num": 382,
@@ -9938,14 +10442,72 @@
    "subcategory": "",
    "one_liner_en": "AI video ad creation platform",
    "one_liner_zh": "AI 视频广告创作平台",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B003"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-11",
+   "funding": [
+    {
+     "round": "Pre-Seed",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.vcbacked.co/company/claybird"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "Coca-Cola（可口可乐）",
+     "confidence": "中",
+     "source_url": "https://www.claybird.com/"
+    },
+    {
+     "name": "Eight Sleep",
+     "confidence": "中",
+     "source_url": "https://www.claybird.com/"
+    },
+    {
+     "name": "Mercor",
+     "confidence": "中",
+     "source_url": "https://www.claybird.com/"
+    },
+    {
+     "name": "Delve",
+     "confidence": "中",
+     "source_url": "https://www.claybird.com/"
+    },
+    {
+     "name": "Walmart（沃尔玛）",
+     "confidence": "低",
+     "source_url": "https://www.ycombinator.com/companies/claybird"
+    },
+    {
+     "name": "Daytona",
+     "confidence": "低",
+     "source_url": "https://www.claybird.com/"
+    }
+   ],
+   "cn_benchmarks": [
+    "快手·可灵 AI（Kling）——已用于品牌广告/短片生成的国产头部视频大模型，可对标其底层生成能力",
+    "字节·即梦 / 即创（巨量引擎智能广告创意）——生成+智能剪辑+投放一体，最接近 Claybird 的『广告创意 Agent』定位",
+    "阿里·通义万相 / 腾讯·混元视频——大厂视频生成基座",
+    "特看科技、闪剪、一帧秒创、美图设计室——套餐/SaaS 式 AI 短视频与电商带货视频创作工具，对标其套餐制服务层"
+   ],
+   "scene_tags": [
+    "AI视频广告",
+    "生成式创意",
+    "营销素材量产",
+    "人机协同剪辑",
+    "productized-service",
+    "影棚级质感",
+    "多语种本地化"
+   ],
+   "archive": "companies/claybird.md",
+   "researched_at": "2026-07-11",
+   "research_status": "researched"
   },
   {
    "num": 386,
