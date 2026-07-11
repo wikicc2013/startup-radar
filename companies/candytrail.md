@@ -1,0 +1,47 @@
+# Candytrail
+
+- **批次来源**：B004 / YC Summer 2025 (S25) Launch
+- **入库日期**：2026-07-07 ｜ **深研日期**：2026-07-11 ｜ **再现记录**：B004
+- **一句话定位**：AI-driven sales coaching for in-person retail（面向线下零售的 AI 销售辅导）
+- **官网/锚定**：https://candytrail.ai/
+- **深研状态**：researched（关键更正：Candytrail 是该公司早期品牌名，现已更名/转型为 Costream（costream.ai，YC 目录 /companies/candytrail 现重定向到 Costream，两位创始人 LinkedIn 均标注 Co-Founder @ Costream (YC S25)）。批次实为 YC Summer 2025 (S25)、洛杉矶，任务给定的 B004 / Fall 2025 (F25) 有误。Candytrail 阶段主打线下零售 AI 销售辅导，Costream 阶段口号转为『通过数字产品索引人类对话』，方向仍在演进。信息稀薄，属极早期。）
+
+## 公司画像
+- **团队**：孪生兄弟 Aditya Mahna（CEO）与 Ayush Mahna 共同创立，均出自康奈尔计算机背景（Aditya 为 CS 辍学创业者）。此前曾把一款消费级 App 做到 10 万+ 用户 / 约 $1M ARR。团队规模 2 人。
+- **成立/批次**：2025
+- **地点**：美国加州洛杉矶（Los Angeles, CA）
+- **产品**：面向线下门店/一线销售的 AI 销售辅导：监听并自动评分每一次销售对话，标记有效话术与复现异议，让销售经理下达带时间戳的反馈，把 rep 表现从『按季度复盘』变成『按周迭代』。落地场景自述覆盖线下零售、医美（med spa）、医药、房地产、field sales。后续扩展到自动找高意向线索、帮约客、在交互中识别追加销售点。更名 Costream 后定位调整为『索引人类对话』的更底层能力。
+- **商业模式**：未披露（推测为按团队/座席收费的 SaaS 订阅，官网未公开定价）。
+- **竞争格局**：对话智能与销售辅导赛道拥挤：Gong、Chorus（偏 B2B 电话/视频会话智能），以及 Attention、Nooks 等 AI 销售辅导新锐。Candytrail 的差异点在于把辅导对象放到『线下面对面零售/门店』这一长期缺乏对话数据的场景，而非线上电话销售。
+
+## 融资
+| 轮次 | 金额 | 时间 | 来源 |
+|---|---|---|---|
+| Pre-seed（含 YC 标准 deal） | $500K | 2025 | [链接](https://www.extruct.ai/hub/candytrail-ai/) |
+
+## 早期客户信号
+| 客户 | 置信度 | 来源 |
+|---|---|---|
+| 未见公开具名客户（极早期，官网/媒体暂无可采信客户信号） | — | — |
+
+## 转型有术判断
+1. **对制造业客户意味着什么**：对制造业的营销·销售·客服而言，制造业最难数字化的正是『线下销售现场』——经销商门店、行业展会、工业设备的现场演示、售后上门服务。这些面对面对话里的成交话术、客户异议、报价博弈，长期靠资深销售口口相传，是典型的数据黑洞。Candytrail 这类『监听+评分+教练反馈』把线下面谈变成可量化、可复制、可按周迭代的资产，对制造企业的渠道/直销团队标准化培训、缩短新人爬坡周期、把 Top Sales 打法沉淀成组织资产有直接迁移价值。尤其适合有大量经销商导购或现场工程师销售的装备、建材、汽车后市场等制造/流通场景。
+2. **国内对标厂商**：循环智能（Recurrent AI）——销售会话智能与销售赋能，偏电话/在线场景、深维智能 / 类似销售会话分析厂商——通话质检与话术分析、腾讯企点、百应科技、得助智能——智能客服质检，覆盖对话评分但偏客服而非门店导购辅导、超级导购、导购通等门店数字化工具——覆盖线下门店管理，但多为流程/任务管理，尚少 AI 对话辅导
+   > 国内对话智能主要沉淀在电话销售与在线客服质检（循环智能、百应、得助等），把 AI 教练下沉到『线下门店面对面对话』的玩家很稀缺——门店侧多是超级导购这类流程数字化工具，缺少『监听真实对话→评分→给一线导购即时反馈』的闭环。这既说明 Candytrail 的场景国内尚是蓝海，也说明线下对话采集（录音合规、门店部署）在国内落地同样是硬门槛。
+3. **可迁移的干法 / 应进场景词典的词条**：销售对话智能、门店导购辅导、话术沉淀复制、通话/对话质检、销售赋能、异议处理库
+   > 可迁移的干法：把『监听真实销售对话→自动评分→标注有效话术与高频异议→给一线即时/按周反馈』这套闭环，套到制造业的渠道导购与现场销售培训上。核心资产不是 AI 本身，而是从海量真实对话里提炼出的『Top Sales 打法库 + 异议应对库』，可用于新人培训、SOP 固化、跨门店复制。落地前提是解决录音授权与合规、以及一线愿意被监听的接受度。
+4. **风险与存疑点**：①极早期且已更名转型（Candytrail→Costream），产品方向仍在漂移，品牌与官网信息稀薄，存在方向重置风险；②线下真实对话采集涉及录音同意/隐私合规，零售一线部署与员工接受度阻力大；③对话智能赛道拥挤——上有 Gong 等巨头、国内有循环智能/百应等质检厂商，差异化窗口（线下门店）能否守住存疑；④2 人团队、约 $500K 资金，尚无公开具名标杆客户，35% 成交率提升、经理每周省 32 小时、客户营收+13% 等指标均为公司自述、未经第三方验证；⑤投资方信息不实风险：聚合平台列出的 a16z/Kleiner Perkins/Cowboy 等大牌名单疑为抓取拼凑，公开可确认的仅 Y Combinator。
+
+## 信息来源溯源表
+| 标题 | URL |
+|---|---|
+| Candytrail 官网 — Boost in-person offline retail sales | https://candytrail.ai/ |
+| Y Combinator — Costream（原 Candytrail，YC S25，洛杉矶，Mahna 兄弟） | https://www.ycombinator.com/companies/costream |
+| LinkedIn — Aditya Mahna, Co-Founder @ Costream (YC S25) | https://www.linkedin.com/in/aditya-mahna-b57256325/ |
+| LinkedIn — Ayush Mahna, Co-Founder @ Costream | https://www.linkedin.com/in/ayush-mahna-34r/ |
+| Extruct AI — Candytrail Funding 分析（$500K / 1 轮，及自述指标） | https://www.extruct.ai/hub/candytrail-ai/ |
+| Y Combinator LinkedIn 帖 — Candytrail AI agents / 35% close-rate lift | https://www.linkedin.com/posts/y-combinator_candytrails-ai-agents-fill-your-pipeline-activity-7361842800763551744-020T |
+| StartupHub.ai — Candytrail 公司档案 | https://www.startuphub.ai/startups/candytrail/ |
+
+---
+> 本档案由本地 /research 深研生成，直通模式 auto。数字与具名事实一律带来源；无来源者标"未披露"，未编造。

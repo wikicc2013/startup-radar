@@ -1,0 +1,47 @@
+# Lapis
+
+- **批次来源**：B003 / YC Fall 2025 (F25) Launch
+- **入库日期**：2026-07-07 ｜ **深研日期**：2026-07-11 ｜ **再现记录**：B003
+- **一句话定位**：AI ads generation for growth teams（面向增长团队的 AI 广告生成）
+- **官网/锚定**：https://www.ycombinator.com/companies/lapis
+- **深研状态**：researched（已锚定 YC F25（Fall 2025）Lapis Labs，官网 trylapis.com，创始人 Varunram Ganesh 公开确认 YC F25 身份，信息一致。）
+
+## 公司画像
+- **团队**：2 位联合创始人 + 约 5 人小团队（旧金山）。CEO/创始人 Varunram Ganesh：前 Warp（YC W23）增长负责人，从 0 做到约 250 万美元营收；曾在 MIT Media Lab 做比特币研究约 2.5 年，Duke Fuqua MBA、NIT Trichy 工程背景。CTO/联合创始人 Sai Surbehera：前沃尔玛（Walmart Tech）机器学习工程师，负责搜索召回与重排算法。
+- **成立/批次**：2025
+- **地点**：美国旧金山（San Francisco, CA）
+- **产品**：面向增长/营销团队的「agentic 广告平台」，主打端到端自动化广告的创建与投放。定位为首个从底层为 AI 广告（如 ChatGPT Ads）而生的智能体广告平台，同时兼容 Google、Meta 等传统渠道。能力覆盖：自主活动规划、创意与文案生成、A/B 批量测试、效果预测、竞品追踪、迭代优化。宣称被 1000+ 营销团队使用，支持 15+ 语言（英/西/意等），自 4 月起增长约 3 倍并跨过一定 ARR 里程碑（均为官方口径，未经第三方核实）。
+- **商业模式**：SaaS 订阅制（面向增长团队/营销团队的广告创意与投放自动化工具，按团队/席位付费的典型 PLG 打法）。具体价格档位未在公开页明确披露。
+- **竞争格局**：与 AdCreative.ai、Creatify、Pencil（Brandtech）、AirOps、Icon（YC）等 AI 广告创意/投放工具，以及 Meta Advantage+、Google Performance Max 等平台自带的自动化广告能力竞争。差异化押注在「ChatGPT Ads 等 AI 原生广告位」的先发卡位与 agentic 端到端闭环。
+
+## 融资
+| 轮次 | 金额 | 时间 | 来源 |
+|---|---|---|---|
+| YC F25 + 早期天使（第三方数据库聚合口径） | 约 50 万美元（未经官方确认，含 YC 标准投资） | 2025 | [链接](https://pitchbook.com/profiles/company/1153819-54) |
+
+## 早期客户信号
+| 客户 | 置信度 | 来源 |
+|---|---|---|
+| Hyundai（现代） | 低 | [链接](https://www.ycombinator.com/companies/lapis) |
+| Tata（塔塔） | 低 | [链接](https://www.ycombinator.com/companies/lapis) |
+
+## 转型有术判断
+1. **对制造业客户意味着什么**：对制造业/工业企业的营销·销售·客服而言，Lapis 代表的是「广告创意与投放的智能体化」——把过去依赖 4A/代理商或内部设计产能的广告生产环节，压缩为可由营销人员用自然语言驱动、批量出创意并自动 A/B 优化的流水线。制造企业往往品类多、SKU 多、多语言多区域，但营销预算和创意人手有限；这类工具让一个小团队就能为几十个产品线、十几种语言快速生成并测试广告，尤其适合出海（东南亚/欧洲/拉美）的中国制造品牌。更前瞻的信号是它押注「ChatGPT Ads」这类 AI 原生广告位——当采购决策者、工程师越来越多用 AI 助手做选型调研时，工业品牌的『被 AI 推荐』将成为新的营销战场，制造企业需要提前布局 AEO（Answer Engine Optimization）而非只做传统 SEO/SEM。
+2. **国内对标厂商**：创客贴/图怪兽（Chuangkit）——AI 营销物料与广告图批量生成，但偏设计工具、缺投放闭环、特赞 Tezign——企业级内容中台 + AI 生成，服务大品牌营销素材规模化、巨量引擎「巨量创意/即创」——字节系 AI 广告创意生成与批量测试，最接近 agentic 投放闭环但绑定抖音生态、百度「轻舸」/ 阿里妈妈「万相台无界版」——平台侧 AI 全自动投放，对标 Meta Advantage+ 逻辑
+   > 国内最接近 Lapis「创意生成 + 自动投放闭环」的是平台自营的 AI 广告系统（巨量即创、万相台、轻舸），但它们都绑定各自流量生态、跨平台能力弱；独立第三方里创客贴、特赞偏创意生成缺投放。Lapis 的独特点是『跨平台 + 押注 AI 原生广告位』的中立智能体定位，国内目前缺少完全对标者，这也是出海营销 SaaS 的一个空位。
+3. **可迁移的干法 / 应进场景词典的词条**：agentic-ads、AI广告创意生成、跨平台自动投放、AB测试自动化、多语言出海营销、AEO/AI原生广告位、效果预测、竞品追踪
+   > 可迁移干法：①把「创意生成—投放—回收数据—再迭代」做成一个由自然语言驱动、人只在关键节点审批的智能体闭环，这套 loop 可平移到制造企业的多 SKU/多区域营销；②用『先押注下一代渠道（ChatGPT Ads/AI 推荐位）』抢占先发身位的打法，对任何 to B 品牌都成立——提前做 AEO、让自家产品在 AI 助手回答里可被引用；③创始团队『增长负责人 + 搜索算法工程师』的组合，本质是把大厂搜索召回/重排的工程经验迁移到广告优化，制造企业做数字营销也应重视这类『增长×算法』的复合人才。
+4. **风险与存疑点**：①信息稀薄且多为官方口径：1000+ 团队、Hyundai/Tata 客户、3x 增长、ARR 里程碑均来自其自身营销文案，未见第三方独立核实，客户置信度低；②融资数据来自 PitchBook/Crunchbase 等聚合库（约 50 万美元、含 YC 标准投资），金额与投资人名单未经官方确认，存在聚合误差；③赛道极度拥挤且平台方（Meta/Google/字节/OpenAI）随时可用自带自动化能力挤压第三方工具，『押注 ChatGPT Ads』既是差异化也是对单一未成熟渠道的重度押注风险。
+
+## 信息来源溯源表
+| 标题 | URL |
+|---|---|
+| Lapis: AI that creates and runs ads, end-end | Y Combinator | https://www.ycombinator.com/companies/lapis |
+| Lapis | Create, Launch & Improve Your Paid Ads with AI Agents（官网） | https://www.trylapis.com/ |
+| Varunram Ganesh - Founder and CEO, Lapis | LinkedIn | https://www.linkedin.com/in/varunramg/ |
+| Lapis Labs (YC F25) 发布公告 | Y Combinator LinkedIn | https://www.linkedin.com/posts/y-combinator_lapis-labs-yc-f25-is-building-the-fastest-activity-7384604093274734592-KC5X |
+| Lapis Labs 2026 Company Profile: Valuation, Funding & Investors | PitchBook | https://pitchbook.com/profiles/company/1153819-54 |
+| Lapis - Crunchbase Company Profile & Funding | https://www.crunchbase.com/organization/lapis-labs |
+
+---
+> 本档案由本地 /research 深研生成，直通模式 auto。数字与具名事实一律带来源；无来源者标"未披露"，未编造。
