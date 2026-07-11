@@ -681,14 +681,72 @@
    "subcategory": "Marketing",
    "one_liner_en": "AI-native developer relations",
    "one_liner_zh": "AI 原生的开发者关系（DevRel）",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-11",
+   "funding": [
+    {
+     "round": "YC Spring 2026 (P26) 标准投资",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/manicule"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "Supermemory",
+     "confidence": "高",
+     "source_url": "https://www.ycombinator.com/launches/QKr-manicule-ai-native-technical-docs-devrel-as-a-service"
+    },
+    {
+     "name": "Greptile (YC W24)",
+     "confidence": "高",
+     "source_url": "https://www.ycombinator.com/launches/QKr-manicule-ai-native-technical-docs-devrel-as-a-service"
+    },
+    {
+     "name": "Reducto (YC W24)",
+     "confidence": "高",
+     "source_url": "https://www.ycombinator.com/launches/QKr-manicule-ai-native-technical-docs-devrel-as-a-service"
+    },
+    {
+     "name": "Mastra",
+     "confidence": "高",
+     "source_url": "https://www.ycombinator.com/companies/manicule"
+    },
+    {
+     "name": "Skyvern (YC S23)",
+     "confidence": "高",
+     "source_url": "https://www.ycombinator.com/launches/QKr-manicule-ai-native-technical-docs-devrel-as-a-service"
+    },
+    {
+     "name": "Rootly",
+     "confidence": "高",
+     "source_url": "https://www.ycombinator.com/launches/QKr-manicule-ai-native-technical-docs-devrel-as-a-service"
+    }
+   ],
+   "cn_benchmarks": [
+    "语雀 / 飞书文档 + AI（阿里、字节）——企业知识库与文档协作，但偏工具而非全托管 DevRel 服务",
+    "思否 SegmentFault、稀土掘金——开发者内容/社区运营，传统 DevRel 内容侧对标，尚未 AI 原生化",
+    "各类 GEO / AI 搜索优化服务商（如围绕 AI 搜索做内容优化的营销代理）——对标其 GEO 环节，但多面向消费品牌而非 devtools",
+    "AI 客服/知识库厂商（智齿、合力亿捷、追一等）——对标其『文档→降工单』价值，但从客服切入而非从开发者内容切入"
+   ],
+   "scene_tags": [
+    "GEO生成式引擎优化",
+    "AI原生技术文档",
+    "DevRel外包",
+    "机器可读内容",
+    "文档降工单",
+    "AI客服知识库喂养",
+    "面向Agent的内容"
+   ],
+   "archive": "companies/manicule.md",
+   "researched_at": "2026-07-11",
+   "research_status": "researched"
   },
   {
    "num": 27,
@@ -757,14 +815,39 @@
    "subcategory": "Marketing",
    "one_liner_en": "The AI that replaces your growth team",
    "one_liner_zh": "替代你增长团队的 AI",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-11",
+   "funding": [
+    {
+     "round": "YC Spring 2026 (P26)",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/revnu"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "AI SDR / 外呼类：如探迹、卫瓴、销氪等——覆盖 Revnu 的外呼+线索侧，但多为单点工具、非全渠道托管",
+    "AI 营销内容/投放：巨量引擎（智能创意）、有赞/微盟系营销自动化——对应其投放与内容侧，但绑定国内媒体生态",
+    "全托管增长服务的国内对应更多是「营销代理公司 + SaaS」的组合，尚无一家用单一 AI Agent 打通外呼/投放/SEO/内容的同类"
+   ],
+   "scene_tags": [
+    "AI增长团队",
+    "全渠道共享智能",
+    "冷启动外呼Agent",
+    "投放创意批量实验",
+    "GTM自动化",
+    "增长代理替代"
+   ],
+   "archive": "companies/revnu.md",
+   "researched_at": "2026-07-11",
+   "research_status": "researched"
   },
   {
    "num": 31,
@@ -928,14 +1011,67 @@
    "subcategory": "Marketing",
    "one_liner_en": "AI infrastructure for marketers, shipping campaigns in your tools",
    "one_liner_zh": "面向营销人的 AI 基础设施，在你的工具里发活动",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-11",
+   "funding": [
+    {
+     "round": "YC Spring 2026 (标准 YC 投资)",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/characterquilt"
+    },
+    {
+     "round": "机构支持（列入 Moment Ventures 投资组合，金额/轮次不明）",
+     "amount": "未披露",
+     "date": "未披露",
+     "source_url": "https://www.ycombinator.com/companies/characterquilt"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "1upHealth",
+     "confidence": "中",
+     "source_url": "https://www.linkedin.com/posts/y-combinator_characterquilt-is-ai-infrastructure-for-marketing-activity-7459712700860854272-Sv1S"
+    },
+    {
+     "name": "ABC Fitness",
+     "confidence": "中",
+     "source_url": "https://www.linkedin.com/posts/y-combinator_characterquilt-is-ai-infrastructure-for-marketing-activity-7459712700860854272-Sv1S"
+    },
+    {
+     "name": "Emplifi",
+     "confidence": "中",
+     "source_url": "https://www.linkedin.com/posts/y-combinator_characterquilt-is-ai-infrastructure-for-marketing-activity-7459712700860854272-Sv1S"
+    },
+    {
+     "name": "Bloomreach（创始人前东家，被列为客户）",
+     "confidence": "低",
+     "source_url": "https://yespress.io/characterquilt"
+    }
+   ],
+   "cn_benchmarks": [
+    "特赞 Tezign（AI 内容/素材生产与品牌资产管理，偏创意侧对标『品牌大脑+on-brand 创意』）",
+    "致趣百川 / 探马 SCRM 等 B2B 营销自动化（对标 demand gen 与多渠道活动部署，但缺 computer-use agent 层）",
+    "实在智能 / 影刀 RPA（对标『在既有工具里替人操作』的自动化执行层，但非营销原生、无品牌大脑）",
+    "阿里妈妈/巨量引擎的 AIGC 投放工具（对标自动化创意+投放，但绑定自家媒体生态而非操作客户既有工具）"
+   ],
+   "scene_tags": [
+    "computer-use营销智能体",
+    "品牌大脑/on-brand创意",
+    "brief即交付",
+    "营销ops自动化",
+    "在既有工具里干活",
+    "活动部署流水线化"
+   ],
+   "archive": "companies/characterquilt.md",
+   "researched_at": "2026-07-11",
+   "research_status": "researched"
   },
   {
    "num": 40,
@@ -1598,14 +1734,62 @@
    "subcategory": "Marketing",
    "one_liner_en": "AI coworker for marketing teams at the largest consumer brands",
    "one_liner_zh": "头部消费品牌营销团队的 AI 同事",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-11",
+   "funding": [
+    {
+     "round": "YC Spring 2026 (P26/X26)",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/kuli"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "某财富 100 娱乐品牌（Launch 页称最大 Fortune 100 娱乐品牌，5 个月内投放量提升 3 倍）",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/launches/QCG-kuli-the-ai-coworker-for-marketing-teams-at-consumer-brands"
+    },
+    {
+     "name": "Disney",
+     "confidence": "低",
+     "source_url": "https://www.ycombinator.com/launches/QCG-kuli-the-ai-coworker-for-marketing-teams-at-consumer-brands"
+    },
+    {
+     "name": "Nivea",
+     "confidence": "低",
+     "source_url": "https://www.ycombinator.com/launches/QCG-kuli-the-ai-coworker-for-marketing-teams-at-consumer-brands"
+    },
+    {
+     "name": "PostHog",
+     "confidence": "低",
+     "source_url": "https://www.ycombinator.com/launches/QCG-kuli-the-ai-coworker-for-marketing-teams-at-consumer-brands"
+    }
+   ],
+   "cn_benchmarks": [
+    "巨量星图（字节官方达人营销/内容营销平台，达人匹配+数据）——Kuli 相当于把星图式撮合再叠一层「主动看视频的 agent」",
+    "蝉妈妈 / 蝉选（抖音电商与达人数据分析）——对标其达人筛选与竞品/爆款监测，但蝉妈妈偏数据看板、Kuli 偏 agent 代做",
+    "微播易（KOL 智能匹配交易平台）——对标撮合+投放执行侧",
+    "新榜（内容/新媒体数据与红人榜单）——对标趋势与账号情报侧"
+   ],
+   "scene_tags": [
+    "多模态内容理解",
+    "AI-agent-替代工作流",
+    "达人/KOL营销自动化",
+    "竞品情报监测",
+    "趋势预警",
+    "品牌语境注入",
+    "非结构化媒介筛选"
+   ],
+   "archive": "companies/kuli.md",
+   "researched_at": "2026-07-11",
+   "research_status": "researched"
   },
   {
    "num": 67,
@@ -1920,14 +2104,38 @@
    "subcategory": "Marketing",
    "one_liner_en": "AI that turns your product into on-brand marketing content",
    "one_liner_zh": "把产品变成符合品牌调性营销内容的 AI",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-11",
+   "funding": [
+    {
+     "round": "YC 标准投资",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/tdaycom"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "腾讯广告妙思/巨量引擎『即创』——从素材库自动生成多版本短视频广告并投放，最接近 tday 的『生成+分发+效果闭环』，但素材源是既有物料而非产品本身",
+    "创客贴/稿定设计——品牌化模板批量出图，覆盖多平台画幅适配，但缺『产品驱动+自动录制』",
+    "度加(度咔)剪辑/剪映企业版——AI 成片+一键分发多平台，机制相近但非围绕产品发布节奏"
+   ],
+   "scene_tags": [
+    "产品即内容源",
+    "发布即营销(release-to-content)",
+    "多平台自动适配分发",
+    "真实产品自动录制",
+    "内容-效果闭环(CTR回流)"
+   ],
+   "archive": "companies/tday-com.md",
+   "researched_at": "2026-07-11",
+   "research_status": "researched"
   },
   {
    "num": 80,
@@ -2013,14 +2221,38 @@
    "subcategory": "Marketing",
    "one_liner_en": "AI-powered gifting for customer acquisition and retention",
    "one_liner_zh": "用于获客与留存的 AI 礼赠",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-11",
+   "funding": [
+    {
+     "round": "YC Spring 2026 batch（标准 YC 投资）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/archer"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "连连支付 / PingPong / 空中云汇(Airwallex)——跨境 B2B/众包打款与全球收付，但不含『自然语言 agent 编排激励』层",
+    "分贝通 / 每刻报销——企业费用与激励发放的自动化，偏内部报销与差旅，非渠道/众包激励",
+    "有赞 / 微盟的分销返佣 + 微信红包/企业付款到零钱——把『行为触发—即时发钱』做在营销侧，是国内最接近『gifting/即时激励』的组合，但绑定微信生态、非跨境、无 AI 自然语言编排"
+   ],
+   "scene_tags": [
+    "自然语言触发的激励发放",
+    "渠道/联盟返佣即时结算",
+    "跨境众包/零工小额打款",
+    "稳定币+卡双轨支付编排",
+    "AI 数据标注劳动力的全球薪酬"
+   ],
+   "archive": "companies/archer.md",
+   "researched_at": "2026-07-11",
+   "research_status": "researched"
   },
   {
    "num": 83,
@@ -2475,14 +2707,40 @@
    "subcategory": "",
    "one_liner_en": "Turn agents into lifelike video calls at $0.06 a minute",
    "one_liner_zh": "以每分钟 0.06 美元把智能体变成逼真视频通话",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-11",
+   "funding": [
+    {
+     "round": "YC Spring 2026 (X26) 加速器",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/keyframe-labs"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "硅基智能（硅语/数字人直播与实时交互，最贴近的实时对话数字人对标）",
+    "魔珐科技 Mofa（超写实数字人+实时交互，偏 B 端定制）",
+    "商汤「如影」SenseAvatar（可控数字人生成，实时能力在补齐）",
+    "腾讯智影 / 百度曦灵 / 阿里通义（大厂平台化数字人，覆盖生成+直播+客服接口）"
+   ],
+   "scene_tags": [
+    "实时对话数字人",
+    "视频客服/售前接待",
+    "销售话术角色扮演培训",
+    "招聘面试模拟",
+    "远程可视化指导",
+    "embed 低代码接入"
+   ],
+   "archive": "companies/keyframe-labs.md",
+   "researched_at": "2026-07-11",
+   "research_status": "researched"
   },
   {
    "num": 99,
@@ -2615,14 +2873,41 @@
    "subcategory": "Sales",
    "one_liner_en": "AI GTM agents for B2B teams",
    "one_liner_zh": "面向 B2B 团队的 AI GTM 智能体",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-11",
+   "funding": [
+    {
+     "round": "Seed（含 YC 投资）",
+     "amount": "约 $2M（第三方数据库口径，官方未正式披露；PitchBook/Crunchbase/Tracxn 数据不一，采信度中低）",
+     "date": "未披露（2026）",
+     "source_url": "https://www.startuphub.ai/startups/gojiberry-ai"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "探迹（Tungee）——国内销售线索挖掘+智能外呼的头部，最接近的对标，主打企业大数据线索+智能触达",
+    "AiSDR/AI 外呼类：容联云、百应科技等智能外呼厂商的 AI SDR 化演进",
+    "CRM 侧：纷享销客、销售易在 AI 线索评分/智能推荐上的能力",
+    "获客数据侧：企查查/天眼查的 B2B 商机线索产品"
+   ],
+   "scene_tags": [
+    "意向信号捕捉",
+    "AI-SDR",
+    "自动化外呼",
+    "线索评分ICP匹配",
+    "多通道触达",
+    "数据瀑布富化",
+    "GTM智能体"
+   ],
+   "archive": "companies/gojiberry-ai.md",
+   "researched_at": "2026-07-11",
+   "research_status": "researched"
   },
   {
    "num": 104,
@@ -2829,14 +3114,52 @@
    "subcategory": "Operations",
    "one_liner_en": "AI voice agents for on-prem telephony stacks",
    "one_liner_zh": "面向本地电话系统的 AI 语音智能体",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-11",
+   "funding": [
+    {
+     "round": "Pre-Seed",
+     "amount": "未披露",
+     "date": "未披露",
+     "source_url": "https://www.crunchbase.com/funding_round/clusterlab-c02e-pre-seed--5caaa3de"
+    },
+    {
+     "round": "YC Spring 2026 标准投资",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/callab-ai"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "Dunkin' Donuts（多份二手来源引用其「横跨三大洲」客户中提及；官网未出现企业 logo，采信度中）",
+     "confidence": "中",
+     "source_url": "https://altss.com/companies/yc/callab-ai"
+    }
+   ],
+   "cn_benchmarks": [
+    "阿里云智能语音交互/云小蜜（智能外呼与语音客服，偏云侧）",
+    "百度智能云 AI 呼叫中心 / 循环智能、思必驰、云蝠智能等语音 AI 外呼厂商",
+    "容联云、天润融通等 CCaaS 厂商的 AI 语音坐席模块",
+    "得助智能（中关村科金）、智齿科技等一体化智能客服/呼叫中心"
+   ],
+   "scene_tags": [
+    "on-prem PBX 寄生接入",
+    "SIP-trunk 零迁移",
+    "IVR 替代",
+    "语音客服自动化",
+    "AI 外呼",
+    "存量系统 AI 增量改造"
+   ],
+   "archive": "companies/callab-ai.md",
+   "researched_at": "2026-07-11",
+   "research_status": "researched"
   },
   {
    "num": 112,
@@ -2989,14 +3312,40 @@
    "subcategory": "Marketing",
    "one_liner_en": "Scale marketing campaigns across hundreds of personas",
    "one_liner_zh": "跨数百个人设规模化投放营销活动",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-11",
+   "funding": [
+    {
+     "round": "YC Spring 2026 (X26/P26)",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/instaagent"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "有赞/微盟系营销工具（服务消费品牌的社交营销与投放，但 AI 批量创意能力弱于 InstaAgent）",
+    "巨量引擎/磁力引擎的 AI 素材工具（如即创、巨量创意，字节/快手官方的 AI 批量广告素材生成，直接对标'按人设批量出创意'一环）",
+    "特赞 Tezign（AI 内容中台，帮品牌规模化生产与管理营销素材，最接近'一份 brief 裂变多套创意'的中台逻辑）",
+    "小红书/抖音的 KOC 矩阵代运营服务商（对标 InstaAgent 的'数百个细分社交账号分发'一环，但国内多为人力驱动而非 AI 自动化）"
+   ],
+   "scene_tags": [
+    "多人设内容裂变",
+    "brief-to-creative 自动化",
+    "AI 广告素材批量生成",
+    "小时级投放优化闭环",
+    "细分账号矩阵分发",
+    "按角色定制话术"
+   ],
+   "archive": "companies/instaagent.md",
+   "researched_at": "2026-07-11",
+   "research_status": "researched"
   },
   {
    "num": 118,
@@ -3008,14 +3357,58 @@
    "subcategory": "Sales",
    "one_liner_en": "The context layer for fast-moving sales teams",
    "one_liner_zh": "快节奏销售团队的上下文层",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-11",
+   "funding": [
+    {
+     "round": "YC Spring 2026 (X26)",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/salesgraph"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "Mintlify",
+     "confidence": "高",
+     "source_url": "https://www.ycombinator.com/companies/salesgraph"
+    },
+    {
+     "name": "Tex",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/salesgraph"
+    },
+    {
+     "name": "Strala",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/salesgraph"
+    }
+   ],
+   "cn_benchmarks": [
+    "探迹（Tungee）——AI 销售线索与智能获客，偏线索挖掘与触达，Salesgraph 偏成交阶段的上下文编排，二者互补而非重叠",
+    "循环智能（Recurrent AI）/ 深维智信 Megaview——会话智能与销售录音分析，对应 Salesgraph 集成的 Gong/Grain 那一层",
+    "卫瓴科技（Weilian）——企微生态的 SCRM + AI 销售助手，同样强调『客户上下文』但落在私域/企微场景",
+    "销售易 / 纷享销客 的 AI 版块——CRM 原生 AI，对应 Salesgraph 想做的『CRM 之上的智能层』但绑定各自 CRM"
+   ],
+   "scene_tags": [
+    "销售上下文层",
+    "决策委员会图谱",
+    "pre-call/post-call 简报",
+    "business case 自动生成",
+    "ROI/价值量化计算器",
+    "Slack 原生销售 Agent",
+    "会话智能编排",
+    "多线程复杂交易"
+   ],
+   "archive": "companies/salesgraph.md",
+   "researched_at": "2026-07-11",
+   "research_status": "researched"
   },
   {
    "num": 119,
@@ -3046,14 +3439,51 @@
    "subcategory": "Productivity",
    "one_liner_en": "Agentic CSMs to upsell and renew six-figure deals",
    "one_liner_zh": "用于增购与续约六位数订单的智能体客户成功经理",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-11",
+   "funding": [
+    {
+     "round": "YC Spring 2026 (P26/X26)",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/userlens"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "Smartly（营销广告自动化平台，约 300M ARR）",
+     "confidence": "高",
+     "source_url": "https://www.ycombinator.com/companies/userlens"
+    },
+    {
+     "name": "Quartr（投资者关系/财报数据平台，约 10M ARR）",
+     "confidence": "高",
+     "source_url": "https://www.ycombinator.com/companies/userlens"
+    }
+   ],
+   "cn_benchmarks": [
+    "网易云信/智齿科技等客户成功与智能客服（偏客服工单，非续约预测）——说明：国内 CS 工具多停在工单与 NPS，缺 Userlens 式的『使用数据→流失/增购预测』闭环",
+    "神策数据 / GrowingIO（用户行为分析）——说明：国内有丰富的产品分析底座，但少有把行为数据直接转成 CSM 可执行的续约/增购剧本与自动生成 QBR 的智能体层",
+    "纷享销客 / 销售易（国产 CRM）——说明：具备账号与商机管理，但『AI 主动盯账号+生成话术』这层 agentic 能力仍是空白，Userlens 恰是补在 CRM 与分析之间"
+   ],
+   "scene_tags": [
+    "客户成功智能体",
+    "流失预测",
+    "续约保卫",
+    "增购时机识别",
+    "使用数据驱动GTM",
+    "QBR自动生成",
+    "账号健康度监控"
+   ],
+   "archive": "companies/userlens.md",
+   "researched_at": "2026-07-11",
+   "research_status": "researched"
   },
   {
    "num": 121,
@@ -3161,14 +3591,38 @@
    "subcategory": "Marketing",
    "one_liner_en": "AI event manager for customer events",
    "one_liner_zh": "客户活动的 AI 活动经理",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-11",
+   "funding": [
+    {
+     "round": "YC Spring 2026 (P26) 标准投资",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/pavoot"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "活动行 / 会小二（线下活动报名、票务与现场签到，偏活动运营 SaaS，缺 AI 选人与会后 CRM 闭环）",
+    "探迹 / 51 猎头式销售线索平台（会前目标客户画像与线索挖掘一端可对标，但不覆盖现场与活动场景）",
+    "纷享销客 / 销售易 + AI 助手（CRM 侧的线索跟进与自动化回写，可对标 Pavoot 的会后环节，缺活动全流程编排）"
+   ],
+   "scene_tags": [
+    "活动营销闭环",
+    "线索捕捉与回写CRM",
+    "关系驱动增长",
+    "会后个性化跟进",
+    "AI-SDR/管线转化"
+   ],
+   "archive": "companies/pavoot.md",
+   "researched_at": "2026-07-11",
+   "research_status": "researched"
   },
   {
    "num": 126,
@@ -3455,14 +3909,40 @@
    "subcategory": "Sales",
    "one_liner_en": "AI sales agents for insurance",
    "one_liner_zh": "保险行业的 AI 销售智能体",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-11",
+   "funding": [
+    {
+     "round": "YC Spring 2026 + 种子",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/kinro"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "元保 / 水滴公司——线上保险销售+智能顾问，做 D2C 长尾保险分发，但 AI 更多是辅助转化，尚非自主出单",
+    "众安保险——纯线上财险,技术驱动的保险科技,自动核保/理赔链路成熟,但销售端仍以营销科技为主",
+    "i云保 / 力码科技 / 保观——保险科技 SaaS 与代理平台，给经纪人做数字化工具(接近 Kinro pivot 前的 B2B 形态)",
+    "循环智能 / 百融云创等——面向保险的智能外呼/对话式销售 AI，做资格筛选与话术，但不承担持牌出单"
+   ],
+   "scene_tags": [
+    "AI销售智能体",
+    "自主经纪/端到端成交",
+    "长尾小客户自动化",
+    "合规约束下的AI出单",
+    "Agent对Agent采购",
+    "多入口分发(ChatGPT/Gemini/语音/WhatsApp)"
+   ],
+   "archive": "companies/kinro.md",
+   "researched_at": "2026-07-11",
+   "research_status": "researched"
   },
   {
    "num": 136,
