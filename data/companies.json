@@ -193,14 +193,43 @@
    "subcategory": "Robotics",
    "one_liner_en": "Human intelligence for robots",
    "one_liner_zh": "为机器人注入人类智能",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-11",
+   "funding": [
+    {
+     "round": "YC Spring 2026 (P26/S26)",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/intelligence-factory"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "银河通用（Galbot）：具身大模型+通用抓取，仿真数据驱动，落地零售/工业",
+    "智元机器人（AgiBot）：人形+具身数据采集工厂 AgiBot World，走真机数据规模化路线",
+    "星海图 / 星尘智能 Astribot：VLA 操作模型与灵巧操作",
+    "帕西尼感知 PaXini：触觉传感+灵巧手，对应其「力/触觉采集」维度",
+    "非夕 Flexiv：力控自适应机器人，对标其力反馈操作能力在工业落地的一面"
+   ],
+   "scene_tags": [
+    "具身智能",
+    "通用操作/抓取",
+    "数据手套采集",
+    "力触觉反馈",
+    "动作重定向",
+    "跨硬件泛化",
+    "仓储拣选",
+    "VLA模型"
+   ],
+   "archive": "companies/intelligence-factory.md",
+   "researched_at": "2026-07-11",
+   "research_status": "researched"
   },
   {
    "num": 8,
@@ -758,14 +787,58 @@
    "subcategory": "Robotics",
    "one_liner_en": "Teleoperate your robots from anywhere in the world",
    "one_liner_zh": "在全球任意位置远程操控你的机器人",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-11",
+   "funding": [
+    {
+     "round": "YC (Spring 2026) + Founders, Inc.",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/avea-robotics"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "制造业客户（未具名）",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/launches/Qd1-avea-robotics-the-human-in-the-loop-system-for-robots"
+    },
+    {
+     "name": "物流/仓储客户（未具名）",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/launches/Qd1-avea-robotics-the-human-in-the-loop-system-for-robots"
+    },
+    {
+     "name": "酒店/服务业客户（未具名）",
+     "confidence": "低",
+     "source_url": "https://www.linkedin.com/posts/aryanindarapu_a-year-ago-vikram-vadrevu-and-i-were-in-activity-7440442002145464322-9EAY"
+    }
+   ],
+   "cn_benchmarks": [
+    "达闼科技 Cloud Ginger（云端大脑 + 人机协同「HARIX」，主打云端遥操作与人在环接管，与 Sentinel 定位最接近）",
+    "优必选 / 傅利叶智能等人形机器人厂商（Sentinel 支持人形，可作为其部署期遥操作/数据采集的能力对照）",
+    "国自机器人 / 极智嘉 Geek+（工业与仓储机器人运维，需远程监控与异常接管，是潜在需求侧对标）",
+    "星尘智能 Astribot、银河通用等具身智能数据采集方（用遥操作采数据训练模型，与 Avea「介入即采数」逻辑同源）"
+   ],
+   "scene_tags": [
+    "远程遥操作",
+    "人在环(HITL)",
+    "机器人运维",
+    "超低延迟",
+    "具身智能数据采集",
+    "力反馈/VR操控",
+    "部署可用性保障",
+    "人形机器人接管"
+   ],
+   "archive": "companies/avea-robotics.md",
+   "researched_at": "2026-07-11",
+   "research_status": "researched"
   },
   {
    "num": 28,
@@ -1277,14 +1350,55 @@
    "subcategory": "Energy",
    "one_liner_en": "The most compact nuclear machines",
    "one_liner_zh": "最紧凑的核能机器",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-11",
+   "funding": [
+    {
+     "round": "YC + 种子期（Pre-seed/Seed）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/apollo-atomics-inc"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "未具名商业客户（累计 20 GW 意向书 LOI，官网口径，未披露具体客户名）",
+     "confidence": "低",
+     "source_url": "https://www.apolloatomics.com/"
+    },
+    {
+     "name": "MIT 核科学与工程系（研究合作方，非付费客户；2026-04-16 宣布对主/次回路做全双回路实机测试，验证两相流与传热性能以支撑 NRC 许可）",
+     "confidence": "高",
+     "source_url": "https://finance.yahoo.com/sectors/energy/articles/apollo-atomics-announces-research-collaboration-150000203.html"
+    }
+   ],
+   "cn_benchmarks": [
+    "国家电投/中核「玲龙一号 ACP100」——全球首个陆上商用模块化小堆（125 MWe），已在海南开建，代表国内 SMR 商用主力",
+    "中核「燕龙」低温供热堆——面向工业/城市供热的小型堆，与 Apollo 的工艺热应用最接近",
+    "华能石岛湾高温气冷堆（HTR-PM）——已并网的第四代小堆示范，代表国内先进堆型工程化能力",
+    "中广核及各核电央企的模块化小堆研发梯队"
+   ],
+   "scene_tags": [
+    "紧凑压水堆",
+    "小型模块化反应堆SMR",
+    "微堆",
+    "工厂预制核电",
+    "蒸汽发生器重构",
+    "数据中心供电",
+    "工业工艺热",
+    "表后电力",
+    "被动安全",
+    "NRC许可"
+   ],
+   "archive": "companies/apollo-atomics-inc.md",
+   "researched_at": "2026-07-11",
+   "research_status": "researched"
   },
   {
    "num": 46,
@@ -1296,14 +1410,41 @@
    "subcategory": "Aviation & Space",
    "one_liner_en": "Fix ATC by connecting aircraft to the internet",
    "one_liner_zh": "让飞机联网以修复空管系统",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-11",
+   "funding": [
+    {
+     "round": "Pre-Seed（YC 标准投资）",
+     "amount": "约 $500K（YC 标准 pre-seed，多来源提及；具体总额未见官方一手披露，标注为估计）",
+     "date": "2026（Spring 2026 批次期间）",
+     "source_url": "https://www.ycombinator.com/companies/general-aviation"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "莱斯信息（LES Information）——国内空管自动化系统龙头，塔台/进近/区域管制自动化系统，最接近的『空管软件基础设施』对标",
+    "川大智胜——空管塔台模拟机、空管自动化与仿真训练系统",
+    "四川九洲 / 中电科系（CETC）——ADS-B、空管监视与二次雷达等空管硬件基础设施",
+    "低空经济侧：亿航智能、峰飞航空等 eVTOL 厂商，以及各地『低空飞行服务保障（UOM/低空空管）』平台建设方（对应无人机/低空统一联网管理这一愿景层）"
+   ],
+   "scene_tags": [
+    "远程/虚拟塔台",
+    "空管基础设施现代化",
+    "LEO卫星联网",
+    "长尾资产轻量化",
+    "集中式远程运维",
+    "减人化调度",
+    "低空经济/空域数字化"
+   ],
+   "archive": "companies/general-aviation.md",
+   "researched_at": "2026-07-11",
+   "research_status": "researched"
   },
   {
    "num": 47,
@@ -1448,14 +1589,40 @@
    "subcategory": "Robotics",
    "one_liner_en": "Autonomous services for humanity",
    "one_liner_zh": "为人类提供自主化服务",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-11",
+   "funding": [
+    {
+     "round": "YC Spring 2026（P26）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/eden-robotics"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "宇树科技 Unitree——人形/四足本体量产与成本控制标杆，但走硬件销售路线",
+    "智元机器人 Agibot——通用具身智能+本体，落地工业/物流场景",
+    "银河通用 Galbot——具身大模型+机器人，主攻商用与仓储抓取",
+    "擎朗智能 Keenon / 极智嘉 Geek+——服务/物流机器人领域最接近的 RaaS「按服务/按单」商业模式参照"
+   ],
+   "scene_tags": [
+    "具身智能",
+    "半人形机器人",
+    "RaaS机器人即服务",
+    "按小时用工计费",
+    "工业物流自动化",
+    "拣选搬运上下料"
+   ],
+   "archive": "companies/eden-robotics.md",
+   "researched_at": "2026-07-11",
+   "research_status": "researched"
   },
   {
    "num": 55,
@@ -1505,14 +1672,69 @@
    "subcategory": "",
    "one_liner_en": "AI water leak detection for buildings",
    "one_liner_zh": "楼宇 AI 漏水检测",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-11",
+   "funding": [
+    {
+     "round": "YC 投资（Spring 2026 批次）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/aquashield"
+    },
+    {
+     "round": "EPFL AI Project Grant（EPFL AI Launchpad）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://actu.epfl.ch/news/aquashield-ai-driven-water-leak-detection/"
+    },
+    {
+     "round": "Venture Kick（Stage 1）",
+     "amount": "CHF 10,000",
+     "date": "2026",
+     "source_url": "https://www.venturekick.ch/aquashield"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "MIT 校园设施团队（Facilities，试点部署）",
+     "confidence": "高",
+     "source_url": "https://actu.epfl.ch/news/aquashield-ai-driven-water-leak-detection/"
+    },
+    {
+     "name": "全球最大住宅不动产组合之一（未具名）",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/aquashield"
+    },
+    {
+     "name": "德国一家大型不动产公司（运营楼宇规模化测试，未具名）",
+     "confidence": "中",
+     "source_url": "https://vpi-startup-compass.pages.dev/pdfs/aquashield.pdf"
+    }
+   ],
+   "cn_benchmarks": [
+    "新兴际华/汇中仪表等超声流量计厂商——提供 clamp-on 超声测流硬件基础，但缺 AI 异常检测与管段定位软件层",
+    "联通/移动等运营商的智慧水务方案 + 各地水司 DMA 分区计量漏损控制——思路相近（稀疏计量点+算法定位漏损），但主要面向市政供水管网而非楼宇内部",
+    "树根互联/寄云科技等工业互联网 PdM 平台——具备时序异常检测能力，可类比但未聚焦水管网垂直场景",
+    "涂鸦智能/萤石等智能楼宇 IoT——有传感与楼宇接入能力，缺水力学数字孪生与管段级漏点定位"
+   ],
+   "scene_tags": [
+    "非侵入式传感",
+    "时序异常检测",
+    "数字孪生合成数据",
+    "漏损定位",
+    "预测性维护",
+    "楼宇IoT",
+    "流程工业管网监测"
+   ],
+   "archive": "companies/aquashield.md",
+   "researched_at": "2026-07-11",
+   "research_status": "researched"
   },
   {
    "num": 57,
@@ -1952,14 +2174,42 @@
    "subcategory": "Robotics",
    "one_liner_en": "Robotic pit-stops for self-driving cars",
    "one_liner_zh": "自动驾驶汽车的机器人维保站",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-11",
+   "funding": [
+    {
+     "round": "Seed",
+     "amount": "$10,000,000",
+     "date": "2026-06-26",
+     "source_url": "https://techcrunch.com/2026/06/26/this-silicon-valley-startup-has-raised-10m-to-build-pitstops-to-clean-and-charge-robotaxis/"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "能链/新电途、能源类充电运维——分布式充电+运维网络（说明：与 Aseon 的充电部分相邻，但缺清洁/巡检机器人化）",
+    "洗车自动化（driveclean、车便利、镭鲨等无人洗车机）——自动清洁（说明：解决清洁工序自动化，但不含充电与 AI 巡检分诊）",
+    "海康机器人/梅卡曼德/阿丘科技——机器视觉+机械臂做工业巡检与柔性抓取（说明：底层技术栈同源，可迁移到车辆巡检场景，但未做 robotaxi 运维整包）",
+    "轻舟智航/文远知行/百度 Apollo 的车队运维体系——robotaxi 运营方内部的场站运维（说明：中国 robotaxi 运营商同样面临 deadhead 与场站运维成本，是 Aseon 模式在国内的潜在需求方/自建对标）"
+   ],
+   "scene_tags": [
+    "机器人微站",
+    "自动驾驶车队运维",
+    "视觉语言模型巡检",
+    "空驶里程消除",
+    "基础设施即服务",
+    "人机分诊清洁",
+    "临时构筑物快速部署",
+    "设备可用率经济账"
+   ],
+   "archive": "companies/aseon-labs.md",
+   "researched_at": "2026-07-11",
+   "research_status": "researched"
   },
   {
    "num": 72,
@@ -3171,14 +3421,46 @@
    "subcategory": "Robotics",
    "one_liner_en": "Robots and software for farms",
    "one_liner_zh": "面向农场的机器人与软件",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-11",
+   "funding": [
+    {
+     "round": "YC + 天使",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/synphony"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "加州最大的草莓种植商之一（未具名）",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/synphony"
+    }
+   ],
+   "cn_benchmarks": [
+    "极飞科技 XAG（农业无人机/无人化农业设备与农田数字化，智慧农业代表）",
+    "丰疆智能 FJDynamics（农机自动驾驶、农业机器人与精准农业）",
+    "博创联动（农机智能化与农业物联网）",
+    "中科原动力/各高校系果蔬采摘机器人团队（草莓/番茄等设施采摘机器人，多处早期阶段）"
+   ],
+   "scene_tags": [
+    "农业采摘机器人",
+    "户外非结构化操作",
+    "人在环部署(human-in-the-loop)",
+    "真实世界机器人数据护城河",
+    "少样本训练+真实约束验证",
+    "机器人数据与评测售卖"
+   ],
+   "archive": "companies/synphony.md",
+   "researched_at": "2026-07-11",
+   "research_status": "researched"
   },
   {
    "num": 113,
@@ -3553,14 +3835,50 @@
    "subcategory": "Robotics",
    "one_liner_en": "Automated scale AI for robotics data",
    "one_liner_zh": "机器人数据的自动化规模标注 AI",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-11",
+   "funding": [
+    {
+     "round": "YC 参投（Spring 2026 批）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/shotwellai"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "Ultra",
+     "confidence": "中",
+     "source_url": "https://shotwell.ai/"
+    },
+    {
+     "name": "Parametric",
+     "confidence": "中",
+     "source_url": "https://shotwell.ai/"
+    }
+   ],
+   "cn_benchmarks": [
+    "整数智能 / 云测数据 / Testin（机器人与多模态数据标注服务商，偏人工+工具，正向自动化标注演进）",
+    "格灵深瞳、非夕、梅卡曼德等具身/工业机器人厂商内部的数据引擎（多为自建，非独立卖数据质量层）",
+    "国地共建具身智能创新中心 / 智元、宇树等的开源数据集与数据采集工场（对标『机器人训练数据供应链』一环）"
+   ],
+   "scene_tags": [
+    "机器人训练数据",
+    "视频失败检测",
+    "动作切分标注",
+    "具身智能数据引擎",
+    "部署可观测性",
+    "自动化数据质量"
+   ],
+   "archive": "companies/shotwell-ai.md",
+   "researched_at": "2026-07-11",
+   "research_status": "researched"
   },
   {
    "num": 124,
@@ -4470,14 +4788,43 @@
    "subcategory": "Robotics",
    "one_liner_en": "Humanoid robots for elder care",
    "one_liner_zh": "用于养老护理的人形机器人",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-11",
+   "funding": [
+    {
+     "round": "YC (Spring 2026)",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/twolabs"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "宇树科技 Unitree（人形 H1/G1，硬件性价比路线）",
+    "智元机器人 Agibot（具身智能+数据采集训练平台，与 Twolabs 的『平台+数据飞轮』最接近）",
+    "傅利叶智能 Fourier（人形 GR 系列，且原有康复机器人基因，切养老/康复护理最对口）",
+    "银河通用 Galbot（具身大模型+仿真数据驱动的通用操作）",
+    "上海 RobotGym 麒迹 QijiaQ1（可变形轮椅式养老助行人形，场景正面对标）"
+   ],
+   "scene_tags": [
+    "人形机器人",
+    "养老护理",
+    "具身智能",
+    "VLA视觉语言动作模型",
+    "模仿学习",
+    "模块化机器人平台",
+    "Record-to-Deploy训练流水线",
+    "社交陪伴机器人"
+   ],
+   "archive": "companies/twolabs.md",
+   "researched_at": "2026-07-11",
+   "research_status": "researched"
   },
   {
    "num": 156,
@@ -4893,14 +5240,43 @@
    "subcategory": "Aviation & Space",
    "one_liner_en": "Satellites for manufacturing in space",
    "one_liner_zh": "用于太空制造的卫星",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-11",
+   "funding": [
+    {
+     "round": "Pre-seed / 出隐身期披露",
+     "amount": "$500,000",
+     "date": "2026-04（出隐身报道时点）",
+     "source_url": "https://payloadspace.com/exclusive-in-orbit-manufacturing-startup-dispatch-emerges-from-stealth/"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "返回式卫星与在轨实验：中国航天科技集团（CASC）返回式卫星系列 + 实践系列，具备成熟的再入回收工程能力，是国家队路线的对标",
+    "商业太空制造/微重力应用：中科院空间应用工程与技术中心（微重力科学与在轨实验组织方），代表国内在轨制造与实验的科研主线",
+    "商业可回收/再入方向：深蓝航天、东方空间等商业火箭公司在攻垂直回收（虽聚焦运载而非在轨制造返回舱，但共享『可复用 + 降本』的工程叙事）",
+    "太空制造工艺：航天五院等推进的在轨 3D 打印/增材制造与太空材料实验，对标 Dispatch 的『在轨生产』环节"
+   ],
+   "scene_tags": [
+    "太空制造",
+    "在轨制造",
+    "微重力工艺",
+    "可复用/可翻新硬件",
+    "再入返回物流",
+    "无人熄灯工厂",
+    "高价值小批量制造",
+    "制造即服务(MaaS)",
+    "航天供应链降本"
+   ],
+   "archive": "companies/dispatch.md",
+   "researched_at": "2026-07-11",
+   "research_status": "researched"
   },
   {
    "num": 172,
@@ -5551,14 +5927,41 @@
    "subcategory": "",
    "one_liner_en": "The OS for data quality across any stack",
    "one_liner_zh": "跨任意技术栈的数据质量操作系统",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-11",
+   "funding": [
+    {
+     "round": "Pre-Seed / YC 标准投资",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.crunchbase.com/organization/velum-labs"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "Aloudata 大应科技（数据血缘/NoETL 自动化，与 Velum 的『自动血缘+零迁移』叙事最接近）",
+    "Datablau 数语科技（数据治理/数据标准/数据质量平台）",
+    "亿信华辰（睿治数据治理套件，含数据质量模块，标杆案例多在传统大企业）",
+    "网易数帆 有数/EasyData（含数据质量与数据地图/血缘能力）",
+    "阿里云 DataWorks 数据质量（DataQuality，云原生数仓内嵌质量校验）"
+   ],
+   "scene_tags": [
+    "数据质量",
+    "数据可观测性",
+    "数据血缘",
+    "数据契约",
+    "语义控制平面",
+    "数据治理自动化"
+   ],
+   "archive": "companies/velum-labs.md",
+   "researched_at": "2026-07-11",
+   "research_status": "researched"
   },
   {
    "num": 199,
@@ -8019,14 +8422,45 @@
    "subcategory": "",
    "one_liner_en": "Internet-scale marketplace for robot training data",
    "one_liner_zh": "互联网级别的机器人训练数据市场",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-11",
+   "funding": [
+    {
+     "round": "Seed / YC",
+     "amount": "约 50 万美元（第三方数据平台记为 $500K，与 YC 标准投资额一致，未见独立官宣，置信度中）",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/asimov"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "全球头部机器人实验室（未具名）——官网/YC 表述『全球最大的几家机器人实验室已经是我们的客户』",
+     "confidence": "中",
+     "source_url": "https://tryasimov.ai/"
+    }
+   ],
+   "cn_benchmarks": [
+    "银河通用 / 智元机器人 / 宇树等具身智能本体厂商的自建数据采集与仿真数据团队（本体厂自采，非独立数据市场，说明国内多为『本体+数据一体』而非纯数据供给方）",
+    "国地共建具身智能创新中心（如国家地方共建人形机器人创新中心，推动开源真实数据集与数据采集标准，偏公共基础设施定位）",
+    "各类遥操作/动作捕捉数据采集与数据标注服务商（如海天瑞声等数据服务商延伸至具身数据、以及众多做真机遥操作数采的创业团队，对标其『采集+标注+交付』环节）"
+   ],
+   "scene_tags": [
+    "机器人训练数据市场",
+    "第一视角(egocentric)数据采集",
+    "众包数据供给",
+    "具身智能数据底座",
+    "人类动作数据标注",
+    "工厂场景数据变现"
+   ],
+   "archive": "companies/asimov.md",
+   "researched_at": "2026-07-11",
+   "research_status": "researched"
   },
   {
    "num": 286,
@@ -8524,14 +8958,40 @@
    "subcategory": "",
    "one_liner_en": "The space robotics company",
    "one_liner_zh": "太空机器人公司",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-11",
+   "funding": [
+    {
+     "round": "战略投资（Strategic Investment / SAFE 性质，随 YC W26）",
+     "amount": "100,000 美元（对应 4,000 万美元投后估值）",
+     "date": "2026-03-31",
+     "source_url": "https://www.newsfilecorp.com/release/290620/Planet-Ventures-Makes-Strategic-Investment-in-General-Astronautics-Accelerating-the-Future-of-Space-Robotics-and-Microgravity-Innovation"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "深蓝航天 / 蓝箭航天 / 星际荣耀（国内商业航天火箭与在轨能力基础设施，是「太空制造」的运力前提，但不做在轨实验机器人）",
+    "中科宇航 / 微纳星空（商业卫星与空间平台，可作在轨载荷部署方，非直接对标）",
+    "镁伽机器人 Megarobo（国内『生命科学自动化/自主实验室机器人』头部，做移液、样品处理、AI 驱动的自动化实验室——与 General Astronautics 的地面同源技术最贴近）",
+    "镁孚特 / 天壮环境等实验室自动化厂商（地面湿实验自动化，可作技术对标）"
+   ],
+   "scene_tags": [
+    "自主实验室机器人",
+    "湿实验自动化(移液/配样/板操作)",
+    "微重力制造",
+    "无人化替代高价人工",
+    "黑灯实验室",
+    "在轨研发平台载荷"
+   ],
+   "archive": "companies/general-astronautics.md",
+   "researched_at": "2026-07-11",
+   "research_status": "researched"
   },
   {
    "num": 307,
