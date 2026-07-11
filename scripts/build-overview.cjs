@@ -62,15 +62,16 @@ function cnCell(x) {
 // ---------- 数据聚合 ----------
 const reviewed = list.filter(x => x.status === 'reviewed').sort((a, b) => a.num - b.num);
 const bySlug = {}; reviewed.forEach(x => bySlug[x.slug] = x);
-const themeOf = slug => assign[slug] || 't9';
+const FALLBACK = themes[themes.length - 1].id;
+const themeOf = slug => assign[slug] || FALLBACK;
 
 // 每主题公司（按 num 升序）
 const grouped = {}; themes.forEach(t => grouped[t.id] = []);
 const unassigned = [];
 reviewed.forEach(x => {
-  const t = themeOf(x.slug);
-  if (!grouped[t]) { unassigned.push(x.slug); grouped['t9'].push(x); }
-  else grouped[t].push(x);
+  let t = themeOf(x.slug);
+  if (!grouped[t]) { unassigned.push(x.slug); t = FALLBACK; }
+  grouped[t].push(x);
 });
 if (unassigned.length) console.warn('⚠️ 未归类（已并入其他·横向平台）：', unassigned.join(', '));
 
