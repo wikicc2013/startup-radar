@@ -135,7 +135,8 @@
     <aside class="rail">
       <h3>检索</h3>
       <input id="q" type="search" placeholder="公司名 / 业务关键词">
-      <h3>品类</h3><div id="f-cat"></div>
+      <div id="f-toggle" style="display:flex;gap:6px;flex-wrap:wrap;margin:10px 0 4px"></div>
+      <h3>价值链</h3><div id="f-chain"></div>
       <h3>状态</h3><div id="f-status"></div>
       <h3>批次</h3><div id="f-batch"></div>
       <button class="reset" id="reset">清除全部筛选</button>
@@ -3869,16 +3870,32 @@ function sealOf(c){ // 直通模式：reviewed 分「响哥审核」红章与「
 }
 const TIER_DOT={A1:"#123C6B",A2:"#2F6FB1",B:"#6B87A6",C:"#C1CFDD"};
 
-let DATA=null;
-const state={tier:null,cat:null,status:null,batch:null,q:""};
+let DATA=null, THEMES=null, CHAIN_META=null;
+const state={tier:null,chain:null,status:null,batch:null,q:"",funded:false,beacon:false};
 
 async function load(){
   try{
-    const r=await fetch("./data/companies.json",{cache:"no-store"});
+    const [r,t]=await Promise.all([fetch("./data/companies.json",{cache:"no-store"}),fetch("./data/themes.json",{cache:"no-store"})]);
     if(r.ok){ DATA=await r.json(); }
+    if(t.ok){ THEMES=await t.json(); }
   }catch(e){ /* file:// 或离线时走内嵌快照 */ }
   if(!DATA){ DATA=JSON.parse(document.getElementById("fallback").textContent); }
+  if(THEMES){ CHAIN_META=THEMES.themes; DATA.companies.forEach(c=>{ c.chainId=THEMES.assign[c.slug]||null; }); }
   init();
+}
+const RANK={高:3,中:2,低:1};
+function isFunded(c){ return (c.funding||[]).some(f=>{const a=f.amount||"";return a&&!/^未披露/.test(a)&&/[\d]/.test(a)&&/[$€¥]|万|亿|美元|[MK]\b/i.test(a);}); }
+function hasBeacon(c){ return (c.early_customers||[]).some(u=>u.confidence==="高"); }
+function richOf(c){
+  if(c.status!=="reviewed") return "";
+  const parts=[];
+  const f=(c.funding||[]).find(x=>/[\d]/.test(x.amount||"")&&!/^未披露/.test(x.amount||""));
+  if(f) parts.push("💰 "+((f.round||"")+" "+(f.amount||"").split(/[（(]/)[0]).trim());
+  const cs=(c.early_customers||[]).slice().sort((a,b)=>(RANK[b.confidence]||0)-(RANK[a.confidence]||0))[0];
+  if(cs) parts.push("🏮 "+cs.name+"("+cs.confidence+")");
+  if(c.investors&&c.investors.lead&&!/未披露/.test(c.investors.lead)) parts.push("🏦 领投 "+c.investors.lead);
+  if((c.cn_benchmarks||[]).length) parts.push("🇨🇳 "+c.cn_benchmarks.slice(0,2).map(b=>String(b).split(/[、，,（(：:／\/]|——/)[0].trim()).join("、"));
+  return parts.length?'<div class="why" style="border-left-color:#2F6FB1;background:#F2F7FB">'+parts.join("　·　")+'</div>':"";
 }
 
 function counts(list,key){ const m={}; list.forEach(c=>{const k=c[key]||"—"; m[k]=(m[k]||0)+1;}); return m; }
@@ -3903,9 +3920,11 @@ function filtered(){
   const q=state.q.trim().toLowerCase();
   return DATA.companies.filter(c=>
     (!state.tier||c.tier===state.tier)&&
-    (!state.cat||c.category===state.cat)&&
+    (!state.chain||c.chainId===state.chain)&&
     (!state.status||c.status===state.status)&&
     (!state.batch||c.appeared_in.includes(state.batch))&&
+    (!state.funded||isFunded(c))&&
+    (!state.beacon||hasBeacon(c))&&
     (!q||(c.name+" "+c.one_liner_zh+" "+c.one_liner_en+" "+c.subcategory).toLowerCase().includes(q))
   );
 }
@@ -3915,8 +3934,8 @@ function render(){
 
   // 统计条：档位（在其余筛选条件下计数）
   const base=all.filter(c=>
-    (!state.cat||c.category===state.cat)&&(!state.status||c.status===state.status)&&
-    (!state.batch||c.appeared_in.includes(state.batch)));
+    (!state.chain||c.chainId===state.chain)&&(!state.status||c.status===state.status)&&
+    (!state.batch||c.appeared_in.includes(state.batch))&&(!state.funded||isFunded(c))&&(!state.beacon||hasBeacon(c)));
   const tc=counts(base,"tier");
   const st=document.getElementById("stats"); st.innerHTML="";
   const allBtn=document.createElement("button");
@@ -3933,9 +3952,12 @@ function render(){
   });
 
   // 筛选轨
-  const catHost=document.getElementById("f-cat"); catHost.innerHTML="";
-  const cc=counts(all,"category");
-  Object.keys(cc).sort((a,b)=>cc[b]-cc[a]).forEach(k=>chip(catHost,"cat",k,k,cc[k]));
+  const tgHost=document.getElementById("f-toggle"); tgHost.innerHTML="";
+  [["funded","💰 有融资"],["beacon","🏮 有灯塔客户"]].forEach(([k,lbl])=>{ const b=document.createElement("button"); b.className="chip"+(state[k]?" on":""); b.style.cssText="width:auto;border:1px solid #B9CDE0;font-size:12px"; b.textContent=lbl; b.onclick=()=>{ state[k]=!state[k]; render(); }; tgHost.appendChild(b); });
+  const chHost=document.getElementById("f-chain"); chHost.innerHTML="";
+  if(CHAIN_META){ const cc={}; all.forEach(c=>{ if(c.chainId) cc[c.chainId]=(cc[c.chainId]||0)+1; });
+    CHAIN_META.forEach(t=>{ if(cc[t.id]) chip(chHost,"chain",t.id,t.emoji+" "+t.title,cc[t.id]); }); }
+  else { chHost.innerHTML='<div style="font-size:12px;color:#9FB3C8;padding:4px 8px">价值链维度需 http 访问（themes.json）</div>'; }
   const stHost=document.getElementById("f-status"); stHost.innerHTML="";
   const sc=counts(all,"status");
   ["pending","researched","reviewed","card","named"].forEach(k=>{ if(sc[k]) chip(stHost,"status",k,STATUS_LABEL[k],sc[k]); });
@@ -3963,6 +3985,7 @@ function render(){
         '<span class="liner2">'+c.one_liner_zh+'</span>'+
         '<div class="en">'+c.one_liner_en+'</div>'+
         (c.triage_reason?'<div class="why">分诊理由：'+c.triage_reason+'</div>':"")+
+        richOf(c)+
         '<div class="meta">批次 '+c.appeared_in.join(", ")+reappear+' · 更新 '+c.updated+
         (c.archive?' · <a href="'+c.archive.replace(/\.md$/,".html")+'" target="_blank">深研档案 →</a>':"")+'</div>'+
       '</div>';
@@ -3972,7 +3995,7 @@ function render(){
 }
 
 document.getElementById("q").addEventListener("input",e=>{ state.q=e.target.value; render(); });
-document.getElementById("reset").onclick=()=>{ state.tier=state.cat=state.status=state.batch=null; state.q=""; document.getElementById("q").value=""; render(); };
+document.getElementById("reset").onclick=()=>{ state.tier=state.chain=state.status=state.batch=null; state.funded=state.beacon=false; state.q=""; document.getElementById("q").value=""; render(); };
 load();
 </script>
 </body>
