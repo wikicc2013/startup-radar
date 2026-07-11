@@ -51,6 +51,10 @@ const revTheme = {}; themesCfg.themes.forEach(t => revTheme[t.id] = 0);
 reviewed.forEach(x => { const id = themesCfg.assign[x.slug]; if (id && revTheme[id] != null) revTheme[id]++; });
 const themeCount = themesCfg.themes.map(t => ({ t, n: revTheme[t.id] })).sort((a, b) => b.n - a.n);
 const maxTheme = Math.max(1, ...themeCount.map(e => e.n));
+const csvCell = x => `"${String(x).replace(/"/g, '""')}"`;
+const CSV = '﻿排名,公司,档,金额,轮次,批次\n' + fundRank.map((e, i) =>
+  [i + 1, e.x.name, e.x.tier, amountLabel(e.f.amount), amountLabel(e.f.round), e.x.batch].map(csvCell).join(',')).join('\n');
+const EXPORT_JS = `<script>const __CSV=${JSON.stringify(CSV)};function __dl(){const b=new Blob([__CSV],{type:'text/csv;charset=utf-8'});const a=document.createElement('a');a.href=URL.createObjectURL(b);a.download='融资榜.csv';document.body.appendChild(a);a.click();a.remove();return false;}</script>`;
 
 const STYLE = `.rwrap{max-width:1120px;margin:0 auto;padding:24px 20px 60px}
 .obar{display:flex;justify-content:space-between;align-items:center;font-size:13px;color:var(--sub)}
@@ -90,7 +94,7 @@ let h = `<!doctype html><html lang="zh-CN"><head>
 ${STYLE}
 </style></head><body>
 <div class="rwrap">
-<div class="obar"><a class="back" href="index.html">← 查询看板</a><span><a href="overview.html">深研总览</a><a href="benchmarks.html">国内对标索引</a><a href="trends.html">趋势</a><a href="investors.html">投资版图</a></span></div>
+<div class="obar"><a class="back" href="index.html">← 查询看板</a><span><a href="overview.html">深研总览</a><a href="benchmarks.html">国内对标索引</a><a href="trends.html">趋势</a><a href="investors.html">投资版图</a></span> <a href="#" onclick="return __dl()" style="cursor:pointer">⬇ 导出融资榜</a></div>
 <header class="rhero">
  <div class="kicker">转型有术 · STARTUP RADAR · 榜单</div>
  <h1>深研榜单</h1>
@@ -113,6 +117,7 @@ ${themeCount.map(e => `<div class="bar"><span class="bl">${e.t.emoji} ${esc(e.t.
 </div></section>
 
 <footer class="foot" style="margin-top:30px">由 <code>node scripts/build-rankings.cjs</code> 从 data/companies.json 生成 · 金额解析用于排序，展示以原文为准 · 直通模式 auto，仅供导航</footer>
+${EXPORT_JS}
 </div></body></html>`;
 
 fs.writeFileSync(path.join(REPO, 'rankings.html'), h, 'utf8');

@@ -63,6 +63,10 @@ const all = Object.entries(vendor).map(([v, arr]) => ({ v, arr })).sort((a, b) =
 const core = all.filter(e => e.arr.length >= 2);
 const tail = all.filter(e => e.arr.length === 1);
 const coveredSlugs = new Set(core.flatMap(e => e.arr.map(a => a.slug)));
+const csvCell = x => `"${String(x).replace(/"/g, '""')}"`;
+const CSV = '﻿国内厂商,被对标数,对标的海外新锐\n' + core.map(e =>
+  [e.v, e.arr.length, e.arr.map(a => a.name).join('; ')].map(csvCell).join(',')).join('\n');
+const EXPORT_JS = `<script>const __CSV=${JSON.stringify(CSV)};function __dl(){const b=new Blob([__CSV],{type:'text/csv;charset=utf-8'});const a=document.createElement('a');a.href=URL.createObjectURL(b);a.download='国内对标索引.csv';document.body.appendChild(a);a.click();a.remove();return false;}</script>`;
 
 const badgeClass = tier => (tier === 'A1' ? 'a1' : 'a2');
 
@@ -105,7 +109,7 @@ let h = `<!doctype html><html lang="zh-CN"><head>
 ${STYLE}
 </style></head><body>
 <div class="bwrap">
-<div class="obar"><a class="back" href="index.html">← 查询看板</a><span><a href="overview.html">深研总览</a> · <a href="rankings.html">榜单</a> · <a href="trends.html">趋势</a> · <a href="investors.html">投资版图</a> · 数据真源 data/companies.json</span></div>
+<div class="obar"><a class="back" href="index.html">← 查询看板</a><span><a href="overview.html">深研总览</a> · <a href="rankings.html">榜单</a> · <a href="trends.html">趋势</a> · <a href="investors.html">投资版图</a> · 数据真源 data/companies.json</span> <a href="#" onclick="return __dl()" style="cursor:pointer">⬇ 导出CSV</a></div>
 <header class="bhero">
  <div class="kicker">转型有术 · STARTUP RADAR · 竞品情报</div>
  <h1>国内对标 · 反向情报索引</h1>
@@ -121,6 +125,7 @@ ${core.map(vcard).join('\n')}
 </div>
 <div class="tailbox">另有 <b>${tail.length}</b> 家国内厂商各被 1 家海外新锐单独对标（长尾，未单列）。高频长尾抽样：${tail.slice(0, 40).map(e => `<span class="tv">${esc(e.v)}</span>`).join('')}</div>
 <footer class="foot" style="margin-top:30px">由 <code>node scripts/build-benchmarks.cjs</code> 从 data/companies.json 的 cn_benchmarks 生成 · 自由文本自动提取，厂商名经归一化合并，可能有少量误差 · 仅供导航</footer>
+${EXPORT_JS}
 </div></body></html>`;
 
 fs.writeFileSync(path.join(REPO, 'benchmarks.html'), h, 'utf8');

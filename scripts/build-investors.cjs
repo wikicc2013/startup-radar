@@ -39,6 +39,10 @@ const all = Object.entries(vc).map(([v, arr]) => ({ v, arr: arr.sort((a, b) => a
 const core = all.filter(e => e.arr.length >= 2);
 const tail = all.filter(e => e.arr.length === 1);
 const covered = new Set(withInv.map(x => x.slug));
+const csvCell = x => `"${String(x).replace(/"/g, '""')}"`;
+const CSV = '﻿机构,出手数,领投数,投资的公司\n' + core.map(e =>
+  [e.v, e.arr.length, e.arr.filter(a => a.lead).length, e.arr.map(a => a.name).join('; ')].map(csvCell).join(',')).join('\n');
+const EXPORT_JS = `<script>const __CSV=${JSON.stringify(CSV)};function __dl(){const b=new Blob([__CSV],{type:'text/csv;charset=utf-8'});const a=document.createElement('a');a.href=URL.createObjectURL(b);a.download='投资版图.csv';document.body.appendChild(a);a.click();a.remove();return false;}</script>`;
 
 const STYLE = `.iwrap{max-width:1120px;margin:0 auto;padding:24px 20px 60px}
 .obar{display:flex;justify-content:space-between;align-items:center;font-size:13px;color:var(--sub)}.obar a{margin-left:12px}
@@ -78,7 +82,7 @@ let h = `<!doctype html><html lang="zh-CN"><head>
 ${STYLE}
 </style></head><body>
 <div class="iwrap">
-<div class="obar"><a class="back" href="index.html">← 查询看板</a><span><a href="overview.html">深研总览</a><a href="benchmarks.html">国内对标</a><a href="rankings.html">榜单</a><a href="trends.html">趋势</a></span></div>
+<div class="obar"><a class="back" href="index.html">← 查询看板</a><span><a href="overview.html">深研总览</a><a href="benchmarks.html">国内对标</a><a href="rankings.html">榜单</a><a href="trends.html">趋势</a></span> <a href="#" onclick="return __dl()" style="cursor:pointer">⬇ 导出CSV</a></div>
 <header class="ihero">
  <div class="kicker">转型有术 · STARTUP RADAR · 投资版图</div>
  <h1>投资版图 · 谁在下注</h1>
@@ -94,6 +98,7 @@ ${core.map(vcard).join('\n')}
 </div>
 <div class="tailbox">另有 <b>${tail.length}</b> 家机构各只出手 1 家（长尾，未单列）。抽样：${tail.slice(0, 40).map(e => `<span class="tv">${esc(e.v)}</span>`).join('')}</div>
 <footer class="foot" style="margin-top:30px">由 <code>node scripts/build-investors.cjs</code> 从 data/companies.json 生成 · 投资方经联网核对带来源 · 仅统计有融资披露的深研公司 · 仅供导航</footer>
+${EXPORT_JS}
 </div></body></html>`;
 
 fs.writeFileSync(REPO + '/investors.html', h, 'utf8');
