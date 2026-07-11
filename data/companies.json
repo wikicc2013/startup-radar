@@ -26861,14 +26861,40 @@
    "subcategory": "",
    "one_liner_en": "Outbound sequencing infrastructure for startups",
    "one_liner_zh": "面向初创的外呼触达基础设施",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-11",
+   "funding": [
+    {
+     "round": "Pre-Seed（含 YC W25 标准投资）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.crunchbase.com/organization/verbiflow"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "探迹（Tungee）——B2B 智能销售云，覆盖线索挖掘（探客）+ 触达 + SCRM，形态最接近『一体化外呼基础设施』",
+    "销售易 / 纷享销客——CRM 主线，含营销获客与自动化跟进模块，偏管理侧",
+    "阿里巴巴国际站 / 领英 领英销售导航（海外外贸场景的触达工具）——制造业外贸获客的现实替代路径",
+    "AiSDR / 各类『AI 外呼数字销售员』国内创业项目——对应 AI 驱动的序列化触达这一细分"
+   ],
+   "scene_tags": [
+    "外呼序列化",
+    "线索挖掘与分层",
+    "多渠道触达闭环",
+    "共享收件箱",
+    "CRM 自动同步",
+    "MCP 驱动的销售自动化"
+   ],
+   "archive": "companies/verbiflow.md",
+   "researched_at": "2026-07-11",
+   "research_status": "researched"
   },
   {
    "num": 901,
@@ -27602,14 +27628,64 @@
    "subcategory": "",
    "one_liner_en": "Voice AI agents for enterprise calls",
    "one_liner_zh": "面向企业通话的语音 AI 智能体",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-11",
+   "funding": [
+    {
+     "round": "Seed",
+     "amount": "$4.7M",
+     "date": "2025",
+     "source_url": "https://leapingai.com/blog/ai-startup-leaping-ai-raised-4-7-m-for-ai-voice-agents"
+    },
+    {
+     "round": "合计（第三方汇总，口径不一）",
+     "amount": "未披露（Tracxn 称累计约 $10.2M/3 轮；PitchBook 口径约 $5.58M，未获一手确认）",
+     "date": "2025",
+     "source_url": "https://pitchbook.com/profiles/company/550261-99"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "Hawesko（德国最大葡萄酒零售商）",
+     "confidence": "高",
+     "source_url": "https://leapingai.com/"
+    },
+    {
+     "name": "Thompson Creek Window Company（家装门窗）",
+     "confidence": "中",
+     "source_url": "https://leapingai.com/blog/home-service-company-automated-appointments-and-sales"
+    },
+    {
+     "name": "某牙买加 BPO 呼叫中心（ACA/平价医疗法案预审呼叫，日均 >5000 通）",
+     "confidence": "中",
+     "source_url": "https://leapingai.com/"
+    }
+   ],
+   "cn_benchmarks": [
+    "追一科技（Zhuiyi）——企业级智能语音客服/外呼",
+    "思必驰 AISpeech——对话式语音 AI 平台与呼叫中心方案",
+    "容联云/容联七陌——云通讯+智能客服外呼",
+    "百应科技——AI 外呼与营销获客",
+    "循环智能（Recurrent AI）——销售会话智能与外呼辅助",
+    "阿里云智能语音（云小蜜）/百度智能云（智能外呼）——大厂语音客服中台"
+   ],
+   "scene_tags": [
+    "销售线索资格审核",
+    "预约排期自动化",
+    "外呼挽回/未完成订单激活",
+    "呼叫中心 70% 自动化",
+    "语音 Agent 自动评测与自我改进",
+    "BPO 前置预审分流"
+   ],
+   "archive": "companies/leaping-ai.md",
+   "researched_at": "2026-07-11",
+   "research_status": "researched"
   },
   {
    "num": 929,
@@ -28106,14 +28182,39 @@
    "subcategory": "",
    "one_liner_en": "Self-improving enterprise agents for GTM workflows",
    "one_liner_zh": "面向 GTM 流程的自进化企业智能体",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B007"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-11",
+   "funding": [
+    {
+     "round": "Seed（YC 标准投资）",
+     "amount": "$500K",
+     "date": "2024",
+     "source_url": "https://www.crunchbase.com/organization/canvas-ai"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "探迹 Tungee（GTM/销售侧对标：AI 获客+外呼+SDR 自动化，与 Canvas 早期 GTM 形态最接近，但探迹偏数据+触达，Canvas 强调 agent 自我提升飞轮）",
+    "阿里云百炼 / 火山引擎方舟（后训练+评测层对标：提供模型微调、评测、可观测的企业平台，与 Canvas『持续学习/后训练层』定位重叠，但国内大厂平台更通用、Canvas 更聚焦 agent 轨迹回灌的持续学习）",
+    "硅基流动 SiliconFlow / 智谱开放平台（模型服务+微调基础设施对标：面向企业的推理与微调基座，缺少 Canvas 那套 online 轨迹→eval→后训练的闭环叙事）"
+   ],
+   "scene_tags": [
+    "持续学习/自我提升 agent",
+    "后训练飞轮",
+    "评测与可观测(eval+observability)",
+    "GTM/销售 agent",
+    "人机混合(human-in-the-loop)",
+    "轨迹回灌"
+   ],
+   "archive": "companies/canvas.md",
+   "researched_at": "2026-07-11",
+   "research_status": "researched"
   },
   {
    "num": 950,
@@ -28144,14 +28245,49 @@
    "subcategory": "",
    "one_liner_en": "AI on-call engineer for incident response",
    "one_liner_zh": "面向故障响应的 AI 值班工程师",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B007"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-11",
+   "funding": [
+    {
+     "round": "Seed / YC",
+     "amount": "约 500K 美元（第三方数据库口径，未经官方确认）",
+     "date": "2024",
+     "source_url": "https://www.crunchbase.com/organization/relvy-ai"
+    },
+    {
+     "round": "YC F24（加速器投资）",
+     "amount": "YC 标准条款（未单独披露）",
+     "date": "2024",
+     "source_url": "https://www.ycombinator.com/companies/relvy-ai"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "云智慧（Cloudwise）——AIOps 智能运维，故障根因分析、告警收敛",
+    "擎创科技（Cenboomh）——AIOps 告警降噪与根因定位",
+    "观测云（Guance）——一体化可观测平台，向 AI 辅助排障演进",
+    "博睿数据（Bonree）——APM/可观测，智能运维",
+    "日志易（Rizhiyi）——日志分析与运维智能"
+   ],
+   "scene_tags": [
+    "AI值班工程师",
+    "on-call自动化",
+    "故障根因分析RCA",
+    "AIOps",
+    "可观测性",
+    "runbook自动执行",
+    "本地优先/VPC内部署",
+    "调试专用小模型"
+   ],
+   "archive": "companies/relvy-ai-labs.md",
+   "researched_at": "2026-07-11",
+   "research_status": "researched"
   },
   {
    "num": 952,
@@ -29374,14 +29510,41 @@
    "subcategory": "",
    "one_liner_en": "Personalized learning / voice AI platform",
    "one_liner_zh": "个性化学习/语音 AI 平台",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B007"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-11",
+   "funding": [
+    {
+     "round": "Seed/Pre-seed（含 YC 标准投资）",
+     "amount": "约 500K 美元（未证实，多源冲突）",
+     "date": "2024",
+     "source_url": "https://www.crunchbase.com/organization/protegee"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "支付宝 / 微信支付的『AI/Agent 支付』方向（如支付宝面向 MCP/Agent 的支付能力）——巨头自带清结算与合规，对标其『给 AI agent 发起支付』的能力位（说明：定位相近但体量与路径完全不同，巨头是平台自建而非独立中间件）",
+    "容联云 / 百应科技 / 思必驰等『云通信+AI 外呼语音』厂商——对标其电话语音 agent 侧，但它们通常不把电话收单单独做成独立合规 API（说明：语音能力对标，支付合规层多为缺口）",
+    "拉卡拉 / 汇付天下等收单机构的 IVR/电话支付方案——对标其『电话里安全收信用卡』的合规收单能力（说明：传统收单对标，缺 AI agent 原生编排）"
+   ],
+   "scene_tags": [
+    "AI-agent-payments",
+    "agentic-commerce",
+    "voice-commerce",
+    "IVR-电话支付",
+    "PCI-DSS-合规隔离",
+    "call-center-变现",
+    "支付中间件"
+   ],
+   "archive": "companies/protegee-ai.md",
+   "researched_at": "2026-07-11",
+   "research_status": "researched",
+   "lifecycle": "defunct"
   },
   {
    "num": 1003,
@@ -30006,14 +30169,52 @@
    "subcategory": "",
    "one_liner_en": "AI voice platform for customer calls",
    "one_liner_zh": "面向客户来电的 AI 语音平台",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B007"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-11",
+   "funding": [
+    {
+     "round": "Pre-Seed（种子前）",
+     "amount": "3.6M USD（约 3.1–3.6M EUR，官方 fundraise 页表述为 €3.6M）",
+     "date": "2025-04-15",
+     "source_url": "https://tech.eu/2025/04/15/y-combinator-and-cherry-ventures-back-ex-enpal-team-s-ai-voice-startup-telli-with-3-6m-pre-seed/"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "Enpal（欧洲领先住宅光伏/储能商，逾 10 万客户）",
+     "confidence": "高",
+     "source_url": "https://theaiinsider.tech/2025/04/18/ai-voice-agent-startup-telli-raises-3-6m-to-automate-high-volume-customer-calls/"
+    },
+    {
+     "name": "KitchenAdvisor（CEO Richard Ruben 具名背书）",
+     "confidence": "高",
+     "source_url": "https://www.vestbee.com/insights/articles/telli-secures-3-6-m"
+    }
+   ],
+   "cn_benchmarks": [
+    "百应科技（outbound AI 智能外呼，销售线索/复购/回访，最贴近 telli 的转化型外呼定位）",
+    "追一科技（对话式 AI，语音/文本客服与营销，企业级）",
+    "思必驰 DUI / 智能语音外呼（语音技术+外呼机器人）",
+    "阿里云智能语音交互 / 云呼叫中心（语音合成+外呼平台）",
+    "容联云·容犀 / 智齿科技（云客服+智能外呼一体化）"
+   ],
+   "scene_tags": [
+    "AI外呼",
+    "人机协同呼叫运营",
+    "线索预筛与预约排期",
+    "售后维保回访自动化",
+    "行业纵深(能源/房产/家装)",
+    "音色克隆+大模型多路调度"
+   ],
+   "archive": "companies/telli-technologies.md",
+   "researched_at": "2026-07-11",
+   "research_status": "researched"
   },
   {
    "num": 1029,
