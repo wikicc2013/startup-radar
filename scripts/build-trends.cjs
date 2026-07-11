@@ -84,7 +84,7 @@ let h = `<!doctype html><html lang="zh-CN"><head>
 ${STYLE}
 </style></head><body>
 <div class="twrap">
-<div class="obar"><a class="back" href="index.html">← 查询看板</a><span><a href="overview.html">深研总览</a><a href="benchmarks.html">国内对标</a><a href="rankings.html">榜单</a></span></div>
+<div class="obar"><a class="back" href="index.html">← 查询看板</a><span><a href="overview.html">深研总览</a><a href="benchmarks.html">国内对标</a><a href="rankings.html">榜单</a><a href="investors.html">投资版图</a></span></div>
 <header class="thero">
  <div class="kicker">转型有术 · STARTUP RADAR · 趋势洞察</div>
  <h1>AI 创业趋势洞察</h1>

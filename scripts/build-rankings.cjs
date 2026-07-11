@@ -90,7 +90,7 @@ let h = `<!doctype html><html lang="zh-CN"><head>
 ${STYLE}
 </style></head><body>
 <div class="rwrap">
-<div class="obar"><a class="back" href="index.html">← 查询看板</a><span><a href="overview.html">深研总览</a><a href="benchmarks.html">国内对标索引</a><a href="trends.html">趋势</a></span></div>
+<div class="obar"><a class="back" href="index.html">← 查询看板</a><span><a href="overview.html">深研总览</a><a href="benchmarks.html">国内对标索引</a><a href="trends.html">趋势</a><a href="investors.html">投资版图</a></span></div>
 <header class="rhero">
  <div class="kicker">转型有术 · STARTUP RADAR · 榜单</div>
  <h1>深研榜单</h1>

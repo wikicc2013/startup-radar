@@ -1046,7 +1046,14 @@
    ],
    "archive": "companies/arzana.md",
    "researched_at": "2026-07-07",
-   "research_status": "researched"
+   "research_status": "researched",
+   "investors": {
+    "lead": "未披露",
+    "investors": [
+     "Y Combinator"
+    ],
+    "source_url": "https://www.ycombinator.com/companies/industry/investing"
+   }
   },
   {
    "num": 42,
@@ -2570,7 +2577,14 @@
    ],
    "archive": "companies/ontora.md",
    "researched_at": "2026-07-07",
-   "research_status": "researched"
+   "research_status": "researched",
+   "investors": {
+    "lead": "未披露",
+    "investors": [
+     "Y Combinator"
+    ],
+    "source_url": "https://www.ycombinator.com/launches/QiD-ontora-the-discovery-layer-for-ai-transformation"
+   }
   },
   {
    "num": 102,
@@ -2956,7 +2970,14 @@
    ],
    "archive": "companies/rentahuman.md",
    "researched_at": "2026-07-07",
-   "research_status": "researched"
+   "research_status": "researched",
+   "investors": {
+    "lead": "未披露",
+    "investors": [
+     "Y Combinator"
+    ],
+    "source_url": "https://www.crunchbase.com/organization/rentahuman-ai"
+   }
   },
   {
    "num": 117,
@@ -3375,7 +3396,16 @@
    ],
    "archive": "companies/interfaze.md",
    "researched_at": "2026-07-07",
-   "research_status": "researched"
+   "research_status": "researched",
+   "investors": {
+    "lead": "Antler",
+    "investors": [
+     "Y Combinator",
+     "Antler",
+     "Ada Ventures"
+    ],
+    "source_url": "https://updatedata.jigsawstack.com/jigsawstack-updates-500k-pre-seed-dev-events-new-ai-updates"
+   }
   },
   {
    "num": 133,
@@ -3722,7 +3752,14 @@
    ],
    "archive": "companies/inloop-robotics.md",
    "researched_at": "2026-07-07",
-   "research_status": "researched"
+   "research_status": "researched",
+   "investors": {
+    "lead": "未披露",
+    "investors": [
+     "Y Combinator"
+    ],
+    "source_url": "https://www.ycombinator.com/companies/inloop-robotics"
+   }
   },
   {
    "num": 147,
@@ -4831,7 +4868,15 @@
    ],
    "archive": "companies/autostep.md",
    "researched_at": "2026-07-07",
-   "research_status": "researched"
+   "research_status": "researched",
+   "investors": {
+    "lead": "未披露",
+    "investors": [
+     "Y Combinator",
+     "Neo"
+    ],
+    "source_url": "https://www.ycombinator.com/companies/autostep"
+   }
   },
   {
    "num": 194,
@@ -5052,7 +5097,14 @@
    ],
    "archive": "companies/jinba.md",
    "researched_at": "2026-07-07",
-   "research_status": "researched"
+   "research_status": "researched",
+   "investors": {
+    "lead": "未披露",
+    "investors": [
+     "Y Combinator"
+    ],
+    "source_url": "https://yctierlist.com/w26/jinba/"
+   }
   },
   {
    "num": 203,
@@ -5327,7 +5379,14 @@
    ],
    "archive": "companies/clam.md",
    "researched_at": "2026-07-07",
-   "research_status": "researched"
+   "research_status": "researched",
+   "investors": {
+    "lead": "未披露",
+    "investors": [
+     "Y Combinator"
+    ],
+    "source_url": "https://www.thevccorner.com/p/yc-w26-batch-complete-company-database"
+   }
   },
   {
    "num": 215,
@@ -5451,7 +5510,15 @@
    ],
    "archive": "companies/agentic-fabriq.md",
    "researched_at": "2026-07-07",
-   "research_status": "researched"
+   "research_status": "researched",
+   "investors": {
+    "lead": "未披露",
+    "investors": [
+     "Y Combinator",
+     "E14 Fund"
+    ],
+    "source_url": "https://tracxn.com/d/companies/agenticfabriq/__Qv3de16nJ4aoJ0PIWgWl4sVaOZyalyiyTKr-cCosrv8/funding-and-investors"
+   }
   },
   {
    "num": 219,
@@ -5543,7 +5610,14 @@
    ],
    "archive": "companies/ressl.md",
    "researched_at": "2026-07-07",
-   "research_status": "researched"
+   "research_status": "researched",
+   "investors": {
+    "lead": "未披露",
+    "investors": [
+     "Y Combinator"
+    ],
+    "source_url": "https://www.angelsround.com/p/ressl"
+   }
   },
   {
    "num": 222,
@@ -5740,7 +5814,14 @@
    ],
    "archive": "companies/revion.md",
    "researched_at": "2026-07-07",
-   "research_status": "researched"
+   "research_status": "researched",
+   "investors": {
+    "lead": "未披露",
+    "investors": [
+     "Y Combinator"
+    ],
+    "source_url": "https://www.ycombinator.com/companies/revion"
+   }
   },
   {
    "num": 230,
@@ -6466,7 +6547,14 @@
    ],
    "archive": "companies/salus.md",
    "researched_at": "2026-07-07",
-   "research_status": "researched"
+   "research_status": "researched",
+   "investors": {
+    "lead": "未披露",
+    "investors": [
+     "Y Combinator"
+    ],
+    "source_url": "https://www.startuphub.ai/ai-news/claudes-corner/2026/claudes-corner-salus-yc-w2026"
+   }
   },
   {
    "num": 259,
@@ -6922,7 +7010,20 @@
    ],
    "archive": "companies/orthogonal.md",
    "researched_at": "2026-07-07",
-   "research_status": "researched"
+   "research_status": "researched",
+   "investors": {
+    "lead": "Pantera Capital",
+    "investors": [
+     "Y Combinator",
+     "Pantera Capital",
+     "Pioneer Fund",
+     "Decasonic",
+     "Blast",
+     "Outbound",
+     "Surreal"
+    ],
+    "source_url": "https://www.prnewswire.com/news-releases/orthogonal-raises-4-3m-seed-for-ai-agent-service-discovery-orchestration-and-payments-across-the-internet-302806969.html"
+   }
   },
   {
    "num": 276,
@@ -7106,7 +7207,15 @@
    ],
    "archive": "companies/pollinate.md",
    "researched_at": "2026-07-07",
-   "research_status": "researched"
+   "research_status": "researched",
+   "investors": {
+    "lead": "未披露",
+    "investors": [
+     "Y Combinator",
+     "UniQuest Extension Fund"
+    ],
+    "source_url": "https://ventures.uq.edu.au/article/2025/12/pollinate-represent-australia-ycombinator"
+   }
   },
   {
    "num": 284,
@@ -7519,7 +7628,14 @@
    ],
    "archive": "companies/servo7.md",
    "researched_at": "2026-07-07",
-   "research_status": "researched"
+   "research_status": "researched",
+   "investors": {
+    "lead": "未披露",
+    "investors": [
+     "Y Combinator"
+    ],
+    "source_url": "https://tracxn.com/d/companies/servo7/__HzDxH0REQJH24VIu6qXCiSRUC66_aeAL4KocW5jbFHM/funding-and-investors"
+   }
   },
   {
    "num": 303,
@@ -7615,7 +7731,17 @@
    ],
    "archive": "companies/human-archive.md",
    "researched_at": "2026-07-07",
-   "research_status": "researched"
+   "research_status": "researched",
+   "investors": {
+    "lead": "Wing Venture Capital + NVP Capital (联合领投)",
+    "investors": [
+     "Wing Venture Capital",
+     "NVP Capital",
+     "Y Combinator",
+     "OpenAI/Nvidia/Google/Meta 等天使"
+    ],
+    "source_url": "https://techcrunch.com/2026/05/26/human-archive-taps-into-indias-services-startups-to-collect-data-for-physical-ai/"
+   }
   },
   {
    "num": 305,
@@ -9218,7 +9344,14 @@
    ],
    "archive": "companies/openroll.md",
    "researched_at": "2026-07-07",
-   "research_status": "researched"
+   "research_status": "researched",
+   "investors": {
+    "lead": "未披露",
+    "investors": [
+     "Y Combinator"
+    ],
+    "source_url": "https://www.crunchbase.com/organization/openroll"
+   }
   },
   {
    "num": 380,
@@ -9578,7 +9711,19 @@
    ],
    "archive": "companies/lua-ai.md",
    "researched_at": "2026-07-07",
-   "research_status": "researched"
+   "research_status": "researched",
+   "investors": {
+    "lead": "Norrsken22",
+    "investors": [
+     "Norrsken22",
+     "Flourish Ventures",
+     "20VC",
+     "P1 Ventures",
+     "Phosphor Capital",
+     "Y Combinator"
+    ],
+    "source_url": "https://blog.heylua.ai/lua-raises-5-8m-to-help-build-operating-system-for-human-and-agent-collaboration/"
+   }
   },
   {
    "num": 395,
@@ -9763,7 +9908,20 @@
    ],
    "archive": "companies/cortex-ai.md",
    "researched_at": "2026-07-07",
-   "research_status": "researched"
+   "research_status": "researched",
+   "investors": {
+    "lead": "未披露",
+    "investors": [
+     "500 Global",
+     "Golden Gate Ventures",
+     "Matrix Partners",
+     "Liquid 2 Ventures",
+     "Y Combinator",
+     "Gokul Rajaram",
+     "Kaz Nejatian"
+    ],
+    "source_url": "https://news.nestia.com/detail/-/13909240"
+   }
   },
   {
    "num": 403,
@@ -9928,7 +10086,21 @@
    ],
    "archive": "companies/multifactor.md",
    "researched_at": "2026-07-07",
-   "research_status": "researched"
+   "research_status": "researched",
+   "investors": {
+    "lead": "Nexus Venture Partners",
+    "investors": [
+     "Nexus Venture Partners",
+     "Y Combinator",
+     "Taurus Ventures",
+     "Honeystone Ventures",
+     "Flex Capital",
+     "Pioneer Fund",
+     "Ritual Capital",
+     "Liquid2 Ventures"
+    ],
+    "source_url": "https://www.prnewswire.com/news-releases/yc-f25-startup-multifactor-raises-15m-seed-round-to-make-online-accounts-safe-for-ai-agents-302633496.html"
+   }
   },
   {
    "num": 410,
@@ -10659,7 +10831,14 @@
    ],
    "archive": "companies/autoace.md",
    "researched_at": "2026-07-07",
-   "research_status": "researched"
+   "research_status": "researched",
+   "investors": {
+    "lead": "未披露",
+    "investors": [
+     "Y Combinator"
+    ],
+    "source_url": "https://www.ycombinator.com/companies/autoace"
+   }
   },
   {
    "num": 437,
@@ -11199,7 +11378,16 @@
    ],
    "archive": "companies/scott-ai.md",
    "researched_at": "2026-07-07",
-   "research_status": "researched"
+   "research_status": "researched",
+   "investors": {
+    "lead": "未披露",
+    "investors": [
+     "MaC Venture Capital",
+     "Untapped Ventures",
+     "Y Combinator"
+    ],
+    "source_url": "https://www.crunchbase.com/organization/scott-ai-1229"
+   }
   },
   {
    "num": 461,
@@ -11468,7 +11656,14 @@
    ],
    "archive": "companies/articulate.md",
    "researched_at": "2026-07-07",
-   "research_status": "researched"
+   "research_status": "researched",
+   "investors": {
+    "lead": "未披露",
+    "investors": [
+     "Y Combinator"
+    ],
+    "source_url": "https://www.ycombinator.com/companies/helonic"
+   }
   },
   {
    "num": 471,
@@ -11952,7 +12147,18 @@
    ],
    "archive": "companies/nexus.md",
    "researched_at": "2026-07-07",
-   "research_status": "researched"
+   "research_status": "researched",
+   "investors": {
+    "lead": "General Catalyst",
+    "investors": [
+     "General Catalyst",
+     "Y Combinator",
+     "Transpose Platform",
+     "Twenty Two Ventures",
+     "Phosphor Capital"
+    ],
+    "source_url": "https://www.globenewswire.com/news-release/2026/03/31/3265301/0/en/nexus-raises-4-3m-seed-round-to-help-business-teams-deploy-ai-agents.html"
+   }
   },
   {
    "num": 486,
@@ -12179,7 +12385,21 @@
    ],
    "archive": "companies/nox-metals.md",
    "researched_at": "2026-07-07",
-   "research_status": "researched"
+   "research_status": "researched",
+   "investors": {
+    "lead": "Hyperion",
+    "investors": [
+     "Hyperion",
+     "Palmer Luckey",
+     "Y Combinator",
+     "Jared Friedman",
+     "RoboStrategy",
+     "Operator Collective",
+     "DTX Ventures",
+     "Alumni Ventures"
+    ],
+    "source_url": "https://noxmetals.co/blog/nox-metals-seed-round"
+   }
   },
   {
    "num": 494,
@@ -12368,7 +12588,18 @@
    ],
    "archive": "companies/getburnt.md",
    "researched_at": "2026-07-07",
-   "research_status": "researched"
+   "research_status": "researched",
+   "investors": {
+    "lead": "Penny Jar Capital",
+    "investors": [
+     "Penny Jar Capital",
+     "Scribble Ventures",
+     "Formation VC",
+     "Dan Scheinman",
+     "Y Combinator"
+    ],
+    "source_url": "https://www.prnewswire.com/news-releases/burnt-raises-3-8m-in-seed-funding-to-accelerate-food-supply-chain-302567414.html"
+   }
   },
   {
    "num": 501,
@@ -12417,7 +12648,14 @@
    ],
    "archive": "companies/avent.md",
    "researched_at": "2026-07-07",
-   "research_status": "researched"
+   "research_status": "researched",
+   "investors": {
+    "lead": "未披露",
+    "investors": [
+     "Y Combinator"
+    ],
+    "source_url": "https://tracxn.com/d/companies/aventindustrial/__ZFgj7WMxZmqSaP_4s-gMl9ItW_vBUq8IYgrrvf27OqI"
+   }
   },
   {
    "num": 502,
@@ -12502,7 +12740,14 @@
    ],
    "archive": "companies/noso.md",
    "researched_at": "2026-07-07",
-   "research_status": "researched"
+   "research_status": "researched",
+   "investors": {
+    "lead": "未披露",
+    "investors": [
+     "Y Combinator"
+    ],
+    "source_url": "https://www.linkedin.com/company/noso-labs"
+   }
   },
   {
    "num": 505,
@@ -12659,7 +12904,16 @@
    ],
    "archive": "companies/tecto.md",
    "researched_at": "2026-07-07",
-   "research_status": "researched"
+   "research_status": "researched",
+   "investors": {
+    "lead": "未披露",
+    "investors": [
+     "Think+",
+     "Treeo VC",
+     "Y Combinator"
+    ],
+    "source_url": "https://www.startuphub.ai/startups/tectoai-yc-s25"
+   }
   },
   {
    "num": 511,
@@ -12782,7 +13036,18 @@
    ],
    "archive": "companies/fleetline.md",
    "researched_at": "2026-07-07",
-   "research_status": "researched"
+   "research_status": "researched",
+   "investors": {
+    "lead": "未披露",
+    "investors": [
+     "Alumni Ventures",
+     "Operator Collective",
+     "Shine Capital",
+     "Y Combinator",
+     "Bloomberg Beta"
+    ],
+    "source_url": "https://startupintros.com/orgs/fleetline"
+   }
   },
   {
    "num": 516,
@@ -12977,7 +13242,18 @@
    ],
    "archive": "companies/dscribe-ai.md",
    "researched_at": "2026-07-07",
-   "research_status": "researched"
+   "research_status": "researched",
+   "investors": {
+    "lead": "未披露（VC 联合投资）",
+    "investors": [
+     "KCRise Fund",
+     "Abstraction Capital",
+     "Flyover Capital",
+     "Redbud VC",
+     "EquipmentShare"
+    ],
+    "source_url": "https://startlandnews.com/2025/03/dscribe-ai-pre-seed/"
+   }
   },
   {
    "num": 523,
@@ -13038,7 +13314,19 @@
    ],
    "archive": "companies/kernel.md",
    "researched_at": "2026-07-07",
-   "research_status": "researched"
+   "research_status": "researched",
+   "investors": {
+    "lead": "Accel",
+    "investors": [
+     "Accel",
+     "Y Combinator",
+     "Cintrifuse Capital",
+     "Vercel Ventures",
+     "Refinery Ventures",
+     "SV Angel"
+    ],
+    "source_url": "https://siliconangle.com/2025/10/09/kernel-raises-22m-power-browser-infrastructure-ai-agents/"
+   }
   },
   {
    "num": 524,
@@ -13143,7 +13431,18 @@
    ],
    "archive": "companies/notte-labs.md",
    "researched_at": "2026-07-07",
-   "research_status": "researched"
+   "research_status": "researched",
+   "investors": {
+    "lead": "4DX Ventures",
+    "investors": [
+     "4DX Ventures",
+     "Enza Capital",
+     "Dorm Room Fund",
+     "Mojo Ventures",
+     "Y Combinator"
+    ],
+    "source_url": "https://www.vestbee.com/insights/articles/notte-secures-2-5-m"
+   }
   },
   {
    "num": 528,
@@ -13433,7 +13732,14 @@
    "archive": "companies/metis.md",
    "researched_at": "2026-07-07",
    "research_status": "acquired",
-   "lifecycle": "acquired"
+   "lifecycle": "acquired",
+   "investors": {
+    "lead": "未披露",
+    "investors": [
+     "Y Combinator"
+    ],
+    "source_url": "https://www.crunchbase.com/funding_round/metis-labs-seed--2cf678ea"
+   }
   },
   {
    "num": 537,
@@ -14295,7 +14601,20 @@
    ],
    "archive": "companies/flai.md",
    "researched_at": "2026-07-07",
-   "research_status": "researched"
+   "research_status": "researched",
+   "investors": {
+    "lead": "First Round Capital",
+    "investors": [
+     "First Round Capital",
+     "Y Combinator",
+     "SV Angel",
+     "Liquid 2 Ventures",
+     "Innovation Endeavors",
+     "RedBlue Capital",
+     "Toyota Ventures"
+    ],
+    "source_url": "https://www.useflai.com/blog/seed-announcement"
+   }
   },
   {
    "num": 576,
@@ -14388,7 +14707,19 @@
    ],
    "archive": "companies/trace.md",
    "researched_at": "2026-07-07",
-   "research_status": "researched"
+   "research_status": "researched",
+   "investors": {
+    "lead": "未披露",
+    "investors": [
+     "Y Combinator",
+     "Zeno Ventures",
+     "Transpose Platform Management",
+     "Goodwater Capital",
+     "Formosa Capital",
+     "WeFunder"
+    ],
+    "source_url": "https://techcrunch.com/2026/02/26/trace-raises-3-million-to-solve-the-agent-adoption-problem/"
+   }
   },
   {
    "num": 579,
@@ -14533,7 +14864,16 @@
    ],
    "archive": "companies/parachute.md",
    "researched_at": "2026-07-07",
-   "research_status": "researched"
+   "research_status": "researched",
+   "investors": {
+    "lead": "未披露",
+    "investors": [
+     "Y Combinator",
+     "TitletownTech",
+     "Andrew Poesaste"
+    ],
+    "source_url": "https://www.ycombinator.com/companies/parachute"
+   }
   },
   {
    "num": 583,
@@ -14678,7 +15018,14 @@
    ],
    "archive": "companies/induction-labs.md",
    "researched_at": "2026-07-10",
-   "research_status": "researched"
+   "research_status": "researched",
+   "investors": {
+    "lead": "未披露",
+    "investors": [
+     "Y Combinator"
+    ],
+    "source_url": "https://www.ycombinator.com/launches/OEj-induction-labs-building-the-best-computer-use-model-in-the-world"
+   }
   },
   {
    "num": 589,
@@ -15806,7 +16153,20 @@
    ],
    "archive": "companies/truth-systems.md",
    "researched_at": "2026-07-10",
-   "research_status": "researched"
+   "research_status": "researched",
+   "investors": {
+    "lead": "Gradient",
+    "investors": [
+     "Gradient",
+     "Lightspeed Venture Partners",
+     "F-Prime Capital",
+     "Y Combinator",
+     "The LegalTech Fund",
+     "Pear VC",
+     "a16z Scout"
+    ],
+    "source_url": "https://www.artificiallawyer.com/2025/10/28/truth-systems-bags-4m-to-enforce-ai-guardrails/"
+   }
   },
   {
    "num": 633,
@@ -15859,7 +16219,15 @@
    ],
    "archive": "companies/agentmail.md",
    "researched_at": "2026-07-10",
-   "research_status": "researched"
+   "research_status": "researched",
+   "investors": {
+    "lead": "General Catalyst",
+    "investors": [
+     "General Catalyst",
+     "Y Combinator"
+    ],
+    "source_url": "https://www.globenewswire.com/news-release/2026/03/10/3253159/0/en/AgentMail-Raises-6M-led-by-General-Catalyst-to-Build-the-First-Email-Provider-for-AI-Agents.html"
+   }
   },
   {
    "num": 634,
@@ -15904,7 +16272,14 @@
    ],
    "archive": "companies/traceroot-ai.md",
    "researched_at": "2026-07-10",
-   "research_status": "researched"
+   "research_status": "researched",
+   "investors": {
+    "lead": "未披露",
+    "investors": [
+     "Y Combinator"
+    ],
+    "source_url": "https://www.ycombinator.com/companies/traceroot-ai"
+   }
   },
   {
    "num": 635,
@@ -16008,7 +16383,21 @@
    ],
    "archive": "companies/dedalus-labs.md",
    "researched_at": "2026-07-10",
-   "research_status": "researched"
+   "research_status": "researched",
+   "investors": {
+    "lead": "Kindred Ventures 与 Saga Ventures 联合领投",
+    "investors": [
+     "Kindred Ventures",
+     "Saga Ventures",
+     "E14 Fund",
+     "Emergence Capital",
+     "Transpose Platform",
+     "Liquid 2 Ventures",
+     "FPV Ventures",
+     "Y Combinator"
+    ],
+    "source_url": "https://www.dedaluslabs.ai/blog/dedalus-seed-round"
+   }
   },
   {
    "num": 639,
@@ -16507,7 +16896,18 @@
    ],
    "archive": "companies/bond.md",
    "researched_at": "2026-07-07",
-   "research_status": "researched"
+   "research_status": "researched",
+   "investors": {
+    "lead": "Fellows Fund",
+    "investors": [
+     "Fellows Fund",
+     "Y Combinator",
+     "Goodwater Capital",
+     "E14 Fund",
+     "Pioneer Fund"
+    ],
+    "source_url": "https://www.linkedin.com/posts/chloesamaha_today-were-announcing-bond-ycx25s-3m-activity-7402384118543568897-hXKs"
+   }
   },
   {
    "num": 660,
@@ -16595,7 +16995,18 @@
    ],
    "archive": "companies/airweave.md",
    "researched_at": "2026-07-10",
-   "research_status": "researched"
+   "research_status": "researched",
+   "investors": {
+    "lead": "FCVC",
+    "investors": [
+     "FCVC",
+     "Lux Capital",
+     "Y Combinator",
+     "Orange Collective",
+     "Pioneer Fund"
+    ],
+    "source_url": "https://airweave.ai/blog/airweave-raises-6m-seed-round"
+   }
   },
   {
    "num": 663,
@@ -16742,7 +17153,19 @@
    ],
    "archive": "companies/linewise.md",
    "researched_at": "2026-07-07",
-   "research_status": "researched"
+   "research_status": "researched",
+   "investors": {
+    "lead": "未披露",
+    "investors": [
+     "A2D Ventures",
+     "Y Combinator",
+     "Exitfund",
+     "REMUS Capital",
+     "SBXi Fund",
+     "Team Ignite Ventures"
+    ],
+    "source_url": "https://technode.global/2025/09/05/thai-founded-linewise-raises-1-1m-in-pre-seed-funding-from-y-combinator-a2d-ventures/"
+   }
   },
   {
    "num": 669,
@@ -16868,7 +17291,14 @@
    ],
    "archive": "companies/den.md",
    "researched_at": "2026-07-10",
-   "research_status": "researched"
+   "research_status": "researched",
+   "investors": {
+    "lead": "未披露",
+    "investors": [
+     "Y Combinator"
+    ],
+    "source_url": "https://www.startuphub.ai/startups/den"
+   }
   },
   {
    "num": 673,
@@ -17011,7 +17441,18 @@
    ],
    "archive": "companies/rimba.md",
    "researched_at": "2026-07-07",
-   "research_status": "researched"
+   "research_status": "researched",
+   "investors": {
+    "lead": "未披露",
+    "investors": [
+     "Y Combinator",
+     "NFX",
+     "gumi",
+     "Team Ignite Ventures",
+     "AI Entrepreneurs at Berkeley"
+    ],
+    "source_url": "https://www.crunchbase.com/organization/rimba"
+   }
   },
   {
    "num": 678,
@@ -17068,7 +17509,19 @@
    ],
    "archive": "companies/workdone.md",
    "researched_at": "2026-07-07",
-   "research_status": "researched"
+   "research_status": "researched",
+   "investors": {
+    "lead": "未披露",
+    "investors": [
+     "Y Combinator",
+     "Pioneer Fund",
+     "DVC",
+     "Fjor",
+     "Ryan Chan",
+     "Eric Norman"
+    ],
+    "source_url": "https://www.newswire.com/news/workdone-a-y-combinator-backed-startup-raises-1-8m-in-vc-funding-to-22578866"
+   }
   },
   {
    "num": 679,
@@ -17253,7 +17706,16 @@
    ],
    "archive": "companies/hemut.md",
    "researched_at": "2026-07-07",
-   "research_status": "researched"
+   "research_status": "researched",
+   "investors": {
+    "lead": "未披露",
+    "investors": [
+     "Y Combinator",
+     "Pioneer Fund",
+     "Sunset Ventures"
+    ],
+    "source_url": "https://hemut.com/our-story"
+   }
   },
   {
    "num": 686,
@@ -17744,7 +18206,18 @@
    ],
    "archive": "companies/theta-software.md",
    "researched_at": "2026-07-07",
-   "research_status": "researched"
+   "research_status": "researched",
+   "investors": {
+    "lead": "未披露",
+    "investors": [
+     "Y Combinator",
+     "Duke Capital Partners",
+     "Rebel Fund",
+     "Scribble Ventures",
+     "Transpose Platform Management"
+    ],
+    "source_url": "https://www.crunchbase.com/organization/theta-software"
+   }
   },
   {
    "num": 708,
@@ -18089,7 +18562,15 @@
    ],
    "archive": "companies/opusense-ai.md",
    "researched_at": "2026-07-07",
-   "research_status": "researched"
+   "research_status": "researched",
+   "investors": {
+    "lead": "未披露",
+    "investors": [
+     "Y Combinator",
+     "Scale Asia Ventures"
+    ],
+    "source_url": "https://startupintros.com/orgs/opusense-ai"
+   }
   },
   {
    "num": 723,
@@ -18616,7 +19097,20 @@
    ],
    "archive": "companies/mbodi-ai.md",
    "researched_at": "2026-07-07",
-   "research_status": "researched"
+   "research_status": "researched",
+   "investors": {
+    "lead": "未披露",
+    "investors": [
+     "Y Combinator",
+     "Betaworks",
+     "2468 Ventures",
+     "AIN Ventures",
+     "ALM Ventures",
+     "Batch Ventures",
+     "Fuel Venture Capital"
+    ],
+    "source_url": "https://startupintros.com/orgs/mbodi-ai"
+   }
   },
   {
    "num": 744,
@@ -19010,7 +19504,20 @@
    ],
    "archive": "companies/auctor.md",
    "researched_at": "2026-07-07",
-   "research_status": "researched"
+   "research_status": "researched",
+   "investors": {
+    "lead": "Sequoia Capital",
+    "investors": [
+     "Sequoia Capital",
+     "M12",
+     "HubSpot Ventures",
+     "Workday Ventures",
+     "Tercera",
+     "Dig Ventures",
+     "Y Combinator"
+    ],
+    "source_url": "https://www.globenewswire.com/news-release/2026/04/15/3274475/0/en/Auctor-Raises-20M-Led-by-Sequoia-Capital-to-Build-the-AI-System-of-Action-for-the-Enterprise-Software-Implementation-Market.html"
+   }
   },
   {
    "num": 763,
@@ -19169,7 +19676,14 @@
    ],
    "archive": "companies/groundcontrol.md",
    "researched_at": "2026-07-07",
-   "research_status": "researched"
+   "research_status": "researched",
+   "investors": {
+    "lead": "未披露",
+    "investors": [
+     "Y Combinator"
+    ],
+    "source_url": "https://app.fundz.net/fundings/groundcontrol-software-funding-round-379431"
+   }
   },
   {
    "num": 769,
@@ -19798,7 +20312,14 @@
    ],
    "archive": "companies/axal.md",
    "researched_at": "2026-07-07",
-   "research_status": "researched"
+   "research_status": "researched",
+   "investors": {
+    "lead": "未披露",
+    "investors": [
+     "Y Combinator"
+    ],
+    "source_url": "https://tracxn.com/d/companies/axal/__NI4-rWBZFYb9Wy6xeBpp_1HH3ixs0yfXL3G4mrGQwco/funding-and-investors"
+   }
   },
   {
    "num": 799,
@@ -19966,7 +20487,16 @@
    ],
    "archive": "companies/mercura.md",
    "researched_at": "2026-07-07",
-   "research_status": "researched"
+   "research_status": "researched",
+   "investors": {
+    "lead": "TQ Ventures / SignalFire",
+    "investors": [
+     "TQ Ventures",
+     "SignalFire",
+     "Y Combinator"
+    ],
+    "source_url": "https://www.munich-startup.de/en/115897/mercura-seed-financing/"
+   }
   },
   {
    "num": 803,
@@ -20070,7 +20600,16 @@
    ],
    "archive": "companies/tamlabs.md",
    "researched_at": "2026-07-07",
-   "research_status": "researched"
+   "research_status": "researched",
+   "investors": {
+    "lead": "未披露",
+    "investors": [
+     "Y Combinator",
+     "468 Capital",
+     "Link Ventures"
+    ],
+    "source_url": "https://tracxn.com/d/companies/tamlabs/__rduIGHdC6uJ7MZBoZ3zH2sADTOZ6x9gp4kE0na0rAMQ/funding-and-investors"
+   }
   },
   {
    "num": 807,
@@ -20274,7 +20813,19 @@
    ],
    "archive": "companies/rebolt.md",
    "researched_at": "2026-07-07",
-   "research_status": "researched"
+   "research_status": "researched",
+   "investors": {
+    "lead": "未披露",
+    "investors": [
+     "Y Combinator",
+     "Atlas Venture",
+     "Passion Capital",
+     "Pareto Holdings",
+     "V3 Ventures",
+     "Double Prime"
+    ],
+    "source_url": "https://startupintros.com/orgs/rebolt"
+   }
   },
   {
    "num": 816,
@@ -20466,7 +21017,14 @@
    ],
    "archive": "companies/optifye.md",
    "researched_at": "2026-07-07",
-   "research_status": "researched"
+   "research_status": "researched",
+   "investors": {
+    "lead": "Y Combinator",
+    "investors": [
+     "Y Combinator"
+    ],
+    "source_url": "https://www.crunchbase.com/organization/optifye-ai/financial_details"
+   }
   },
   {
    "num": 824,
@@ -20569,7 +21127,17 @@
    ],
    "archive": "companies/forge-automation.md",
    "researched_at": "2026-07-07",
-   "research_status": "researched"
+   "research_status": "researched",
+   "investors": {
+    "lead": "未披露",
+    "investors": [
+     "Y Combinator",
+     "Decacorn Capital",
+     "Olive Tree Capital",
+     "Pioneer Fund"
+    ],
+    "source_url": "https://www.crunchbase.com/organization/forge-automation"
+   }
   },
   {
    "num": 828,
@@ -20764,7 +21332,19 @@
    ],
    "archive": "companies/sennu-ai.md",
    "researched_at": "2026-07-07",
-   "research_status": "researched"
+   "research_status": "researched",
+   "investors": {
+    "lead": "未披露",
+    "investors": [
+     "Y Combinator",
+     "4490 Ventures",
+     "Brand Foundry Ventures",
+     "Chicago Ventures",
+     "Matt Ocko",
+     "Howard Lindzon"
+    ],
+    "source_url": "https://tracxn.com/d/companies/sennuai/__rrb8ZjgB9Ep6F6PYIEoUioNqZIiRoWCs7u6lD-g_YTE/funding-and-investors"
+   }
   },
   {
    "num": 837,
@@ -21428,7 +22008,19 @@
    ],
    "archive": "companies/pave-robotics.md",
    "researched_at": "2026-07-07",
-   "research_status": "researched"
+   "research_status": "researched",
+   "investors": {
+    "lead": "未披露",
+    "investors": [
+     "Y Combinator",
+     "Pioneer Fund",
+     "Contrarian Thinking Capital",
+     "FundersClub",
+     "Multimodal Ventures",
+     "Spacecadet Ventures"
+    ],
+    "source_url": "https://tracxn.com/d/companies/paverobotics/__gd6zrIibaFWzUzkiB0hxZKKpZo3yJwCg4EonL0XMOCU/funding-and-investors"
+   }
   },
   {
    "num": 869,
@@ -21908,7 +22500,24 @@
    ],
    "archive": "companies/salespatriot.md",
    "researched_at": "2026-07-07",
-   "research_status": "researched"
+   "research_status": "researched",
+   "investors": {
+    "lead": "CRV",
+    "investors": [
+     "CRV",
+     "Pear VC",
+     "Y Combinator",
+     "SV Angel",
+     "Liquid2 Ventures",
+     "Uncorrelated Ventures",
+     "Paul Graham",
+     "Rich Miner",
+     "Mark Pincus",
+     "Steve Blank",
+     "Mati Staniszewski"
+    ],
+    "source_url": "https://tech.eu/2025/10/28/salespatriot-lands-5m-for-defence-procurement-modernisation-and-european-expansion/"
+   }
   },
   {
    "num": 891,
@@ -22221,7 +22830,14 @@
    ],
    "archive": "companies/ovlo.md",
    "researched_at": "2026-07-07",
-   "research_status": "researched"
+   "research_status": "researched",
+   "investors": {
+    "lead": "未披露",
+    "investors": [
+     "Y Combinator"
+    ],
+    "source_url": "https://www.crunchbase.com/organization/ovlo"
+   }
   },
   {
    "num": 906,
@@ -22420,7 +23036,14 @@
    ],
    "archive": "companies/astro.md",
    "researched_at": "2026-07-07",
-   "research_status": "researched"
+   "research_status": "researched",
+   "investors": {
+    "lead": "未披露",
+    "investors": [
+     "Y Combinator"
+    ],
+    "source_url": "https://www.crunchbase.com/organization/astro-fb19"
+   }
   },
   {
    "num": 915,
@@ -22467,7 +23090,14 @@
    ],
    "archive": "companies/dartboard-energy.md",
    "researched_at": "2026-07-07",
-   "research_status": "researched"
+   "research_status": "researched",
+   "investors": {
+    "lead": "Y Combinator",
+    "investors": [
+     "Y Combinator"
+    ],
+    "source_url": "https://tracxn.com/d/companies/dartboard-energy/__pDN9cVp9VjJErcOOaGqsdioY49bAausgMMm99EDQCiw/funding-and-investors"
+   }
   },
   {
    "num": 916,
@@ -22817,7 +23447,20 @@
    ],
    "archive": "companies/revise-robotics.md",
    "researched_at": "2026-07-07",
-   "research_status": "researched"
+   "research_status": "researched",
+   "investors": {
+    "lead": "未披露",
+    "investors": [
+     "Y Combinator",
+     "Sunset Ventures",
+     "Keybridge Venture Partners",
+     "MyAsiaVC",
+     "Neotribe Ventures",
+     "Syntax Ventures",
+     "Transpose Platform Management"
+    ],
+    "source_url": "https://startupintros.com/orgs/revise-robotics"
+   }
   },
   {
    "num": 933,
@@ -23338,7 +23981,14 @@
    ],
    "archive": "companies/forerunner.md",
    "researched_at": "2026-07-07",
-   "research_status": "researched"
+   "research_status": "researched",
+   "investors": {
+    "lead": "未披露",
+    "investors": [
+     "Y Combinator"
+    ],
+    "source_url": "https://tracxn.com/d/companies/forerunner/__yRQA3ReDJd1TFKr25GPxchcYuhDS5pSW_ki6rnU8Bn0"
+   }
   },
   {
    "num": 959,
@@ -23489,7 +24139,18 @@
    ],
    "archive": "companies/metreecs.md",
    "researched_at": "2026-07-07",
-   "research_status": "researched"
+   "research_status": "researched",
+   "investors": {
+    "lead": "未披露",
+    "investors": [
+     "Y Combinator",
+     "Monte Carlo Capital",
+     "Founders Future",
+     "Kima Ventures",
+     "Bpifrance"
+    ],
+    "source_url": "https://www.startupbusiness.it/en/metreecs-closes-e2-7-million-funding-round-and-launches-operations-in-italy/147744/"
+   }
   },
   {
    "num": 965,
@@ -24360,7 +25021,14 @@
    ],
    "archive": "companies/sandra-ai.md",
    "researched_at": "2026-07-07",
-   "research_status": "researched"
+   "research_status": "researched",
+   "investors": {
+    "lead": "未披露",
+    "investors": [
+     "Y Combinator"
+    ],
+    "source_url": "https://www.ycombinator.com/companies/sandra-ai"
+   }
   },
   {
    "num": 1009,
@@ -24825,7 +25493,18 @@
    ],
    "archive": "companies/galini.md",
    "researched_at": "2026-07-07",
-   "research_status": "researched"
+   "research_status": "researched",
+   "investors": {
+    "lead": "Y Combinator",
+    "investors": [
+     "Y Combinator",
+     "Clocktower Ventures",
+     "Exitfund",
+     "Network VC",
+     "Oraseya Capital"
+    ],
+    "source_url": "https://pitchbook.com/profiles/company/706882-87"
+   }
   },
   {
    "num": 1031,
