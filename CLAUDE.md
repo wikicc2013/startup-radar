@@ -11,6 +11,9 @@
 - `data/queue.json` —— 深研队列（Routine 的工作清单）
 - `inbox/` —— 入口：新清单文件丢这里，处理完移入 `batches/` 并重命名 `B{NNN}-{来源}-raw.{ext}`
 - `index.html` —— 查询看板（GitHub Pages），**永不因数据更新而改动**，只读 JSON
+- `overview.html` / `benchmarks.html` / `rankings.html` / `深研总览.*` —— 派生页（深研总览 / 国内对标反向索引 / 榜单），由 `scripts/build-*.cjs` 从 companies.json 生成，**勿手改**
+- `data/themes.json` —— 深研公司的主题簇归属（build-overview 用），新深研公司需在此补一行
+- `scripts/build-{overview,benchmarks,rankings}.cjs` —— 派生页生成脚本，改数据后重跑
 
 ## 状态机
 公司 status：`pending`(A档待深研) → `reviewed`(已入正式档案)
@@ -27,7 +30,7 @@ auto 与 approved 在看板上用不同印章区分，随时可筛出全部 auto
 ## 铁律
 1. 分诊判据、档案模板、置信度体系以 `.claude/skills/ai-startup-radar/SKILL.md` 为准，不得即兴修改判据。
 2. 融资金额/客户名单等数字必须带来源链接；找不到来源就写"未披露"，禁止编造。
-3. 每次修改 companies.json 后必须同步 registry.md 的对应条目和批次索引统计。
+3. 每次修改 companies.json 后必须同步 registry.md 的对应条目和批次索引统计，并重跑 `scripts/build-*.cjs` 刷新 overview/benchmarks/rankings（这些是生成物，禁止手改）。
 4. 深研每次运行最多处理 `data/queue.json` 里 policy.per_run 家（默认 3），按 priority 升序取 pending。
 5. IT桔子等付费墙/登录墙数据禁止抓取；只允许用公开页核对。
 6. commit 信息规范：

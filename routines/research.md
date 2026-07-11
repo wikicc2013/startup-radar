@@ -15,7 +15,11 @@
    status → reviewed，review → "auto"，补 funding / early_customers / cn_benchmarks /
    scene_tags / archive 字段；queue.json 该条 status → done；
    registry.md 深研状态 → ✅ 自动通过。
-4. 单次 commit + push：`research({slug1},{slug2},{slug3}): 深研完成，自动通过`。
+4. **刷新派生页**（均为生成物，勿手改）：先为本次每家新公司在 `data/themes.json` 的 `assign`
+   里补一条主题归属（10 簇之一，见文件顶部 themes 列表；实在归不进就填 `t9` 其他），再依次重跑：
+   `node scripts/build-overview.cjs` → `node scripts/build-benchmarks.cjs` → `node scripts/build-rankings.cjs`。
+5. 单次 commit + push：`research({slug1},{slug2},{slug3}): 深研完成，自动通过`
+   （含 companies.json、companies/*、data/themes.json 及刷新后的 overview/benchmarks/rankings/深研总览.*）。
 
 红线：
 - review 字段只能写 "auto"，绝不写 "approved"——approved 只属于人工审核；
@@ -24,4 +28,6 @@
   组合搜索锚定；仍锚定失败则档案标注 ⚠️ 未能锚定并跳过深研，status 改回 pending 且
   priority 降到 999，在提交信息中说明；
 - 发现公司已关停/被收购照常建档并标注状态；
-- 单家公司搜索预算 15-30 轮，够用即止，不为凑轮次而搜。
+- 单家公司搜索预算 15-30 轮，够用即止，不为凑轮次而搜；
+- `overview.html` / `benchmarks.html` / `rankings.html` / `深研总览.*` 均为 `scripts/build-*.cjs`
+  的生成物，**一律不得手改**；任何对 companies.json 的改动都必须重跑三脚本刷新，勿手工同步。
