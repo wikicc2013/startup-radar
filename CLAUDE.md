@@ -11,9 +11,9 @@
 - `data/queue.json` —— 深研队列（Routine 的工作清单）
 - `inbox/` —— 入口：新清单文件丢这里，处理完移入 `batches/` 并重命名 `B{NNN}-{来源}-raw.{ext}`
 - `index.html` —— 查询看板（GitHub Pages），**永不因数据更新而改动**，只读 JSON
-- `overview.html` / `benchmarks.html` / `rankings.html` / `深研总览.*` —— 派生页（深研总览 / 国内对标反向索引 / 榜单），由 `scripts/build-*.cjs` 从 companies.json 生成，**勿手改**
-- `data/themes.json` —— 深研公司的主题簇归属（build-overview 用），新深研公司需在此补一行
-- `scripts/build-{overview,benchmarks,rankings}.cjs` —— 派生页生成脚本，改数据后重跑
+- `overview.html` / `benchmarks.html` / `rankings.html` / `trends.html` / `investors.html` / `深研总览.*` —— 派生页（深研总览 / 国内对标反向索引 / 榜单 / 趋势洞察 / 投资版图），由 `scripts/build-*.cjs` 从 companies.json + themes.json 生成，**勿手改**
+- `data/themes.json` —— 公司的「企业价值链 7 维度」归属（研发/生产/供应链/营销销售客服/职能后台/AI基础设施/AI安全治理）；含深研档(高置信)与 C 档记名(低置信自动归类)；新入库公司需在此补一行
+- `scripts/build-{overview,benchmarks,rankings,trends,investors}.cjs` —— 派生页生成脚本，改数据后重跑
 
 ## 状态机
 公司 status：`pending`(A档待深研) → `reviewed`(已入正式档案)
@@ -44,4 +44,4 @@ num, name, slug, batch, source, category, subcategory, one_liner_en, one_liner_z
 tier(A1/A2/B/C), triage_reason, status(pending/researched/reviewed/card/named),
 review(none/approved/rejected), appeared_in[], updated；
 深研后追加：funding[{round,amount,date,source_url}], early_customers[{name,confidence,source_url}],
-cn_benchmarks[], scene_tags[], archive("companies/{slug}.md")
+cn_benchmarks[], scene_tags[], archive("companies/{slug}.md"), investors{lead,investors[],source_url}, lifecycle(active/acquired/defunct)
