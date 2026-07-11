@@ -46,9 +46,10 @@ const fundRank = reviewed.map(x => { const b = bestFunding(x); return b && b.usd
 const beacon = reviewed.filter(x => (x.early_customers || []).some(u => u.confidence === '高'))
   .map(x => ({ x, cust: (x.early_customers || []).find(u => u.confidence === '高') }))
   .sort((a, b) => a.x.num - b.x.num);
-// 赛道热度榜
-const themeCount = themesCfg.themes.map(t => ({ t, n: Object.entries(themesCfg.assign).filter(([s, id]) => id === t.id).length }))
-  .sort((a, b) => b.n - a.n);
+// 赛道热度榜（只数已深研档，与 overview 口径一致；C 档全盘趋势见 trends 页）
+const revTheme = {}; themesCfg.themes.forEach(t => revTheme[t.id] = 0);
+reviewed.forEach(x => { const id = themesCfg.assign[x.slug]; if (id && revTheme[id] != null) revTheme[id]++; });
+const themeCount = themesCfg.themes.map(t => ({ t, n: revTheme[t.id] })).sort((a, b) => b.n - a.n);
 const maxTheme = Math.max(1, ...themeCount.map(e => e.n));
 
 const STYLE = `.rwrap{max-width:1120px;margin:0 auto;padding:24px 20px 60px}
