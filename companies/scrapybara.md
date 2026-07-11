@@ -1,0 +1,47 @@
+# Scrapybara
+
+- **批次来源**：B007 / YC Fall 2024 (F24) Launch
+- **入库日期**：2026-07-07 ｜ **深研日期**：2026-07-11 ｜ **再现记录**：B007
+- **一句话定位**：Remote desktop instances for AI agents（面向 AI 智能体的远程桌面实例）
+- **官网/锚定**：https://scrapybara.com/
+- **深研状态**：researched
+
+## 公司画像
+- **团队**：两位创始人 Justin Sun、Nalin Semwal，均出自 web agent 公司 MultiOn（在那里主导 B2B 与消费级 web agent 开发，并做了 web 抽取 API 'Retrieve'）。Nalin 有 Georgia Tech 的 LLM Agent 研究背景；Justin 为 UPenn M&T（管理+技术双学位）。姊妹产品 Capy 团队约 6 人。
+- **成立/批次**：2024
+- **地点**：美国旧金山（San Francisco，CA）
+- **产品**：面向 AI 智能体的云端远程桌面/虚拟机实例，通过 API 秒级创建：提供 Ubuntu Linux 桌面、Chromium 浏览器、Windows 桌面等隔离环境，内置 Act SDK（ComputerTool/BashTool/EditTool），并暴露浏览器、文件系统、代码沙箱等低层控制，处理自动扩缩、鉴权与会话持久化。定位为让 CUA（OpenAI Computer-Using Agent）、Claude Computer Use 等 computer-use 模型'一行代码上生产'的基础设施层——统一 API 适配任意模型。
+- **商业模式**：开发者自助 + 用量计费的 PaaS。免费档：10 计算小时/月、100 agent 额度、5 并发实例；Basic $29/月（100 小时/500 额度/25 实例）；Pro $99/月（500 小时/2500 额度/100 实例）；Enterprise 定制（自托管、99.9% SLA）。agent 额度按需充值 $0.04/个，可自带模型 API Key（BYO key）。
+- **竞争格局**：AI-agent 沙箱/云桌面赛道：E2B（代码沙箱）、Anchor Browser、Browserbase/Browser Use（浏览器自动化）、Daytona、Modal、以及各模型厂自带的 computer-use 运行环境。Scrapybara 差异点在于完整桌面（非仅浏览器）+ 与 OpenAI CUA 的一方级（first-party）集成。
+
+## 融资
+| 轮次 | 金额 | 时间 | 来源 |
+|---|---|---|---|
+| Pre-Seed | 约 $500K | 2024-12 | [链接](https://insights.tryspecter.com/hottest-startups-january-2025/) |
+
+## 早期客户信号
+| 客户 | 置信度 | 来源 |
+|---|---|---|
+| CodeCapy（PR 测试机器人，在 Scrapybara 实例上跑并行 UI 测试） | 中 | [链接](https://scrapybara.com/) |
+| OpenAI（合作方：为 CUA 提供一方级支持，在 Playground/Act SDK 中集成并做基准，OpenAI DX 工程师公开背书） | 中 | [链接](https://scrapybara.com/blog/cua) |
+
+## 转型有术判断
+1. **对制造业客户意味着什么**：对制造业的意义不在'桌面'本身，而在它把'让 AI 去操作那些没有 API 的老系统'变成了一次 API 调用。制造业信息化的最大痛点，是 MES、ERP、SCADA、供应商门户、报关/质检/保险平台等大量遗留软件只有图形界面、没有可编程接口，RPA 脚本又脆又贵。Scrapybara 这类'给 agent 一台隔离电脑'的基础设施，让 computer-use 模型能像人一样点鼠标、填表单、跨系统搬数据，且天然隔离、可并行扩缩、按秒计费——相当于把'数字派遣工'的产能变成弹性云资源。制造企业无需等供应商开放 API，就能对采购对账、质检报告录入、关务申报、跨 ERP 数据迁移等长尾流程做自动化，这是把 agent 从 demo 推向车间/后台生产的关键一环。
+2. **国内对标厂商**：无界 AI / 实在智能等 RPA+大模型厂商（正从脚本 RPA 转向 agent 操作 GUI，但多为端侧/私有部署，缺 Scrapybara 式云桌面即服务）、阿里云无影 / 华为云云耀云电脑等云桌面（DaaS）产品（有云桌面底座，但面向人类办公，未针对 agent 做 API/低层控制封装）、各大模型厂的 computer-use 能力（如具备 GUI 操作的 agent 框架），但普遍缺独立、中立的'agent 专用沙箱'基础设施层
+   > 国内目前没有与 Scrapybara 完全同形的'中立 agent 云桌面 API'公司：一端是无影/云耀这类面向人的云桌面 DaaS，一端是实在/来也等 RPA 厂商正在把大模型接进 GUI 操作。真正缺位的是'把云桌面按 agent 需求重构（秒级起、隔离、低层控制、按秒计费、适配任意模型）'的独立基础设施层——这既是空白也是机会，尤其在信创/私有化诉求强的制造与政企场景，本地化的'agent 沙箱'可能比直接用 Scrapybara 更被接受。
+3. **可迁移的干法 / 应进场景词典的词条**：agent 云桌面/沙箱即服务、computer-use 上生产、遗留 GUI 系统自动化、并行 agent 编排、BYO-model 统一 API
+   > 可迁移的干法有三条：①'给 agent 一台隔离的电脑'——把不可编程的遗留软件操作，抽象成秒级起、可并行、按秒计费的云资源，是 RPA 的下一代形态；②'一方级绑定标杆模型'——通过与 OpenAI CUA 深度共建把自己钉进 computer-use 生态标准位，是小团队卡生态位的打法；③'一行代码适配任意模型'的统一 API，把模型选择权留给客户、自己做中立底座，规避了被单一模型厂锁定的风险。这三点对国内做 agent 基础设施或制造业 RPA 升级的团队都可直接借鉴。
+4. **风险与存疑点**：①被平台化吞并的风险：OpenAI、Anthropic 等模型厂可自建 computer-use 运行环境，Scrapybara 的一方级集成既是护城河也是命门，合作方随时可能内化该能力。②团队精力分散：同一创始团队并行运营 Capy（编码 agent IDE）与 Scrapybara，Fall 2024 起 Capy 势头更盛，Scrapybara 是否被降为副线值得观察。③体量与壁垒偏薄：仅约 $500K pre-seed、赛道拥挤（E2B/Browserbase/Anchor 等），且缺公开的规模化企业客户与营收数据，商业化验证尚早。
+
+## 信息来源溯源表
+| 标题 | URL |
+|---|---|
+| Scrapybara 官网（产品/定价/CodeCapy 客户） | https://scrapybara.com/ |
+| Launch YC: Scrapybara - A Computer for Your AI | https://www.ycombinator.com/launches/MHN-scrapybara-a-computer-for-your-ai |
+| Scrapybara OpenAI CUA Starter Kit（与 OpenAI 合作） | https://scrapybara.com/blog/cua |
+| Specter Insights: Hottest Startups Jan 2025（$500K/Dec 2024/7 家 VC 关注） | https://insights.tryspecter.com/hottest-startups-january-2025/ |
+| Capy | Y Combinator（同一团队姊妹产品，SF，F24，团队约6人） | https://www.ycombinator.com/companies/capy |
+| Scrapybara Docs | https://docs.scrapybara.com/ |
+
+---
+> 本档案由本地 /research 深研生成，直通模式 auto。数字与具名事实一律带来源；无来源者标"未披露"，未编造。

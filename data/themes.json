@@ -809,6 +809,15 @@
   "zeroentropy": "aiinfra",
   "a1base": "aiinfra",
   "superglue": "aiinfra",
-  "humanlayer": "aiinfra"
+  "humanlayer": "aiinfra",
+  "fabricate": "scm",
+  "foundry": "aiinfra",
+  "scrapybara": "aiinfra",
+  "autocomputer": "aiinfra",
+  "codebuff": "aiinfra",
+  "ctgt": "aigov",
+  "vesper-company": "aiinfra",
+  "gait": "aiinfra",
+  "pearai": "aiinfra"
  }
 }

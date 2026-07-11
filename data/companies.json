@@ -24880,12 +24880,41 @@
    "one_liner_zh": "即时生成工程图纸",
    "tier": "B",
    "triage_reason": "即时生成工程图纸，研发/工程",
-   "status": "card",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B007"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-11",
+   "funding": [
+    {
+     "round": "Pre-Seed（含 YC F24 标准投资）",
+     "amount": "未披露",
+     "date": "2024",
+     "source_url": "https://www.crunchbase.com/organization/fabricate"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "中望软件 ZWSOFT（中望CAD/3D，正推进 AI 辅助制图与智能标注，是国产 CAD 出图自动化的主力对标）",
+    "华天软件（CAXA/SView，国产 CAD/CAPP，工艺与图纸标准化）",
+    "浩辰 CAD GstarCAD（国产二维 CAD，图纸标准化与批量处理）",
+    "嘉立创/立创商城 JLC·LCSC（电子硬件侧的『上传设计→即时报价→打样制造→现货元件采购』一体化，最接近 Fabricate 的采购工作流，只是垂类在 PCB/元器件）",
+    "云工厂 / 极致嘉立创机械（机械定制件在线报价与分布式产能撮合，对标 Xometry 式 CAD→报价→制造）"
+   ],
+   "scene_tags": [
+    "工程图纸自动生成",
+    "CAD 集成/标准学习",
+    "GD&T 标注自动化",
+    "CAD转即时报价",
+    "RFQ 自动分发",
+    "供应商协同",
+    "零件交付追踪",
+    "硬件采购一体化"
+   ],
+   "archive": "companies/fabricate.md",
+   "researched_at": "2026-07-11",
+   "research_status": "researched"
   },
   {
    "num": 946,
@@ -25108,12 +25137,38 @@
    "one_liner_zh": "构建与评测浏览器智能体的平台",
    "tier": "B",
    "triage_reason": "构建与评测浏览器智能体的平台",
-   "status": "card",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B007"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-11",
+   "funding": [
+    {
+     "round": "YC / Pre-seed",
+     "amount": "约 $500K（Y Combinator F24 标准投资额；Crunchbase 记为 1 轮 $500K，来自 1 家投资人）",
+     "date": "2024",
+     "source_url": "https://www.crunchbase.com/organization/foundry-d28f"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "实在智能（TARS/实在 Agent）——国产 RPA+Agent 头部，做的是浏览器/GUI 的执行落地，恰恰缺 Foundry 这种确定性仿真评测层，属互补/反向对标",
+    "来也科技（UiBot / 智能自动化）——RPA 平台，同样偏执行、缺大规模仿真评测与 RL 训练闭环",
+    "字节 UI-TARS——国产开源 GUI/浏览器 agent 模型本体，训练与评测需要正是 Foundry 这类仿真环境与标注数据",
+    "SuperCLUE / OpenCompass 等中文评测榜——提供模型/agent 评测口径，但非可商用的确定性网页仿真执行环境"
+   ],
+   "scene_tags": [
+    "确定性仿真环境",
+    "浏览器/网页 agent 评测",
+    "结构化错误分类",
+    "RL 训练数据合成",
+    "上线前回归测试",
+    "web-drift/反爬护栏"
+   ],
+   "archive": "companies/foundry.md",
+   "researched_at": "2026-07-11",
+   "research_status": "researched"
   },
   {
    "num": 958,
@@ -25437,12 +25492,47 @@
    "one_liner_zh": "面向 AI 智能体的远程桌面实例",
    "tier": "B",
    "triage_reason": "面向 AI 智能体的远程桌面实例，沙箱",
-   "status": "card",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B007"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-11",
+   "funding": [
+    {
+     "round": "Pre-Seed",
+     "amount": "约 $500K",
+     "date": "2024-12",
+     "source_url": "https://insights.tryspecter.com/hottest-startups-january-2025/"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "CodeCapy（PR 测试机器人，在 Scrapybara 实例上跑并行 UI 测试）",
+     "confidence": "中",
+     "source_url": "https://scrapybara.com/"
+    },
+    {
+     "name": "OpenAI（合作方：为 CUA 提供一方级支持，在 Playground/Act SDK 中集成并做基准，OpenAI DX 工程师公开背书）",
+     "confidence": "中",
+     "source_url": "https://scrapybara.com/blog/cua"
+    }
+   ],
+   "cn_benchmarks": [
+    "无界 AI / 实在智能等 RPA+大模型厂商（正从脚本 RPA 转向 agent 操作 GUI，但多为端侧/私有部署，缺 Scrapybara 式云桌面即服务）",
+    "阿里云无影 / 华为云云耀云电脑等云桌面（DaaS）产品（有云桌面底座，但面向人类办公，未针对 agent 做 API/低层控制封装）",
+    "各大模型厂的 computer-use 能力（如具备 GUI 操作的 agent 框架），但普遍缺独立、中立的'agent 专用沙箱'基础设施层"
+   ],
+   "scene_tags": [
+    "agent 云桌面/沙箱即服务",
+    "computer-use 上生产",
+    "遗留 GUI 系统自动化",
+    "并行 agent 编排",
+    "BYO-model 统一 API"
+   ],
+   "archive": "companies/scrapybara.md",
+   "researched_at": "2026-07-11",
+   "research_status": "researched"
   },
   {
    "num": 971,
@@ -25646,12 +25736,38 @@
    "one_liner_zh": "面向电脑任务的自主 AI",
    "tier": "B",
    "triage_reason": "面向电脑任务的自主 AI，computer-use",
-   "status": "card",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B007"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-11",
+   "funding": [
+    {
+     "round": "Seed（含 YC 标准投资）",
+     "amount": "$500K",
+     "date": "2024",
+     "source_url": "https://tracxn.com/d/companies/autocomputer/__CwrLPLCkVFRDCzXhky-2nI2fVrkDUPY96GFUYyHykcw/funding-and-investors"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "实在智能（实在Agent / Z-RPA，屏幕语义理解 SGA，无需 API 直接看懂并操作界面，与 computer-use 路线最贴近）",
+    "影刀 RPA（Yingdao，桌面 RPA 龙头，正叠加大模型做自然语言驱动自动化）",
+    "来也科技 Laiye、云扩 Encoo（RPA+IPA 老玩家，向 Agent 化演进）",
+    "智谱 AutoGLM（大模型驱动的手机/电脑操作 agent，通用 computer-use 能力代表）"
+   ],
+   "scene_tags": [
+    "computer-use",
+    "桌面RPA",
+    "财务数据录入自动化",
+    "交易对账",
+    "human-in-the-loop 逐步接受",
+    "零配置界面自动化"
+   ],
+   "archive": "companies/autocomputer.md",
+   "researched_at": "2026-07-11",
+   "research_status": "researched"
   },
   {
    "num": 983,
@@ -25860,12 +25976,39 @@
    "one_liner_zh": "面向终端命令的 AI 编码助手",
    "tier": "B",
    "triage_reason": "面向终端命令的 AI 编码助手，coding 生态",
-   "status": "card",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B007"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-11",
+   "funding": [
+    {
+     "round": "Seed（含 YC 标准投资，多源亦记作 Pre-Seed/Seed）",
+     "amount": "约 $500K",
+     "date": "2024",
+     "source_url": "https://tracxn.com/d/companies/codebuff/__YrnRPlZdpTNyC471phVNRCj1A_XWBi7xJQYikGIOQGw/funding-and-investors"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "通义灵码（阿里云）——国内份额领先的 AI 编码助手，已推出命令行/Agent 形态，最接近 Codebuff 的「终端 + 自动改文件」定位",
+    "字节 Trae / MarsCode（豆包系）——Agent 化编码，主打自动多步执行，产品思路与 Codebuff 的零点击直改高度重叠",
+    "CodeGeeX（智谱）——较早的国产代码大模型助手，覆盖补全到 Agent",
+    "百度 Comate（文心快码）——企业级代码助手，强调私有化与国产模型适配",
+    "aiXcoder——聚焦企业私有化部署的国产代码 Agent，对应 Codebuff「不上传代码库」这一敏感诉求的国内解"
+   ],
+   "scene_tags": [
+    "终端优先AI编码",
+    "多Agent编排(找料-规划-执行-复核)",
+    "模型不锁定(OpenRouter)",
+    "代码不上传/隐私优先",
+    "免费广告变体(Freebuff)",
+    "开源+SDK+自定义Agent"
+   ],
+   "archive": "companies/codebuff.md",
+   "researched_at": "2026-07-11",
+   "research_status": "researched"
   },
   {
    "num": 993,
@@ -25993,12 +26136,72 @@
    "one_liner_zh": "面向企业 AI 的确定性治理",
    "tier": "B",
    "triage_reason": "面向企业 AI 的确定性治理",
-   "status": "card",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B007"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-11",
+   "funding": [
+    {
+     "round": "Seed 种子轮",
+     "amount": "7.2M USD（约 720 万美元，oversubscribed 超额认购）",
+     "date": "2025-02-20",
+     "source_url": "https://www.globenewswire.com/news-release/2025/02/20/3029732/0/en/CTGT-Raises-7-2M-To-Help-Enterprises-Break-Through-the-Limits-of-AI-Compute-with-a-New-Approach-to-Customizing-Training-and-Deploying-Models-That-s-500x-Faster.html"
+    },
+    {
+     "round": "Seed 领投/参投方",
+     "amount": "同上轮（领投 Gradient/Google 早期 AI 基金；参投 General Catalyst、Y Combinator、Liquid 2、Deepwater；天使含 François Chollet、Michael Seibel、Paul Graham；另有 Mark Cuban 参与，金额未披露）",
+     "date": "2025-02-20",
+     "source_url": "https://www.gradient.com/blog/posts/ctgt/"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "Ebrada Financial",
+     "confidence": "中",
+     "source_url": "https://techfundingnews.com/ctgt-ai-startup-founded-by-23-year-old-snaps-7-2m-to-help-companies-train-and-deploy-ai-models/"
+    },
+    {
+     "name": "某头部保险公司（未具名）——用于理赔编码准确性，官方称一周内避免超过 100 万美元财务敞口",
+     "confidence": "中",
+     "source_url": "https://www.globenewswire.com/news-release/2025/06/27/3106770/0/en/CTGT-s-New-AI-Platform-Eliminates-Bias-Hallucinations-in-AI-Models-Like-DeepSeek.html"
+    },
+    {
+     "name": "某大型银行（未具名）——生产环境 GenAI 邮件合规模型",
+     "confidence": "中",
+     "source_url": "https://www.globenewswire.com/news-release/2025/06/27/3106770/0/en/CTGT-s-New-AI-Platform-Eliminates-Bias-Hallucinations-in-AI-Models-Like-DeepSeek.html"
+    },
+    {
+     "name": "某 Fortune 10 公司（未具名）——端侧安全 AI 部署",
+     "confidence": "低",
+     "source_url": "https://www.finsmes.com/2025/02/ctgt-raises-7-2m-in-seed-funding.html"
+    },
+    {
+     "name": "官网 logo 墙列出 JP Morgan / PwC / Zapier / Canva / Brex / U.S. Cyber Command（框定为客户/合作方，但融资方 Gradient 与第三方来源均未具名坐实，疑为 logo 墙或团队履历/顾问背书）",
+     "confidence": "低",
+     "source_url": "https://www.ctgt.ai/"
+    }
+   ],
+   "cn_benchmarks": [
+    "瑞莱智慧 RealAI —— 清华系，主打 AI 安全/对抗鲁棒/可解释与内容安全（RealSafe 平台），在『可信可解释 AI』方向与 CTGT 最接近，但偏检测/评测与攻防，不做表征层确定性干预免重训",
+    "蚂蚁集团『蚁鉴』AI 安全检测平台 —— 大模型幻觉/安全/合规检测与红队评测，定位偏『体检+护栏』，非模型内部机制干预",
+    "国内内容安全/大模型护栏类（阿里云内容安全、百度智能云、火山引擎等的合规围栏）—— 在输入输出侧做过滤，与 CTGT『表征层干预』属不同技术路线",
+    "智谱等前沿模型厂商自带的安全对齐能力 —— 内生对齐，非第三方治理层"
+   ],
+   "scene_tags": [
+    "确定性治理",
+    "机制可解释性",
+    "表征工程",
+    "Policy-as-Code",
+    "幻觉消除",
+    "AI合规审计",
+    "开源模型企业化",
+    "高风险场景AI"
+   ],
+   "archive": "companies/ctgt.md",
+   "researched_at": "2026-07-11",
+   "research_status": "researched"
   },
   {
    "num": 1000,
@@ -26220,12 +26423,37 @@
    "one_liner_zh": "面向 AI 智能体的 Word 文档 API",
    "tier": "B",
    "triage_reason": "面向 AI 智能体的 Word 文档 API",
-   "status": "card",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B007"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-11",
+   "funding": [
+    {
+     "round": "Pre-Seed / YC F24",
+     "amount": "未披露",
+     "date": "2024",
+     "source_url": "https://www.ycombinator.com/companies/vespper"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "金山办公 WPS 365 / WPS AI（提供 docx 生成与编辑能力、文档 API，最接近『可编程 Word 接口』这一层）",
+    "合合信息 TextIn（文档解析/生成 API，Agent 可调用的文档基础设施）",
+    "达观数据（文档智能、智能文档审阅与 RPA 文档处理，偏受监管/金融文档）",
+    "幂律智能 PowerLaw（法律/合同文档 AI，对应 Vespper 的 legal/compliance 场景）"
+   ],
+   "scene_tags": [
+    "MCP文档基础设施",
+    "Agent原生docx生成",
+    "受监管行业文档自动化",
+    "Word可编程接口(免碰XML)",
+    "track-changes审阅签核流"
+   ],
+   "archive": "companies/vesper-company.md",
+   "researched_at": "2026-07-11",
+   "research_status": "researched"
   },
   {
    "num": 1010,
@@ -26509,12 +26737,38 @@
    "one_liner_zh": "面向 AI 编码的开源协作层",
    "tier": "B",
    "triage_reason": "面向 AI 编码的开源协作层，github-radar 交叉",
-   "status": "card",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B007"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-11",
+   "funding": [
+    {
+     "round": "Pre-seed（YC Fall 2024 批次）",
+     "amount": "未披露",
+     "date": "2024",
+     "source_url": "https://www.crunchbase.com/organization/gait"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "通义灵码 / CodeGeeX / 文心快码(Comate) / 豆包 MarsCode——国内主流 AI 编码助手，但均以「单人生成」为主，Gait 所在的「团队协作层 + AI 溯源」环节国内基本空白，属反向情报里的缺口位",
+    "Gitee / Coding(腾讯云) / 极狐 GitLab——国内代码托管与研发协同平台，可能成为「AI 对话入版本库」能力的天然承接方，而非独立插件",
+    "思码逸(Merico)/ SonarQube 类研发效能与代码可观测工具——与 Gait 的『AI codegen analytics（度量 AI 对代码库影响）』理念部分重叠"
+   ],
+   "scene_tags": [
+    "AI生成物溯源",
+    "提示词版本管理",
+    "AI-Blame可追溯",
+    "对话即diff",
+    "团队AI协作层",
+    "AI用量可观测",
+    "跨人上下文交接"
+   ],
+   "archive": "companies/gait.md",
+   "researched_at": "2026-07-11",
+   "research_status": "researched"
   },
   {
    "num": 1024,
@@ -26566,12 +26820,39 @@
    "one_liner_zh": "开源的 AI 代码编辑器",
    "tier": "B",
    "triage_reason": "开源 AI 代码编辑器，github-radar 交叉",
-   "status": "card",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B007"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-11",
+   "funding": [
+    {
+     "round": "Seed（含 YC 标准 deal $375K）",
+     "amount": "1.25M 美元（总额；其中 YC 标准 deal 37.5 万美元）",
+     "date": "2024-12（2024-12-20 由 TechCrunch 披露）",
+     "source_url": "https://techcrunch.com/2024/12/20/after-causing-outrage-on-the-first-day-of-y-combinator-ai-code-editor-pearai-lands-1m-seed/"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "通义灵码（阿里）—— 国内 AI 编程助手代表，含企业版模型路由与私有化，对标 PearAI 的『统一入口 + 多模型』思路，但走大厂闭源生态",
+    "CodeGeeX（智谱）—— 开源 AI 编程助手，与 PearAI 的开源定位最接近，同样支持多 IDE/多模型",
+    "Trae（字节，海外品牌 Trae/国内豆包 MarsCode）—— fork 式 AI 原生编辑器打法，与 PearAI『fork VS Code 做 AI 编辑器』路线高度同构",
+    "Baidu Comate、腾讯 CodeBuddy —— 大厂 AI 编码助手，聚合模型 + 补全 + chat"
+   ],
+   "scene_tags": [
+    "AI-native-IDE",
+    "模型路由/Router",
+    "开源二开",
+    "工具聚合层",
+    "BYOK+订阅双层商业模式",
+    "本地索引/零数据保留",
+    "agent-coding"
+   ],
+   "archive": "companies/pearai.md",
+   "researched_at": "2026-07-11",
+   "research_status": "researched"
   },
   {
    "num": 1027,
