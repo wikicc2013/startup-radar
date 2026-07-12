@@ -123,14 +123,39 @@
    "subcategory": "",
    "one_liner_en": "An AI buddy that lives on your Mac",
    "one_liner_zh": "住在你 Mac 里的 AI 伙伴",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC P26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/heyclicky"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类桌面助手/软件培训",
+    "录屏教程",
+    "Logical 类"
+   ],
+   "scene_tags": [
+    "桌面AI助手",
+    "屏幕感知导师",
+    "分步指引",
+    "后台Agent",
+    "软件培训",
+    "职能后台"
+   ],
+   "archive": "companies/heyclicky.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 3,
@@ -142,14 +167,39 @@
    "subcategory": "Insurance",
    "one_liner_en": "Actuarial intelligence for corporate risk managers",
    "one_liner_zh": "面向企业风控经理的精算智能",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC P26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/huscarl"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类保险经纪/精算",
+    "企业风险咨询",
+    "保险科技"
+   ],
+   "scene_tags": [
+    "企业精算智能",
+    "保单分析",
+    "风险敞口建模",
+    "自保结构化",
+    "保费优化",
+    "职能后台"
+   ],
+   "archive": "companies/huscarl-inc.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 4,
@@ -253,14 +303,39 @@
    "subcategory": "Defense",
    "one_liner_en": "The intelligence layer for drones",
    "one_liner_zh": "无人机的智能层",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC P26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/maquoketa-research"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类无人机/制导",
+    "大疆/军用无人机",
+    "边缘视觉硬件"
+   ],
+   "scene_tags": [
+    "无人机制导",
+    "末端制导硬件",
+    "抗遮挡跟踪",
+    "低成本板载",
+    "国防",
+    "生产制造"
+   ],
+   "archive": "companies/maquoketa-research.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 7,
@@ -360,14 +435,39 @@
    "subcategory": "",
    "one_liner_en": "AI-native patient engagement",
    "one_liner_zh": "AI 原生的患者互动",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC P26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/framewise-health"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类视频教学/患者教育",
+    "AI 视频生成",
+    "培训视频平台"
+   ],
+   "scene_tags": [
+    "患者教育视频",
+    "数据转视频",
+    "个性化解说",
+    "理解度分析",
+    "医疗垂直",
+    "无维度"
+   ],
+   "archive": "companies/framewise-health.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 10,
@@ -379,14 +479,39 @@
    "subcategory": "Services",
    "one_liner_en": "AI-native credentialing and contracting for healthcare",
    "one_liner_zh": "医疗领域 AI 原生的资质认证与签约",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC P26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/arctic-health"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类 RPA/资质管理",
+    "政务门户自动填报",
+    "合规管理系统"
+   ],
+   "scene_tags": [
+    "资质认证自动化",
+    "跨门户浏览器Agent",
+    "合规提交监控",
+    "流程自动化",
+    "职能后台",
+    "职能后台"
+   ],
+   "archive": "companies/arctic-health.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 11,
@@ -398,14 +523,39 @@
    "subcategory": "Gaming",
    "one_liner_en": "TikTok for user-generated games",
    "one_liner_zh": "用户生成游戏版的 TikTok",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC P26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/playablai"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类 UGC 游戏/AI 游戏",
+    "Roblox",
+    "AI game builder"
+   ],
+   "scene_tags": [
+    "UGC游戏",
+    "结构化设计到组件",
+    "可复用组件组装",
+    "消费游戏",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/playabl-ai.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 12,
@@ -673,14 +823,39 @@
    "subcategory": "Services",
    "one_liner_en": "AI-native FDA regulatory services",
    "one_liner_zh": "AI 原生的 FDA 合规监管服务",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC S26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/panacea"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类注册/认证咨询",
+    "医疗器械 NMPA 注册",
+    "法规事务服务"
+   ],
+   "scene_tags": [
+    "FDA监管服务",
+    "法规事务",
+    "专家+AI平台",
+    "按成效",
+    "产品注册",
+    "职能后台"
+   ],
+   "archive": "companies/panacea.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 18,
@@ -930,14 +1105,45 @@
    "subcategory": "Defense",
    "one_liner_en": "Passive aerial sensing mesh to track drones and missiles",
    "one_liner_zh": "追踪无人机与导弹的被动式空中感知网",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC S26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/arlo-industries"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "乌克兰军方/欧美运营方(展示)",
+     "confidence": "低",
+     "source_url": "https://www.ycombinator.com/companies/arlo-industries"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类传感网/安防",
+    "光电探测/雷达",
+    "工业物联网传感"
+   ],
+   "scene_tags": [
+    "被动感知网",
+    "分布式传感",
+    "边缘AI硬件",
+    "Mesh组网",
+    "国防",
+    "生产制造"
+   ],
+   "archive": "companies/arlo-industries.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 24,
@@ -993,14 +1199,39 @@
    "subcategory": "",
    "one_liner_en": "Monitoring and governance for deployed medical imaging AI",
    "one_liner_zh": "已部署医学影像 AI 的监控与治理",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC S26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/lattice-health"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类模型监控/MLOps",
+    "模型漂移检测",
+    "AI 治理平台"
+   ],
+   "scene_tags": [
+    "AI治理监控",
+    "模型漂移检测",
+    "一致度公平性",
+    "签名治理日报",
+    "只观察不干预",
+    "AI安全治理"
+   ],
+   "archive": "companies/lattice-health.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 26,
@@ -1152,14 +1383,39 @@
    "subcategory": "Consumer",
    "one_liner_en": "US stock perps for Indian traders",
    "one_liner_zh": "面向印度交易者的美股永续合约",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC P26 / Pioneer Fund(预种子,金额未披露)",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/mochatrade"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类券商/交易平台",
+    "跨境交易",
+    "富途/老虎证券"
+   ],
+   "scene_tags": [
+    "美股永续",
+    "印度散户",
+    "跨境交易",
+    "消费金融",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/mochatrade.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 29,
@@ -1265,14 +1521,39 @@
    "subcategory": "Payments",
    "one_liner_en": "The AI wallet that picks the best card at checkout",
    "one_liner_zh": "结账时自动挑最优信用卡的 AI 钱包",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC P26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/uno-wallet"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类支付钱包",
+    "Apple Pay/微信支付",
+    "返利工具"
+   ],
+   "scene_tags": [
+    "AI支付钱包",
+    "自动选最优卡",
+    "消费支付",
+    "返利优化",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/uno-wallet.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 32,
@@ -1378,14 +1659,39 @@
    "subcategory": "Consumer Finance",
    "one_liner_en": "AI agent for your personal finances",
    "one_liner_zh": "管理你个人财务的 AI 智能体",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC P26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/gravy"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类个人记账/理财",
+    "随手记",
+    "AI 财务助手"
+   ],
+   "scene_tags": [
+    "个人理财Agent",
+    "替你行动",
+    "连数据源",
+    "消费理财",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/gravy.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 35,
@@ -1491,14 +1797,39 @@
    "subcategory": "Content",
    "one_liner_en": "Patreon for AI originals",
    "one_liner_zh": "AI 原创内容版的 Patreon",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC P26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/youart"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类创作者平台/AI视频",
+    "B站/爱发电",
+    "可灵/即梦"
+   ],
+   "scene_tags": [
+    "AI内容创作",
+    "视频Agent",
+    "众筹粉丝经济",
+    "创作者平台",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/youart.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 38,
@@ -2208,14 +2539,45 @@
    "subcategory": "Services",
    "one_liner_en": "The AI operating system for specialty medical practices",
    "one_liner_zh": "专科诊所的 AI 操作系统",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC P26（未单列,七位数合约 ARR）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/plena-health"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "6 专科 8 州诊所(均年度/多年合约)",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/plena-health"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类 ERP/运营系统",
+    "行业垂直 SaaS",
+    "流程自动化"
+   ],
+   "scene_tags": [
+    "行业AI操作系统",
+    "后台行政自动化",
+    "排程合规催收",
+    "运营OS",
+    "职能后台",
+    "职能后台"
+   ],
+   "archive": "companies/plena-health.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 53,

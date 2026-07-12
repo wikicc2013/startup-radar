@@ -818,6 +818,14 @@
     "ctgt": "aigov",
     "vesper-company": "aiinfra",
     "gait": "aiinfra",
-    "pearai": "aiinfra"
+    "pearai": "aiinfra",
+    "heyclicky": "corp",
+    "huscarl-inc": "corp",
+    "maquoketa-research": "prod",
+    "arctic-health": "corp",
+    "panacea": "corp",
+    "arlo-industries": "prod",
+    "lattice-health": "aigov",
+    "plena-health": "corp"
   }
 }
