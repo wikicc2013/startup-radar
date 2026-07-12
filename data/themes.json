@@ -834,6 +834,11 @@
     "aice": "prod",
     "infera": "rnd",
     "mount": "aigov",
-    "lumius": "prod"
+    "lumius": "prod",
+    "adialante": "prod",
+    "voquill": "corp",
+    "taiga": "corp",
+    "hevn-inc": "corp",
+    "tenet-industries": "prod"
   }
 }

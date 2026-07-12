@@ -4655,14 +4655,45 @@
    "subcategory": "Diagnostics",
    "one_liner_en": "Cancer screening without barriers",
    "one_liner_zh": "无门槛的癌症筛查",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "意向书(LOI)",
+     "amount": "$19.75M LOI",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/adialante"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "诊所(LOI $19.75M,首台已扫描)",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/adialante"
+    }
+   ],
+   "cn_benchmarks": [
+    "联影/东软——MRI 设备",
+    "便携/移动影像",
+    "医疗影像设备"
+   ],
+   "scene_tags": [
+    "移动MRI",
+    "癌症筛查",
+    "设备小型化",
+    "设备即服务",
+    "AI持续改进",
+    "生产制造"
+   ],
+   "archive": "companies/adialante.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 98,
@@ -4719,14 +4750,45 @@
    "subcategory": "",
    "one_liner_en": "The modern AI-native operating system for medical labs",
    "one_liner_zh": "医学实验室的现代 AI 原生操作系统",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC S26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/voquill"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "某 F500 实验室 25 名病理医生",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/voquill"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类 LIMS/实验室系统",
+    "质检实验室系统",
+    "LIS"
+   ],
+   "scene_tags": [
+    "实验室AI OS",
+    "语音起草报告",
+    "全流程管理",
+    "编码合规",
+    "质检实验室",
+    "职能后台"
+   ],
+   "archive": "companies/voquill.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 100,
@@ -4846,14 +4908,39 @@
    "subcategory": "",
    "one_liner_en": "The personalized AI food journal people love to use",
    "one_liner_zh": "人人爱用的个性化 AI 饮食日记",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC P26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/napkin-math"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类饮食/营养App",
+    "薄荷健康",
+    "MyFitnessPal 类"
+   ],
+   "scene_tags": [
+    "AI饮食日记",
+    "营养教练",
+    "个性化洞察",
+    "消费健康",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/napkin-math.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 103,
@@ -5057,14 +5144,45 @@
    "subcategory": "Asset Management",
    "one_liner_en": "AI-native investment research",
    "one_liner_zh": "AI 原生的投资研究",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC P26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/kimpton-ai"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "数十亿 AUM 的投资机构(未具名)",
+     "confidence": "低",
+     "source_url": "https://www.ycombinator.com/companies/kimpton-ai"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类投研/量化平台",
+    "Wind/掘金",
+    "买方研究工具"
+   ],
+   "scene_tags": [
+    "AI投资研究",
+    "买方IDE",
+    "结构化交易想法",
+    "投研资管",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/kimpton-ai.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 108,
@@ -5120,14 +5238,39 @@
    "subcategory": "Services",
    "one_liner_en": "Autonomous medical billing",
    "one_liner_zh": "自主化的医疗账单处理",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC S26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/taiga"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类财务/开票系统",
+    "RCM/收入循环",
+    "财务自动化"
+   ],
+   "scene_tags": [
+    "医疗账单自动化",
+    "收入循环",
+    "从文档生成编码",
+    "拒付管理",
+    "财务后台",
+    "职能后台"
+   ],
+   "archive": "companies/taiga.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 110,
@@ -6068,14 +6211,45 @@
    "subcategory": "Asset Management",
    "one_liner_en": "The AI quant: autonomous alpha engine for funds and traders",
    "one_liner_zh": "AI 量化：面向基金与交易者的自主 alpha 引擎",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC S26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/kelai"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "某机构投资者(信号自 2025.10 运行)",
+     "confidence": "低",
+     "source_url": "https://www.ycombinator.com/companies/kelai"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类量化平台",
+    "私募量化",
+    "买方 AI 研究"
+   ],
+   "scene_tags": [
+    "AI量化",
+    "自主alpha引擎",
+    "端到端投研",
+    "复利引擎",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/kelai.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 129,
@@ -6087,14 +6261,39 @@
    "subcategory": "",
    "one_liner_en": "A payment primitive for global payroll",
    "one_liner_zh": "全球薪酬发放的支付原语",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC P26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/hevn-inc"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类跨境支付/收款",
+    "连连/PingPong/万里汇",
+    "Deel/Wise 类"
+   ],
+   "scene_tags": [
+    "跨境金融",
+    "全球薪酬",
+    "无实体美元账户",
+    "稳定币结算",
+    "出口收款",
+    "职能后台"
+   ],
+   "archive": "companies/hevn-inc.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 130,
@@ -6106,14 +6305,39 @@
    "subcategory": "Asset Management",
    "one_liner_en": "AI-native platform for wealth managers",
    "one_liner_zh": "面向财富管理人的 AI 原生平台",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC P26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/wealor"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类财富管理科技",
+    "跨系统自动化",
+    "知识层平台"
+   ],
+   "scene_tags": [
+    "财富管理平台",
+    "中心化真源",
+    "跨遗留系统自动化",
+    "知识层",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/wealor.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 131,
@@ -6253,14 +6477,45 @@
    "subcategory": "Credit & Lending",
    "one_liner_en": "AI that automates servicing for commercial lenders",
    "one_liner_zh": "自动化商业放贷机构贷后服务的 AI",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC S26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/zolvo"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "首个客户(产品前付年费、替代 14 人团队)",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/zolvo"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类财务/应收管理",
+    "对账催收自动化",
+    "财务共享中心"
+   ],
+   "scene_tags": [
+    "贷后服务自动化",
+    "发票核验对账",
+    "催收监控",
+    "财务后台",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/zolvo.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 134,
@@ -6272,14 +6527,45 @@
    "subcategory": "Consumer Health",
    "one_liner_en": "AI health assistant for chronic illness",
    "one_liner_zh": "慢病患者的 AI 健康助手",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC(标准 deal)",
+     "amount": "$500K",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/juno-chat"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "15 万下载(8 个月)",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/juno-chat"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类健康助手App",
+    "慢病管理",
+    "消费健康"
+   ],
+   "scene_tags": [
+    "慢病AI助手",
+    "纵向健康档案",
+    "模式检测",
+    "消费健康",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/juno.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 135,
@@ -6336,14 +6622,39 @@
    "subcategory": "",
    "one_liner_en": "Automating government workflows, starting with FOIA",
    "one_liner_zh": "自动化政务流程，从信息公开（FOIA）开始",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC P26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/govguard"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类政务/合规自动化",
+    "文档脱敏",
+    "合规响应"
+   ],
+   "scene_tags": [
+    "政务流程自动化",
+    "FOIA",
+    "记录搜索脱敏",
+    "合规答复",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/govguard.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 137,
@@ -6449,14 +6760,39 @@
    "subcategory": "",
    "one_liner_en": "AI-run consumer brands",
    "one_liner_zh": "由 AI 运营的消费品牌",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC P26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/light-anchor"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类 DTC/品牌运营",
+    "AI 电商运营",
+    "自营品牌"
+   ],
+   "scene_tags": [
+    "AI运营消费品牌",
+    "多Agent自主运营",
+    "共享平台复利",
+    "DTC",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/light-anchor.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 140,
@@ -6512,14 +6848,39 @@
    "subcategory": "Defense",
    "one_liner_en": "Low-cost, mass-produced attack drones",
    "one_liner_zh": "低成本、可量产的攻击型无人机",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "种子",
+     "amount": "$500K",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/tenet-industries"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类无人机/DFM 制造",
+    "大疆量产工艺",
+    "消费级/军用无人机"
+   ],
+   "scene_tags": [
+    "可量产无人机",
+    "面向制造设计DFM",
+    "极简部件",
+    "超低成本量产",
+    "国防",
+    "生产制造"
+   ],
+   "archive": "companies/tenet-industries.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 142,
@@ -7348,14 +7709,39 @@
    "subcategory": "Consumer Finance",
    "one_liner_en": "Derivative layer for prediction markets",
    "one_liner_zh": "预测市场的衍生品层",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "种子(全 USDC)",
+     "amount": "$500K",
+     "date": "2026",
+     "source_url": "https://app.dealroom.co/news/feed/totalis-raises-500k-from-y-combinator-in-first-ever-all-usdc-seed-round"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类预测市场/衍生品",
+    "加密衍生品",
+    "结构化产品"
+   ],
+   "scene_tags": [
+    "预测市场衍生品",
+    "accumulator串关",
+    "结构化产品",
+    "加密",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/totalis.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 161,
