@@ -25849,14 +25849,45 @@
    "subcategory": "",
    "one_liner_en": "AI for Microsoft Office professional services",
    "one_liner_zh": "面向 Office 专业服务的 AI",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B005"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "Seed（种子轮）",
+     "amount": "900 万美元",
+     "date": "2025",
+     "source_url": "https://www.artificiallawyer.com/2025/10/28/vesence-bags-9m-seed-for-contract-review-agents/"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "首个企业客户（全所铺开，未具名律所）",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/vesence"
+    }
+   ],
+   "cn_benchmarks": [
+    "幂律智能——合同AI",
+    "WPS AI",
+    "各类文档质检"
+   ],
+   "scene_tags": [
+    "Office内AI",
+    "合同质检",
+    "专业服务",
+    "律师版Cursor",
+    "文档质量",
+    "法务后台"
+   ],
+   "archive": "companies/vesence.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 699,
@@ -26058,14 +26089,39 @@
    "subcategory": "",
    "one_liner_en": "AI media workspace for video and image creation",
    "one_liner_zh": "面向视频与图像创作的 AI 媒体工作空间",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B005"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC X25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/prism"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "剪映/智影——视频",
+    "可灵/即梦——AI视频",
+    "各类短视频工具"
+   ],
+   "scene_tags": [
+    "AI短视频",
+    "视频/图像创作",
+    "生成+编辑+发布",
+    "对口型",
+    "营销内容",
+    "内容工作空间"
+   ],
+   "archive": "companies/prism-ai.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 706,
@@ -26222,14 +26278,39 @@
    "subcategory": "",
    "one_liner_en": "AI-powered implementation automation for enterprises",
    "one_liner_zh": "面向企业的 AI 实施自动化",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B005"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC X25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/cleon-ai"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "汉得信息——ERP实施",
+    "各类数据迁移工具",
+    "ETL/数据集成"
+   ],
+   "scene_tags": [
+    "实施自动化",
+    "数据迁移",
+    "schema转换",
+    "审计轨迹",
+    "企业onboarding",
+    "实施后台"
+   ],
+   "archive": "companies/cleon.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 710,
@@ -26361,14 +26442,39 @@
    "subcategory": "",
    "one_liner_en": "AI platform for litigation lawyers",
    "one_liner_zh": "面向诉讼律师的 AI 平台",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B005"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "Seed（种子轮）",
+     "amount": "250 万美元",
+     "date": "2026",
+     "source_url": "https://legaltechnology.com/crimson-raises-2-5m-seed-opens-new-york-office-leans-hard-on-the-litigation-native-pitch/"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类法律案管",
+    "诉讼 AI 新锐",
+    "证据管理"
+   ],
+   "scene_tags": [
+    "诉讼AI",
+    "案件情报",
+    "完整案卷",
+    "仲裁",
+    "争议解决",
+    "法务后台"
+   ],
+   "archive": "companies/crimson.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 714,
@@ -26502,14 +26608,39 @@
    "subcategory": "",
    "one_liner_en": "Browser automation for web workflows",
    "one_liner_zh": "面向网页工作流的浏览器自动化",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B005"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "Seed（种子轮）",
+     "amount": "约 50 万美元",
+     "date": "2025-06",
+     "source_url": "https://www.ycombinator.com/companies/kaizen"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "影刀/来也 RPA",
+    "各类浏览器自动化",
+    "门户操作机器人"
+   ],
+   "scene_tags": [
+    "浏览器自动化",
+    "无API集成",
+    "遗留门户操作",
+    "2FA/反爬",
+    "BPO自动化",
+    "自动化基础设施"
+   ],
+   "archive": "companies/kaizen.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 720,
@@ -26566,14 +26697,39 @@
    "subcategory": "",
    "one_liner_en": "Self-hosted data OS and docs tooling",
    "one_liner_zh": "可自托管的数据 OS 与文档工具",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B005"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC X25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/clidey"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类开源数据工具",
+    "国产数据库管理",
+    "代码文档工具"
+   ],
+   "scene_tags": [
+    "数据OS",
+    "自托管",
+    "开源",
+    "代码文档",
+    "数据治理",
+    "开发者工具"
+   ],
+   "archive": "companies/clidey.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 722,
@@ -26815,14 +26971,45 @@
    "subcategory": "",
    "one_liner_en": "Accounting AI agents for tax teams",
    "one_liner_zh": "面向税务团队的会计 AI 智能体",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B005"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC X25（OpenAI 参投）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/combinely"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "Burgess Hodgson（英国事务所，12-1 月处理 2600+ 任务）",
+     "confidence": "中",
+     "source_url": "https://www.accountingweb.co.uk/tech/practice-software/combinelys-ai-co-worker-targets-accountings-admin-layer"
+    }
+   ],
+   "cn_benchmarks": [
+    "慧算账/云账房——代账",
+    "用友/金蝶",
+    "各类税务 SaaS"
+   ],
+   "scene_tags": [
+    "AI会计同事",
+    "税务/审计/会计",
+    "从历史学习",
+    "既有系统自动化层",
+    "旺季提效",
+    "财务后台"
+   ],
+   "archive": "companies/combinely.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 729,
@@ -27352,14 +27539,39 @@
    "subcategory": "",
    "one_liner_en": "AI user research with interview automation",
    "one_liner_zh": "带访谈自动化的 AI 用户研究",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B005"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC X25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/stratify"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类用户研究/UXR",
+    "问卷星+分析",
+    "消费者洞察"
+   ],
+   "scene_tags": [
+    "AI用户研究",
+    "自动访谈",
+    "参与者招募",
+    "自适应追问",
+    "用户洞察",
+    "营销调研"
+   ],
+   "archive": "companies/stratify.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 748,
@@ -27859,14 +28071,39 @@
    "subcategory": "",
    "one_liner_en": "AI-driven platform for collaborative decision-making",
    "one_liner_zh": "面向协作决策的 AI 平台",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B005"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC X25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/capacitive"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "扣子(Coze)——Agent搭建",
+    "各类数据网关",
+    "飞书/钉钉自动化"
+   ],
+   "scene_tags": [
+    "数据网关",
+    "Agent搭建",
+    "chat数据",
+    "知识工作自动化",
+    "轻量Agent",
+    "AI基础设施"
+   ],
+   "archive": "companies/capacitive.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 760,
@@ -28118,14 +28355,39 @@
    "subcategory": "",
    "one_liner_en": "Precision AI for accounting firms",
    "one_liner_zh": "面向会计事务所的精准 AI",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B005"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC X25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/minerva"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "慧算账/云账房——代账",
+    "金蝶精斗云",
+    "各类中小财务"
+   ],
+   "scene_tags": [
+    "AI原生会计",
+    "端到端记账",
+    "主动智能体",
+    "税务申报",
+    "缺票自动索要",
+    "财务后台"
+   ],
+   "archive": "companies/minerva.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 767,
@@ -28437,14 +28699,39 @@
    "subcategory": "",
    "one_liner_en": "AI agents for internal company apps",
    "one_liner_zh": "面向公司内部应用的 AI 智能体",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B005"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "Seed（First Round）",
+     "amount": "1000 万美元",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/vybe"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "钉钉宜搭/简道云——低代码",
+    "扣子——Agent",
+    "Retool 类内部工具"
+   ],
+   "scene_tags": [
+    "内部应用搭建",
+    "人人可建",
+    "预置集成/SSO",
+    "安全内部AI应用",
+    "低代码",
+    "AI基础设施"
+   ],
+   "archive": "companies/vybe.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 777,
@@ -29021,14 +29308,39 @@
    "subcategory": "",
    "one_liner_en": "AI analyst for finance research",
    "one_liner_zh": "面向金融研究的 AI 分析师",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/fira"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "万得/同花顺——金融数据",
+    "通联数据——AI投研",
+    "AlphaSense 类"
+   ],
+   "scene_tags": [
+    "金融研究AI",
+    "财报分析",
+    "来源引用",
+    "可验证计算",
+    "并购尽调",
+    "投研后台"
+   ],
+   "archive": "companies/fira.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 796,
@@ -29734,14 +30046,45 @@
    "subcategory": "",
    "one_liner_en": "AI agents for accounting close",
    "one_liner_zh": "面向会计结账的 AI 智能体",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "Pre-seed（EQT Ventures 领投）",
+     "amount": "300 万美元",
+     "date": "2025-02",
+     "source_url": "https://tech.eu/2025/02/13/y-combinator-alumni-bluebook-raises-3m-to-build-ai-agents-for-accounting-firms/"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "Baker Tilly、Klara Consulting（北欧头部事务所）",
+     "confidence": "中",
+     "source_url": "https://tech.eu/2025/02/13/y-combinator-alumni-bluebook-raises-3m-to-build-ai-agents-for-accounting-firms/"
+    }
+   ],
+   "cn_benchmarks": [
+    "用友/金蝶结账",
+    "各类财务共享",
+    "对账工具"
+   ],
+   "scene_tags": [
+    "AI会计结账",
+    "月度结账",
+    "对账",
+    "ERP行动层",
+    "Zero-Day Close",
+    "财务后台"
+   ],
+   "archive": "companies/bluebook.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 812,
@@ -30140,14 +30483,39 @@
    "subcategory": "",
    "one_liner_en": "AI-assisted site analysis for land development",
    "one_liner_zh": "面向土地开发的 AI 选址分析",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/permitify"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类选址/GIS 分析",
+    "工程报建审批",
+    "土地/园区评估"
+   ],
+   "scene_tags": [
+    "土地选址分析",
+    "建筑审图",
+    "go/no-go决策",
+    "分区/环境约束",
+    "项目去风险",
+    "审批合规"
+   ],
+   "archive": "companies/permitify.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 822,
