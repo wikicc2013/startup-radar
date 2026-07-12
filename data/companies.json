@@ -18308,14 +18308,46 @@
    "subcategory": "",
    "one_liner_en": "AI-powered robotics for data centers",
    "one_liner_zh": "面向数据中心的 AI 机器人",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B004"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC S25",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/deepaware-ai"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "某 30MW+ 数据中心运营商（六位数试点协议，未具名）",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/deepaware-ai"
+    }
+   ],
+   "cn_benchmarks": [
+    "世纪互联/万国数据/秦淮数据——数据中心运营商（自建能效优化与运维）",
+    "华为/阿里/腾讯的数据中心 AI 节能（如阿里 AI 调温、华为 iCooling）",
+    "亿嘉和/申昊——数据中心/机房巡检机器人",
+    "第四范式/中科曙光等的算力调度与能效软件"
+   ],
+   "scene_tags": [
+    "数据中心AI优化",
+    "GPU负载RL调度",
+    "实时电价成本优化",
+    "设施运维机器人",
+    "能效优化",
+    "算力基础设施运维"
+   ],
+   "archive": "companies/deepaware-ai.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 597,
@@ -18368,14 +18400,46 @@
    "subcategory": "",
    "one_liner_en": "AI-driven software maintenance for developers",
    "one_liner_zh": "面向开发者的 AI 软件维护",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B004"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "Seed（种子轮）",
+     "amount": "约 50 万美元",
+     "date": "2025-09",
+     "source_url": "https://startupintros.com/orgs/keystone"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "Lovable",
+     "confidence": "中",
+     "source_url": "https://startupintros.com/orgs/keystone"
+    }
+   ],
+   "cn_benchmarks": [
+    "通义灵码/CodeGeeX 等国产 AI 编程助手（向修 bug/维护延伸）",
+    "云智慧/擎创科技——AIOps 智能运维（故障根因、告警）",
+    "来也/实在智能——RPA+Agent 做系统运维自动化",
+    "各工业软件厂商的运维支持团队"
+   ],
+   "scene_tags": [
+    "AI软件维护",
+    "值班工程师/on-call",
+    "自主修bug",
+    "事故自解决",
+    "开发工具",
+    "工业软件运维"
+   ],
+   "archive": "companies/keystone-ai.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 599,
@@ -18658,14 +18722,40 @@
    "subcategory": "",
    "one_liner_en": "High-quality audio datasets for Voice AI",
    "one_liner_zh": "面向语音 AI 的高质量音频数据集",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B004"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC S25",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/panels"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "海天瑞声——语音/多模态训练数据龙头（数据采集与标注）",
+    "数据堂、爱数智慧——语音数据采集与标注服务",
+    "声通科技、标贝科技——语音数据与合成",
+    "各众包数据平台（如京东众智、百度众测）"
+   ],
+   "scene_tags": [
+    "语音AI数据",
+    "对话音频数据集",
+    "众包数据采集",
+    "多语言多口音",
+    "数据审核/质量",
+    "训练数据底座"
+   ],
+   "archive": "companies/panels.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 609,
@@ -20257,14 +20347,40 @@
    "subcategory": "",
    "one_liner_en": "Deep space communications for spacecraft",
    "one_liner_zh": "面向航天器的深空通信",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B005"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC X25",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/cascade-space"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "中国深空测控网（喀什、佳木斯、阿根廷等深空站，国家队）",
+    "中科院国家空间科学中心/测控通信体系",
+    "商业航天地面站与测控服务（如天链、以及商业卫星测控创业公司）",
+    "航天科技/科工体系的航天器通信系统研制"
+   ],
+   "scene_tags": [
+    "深空通信",
+    "商业地面站",
+    "航天器通信设计软件",
+    "太空基础设施即服务",
+    "月球/深空任务",
+    "DSN商业替代"
+   ],
+   "archive": "companies/cascade-space.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 659,
@@ -21352,14 +21468,40 @@
    "subcategory": "",
    "one_liner_en": "Open-source semi-humanoid robot kits",
    "one_liner_zh": "开源的半人形机器人套件",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B005"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC X25",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/vassar-robotics"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "宇树科技——低成本机械臂/四足（性价比路线）",
+    "因时机器人/大寰——低成本灵巧手与夹爪",
+    "各开源机器人方案（如国产 SO-ARM 复刻、松灵机器人开发平台）",
+    "智元/银河通用——具身数据飞轮（但本体更贵）"
+   ],
+   "scene_tags": [
+    "低成本机械臂",
+    "开源机器人套件",
+    "遥操作数据飞轮",
+    "示范即学",
+    "家庭/开发者机器人",
+    "具身智能数据"
+   ],
+   "archive": "companies/vassar-robotics.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 693,
