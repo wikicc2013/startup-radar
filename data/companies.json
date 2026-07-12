@@ -545,14 +545,39 @@
    "subcategory": "Engineering",
    "one_liner_en": "The agent-native cloud infrastructure platform",
    "one_liner_zh": "智能体原生的云基础设施平台",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC P26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/insforge"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类 BaaS/云后端",
+    "Supabase 类",
+    "低代码后端"
+   ],
+   "scene_tags": [
+    "Agent原生云",
+    "编码Agent后端",
+    "CLI-first",
+    "DB/auth/存储/托管",
+    "开源BaaS",
+    "AI基础设施"
+   ],
+   "archive": "companies/insforge.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 15,
@@ -564,14 +589,39 @@
    "subcategory": "",
    "one_liner_en": "The runtime layer that makes AI agents cheaper and more reliable",
    "one_liner_zh": "让 AI 智能体更便宜更可靠的运行时层",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC P26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/reasonblocks"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类 Agent 优化/缓存",
+    "大模型推理优化",
+    "token 压缩"
+   ],
+   "scene_tags": [
+    "Agent运行时",
+    "降token成本",
+    "提可靠性",
+    "运行中纠错",
+    "私有推理库",
+    "AI基础设施"
+   ],
+   "archive": "companies/reasonblocks.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 16,
@@ -702,14 +752,39 @@
    "subcategory": "Infrastructure",
    "one_liner_en": "On-prem enterprise TTS supporting 25+ languages",
    "one_liner_zh": "支持 25+ 语种的本地部署企业级 TTS",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC P26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/kugelaudio"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "科大讯飞——语音合成",
+    "各类 TTS",
+    "本地语音方案"
+   ],
+   "scene_tags": [
+    "企业TTS",
+    "本地部署",
+    "25+语种",
+    "语音克隆",
+    "低时延",
+    "AI基础设施"
+   ],
+   "archive": "companies/kugelaudio.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 20,
@@ -805,14 +880,45 @@
    "subcategory": "Engineering",
    "one_liner_en": "Customize your software to every user with AI",
    "one_liner_zh": "用 AI 为每个用户定制软件",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC S26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/gigacatalyst"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "头部 Series B 公司(90% 复用率，未具名)",
+     "confidence": "低",
+     "source_url": "https://www.ycombinator.com/companies/gigacatalyst"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类低代码/定制",
+    "应用内配置",
+    "SaaS 定制平台"
+   ],
+   "scene_tags": [
+    "软件定制",
+    "应用内AI Agent",
+    "客户自助搭功能",
+    "减少流失",
+    "B2B软件",
+    "AI基础设施"
+   ],
+   "archive": "companies/gigacatalyst.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 23,
@@ -1222,14 +1328,45 @@
    "subcategory": "Infrastructure",
    "one_liner_en": "Phone numbers for AI agents",
    "one_liner_zh": "给 AI 智能体配电话号码",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC P26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/agentphone"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "Google ADK、Replit、LangChain、Alchemy 等",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/agentphone"
+    }
+   ],
+   "cn_benchmarks": [
+    "容联云/阿里云通信——CPaaS",
+    "各类语音/短信 API",
+    "呼叫中心线路"
+   ],
+   "scene_tags": [
+    "Agent电话号码",
+    "通信API",
+    "语音+短信",
+    "CPaaS",
+    "免合规负担",
+    "AI基础设施"
+   ],
+   "archive": "companies/agentphone.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 34,
@@ -1310,14 +1447,39 @@
    "subcategory": "Engineering",
    "one_liner_en": "Sandboxed coding agents for everyone on your team",
    "one_liner_zh": "给团队每个人的沙箱化编码智能体",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC P26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/runtime"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类编码 Agent 平台",
+    "emdash 类",
+    "内部 Agent 治理"
+   ],
+   "scene_tags": [
+    "沙箱编码Agent",
+    "内部Agent平台",
+    "护栏/可观测",
+    "全员可用",
+    "研发效能",
+    "AI基础设施"
+   ],
+   "archive": "companies/runtime.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 37,
@@ -1348,14 +1510,39 @@
    "subcategory": "Infrastructure",
    "one_liner_en": "Unlock wasted GPU capacity",
    "one_liner_zh": "释放被浪费的 GPU 算力",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC P26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/expanse"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类 HPC 调度",
+    "超算云优化",
+    "GPU 利用率工具"
+   ],
+   "scene_tags": [
+    "GPU算力优化",
+    "HPC",
+    "资源/失败预测",
+    "回收闲置算力",
+    "降算力成本",
+    "AI基础设施"
+   ],
+   "archive": "companies/expanse.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 39,
@@ -1602,14 +1789,39 @@
    "subcategory": "Infrastructure",
    "one_liner_en": "Infinity: the first OS where humans and agents work with no limits",
    "one_liner_zh": "Infinity：首个人与智能体无限协作的操作系统",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC P26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/projectx"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类云桌面/云工作站",
+    "Agent 工作区",
+    "协作平台"
+   ],
+   "scene_tags": [
+    "Agent操作系统",
+    "人机协作",
+    "独立算力",
+    "重并行工作流",
+    "云OS",
+    "AI基础设施"
+   ],
+   "archive": "companies/projectx.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 44,
@@ -1765,14 +1977,45 @@
    "subcategory": "Engineering",
    "one_liner_en": "Open-source infrastructure for reliable long-running agents",
    "one_liner_zh": "可靠长时运行智能体的开源基础设施",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "种子/早期(8-Bit Capital 等)",
+     "amount": "约 125 万美元",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/openprose"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "医学研究实验室($10k 试点→$10k/月)",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/openprose"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类 Agent 编排",
+    "workflow 引擎",
+    "LangGraph 类"
+   ],
+   "scene_tags": [
+    "长程Agent",
+    "声明式语言",
+    "契约语义",
+    "可靠工作流",
+    "开源运行时",
+    "AI基础设施"
+   ],
+   "archive": "companies/openprose.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 48,
@@ -1984,14 +2227,39 @@
    "subcategory": "Engineering",
    "one_liner_en": "Test your app with AI, catch bugs before users do",
    "one_liner_zh": "用 AI 测应用，在用户之前抓出 bug",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC P26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/testerarmy"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类自动化测试",
+    "AI QA 新锐",
+    "移动测试云"
+   ],
+   "scene_tags": [
+    "AI应用测试",
+    "视觉测试",
+    "抓bug/UX",
+    "PR自动检查",
+    "无需脚本",
+    "AI基础设施"
+   ],
+   "archive": "companies/testerarmy.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 54,
@@ -2382,14 +2650,39 @@
    "subcategory": "Infrastructure",
    "one_liner_en": "Database sandboxes for agents",
    "one_liner_zh": "给智能体的数据库沙箱",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC P26(YC、Crane、Atlan 创始人等)",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/ardent"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "Neon 类——DB 分支",
+    "各类测试库/数据脱敏",
+    "数据库克隆"
+   ],
+   "scene_tags": [
+    "数据库沙箱",
+    "Postgres分支",
+    "秒级克隆",
+    "Agent测试",
+    "零风险",
+    "AI基础设施"
+   ],
+   "archive": "companies/ardent.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 66,
@@ -37994,14 +38287,45 @@
    "subcategory": "",
    "one_liner_en": "Marketing compliance for regulated content",
    "one_liner_zh": "面向受监管内容的营销合规",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B007"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC F24（未单列）",
+     "amount": "未披露",
+     "date": "2024",
+     "source_url": "https://www.ycombinator.com/companies/luthor"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "金融机构/贷款商/银行/VC(未具名)",
+     "confidence": "低",
+     "source_url": "https://www.ycombinator.com/companies/luthor"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类广告合规审查",
+    "内容审核",
+    "品牌合规工具"
+   ],
+   "scene_tags": [
+    "营销合规",
+    "实时内容审查",
+    "留痕",
+    "SEC/FINRA/FTC",
+    "受监管内容",
+    "合规治理"
+   ],
+   "archive": "companies/luthor.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 997,
@@ -38315,14 +38639,39 @@
    "subcategory": "",
    "one_liner_en": "Voice AI testing and observability",
    "one_liner_zh": "语音 AI 的测试与可观测性",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B007"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "Seed",
+     "amount": "约 50 万美元",
+     "date": "2024",
+     "source_url": "https://www.ycombinator.com/companies/cekura-ai"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类语音/聊天测试",
+    "呼叫质检",
+    "AI 客服 eval"
+   ],
+   "scene_tags": [
+    "语音AI测试",
+    "聊天AI测试",
+    "人设模拟",
+    "生产监控",
+    "可观测",
+    "AI基础设施"
+   ],
+   "archive": "companies/vocera.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 1008,
@@ -39120,14 +39469,39 @@
    "subcategory": "",
    "one_liner_en": "Open-source voice agent observability platform",
    "one_liner_zh": "开源的语音智能体可观测性平台",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B007"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC F24（未单列）",
+     "amount": "未披露",
+     "date": "2024",
+     "source_url": "https://www.ycombinator.com/companies/fixa"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类语音质检",
+    "语音 AI eval",
+    "呼叫监控"
+   ],
+   "scene_tags": [
+    "语音Agent可观测",
+    "开源",
+    "时延/打断监控",
+    "模拟测试",
+    "语音调试",
+    "AI基础设施"
+   ],
+   "archive": "companies/fixa.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 1034,
