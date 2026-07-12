@@ -19698,14 +19698,39 @@
    "subcategory": "",
    "one_liner_en": "AI workforce management for hourly teams",
    "one_liner_zh": "面向时薪团队的 AI 用工管理",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B004"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC S25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/sira"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "盖雅工场——劳动力管理",
+    "喔趣科技——排班考勤",
+    "法大大/薪人薪事等 HR"
+   ],
+   "scene_tags": [
+    "时薪用工管理",
+    "AI HR",
+    "考勤排班",
+    "自动补班",
+    "薪资处理",
+    "一线员工"
+   ],
+   "archive": "companies/sira.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 535,
@@ -19944,14 +19969,39 @@
    "subcategory": "",
    "one_liner_en": "AI-native real estate services firm",
    "one_liner_zh": "AI 原生的房地产服务公司",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B004"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "种子/早期",
+     "amount": "约 50-100 万美元",
+     "date": "2025",
+     "source_url": "https://www.extruct.ai/hub/pares-ai/"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类 CRE 平台",
+    "销售易/纷享销客 CRM",
+    "资产处置/招商平台"
+   ],
+   "scene_tags": [
+    "商业地产经纪",
+    "销售一体化",
+    "AI承销估值",
+    "自动外联",
+    "营销材料生成",
+    "资产销售"
+   ],
+   "archive": "companies/pares.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 540,
@@ -20155,14 +20205,39 @@
    "subcategory": "",
    "one_liner_en": "Autonomous AI analysts for fraud teams",
    "one_liner_zh": "面向反欺诈团队的自主 AI 分析师",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B004"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "Seed（Pear VC 领投）",
+     "amount": "410 万美元",
+     "date": "2025",
+     "source_url": "https://siliconangle.com/2025/10/28/socratix-ai-raises-4-1m-build-autonomous-coworkers-fraud-risk-teams/"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "同盾/顶象——反欺诈",
+    "蚂蚁风控",
+    "各类交易监控"
+   ],
+   "scene_tags": [
+    "自主AI分析师",
+    "反欺诈调查",
+    "风险分析",
+    "案件叙述",
+    "风控后台",
+    "调查提效"
+   ],
+   "archive": "companies/socratix.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 547,
@@ -20298,14 +20373,55 @@
    "subcategory": "",
    "one_liner_en": "AI video agency for business explainers",
    "one_liner_zh": "面向企业讲解视频的 AI 视频代理",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B004"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "种子/早期",
+     "amount": "约 100 万美元",
+     "date": "2025",
+     "source_url": "https://www.extruct.ai/hub/knowlify-com/"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "Amazon",
+     "confidence": "中",
+     "source_url": "https://www.knowlify.com/"
+    },
+    {
+     "name": "字节跳动(ByteDance)",
+     "confidence": "中",
+     "source_url": "https://www.knowlify.com/"
+    },
+    {
+     "name": "Flexport",
+     "confidence": "中",
+     "source_url": "https://www.knowlify.com/"
+    }
+   ],
+   "cn_benchmarks": [
+    "万彩/来画——动画",
+    "腾讯智影/闪剪——AI 视频",
+    "企业培训（平安知鸟）"
+   ],
+   "scene_tags": [
+    "讲解视频",
+    "企业培训/L&D",
+    "文档转视频",
+    "SOP/操作培训",
+    "内网集成",
+    "知识视频"
+   ],
+   "archive": "companies/knowlify.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 551,
@@ -20400,14 +20516,39 @@
    "subcategory": "",
    "one_liner_en": "AI platform for automated invoice processing",
    "one_liner_zh": "发票自动化处理的 AI 平台",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B004"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "Seed（种子轮）",
+     "amount": "340 万美元",
+     "date": "2026",
+     "source_url": "https://tech.eu/2026/07/08/y-combinator-backed-german-startup-finto-raises-34m-says-chose-munich-over-the-valley/"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "合合信息——票据识别",
+    "汇联易/每刻——费控应付",
+    "用友/金蝶应付模块"
+   ],
+   "scene_tags": [
+    "发票自动化",
+    "应付账款(AP)",
+    "invoice-to-pay",
+    "PO匹配",
+    "ERP集成",
+    "财务后台"
+   ],
+   "archive": "companies/finto.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 555,
@@ -20419,14 +20560,45 @@
    "subcategory": "",
    "one_liner_en": "AI qualitative research with 48-hour reports",
    "one_liner_zh": "48 小时出报告的 AI 定性调研",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B004"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC S25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/motives"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "美欧头部消费品牌（案例 Unilever 收购的 Wild）",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/motives"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类市场调研公司",
+    "秒针/QuestMobile",
+    "AI 调研新锐"
+   ],
+   "scene_tags": [
+    "AI定性调研",
+    "视频焦点小组",
+    "消费者洞察",
+    "全球panel",
+    "48小时报告",
+    "营销调研"
+   ],
+   "archive": "companies/motives.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 556,
@@ -20457,14 +20629,39 @@
    "subcategory": "",
    "one_liner_en": "Open-source AI notetaker prioritizing privacy",
    "one_liner_zh": "隐私优先的开源 AI 会议记录",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B004"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC S25（含后续跟投）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/hyprnote"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "讯飞听见——转写",
+    "通义/腾讯会议 AI 纪要",
+    "各类会议记录"
+   ],
+   "scene_tags": [
+    "AI会议记录",
+    "本地运行",
+    "开源",
+    "隐私优先",
+    "会议纪要",
+    "数据不出本机"
+   ],
+   "archive": "companies/hyprnote.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 558,
@@ -20699,14 +20896,39 @@
    "subcategory": "",
    "one_liner_en": "Prompt-to-app workflows with owned code",
    "one_liner_zh": "提示词转应用、代码归你所有的工作流",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B004"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC S25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/vibeflow"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "钉钉宜搭/简道云——低代码",
+    "扣子(Coze)",
+    "各类 AI 建站"
+   ],
+   "scene_tags": [
+    "提示转应用",
+    "全栈生成",
+    "可视化工作流",
+    "代码可控",
+    "内部工具",
+    "开发者工具"
+   ],
+   "archive": "companies/vibeflow.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 568,
@@ -21146,14 +21368,45 @@
    "subcategory": "",
    "one_liner_en": "AI charge cards for real estate accounting",
    "one_liner_zh": "面向地产财务的 AI 商务卡",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B004"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC S25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/ironledger-ai"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "5 万+ 多户单元（物业管理者，未具名）",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/ironledger-ai"
+    }
+   ],
+   "cn_benchmarks": [
+    "汇联易/每刻——费控",
+    "分贝通——企业支付+费控",
+    "合合信息票据识别"
+   ],
+   "scene_tags": [
+    "AI商务卡",
+    "物业会计",
+    "发票处理",
+    "主动补信息",
+    "费用管理",
+    "金融后台"
+   ],
+   "archive": "companies/ironledger-ai.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 580,
@@ -21319,14 +21572,45 @@
    "subcategory": "",
    "one_liner_en": "AI vetting engine for mass tort firms",
    "one_liner_zh": "面向群体侵权律所的 AI 筛查引擎",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B004"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC S25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/kalinda"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "美国 2 家最大原告律所（未具名）",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/kalinda"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类法律案管",
+    "医疗/产品记录处理",
+    "legaltech 案件筛查"
+   ],
+   "scene_tags": [
+    "群体侵权筛查",
+    "案件资格化",
+    "记录提取",
+    "集体诉讼",
+    "产品责任",
+    "法务后台"
+   ],
+   "archive": "companies/kalinda-ai.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 585,
@@ -21510,14 +21794,39 @@
    "subcategory": "",
    "one_liner_en": "AI post-production workflow for editors",
    "one_liner_zh": "面向剪辑师的 AI 后期工作流",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B004"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC S25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/cocreate"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "剪映专业版——剪辑",
+    "各类 DIT/媒资工具",
+    "视频后期工作流"
+   ],
+   "scene_tags": [
+    "视频后期",
+    "媒体准备",
+    "素材同步/代理",
+    "剪辑工作流",
+    "专业视频",
+    "媒体工具"
+   ],
+   "archive": "companies/cocreate.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 590,
@@ -21529,14 +21838,39 @@
    "subcategory": "",
    "one_liner_en": "AI for productivity and task automation",
    "one_liner_zh": "面向效率与任务自动化的 AI",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B004"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC S25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/slashy"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类办公 AI 助手",
+    "钉钉/飞书智能助理",
+    "tasklet/caddy 类"
+   ],
+   "scene_tags": [
+    "知识工作自动化",
+    "跨应用助手",
+    "任务执行",
+    "邮件/CRM/工单",
+    "生产力",
+    "职能后台"
+   ],
+   "archive": "companies/slashy-ai.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 591,
@@ -21605,14 +21939,45 @@
    "subcategory": "",
    "one_liner_en": "AI-powered media asset management platform",
    "one_liner_zh": "AI 媒资管理平台",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B004"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "Seed（种子轮）",
+     "amount": "约 50 万美元",
+     "date": "2025-09",
+     "source_url": "https://startupintros.com/orgs/kestroll"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "职业体育队、创意工作室、好莱坞制片（未具名）",
+     "confidence": "低",
+     "source_url": "https://www.ycombinator.com/companies/kestroll"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类 DAM 数字资产管理",
+    "阿里云媒体管理",
+    "媒资系统"
+   ],
+   "scene_tags": [
+    "媒资管理",
+    "AI自动组织",
+    "视频可搜索",
+    "资产分发",
+    "视觉资产",
+    "媒资平台"
+   ],
+   "archive": "companies/kestroll.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 595,
@@ -21805,14 +22170,39 @@
    "subcategory": "",
    "one_liner_en": "AI legal agents for law firms",
    "one_liner_zh": "面向律所的 AI 法律智能体",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B004"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC S25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/skope"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "幂律智能——合同AI",
+    "华宇/通达海——法律科技",
+    "各类律所管理"
+   ],
+   "scene_tags": [
+    "律所AI",
+    "法律工作流",
+    "律所财务智能",
+    "法务效率",
+    "法务后台",
+    "legaltech"
+   ],
+   "archive": "companies/skope.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 601,
