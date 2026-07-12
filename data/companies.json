@@ -18463,14 +18463,45 @@
    "subcategory": "",
    "one_liner_en": "Real-time semantic search engine for AI apps",
    "one_liner_zh": "面向 AI 应用的实时语义搜索引擎",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B003"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC F25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/moss"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "3000+ 终端客户的企业(未具名),100+ 国部署",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/moss"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类向量检索/语义搜索",
+    "端侧向量库",
+    "Faiss/Milvus 类"
+   ],
+   "scene_tags": [
+    "实时语义搜索",
+    "亚10ms",
+    "跨端/端侧",
+    "向量检索",
+    "语音Agent",
+    "AI基础设施"
+   ],
+   "archive": "companies/moss.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 441,
@@ -18705,14 +18736,45 @@
    "subcategory": "",
    "one_liner_en": "Web intelligence API for AI agents",
    "one_liner_zh": "面向 AI 智能体的网络情报 API",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B003"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC F25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/the-hog"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "100 付费客户(未具名)",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/the-hog"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类营销情报/线索",
+    "企查查/水滴",
+    "Clay 类"
+   ],
+   "scene_tags": [
+    "网络情报API",
+    "AI增长主管",
+    "实时信号监控",
+    "多渠道营销策略",
+    "GTM",
+    "营销销售客服"
+   ],
+   "archive": "companies/the-hog.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 447,
@@ -18970,14 +19032,39 @@
    "subcategory": "",
    "one_liner_en": "AI IDE for parallel coding agents",
    "one_liner_zh": "面向并行编码智能体的 AI IDE",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B003"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "种子",
+     "amount": "约 $1M",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/clad-labs"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类编码 Agent IDE",
+    "通义灵码/MarsCode",
+    "Superset/zenbu 类"
+   ],
+   "scene_tags": [
+    "并行编码Agent",
+    "统一IDE",
+    "集成多家Agent",
+    "worktree隔离",
+    "研发效能",
+    "AI基础设施"
+   ],
+   "archive": "companies/clad-labs.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 455,
@@ -19039,14 +19126,39 @@
    "subcategory": "",
    "one_liner_en": "AI-enabled data collaboration platform",
    "one_liner_zh": "AI 赋能的数据协作平台",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B003"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/narrative"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类自动化测试",
+    "云测/Testin",
+    "Playwright 类"
+   ],
+   "scene_tags": [
+    "AI端到端测试",
+    "测试Agent",
+    "自动生成测试",
+    "用户流覆盖",
+    "研发质量",
+    "AI基础设施"
+   ],
+   "archive": "companies/narrative.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 457,
@@ -19108,14 +19220,39 @@
    "subcategory": "",
    "one_liner_en": "Social understanding of location data",
    "one_liner_zh": "对位置数据的社会化理解",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B003"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/spatial-ai"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类具身/机器人数据",
+    "国地中心具身数据集",
+    "智元/银河通用数据"
+   ],
+   "scene_tags": [
+    "机器人训练数据",
+    "第一视角数据集",
+    "具身智能",
+    "真实世界操作",
+    "精编标注",
+    "AI基础设施"
+   ],
+   "archive": "companies/spatial-ai.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 459,
@@ -19698,14 +19835,39 @@
    "subcategory": "",
    "one_liner_en": "Hyper context-aware desktop AI copilot",
    "one_liner_zh": "高度情境感知的桌面 AI 副驾",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B003"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC F25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/logical"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类办公副驾",
+    "WPS AI/钉钉 AI",
+    "Rewind 类"
+   ],
+   "scene_tags": [
+    "桌面AI副驾",
+    "主动式",
+    "跨应用上下文",
+    "本地优先",
+    "办公提效",
+    "职能后台"
+   ],
+   "archive": "companies/logical.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 473,
@@ -19717,14 +19879,39 @@
    "subcategory": "",
    "one_liner_en": "Cloud incident automation",
    "one_liner_zh": "云事故自动化处理",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B003"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC F25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/kestrel-ai"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类 K8s 运维/AIOps",
+    "阿里云 ACK 智能运维",
+    "擎创/云智慧"
+   ],
+   "scene_tags": [
+    "云事故自动化",
+    "Kubernetes AIOps",
+    "一键YAML修复",
+    "平台工程",
+    "故障前检测",
+    "AI基础设施"
+   ],
+   "archive": "companies/kestrel-ai.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 474,
@@ -19872,14 +20059,39 @@
    "subcategory": "",
    "one_liner_en": "AI usage measurement & productivity analytics",
    "one_liner_zh": "AI 使用度量与生产力分析",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B003"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC F25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/nivara"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类研发效能度量",
+    "思码逸/merico",
+    "LinearB 类"
+   ],
+   "scene_tags": [
+    "研发效能度量",
+    "AI使用ROI",
+    "人机协同分析",
+    "交付质量",
+    "在岗教练",
+    "职能后台"
+   ],
+   "archive": "companies/nivara.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 477,
@@ -19948,14 +20160,45 @@
    "subcategory": "",
    "one_liner_en": "Sovereign AI systems for regulated institutions",
    "one_liner_zh": "面向受监管机构的主权 AI 系统",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B003"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "种子",
+     "amount": "约 $1M",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/soren"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "社区/区域银行、精品律所(未具名)",
+     "confidence": "低",
+     "source_url": "https://www.ycombinator.com/companies/soren"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类私有化大模型部署",
+    "本地化大模型一体机",
+    "信创合规 AI"
+   ],
+   "scene_tags": [
+    "主权/私有AI",
+    "受监管机构",
+    "自有设施部署",
+    "数据主权合规",
+    "安全优先",
+    "AI安全治理"
+   ],
+   "archive": "companies/soren-ai.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 481,
@@ -20255,14 +20498,45 @@
    "subcategory": "",
    "one_liner_en": "Tool-use data from experts for LLMs",
    "one_liner_zh": "由专家产出的 LLM 工具调用数据",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B003"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC F25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/sylvian"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "基础模型实验室(未具名)",
+     "confidence": "低",
+     "source_url": "https://www.ycombinator.com/companies/sylvian"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类工具使用/Agent 数据",
+    "数据标注平台",
+    "Mercor/hillclimb 类"
+   ],
+   "scene_tags": [
+    "工具使用数据",
+    "专家轨迹",
+    "竞赛众包",
+    "LLM训练数据",
+    "Agent工具调用",
+    "AI基础设施"
+   ],
+   "archive": "companies/sylvian.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 487,
@@ -20648,14 +20922,45 @@
    "subcategory": "",
    "one_liner_en": "Pakistani language AI voice models",
    "one_liner_zh": "巴基斯坦语种的 AI 语音模型",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B004"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "种子",
+     "amount": "$3.5M",
+     "date": "2025",
+     "source_url": "https://ascendants.in/the-ascendants/uplift-ai-3-5-million-seed-funding-voice-ai-pakistan/"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "Khan Academy(乌尔都语内容本地化)",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/uplift-ai"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类多语种 TTS",
+    "讯飞多语种",
+    "字节/MiniMax 语音"
+   ],
+   "scene_tags": [
+    "欠服务语种语音",
+    "小语种TTS",
+    "出海本地化",
+    "语音客服",
+    "API/SDK",
+    "AI基础设施"
+   ],
+   "archive": "companies/uplift-ai.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 497,
@@ -20686,14 +20991,39 @@
    "subcategory": "",
    "one_liner_en": "Fastest AI inference cloud service",
    "one_liner_zh": "最快的 AI 推理云服务",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B004"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC S25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/luminal"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类推理云/编译优化",
+    "硅基流动/无问芯穹",
+    "TVM/MLIR 编译"
+   ],
+   "scene_tags": [
+    "AI推理云",
+    "ML编译器",
+    "一行代码提速",
+    "跨硬件",
+    "高吞吐",
+    "AI基础设施"
+   ],
+   "archive": "companies/luminal.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 499,
@@ -21091,14 +21421,39 @@
    "subcategory": "",
    "one_liner_en": "Self-healing production visibility for shipped software",
    "one_liner_zh": "上线软件的自愈式生产可见性",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B004"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC S25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/interfere"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类可观测/APM",
+    "听云/博睿",
+    "Sentry/session replay 类"
+   ],
+   "scene_tags": [
+    "生产可见性",
+    "自愈层",
+    "会话观测",
+    "检测诊断修复",
+    "非技术可理解",
+    "AI基础设施"
+   ],
+   "archive": "companies/interfere.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 508,
@@ -21309,14 +21664,39 @@
    "subcategory": "",
    "one_liner_en": "Full-stack AI app builder for production apps",
    "one_liner_zh": "面向生产级应用的全栈 AI 应用搭建器",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B004"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC S25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/modelence"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类全栈框架/低代码",
+    "阿里 Midway/云开发",
+    "Lovable 类"
+   ],
+   "scene_tags": [
+    "全栈AI应用框架",
+    "生产级",
+    "内置企业要素",
+    "Agent优先",
+    "Web移动一体",
+    "AI基础设施"
+   ],
+   "archive": "companies/modelence.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 514,
