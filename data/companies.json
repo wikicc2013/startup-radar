@@ -2790,14 +2790,39 @@
    "subcategory": "Drones",
    "one_liner_en": "Robot birds for surveillance",
    "one_liner_zh": "用于监视的仿生机器鸟",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC P26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/ornadyne"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类无人机/仿生机器人",
+    "大疆/仿生扑翼研究",
+    "军用无人机"
+   ],
+   "scene_tags": [
+    "仿生扑翼无人机",
+    "低可探测侦察",
+    "轻量化制造",
+    "仿生结构",
+    "国防",
+    "生产制造"
+   ],
+   "archive": "companies/ornadyne.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 58,
@@ -2809,14 +2834,39 @@
    "subcategory": "Electronics",
    "one_liner_en": "A wearable that reads your emotions to enhance your EQ",
    "one_liner_zh": "读取情绪、提升你情商的可穿戴设备",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "种子",
+     "amount": "$500K",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/anoria"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类健康可穿戴",
+    "华为/小米手环",
+    "情绪/压力监测"
+   ],
+   "scene_tags": [
+    "情绪可穿戴",
+    "多传感器融合",
+    "状态推理",
+    "消费电子",
+    "工人状态监测",
+    "生产制造"
+   ],
+   "archive": "companies/anoria.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 59,
@@ -2828,14 +2878,39 @@
    "subcategory": "Drug Discovery",
    "one_liner_en": "The intelligence layer for drug manufacturing",
    "one_liner_zh": "药品制造的智能层",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC P26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/abinitio-bio"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类生物制造/工艺AI",
+    "药明生物/金斯瑞 CDMO",
+    "细胞系工艺优化"
+   ],
+   "scene_tags": [
+    "药品制造",
+    "生物制造基础模型",
+    "预测制造结果",
+    "工艺开发提速",
+    "CDMO",
+    "生产制造"
+   ],
+   "archive": "companies/abinitio-bio.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 60,
@@ -2924,14 +2999,39 @@
    "subcategory": "Gaming",
    "one_liner_en": "Create and play AI games with friends",
    "one_liner_zh": "和朋友一起创建并玩 AI 游戏",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC P26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/pops"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类 AI 游戏/小游戏",
+    "微信小游戏",
+    "Playabl 类"
+   ],
+   "scene_tags": [
+    "AI迷你游戏",
+    "秒级生成",
+    "游玩即视频",
+    "社交remix",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/pops.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 63,
@@ -2993,14 +3093,45 @@
    "subcategory": "",
    "one_liner_en": "Real-world training environments for healthcare AI models",
    "one_liner_zh": "医疗 AI 模型的真实世界训练环境",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC P26 / Afore 等（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/biostack-platforms"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "17 客户/潜客(含顶级 AI 实验室)",
+     "confidence": "中",
+     "source_url": "https://app.dealroom.co/companies/biostack_platforms"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类医疗AI数据/RL环境",
+    "医疗数据平台",
+    "Abundant/HUD 类"
+   ],
+   "scene_tags": [
+    "医疗AI训练环境",
+    "数据引擎",
+    "后训练闭环",
+    "评估奖励仿真",
+    "专业AI",
+    "AI基础设施"
+   ],
+   "archive": "companies/biostack-platforms.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 65,
@@ -3346,14 +3477,45 @@
    "subcategory": "Asset Management",
    "one_liner_en": "AI Bloomberg Terminal built for healthcare (and beyond)",
    "one_liner_zh": "为医疗（及更多领域）打造的 AI 版彭博终端",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC P26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/soria"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "大行/精品研究/大对冲基金(未具名)",
+     "confidence": "低",
+     "source_url": "https://www.ycombinator.com/companies/soria"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类金融终端/投研",
+    "Wind/同花顺",
+    "Bloomberg 类"
+   ],
+   "scene_tags": [
+    "金融研究终端",
+    "AI原生投研",
+    "多源聚合",
+    "行业垂直",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/soria.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 73,
@@ -3547,14 +3709,39 @@
    "subcategory": "Banking & Exchange",
    "one_liner_en": "A world model for prediction finance",
    "one_liner_zh": "预测金融的世界模型",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC P26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/valctrl"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类预测市场/量化",
+    "预测平台",
+    "量化定价模型"
+   ],
+   "scene_tags": [
+    "预测市场",
+    "世界模型定价",
+    "看法结构化",
+    "预测金融",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/valctrl.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 78,
@@ -3795,14 +3982,45 @@
    "subcategory": "",
    "one_liner_en": "Prime brokerage for prediction markets",
    "one_liner_zh": "预测市场的主经纪商",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC P26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/river-markets"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "付费用户(未具名)",
+     "confidence": "低",
+     "source_url": "https://www.ycombinator.com/companies/river-markets"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类经纪/交易基础设施",
+    "聚合交易",
+    "主经纪商"
+   ],
+   "scene_tags": [
+    "预测市场主经纪",
+    "多场所聚合",
+    "智能路由",
+    "统一API",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/river-markets.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 84,
@@ -3911,14 +4129,45 @@
    "subcategory": "",
    "one_liner_en": "AI-native CRO for clinical trial operations",
    "one_liner_zh": "临床试验运营的 AI 原生 CRO",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC P26（软件~$187k、CRO 合同 3 年 $1.93M）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/runharbor"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "7 个试验(软件)+首个 CRO 合同 $1.93M",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/runharbor"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类 CRO/临床数据",
+    "药明康德/泰格医药",
+    "EDC 系统"
+   ],
+   "scene_tags": [
+    "临床试验CRO",
+    "AI原生真源",
+    "自动化数据流",
+    "跳过人工录入",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/harbor.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 87,
@@ -4015,14 +4264,39 @@
    "subcategory": "Defense",
    "one_liner_en": "Submarine drones for defense",
    "one_liner_zh": "用于国防的水下无人潜航器",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC P26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/aice"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类 UUV/水下机器人",
+    "海洋工程装备",
+    "军用/民用潜航器"
+   ],
+   "scene_tags": [
+    "水下无人潜航器",
+    "UUV",
+    "模块化装备",
+    "成群协同",
+    "海洋装备",
+    "生产制造"
+   ],
+   "archive": "companies/aice.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 90,
@@ -4034,14 +4308,45 @@
    "subcategory": "Industrial Bio",
    "one_liner_en": "Control lab instruments with natural language",
    "one_liner_zh": "用自然语言操控实验室仪器",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC P26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/infera"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "波士顿学术实验室/核心设施(试点)",
+     "confidence": "低",
+     "source_url": "https://www.ycombinator.com/companies/infera"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类 LIMS/实验室自动化",
+    "仪器控制软件",
+    "实验室信息系统"
+   ],
+   "scene_tags": [
+    "实验室仪器操控",
+    "自然语言运行",
+    "跨厂商仪器",
+    "知识留存",
+    "研发质检",
+    "研发设计"
+   ],
+   "archive": "companies/infera.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 91,
@@ -4053,14 +4358,39 @@
    "subcategory": "Insurance",
    "one_liner_en": "The AI insurance carrier",
    "one_liner_zh": "AI 保险承保公司",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC P26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/mount"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类保险科技/AI风险",
+    "AI 责任险",
+    "红队/风险评估"
+   ],
+   "scene_tags": [
+    "AI保险承保",
+    "红队评估AI风险",
+    "量化运营风险",
+    "承保残余风险",
+    "AI风险治理",
+    "AI安全治理"
+   ],
+   "archive": "companies/mount.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 92,
@@ -4126,14 +4456,39 @@
    "subcategory": "",
    "one_liner_en": "Where new internet entrepreneurs build and run their companies",
    "one_liner_zh": "新一代互联网创业者搭建并运营公司的地方",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC P26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/result"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类建站/开店工具",
+    "有赞/微店",
+    "个人创业 SaaS"
+   ],
+   "scene_tags": [
+    "创业者操作系统",
+    "建站运营支付",
+    "内建支付",
+    "个人创业",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/result.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 94,
@@ -4256,14 +4611,39 @@
    "subcategory": "Medical Devices",
    "one_liner_en": "Fast, smart, accessible 3D ultrasound for everyone",
    "one_liner_zh": "人人可用的快速智能 3D 超声",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC P26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/lumius"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "迈瑞/开立——超声设备",
+    "便携超声",
+    "医疗影像设备"
+   ],
+   "scene_tags": [
+    "3D超声",
+    "医疗影像设备",
+    "可负担便携",
+    "AI情境指引",
+    "设备普惠化",
+    "生产制造"
+   ],
+   "archive": "companies/lumius.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 97,

@@ -826,6 +826,14 @@
     "panacea": "corp",
     "arlo-industries": "prod",
     "lattice-health": "aigov",
-    "plena-health": "corp"
+    "plena-health": "corp",
+    "ornadyne": "prod",
+    "anoria": "prod",
+    "abinitio-bio": "prod",
+    "biostack-platforms": "aiinfra",
+    "aice": "prod",
+    "infera": "rnd",
+    "mount": "aigov",
+    "lumius": "prod"
   }
 }
