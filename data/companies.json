@@ -3097,14 +3097,39 @@
    "subcategory": "Infrastructure",
    "one_liner_en": "Distributed compute for AI",
    "one_liner_zh": "面向 AI 的分布式算力",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC P26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/zibra-labs"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类 HPC/超算云",
+    "Ray/分布式计算",
+    "量化并行计算"
+   ],
+   "scene_tags": [
+    "分布式算力",
+    "大规模并行",
+    "HPC",
+    "跨云GPU",
+    "仿真/回测",
+    "AI基础设施"
+   ],
+   "archive": "companies/zibra-labs.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 76,
@@ -3179,14 +3204,39 @@
    "subcategory": "Infrastructure",
    "one_liner_en": "Deployable physical AI on any edge device",
    "one_liner_zh": "可部署到任意边缘设备的物理 AI",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/general-instinct"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类边缘 AI/模型压缩",
+    "地平线/寒武纪——边缘芯片生态",
+    "TensorRT 等推理优化"
+   ],
+   "scene_tags": [
+    "边缘AI",
+    "物理AI",
+    "模型压缩",
+    "离线部署",
+    "低时延",
+    "机器人/IoT"
+   ],
+   "archive": "companies/general-instinct.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 79,
@@ -3241,14 +3291,39 @@
    "subcategory": "Analytics",
    "one_liner_en": "The proactive AI data analyst",
    "one_liner_zh": "主动出击的 AI 数据分析师",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC P26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/datost"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类 BI(帆软/观远)",
+    "AI 问数据",
+    "text-to-SQL 工具"
+   ],
+   "scene_tags": [
+    "AI数据分析师",
+    "语义层",
+    "text-to-SQL",
+    "主动洞察",
+    "BI",
+    "职能后台"
+   ],
+   "archive": "companies/datost.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 81,
@@ -3377,14 +3452,45 @@
    "subcategory": "Infrastructure",
    "one_liner_en": "Portable, self-contained virtual machines to ship software faster",
    "one_liner_zh": "可移植、自包含的虚拟机，让软件交付更快",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC P26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/smol-machines"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "OpenAI/Google/Vercel 工程师、homebrew/browser-use 等",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/smol-machines"
+    }
+   ],
+   "cn_benchmarks": [
+    "Docker/容器",
+    "各类微 VM",
+    "环境打包工具"
+   ],
+   "scene_tags": [
+    "可移植VM",
+    "自包含",
+    "亚秒冷启",
+    "软件交付",
+    "跨平台",
+    "AI基础设施"
+   ],
+   "archive": "companies/smol-machines.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 85,
@@ -3890,14 +3996,39 @@
    "subcategory": "Engineering",
    "one_liner_en": "Institutional infrastructure for prediction markets",
    "one_liner_zh": "预测市场的机构级基础设施",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC P26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/oddpool"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类金融数据 API",
+    "量化数据服务",
+    "另类数据"
+   ],
+   "scene_tags": [
+    "预测市场",
+    "机构数据层",
+    "量化基础设施",
+    "订单簿数据",
+    "套利检测",
+    "金融数据"
+   ],
+   "archive": "companies/oddpool.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 101,
@@ -4134,14 +4265,45 @@
    "subcategory": "Engineering",
    "one_liner_en": "Near-real-time structured video generation infrastructure for LLMs",
    "one_liner_zh": "面向 LLM 的近实时结构化视频生成基础设施",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "Seed",
+     "amount": "约 50 万美元",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/lamina-labs"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "4000 用户、187 付费(发布 12 天)",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/lamina-labs"
+    }
+   ],
+   "cn_benchmarks": [
+    "万彩/来画——动画",
+    "腾讯智影",
+    "golpo/knowlify 类"
+   ],
+   "scene_tags": [
+    "结构化视频生成",
+    "讲解视频",
+    "白板视频",
+    "80+语言",
+    "近实时",
+    "AI基础设施"
+   ],
+   "archive": "companies/lamina-labs.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 107,
@@ -4172,14 +4334,39 @@
    "subcategory": "Infrastructure",
    "one_liner_en": "Browser layer for AI agents",
    "one_liner_zh": "AI 智能体的浏览器层",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC P26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/stablebrowse"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类浏览器自动化",
+    "Browserbase 类",
+    "RPA 浏览器"
+   ],
+   "scene_tags": [
+    "Agent浏览器层",
+    "网站转执行图",
+    "持久记忆",
+    "降token",
+    "高成功率",
+    "AI基础设施"
+   ],
+   "archive": "companies/stablebrowse.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 109,
@@ -4372,14 +4559,39 @@
    "subcategory": "Infrastructure",
    "one_liner_en": "AI that books meetings for you",
    "one_liner_zh": "帮你约会议的 AI",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/drippay"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类 AI SDR/外联",
+    "日程助手",
+    "SCRM 触达"
+   ],
+   "scene_tags": [
+    "AI约会议",
+    "多渠道外联",
+    "跟进",
+    "销售/BD",
+    "约会自动化",
+    "营销销售"
+   ],
+   "archive": "companies/drip.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 114,
@@ -4391,14 +4603,39 @@
    "subcategory": "",
    "one_liner_en": "Real-world sandboxes to test agents and agent-facing software",
    "one_liner_zh": "测试智能体及面向智能体软件的真实世界沙箱",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC P26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/arga-labs"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类测试沙箱/Mock",
+    "E2E 测试",
+    "服务虚拟化"
+   ],
+   "scene_tags": [
+    "真实世界沙箱",
+    "Agent测试",
+    "外部服务孪生",
+    "E2E测试",
+    "每PR沙箱",
+    "AI基础设施"
+   ],
+   "archive": "companies/arga-labs.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 115,
@@ -4888,14 +5125,39 @@
    "subcategory": "Energy",
    "one_liner_en": "Maximizing compute via hyper-efficient cooling",
    "one_liner_zh": "以超高效散热最大化算力",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC S26（未单列，NVIDIA Inception）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/madrone"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "英维克/维谛——数据中心温控",
+    "申菱环境——数据中心空调",
+    "各类液冷/精密空调"
+   ],
+   "scene_tags": [
+    "数据中心散热",
+    "露点冷却",
+    "无冷机",
+    "省电省水",
+    "释放算力",
+    "生产制造"
+   ],
+   "archive": "companies/madrone.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 125,
@@ -5395,14 +5657,45 @@
    "subcategory": "Infrastructure",
    "one_liner_en": "Extend your cloud agent with Xcode, Android, and more",
    "one_liner_zh": "用 Xcode、Android 等扩展你的云端智能体",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC P26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/limrun"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "Replit、Rork、Momentic、Coconote(Quizlet) 等",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/limrun"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类云真机/模拟器",
+    "移动 CI 云",
+    "WeTest 等云测"
+   ],
+   "scene_tags": [
+    "云沙箱扩展",
+    "iOS/Android模拟器",
+    "编码Agent",
+    "移动开发",
+    "按需云服务",
+    "AI基础设施"
+   ],
+   "archive": "companies/limrun.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 139,
@@ -5734,14 +6027,39 @@
    "subcategory": "Engineering",
    "one_liner_en": "The extensible IDE for coding agents",
    "one_liner_zh": "面向编码智能体的可扩展 IDE",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC P26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/zenbu-2"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类编码 Agent IDE",
+    "通义灵码/MarsCode",
+    "emdash 类"
+   ],
+   "scene_tags": [
+    "编码Agent IDE",
+    "可扩展/插件化",
+    "Agent编排",
+    "研发效能",
+    "开源",
+    "AI基础设施"
+   ],
+   "archive": "companies/zenbu.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 148,
@@ -6009,14 +6327,39 @@
    "subcategory": "Engineering",
    "one_liner_en": "Collaborative product development platform",
    "one_liner_zh": "协作式产品开发平台",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC P26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/lightsprint"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类协作开发平台",
+    "PingCode/Coding",
+    "AI 研发协作"
+   ],
+   "scene_tags": [
+    "协作式AI开发",
+    "团队层",
+    "可视化规划",
+    "并行云Agent",
+    "PR预览",
+    "AI基础设施"
+   ],
+   "archive": "companies/lightsprint.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 155,
@@ -6076,14 +6419,39 @@
    "subcategory": "",
    "one_liner_en": "The infra layer for AI agent experience",
    "one_liner_zh": "AI 智能体体验的基础设施层",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC P26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/scope"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类 API 分析",
+    "Agent 可观测",
+    "AX 新概念"
+   ],
+   "scene_tags": [
+    "Agent体验AX",
+    "可发现性",
+    "跨Agent工作流",
+    "失败分析",
+    "API可用性",
+    "AI基础设施"
+   ],
+   "archive": "companies/scope.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 157,
