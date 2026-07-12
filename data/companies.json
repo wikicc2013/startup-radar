@@ -6556,14 +6556,45 @@
    "subcategory": "Engineering",
    "one_liner_en": "Run any coding agent harness in the cloud",
    "one_liner_zh": "在云端运行任意编码智能体框架",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC P26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/replicas"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "20+ YC 创业公司",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/replicas"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类云端编码 Agent",
+    "通义灵码/CodeFuse",
+    "Devin 类"
+   ],
+   "scene_tags": [
+    "后台编码Agent",
+    "沙箱VM",
+    "任意Agent框架",
+    "多入口触发",
+    "自迭代PR",
+    "AI基础设施"
+   ],
+   "archive": "companies/replicas.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 160,
@@ -6753,14 +6784,39 @@
    "subcategory": "Engineering",
    "one_liner_en": "Code review platform for humans and agents",
    "one_liner_zh": "面向人与智能体的代码评审平台",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC P26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/stage"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类代码评审",
+    "CodeArts/Coding 评审",
+    "CodeRabbit 类"
+   ],
+   "scene_tags": [
+    "代码评审",
+    "人机协同",
+    "AI PR洪流",
+    "理解变更5x",
+    "研发效能",
+    "AI基础设施"
+   ],
+   "archive": "companies/stage.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 165,
@@ -6791,14 +6847,39 @@
    "subcategory": "Infrastructure",
    "one_liner_en": "Communication for agents",
    "one_liner_zh": "智能体之间的通信",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC P26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/primitive"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类消息中间件/Agent框架",
+    "MCP/A2A 协议",
+    "RocketMQ 类"
+   ],
+   "scene_tags": [
+    "Agent通信层",
+    "实时可靠",
+    "多Agent协同",
+    "通信原语",
+    "Agent基础设施",
+    "AI基础设施"
+   ],
+   "archive": "companies/primitive.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 167,
@@ -7096,14 +7177,39 @@
    "subcategory": "Engineering",
    "one_liner_en": "The IDE for the AI agents era",
    "one_liner_zh": "AI 智能体时代的 IDE",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC P26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/superset"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类编码 Agent IDE",
+    "通义灵码/MarsCode",
+    "emdash/zenbu 类"
+   ],
+   "scene_tags": [
+    "并行编码Agent",
+    "Agent编排IDE",
+    "Git worktree隔离",
+    "软件工厂",
+    "开源",
+    "AI基础设施"
+   ],
+   "archive": "companies/superset.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 176,
@@ -7115,14 +7221,45 @@
    "subcategory": "Analytics",
    "one_liner_en": "AI-native Palantir for mid-market",
    "one_liner_zh": "面向中型市场的 AI 原生版 Palantir",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC P26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/netter"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "养老院/物流/零售等中型市场企业(未具名)",
+     "confidence": "低",
+     "source_url": "https://www.ycombinator.com/companies/netter"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类数据中台/BI",
+    "帆软/观远数据",
+    "Palantir 类"
+   ],
+   "scene_tags": [
+    "全栈数据平台",
+    "数据科学家Agent",
+    "中型市场",
+    "集中结构化数据",
+    "分析ML管线",
+    "AI基础设施"
+   ],
+   "archive": "companies/netter.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 177,
@@ -7620,14 +7757,45 @@
    "subcategory": "Analytics",
    "one_liner_en": "On-demand consumer insights",
    "one_liner_zh": "按需的消费者洞察",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC P26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/foresight"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "Fortune 500/零售/FMCG/科技公司营销与洞察团队(未具名)",
+     "confidence": "低",
+     "source_url": "https://www.ycombinator.com/companies/foresight"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类合成用户/市场调研",
+    "益普索/尼尔森",
+    "Synthetic Society 类"
+   ],
+   "scene_tags": [
+    "消费者洞察",
+    "行为仿真",
+    "新品测试",
+    "营销决策",
+    "合成用户",
+    "营销销售客服"
+   ],
+   "archive": "companies/foresight.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 191,
@@ -7639,14 +7807,39 @@
    "subcategory": "Infrastructure",
    "one_liner_en": "The most emotive foundation models for voice",
    "one_liner_zh": "最具情感表现力的语音基础模型",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/miso-labs"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类 TTS",
+    "MiniMax/字节语音",
+    "科大讯飞语音合成"
+   ],
+   "scene_tags": [
+    "情感语音模型",
+    "低延迟TTS",
+    "语音克隆",
+    "开源8B",
+    "语音Agent",
+    "AI基础设施"
+   ],
+   "archive": "companies/miso-labs.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 192,
@@ -8395,14 +8588,39 @@
    "subcategory": "",
    "one_liner_en": "Interpretability and reasoning infra for foundation models",
    "one_liner_zh": "基础模型的可解释性与推理基础设施",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/envariant"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类可解释性/评测",
+    "大模型 guardrail",
+    "模型安全评测平台"
+   ],
+   "scene_tags": [
+    "可解释性SDK",
+    "模型行为控制",
+    "幻觉安全检测",
+    "因果追踪",
+    "控制层",
+    "AI安全治理"
+   ],
+   "archive": "companies/envariant.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 209,
@@ -9676,14 +9894,39 @@
    "subcategory": "",
    "one_liner_en": "Real-world place intelligence for AI apps and agents",
    "one_liner_zh": "面向 AI 应用与智能体的真实地点智能",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/voygr"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "高德/百度地图 API",
+    "各类 POI 数据",
+    "本地生活数据"
+   ],
+   "scene_tags": [
+    "地点智能API",
+    "POI数据",
+    "Agent可查询",
+    "网页上下文丰富",
+    "选址派单",
+    "AI基础设施"
+   ],
+   "archive": "companies/voygr.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 235,
@@ -10059,14 +10302,39 @@
    "subcategory": "",
    "one_liner_en": "Orchestration layer for coding agents",
    "one_liner_zh": "编码智能体的编排层",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/21stdev"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类 Agent 框架/平台",
+    "阿里百炼/Coze",
+    "E2B 类"
+   ],
+   "scene_tags": [
+    "Agent编排层",
+    "生产化基础设施",
+    "沙箱流式计费",
+    "可观测",
+    "SDK",
+    "AI基础设施"
+   ],
+   "archive": "companies/21st-dev.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 243,
@@ -10078,14 +10346,45 @@
    "subcategory": "",
    "one_liner_en": "Enterprise-scale short-form video, made simple",
    "one_liner_zh": "企业级短视频制作,化繁为简",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/shortkit"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "目标客户 NYT/ESPN/TripAdvisor/Zillow 等(定位客群,非确认签约)",
+     "confidence": "低",
+     "source_url": "https://www.ycombinator.com/companies/shortkit"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类短视频 SDK/云点播",
+    "腾讯云/阿里云视频",
+    "即构/声网视频"
+   ],
+   "scene_tags": [
+    "短视频SDK",
+    "媒体基础设施",
+    "信息流推荐",
+    "变现",
+    "消费应用",
+    "AI基础设施"
+   ],
+   "archive": "companies/shortkit.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 244,
@@ -10097,14 +10396,45 @@
    "subcategory": "",
    "one_liner_en": "Your ops super-employee in Slack",
    "one_liner_zh": "住在 Slack 里的运营超级员工",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/bubble-lab"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "4000+ 用户(社群产品)",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/bubble-lab"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类 RPA/流程自动化",
+    "钉钉/飞书机器人",
+    "问小白/Coze 运营"
+   ],
+   "scene_tags": [
+    "运营自动化",
+    "Slack原生Agent",
+    "连工具跑流程",
+    "无需工程",
+    "职能提效",
+    "职能后台"
+   ],
+   "archive": "companies/bubble-lab.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 245,
@@ -10206,14 +10536,39 @@
    "subcategory": "",
    "one_liner_en": "AI co-scientists that run research end-to-end",
    "one_liner_zh": "端到端跑科研的 AI 协作科学家",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/synthetic-sciences"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类科研 copilot/文献工具",
+    "AI for Science 平台",
+    "智谱/百度科研"
+   ],
+   "scene_tags": [
+    "AI协作科学家",
+    "端到端科研",
+    "文献假设实验",
+    "材料配方研发",
+    "AI for Science",
+    "研发设计"
+   ],
+   "archive": "companies/synthetic-sciences.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 247,
@@ -10357,14 +10712,39 @@
    "subcategory": "",
    "one_liner_en": "AI engineer to triage and fix production alerts",
    "one_liner_zh": "分诊并修复生产告警的 AI 工程师",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/sonarly"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类 AIOps/监控",
+    "阿里云 ARMS/听云",
+    "擎创/云智慧"
+   ],
+   "scene_tags": [
+    "AIOps自愈",
+    "告警分诊去噪",
+    "根因定位",
+    "修复PR",
+    "on-call减负",
+    "AI基础设施"
+   ],
+   "archive": "companies/sonarly.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 251,
