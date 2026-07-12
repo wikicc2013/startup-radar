@@ -21752,14 +21752,39 @@
    "subcategory": "",
    "one_liner_en": "Hardware certification software for compliance",
    "one_liner_zh": "面向合规的硬件认证软件",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B004"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC S25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/normal-factory"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "华测检测/广电计量——检测认证",
+    "SGS/TUV 中国",
+    "各类 CCC/CE/FCC 认证服务"
+   ],
+   "scene_tags": [
+    "硬件认证",
+    "FCC/CE/ASTM",
+    "认证自动化",
+    "合规文档",
+    "产品上市",
+    "合规治理"
+   ],
+   "archive": "companies/normal-factory.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 570,
@@ -21771,14 +21796,39 @@
    "subcategory": "",
    "one_liner_en": "Human-layer security testing platform",
    "one_liner_zh": "面向人因层的安全测试平台",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B004"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC S25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/ghosteye"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类安全意识培训",
+    "钓鱼演练平台",
+    "安全意识 SaaS"
+   ],
+   "scene_tags": [
+    "人因安全",
+    "AI钓鱼测试",
+    "诈骗电话/deepfake演练",
+    "OSINT暴露测绘",
+    "安全意识",
+    "AI安全"
+   ],
+   "archive": "companies/ghosteye.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 571,
@@ -22307,14 +22357,39 @@
    "subcategory": "",
    "one_liner_en": "AI-native continuous penetration testing",
    "one_liner_zh": "AI 原生的持续渗透测试服务",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B004"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC S25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/riverbank"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类红队/攻防服务",
+    "众测平台",
+    "知道创宇/奇安信"
+   ],
+   "scene_tags": [
+    "AI红队",
+    "攻防安全",
+    "持续渗透",
+    "AI Agent群",
+    "NSA/DoD背景",
+    "AI安全"
+   ],
+   "archive": "companies/riverbank-security.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 584,
@@ -22674,14 +22749,39 @@
    "subcategory": "",
    "one_liner_en": "Secure access platform for application delivery",
    "one_liner_zh": "面向应用交付的安全访问平台",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B004"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC S25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/pangolin"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类零信任/SDP",
+    "蒲公英/贝锐——异地组网",
+    "深信服零信任"
+   ],
+   "scene_tags": [
+    "零信任访问",
+    "安全远程访问",
+    "身份感知VPN",
+    "反向代理",
+    "开源自托管",
+    "安全访问"
+   ],
+   "archive": "companies/fossorial.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 594,
@@ -24226,14 +24326,39 @@
    "subcategory": "",
    "one_liner_en": "RL environments for AI evals",
    "one_liner_zh": "面向 AI 评测的强化学习环境",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B004"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC S25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/mangodesk"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类 RL 环境/评测数据",
+    "大厂 Agent 训练",
+    "标注数据平台"
+   ],
+   "scene_tags": [
+    "长程RL环境",
+    "评测数据",
+    "后训练数据",
+    "定制标注管线",
+    "Agent训练",
+    "AI基础设施"
+   ],
+   "archive": "companies/mangodesk.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 636,
@@ -25078,14 +25203,39 @@
    "subcategory": "",
    "one_liner_en": "AI secret scanning for code repositories",
    "one_liner_zh": "面向代码仓库的 AI 密钥扫描",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B005"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC X25（已被收购）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/bitpatrol"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类代码安全扫描(SAST)",
+    "密钥检测工具",
+    "开源 TruffleHog 类"
+   ],
+   "scene_tags": [
+    "代码密钥扫描",
+    "代码安全",
+    "按上下文检测",
+    "降误报",
+    "凭证泄漏防护",
+    "已被收购"
+   ],
+   "archive": "companies/bitpatrol.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 657,
@@ -25755,14 +25905,39 @@
    "subcategory": "",
    "one_liner_en": "AI agents for blue team security",
    "one_liner_zh": "面向蓝队安全的 AI 智能体",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B005"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "Seed（a16z 领投）",
+     "amount": "740 万美元",
+     "date": "2025",
+     "source_url": "https://www.cotool.ai/blog/announcing-our-seed-round"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类 SOAR/安全编排",
+    "奇安信/深信服 SOC",
+    "安全运营平台"
+   ],
+   "scene_tags": [
+    "蓝队安全",
+    "安全运营SOC",
+    "威胁调查自动化",
+    "no-code Agent",
+    "自动报告",
+    "AI安全"
+   ],
+   "archive": "companies/cotool.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 675,
@@ -26009,14 +26184,45 @@
    "subcategory": "",
    "one_liner_en": "Managed compliance with audit-ready operators",
    "one_liner_zh": "由审计就绪团队托管的合规服务",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B005"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC X25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/probo"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "39 家公司(两月拿 SOC2/HIPAA/ISO27001)",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/probo"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类 ISO 认证咨询",
+    "合规 SaaS",
+    "等保/信息安全认证"
+   ],
+   "scene_tags": [
+    "合规托管",
+    "SOC2/ISO27001/HIPAA",
+    "审计就绪",
+    "开源合规",
+    "供应商准入认证",
+    "合规治理"
+   ],
+   "archive": "companies/probo.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 680,
@@ -26028,14 +26234,39 @@
    "subcategory": "",
    "one_liner_en": "Autonomous AI pentesting for live systems",
    "one_liner_zh": "面向在线系统的自主 AI 渗透测试",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B005"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC X25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/mindfort"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类渗透测试/漏扫",
+    "众测平台",
+    "知道创宇/长亭"
+   ],
+   "scene_tags": [
+    "自主渗透测试",
+    "应用安全",
+    "发现-利用-修补",
+    "Web应用/API",
+    "自研安全模型",
+    "AI安全"
+   ],
+   "archive": "companies/mindfort.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 681,
@@ -26584,14 +26815,45 @@
    "subcategory": "",
    "one_liner_en": "AI for music IP monitoring and licensing",
    "one_liner_zh": "面向音乐版权监测与授权的 AI",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B005"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC X25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/third-chair"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "世界最大媒体娱乐公司(未具名)",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/third-chair"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类品牌保护/维权",
+    "阿里知产保护平台",
+    "版权监测(维权骑士)"
+   ],
+   "scene_tags": [
+    "IP侵权执法",
+    "全网监测",
+    "取证追偿",
+    "品牌/商标保护",
+    "律师网络",
+    "法务后台"
+   ],
+   "archive": "companies/third-chair.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 698,
@@ -26723,14 +26985,39 @@
    "subcategory": "",
    "one_liner_en": "Licensed audio data for voice AI",
    "one_liner_zh": "面向语音 AI 的授权音频数据",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B005"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "Seed（种子轮）",
+     "amount": "300 万美元",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/besimple-ai"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "海天瑞声/数据堂——语音数据",
+    "各类语音标注",
+    "方言语料库"
+   ],
+   "scene_tags": [
+    "语音AI数据",
+    "授权音频数据",
+    "多语言方言",
+    "对话数据集",
+    "语音训练数据",
+    "AI基础设施"
+   ],
+   "archive": "companies/besimple-ai.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 702,
@@ -27240,14 +27527,45 @@
    "subcategory": "",
    "one_liner_en": "Autonomous security testing for web apps",
    "one_liner_zh": "面向 Web 应用的自主安全测试",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B005"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC X25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/casco"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "Gusto、CrewAI 等 100+ 公司",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/casco"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类应用安全测试",
+    "AI 安全评测",
+    "红队服务"
+   ],
+   "scene_tags": [
+    "自主安全测试",
+    "AI系统红队",
+    "Web/API/云安全",
+    "AI合规(NIST/EU AI Act)",
+    "漏洞发现",
+    "AI安全"
+   ],
+   "archive": "companies/casco.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 715,
@@ -27929,14 +28247,39 @@
    "subcategory": "",
    "one_liner_en": "Verifiably private AI on secure hardware",
    "one_liner_zh": "在安全硬件上可验证隐私的 AI",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B005"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC X25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/tinfoil"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类隐私计算/机密计算",
+    "蚂蚁摩斯/华控清交——隐私计算",
+    "可信执行环境(TEE)"
+   ],
+   "scene_tags": [
+    "机密计算",
+    "可验证隐私AI",
+    "安全隔离区",
+    "云AI推理",
+    "数据不可访问",
+    "AI安全隐私"
+   ],
+   "archive": "companies/tinfoil.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 734,
@@ -27986,14 +28329,39 @@
    "subcategory": "",
    "one_liner_en": "TypeScript authentication framework",
    "one_liner_zh": "TypeScript 身份认证框架",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B005"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "Seed（Peak XV、YC 等）",
+     "amount": "约 500 万美元",
+     "date": "2025",
+     "source_url": "https://techcrunch.com/2025/06/25/this-self-taught-ethiopian-dev-built-an-authentication-tool-and-got-into-yc/"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类认证/IAM",
+    "Authing——身份云",
+    "开源认证组件"
+   ],
+   "scene_tags": [
+    "认证框架",
+    "TypeScript",
+    "开源认证",
+    "自建身份",
+    "不锁定第三方",
+    "开发者工具"
+   ],
+   "archive": "companies/better-auth.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 737,
