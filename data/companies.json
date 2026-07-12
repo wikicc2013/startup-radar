@@ -26881,14 +26881,57 @@
    "subcategory": "",
    "one_liner_en": "Automated QA and training for CX agents",
    "one_liner_zh": "面向客服坐席的自动化质检与培训",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "种子/早期",
+     "amount": "约 650 万美元",
+     "date": "2025-06",
+     "source_url": "https://www.ycombinator.com/companies/solidroad"
+    },
+    {
+     "round": "Series A",
+     "amount": "2500 万美元",
+     "date": "2026-04",
+     "source_url": "https://www.ycombinator.com/companies/solidroad"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "Crypto.com",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/solidroad"
+    },
+    {
+     "name": "全球头部外包呼叫中心/BPO（未具名）",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/solidroad"
+    }
+   ],
+   "cn_benchmarks": [
+    "循环智能/深维信智（Megaview）——销售/客服对话智能与培训",
+    "晓多科技/智齿科技——客服 SaaS + 质检",
+    "得助智能（中关村科金）——智能客服培训与质检",
+    "平安知鸟等企业培训 AI"
+   ],
+   "scene_tags": [
+    "客服/CX培训",
+    "AI模拟练兵",
+    "真实交互质检",
+    "入职提速",
+    "BPO/呼叫中心",
+    "服务质量统一"
+   ],
+   "archive": "companies/solidroad.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 852,
@@ -29188,14 +29231,40 @@
    "subcategory": "",
    "one_liner_en": "[Extruct 配到高压 EV 电机控制器,可能与实际 YC 公司不符]",
    "one_liner_zh": "[此条 Extruct 富集疑似错配,待核实]",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "Seed（种子轮，含 YC）",
+     "amount": "约 50 万美元",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/steinmetz"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "汇川技术——工业变频/电控/伺服龙头",
+    "比亚迪半导体/斯达半导——车规功率半导体（IGBT/SiC）",
+    "英博尔/威迈斯——新能源汽车电机控制器/电驱",
+    "阳光电源——光伏/储能功率电子"
+   ],
+   "scene_tags": [
+    "功率电子",
+    "电机控制器",
+    "高功率密度",
+    "EV/机器人/航天电驱",
+    "宽禁带器件",
+    "电动化核心部件"
+   ],
+   "archive": "companies/steinmetz-extruct.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 925,
@@ -30530,14 +30599,56 @@
    "subcategory": "",
    "one_liner_en": "AI prospecting for hard-to-reach buyers",
    "one_liner_zh": "面向难触达买家的 AI 潜客挖掘",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B007"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "Seed（种子轮）",
+     "amount": "约 200 万美元",
+     "date": "2025-01",
+     "source_url": "https://www.ycombinator.com/companies/origami-agents"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "CBRE",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/origami-agents"
+    },
+    {
+     "name": "Clipboard Health",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/origami-agents"
+    },
+    {
+     "name": "Remote.com",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/origami-agents"
+    }
+   ],
+   "cn_benchmarks": [
+    "探迹科技（Tungee）——B2B 智能销售线索挖掘+触达",
+    "百炼智能——AI 销售线索与商机推荐",
+    "AiseSDR 等 AI SDR 新锐",
+    "卫瓴科技——企微生态获客"
+   ],
+   "scene_tags": [
+    "AI销售prospecting",
+    "高意向线索发现",
+    "非结构化数据挖掘",
+    "信号驱动获客",
+    "线索富化",
+    "自动化外联"
+   ],
+   "archive": "companies/origami-agents.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 974,
