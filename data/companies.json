@@ -23657,14 +23657,38 @@
    "subcategory": "",
    "one_liner_en": "ESOP-owned engineering firm for energy projects",
    "one_liner_zh": "员工持股的能源工程公司",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B005"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC X25",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/launches/NVb-anvil-be-the-answer-in-ai-search"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "国内 GEO/AI 搜索优化处早期，暂无成规模独立龙头",
+    "传统 SEO/舆情监测厂商向 AI 搜索可见度延伸",
+    "围绕豆包/文心/Kimi/元宝等国产 AI 搜索做品牌可见度的营销机构"
+   ],
+   "scene_tags": [
+    "GEO生成式引擎优化",
+    "AEO答案引擎优化",
+    "AI搜索可见度",
+    "品牌被AI提及",
+    "营销新战场"
+   ],
+   "archive": "companies/anvil.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 761,
@@ -24065,14 +24089,40 @@
    "subcategory": "",
    "one_liner_en": "Autonomous systems for government and utility",
    "one_liner_zh": "面向政府与公用事业的自主系统",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B005"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC X25",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/notus-autonomous-systems"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "大疆/极飞——农业/工业无人机（集群作业）",
+    "中国电科/航天科工的无人机蜂群（国家队/军工）",
+    "一飞智控——无人机编队表演与集群控制",
+    "各军工院所的蜂群与抗干扰通信研究"
+   ],
+   "scene_tags": [
+    "无人机蜂群",
+    "抗干扰通信",
+    "EHF/60GHz相控阵",
+    "自主编队",
+    "军用/国防自主系统",
+    "集群协同"
+   ],
+   "archive": "companies/notus-autonomous-systems.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 773,
@@ -24185,14 +24235,40 @@
    "subcategory": "",
    "one_liner_en": "Data center infrastructure management software",
    "one_liner_zh": "数据中心基础设施管理软件",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B005"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC X25",
+     "amount": "未披露",
+     "date": "2024",
+     "source_url": "https://www.ycombinator.com/companies/aravolta"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "世纪互联/万国数据的数据中心运维监控（自建）",
+    "华为/阿里的数据中心能效管理（iCooling、AI 节能）",
+    "观测云/云智慧——可观测与 AIOps（技术方法论对标）",
+    "DCIM 软件（如科华、维谛的机房管理）"
+   ],
+   "scene_tags": [
+    "数据中心DCIM",
+    "可观测/单一视图",
+    "AI故障检测",
+    "热点识别",
+    "PUE能效优化",
+    "设施监控"
+   ],
+   "archive": "companies/aravolta.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 778,
@@ -24596,14 +24672,40 @@
    "subcategory": "",
    "one_liner_en": "Autonomous intra-row weeding robots for farms",
    "one_liner_zh": "面向农田的自主行内除草机器人",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W25",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/red-barn-robotics"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "极飞科技/大疆农业——农业无人机（植保/施药，偏空中）",
+    "丰疆智能——农机自动驾驶与农业机器人",
+    "中科原动力/各高校农业机器人团队——田间作业机器人",
+    "博创联动——农机智能化"
+   ],
+   "scene_tags": [
+    "农业除草机器人",
+    "行内精准作业",
+    "视觉识别+精准操作",
+    "户外非结构化自主",
+    "农业用工替代",
+    "化学除草替代"
+   ],
+   "archive": "companies/red-barn-robotics.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 792,
@@ -24961,14 +25063,40 @@
    "subcategory": "",
    "one_liner_en": "Lunar lander with 20 kg payload",
    "one_liner_zh": "20 公斤载荷的月球着陆器",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W25",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/instinct"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "中国探月工程（嫦娥系列，国家队月球着陆）",
+    "深蓝航天/蓝箭/星际荣耀——商业运载火箭（月球任务运力前提）",
+    "中科宇航/东方空间——商业运载与载荷交付",
+    "航天科技体系的月球着陆器研制"
+   ],
+   "scene_tags": [
+    "月球着陆器",
+    "LEO拼车发射",
+    "低成本载荷交付",
+    "商业航天",
+    "月球物流",
+    "小型化航天硬件"
+   ],
+   "archive": "companies/instinct.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 802,
@@ -25656,14 +25784,40 @@
    "subcategory": "",
    "one_liner_en": "Dexterous humanoid hands for robotics",
    "one_liner_zh": "面向机器人的灵巧人形机械手",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "Seed（种子轮）",
+     "amount": "1100 万美元",
+     "date": "2026-06",
+     "source_url": "https://techcrunch.com/2026/06/29/robot-hand-company-settles-tesla-trade-secret-suit-and-announces-11m-raise/"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "因时机器人——国产灵巧手（多指、腱驱/直驱）",
+    "帕西尼感知（PaXini）——触觉传感 + 灵巧手",
+    "强脑 BrainCo/傲意 OYMotion——灵巧手与肌电",
+    "智元/宇树等人形本体自带的灵巧手"
+   ],
+   "scene_tags": [
+    "灵巧机器人手",
+    "22自由度",
+    "皮肤触觉传感",
+    "手套式数据采集",
+    "接触密集操作",
+    "具身操作硬件"
+   ],
+   "archive": "companies/proception.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 819,
