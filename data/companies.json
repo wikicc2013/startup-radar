@@ -7956,14 +7956,39 @@
    "subcategory": "Asset Management",
    "one_liner_en": "Hedge fund where AI researches and executes every trade",
    "one_liner_zh": "由 AI 研究并执行每笔交易的对冲基金",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC P26（未单列,Sharpe>3）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/standard-signal"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类量化/AI 基金",
+    "私募量化",
+    "AI 交易系统"
+   ],
+   "scene_tags": [
+    "AI对冲基金",
+    "端到端自主交易",
+    "可审计",
+    "基础设施强制风控",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/standard-signal.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 166,
@@ -8056,14 +8081,45 @@
    "subcategory": "Healthcare IT",
    "one_liner_en": "AI agent for therapists",
    "one_liner_zh": "心理治疗师的 AI 智能体",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC P26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/klarify"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "8300+ 治疗师(5 国)",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/klarify"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类专业服务 SaaS",
+    "行政自动化",
+    "AI 助手"
+   ],
+   "scene_tags": [
+    "治疗师AI OS",
+    "非核心行政自动化",
+    "文档理赔合规",
+    "专业提效",
+    "职能后台",
+    "职能后台"
+   ],
+   "archive": "companies/klarify.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 169,
@@ -8075,14 +8131,39 @@
    "subcategory": "Defense",
    "one_liner_en": "The open operating system for counter-UAS",
    "one_liner_zh": "反无人机（counter-UAS）的开放操作系统",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "种子",
+     "amount": "$4.8M",
+     "date": "2026",
+     "source_url": "https://www.tectonicdefense.com/exclusive-surtr-raises-5m-seed-for-c-uas-integration/"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类传感融合/边缘计算",
+    "工业安防",
+    "反无人机系统"
+   ],
+   "scene_tags": [
+    "反无人机OS",
+    "硬件无关传感融合",
+    "边缘计算",
+    "AI威胁分类",
+    "国防",
+    "生产制造"
+   ],
+   "archive": "companies/surtr-defense-systems.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 170,
@@ -8094,14 +8175,39 @@
    "subcategory": "Insurance",
    "one_liner_en": "AI-native specialty insurance company",
    "one_liner_zh": "AI 原生的专业险公司",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC P26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/hedge"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类保险科技",
+    "批发保险/MGU",
+    "承保自动化"
+   ],
+   "scene_tags": [
+    "批发保险",
+    "AI承保",
+    "更快报价",
+    "专业险",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/hedge.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 171,
@@ -8449,14 +8555,45 @@
    "subcategory": "Defense",
    "one_liner_en": "AI mission systems",
    "one_liner_zh": "AI 任务系统",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC P26（$1.6M 销售,单合同扩 $35M,估值约 $200M）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/9-mothers-corporation"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "美国国防部(DoW,$1.6M 销售)",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/9-mothers-corporation"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类反无人机/机器人",
+    "低成本量产硬件",
+    "军用机器人"
+   ],
+   "scene_tags": [
+    "反无人机机器人",
+    "微型低成本",
+    "量产硬件",
+    "目标跟踪",
+    "国防",
+    "生产制造"
+   ],
+   "archive": "companies/9-mothers.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 179,
@@ -8468,14 +8605,45 @@
    "subcategory": "",
    "one_liner_en": "Design your home instantly with AI",
    "one_liner_zh": "用 AI 即刻设计你的家",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "种子",
+     "amount": "$17.5M",
+     "date": "2026",
+     "source_url": "https://news.ycombinator.com/item?id=48543908"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "12 万用户(一月,生成 32.5 万+设计)",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/drafted"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类 CAD/BIM 生成设计",
+    "建筑生成设计",
+    "住宅/空间设计"
+   ],
+   "scene_tags": [
+    "住宅生成设计",
+    "约束驱动设计",
+    "平面立面3D",
+    "导出CAD",
+    "空间设计",
+    "研发设计"
+   ],
+   "archive": "companies/drafted.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 180,
@@ -8584,14 +8752,39 @@
    "subcategory": "",
    "one_liner_en": "AI coach for athletes with real lives and epic goals",
    "one_liner_zh": "为有真实生活与宏大目标运动者打造的 AI 教练",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC P26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/imperfect"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类运动/健身App",
+    "Keep",
+    "训练教练App"
+   ],
+   "scene_tags": [
+    "AI运动教练",
+    "动态调整",
+    "连可穿戴",
+    "消费运动",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/imperfect.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 183,
@@ -8603,14 +8796,39 @@
    "subcategory": "Consumer Health",
    "one_liner_en": "AI primary care doctor",
    "one_liner_zh": "AI 全科医生",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "pre-seed",
+     "amount": "$12M",
+     "date": "2026",
+     "source_url": "https://askclara.com/blog/clara-launch"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类互联网医疗",
+    "平安好医生/微医",
+    "AI 诊疗"
+   ],
+   "scene_tags": [
+    "AI全科医生",
+    "初级诊疗",
+    "AI做重活专家审批",
+    "消费医疗",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/clara.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 184,
@@ -8811,14 +9029,39 @@
    "subcategory": "Therapeutics",
    "one_liner_en": "Programmable DNA drug aimed at destroying cancers",
    "one_liner_zh": "旨在摧毁癌症的可编程 DNA 药物",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC P26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/finaldose"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类肿瘤治疗/基因药",
+    "创新药企",
+    "DNA/RNA 疗法"
+   ],
+   "scene_tags": [
+    "可编程DNA药物",
+    "抗癌",
+    "平台化",
+    "趋近零研发成本",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/finaldose.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 189,
@@ -9071,14 +9314,39 @@
    "subcategory": "",
    "one_liner_en": "A new personal AI that actually knows you",
    "one_liner_zh": "一个真正懂你的全新个人 AI",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W24（未单列）",
+     "amount": "未披露",
+     "date": "2024",
+     "source_url": "https://www.ycombinator.com/companies/jo"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类个人 AI 助手",
+    "本地 AI 助手",
+    "隐私优先 AI"
+   ],
+   "scene_tags": [
+    "个人AI助手",
+    "私有本地",
+    "零数据保留",
+    "跨平台记忆",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/jo.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 195,
@@ -13127,14 +13395,39 @@
    "subcategory": "",
    "one_liner_en": "An AI trading system for commodities markets",
    "one_liner_zh": "大宗商品市场的 AI 交易系统",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/axis-2"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类大宗商品情报",
+    "文华/隆众资讯",
+    "大宗交易系统"
+   ],
+   "scene_tags": [
+    "大宗商品AI交易",
+    "LLM解析市场信息",
+    "价格监控",
+    "原材料采购",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/axis.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 279,
@@ -13146,14 +13439,39 @@
    "subcategory": "",
    "one_liner_en": "Turn documents into signals for lenders",
    "one_liner_zh": "把文档转化为放贷机构的信号",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/kita"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类文档智能/OCR",
+    "合合信息/达观",
+    "VLM 文档处理"
+   ],
+   "scene_tags": [
+    "文档转信号",
+    "VLM胜OCR",
+    "反欺诈",
+    "可决策信号",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/kita.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 280,
@@ -13165,14 +13483,39 @@
    "subcategory": "",
    "one_liner_en": "Multi-chain deposit and payment infrastructure",
    "one_liner_zh": "多链充值与支付基础设施",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "种子",
+     "amount": "约 $1M",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/unifold"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类支付/加密基础设施",
+    "稳定币支付",
+    "链上充值"
+   ],
+   "scene_tags": [
+    "多链充值",
+    "加密支付基础设施",
+    "极简接入",
+    "gas抽象",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/unifold.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 281,
@@ -13184,14 +13527,45 @@
    "subcategory": "",
    "one_liner_en": "Commercial insurance brokerage run by AI agents",
    "one_liner_zh": "由 AI 智能体运营的商业保险经纪",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/panta"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "SpaceX 供应商、爆破品制造商、危化品运输、钢厂",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/panta"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类保险经纪",
+    "商业保险科技",
+    "企业财险经纪"
+   ],
+   "scene_tags": [
+    "商业保险经纪",
+    "AI Agent运营",
+    "跨承保商并行",
+    "难承保工业险",
+    "企业保险",
+    "职能后台"
+   ],
+   "archive": "companies/panta.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 282,
