@@ -21887,14 +21887,39 @@
    "subcategory": "",
    "one_liner_en": "Open-source agentic IDE for developers",
    "one_liner_zh": "面向开发者的开源智能体 IDE",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B004"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC S25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/stagewise"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类编码 Agent IDE",
+    "通义灵码/MarsCode",
+    "Cursor/Superset 类"
+   ],
+   "scene_tags": [
+    "开源智能体IDE",
+    "本地模型支持",
+    "点选改前端",
+    "Agent编排",
+    "可自部署",
+    "AI基础设施"
+   ],
+   "archive": "companies/stagewise.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 518,
@@ -21947,14 +21972,39 @@
    "subcategory": "",
    "one_liner_en": "Mobile app for coding on the go",
    "one_liner_zh": "随时随地写代码的移动应用",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B004"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "种子",
+     "amount": "约 $1M",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/vibe-code-go"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类移动/远程开发",
+    "云 IDE 移动端",
+    "远程 SSH 编码"
+   ],
+   "scene_tags": [
+    "移动端编码",
+    "遥控编码Agent",
+    "本机Claude Code",
+    "完成推送",
+    "移动研发",
+    "AI基础设施"
+   ],
+   "archive": "companies/vibe-code-go.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 520,
@@ -22501,14 +22551,39 @@
    "subcategory": "",
    "one_liner_en": "Agentic business intelligence for company data",
    "one_liner_zh": "面向公司数据的智能体 BI",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B004"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC S25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/pleom"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "帆软/观远数据——BI",
+    "阿里 QuickBI/腾讯 BI",
+    "各类 AI BI"
+   ],
+   "scene_tags": [
+    "智能体BI",
+    "自动出洞察",
+    "连数据源",
+    "可视化分析",
+    "业务自助",
+    "职能后台"
+   ],
+   "archive": "companies/pleom.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 531,
@@ -23069,14 +23144,45 @@
    "subcategory": "",
    "one_liner_en": "AI app and website builder for non-coders",
    "one_liner_zh": "面向非程序员的 AI 应用与网站搭建器",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B004"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC S25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/floot"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "600+ 付费客户,3000+ 用户建 4000+ 应用",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/floot"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类低代码/无代码",
+    "钉钉宜搭/腾讯微搭",
+    "Lovable 类"
+   ],
+   "scene_tags": [
+    "非程序员建应用",
+    "AI全栈搭建",
+    "内置后端DB",
+    "自然语言",
+    "业务自助",
+    "AI基础设施"
+   ],
+   "archive": "companies/floot.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 545,
@@ -23284,14 +23390,39 @@
    "subcategory": "",
    "one_liner_en": "Command center for coding agents",
    "one_liner_zh": "编码智能体的指挥中心",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B004"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC S25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/omnara"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类 Agent 管理/dashboard",
+    "编码 Agent 控制台",
+    "远程开发"
+   ],
+   "scene_tags": [
+    "编码Agent指挥中心",
+    "跨端同会话",
+    "随时响应",
+    "开源",
+    "多Agent管理",
+    "AI基础设施"
+   ],
+   "archive": "companies/omnara.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 550,
@@ -23363,14 +23494,45 @@
    "subcategory": "",
    "one_liner_en": "AI-native E2E testing for mobile apps",
    "one_liner_zh": "面向移动应用的 AI 原生端到端测试",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B004"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "种子",
+     "amount": "$3.2M",
+     "date": "2025",
+     "source_url": "https://app.dealroom.co/companies/autosana"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "付费客户(未具名,营收增长)",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/autosana"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类移动测试/云真机",
+    "WeTest/Testin",
+    "Appium 类"
+   ],
+   "scene_tags": [
+    "移动E2E测试",
+    "AI原生",
+    "自然语言用例",
+    "自愈测试",
+    "视频证明",
+    "AI基础设施"
+   ],
+   "archive": "companies/autosana.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 552,
@@ -23540,14 +23702,39 @@
    "subcategory": "",
    "one_liner_en": "Models trained on raw video experience",
    "one_liner_zh": "基于原始视频经验训练的模型",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B004"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC S25（未单列,PeakSpan/Trestle 参投）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/relling"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类多模态/具身数据",
+    "国地中心具身数据",
+    "自动驾驶多模态数据"
+   ],
+   "scene_tags": [
+    "多模态世界数据",
+    "世界模型",
+    "视频深度LiDAR",
+    "机器人训练",
+    "具身智能",
+    "AI基础设施"
+   ],
+   "archive": "companies/relling.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 557,
@@ -23807,14 +23994,39 @@
    "subcategory": "",
    "one_liner_en": "Applied AI lab for context engineering",
    "one_liner_zh": "专注上下文工程的应用 AI 实验室",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B004"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "种子",
+     "amount": "$6.2M",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/nozomio"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类 RAG/上下文层",
+    "代码上下文工具",
+    "Captain 类"
+   ],
+   "scene_tags": [
+    "上下文工程",
+    "Agent上下文基础设施",
+    "编码Agent",
+    "技术上下文",
+    "应用AI实验室",
+    "AI基础设施"
+   ],
+   "archive": "companies/nozomio-labs.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 567,
@@ -24131,14 +24343,45 @@
    "subcategory": "",
    "one_liner_en": "Developer tools for embedded software engineers",
    "one_liner_zh": "面向嵌入式工程师的开发者工具",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B004"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC S25 / CRV 等（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/embedder"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "5000+ 工程师、100+ 付费客户(汽车/航空航天/医疗/IoT/消费电子)",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/embedder"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类嵌入式 IDE",
+    "Keil/IAR",
+    "通用编码 Agent"
+   ],
+   "scene_tags": [
+    "嵌入式AI-IDE",
+    "硬件感知",
+    "生成驱动代码",
+    "烧录调试",
+    "固件研发",
+    "AI基础设施"
+   ],
+   "archive": "companies/embedder.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 575,
@@ -24262,14 +24505,39 @@
    "subcategory": "",
    "one_liner_en": "AI research lab scaling human intent",
    "one_liner_zh": "放大人类意图的 AI 研究实验室",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B004"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC S25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/fulcrum"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类模型评测/调试",
+    "大模型能力评估",
+    "RL 环境工具"
+   ],
+   "scene_tags": [
+    "AI系统调试",
+    "激发elicitation",
+    "能力度量",
+    "失败模式",
+    "RL环境",
+    "AI基础设施"
+   ],
+   "archive": "companies/fulcrum-research.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 578,
@@ -24627,14 +24895,39 @@
    "subcategory": "",
    "one_liner_en": "Tiny AI models for edge devices",
    "one_liner_zh": "面向边缘设备的微型 AI 模型",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B004"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC S25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/stellon-labs"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类端侧/微型模型",
+    "MNN/NCNN 生态模型",
+    "量化蒸馏方案"
+   ],
+   "scene_tags": [
+    "边缘微型模型",
+    "设备端可跑",
+    "语音语言视频",
+    "极小体积",
+    "端侧智能",
+    "AI基础设施"
+   ],
+   "archive": "companies/stellon-labs.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 586,
@@ -25181,14 +25474,39 @@
    "subcategory": "",
    "one_liner_en": "Efficient edge AI models for devices",
    "one_liner_zh": "面向设备的高效边缘 AI 模型",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B004"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC S25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/deepgrove"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类端侧/边缘模型",
+    "MNN/NCNN 生态",
+    "Stellon 类"
+   ],
+   "scene_tags": [
+    "边缘AI模型",
+    "设备端",
+    "高效基础模型",
+    "任意设备",
+    "端侧智能",
+    "AI基础设施"
+   ],
+   "archive": "companies/deepgrove.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 600,
@@ -25244,14 +25562,45 @@
    "subcategory": "",
    "one_liner_en": "Visual intelligence without labeled data",
    "one_liner_zh": "无需标注数据的视觉智能",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B004"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC S25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/ondeck-ai"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "国防组织、机器人研究、安防摄像、港口行为分析、海上油气监测",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/ondeck-ai"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类工业视觉/质检",
+    "海康/华为机器视觉",
+    "传统 CV 质检"
+   ],
+   "scene_tags": [
+    "视觉智能",
+    "VLM无需训练数据",
+    "产线质检",
+    "安全行为监测",
+    "即时查找",
+    "AI基础设施"
+   ],
+   "archive": "companies/ondeck-ai.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 602,
@@ -25363,14 +25712,39 @@
    "subcategory": "",
    "one_liner_en": "OpenAI-compatible inference on idle GPUs",
    "one_liner_zh": "在闲置 GPU 上跑兼容 OpenAI 的推理",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B004"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC S25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/lilac"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类 GPU 算力市场",
+    "共享算力平台",
+    "Vast.ai 类"
+   ],
+   "scene_tags": [
+    "闲置GPU变现",
+    "兼容OpenAI推理",
+    "算力市场",
+    "低价推理",
+    "K8s自动",
+    "AI基础设施"
+   ],
+   "archive": "companies/lilac.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 605,
