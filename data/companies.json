@@ -11705,14 +11705,45 @@
    "subcategory": "",
    "one_liner_en": "AI agents for CPG brands",
    "one_liner_zh": "快消品牌的 AI 智能体",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "种子/早期",
+     "amount": "620 万美元",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/corvera"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "12 家快消品牌（未具名）",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/corvera"
+    }
+   ],
+   "cn_benchmarks": [
+    "聚水潭/旺店通——电商 ERP/库存",
+    "富勒/科箭——供应链软件",
+    "各类需求计划(APS)"
+   ],
+   "scene_tags": [
+    "快消供应链",
+    "订单处理",
+    "库存管理",
+    "需求预测",
+    "后台Agent",
+    "供应链运营"
+   ],
+   "archive": "companies/corvera.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 333,
@@ -11724,14 +11755,39 @@
    "subcategory": "",
    "one_liner_en": "AI-supercharged humans for home care agency growth",
    "one_liner_zh": "用 AI 赋能护理人员,助力居家护理机构增长",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/mochacare"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类护理/家政 SaaS",
+    "排班/考勤系统",
+    "蓝领用工平台"
+   ],
+   "scene_tags": [
+    "护理机构管理",
+    "智能体招聘",
+    "排班",
+    "客户intake",
+    "劳动密集运营",
+    "服务业后台"
+   ],
+   "archive": "companies/mochacare.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 334,
@@ -11743,14 +11799,45 @@
    "subcategory": "",
    "one_liner_en": "AI document workflows for enterprises",
    "one_liner_zh": "企业 AI 文档工作流",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/eigenpal"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "2 家大型欧洲银行（贷款自动化，未具名）",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/eigenpal"
+    }
+   ],
+   "cn_benchmarks": [
+    "合合信息/TextIn——文档识别",
+    "来也/影刀 IDP",
+    "各类 OCR+RPA"
+   ],
+   "scene_tags": [
+    "企业文档处理",
+    "IDP",
+    "工作流搭建",
+    "本地部署",
+    "发票/合同/证书",
+    "后台自动化"
+   ],
+   "archive": "companies/eigenpal.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 335,
@@ -11762,14 +11849,39 @@
    "subcategory": "",
    "one_liner_en": "AI agents for customer success",
    "one_liner_zh": "客户成功的 AI 智能体",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/pollen"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类客户成功平台",
+    "销售易/纷享销客 CRM",
+    "智齿等客服"
+   ],
+   "scene_tags": [
+    "客户成功",
+    "流失预警",
+    "增售识别",
+    "账户监测",
+    "续约扩张",
+    "AI Agent"
+   ],
+   "archive": "companies/pollen.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 336,
@@ -11943,14 +12055,39 @@
    "subcategory": "",
    "one_liner_en": "The AI product specialist for customer-facing teams",
    "one_liner_zh": "面向客户的团队的 AI 产品专家",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/unisson"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类客户成功/实施工具",
+    "智能客服知识库",
+    "售前支持 SaaS"
+   ],
+   "scene_tags": [
+    "AI产品专家",
+    "实施onboarding",
+    "售前支持",
+    "客户健康审计",
+    "客户成功",
+    "技术支持"
+   ],
+   "archive": "companies/unisson.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 341,
@@ -11962,14 +12099,39 @@
    "subcategory": "",
    "one_liner_en": "Open-source agentic development environment",
    "one_liner_zh": "开源的智能体开发环境",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/emdash"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类编码 Agent 工具",
+    "MarsCode/通义灵码",
+    "开源 agent 编排"
+   ],
+   "scene_tags": [
+    "智能体开发环境",
+    "多Agent并行",
+    "开源",
+    "worktree隔离",
+    "编码Agent编排",
+    "研发效能"
+   ],
+   "archive": "companies/emdash.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 342,
@@ -12338,14 +12500,45 @@
    "subcategory": "",
    "one_liner_en": "The AI-native law firm for growth-stage companies",
    "one_liner_zh": "面向成长期公司的 AI 原生律所",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/general-legal"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "20+ 成长期公司（未具名）",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/general-legal"
+    }
+   ],
+   "cn_benchmarks": [
+    "幂律智能/法大大——合同 AI/电子签",
+    "各类企业法务外包",
+    "法律科技平台"
+   ],
+   "scene_tags": [
+    "AI律所",
+    "商业合同审阅",
+    "合同谈判",
+    "扁平定价",
+    "快交付",
+    "法务后台"
+   ],
+   "archive": "companies/general-legal.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 353,
@@ -12357,14 +12550,39 @@
    "subcategory": "",
    "one_liner_en": "AI-native workspace for municipal development review",
    "one_liner_zh": "市政开发审批的 AI 原生工作空间",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/autositu"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类工程建设审批系统",
+    "BIM 报建审查",
+    "政务审批数字化"
+   ],
+   "scene_tags": [
+    "开发审批",
+    "合规预审",
+    "审图协同",
+    "降审批往返",
+    "政务合规",
+    "建设审批"
+   ],
+   "archive": "companies/autositu.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 354,
@@ -12376,14 +12594,39 @@
    "subcategory": "",
    "one_liner_en": "AI law firm + legal tech platform for startups",
    "one_liner_zh": "面向初创的 AI 律所+法律科技平台",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/vector-legal"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "法大大/e签宝——电子签+法务",
+    "幂律智能——合同 AI",
+    "各类企业法务 SaaS"
+   ],
+   "scene_tags": [
+    "AI律所",
+    "法律OS",
+    "股权管理",
+    "合同起草审阅",
+    "data room",
+    "法务后台"
+   ],
+   "archive": "companies/vector-legal.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 355,
@@ -12395,14 +12638,39 @@
    "subcategory": "",
    "one_liner_en": "AI operator for legal case referrals",
    "one_liner_zh": "法律案件转介的 AI 操盘手",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/wayco"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类保险理赔系统",
+    "工伤/人身伤害案管",
+    "法律案件管理"
+   ],
+   "scene_tags": [
+    "医法案件",
+    "案件数据智能",
+    "intake到和解",
+    "理赔管理",
+    "法务后台",
+    "人身伤害"
+   ],
+   "archive": "companies/wayco.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 356,
@@ -12414,14 +12682,39 @@
    "subcategory": "",
    "one_liner_en": "AI agents that replace your policy consultants",
    "one_liner_zh": "替代政策顾问的 AI 智能体",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/fed10"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类政策法规监测",
+    "行业协会政策研究",
+    "合规 RegTech"
+   ],
+   "scene_tags": [
+    "政府事务AI",
+    "拟议法规监测",
+    "政策威胁标注",
+    "倡导策略",
+    "公共事务",
+    "合规风险"
+   ],
+   "archive": "companies/fed10.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 357,
@@ -12433,14 +12726,39 @@
    "subcategory": "",
    "one_liner_en": "The AI-powered law firm for complex work visas",
    "one_liner_zh": "专攻复杂工作签证的 AI 律所",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/legalos"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类出入境/签证服务",
+    "国际人才引进服务",
+    "移民法律咨询"
+   ],
+   "scene_tags": [
+    "AI移民律所",
+    "就业签证",
+    "H-1B/O-1/EB",
+    "人才引进",
+    "法务后台",
+    "签证加速"
+   ],
+   "archive": "companies/legalos.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 358,
@@ -12452,14 +12770,55 @@
    "subcategory": "",
    "one_liner_en": "Startup legal work by elite lawyers, same-day turnaround",
    "one_liner_zh": "精英律师当天交付的初创法律服务",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "Seed（种子轮）",
+     "amount": "900 万美元",
+     "date": "2026-05",
+     "source_url": "https://www.ycombinator.com/companies/arcline"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "Rhizome AI",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/arcline"
+    },
+    {
+     "name": "Cardboard",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/arcline"
+    },
+    {
+     "name": "Nordic Brain Tech",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/arcline"
+    }
+   ],
+   "cn_benchmarks": [
+    "幂律智能/法大大——合同 AI",
+    "各类企业法务外包",
+    "法律科技平台"
+   ],
+   "scene_tags": [
+    "AI律所",
+    "当天交付",
+    "AI+律师复核",
+    "交易/合同",
+    "扁平定价",
+    "法务后台"
+   ],
+   "archive": "companies/arcline.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 359,
