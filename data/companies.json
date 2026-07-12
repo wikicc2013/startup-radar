@@ -31747,14 +31747,39 @@
    "subcategory": "",
    "one_liner_en": "Drop-in build tools with remote execution",
    "one_liner_zh": "带远程执行的即插即用构建工具",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B005"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC X25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/attune"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类构建加速/缓存",
+    "Bazel/远程缓存",
+    "分布式构建"
+   ],
+   "scene_tags": [
+    "构建加速",
+    "零迁移直插",
+    "远程执行",
+    "分布式缓存",
+    "研发提效",
+    "AI基础设施"
+   ],
+   "archive": "companies/attune.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 740,
@@ -31766,14 +31791,39 @@
    "subcategory": "",
    "one_liner_en": "Open-source PostgreSQL sharding proxy",
    "one_liner_zh": "开源的 PostgreSQL 分片代理",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B005"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "种子",
+     "amount": "$5.5M",
+     "date": "2025",
+     "source_url": "https://pgdog.dev/blog/our-funding-announcement"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类数据库中间件/分库分表",
+    "ShardingSphere",
+    "PolarDB/TDSQL"
+   ],
+   "scene_tags": [
+    "Postgres分片",
+    "无侵入扩展",
+    "连接池负载均衡",
+    "开源Rust",
+    "数据平台",
+    "AI基础设施"
+   ],
+   "archive": "companies/pgdog.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 741,
@@ -31804,14 +31854,39 @@
    "subcategory": "",
    "one_liner_en": "AI-powered retail analytics platform",
    "one_liner_zh": "AI 零售分析平台",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B005"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC X25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/kirana-ai"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类智能门店/零售",
+    "海康智能零售",
+    "云拿/智能货柜"
+   ],
+   "scene_tags": [
+    "AI店长",
+    "门店监控防损",
+    "客户服务",
+    "订货定价自动化",
+    "实体零售",
+    "营销销售客服"
+   ],
+   "archive": "companies/kirana-ai.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 743,
@@ -31902,14 +31977,39 @@
    "subcategory": "",
    "one_liner_en": "Research data analysis in VS Code",
    "one_liner_zh": "在 VS Code 里做科研数据分析",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B005"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC X25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/percival"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类 data copilot/notebook",
+    "Jupyter AI",
+    "数据分析助手"
+   ],
+   "scene_tags": [
+    "科研数据分析",
+    "Python工作流",
+    "数据准备提速",
+    "探索性分析",
+    "VS Code",
+    "AI基础设施"
+   ],
+   "archive": "companies/percival.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 745,
@@ -32979,14 +33079,45 @@
    "subcategory": "",
    "one_liner_en": "AI app builder for Android phones",
    "one_liner_zh": "面向安卓手机的 AI 应用搭建器",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B005"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "种子",
+     "amount": "$3.4M",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/bloom-4"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "5 万+用户",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/bloom-4"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类无代码移动",
+    "应用公园/APICloud",
+    "Fastshot/Bitrig 类"
+   ],
+   "scene_tags": [
+    "安卓AI应用搭建",
+    "手机上建应用",
+    "全栈前后端",
+    "跨端",
+    "一键分享",
+    "AI基础设施"
+   ],
+   "archive": "companies/bloom-2.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 771,
@@ -32998,14 +33129,45 @@
    "subcategory": "",
    "one_liner_en": "AI code review for complex codebases",
    "one_liner_zh": "面向复杂代码库的 AI 代码评审",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B005"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC X25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/cubic"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "Cal.com、n8n(合并 PR 快 28%)",
+     "confidence": "高",
+     "source_url": "https://www.ycombinator.com/companies/cubic"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类代码评审",
+    "CodeArts/Coding 评审",
+    "Greptile/CodeRabbit 类"
+   ],
+   "scene_tags": [
+    "AI代码评审",
+    "复杂代码库",
+    "全库上下文",
+    "像开发者浏览",
+    "基准第一",
+    "AI基础设施"
+   ],
+   "archive": "companies/cubic.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 772,
@@ -33106,14 +33268,39 @@
    "subcategory": "",
    "one_liner_en": "Persistent analytics layer for AI agents",
    "one_liner_zh": "面向 AI 智能体的持久化分析层",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B005"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC X25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/bitboard"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类 BI/分析",
+    "帆软/观远",
+    "Agent+BI 类"
+   ],
+   "scene_tags": [
+    "Agent分析层",
+    "持久化报表",
+    "活仪表盘",
+    "MCP兼容",
+    "可追溯可重复",
+    "AI基础设施"
+   ],
+   "archive": "companies/bitboard.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 775,
@@ -33125,14 +33312,39 @@
    "subcategory": "",
    "one_liner_en": "Open-source analytics agent for context engineering",
    "one_liner_zh": "面向上下文工程的开源分析智能体",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B005"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC X25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/nao-labs"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类 AI BI/text-to-SQL",
+    "帆软/观远 AI",
+    "Pleom 类"
+   ],
+   "scene_tags": [
+    "分析Agent",
+    "上下文工程",
+    "数据团队掌控",
+    "业务自助查询",
+    "开源",
+    "AI基础设施"
+   ],
+   "archive": "companies/nao-labs.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 776,
@@ -33278,14 +33490,39 @@
    "subcategory": "",
    "one_liner_en": "Natural-language ML models from prompts",
    "one_liner_zh": "用提示词生成机器学习模型",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B005"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC X25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/plexe"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类 AutoML",
+    "第四范式/九章云极",
+    "DataRobot 类"
+   ],
+   "scene_tags": [
+    "提示词生成ML",
+    "AutoML Agent",
+    "端到端建模",
+    "预测模型",
+    "开源",
+    "AI基础设施"
+   ],
+   "archive": "companies/plexe.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 780,
@@ -33505,14 +33742,39 @@
    "subcategory": "",
    "one_liner_en": "Training environments for long-horizon AI agents",
    "one_liner_zh": "面向长程 AI 智能体的训练环境",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B005"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC X25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/aviro"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类 RL/Agent 环境",
+    "长程 Agent 训练",
+    "Klavis/Jazzberry 类"
+   ],
+   "scene_tags": [
+    "长程Agent环境",
+    "长程工具使用",
+    "多步规划",
+    "训练环境",
+    "前沿模型",
+    "AI基础设施"
+   ],
+   "archive": "companies/tropir.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 788,
@@ -33797,14 +34059,45 @@
    "subcategory": "",
    "one_liner_en": "React chat UI for AI apps",
    "one_liner_zh": "面向 AI 应用的 React 聊天界面",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/assistant-ui"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "LangChain、Stack AI、Browser Use、Athena Intelligence",
+     "confidence": "高",
+     "source_url": "https://www.ycombinator.com/companies/assistant-ui"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类聊天 UI 组件",
+    "Ant Design X",
+    "Vercel AI SDK UI"
+   ],
+   "scene_tags": [
+    "AI聊天UI库",
+    "React可组合原语",
+    "流式工具持久化",
+    "开箱即用",
+    "前端框架",
+    "AI基础设施"
+   ],
+   "archive": "companies/assistant-ui.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 797,
@@ -34235,14 +34528,45 @@
    "subcategory": "",
    "one_liner_en": "Open-source framework for AI-native applications",
    "one_liner_zh": "面向 AI 原生应用的开源框架",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/cedar"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "多个生产部署(未具名,零退款)",
+     "confidence": "低",
+     "source_url": "https://www.ycombinator.com/companies/cedar"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类 copilot 框架",
+    "CopilotKit",
+    "Agent 应用框架"
+   ],
+   "scene_tags": [
+    "AI原生应用框架",
+    "Agent读写应用状态",
+    "copilot SDK",
+    "语音HITL",
+    "开源",
+    "AI基础设施"
+   ],
+   "archive": "companies/cedar.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 805,
@@ -34591,14 +34915,39 @@
    "subcategory": "",
    "one_liner_en": "GPU infrastructure for foundation model training",
    "one_liner_zh": "面向基础模型训练的 GPU 基础设施",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/tensorpool"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类 GPU 云/算力",
+    "硅基流动/无问芯穹",
+    "共享算力平台"
+   ],
+   "scene_tags": [
+    "GPU训练基础设施",
+    "Vercel式简单",
+    "跨云找最便宜",
+    "spot可靠",
+    "约省50%",
+    "AI基础设施"
+   ],
+   "archive": "companies/tensorpool.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 813,
@@ -35392,14 +35741,45 @@
    "subcategory": "",
    "one_liner_en": "Applied research lab for frontier AI data",
    "one_liner_zh": "面向前沿 AI 数据的应用研究实验室",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "A 轮",
+     "amount": "$30M（$300M 估值）",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/afterquery"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "基础模型实验室(未具名)",
+     "confidence": "低",
+     "source_url": "https://www.ycombinator.com/companies/afterquery"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类专家数据/标注",
+    "海天瑞声/数据堂",
+    "Mercor/Scale 类"
+   ],
+   "scene_tags": [
+    "专家推理数据",
+    "真实工作流",
+    "执业专家网络",
+    "后训练数据",
+    "专业AI",
+    "AI基础设施"
+   ],
+   "archive": "companies/afterquery.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 830,
