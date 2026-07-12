@@ -29110,14 +29110,39 @@
    "subcategory": "",
    "one_liner_en": "AI web monitoring for always-on research",
    "one_liner_zh": "面向常态化研究的 AI 网页监测",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B005"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC P25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/chonkie"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类 RAG/向量库",
+    "LangChain 生态",
+    "文档切块工具"
+   ],
+   "scene_tags": [
+    "数据摄取",
+    "语义chunking",
+    "RAG优化",
+    "降token成本",
+    "自动引用",
+    "AI基础设施"
+   ],
+   "archive": "companies/chonkie.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 757,
@@ -30725,14 +30750,39 @@
    "subcategory": "",
    "one_liner_en": "Deterministic legal and compliance AI",
    "one_liner_zh": "确定性的法律与合规 AI",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/sammy-labs"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类合规/GRC",
+    "规则引擎",
+    "监管科技"
+   ],
+   "scene_tags": [
+    "计算法",
+    "确定性合规AI",
+    "可解释",
+    "法规编译引擎",
+    "监管就绪报告",
+    "合规治理"
+   ],
+   "archive": "companies/sammy-labs.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 801,
@@ -31086,14 +31136,39 @@
    "subcategory": "",
    "one_liner_en": "AI agents for insurance brokerage ops",
    "one_liner_zh": "面向保险经纪运营的 AI 智能体",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC F25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/copycat"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "影刀/来也——RPA",
+    "各类保险科技",
+    "浏览器自动化"
+   ],
+   "scene_tags": [
+    "保险运营RPA",
+    "浏览器Agent",
+    "CSR/销售自动化",
+    "跨门户操作",
+    "重复任务",
+    "职能后台"
+   ],
+   "archive": "companies/copycat.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 809,
@@ -31299,14 +31374,39 @@
    "subcategory": "",
    "one_liner_en": "Voice AI testing and monitoring platform",
    "one_liner_zh": "语音 AI 的测试与监控平台",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/roark"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类语音测试/质检",
+    "语音 AI eval",
+    "呼叫质检"
+   ],
+   "scene_tags": [
+    "语音AI测试",
+    "语音Agent监控",
+    "端到端电话模拟",
+    "40+指标",
+    "语音可观测",
+    "AI基础设施"
+   ],
+   "archive": "companies/roark.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 815,
@@ -32406,14 +32506,39 @@
    "subcategory": "",
    "one_liner_en": "AI compliance for affordable housing certifications",
    "one_liner_zh": "面向保障房资质认证的 AI 合规",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/tire-swing"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类资质认证/审核",
+    "合规 SaaS",
+    "补贴/资格审核系统"
+   ],
+   "scene_tags": [
+    "资质认证",
+    "保障房合规",
+    "端到端评估",
+    "替代第三方顾问",
+    "资格审核",
+    "合规运营"
+   ],
+   "archive": "companies/tire-swing.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 841,
@@ -32924,14 +33049,39 @@
    "subcategory": "",
    "one_liner_en": "Ethical hacking with more critical vulns found",
    "one_liner_zh": "更高发现率的道德黑客渗透测试",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/strike"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类渗透测试/众测",
+    "奇安信/知道创宇",
+    "漏洞挖掘"
+   ],
+   "scene_tags": [
+    "渗透测试",
+    "道德黑客",
+    "攻防安全",
+    "高发现率",
+    "漏洞挖掘",
+    "AI安全"
+   ],
+   "archive": "companies/strike.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 857,
@@ -33126,14 +33276,39 @@
    "subcategory": "",
    "one_liner_en": "AI pesticide discovery for safer crop protection",
    "one_liner_zh": "面向更安全作物保护的 AI 农药发现",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "Seed（General Catalyst、A Capital 共同领投）",
+     "amount": "600 万美元",
+     "date": "2025",
+     "source_url": "https://www.businesswire.com/news/home/20251103558856/en/Bindwell-Raises-$6M-to-Discover-New-Safer-Pesticides-with-AI"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "晶泰科技——AI 药物/材料",
+    "各类 AI-for-chemistry",
+    "农化研发(先正达等)"
+   ],
+   "scene_tags": [
+    "AI农药发现",
+    "分子发现",
+    "结构预测",
+    "蛋白-配体建模",
+    "IP授权",
+    "研发设计"
+   ],
+   "archive": "companies/bindwell.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 863,
@@ -33922,14 +34097,45 @@
    "subcategory": "",
    "one_liner_en": "AI auditors for audits",
    "one_liner_zh": "面向审计的 AI 审计师",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/tergle"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "多家十亿美元公司(未具名)",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/tergle"
+    }
+   ],
+   "cn_benchmarks": [
+    "致同等审计数字化",
+    "用友/金蝶内控",
+    "各类审计工具"
+   ],
+   "scene_tags": [
+    "AI审计师",
+    "审计自动化",
+    "异常检测",
+    "内审/外审",
+    "定制Agent",
+    "财务后台"
+   ],
+   "archive": "companies/tergle.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 886,
@@ -34888,14 +35094,45 @@
    "subcategory": "",
    "one_liner_en": "Natural-language video intelligence for security",
    "one_liner_zh": "面向安防的自然语言视频智能",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "Seed（General Catalyst 等）",
+     "amount": "700 万美元",
+     "date": "2026",
+     "source_url": "https://techcrunch.com/2026/03/26/conntour-raises-7m-from-general-catalyst-yc-to-build-an-ai-search-engine-for-security-video-systems/"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "新加坡国土安全",
+     "confidence": "中",
+     "source_url": "https://techcrunch.com/2026/03/26/conntour-raises-7m-from-general-catalyst-yc-to-build-an-ai-search-engine-for-security-video-systems/"
+    }
+   ],
+   "cn_benchmarks": [
+    "海康/大华——安防",
+    "各类视频结构化搜索",
+    "视频智能分析"
+   ],
+   "scene_tags": [
+    "安防视频智能",
+    "自然语言查询",
+    "历史搜索",
+    "实时告警",
+    "无限场景",
+    "物理安全"
+   ],
+   "archive": "companies/conntour.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 909,
@@ -35382,14 +35619,39 @@
    "subcategory": "",
    "one_liner_en": "Managed CNAPP built on Cartography",
    "one_liner_zh": "基于 Cartography 的托管 CNAPP",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "种子/早期",
+     "amount": "420 万美元",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/subimage"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类云安全(CNAPP)",
+    "青藤/安全狗——主机/云安全",
+    "云安全态势管理(CSPM)"
+   ],
+   "scene_tags": [
+    "云安全",
+    "CNAPP",
+    "基础设施测绘",
+    "安全图",
+    "攻击者视角",
+    "AI安全"
+   ],
+   "archive": "companies/subimage.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 926,
@@ -35656,14 +35918,45 @@
    "subcategory": "",
    "one_liner_en": "Applied AI for aviation safety systems",
    "one_liner_zh": "面向航空安全系统的应用 AI",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "Seed（Initialized 领投、联合航空参投）",
+     "amount": "700 万美元",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/enhanced-radar"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "80+ 北美机场(硬件部署)、联合航空(投资方)",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/enhanced-radar"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类空管/航空系统",
+    "工业语音识别",
+    "安全关键系统"
+   ],
+   "scene_tags": [
+    "航空安全AI",
+    "空管",
+    "航空通信语音识别",
+    "安全关键系统",
+    "专用模型",
+    "AI安全"
+   ],
+   "archive": "companies/enhanced-radar.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 934,
@@ -35999,14 +36292,39 @@
    "subcategory": "",
    "one_liner_en": "AI-powered traffic lights for safer streets",
    "one_liner_zh": "面向更安全街道的 AI 红绿灯",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B007"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "Seed",
+     "amount": "约 50 万美元",
+     "date": "2024",
+     "source_url": "https://www.ycombinator.com/companies/roundabout-technologies"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "海信/千方——智能交通",
+    "各类智慧信号",
+    "厂内交通管理"
+   ],
+   "scene_tags": [
+    "AI红绿灯",
+    "交通安全",
+    "CV实时优化",
+    "厂内交通",
+    "安全优先",
+    "智慧交通"
+   ],
+   "archive": "companies/roundabout-technologies.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 947,
@@ -37024,14 +37342,39 @@
    "subcategory": "",
    "one_liner_en": "AI SAST for finding real vulnerabilities",
    "one_liner_zh": "面向真实漏洞的 AI 静态扫描(SAST)",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B007"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC F24（未单列）",
+     "amount": "未披露",
+     "date": "2024",
+     "source_url": "https://www.ycombinator.com/companies/gecko-security"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类 SAST(奇安信代码卫士)",
+    "Snyk 类",
+    "代码安全扫描"
+   ],
+   "scene_tags": [
+    "AI SAST",
+    "代码安全",
+    "逻辑漏洞",
+    "威胁建模",
+    "低误报",
+    "AI安全"
+   ],
+   "archive": "companies/gecko-security.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 978,
@@ -37441,14 +37784,39 @@
    "subcategory": "",
    "one_liner_en": "AI visibility platform for brand alignment",
    "one_liner_zh": "面向品牌一致性的 AI 可见度平台",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B007"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC（未单列）",
+     "amount": "未披露",
+     "date": "2024",
+     "source_url": "https://www.ycombinator.com/companies/unusual"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类 GEO/AI SEO 新锐",
+    "品牌数字营销",
+    "舆情/公关"
+   ],
+   "scene_tags": [
+    "GEO",
+    "向AI营销",
+    "AI可见度",
+    "品牌一致性",
+    "AI Relations",
+    "营销"
+   ],
+   "archive": "companies/unusual.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 990,
