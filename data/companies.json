@@ -22352,14 +22352,39 @@
    "subcategory": "",
    "one_liner_en": "AI-native ticket triage and management",
    "one_liner_zh": "AI 原生的工单分诊与管理",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B004"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC S25（PG 等参投）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/tryjanet"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类工单/ITSM",
+    "Jira 生态",
+    "研发效能工具"
+   ],
+   "scene_tags": [
+    "工单分诊",
+    "知识图谱",
+    "bug去重",
+    "研发效能",
+    "自动归类",
+    "Jira"
+   ],
+   "archive": "companies/janet-ai.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 606,
@@ -22511,14 +22536,39 @@
    "subcategory": "",
    "one_liner_en": "AI-driven communication solutions for businesses",
    "one_liner_zh": "面向企业的 AI 通信方案",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B004"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "Pre-seed（Afore Capital）",
+     "amount": "约 50 万美元",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/nuntius"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "飞书/钉钉项目",
+    "Teambition/Worktile",
+    "各类协作工具"
+   ],
+   "scene_tags": [
+    "团队协作",
+    "状态自动同步",
+    "消灭站会",
+    "上下文图",
+    "项目协作",
+    "职能后台"
+   ],
+   "archive": "companies/nuntius.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 611,
@@ -22671,14 +22721,39 @@
    "subcategory": "",
    "one_liner_en": "AI-native billing platform for complex pricing",
    "one_liner_zh": "面向复杂定价的 AI 原生计费平台",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B004"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC S25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/lark"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类计费/变现平台",
+    "API 网关计费",
+    "SaaS 订阅计费"
+   ],
+   "scene_tags": [
+    "计费平台",
+    "复杂定价",
+    "用量计费",
+    "变现基础设施",
+    "工业SaaS变现",
+    "卖铲子"
+   ],
+   "archive": "companies/lark.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 617,
@@ -23007,14 +23082,39 @@
    "subcategory": "",
    "one_liner_en": "Fast, affordable global payroll and EOR",
    "one_liner_zh": "快速、低成本的全球薪酬与名义雇主(EOR)",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B004"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC S25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/shor"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "Deel/Remote 类",
+    "国内出海 EOR 服务",
+    "跨境薪酬服务"
+   ],
+   "scene_tags": [
+    "全球薪酬",
+    "EOR名义雇主",
+    "跨境用工",
+    "稳定币结算",
+    "出海用工",
+    "HR"
+   ],
+   "archive": "companies/shor.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 627,
@@ -23026,14 +23126,39 @@
    "subcategory": "",
    "one_liner_en": "AI-powered content creation for audio and video",
    "one_liner_zh": "面向音视频的 AI 内容创作",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B004"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "种子/早期",
+     "amount": "400 万美元",
+     "date": "2025",
+     "source_url": "https://news.ycombinator.com/item?id=44891090"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "万彩/来画——动画",
+    "腾讯智影",
+    "企业培训视频"
+   ],
+   "scene_tags": [
+    "白板讲解视频",
+    "文档转视频",
+    "多语言",
+    "培训/教育",
+    "音频讲解",
+    "知识传播"
+   ],
+   "archive": "companies/golpo.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 628,
@@ -23756,14 +23881,39 @@
    "subcategory": "",
    "one_liner_en": "Ops platform for forward-deployed teams",
    "one_liner_zh": "面向前置部署团队的运营平台",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B004"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC S25（DeVC 参投）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/nixo"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类项目管理(PingCode)",
+    "工程服务管理",
+    "交付运营工具"
+   ],
+   "scene_tags": [
+    "FDE运营",
+    "交付管理",
+    "客户对话+工程todo",
+    "代码/方案复用",
+    "服务转杠杆",
+    "职能后台"
+   ],
+   "archive": "companies/nixo.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 647,
@@ -23939,15 +24089,46 @@
    "subcategory": "",
    "one_liner_en": "Open-source billing layer for AI startups",
    "one_liner_zh": "面向 AI 初创的开源计费层",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B004",
     "B007"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "Seed（Greylock、Gigascale 等）",
+     "amount": "约 50 万美元",
+     "date": "2025-09",
+     "source_url": "https://techcrunch.com/2025/09/15/the-9-most-sought-after-startups-from-yc-demo-day/"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "Mintlify、Firecrawl、T3.chat 等 40 家 YC 公司",
+     "confidence": "中",
+     "source_url": "https://useautumn.com/blog"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类计费/变现",
+    "API 计费",
+    "开源计费(如 Lago)"
+   ],
+   "scene_tags": [
+    "开源计费",
+    "用量计费",
+    "功能权限",
+    "变现基础设施",
+    "AI初创计费",
+    "卖铲子"
+   ],
+   "archive": "companies/autumn.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 652,
@@ -23959,14 +24140,39 @@
    "subcategory": "",
    "one_liner_en": "AI employee for creator campaigns",
    "one_liner_zh": "面向达人营销的 AI 数字员工",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B004"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC S25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/stormy"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类 KOL/达人平台",
+    "星图/蒲公英（抖音/小红书）",
+    "达人营销 SaaS"
+   ],
+   "scene_tags": [
+    "达人营销",
+    "网红发现",
+    "自动外联",
+    "价格谈判",
+    "DTC/出海",
+    "营销数字员工"
+   ],
+   "archive": "companies/stormy-ai.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 653,
@@ -24259,14 +24465,45 @@
    "subcategory": "",
    "one_liner_en": "Legal counsel network with AI intake",
    "one_liner_zh": "带 AI 接案的法律顾问网络",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B005"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC X25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/blueshoe"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "耶鲁/哥大/哈佛法学院（试点，未具名律所）",
+     "confidence": "低",
+     "source_url": "https://www.ycombinator.com/companies/blueshoe"
+    }
+   ],
+   "cn_benchmarks": [
+    "幂律智能——法律AI",
+    "北大法宝/威科先行——判例库",
+    "各类法律研究"
+   ],
+   "scene_tags": [
+    "法律推理",
+    "判例情报",
+    "结构化论证",
+    "法律后台",
+    "诉讼支持",
+    "法务"
+   ],
+   "archive": "companies/blueshoe.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 661,
@@ -24278,14 +24515,45 @@
    "subcategory": "",
    "one_liner_en": "AI extraction for messy documents",
    "one_liner_zh": "面向杂乱文档的 AI 抽取",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B005"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC X25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/sieveai"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "对冲基金（未具名）",
+     "confidence": "低",
+     "source_url": "https://www.ycombinator.com/companies/sieveai"
+    }
+   ],
+   "cn_benchmarks": [
+    "合合信息/TextIn——文档抽取",
+    "各类 IDP",
+    "数据标注+审核"
+   ],
+   "scene_tags": [
+    "数据抽取",
+    "AI+人工审核",
+    "高准确清洗",
+    "API/Excel接入",
+    "金融/文档数据",
+    "数据质量"
+   ],
+   "archive": "companies/sieve.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 662,
@@ -24550,14 +24818,45 @@
    "subcategory": "",
    "one_liner_en": "AI tools for law enforcement reports",
    "one_liner_zh": "面向执法报告的 AI 工具",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B005"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "Seed（AME Cloud Ventures 领投）",
+     "amount": "270 万美元",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/code-four"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "25 个警察部门（未具名）",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/code-four"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类执法记录仪系统",
+    "工业安全巡检",
+    "现场作业记录"
+   ],
+   "scene_tags": [
+    "执法文书",
+    "音视频转报告",
+    "可验证时间线",
+    "安全巡检",
+    "事故记录",
+    "公共安全"
+   ],
+   "archive": "companies/code-four.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 670,
@@ -24721,14 +25020,39 @@
    "subcategory": "",
    "one_liner_en": "AI documentation and code analysis",
    "one_liner_zh": "AI 文档与代码分析",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B005"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "Seed（种子轮）",
+     "amount": "约 50 万美元",
+     "date": "2025-06",
+     "source_url": "https://www.ycombinator.com/companies/nimbic-ai"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类代码文档工具",
+    "通义灵码文档",
+    "研发效能平台"
+   ],
+   "scene_tags": [
+    "代码文档",
+    "随commit更新",
+    "研发效能",
+    "代码理解",
+    "依赖洞察",
+    "开发者工具"
+   ],
+   "archive": "companies/nimbic-ai.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 676,
@@ -24740,14 +25064,39 @@
    "subcategory": "",
    "one_liner_en": "AI audit workflows inside Excel",
    "one_liner_zh": "在 Excel 内运行的 AI 审计工作流",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B005"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC X25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/moby-analytics"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类审计软件",
+    "用友/金蝶审计",
+    "RPA 审计"
+   ],
+   "scene_tags": [
+    "审计自动化",
+    "Excel内Agent",
+    "财报勾稽",
+    "no-code审计",
+    "审计测试",
+    "财务后台"
+   ],
+   "archive": "companies/moby-analytics.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 677,
@@ -25182,14 +25531,45 @@
    "subcategory": "",
    "one_liner_en": "Appraisal software for appraisers",
    "one_liner_zh": "面向评估师的估价软件",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B005"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC X25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/valuemate"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "多家估价公司（未具名）",
+     "confidence": "低",
+     "source_url": "https://www.ycombinator.com/companies/valuemate"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类房产估价/AVM",
+    "资产评估机构数字化",
+    "LiDAR 三维扫描"
+   ],
+   "scene_tags": [
+    "AI房产估价",
+    "LiDAR扫描",
+    "3D/平面图",
+    "合规报告",
+    "资产估值",
+    "金融后台"
+   ],
+   "archive": "companies/valuemate.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 688,
