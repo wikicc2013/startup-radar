@@ -25912,14 +25912,40 @@
    "subcategory": "",
    "one_liner_en": "Reusable satellite launch and return services",
    "one_liner_zh": "可复用的卫星发射与返回服务",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W25",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/reditus-space"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "中国返回式卫星与实践系列（国家队,成熟再入回收）",
+    "中科院空间应用工程与技术中心(微重力制造与在轨实验)",
+    "深蓝航天/东方空间(商业可回收运力)",
+    "航天五院等在轨3D打印/太空材料实验"
+   ],
+   "scene_tags": [
+    "太空制造",
+    "可复用卫星",
+    "零重力制造",
+    "再入返回",
+    "高超声速技术",
+    "在轨材料/制药"
+   ],
+   "archive": "companies/reditus-space.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 823,
@@ -26478,14 +26504,40 @@
    "subcategory": "",
    "one_liner_en": "Space mobility for satellite defense missions",
    "one_liner_zh": "面向卫星防御任务的空间机动",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "Seed（种子轮）",
+     "amount": "880 万美元",
+     "date": "2025-08",
+     "source_url": "https://www.ycombinator.com/companies/orbital-operations"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "航天科技/科工体系的在轨服务与轨道机动（国家队）",
+    "蓝箭/深蓝/星际荣耀等商业火箭（推进制造）",
+    "国内在轨服务/延寿创业公司(早期)",
+    "航天推进院所(发动机/低温推进)"
+   ],
+   "scene_tags": [
+    "太空机动",
+    "可复用航天器",
+    "低温推进",
+    "卫星防御",
+    "在轨交会/服务",
+    "航天推进制造"
+   ],
+   "archive": "companies/orbital-operations.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 838,
@@ -26784,14 +26836,40 @@
    "subcategory": "",
    "one_liner_en": "AI for physical-world dexterous robotics",
    "one_liner_zh": "面向物理世界灵巧机器人的 AI",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W25",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/general-trajectory"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "银河通用/星海图/千寻智能——具身操作大模型",
+    "智元机器人——具身数据飞轮",
+    "Vassar/TRLC（同批,低成本机器人数据）",
+    "各高校机器人学习研究团队"
+   ],
+   "scene_tags": [
+    "机器人操作基础模型",
+    "通用抓取",
+    "奖励模型/人类演示",
+    "低成本开源遥操作",
+    "具身智能",
+    "数据采集降本"
+   ],
+   "archive": "companies/general-trajectory.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 851,
@@ -28277,14 +28355,40 @@
    "subcategory": "",
    "one_liner_en": "Zero-emission fusion for ships and off-grid",
    "one_liner_zh": "面向船舶与离网的零排放聚变",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W25",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/maritime-fusion"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "中核/中科院等离子体所（EAST 托卡马克，国家队聚变）",
+    "能量奇点/新奥聚变/星环聚变——中国商业聚变创业公司",
+    "中船集团等的船舶替代燃料动力（氨、甲醇、LNG）",
+    "上海超导/东部超导——高温超导材料"
+   ],
+   "scene_tags": [
+    "船用聚变",
+    "小型托卡马克",
+    "高温超导电缆",
+    "航运脱碳",
+    "零排放动力",
+    "硬科技细分商业化"
+   ],
+   "archive": "companies/maritime-fusion.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 897,
@@ -30243,14 +30347,41 @@
    "subcategory": "",
    "one_liner_en": "Automation system for global aviation",
    "one_liner_zh": "面向全球航空的自动化系统",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B007"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC F24（已被收购）",
+     "amount": "未披露",
+     "date": "2024",
+     "source_url": "https://www.ycombinator.com/companies/gander"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "国内公务机/通航运营管理软件（如各 FBO/通航运营系统）",
+    "航空维修 MRO 信息化（如国航/南航的维修管理）",
+    "垂直行业 LLM 创业（各行业大模型应用）",
+    "低空经济运营管理平台"
+   ],
+   "scene_tags": [
+    "航空运营AI",
+    "私人飞机机队管理",
+    "行业LLM",
+    "协调/维护/变现一体化",
+    "垂直AI-SaaS",
+    "已被收购"
+   ],
+   "archive": "companies/gander.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched",
+   "lifecycle": "acquired"
   },
   {
    "num": 969,
@@ -30262,14 +30393,40 @@
    "subcategory": "",
    "one_liner_en": "Open-source personal AI robot platform",
    "one_liner_zh": "开源的个人 AI 机器人平台",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B007"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC F24",
+     "amount": "未披露",
+     "date": "2024",
+     "source_url": "https://www.ycombinator.com/companies/innate"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "宇树/智元——移动+操作机器人平台",
+    "松灵机器人——移动底盘+机械臂开发平台",
+    "大象机器人——低成本移动机械臂",
+    "银河通用——移动操作具身智能"
+   ],
+   "scene_tags": [
+    "个人AI机器人",
+    "移动+操作集成",
+    "可训练机械臂",
+    "多模型AI编排",
+    "代码/语言/示范编程",
+    "数据飞轮"
+   ],
+   "archive": "companies/innate.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 970,
