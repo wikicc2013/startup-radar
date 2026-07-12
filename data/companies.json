@@ -10701,14 +10701,40 @@
    "subcategory": "",
    "one_liner_en": "Tankless dive gear for sea, land & space",
    "one_liner_zh": "无气瓶潜水装备,通用于海陆空",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W26",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/daivin"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "无气瓶电解制氧潜水：国内无直接对标的成熟公司，属空白细分",
+    "呼吸防护/供气装备：海固科技、宝亚安全（正压式空气呼吸器、应急呼吸装备，气瓶路线，与 DAIVIN 形成新旧对照）",
+    "潜水/生命支持装备：亚特潜水，及船舶院所配套的饱和潜水/供气系统",
+    "电解制氢/制氧核心部件：考克利尔竞立、派瑞氢能等电解槽/膜电极厂商（提供最关键的电解堆与 MEA 制造能力）"
+   ],
+   "scene_tags": [
+    "无气瓶潜水",
+    "水下就地制氧",
+    "便携电解制气",
+    "冗余安全设计",
+    "军事/特种作业装备",
+    "储能替代储气"
+   ],
+   "archive": "companies/daivin.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 369,
@@ -13246,14 +13272,40 @@
    "subcategory": "",
    "one_liner_en": "AI co-pilot for airports (radio, ADS-B, weather)",
    "one_liner_zh": "机场 AI 副驾:实时监听通话、ADS-B 与气象",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B003"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC F25",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/stratus-aviation"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "莱斯信息/川大智胜——空管自动化与机场运营系统（国家队路线）",
+    "中电科系（CETC）——ADS-B、空管监视等航空基础设施",
+    "低空经济侧：低空飞行服务保障（UOM）平台建设方（无人机/低空统一监管）",
+    "工业侧：工业语音+传感融合的安全监控/AIOps 厂商（技术方法论对标）"
+   ],
+   "scene_tags": [
+    "机场运营AI",
+    "ATC无线电转录",
+    "ADS-B/多源传感融合",
+    "实时安全态势感知",
+    "无塔台机场",
+    "异常预警"
+   ],
+   "archive": "companies/stratus-ai.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 444,
@@ -13309,14 +13361,40 @@
    "subcategory": "",
    "one_liner_en": "Robot personality software with built-in compatibility",
    "one_liner_zh": "为机器人赋予人格与对话能力的软件",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B003"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC F25",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/lightberry"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "宇树/Fourier/众擎（Booster）等人形本体厂商自带或合作的交互软件（Lightberry 兼容其本体）",
+    "智元机器人/银河通用——具身智能软件+本体（含交互与操作）",
+    "出门问问/思必驰——对话式 AI 与语音交互（可作机器人交互底座）",
+    "小鹏/优必选等的服务机器人交互系统"
+   ],
+   "scene_tags": [
+    "机器人交互软件",
+    "对话式编程",
+    "机器人性格/情境感知",
+    "跨本体软件层",
+    "免代码配置",
+    "人形/服务机器人"
+   ],
+   "archive": "companies/lightberry.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 446,
@@ -13886,14 +13964,39 @@
    "subcategory": "",
    "one_liner_en": "AI platform for Phase I ESAs (环境评估)",
    "one_liner_zh": "面向一期环境评估(ESA)的 AI 平台",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B003"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC F25",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/compyle"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "通义灵码（阿里）、CodeGeeX（智谱）、百度 Comate——国产 AI 编程助手",
+    "字节 MarsCode/Trae——AI 编程 Agent/IDE",
+    "aiXcoder、腾讯云 AI 代码助手——企业级编程 AI"
+   ],
+   "scene_tags": [
+    "AI编程Agent",
+    "协作式/征求批准",
+    "人保持控制",
+    "代码库质量",
+    "HITP人机协同",
+    "开发工具"
+   ],
+   "archive": "companies/compyle.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 467,
@@ -15425,14 +15528,41 @@
    "subcategory": "",
    "one_liner_en": "Metal reactor tech for U.S. independence",
    "one_liner_zh": "面向美国自给的金属冶炼反应器技术",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B004"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC S25 + 种子",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/duranium"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "宝钛股份/攀钢钒钛——中国海绵钛/钛材龙头（钛产能全球领先）",
+    "云海金属——全球最大镁生产商",
+    "东方锆业/广东致远新材——锆铪材料",
+    "中国有色/五矿等在轻金属与稀有金属冶炼的国家队"
+   ],
+   "scene_tags": [
+    "关键金属冶炼",
+    "本土化/供应链安全",
+    "碳氯化工艺",
+    "CO2回收循环冶金",
+    "副产品高值化",
+    "钛镁锆铪",
+    "国防/航空材料"
+   ],
+   "archive": "companies/duranium.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 512,
@@ -16922,14 +17052,40 @@
    "subcategory": "",
    "one_liner_en": "Robotics and frontier hardware venture",
    "one_liner_zh": "机器人与前沿硬件创业公司",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B004"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "种子（第三方数据）",
+     "amount": "约 100 万美元（Extruct 口径，置信中低，未官方确认）",
+     "date": "2025",
+     "source_url": "https://www.extruct.ai/hub/getirongrid-com/"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "中国电科院/电力科学研究院的储能安全评估（国家队路线）",
+    "宁德时代等电池厂的电池健康（SOH）与安全管理系统",
+    "储能保险与检测认证机构（如鉴衡认证、TÜV 等在华储能检测）",
+    "储能资产管理/运维平台（做电池健康监测与风险预警）"
+   ],
+   "scene_tags": [
+    "电池风险建模",
+    "储能质量评估",
+    "硬件保险",
+    "风险与质量基础模型",
+    "BESS安全",
+    "制造质量-资产保险"
+   ],
+   "archive": "companies/irongrid.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 554,
@@ -17898,14 +18054,40 @@
    "subcategory": "",
    "one_liner_en": "AI firmware engineering for hardware teams",
    "one_liner_zh": "面向硬件团队的 AI 固件工程",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B004"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC S25",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/bootloop"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "国内嵌入式/固件开发工具与 EDA 厂商（华大九天等 EDA，芯华章等验证）",
+    "通用 AI 编程助手（通义灵码、CodeGeeX）向嵌入式/固件延伸的能力",
+    "各硬件/芯片公司自建的固件开发与验证团队（体内为主）",
+    "MCU/嵌入式生态（如兆易创新、乐鑫等）的开发工具链"
+   ],
+   "scene_tags": [
+    "固件/嵌入式AI",
+    "硬件研发自动化",
+    "数据手册/原理图理解",
+    "真机固件测试",
+    "航天级/ITAR合规",
+    "嵌入式人才瓶颈"
+   ],
+   "archive": "companies/bootloop.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 587,
