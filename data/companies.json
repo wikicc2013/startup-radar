@@ -10756,14 +10756,45 @@
    "subcategory": "",
    "one_liner_en": "Collaborative AI-native filmmaking for professionals",
    "one_liner_zh": "面向专业人士的协作式 AI 原生电影制作",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/martini"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "200+ 影片(电视广告/艺术/病毒视频)已制作",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/martini"
+    }
+   ],
+   "cn_benchmarks": [
+    "可灵/即梦——文生视频",
+    "各类 AI 视频制作",
+    "Runway 类"
+   ],
+   "scene_tags": [
+    "AI视频制作",
+    "电影级工作流",
+    "多模型聚合",
+    "品牌营销视频",
+    "实时协作",
+    "营销销售客服"
+   ],
+   "archive": "companies/martini.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 252,
@@ -10775,14 +10806,39 @@
    "subcategory": "",
    "one_liner_en": "Make everyone on your team an engineer",
    "one_liner_zh": "让团队里每个人都成为工程师",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "种子",
+     "amount": "$3.5M",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/sparkles"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类低代码平台",
+    "钉钉宜搭/腾讯微搭",
+    "Lovable 类"
+   ],
+   "scene_tags": [
+    "非技术协作开发",
+    "改现有代码库",
+    "PR评审兜底",
+    "研发提效",
+    "业务自助",
+    "AI基础设施"
+   ],
+   "archive": "companies/sparkles.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 253,
@@ -10794,14 +10850,39 @@
    "subcategory": "",
    "one_liner_en": "The first AI QA engineer that understands your codebase",
    "one_liner_zh": "首个读懂你代码库的 AI 测试工程师",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/canary"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类自动化测试",
+    "Testin/云测",
+    "Playwright 类"
+   ],
+   "scene_tags": [
+    "AI测试工程师",
+    "读源码理解意图",
+    "读diff测变更",
+    "端到端用户流",
+    "研发质量",
+    "AI基础设施"
+   ],
+   "archive": "companies/canary.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 254,
@@ -10896,14 +10977,39 @@
    "subcategory": "",
    "one_liner_en": "Button is the wearable AI that can talk",
    "one_liner_zh": "可对话的可穿戴 AI",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/button-computer"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类 AI 硬件/可穿戴",
+    "字节 Ola Friend/科大讯飞硬件",
+    "Rabbit R1 类"
+   ],
+   "scene_tags": [
+    "语音AI硬件",
+    "可穿戴",
+    "低功耗计算",
+    "按键触发隐私",
+    "连企业应用",
+    "生产制造"
+   ],
+   "archive": "companies/button-computer.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 257,
@@ -10915,14 +11021,45 @@
    "subcategory": "",
    "one_liner_en": "Deep prospect research at scale",
    "one_liner_zh": "规模化的潜客深度调研",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/autumn-ai"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "金融科技/深科技公司(未具名)",
+     "confidence": "低",
+     "source_url": "https://www.ycombinator.com/companies/autumn-ai"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类销售线索/情报",
+    "企查查/水滴信号",
+    "ZoomInfo 类"
+   ],
+   "scene_tags": [
+    "潜客调研",
+    "GTM信号情报",
+    "实时购买信号",
+    "个性化触达",
+    "MCP原生",
+    "营销销售客服"
+   ],
+   "archive": "companies/autumn-ai.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 258,
@@ -11067,14 +11204,39 @@
    "subcategory": "",
    "one_liner_en": "Inference at light speed",
    "one_liner_zh": "光速推理",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W26（未单列,低七位数营收 run rate）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/pirislabs"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "中际旭创/新易盛——光模块",
+    "光迅科技——光器件",
+    "各类光互连/CPO"
+   ],
+   "scene_tags": [
+    "光互连",
+    "AI推理网络层",
+    "低延迟低功耗",
+    "光电子硬件",
+    "垂直优化",
+    "AI基础设施"
+   ],
+   "archive": "companies/piris-labs.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 262,
@@ -11086,14 +11248,39 @@
    "subcategory": "",
    "one_liner_en": "Autopiloting your AI infrastructure",
    "one_liner_zh": "自动驾驶式管理 AI 基础设施",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/chamber"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类 MLOps/GPU 调度",
+    "趋动科技 OrionX",
+    "Run:ai 类"
+   ],
+   "scene_tags": [
+    "AIOps Agent",
+    "GPU优化调度",
+    "自动根因",
+    "跨云",
+    "算力利用率",
+    "AI基础设施"
+   ],
+   "archive": "companies/chamber.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 263,
@@ -11105,14 +11292,39 @@
    "subcategory": "",
    "one_liner_en": "The default way of running on-device AI at scale",
    "one_liner_zh": "规模化端侧 AI 运行的默认方式",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/runanywhere"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类端侧推理框架",
+    "MNN/NCNN/Paddle Lite",
+    "MLC 类"
+   ],
+   "scene_tags": [
+    "端侧AI",
+    "跨端SDK",
+    "本地推理",
+    "控制面下发",
+    "边缘智能",
+    "AI基础设施"
+   ],
+   "archive": "companies/runanywhere.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 264,
@@ -11168,14 +11380,39 @@
    "subcategory": "",
    "one_liner_en": "AI SRE agent that triages and fixes production incidents",
    "one_liner_zh": "分诊并修复生产事故的 AI SRE 智能体",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC",
+     "amount": "$500K",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/brownie"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类 AIOps/事故响应",
+    "擎创/云智慧",
+    "PagerDuty 类"
+   ],
+   "scene_tags": [
+    "AI SRE",
+    "事故分诊自愈",
+    "runbook RAG",
+    "多Agent编排",
+    "开源自托管",
+    "AI基础设施"
+   ],
+   "archive": "companies/incidentfox.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 266,
@@ -11187,14 +11424,39 @@
    "subcategory": "",
    "one_liner_en": "Building operational superintelligence",
    "one_liner_zh": "构建运营超级智能",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "种子",
+     "amount": "$4.3M",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/haladir"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "o9/Kinaxis——供应链计划",
+    "杉数科技/联想供应链——优化求解",
+    "各类 APS"
+   ],
+   "scene_tags": [
+    "供应链决策优化",
+    "solver+LLM",
+    "约束推理",
+    "运营图谱",
+    "路由排程",
+    "供应链采购"
+   ],
+   "archive": "companies/haladir.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 267,
@@ -11206,14 +11468,39 @@
    "subcategory": "",
    "one_liner_en": "Accurate knowledge search that scales (RAG)",
    "one_liner_zh": "可规模化的精准知识检索(RAG)",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/captain"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类向量库/RAG",
+    "阿里百炼 RAG/腾讯 ES",
+    "Dify 类"
+   ],
+   "scene_tags": [
+    "托管RAG",
+    "精准知识检索",
+    "多模态PB级",
+    "一次API",
+    "企业知识库",
+    "AI基础设施"
+   ],
+   "archive": "companies/captain.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 268,
@@ -11267,14 +11554,39 @@
    "subcategory": "",
    "one_liner_en": "Vercel for background agents",
    "one_liner_zh": "后台智能体版的 Vercel",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/terminal-use"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类 Agent 托管/沙箱",
+    "阿里函数计算/E2B",
+    "Modal 类"
+   ],
+   "scene_tags": [
+    "Agent托管基础设施",
+    "文件系统Agent",
+    "共享/fork文件系统",
+    "企业级隔离",
+    "后台Agent",
+    "AI基础设施"
+   ],
+   "archive": "companies/terminal-use.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 270,
@@ -11286,14 +11598,45 @@
    "subcategory": "",
    "one_liner_en": "Turning everyday words and actions into training data",
    "one_liner_zh": "把日常言行转化为训练数据",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "种子",
+     "amount": "$31.2M",
+     "date": "2026",
+     "source_url": "https://www.luel.ai/resources/blog/luel-seed-31m-general-catalyst-lightspeed"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "前沿 AI 实验室(未具名)",
+     "confidence": "低",
+     "source_url": "https://www.ycombinator.com/companies/luel"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类数据标注/采集",
+    "海天瑞声/数据堂",
+    "Scale AI 类"
+   ],
+   "scene_tags": [
+    "训练数据市场",
+    "版权清晰",
+    "众包采集",
+    "多模态数据",
+    "可审计",
+    "AI基础设施"
+   ],
+   "archive": "companies/luel.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 271,
@@ -11305,14 +11648,45 @@
    "subcategory": "",
    "one_liner_en": "Common Crawl for video",
    "one_liner_zh": "视频版的 Common Crawl",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/shofo"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "AI 实验室(未具名)",
+     "confidence": "低",
+     "source_url": "https://www.ycombinator.com/companies/shofo"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类视频数据/标注",
+    "海天瑞声视频数据",
+    "数据堂"
+   ],
+   "scene_tags": [
+    "视频训练数据",
+    "规模索引",
+    "活动标注",
+    "按需交付",
+    "视频AI",
+    "AI基础设施"
+   ],
+   "archive": "companies/shofo.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 272,
