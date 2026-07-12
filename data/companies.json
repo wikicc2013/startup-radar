@@ -1274,14 +1274,40 @@
    "subcategory": "",
    "one_liner_en": "Simulations of real people for market research",
    "one_liner_zh": "用于市场调研的真人仿真",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC X26（种子/未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/auxos"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "百分点/易观等市场调研数字化",
+    "腾讯问卷/问卷星+AI 分析",
+    "各类合成受众/AI 调研新锐",
+    "秒针/QuestMobile 消费者洞察"
+   ],
+   "scene_tags": [
+    "市场调研仿真",
+    "AI客户孪生",
+    "合成受众",
+    "定价/创意快速测试",
+    "人群行为建模",
+    "营销决策"
+   ],
+   "archive": "companies/auxos.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 43,
@@ -11753,14 +11779,40 @@
    "subcategory": "",
    "one_liner_en": "AI-powered service delivery automation for MSPs",
    "one_liner_zh": "面向 MSP 的 AI 服务交付自动化",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B003"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC F25（种子/未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/everest"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "新钛云服/云杉网络等 IT 运维服务",
+    "嘉为蓝鲸/云智慧——智能运维(AIOps)",
+    "263/中电云等企业 IT 外包",
+    "各类 AI 客服/工单向 IT 支持延伸"
+   ],
+   "scene_tags": [
+    "AI IT支持",
+    "MSP服务自动化",
+    "IT运维/服务台",
+    "端到端排障",
+    "职能后台降本",
+    "AIOps"
+   ],
+   "archive": "companies/everest.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 398,
@@ -12865,14 +12917,40 @@
    "subcategory": "",
    "one_liner_en": "Construction AI QA/QC for drawing packages",
    "one_liner_zh": "面向图纸包的建筑 AI 质检",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B003"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "Seed（种子轮）",
+     "amount": "420 万美元",
+     "date": "2026-06",
+     "source_url": "https://www.ycombinator.com/companies/structured-ai"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "广联达——建筑信息化/BIM 与算量审图",
+    "品茗股份——建筑施工与审图软件",
+    "橄榄山/鸿业等 BIM 审图插件",
+    "盈建科——结构设计软件"
+   ],
+   "scene_tags": [
+    "工程设计AI质检",
+    "图纸QA/QC",
+    "规范自动审查",
+    "设计冲突检测",
+    "企业标准学习",
+    "降返工"
+   ],
+   "archive": "companies/structured-ai.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 432,
@@ -12945,14 +13023,40 @@
    "subcategory": "",
    "one_liner_en": "Agentic AI for construction pre-construction",
    "one_liner_zh": "面向建筑前期(招标采购)的智能体 AI",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B003"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "种子/早期",
+     "amount": "800 万美元",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/brickanta"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "筑龙/广材网等建筑采购平台",
+    "甄采/震坤行等工业品 MRO 采购",
+    "国联股份等产业电商招采",
+    "各类企业 SRM 寻源采购系统"
+   ],
+   "scene_tags": [
+    "建筑招采AI",
+    "智能体采购",
+    "招投标自动化",
+    "采购合规检查",
+    "文档级项目分析",
+    "办公生态集成"
+   ],
+   "archive": "companies/brickanta.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 434,
@@ -15381,14 +15485,40 @@
    "subcategory": "",
    "one_liner_en": "AI-powered NYC realty brokerage",
    "one_liner_zh": "AI 驱动的纽约房产经纪",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B004"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC S25（种子/未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/spotlight-realty"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "贝壳找房——房产经纪平台",
+    "自如/蛋壳（历史）——租赁运营",
+    "各类 AI 获客/SCRM 工具",
+    "传统分销代理的数字化"
+   ],
+   "scene_tags": [
+    "AI房产经纪",
+    "低佣金撮合",
+    "AI线索生成",
+    "自动筛选/排期",
+    "高人力服务重构",
+    "销售自动化"
+   ],
+   "archive": "companies/spotlight-realty.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 507,
@@ -18099,14 +18229,46 @@
    "subcategory": "",
    "one_liner_en": "Implantable cattle monitoring microchips",
    "one_liner_zh": "可植入的牲畜监测芯片",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B004"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC S25（种子/未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/nexa-labs"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "奶牛场试点（pilot，未具名）",
+     "confidence": "低",
+     "source_url": "https://www.ycombinator.com/launches/OAs-nexa-labs-implantable-microchips-for-cattle-monitoring"
+    }
+   ],
+   "cn_benchmarks": [
+    "福得瑞/爱牧多等智慧畜牧监测",
+    "阿里/京东数字农业的养殖 IoT",
+    "各类牲畜耳标/项圈传感厂商",
+    "MEMS 传感芯片厂商（如敏芯股份）"
+   ],
+   "scene_tags": [
+    "可植入传感芯片",
+    "智慧畜牧",
+    "毫米级低成本电子",
+    "健康基础模型",
+    "数据飞轮",
+    "IoT感知"
+   ],
+   "archive": "companies/nexa.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 588,
@@ -18965,14 +19127,40 @@
    "subcategory": "",
    "one_liner_en": "Physics-based CAD optimization models",
    "one_liner_zh": "基于物理的 CAD 优化模型",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B004"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC S25（种子/未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/topological"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "安世亚太——增材/拓扑优化与仿真",
+    "中望软件（ZWCAD）——国产 CAD/CAE",
+    "天洑软件——AI 工业仿真",
+    "四维图新/华天软件等国产 CAD/CAE"
+   ],
+   "scene_tags": [
+    "拓扑优化",
+    "物理基础模型",
+    "CAD/CAE加速",
+    "轻量化设计",
+    "可制造性约束",
+    "生成式设计"
+   ],
+   "archive": "companies/topological.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 618,
@@ -19878,14 +20066,46 @@
    "subcategory": "",
    "one_liner_en": "8-hour inventory delivery for retailers",
    "one_liner_zh": "面向零售商的 8 小时备货配送",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B004"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC S25（未单列）",
+     "amount": "未披露",
+     "date": "2023",
+     "source_url": "https://www.ycombinator.com/companies/getasap-asia"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "数千家餐厅与零售门店（未具名）",
+     "confidence": "低",
+     "source_url": "https://www.ycombinator.com/companies/getasap-asia"
+    }
+   ],
+   "cn_benchmarks": [
+    "美菜/宋小菜等生鲜 B2B 供应链",
+    "满帮/货拉拉等数字货运",
+    "顺丰冷运/京东冷链",
+    "锅圈/蜜雪等自建供应链"
+   ],
+   "scene_tags": [
+    "生鲜B2B供应链",
+    "冷链物流",
+    "AI货运经纪",
+    "VoiceAI调度",
+    "实时运营智能",
+    "东南亚分销"
+   ],
+   "archive": "companies/getasap-asia.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 642,
@@ -20111,14 +20331,40 @@
    "subcategory": "",
    "one_liner_en": "AI-driven simulations for scientific research",
    "one_liner_zh": "面向科研的 AI 仿真",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B004"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "早期风投",
+     "amount": "约 50 万美元",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/launches/O5t-fluidize-ai-powered-r-d"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "天洑软件——AI 工业仿真",
+    "云道智造（Simdroid）——国产仿真平台",
+    "超算/云仿真平台（如阿里云 CAE 上云）",
+    "格物斯坦/各 AI-for-Science 新锐"
+   ],
+   "scene_tags": [
+    "科研R&D编排",
+    "仿真实验流水线",
+    "可复现计算",
+    "自然语言引导仿真",
+    "云端弹性算力",
+    "AI-for-Science"
+   ],
+   "archive": "companies/fluidize.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 651,
@@ -21679,14 +21925,46 @@
    "subcategory": "",
    "one_liner_en": "Power delivery tech for AI hardware",
    "one_liner_zh": "面向 AI 硬件的供电技术",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B005"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC X25（种子/未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/powermatrix"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "世界级客户（未具名，合作中）",
+     "confidence": "低",
+     "source_url": "https://www.ycombinator.com/companies/powermatrix"
+    }
+   ],
+   "cn_benchmarks": [
+    "麦格米特/欧陆通——服务器/通信电源",
+    "中恒电气——高压直流供电",
+    "杰华特/南芯——电源管理芯片(VRM/PMIC)",
+    "维谛技术(Vertiv)——数据中心供配电"
+   ],
+   "scene_tags": [
+    "AI硬件电源",
+    "功率电子",
+    "垂直供电",
+    "数据中心供配电",
+    "高功率密度",
+    "降损/缩体"
+   ],
+   "archive": "companies/powermatrix.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 700,
@@ -24280,14 +24558,40 @@
    "subcategory": "",
    "one_liner_en": "AI simulation platform",
    "one_liner_zh": "AI 仿真平台",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B005"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC X25（种子/未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/kashikoi"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各大模型厂商的评测平台（如智谱/百度的 eval）",
+    "国内 LLM/Agent 评测新锐",
+    "传统软件测试厂商向 AI 测试延伸",
+    "OpenCompass 等开源评测生态"
+   ],
+   "scene_tags": [
+    "AI评测仿真",
+    "Agent基准测试",
+    "回归检测",
+    "世界模型",
+    "prompt自动优化",
+    "AI质量保障"
+   ],
+   "archive": "companies/kashikoi.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 779,
@@ -26341,14 +26645,46 @@
    "subcategory": "",
    "one_liner_en": "AI personas for audience simulation",
    "one_liner_zh": "面向受众仿真的 AI 人设",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "种子/早期",
+     "amount": "约 535 万美元",
+     "date": "2025-08",
+     "source_url": "https://www.ycombinator.com/companies/artificial-societies"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "世界 500 强 / F100 企业（未具名）",
+     "confidence": "低",
+     "source_url": "https://www.ycombinator.com/companies/artificial-societies"
+    }
+   ],
+   "cn_benchmarks": [
+    "人民众云/新华睿思等舆情仿真",
+    "秒针/QuestMobile 消费者洞察",
+    "各类合成受众/AI 民调新锐",
+    "知微数据等传播分析"
+   ],
+   "scene_tags": [
+    "受众仿真",
+    "AI人设网络",
+    "利益相关者观点建模",
+    "战略/沟通沙盘",
+    "合成受众",
+    "决策前试错"
+   ],
+   "archive": "companies/artificial-societies.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 833,
@@ -29421,14 +29757,46 @@
    "subcategory": "",
    "one_liner_en": "AI blueprint takeoffs for Division 8",
    "one_liner_zh": "面向 Division 8(门窗)的 AI 图纸算量",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "Seed（种子轮）",
+     "amount": "310 万美元",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/bild-ai"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "门窗/地板供应商（首批客户，未具名）",
+     "confidence": "低",
+     "source_url": "https://www.ycombinator.com/companies/bild-ai"
+    }
+   ],
+   "cn_benchmarks": [
+    "广联达——建筑算量/计价龙头",
+    "品茗股份——算量与投标",
+    "鹏业软件——安装算量",
+    "各类机械 BOM/报价自动化工具"
+   ],
+   "scene_tags": [
+    "AI读图算量",
+    "建筑估算takeoff",
+    "按图供货报价",
+    "门窗五金",
+    "ERP集成",
+    "投标提效"
+   ],
+   "archive": "companies/bild-ai.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 931,
@@ -30023,14 +30391,40 @@
    "subcategory": "",
    "one_liner_en": "AI-native enterprise delivery for software teams",
    "one_liner_zh": "面向软件团队的 AI 原生交付",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B007"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC F24（种子/未单列）",
+     "amount": "未披露",
+     "date": "2024",
+     "source_url": "https://www.ycombinator.com/companies/sre-ai"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "用友/金蝶生态的实施与运维",
+    "神州信息/汉得信息等 ERP 实施商",
+    "各类 DevOps/低代码平台",
+    "企业 IT 系统集成商"
+   ],
+   "scene_tags": [
+    "企业系统DevOps",
+    "Salesforce/ERP交付",
+    "AI Agent运维",
+    "变更影响仿真",
+    "CI/CD自动化",
+    "职能后台IT"
+   ],
+   "archive": "companies/sre-ai.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 954,
@@ -30717,14 +31111,46 @@
    "subcategory": "",
    "one_liner_en": "Fleet parking and EV charging marketplace",
    "one_liner_zh": "车队停车与电动车充电市场",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B007"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "种子/早期（未披露金额）",
+     "amount": "未披露",
+     "date": "2024",
+     "source_url": "https://www.ycombinator.com/companies/curo"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "Emobi（合作伙伴，全国车队充电接入）",
+     "confidence": "中",
+     "source_url": "https://www.prnewswire.com/news-releases/emobi-and-curo-partner-to-deliver-seamless-ev-charging-access-for-fleets-nationwide-302565001.html"
+    }
+   ],
+   "cn_benchmarks": [
+    "特来电/星星充电——充电网络运营",
+    "能链/快电——充电聚合撮合",
+    "地上铁等电动物流车队运营",
+    "各类产能共享/共享制造平台"
+   ],
+   "scene_tags": [
+    "充电产能撮合",
+    "虚拟车场网络",
+    "轻资产marketplace",
+    "车队电动化",
+    "闲置产能盘活",
+    "分布式网络"
+   ],
+   "archive": "companies/curo-charging.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 979,
@@ -30838,14 +31264,40 @@
    "subcategory": "",
    "one_liner_en": "Real-time B2B data broker API",
    "one_liner_zh": "实时 B2B 数据经纪 API",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B007"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "Seed（种子轮）",
+     "amount": "600 万美元",
+     "date": "2025-10",
+     "source_url": "https://www.ycombinator.com/companies/crustdata"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "天眼查/企查查——企业数据",
+    "探迹/百炼智能——销售数据+线索",
+    "水滴信用/合合信息——企业征信数据",
+    "各类数据 API/爬取服务商"
+   ],
+   "scene_tags": [
+    "B2B数据API",
+    "实时数据",
+    "AI Agent数据底座",
+    "销售/招聘/尽调数据",
+    "卖铲子基础设施",
+    "市场情报"
+   ],
+   "archive": "companies/crustdata.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 984,
