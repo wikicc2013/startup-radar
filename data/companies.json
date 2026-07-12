@@ -31007,14 +31007,39 @@
    "subcategory": "",
    "one_liner_en": "Legal intake voice AI",
    "one_liner_zh": "面向法律接案的语音 AI",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "Seed（种子轮）",
+     "amount": "约 50 万美元",
+     "date": "2025-03",
+     "source_url": "https://www.ycombinator.com/companies/triplezip"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "用友/金蝶——财务核算",
+    "各类物业财务",
+    "地产会计软件"
+   ],
+   "scene_tags": [
+    "CRE会计",
+    "复杂对账",
+    "预算自动化",
+    "成本核算",
+    "财务后台",
+    "替代外包"
+   ],
+   "archive": "companies/triplezip.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 834,
@@ -31196,14 +31221,39 @@
    "subcategory": "",
    "one_liner_en": "Accrual automation for accounting teams",
    "one_liner_zh": "面向会计团队的权责发生制自动化",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "Seed（种子轮）",
+     "amount": "200 万美元",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/mesh-2"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "用友/金蝶——结账",
+    "财务共享中心",
+    "对账工具"
+   ],
+   "scene_tags": [
+    "权责发生制",
+    "会计结账",
+    "月末close",
+    "对账/分录",
+    "多源信号",
+    "财务后台"
+   ],
+   "archive": "companies/mesh.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 839,
@@ -31445,14 +31495,39 @@
    "subcategory": "",
    "one_liner_en": "AI agents for enterprise cash workflows",
    "one_liner_zh": "面向企业资金流程的 AI 智能体",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/agentin-ai"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "用友/金蝶——订单到收款",
+    "各类 CPQ/收款",
+    "应收自动化"
+   ],
+   "scene_tags": [
+    "Quote-to-Cash",
+    "资金流程",
+    "订单到收款",
+    "RL自适应",
+    "现金流",
+    "财务后台"
+   ],
+   "archive": "companies/agentin-ai.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 849,
@@ -32116,14 +32191,39 @@
    "subcategory": "",
    "one_liner_en": "U.S. immigration platform for startups and employers",
    "one_liner_zh": "面向初创与雇主的美国移民平台",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "Seed（Axiom Partners 领投）",
+     "amount": "270 万美元",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/gale"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类出入境/签证服务",
+    "国际人才引进",
+    "移民法律咨询"
+   ],
+   "scene_tags": [
+    "美国移民平台",
+    "H-1B自动化",
+    "签证合规",
+    "人才引进",
+    "持牌律师把关",
+    "法务后台"
+   ],
+   "archive": "companies/gale.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 868,
@@ -32433,14 +32533,39 @@
    "subcategory": "",
    "one_liner_en": "Toolkit for automating workflows with JavaScript",
    "one_liner_zh": "用 JavaScript 自动化工作流的工具包",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "种子/早期",
+     "amount": "约 630 万美元",
+     "date": "2025",
+     "source_url": "https://osmosis.ai/"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各大模型微调平台",
+    "RLHF/RL 工具",
+    "开源模型私有化"
+   ],
+   "scene_tags": [
+    "强化学习",
+    "模型微调",
+    "开源模型专用化",
+    "前置部署RL",
+    "私有部署",
+    "AI基础设施"
+   ],
+   "archive": "companies/osmosis.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 879,
@@ -32452,14 +32577,39 @@
    "subcategory": "",
    "one_liner_en": "Agentic AI video editing canvas",
    "one_liner_zh": "智能体式 AI 视频剪辑画布",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/mosaic-2"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "剪映/智影——视频",
+    "可灵/即梦——AI视频",
+    "批量视频工具"
+   ],
+   "scene_tags": [
+    "智能体视频剪辑",
+    "节点式画布",
+    "A/B多版本",
+    "自建剪辑Agent",
+    "营销视频",
+    "内容创作"
+   ],
+   "archive": "companies/mosaic.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 880,
@@ -32988,14 +33138,45 @@
    "subcategory": "",
    "one_liner_en": "AI legal intake for plaintiff firms",
    "one_liner_zh": "面向原告律所的 AI 法律接案",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "Seed（种子轮）",
+     "amount": "320 万美元",
+     "date": "2025-07",
+     "source_url": "https://www.artificiallawyer.com/2025/07/30/y-combinator-backed-caseflood-bags-3-2m-for-voice-agents/"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "全美头部人身伤害(PI)律所（未具名）",
+     "confidence": "中",
+     "source_url": "https://www.caseflood.ai/"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类智能语音客服",
+    "外呼机器人",
+    "接案/线索转化"
+   ],
+   "scene_tags": [
+    "语音接案",
+    "AI客服",
+    "外呼/跟进",
+    "付费预约转化",
+    "线索转化",
+    "营收型intake"
+   ],
+   "archive": "companies/caseflood.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 894,
@@ -33007,14 +33188,39 @@
    "subcategory": "",
    "one_liner_en": "AI recruiting platform",
    "one_liner_zh": "AI 招聘平台",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.trytejas.ai/"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "BOSS直聘/猎聘——招聘",
+    "Moka/北森——招聘SaaS",
+    "各类 AI sourcing"
+   ],
+   "scene_tags": [
+    "AI招聘",
+    "海量画像搜索",
+    "候选人评估",
+    "规模化外联",
+    "HR",
+    "人才sourcing"
+   ],
+   "archive": "companies/tejas-ai.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 895,
@@ -33251,14 +33457,39 @@
    "subcategory": "",
    "one_liner_en": "AI-backed software holding company",
    "one_liner_zh": "AI 驱动的软件控股公司",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "Seed（True Ventures 领投）",
+     "amount": "650 万美元",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/rocketable"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类 SaaS 收购/整合",
+    "AI 运营自动化",
+    "数字员工平台"
+   ],
+   "scene_tags": [
+    "软件控股公司",
+    "AI全自动化运营",
+    "替代人工团队",
+    "AI原生公司",
+    "运营自动化",
+    "控股模式"
+   ],
+   "archive": "companies/rocketable.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 903,
@@ -33314,14 +33545,45 @@
    "subcategory": "",
    "one_liner_en": "AI recruiting platform with expert recruiters",
    "one_liner_zh": "带专家招聘官的 AI 招聘平台",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/contrario"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "Wispr Flow、Listen Labs、Slash 等 200+ 公司",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/contrario"
+    }
+   ],
+   "cn_benchmarks": [
+    "猎聘/猎必得——猎头",
+    "BOSS直聘 AI",
+    "各类 AI sourcing"
+   ],
+   "scene_tags": [
+    "AI招聘平台",
+    "专家招聘官",
+    "垂直招聘Agent",
+    "寻源/筛选/成交",
+    "Slack自然语言",
+    "HR"
+   ],
+   "archive": "companies/contrario.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 905,
@@ -33542,14 +33804,39 @@
    "subcategory": "",
    "one_liner_en": "Automatic docs updates from product changes",
    "one_liner_zh": "随产品变更自动更新文档",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/promptless"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类文档工具",
+    "nimbic/quantstruct 类",
+    "知识库自动化"
+   ],
+   "scene_tags": [
+    "文档自动更新",
+    "客户文档",
+    "PR/工单触发",
+    "多目标推送",
+    "研发效能",
+    "开发者工具"
+   ],
+   "archive": "companies/promptless.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 911,
@@ -33745,14 +34032,39 @@
    "subcategory": "",
    "one_liner_en": "Conversation-based AI visual production",
    "one_liner_zh": "对话式的 AI 视觉制作",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/awen"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "稿定/创客贴——设计",
+    "阿里鹿班——电商设计",
+    "可灵/即梦——AI视觉"
+   ],
+   "scene_tags": [
+    "AI视觉制作",
+    "对话式创意",
+    "图像/视频/3D",
+    "语音版Photoshop",
+    "营销视觉",
+    "创意工作空间"
+   ],
+   "archive": "companies/awen.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 918,
@@ -33840,14 +34152,39 @@
    "subcategory": "",
    "one_liner_en": "AI automation for various business tasks",
    "one_liner_zh": "面向多类业务任务的 AI 自动化",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/guse"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "飞书多维表格——表格自动化",
+    "WPS AI",
+    "各类 AI spreadsheet"
+   ],
+   "scene_tags": [
+    "AI原生表格",
+    "工作流自动化",
+    "表格界面",
+    "业务自动化",
+    "无代码",
+    "AI基础设施"
+   ],
+   "archive": "companies/guse.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 923,
@@ -34235,14 +34572,45 @@
    "subcategory": "",
    "one_liner_en": "AI documentation engineer for technical teams",
    "one_liner_zh": "面向技术团队的 AI 文档工程师",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/quantstruct"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "Vapi（YC W21）等",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/quantstruct"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类技术文档工具",
+    "promptless/nimbic 类",
+    "知识库"
+   ],
+   "scene_tags": [
+    "AI文档工程师",
+    "技术文档",
+    "测试文档",
+    "带截图/录屏",
+    "API/SDK文档",
+    "研发效能"
+   ],
+   "archive": "companies/quantstruct.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 936,
