@@ -1,0 +1,33 @@
+<!doctype html><html lang="zh-CN"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ReJot · AI青梅创业公司数据库</title>
+<link rel="stylesheet" href="company.css">
+</head><body>
+<div class="wrap">
+<a class="back" href="../index.html">← 返回看板</a>
+<header class="hero">
+ <div class="htop"><span class="badge a2">B</span><span class="badge batch">B006 · YC Winter 2025 (W25)</span><span class="badge ok">已深研</span><span class="badge auto">AI 自动通过</span></div>
+ <h1>ReJot</h1>
+ <p class="oneliner">Open-source builder of software tools</p>
+ <p class="oneliner-zh">开源的软件工具搭建器</p>
+ <a class="site" href="https://www.ycombinator.com/companies/rejot" target="_blank" rel="noopener">官网 / 锚定 ↗</a>
+ <p class="triage">分诊理由：</p>
+</header>
+
+<section class="card"><h2>公司画像</h2><div class="picture"><div class="prow"><div class="pk">团队</div><div class="pv">（W25,创始团队信息以 YC 为准）。</div></div><div class="prow"><div class="pk">成立/批次</div><div class="pv">2025</div></div><div class="prow"><div class="pk">地点</div><div class="pv">美国</div></div><div class="prow"><div class="pk">产品</div><div class="pv">数据库到数据库同步引擎：让工程团队异步共享内部数据、无需新增同步 API——读数据库 changelog/WAL 发布版本化的『public』schema,消费团队定义自己的『consumer』schema 把数据复制进自己的库,SQL 变换与契约在代码/文档中拥有;部署可混合或自托管,敏感数据留在公司网内。(注:仓库原一句话较泛,以 DB 同步引擎为准)</div></div><div class="prow"><div class="pk">商业模式</div><div class="pv">开源数据库同步引擎(+托管/自托管),定价未披露。</div></div><div class="prow"><div class="pk">竞争格局</div><div class="pv">数据同步/CDC 赛道:Debezium、Fivetran、各类 CDC。差异点在于版本化 public/consumer schema+SQL 变换契约代码化+异步免新增 API+自托管。</div></div></div></section>
+
+<div class="grid2">
+ <section class="card"><h2>融资</h2><table class="tbl"><thead><tr><th>轮次</th><th>金额</th><th>时间</th><th>来源</th></tr></thead><tbody><tr><td>YC W25（未单列）</td><td class="amt">未披露</td><td>2025</td><td><a href="https://www.ycombinator.com/companies/rejot" target="_blank" rel="noopener">链接 ↗</a></td></tr></tbody></table></section>
+ <section class="card"><h2>早期客户信号</h2><table class="tbl"><thead><tr><th>客户</th><th>置信度</th><th>来源</th></tr></thead><tbody><tr><td>未见公开具名客户（极早期）</td><td>—</td><td>—</td></tr></tbody></table><p class="hint">置信度：<span class="conf hi">高</span>官方case study/可交叉验证　<span class="conf mid">中</span>logo墙/媒体点名　<span class="conf lo">低</span>推断</p></section>
+</div>
+
+<section class="card"><h2>转型有术判断</h2><div class="insights"><div class="insight"><div class="ihead"><span class="iico">🏭</span><h3>对制造业客户意味着什么</h3></div><p>对制造企业系统集成而言,ReJot 代表『数据库间异步同步(免新增 API+自托管)』。制造企业 ERP/MES/WMS/质检等系统各自有库,团队间共享数据常靠新增同步 API、耦合重。ReJot 读 WAL 发布版本化 schema、消费方自定义复制,异步解耦、自托管保数据在内网。启示:制造企业系统集成可迁移『数据库同步引擎(读 WAL+版本化 schema+异步解耦+自托管)』把 ERP/MES/WMS 间的数据共享从紧耦合 API 改为异步版本化同步,降低系统间耦合、数据不出内网。</p></div><div class="insight"><div class="ihead"><span class="iico">🇨🇳</span><h3>国内对标厂商</h3></div><p>各类 CDC/数据同步、Debezium/DataX、Fivetran 类</p><blockquote>国内数据同步有 DataX、Debezium。ReJot 差异在于版本化 public/consumer schema+SQL 变换契约代码化+异步免新增 API+自托管。对国内制造企业系统集成可对标。</blockquote></div><div class="insight"><div class="ihead"><span class="iico">🧩</span><h3>可迁移的干法 / 应进场景词典的词条</h3></div><p>数据库同步、CDC/WAL、版本化schema、异步解耦、自托管、AI基础设施</p><blockquote>可迁移干法:系统集成用『数据库同步引擎(读 WAL+版本化 schema+异步解耦+自托管)』把 ERP/MES/WMS 数据共享从紧耦合改异步同步。对制造企业系统集成适用。</blockquote></div><div class="insight"><div class="ihead"><span class="iico">⚠️</span><h3>风险与存疑点</h3></div><p>①仓库一句话偏泛(已修正标注);②CDC 竞争(Debezium);③早期;④开源商业化。</p></div></div>
+ <div class="tagrow"><span class="tlabel">国内对标</span><span class="chip">各类 CDC/数据同步</span><span class="chip">Debezium/DataX</span><span class="chip">Fivetran 类</span></div>
+ <div class="tagrow"><span class="tlabel">场景词条</span><span class="chip">数据库同步</span><span class="chip">CDC/WAL</span><span class="chip">版本化schema</span><span class="chip">异步解耦</span><span class="chip">自托管</span><span class="chip">AI基础设施</span></div>
+</section>
+
+<section class="card"><h2>信息来源溯源</h2><table class="tbl"><thead><tr><th>标题</th><th>链接</th></tr></thead><tbody><tr><td>ReJot（数据库同步引擎）| Y Combinator（W25）</td><td><a href="https://www.ycombinator.com/companies/rejot" target="_blank" rel="noopener">链接 ↗</a></td></tr></tbody></table></section>
+
+<footer class="foot">批次来源 B006 · YC Winter 2025 (W25) Launch　|　深研日期 2026-07-12　|　直通模式 auto：AI 生成、未经人工复核。数字与具名事实一律带来源，无来源者标「未披露」，未编造。<br>数据真源 <code>data/companies.json</code> · 原始档案 <code>companies/rejot.md</code></footer>
+</div>
+</body></html>

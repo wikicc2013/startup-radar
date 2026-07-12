@@ -36165,14 +36165,39 @@
    "subcategory": "",
    "one_liner_en": "Customer context layer for AI agents",
    "one_liner_zh": "面向 AI 智能体的客户上下文层",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/outlit"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类 CDP/客户数据",
+    "神策/GrowingIO CDP",
+    "Segment 类"
+   ],
+   "scene_tags": [
+    "客户上下文层",
+    "统一客户画像",
+    "跨工具身份解析",
+    "供Agent",
+    "追加续约",
+    "营销销售客服"
+   ],
+   "archive": "companies/outlit.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 840,
@@ -36293,14 +36318,39 @@
    "subcategory": "",
    "one_liner_en": "Spatial reasoning data for AI agents",
    "one_liner_zh": "面向 AI 智能体的空间推理数据",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/nitrode"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类合成/仿真数据",
+    "机器人/自动驾驶仿真",
+    "推理数据集"
+   ],
+   "scene_tags": [
+    "空间时间推理",
+    "游戏环境数据",
+    "状态转移真值",
+    "记忆因果多步",
+    "动态环境",
+    "AI基础设施"
+   ],
+   "archive": "companies/nitrode.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 844,
@@ -36331,14 +36381,39 @@
    "subcategory": "",
    "one_liner_en": "24/7 AI SRE agent for incidents",
    "one_liner_zh": "面向故障处理的 7×24 AI SRE 智能体",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/exla"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类边缘推理优化",
+    "TensorRT/量化蒸馏",
+    "地平线/寒武纪边缘"
+   ],
+   "scene_tags": [
+    "边缘模型优化",
+    "内存降80%",
+    "推理快3-20x",
+    "Jetson部署",
+    "VLA/CV边缘",
+    "AI基础设施"
+   ],
+   "archive": "companies/exla-resources.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 846,
@@ -36464,14 +36539,39 @@
    "subcategory": "",
    "one_liner_en": "Open-source builder of software tools",
    "one_liner_zh": "开源的软件工具搭建器",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/rejot"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类 CDC/数据同步",
+    "Debezium/DataX",
+    "Fivetran 类"
+   ],
+   "scene_tags": [
+    "数据库同步",
+    "CDC/WAL",
+    "版本化schema",
+    "异步解耦",
+    "自托管",
+    "AI基础设施"
+   ],
+   "archive": "companies/rejot.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 850,
@@ -36689,14 +36789,39 @@
    "subcategory": "",
    "one_liner_en": "Multimodal data infrastructure for perceptual intelligence",
    "one_liner_zh": "面向感知智能的多模态数据基础设施",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/mundo-ai"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类多语种数据",
+    "海天瑞声/数据堂",
+    "Uplift AI 类"
+   ],
+   "scene_tags": [
+    "多语种训练数据",
+    "非英语模型",
+    "感知智能数据层",
+    "多模态",
+    "出海AI",
+    "AI基础设施"
+   ],
+   "archive": "companies/mundo-ai.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 855,
@@ -36935,14 +37060,39 @@
    "subcategory": "",
    "one_liner_en": "Reinforcement learning fine-tuning for LLMs",
    "one_liner_zh": "面向 LLM 的强化学习微调",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "种子",
+     "amount": "$500K",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/augento"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类微调/RL",
+    "RunRL",
+    "LLaMA-Factory 类"
+   ],
+   "scene_tags": [
+    "RL微调",
+    "用反馈优化",
+    "替代prompt",
+    "两行集成",
+    "专业Agent",
+    "AI基础设施"
+   ],
+   "archive": "companies/augento.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 862,
@@ -37017,14 +37167,39 @@
    "subcategory": "",
    "one_liner_en": "Neural world model for playable Minecraft",
    "one_liner_zh": "可玩 Minecraft 的神经世界模型",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "种子",
+     "amount": "约 $7M",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/lucid"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类世界模型/仿真",
+    "机器人仿真(Isaac Sim)",
+    "数字孪生"
+   ],
+   "scene_tags": [
+    "神经世界模型",
+    "生成式仿真",
+    "实时交互",
+    "机器人想象训练",
+    "数字孪生",
+    "AI基础设施"
+   ],
+   "archive": "companies/lucid.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 865,
@@ -37307,14 +37482,39 @@
    "subcategory": "",
    "one_liner_en": "RL environments for training AI agents",
    "one_liner_zh": "面向 AI 智能体训练的强化学习环境",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/hud"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类 Agent 评估/RL 环境",
+    "Klavis/HUD 类",
+    "computer-use 评测"
+   ],
+   "scene_tags": [
+    "RL环境评估",
+    "computer-use agent",
+    "真实软件变环境",
+    "任务奖励",
+    "开源",
+    "AI基础设施"
+   ],
+   "archive": "companies/hud.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 872,
@@ -38125,14 +38325,45 @@
    "subcategory": "",
    "one_liner_en": "AI measurement for engineering and agents",
    "one_liner_zh": "面向工程与智能体的 AI 度量",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "种子",
+     "amount": "$4.2M",
+     "date": "2025",
+     "source_url": "https://workweave.dev/blog/announcing-our-4-2m-seed-round"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "Robinhood、Rho、PostHog、Browserbase 等 200+ 客户",
+     "confidence": "高",
+     "source_url": "https://workweave.dev/"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类研发效能度量",
+    "思码逸/merico",
+    "Nivara/LinearB 类"
+   ],
+   "scene_tags": [
+    "工程效能度量",
+    "AI代码归因",
+    "Weave Hour量化",
+    "产出质量",
+    "研发管理",
+    "职能后台"
+   ],
+   "archive": "companies/weave.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 893,
@@ -38302,14 +38533,45 @@
    "subcategory": "",
    "one_liner_en": "AI app builder for mobile launches",
    "one_liner_zh": "面向移动端上线的 AI 应用搭建器",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/a0-dev"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "10 万+开发者",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/a0-dev"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类无代码移动",
+    "应用公园/APICloud",
+    "Fastshot/Bloom 类"
+   ],
+   "scene_tags": [
+    "AI移动应用搭建",
+    "秒级构建",
+    "一键上架",
+    "React Native",
+    "Agent模式",
+    "AI基础设施"
+   ],
+   "archive": "companies/a0-dev.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 898,
@@ -38655,14 +38917,39 @@
    "subcategory": "",
    "one_liner_en": "Serverless AI agents and orchestration SDK",
    "one_liner_zh": "无服务器 AI 智能体与编排 SDK",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/truffle-ai"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类 Agent 框架/编排",
+    "阿里百炼/Coze",
+    "LangChain 类"
+   ],
+   "scene_tags": [
+    "无服务器Agent",
+    "Agent即API",
+    "编排SDK",
+    "管状态记忆工具",
+    "开源自托管",
+    "AI基础设施"
+   ],
+   "archive": "companies/truffle-ai.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 907,
@@ -38904,14 +39191,45 @@
    "subcategory": "",
    "one_liner_en": "Zero-code network tracer for backend requests",
    "one_liner_zh": "面向后端请求的零代码网络追踪",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/subtrace"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "Trieve(W24,事故解决从数月到数分钟)",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/subtrace"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类 APM/可观测",
+    "听云/博睿",
+    "eBPF 可观测(DeepFlow)"
+   ],
+   "scene_tags": [
+    "零代码网络追踪",
+    "eBPF",
+    "后端请求可见",
+    "无需改代码",
+    "可观测",
+    "AI基础设施"
+   ],
+   "archive": "companies/subtrace.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 913,
@@ -39360,14 +39678,39 @@
    "subcategory": "",
    "one_liner_en": "Plain-English website customization extension",
    "one_liner_zh": "用大白话定制网站的浏览器扩展",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/tweeksio"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类浏览器脚本/扩展",
+    "Tampermonkey/油猴",
+    "网页定制工具"
+   ],
+   "scene_tags": [
+    "网页定制扩展",
+    "自然语言转代码",
+    "过滤干扰",
+    "界面重排",
+    "浏览器端",
+    "AI基础设施"
+   ],
+   "archive": "companies/nextbyte.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 928,
@@ -39734,14 +40077,39 @@
    "subcategory": "",
    "one_liner_en": "Open-source AI visual editor for React",
    "one_liner_zh": "面向 React 的开源 AI 可视化编辑器",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/onlook"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类 design-to-code",
+    "MasterGo/即时设计",
+    "Rivet/Figma Dev Mode"
+   ],
+   "scene_tags": [
+    "可视化React编辑器",
+    "设计师改真实代码",
+    "live组件编辑",
+    "设计系统",
+    "开源",
+    "研发设计"
+   ],
+   "archive": "companies/onlook.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 938,

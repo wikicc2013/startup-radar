@@ -1,0 +1,33 @@
+<!doctype html><html lang="zh-CN"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Subtrace · AI青梅创业公司数据库</title>
+<link rel="stylesheet" href="company.css">
+</head><body>
+<div class="wrap">
+<a class="back" href="../index.html">← 返回看板</a>
+<header class="hero">
+ <div class="htop"><span class="badge a2">B</span><span class="badge batch">B006 · YC Winter 2025 (W25)</span><span class="badge ok">已深研</span><span class="badge auto">AI 自动通过</span></div>
+ <h1>Subtrace</h1>
+ <p class="oneliner">Zero-code network tracer for backend requests</p>
+ <p class="oneliner-zh">面向后端请求的零代码网络追踪</p>
+ <a class="site" href="https://www.ycombinator.com/companies/subtrace" target="_blank" rel="noopener">官网 / 锚定 ↗</a>
+ <p class="triage">分诊理由：</p>
+</header>
+
+<section class="card"><h2>公司画像</h2><div class="picture"><div class="prow"><div class="pk">团队</div><div class="pv">（W25,创始团队信息以 YC 为准）。</div></div><div class="prow"><div class="pk">成立/批次</div><div class="pv">2025</div></div><div class="prow"><div class="pk">地点</div><div class="pv">美国</div></div><div class="prow"><div class="pk">产品</div><div class="pv">面向后端请求的零代码网络追踪 / 后端的网络检查器(Wireshark for Containers)：给后端团队对每个请求的全可见性——payload、延迟、状态、headers、日志集中一处,无需过度打日志;零代码,像给整个基础设施装 inspect element,用 eBPF 实现、无需 root 或改代码;结合系统调用追踪+网络包分析于单一界面,单条命令捕获 HTTP 请求,支持 Node.js/FastAPI 等。</div></div><div class="prow"><div class="pk">商业模式</div><div class="pv">开源零代码网络追踪(+托管),定价未披露。</div></div><div class="prow"><div class="pk">竞争格局</div><div class="pv">可观测/网络追踪赛道:Wireshark、各类 APM、eBPF 工具。差异点在于零代码 eBPF(无 root/无改代码)+后端请求全可见+Wireshark 式体验。</div></div></div></section>
+
+<div class="grid2">
+ <section class="card"><h2>融资</h2><table class="tbl"><thead><tr><th>轮次</th><th>金额</th><th>时间</th><th>来源</th></tr></thead><tbody><tr><td>YC W25（未单列）</td><td class="amt">未披露</td><td>2025</td><td><a href="https://www.ycombinator.com/companies/subtrace" target="_blank" rel="noopener">链接 ↗</a></td></tr></tbody></table></section>
+ <section class="card"><h2>早期客户信号</h2><table class="tbl"><thead><tr><th>客户</th><th>置信度</th><th>来源</th></tr></thead><tbody><tr><td>Trieve(W24,事故解决从数月到数分钟)</td><td><span class="conf mid">中</span></td><td><a href="https://www.ycombinator.com/companies/subtrace" target="_blank" rel="noopener">链接 ↗</a></td></tr></tbody></table><p class="hint">置信度：<span class="conf hi">高</span>官方case study/可交叉验证　<span class="conf mid">中</span>logo墙/媒体点名　<span class="conf lo">低</span>推断</p></section>
+</div>
+
+<section class="card"><h2>转型有术判断</h2><div class="insights"><div class="insight"><div class="ihead"><span class="iico">🏭</span><h3>对制造业客户意味着什么</h3></div><p>对制造企业后端运维而言,Subtrace 代表『零代码后端网络追踪(eBPF+全请求可见)』。制造企业的 MES/产线/IoT 后端服务出问题时,靠翻日志排查慢。Subtrace 用 eBPF 零代码捕获每个请求的 payload/延迟/状态/日志、集中可见。启示:制造企业后端/微服务运维可迁移『零代码网络追踪(eBPF+每请求全可见+无需改代码)』快速定位后端服务间的请求问题,把事故排查从翻日志数月压到数分钟,尤其复杂微服务/容器环境。</p></div><div class="insight"><div class="ihead"><span class="iico">🇨🇳</span><h3>国内对标厂商</h3></div><p>各类 APM/可观测、听云/博睿、eBPF 可观测(DeepFlow)</p><blockquote>国内可观测有听云、DeepFlow(eBPF)。Subtrace 差异在于零代码 eBPF(无 root/无改代码)+后端请求全可见+Wireshark 式体验。对国内制造企业后端运维可对标。</blockquote></div><div class="insight"><div class="ihead"><span class="iico">🧩</span><h3>可迁移的干法 / 应进场景词典的词条</h3></div><p>零代码网络追踪、eBPF、后端请求可见、无需改代码、可观测、AI基础设施</p><blockquote>可迁移干法:后端/微服务运维用『零代码网络追踪(eBPF+每请求全可见+无需改代码)』快速定位后端请求问题。对制造企业后端/容器环境适用。</blockquote></div><div class="insight"><div class="ihead"><span class="iico">⚠️</span><h3>风险与存疑点</h3></div><p>①可观测竞争(DeepFlow 等);②eBPF 环境要求;③早期;④开源商业化。</p></div></div>
+ <div class="tagrow"><span class="tlabel">国内对标</span><span class="chip">各类 APM/可观测</span><span class="chip">听云/博睿</span><span class="chip">eBPF 可观测(DeepFlow)</span></div>
+ <div class="tagrow"><span class="tlabel">场景词条</span><span class="chip">零代码网络追踪</span><span class="chip">eBPF</span><span class="chip">后端请求可见</span><span class="chip">无需改代码</span><span class="chip">可观测</span><span class="chip">AI基础设施</span></div>
+</section>
+
+<section class="card"><h2>信息来源溯源</h2><table class="tbl"><thead><tr><th>标题</th><th>链接</th></tr></thead><tbody><tr><td>Subtrace: Zero code network tracer | Y Combinator（W25）</td><td><a href="https://www.ycombinator.com/companies/subtrace" target="_blank" rel="noopener">链接 ↗</a></td></tr><tr><td>Show HN: Subtrace – Wireshark for Docker Containers</td><td><a href="https://news.ycombinator.com/item?id=43096477" target="_blank" rel="noopener">链接 ↗</a></td></tr></tbody></table></section>
+
+<footer class="foot">批次来源 B006 · YC Winter 2025 (W25) Launch　|　深研日期 2026-07-12　|　直通模式 auto：AI 生成、未经人工复核。数字与具名事实一律带来源，无来源者标「未披露」，未编造。<br>数据真源 <code>data/companies.json</code> · 原始档案 <code>companies/subtrace.md</code></footer>
+</div>
+</body></html>
