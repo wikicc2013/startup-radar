@@ -21513,14 +21513,40 @@
    "subcategory": "",
    "one_liner_en": "Autonomous robots for data centers",
    "one_liner_zh": "面向数据中心的自主机器人",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B005"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC X25",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/boost-robotics"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "亿嘉和/申昊科技——数据中心/机房/电力巡检机器人",
+    "云深处（绝影）/宇树——四足工业巡检机器人",
+    "优艾智合——工业移动机器人与运维",
+    "国自机器人——工业巡检"
+   ],
+   "scene_tags": [
+    "数据中心运维机器人",
+    "自主移动操作",
+    "硬件干预",
+    "无人巡检+安防",
+    "设施运维无人化",
+    "移动操作机器人"
+   ],
+   "archive": "companies/boost-robotics.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 694,
@@ -21532,14 +21558,40 @@
    "subcategory": "",
    "one_liner_en": "Quantum-accelerated AI servers",
    "one_liner_zh": "量子加速的 AI 服务器",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B005"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "融资（2026-04 Fortune 报道）",
+     "amount": "约 1.39 亿美元",
+     "date": "2026-04",
+     "source_url": "https://www.ycombinator.com/companies/sygaldry-technologies"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "本源量子——中国量子计算龙头（量子计算机与云平台）",
+    "国盾量子——量子通信/计算",
+    "图灵量子/玻色量子——光量子计算",
+    "阿里/百度/腾讯等的量子计算研究（部分已收缩）"
+   ],
+   "scene_tags": [
+    "量子加速AI",
+    "量子AI服务器",
+    "AI计算基础设施",
+    "多量子比特",
+    "材料模拟/组合优化",
+    "前沿算力"
+   ],
+   "archive": "companies/sygaldry-technologies.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 695,
@@ -22248,14 +22300,40 @@
    "subcategory": "",
    "one_liner_en": "Conversational robots for stores and restaurants",
    "one_liner_zh": "面向门店与餐厅的对话机器人",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B005"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC X25",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/habit"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "驿公里/坤湛科技——智能洗车/无人洗车",
+    "打磨抛光机器人厂商（如配天、埃夫特的打磨工作站）",
+    "喷涂机器人（新松、埃斯顿等的喷涂自动化）",
+    "汽车后市场服务连锁（途虎、天猫养车的标准化服务）"
+   ],
+   "scene_tags": [
+    "机器人汽车美容",
+    "手艺型服务标准化",
+    "RaaS机器人即服务",
+    "表面处理自动化",
+    "小商家自动化",
+    "技工短缺替代"
+   ],
+   "archive": "companies/habit.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 721,
@@ -23320,14 +23398,51 @@
    "subcategory": "",
    "one_liner_en": "AI robotics for scientific automation",
    "one_liner_zh": "面向科研自动化的 AI 机器人",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B005"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC X25",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/zeon-systems"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "UCSF（试点）",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/zeon-systems"
+    },
+    {
+     "name": "Stanford（试点）",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/zeon-systems"
+    }
+   ],
+   "cn_benchmarks": [
+    "镁伽机器人（Megarobo）——生命科学自动化/自主实验室龙头",
+    "汇像科技/易科泰——实验室自动化设备",
+    "阿里达摩院/深势科技等的 AI+自动化实验探索",
+    "Opentrons 的国内对应（移液自动化）"
+   ],
+   "scene_tags": [
+    "实验室自动化",
+    "自然语言驱动",
+    "CV识别设备",
+    "实时生成机器人代码",
+    "免编程自动化",
+    "科学自动化"
+   ],
+   "archive": "companies/zeon-systems.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 754,
@@ -23339,14 +23454,40 @@
    "subcategory": "",
    "one_liner_en": "Open-source robotics dev kits",
    "one_liner_zh": "开源的机器人开发套件",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B005"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC X25",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/the-robot-learning-company"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "Vassar Robotics（同批对标，低成本机械臂）",
+    "越疆科技（Dobot）——低成本桌面/协作机械臂",
+    "大象机器人（Elephant Robotics）——低成本协作/教育机器人",
+    "珞石/节卡/遨博——协作机器人（易用但自适应弱）"
+   ],
+   "scene_tags": [
+    "低成本机器人自动化",
+    "模仿学习/离线RL",
+    "示范即学",
+    "中小企业普惠自动化",
+    "双臂机器人",
+    "长尾工序自动化"
+   ],
+   "archive": "companies/the-robot-learning-company.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 755,
@@ -23433,14 +23574,40 @@
    "subcategory": "",
    "one_liner_en": "Dual-arm robot for physical AI",
    "one_liner_zh": "面向物理 AI 的双臂机器人",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B005"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC X25",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/almond-2"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "梅卡曼德/阿丘科技——AI 视觉拣选（3D 视觉引导抓取）",
+    "极智嘉/海柔创新——物流拣选机器人（偏仓储）",
+    "思灵机器人——AI+力控柔性操作",
+    "擎朗/极智嘉的 RaaS 模式（物流机器人按服务计费）"
+   ],
+   "scene_tags": [
+    "高混合拣选",
+    "双臂视觉AI机器人",
+    "RaaS机器人即服务",
+    "按小时雇用",
+    "扩散模型/Transformer操作",
+    "柔性自动化"
+   ],
+   "archive": "companies/almond.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 758,

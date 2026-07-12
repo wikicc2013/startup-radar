@@ -607,7 +607,7 @@
   "morphoai": "aiinfra",
   "vassar-robotics": "prod",
   "boost-robotics": "prod",
-  "sygaldry-technologies": "prod",
+  "sygaldry-technologies": "aiinfra",
   "paraquery": "aiinfra",
   "klavis-ai": "aiinfra",
   "third-chair": "aigov",
