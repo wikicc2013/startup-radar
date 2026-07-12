@@ -16900,14 +16900,45 @@
    "subcategory": "",
    "one_liner_en": "AI legal associates for law firms",
    "one_liner_zh": "面向律所的 AI 律师助理",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B003"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC F25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/lexi"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "200+ 机构与律所（同 Lexi，未具名）",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/lexi"
+    }
+   ],
+   "cn_benchmarks": [
+    "幂律智能——合同AI",
+    "阿里/百度法律大模型",
+    "各类法务 SaaS"
+   ],
+   "scene_tags": [
+    "法律AI OS",
+    "律师助理",
+    "合同redline",
+    "法律研究/起草",
+    "翻译",
+    "法务后台"
+   ],
+   "archive": "companies/lexi-getlexi.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 468,
@@ -16980,14 +17011,39 @@
    "subcategory": "",
    "one_liner_en": "AI-powered market research automation platform",
    "one_liner_zh": "AI 市场调研自动化平台",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B003"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "累计（含种子/A）",
+     "amount": "约 2100 万美元",
+     "date": "2025",
+     "source_url": "https://www.extruct.ai/hub/bellmanai-work/"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "百分点/秒针——市场调研",
+    "问卷星+AI 分析",
+    "各类消费者洞察"
+   ],
+   "scene_tags": [
+    "市场调研自动化",
+    "语音AI访谈",
+    "客户洞察",
+    "参与者招募",
+    "智能追问",
+    "营销调研"
+   ],
+   "archive": "companies/bellman.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 470,
@@ -17419,14 +17475,39 @@
    "subcategory": "",
    "one_liner_en": "Voice interface for task automation",
    "one_liner_zh": "面向任务自动化的语音交互",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B003"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC F25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/caddy"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类语音助手",
+    "飞书/钉钉智能助理",
+    "语音输入工具"
+   ],
+   "scene_tags": [
+    "个人AI助手",
+    "语音任务自动化",
+    "跨应用操作",
+    "知识工作",
+    "语音命令",
+    "生产力"
+   ],
+   "archive": "companies/caddy.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 483,
@@ -17438,14 +17519,39 @@
    "subcategory": "",
    "one_liner_en": "Intelligent media storage for creative teams",
    "one_liner_zh": "面向创意团队的智能媒资存储",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B003"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC F25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/aspect-inc"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类 DAM 数字资产管理",
+    "阿里云/腾讯云存储",
+    "媒资管理系统"
+   ],
+   "scene_tags": [
+    "智能媒资存储",
+    "DAM资产管理",
+    "AI整理检索",
+    "创意团队",
+    "影像素材",
+    "存储平台"
+   ],
+   "archive": "companies/aspect.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 484,
@@ -17618,14 +17724,45 @@
    "subcategory": "",
    "one_liner_en": "AI property management for landlords",
    "one_liner_zh": "面向房东的 AI 物业管理",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B003"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "种子/早期",
+     "amount": "300 万美元以上",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/brickwise-ai"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "10+ 全球客户（旧金山到迪拜，未具名）",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/brickwise-ai"
+    }
+   ],
+   "cn_benchmarks": [
+    "明源云/万物云——物业数字化",
+    "蘑菇物联——设备后勤",
+    "物业管理 SaaS"
+   ],
+   "scene_tags": [
+    "AI物业管理",
+    "维修自动化",
+    "租客沟通",
+    "承包商协调",
+    "设施运营",
+    "物业后台"
+   ],
+   "archive": "companies/brickwise-ai.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 488,
@@ -17656,14 +17793,39 @@
    "subcategory": "",
    "one_liner_en": "Applied intelligence for creative processes",
    "one_liner_zh": "面向创意流程的应用智能",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B003"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC F25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/semiotic"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类 AI 建站/设计",
+    "稿定设计/MAKA",
+    "落地页工具"
+   ],
+   "scene_tags": [
+    "AI落地页设计",
+    "营销设计",
+    "工作室级设计",
+    "设计Agent",
+    "营销活动",
+    "B2B品牌"
+   ],
+   "archive": "companies/semiotic.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 490,
@@ -18181,14 +18343,39 @@
    "subcategory": "",
    "one_liner_en": "Autonomous AI recruiter for hiring workflows",
    "one_liner_zh": "自主化的 AI 招聘官",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B004"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC S25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/outrove"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "秒针/QuestMobile——消费洞察",
+    "各类合成受众/AI 民调",
+    "市场仿真"
+   ],
+   "scene_tags": [
+    "合成人群仿真",
+    "决策试错",
+    "产品/定价测试",
+    "政策仿真",
+    "受众仿真",
+    "决策支持"
+   ],
+   "archive": "companies/outrove.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 504,
@@ -18254,14 +18441,50 @@
    "subcategory": "",
    "one_liner_en": "AI legal tech for government agencies",
    "one_liner_zh": "面向政府机构的 AI 法律科技",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B004"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "Seed（种子轮）",
+     "amount": "1100 万美元",
+     "date": "2025-10",
+     "source_url": "https://www.ycombinator.com/companies/vulcan-technologies"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "弗吉尼亚州（行政令）",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/vulcan-technologies"
+    },
+    {
+     "name": "德州",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/vulcan-technologies"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类政务/监管科技",
+    "合规 RegTech",
+    "法律知识图谱"
+   ],
+   "scene_tags": [
+    "政务法律AI",
+    "法律政策库",
+    "知识图谱",
+    "合规/法规",
+    "监管应对",
+    "公共事务"
+   ],
+   "archive": "companies/vulcan-technologies.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 506,
@@ -18356,14 +18579,39 @@
    "subcategory": "",
    "one_liner_en": "AI-driven conversational data collection",
    "one_liner_zh": "AI 对话式数据采集平台",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B004"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC S25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/rowflow"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "问卷星/金数据——表单",
+    "Typeform 类",
+    "各类数据采集"
+   ],
+   "scene_tags": [
+    "对话式数据采集",
+    "替代表单",
+    "自动追问",
+    "多渠道部署",
+    "结构化数据",
+    "数据质量"
+   ],
+   "archive": "companies/rowflow.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 510,
@@ -18530,14 +18778,39 @@
    "subcategory": "",
    "one_liner_en": "AI tax prep for CPA firms",
    "one_liner_zh": "面向会计师事务所的 AI 报税",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B004"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC S25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/magnetic"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "慧算账/云账房——代账",
+    "金蝶/用友税务",
+    "票据识别录入"
+   ],
+   "scene_tags": [
+    "AI报税",
+    "文档扫描录入",
+    "税务软件集成",
+    "CPA事务所",
+    "凭证录入",
+    "财务后台"
+   ],
+   "archive": "companies/magnetic.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 515,
@@ -18763,14 +19036,45 @@
    "subcategory": "",
    "one_liner_en": "Universal Positioning System for precise tracking",
    "one_liner_zh": "用于精准定位的通用定位系统",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B004"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC S25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/juxta"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "RC Mowers（机器人，已签约）",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/juxta"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类 UWB/蓝牙定位（清研讯科）",
+    "RTLS 实时定位",
+    "厂内 AGV 定位"
+   ],
+   "scene_tags": [
+    "无硬件定位",
+    "室内外定位",
+    "机器人导航",
+    "资产/人员追踪",
+    "GPS替代",
+    "定位基础设施"
+   ],
+   "archive": "companies/juxta.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 521,
@@ -18782,14 +19086,45 @@
    "subcategory": "",
    "one_liner_en": "Natural-language AI agent builder",
    "one_liner_zh": "自然语言 AI 智能体搭建器",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B004"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC S25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/okibi"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "15 家 YC 公司（未具名）",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/okibi"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类 no-code Agent 平台",
+    "钉钉/飞书自动化",
+    "扣子(Coze)等 Agent 搭建"
+   ],
+   "scene_tags": [
+    "Agent搭建器",
+    "自然语言搭建",
+    "工具调用",
+    "HITL工作流",
+    "浏览器自动化",
+    "no-code"
+   ],
+   "archive": "companies/okibi.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 522,
@@ -19070,14 +19405,39 @@
    "subcategory": "",
    "one_liner_en": "AI motion designer for branded videos",
    "one_liner_zh": "品牌视频的 AI 动效设计师",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B004"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC S25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/hera-video"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "剪映/智影——视频",
+    "万彩/来画——动画",
+    "各类动效工具"
+   ],
+   "scene_tags": [
+    "AI动效设计",
+    "营销动画",
+    "信息图",
+    "品牌套件",
+    "大白话生成",
+    "营销内容"
+   ],
+   "archive": "companies/hera-video.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 527,
@@ -19148,14 +19508,39 @@
    "subcategory": "",
    "one_liner_en": "Privacy-first AI unified inbox",
    "one_liner_zh": "隐私优先的 AI 统一收件箱",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B004"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC S25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/pally"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类统一消息/SCRM",
+    "个人 CRM 工具",
+    "企微/钉钉客户管理"
+   ],
+   "scene_tags": [
+    "统一收件箱",
+    "个人CRM",
+    "关系追踪",
+    "会议准备",
+    "多渠道整合",
+    "商务关系"
+   ],
+   "archive": "companies/pally.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 529,
