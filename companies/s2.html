@@ -1,0 +1,33 @@
+<!doctype html><html lang="zh-CN"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>S2 · AI青梅创业公司数据库</title>
+<link rel="stylesheet" href="company.css">
+</head><body>
+<div class="wrap">
+<a class="back" href="../index.html">← 返回看板</a>
+<header class="hero">
+ <div class="htop"><span class="badge a2">B</span><span class="badge batch">B003 · YC Fall 2025 (F25)</span><span class="badge ok">已深研</span><span class="badge auto">AI 自动通过</span></div>
+ <h1>S2</h1>
+ <p class="oneliner">Serverless streams for durable real-time data</p>
+ <p class="oneliner-zh">面向持久化实时数据的无服务器流</p>
+ <a class="site" href="https://www.ycombinator.com/companies/s2-dev" target="_blank" rel="noopener">官网 / 锚定 ↗</a>
+ <p class="triage">分诊理由：</p>
+</header>
+
+<section class="card"><h2>公司画像</h2><div class="picture"><div class="prow"><div class="pk">团队</div><div class="pv">（F25,创始团队信息以 YC 为准）。</div></div><div class="prow"><div class="pk">成立/批次</div><div class="pv">2025</div></div><div class="prow"><div class="pk">地点</div><div class="pv">美国</div></div><div class="prow"><div class="pk">产品</div><div class="pv">面向持久化实时数据的无服务器流 / 持久流 API：让持久实时流像对象存储一样简单可扩展——无限流、可配置(乃至无底)保留期,可实时追加与跟随,所有写入持久化、可按序号或时间戳从历史任意位置读取;可作 WebSocket/SSE 的可靠无服务器替代,尤其适合高基数数据源(代码执行沙箱、IoT 设备)。</div></div><div class="prow"><div class="pk">商业模式</div><div class="pv">无服务器流存储 API,按用付费(开源 S2-lite)。</div></div><div class="prow"><div class="pk">竞争格局</div><div class="pv">流数据赛道:Kafka、Kinesis、Redpanda。差异点在于无服务器(像对象存储)+无限流+持久历史回读+高基数源。</div></div></div></section>
+
+<div class="grid2">
+ <section class="card"><h2>融资</h2><table class="tbl"><thead><tr><th>轮次</th><th>金额</th><th>时间</th><th>来源</th></tr></thead><tbody><tr><td>YC F25（未单列）</td><td class="amt">未披露</td><td>2025</td><td><a href="https://www.ycombinator.com/companies/s2-dev" target="_blank" rel="noopener">链接 ↗</a></td></tr></tbody></table></section>
+ <section class="card"><h2>早期客户信号</h2><table class="tbl"><thead><tr><th>客户</th><th>置信度</th><th>来源</th></tr></thead><tbody><tr><td>未见公开具名客户（极早期）</td><td>—</td><td>—</td></tr></tbody></table><p class="hint">置信度：<span class="conf hi">高</span>官方case study/可交叉验证　<span class="conf mid">中</span>logo墙/媒体点名　<span class="conf lo">低</span>推断</p></section>
+</div>
+
+<section class="card"><h2>转型有术判断</h2><div class="insights"><div class="insight"><div class="ihead"><span class="iico">🏭</span><h3>对制造业客户意味着什么</h3></div><p>对制造企业 IoT/实时数据而言,S2 高度相关:制造企业产线设备、传感器、IoT 是典型高基数实时数据源,传统 Kafka 运维重。S2 无服务器持久流像对象存储、无限流、可历史回读。启示:制造企业 IoT/设备数据可迁移『无服务器持久流存储(高基数源+实时追加+历史回读)』把海量设备/传感器数据流做成免运维、可持久回溯的实时管道,支撑监控、质检、预测性维护。</p></div><div class="insight"><div class="ihead"><span class="iico">🇨🇳</span><h3>国内对标厂商</h3></div><p>Kafka/Pulsar、阿里云 DataHub/腾讯 CKafka、各类流存储</p><blockquote>国内流数据多用 Kafka/Pulsar/云托管。S2 差异在于无服务器(像对象存储)+无限流+持久历史回读+适配高基数 IoT 源。对国内制造企业 IoT 实时数据可对标。</blockquote></div><div class="insight"><div class="ihead"><span class="iico">🧩</span><h3>可迁移的干法 / 应进场景词典的词条</h3></div><p>无服务器流存储、持久实时流、高基数IoT源、历史回读、实时数据管道、AI基础设施</p><blockquote>可迁移干法:IoT/设备数据用『无服务器持久流存储(高基数源+实时追加+历史回读)』做免运维可回溯的实时管道。对制造企业 IoT/预测性维护适用。</blockquote></div><div class="insight"><div class="ihead"><span class="iico">⚠️</span><h3>风险与存疑点</h3></div><p>①流数据竞争(Kafka/云托管);②无服务器成本模型;③早期;④生态与工具链成熟度。</p></div></div>
+ <div class="tagrow"><span class="tlabel">国内对标</span><span class="chip">Kafka/Pulsar</span><span class="chip">阿里云 DataHub/腾讯 CKafka</span><span class="chip">各类流存储</span></div>
+ <div class="tagrow"><span class="tlabel">场景词条</span><span class="chip">无服务器流存储</span><span class="chip">持久实时流</span><span class="chip">高基数IoT源</span><span class="chip">历史回读</span><span class="chip">实时数据管道</span><span class="chip">AI基础设施</span></div>
+</section>
+
+<section class="card"><h2>信息来源溯源</h2><table class="tbl"><thead><tr><th>标题</th><th>链接</th></tr></thead><tbody><tr><td>s2.dev: API for unlimited, durable, real-time streams | Y Combinator（F25,slug=s2-dev）</td><td><a href="https://www.ycombinator.com/companies/s2-dev" target="_blank" rel="noopener">链接 ↗</a></td></tr><tr><td>Launch YC: s2.dev: Streams as a cloud storage primitive</td><td><a href="https://www.ycombinator.com/launches/OnP-s2-dev-streams-as-a-cloud-storage-primitive/" target="_blank" rel="noopener">链接 ↗</a></td></tr></tbody></table></section>
+
+<footer class="foot">批次来源 B003 · YC Fall 2025 (F25) Launch　|　深研日期 2026-07-12　|　直通模式 auto：AI 生成、未经人工复核。数字与具名事实一律带来源，无来源者标「未披露」，未编造。<br>数据真源 <code>data/companies.json</code> · 原始档案 <code>companies/s2.md</code></footer>
+</div>
+</body></html>

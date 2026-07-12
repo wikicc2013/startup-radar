@@ -11743,14 +11743,39 @@
    "subcategory": "",
    "one_liner_en": "LLM-native context compression",
    "one_liner_zh": "LLM 原生的上下文压缩",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/compresr"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类 prompt 压缩/缓存",
+    "大模型上下文优化",
+    "LLMLingua 类"
+   ],
+   "scene_tags": [
+    "上下文压缩",
+    "降token成本",
+    "降延迟",
+    "保准确率",
+    "LLM应用",
+    "AI基础设施"
+   ],
+   "archive": "companies/compresr.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 274,
@@ -11762,14 +11787,39 @@
    "subcategory": "",
    "one_liner_en": "Performant serverless GPU inference",
    "one_liner_zh": "高性能无服务器 GPU 推理",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W26 / NVIDIA Inception（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/cumulus-labs"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类推理云/Serverless GPU",
+    "硅基流动/PPIO",
+    "无问芯穹"
+   ],
+   "scene_tags": [
+    "无服务器GPU推理",
+    "自研推理引擎",
+    "冷启快",
+    "缩容到零",
+    "多模态",
+    "AI基础设施"
+   ],
+   "archive": "companies/cumulus-labs.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 275,
@@ -14266,14 +14316,39 @@
    "subcategory": "",
    "one_liner_en": "One package to take your mobile app to production",
    "one_liner_zh": "一站式把移动应用推上线",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/approxima"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类移动 CI/CD",
+    "蒲公英/fir.im 分发",
+    "App 性能分析(听云等)"
+   ],
+   "scene_tags": [
+    "移动DevOps",
+    "一站式部署",
+    "应用分析",
+    "流水线简化",
+    "移动交付",
+    "AI基础设施"
+   ],
+   "archive": "companies/approxima.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 345,
@@ -14330,14 +14405,45 @@
    "subcategory": "",
    "one_liner_en": "AI for space mission assurance",
    "one_liner_zh": "太空任务保障的 AI",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W26 / NVIDIA（未单列,已签 $1.25M ACV 合同）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/constellation-space"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "AWS Ground Station、SDA、Starcloud、Skynopy",
+     "confidence": "高",
+     "source_url": "https://www.ycombinator.com/companies/constellation-space"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类卫星运控/航天 SaaS",
+    "设备预测性维护平台",
+    "大规模资产网络运维"
+   ],
+   "scene_tags": [
+    "卫星星座运营",
+    "故障前预测",
+    "自主重路由",
+    "任务保障AI",
+    "大规模资产网络",
+    "AI基础设施"
+   ],
+   "archive": "companies/constellation-space.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 347,
@@ -15564,14 +15670,45 @@
    "subcategory": "",
    "one_liner_en": "Visual editor for design in code (AI-powered code modification)",
    "one_liner_zh": "面向代码内设计的可视化编辑器(AI 改码)",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B003"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC F25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/rivet-design"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "YC F25 设计驱动型公司(未具名)",
+     "confidence": "低",
+     "source_url": "https://www.ycombinator.com/companies/rivet-design"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类 design-to-code",
+    "MasterGo/即时设计",
+    "Figma Dev Mode"
+   ],
+   "scene_tags": [
+    "可视化设计编辑器",
+    "设计到代码",
+    "设计师直接改码",
+    "UI还原",
+    "设计工程",
+    "研发设计"
+   ],
+   "archive": "companies/rivet.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 379,
@@ -15769,14 +15906,40 @@
    "subcategory": "",
    "one_liner_en": "APIs for prediction market data",
    "one_liner_zh": "预测市场数据 API",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B003"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC(标准 deal)",
+     "amount": "$500K",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/dome"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类数据聚合 API",
+    "金融数据服务",
+    "系统集成中间件"
+   ],
+   "scene_tags": [
+    "统一数据API",
+    "多源标准化",
+    "实时推送",
+    "历史回测",
+    "预测市场(垂直)",
+    "AI基础设施"
+   ],
+   "archive": "companies/dome.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched",
+   "lifecycle": "acquired"
   },
   {
    "num": 383,
@@ -15838,14 +16001,39 @@
    "subcategory": "",
    "one_liner_en": "AI mobile app builder for no-code launches",
    "one_liner_zh": "无代码上线的 AI 移动应用搭建器",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B003"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC F25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/fastshot"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类无代码/低代码移动",
+    "APICloud/应用公园",
+    "Lovable 类"
+   ],
+   "scene_tags": [
+    "无代码移动应用",
+    "AI对话生成",
+    "原生React Native",
+    "内置后端",
+    "轻应用",
+    "AI基础设施"
+   ],
+   "archive": "companies/fastshot-ai.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 385,
@@ -16133,14 +16321,39 @@
    "subcategory": "",
    "one_liner_en": "Generalist speech models for every audio task",
    "one_liner_zh": "通吃各类音频任务的通用语音模型",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B003"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC F25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/kalpa-labs"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类语音模型/平台",
+    "讯飞/字节语音",
+    "MiniMax 语音"
+   ],
+   "scene_tags": [
+    "通用语音模型",
+    "多任务通吃",
+    "指令可引导",
+    "语音克隆配音",
+    "上下文工程",
+    "AI基础设施"
+   ],
+   "archive": "companies/kalpa-labs.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 392,
@@ -16152,14 +16365,39 @@
    "subcategory": "",
    "one_liner_en": "Cloud platform for coding agents",
    "one_liner_zh": "编码智能体的云平台",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B003"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC F25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/specific"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类 PaaS/Serverless",
+    "阿里云/腾讯云 Serverless",
+    "Vercel 类"
+   ],
+   "scene_tags": [
+    "编码Agent云平台",
+    "自然语言建后端",
+    "一键部署",
+    "一体化",
+    "研发提效",
+    "AI基础设施"
+   ],
+   "archive": "companies/specific.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 393,
@@ -16294,14 +16532,45 @@
    "subcategory": "",
    "one_liner_en": "Self-hosted AI code understanding",
    "one_liner_zh": "可私有部署的 AI 代码理解",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B003"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "种子",
+     "amount": "$500K",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/sourcebot"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "NVIDIA、Red Hat、Wikimedia、Arista Networks",
+     "confidence": "高",
+     "source_url": "https://www.ycombinator.com/companies/sourcebot"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类代码搜索",
+    "Sourcegraph",
+    "CodeArts 代码搜索"
+   ],
+   "scene_tags": [
+    "AI代码理解",
+    "私有部署",
+    "跨仓搜索",
+    "代码不外流",
+    "开源自托管",
+    "AI基础设施"
+   ],
+   "archive": "companies/sourcebot.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 396,
@@ -16540,14 +16809,39 @@
    "subcategory": "",
    "one_liner_en": "Serverless streams for durable real-time data",
    "one_liner_zh": "面向持久化实时数据的无服务器流",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B003"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC F25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/s2-dev"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "Kafka/Pulsar",
+    "阿里云 DataHub/腾讯 CKafka",
+    "各类流存储"
+   ],
+   "scene_tags": [
+    "无服务器流存储",
+    "持久实时流",
+    "高基数IoT源",
+    "历史回读",
+    "实时数据管道",
+    "AI基础设施"
+   ],
+   "archive": "companies/s2.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 401,
@@ -17029,14 +17323,39 @@
    "subcategory": "",
    "one_liner_en": "AI HPC infrastructure",
    "one_liner_zh": "AI 高性能计算基础设施",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B003"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC F25 / Susa Ventures 等（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/sf-tensor"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类 GPU 云/算力调度",
+    "无问芯穹/趋动科技",
+    "跨云算力平台"
+   ],
+   "scene_tags": [
+    "AI HPC",
+    "kernel自动优化",
+    "跨云算力",
+    "容错迁移",
+    "算力降本",
+    "AI基础设施"
+   ],
+   "archive": "companies/san-francisco-tensor-company.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 412,
@@ -17180,14 +17499,45 @@
    "subcategory": "",
    "one_liner_en": "Math data for AGI from top mathematicians",
    "one_liner_zh": "由顶尖数学家产出的 AGI 数学训练数据",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B003"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC F25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/hillclimb"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "Nous Research 等前沿实验室",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/hillclimb"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类数据标注/RL 环境",
+    "海天瑞声/数据堂",
+    "Mercor 类专家网络"
+   ],
+   "scene_tags": [
+    "数学训练数据",
+    "RL环境",
+    "顶尖专家网络",
+    "专家当合作者",
+    "专业AI数据",
+    "AI基础设施"
+   ],
+   "archive": "companies/hillclimb.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 417,
@@ -17520,14 +17870,45 @@
    "subcategory": "",
    "one_liner_en": "AI SRE for production alerts",
    "one_liner_zh": "面向生产告警的 AI SRE",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B003"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "种子",
+     "amount": "约 $2.1M",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/deeptrace"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "快速成长的初创公司(未具名,报 on-call 时间降 50%)",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/deeptrace"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类 AIOps/on-call",
+    "擎创/云智慧",
+    "PagerDuty 类"
+   ],
+   "scene_tags": [
+    "AI SRE",
+    "生产告警调查",
+    "带证据根因",
+    "修复PR",
+    "on-call减半",
+    "AI基础设施"
+   ],
+   "archive": "companies/deeptrace.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 427,
