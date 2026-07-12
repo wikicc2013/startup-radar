@@ -40178,14 +40178,39 @@
    "subcategory": "",
    "one_liner_en": "Customer insights platform",
    "one_liner_zh": "客户洞察平台",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/overstand-labs"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类会话智能/VoC",
+    "Gong 类",
+    "客户之声平台"
+   ],
+   "scene_tags": [
+    "客户洞察",
+    "客户之声VoC",
+    "统一多渠道沟通",
+    "需求风险营收信号",
+    "客户经营",
+    "营销销售客服"
+   ],
+   "archive": "companies/overstand-labs.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 942,
@@ -40382,14 +40407,39 @@
    "subcategory": "",
    "one_liner_en": "Managed research for real codebases",
    "one_liner_zh": "面向真实代码库的托管式研究",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B007"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC F24（未单列）",
+     "amount": "未披露",
+     "date": "2024",
+     "source_url": "https://www.ycombinator.com/companies/synth-3"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类 prompt/上下文优化",
+    "Nozomio 类",
+    "编码 Agent 调优"
+   ],
+   "scene_tags": [
+    "编码Agent优化",
+    "prompt上下文优化",
+    "查失败点",
+    "仿真评估",
+    "研发提效",
+    "AI基础设施"
+   ],
+   "archive": "companies/synth.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 948,
@@ -40601,14 +40651,39 @@
    "subcategory": "",
    "one_liner_en": "BYOC deployment platform for enterprise software",
    "one_liner_zh": "面向企业软件的自带云(BYOC)部署平台",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B007"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC F24（未单列）",
+     "amount": "未披露",
+     "date": "2024",
+     "source_url": "https://www.ycombinator.com/companies/ryvn"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类私有化/信创部署",
+    "本地化交付",
+    "BYOC 方案"
+   ],
+   "scene_tags": [
+    "BYOC部署",
+    "软件跑客户云",
+    "数据不出内网",
+    "多云自动部署",
+    "受监管行业",
+    "AI基础设施"
+   ],
+   "archive": "companies/ryvn-technologies.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 955,
@@ -40664,14 +40739,39 @@
    "subcategory": "",
    "one_liner_en": "AI website testing agents for bug discovery",
    "one_liner_zh": "面向找 bug 的 AI 网站测试智能体",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B007"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC F24（未单列）",
+     "amount": "未披露",
+     "date": "2024",
+     "source_url": "https://www.ycombinator.com/companies/candid"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类自动化测试",
+    "云测/Testin",
+    "Docket/Ghostship 类"
+   ],
+   "scene_tags": [
+    "AI网站测试",
+    "像真实用户找bug",
+    "零配置",
+    "信息存疑",
+    "数字产品质量",
+    "AI基础设施"
+   ],
+   "archive": "companies/candid.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 957,
@@ -40800,14 +40900,39 @@
    "subcategory": "",
    "one_liner_en": "SMS API for developers",
    "one_liner_zh": "面向开发者的短信 API",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B007"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC F24（未单列）",
+     "amount": "未披露",
+     "date": "2024",
+     "source_url": "https://www.ycombinator.com/companies/surge"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类云通信/短信",
+    "阿里云短信/腾讯云短信",
+    "容联云/梦网"
+   ],
+   "scene_tags": [
+    "短信API",
+    "当天上手",
+    "易运营商注册",
+    "客户触达",
+    "云通信",
+    "AI基础设施"
+   ],
+   "archive": "companies/surge-communications.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 961,
@@ -41031,14 +41156,46 @@
    "subcategory": "",
    "one_liner_en": "AI coding agent for Xcode apps",
    "one_liner_zh": "面向 Xcode 应用的 AI 编码智能体",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B007"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC F24（团队已加入 OpenAI）",
+     "amount": "未披露",
+     "date": "2024",
+     "source_url": "https://www.ycombinator.com/companies/alex"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "1200+ 注册、数百人日用(应用已停止下载)",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/alex"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类编码 copilot",
+    "通义灵码/Copilot",
+    "IDE 内置 AI"
+   ],
+   "scene_tags": [
+    "Xcode AI copilot",
+    "编码补全",
+    "平台风险案例",
+    "已停运team入OpenAI",
+    "研发工具",
+    "AI基础设施"
+   ],
+   "archive": "companies/alex.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched",
+   "lifecycle": "defunct"
   },
   {
    "num": 968,
@@ -41527,14 +41684,39 @@
    "subcategory": "",
    "one_liner_en": "AI video understanding for real-world interaction",
    "one_liner_zh": "面向真实世界交互的 AI 视频理解",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B007"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC F24（未单列）",
+     "amount": "未披露",
+     "date": "2024",
+     "source_url": "https://www.ycombinator.com/companies/moonshine"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类视频理解/搜索",
+    "海康/大华视频智能",
+    "VLM 视频"
+   ],
+   "scene_tags": [
+    "视频理解API",
+    "自然语言搜时刻",
+    "视频问答",
+    "边缘语音识别",
+    "监控产线视频",
+    "AI基础设施"
+   ],
+   "archive": "companies/moonshine.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 981,
@@ -41546,14 +41728,45 @@
    "subcategory": "",
    "one_liner_en": "RL environments and datasets for frontier models",
    "one_liner_zh": "面向前沿模型的强化学习环境与数据集",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B007"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC F24（未单列）",
+     "amount": "未披露",
+     "date": "2024",
+     "source_url": "https://www.ycombinator.com/companies/abundant"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "全球前 6 大 AI 实验室中 3 家+多家 Fortune 500(未具名)",
+     "confidence": "中",
+     "source_url": "https://abundantdata.com/"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类 RL 环境/训练数据",
+    "机器人仿真数据",
+    "Klavis/HUD 类"
+   ],
+   "scene_tags": [
+    "RL环境数据集",
+    "前沿模型训练",
+    "physical AI具身",
+    "领域专家网络",
+    "训练基础设施",
+    "AI基础设施"
+   ],
+   "archive": "companies/abundant.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 982,
@@ -41698,14 +41911,40 @@
    "subcategory": "",
    "one_liner_en": "AI website builder with coding agents",
    "one_liner_zh": "带编码智能体的 AI 网站搭建器",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B007"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "种子",
+     "amount": "$500K+",
+     "date": "2024",
+     "source_url": "https://www.ycombinator.com/companies/vly-ai-2"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类 AI 建站/无代码",
+    "Lovable/Replit",
+    "Floot 类"
+   ],
+   "scene_tags": [
+    "AI全栈搭建",
+    "LLM Agent端到端",
+    "降本降周期90%",
+    "无代码",
+    "已被收购",
+    "AI基础设施"
+   ],
+   "archive": "companies/vly-labs.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched",
+   "lifecycle": "acquired"
   },
   {
    "num": 986,
@@ -41767,14 +42006,39 @@
    "subcategory": "",
    "one_liner_en": "Automated documentation maintenance via browser agents",
    "one_liner_zh": "用浏览器智能体自动维护文档",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B007"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC F24（未单列,$220K 营收）",
+     "amount": "未披露",
+     "date": "2024",
+     "source_url": "https://www.ycombinator.com/companies/cekura"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类对话/语音测试监控",
+    "Bluejay/Coval 类",
+    "语音质检"
+   ],
+   "scene_tags": [
+    "Agent测试监控",
+    "语音聊天Agent",
+    "文档自动核验",
+    "对话质量",
+    "转型",
+    "AI基础设施"
+   ],
+   "archive": "companies/cekura.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 988,
@@ -42002,14 +42266,45 @@
    "subcategory": "",
    "one_liner_en": "AI localization infrastructure for product teams",
    "one_liner_zh": "面向产品团队的 AI 本地化基础设施",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B007"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "种子",
+     "amount": "$4.2M",
+     "date": "2024",
+     "source_url": "https://slator.com/software-localization-startup-lingo-dev-raises-4m-seed-round/"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "Mistral、Solana、SoSafe、Cal.com",
+     "confidence": "高",
+     "source_url": "https://lingo.dev/en"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类本地化/翻译",
+    "Crowdin/Lokalise",
+    "有道/DeepL 企业"
+   ],
+   "scene_tags": [
+    "本地化工程平台",
+    "CI/CD自动翻译",
+    "术语品牌一致",
+    "多模型择优",
+    "出海多语种",
+    "AI基础设施"
+   ],
+   "archive": "companies/lingo-dev.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 995,
@@ -42291,14 +42586,39 @@
    "subcategory": "",
    "one_liner_en": "AI agents for digital automation (open-source RAG)",
    "one_liner_zh": "面向数字自动化的 AI 智能体(开源 RAG)",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B007"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC F24（未单列）",
+     "amount": "未披露",
+     "date": "2024",
+     "source_url": "https://www.ycombinator.com/companies/circlemind"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类 RAG/知识图谱",
+    "GraphRAG",
+    "通用 Agent 平台"
+   ],
+   "scene_tags": [
+    "知识图谱RAG",
+    "PageRank准3x",
+    "通用Agent",
+    "300+应用集成",
+    "人审护栏",
+    "AI基础设施"
+   ],
+   "archive": "companies/circlemind.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 1004,
@@ -42536,14 +42856,39 @@
    "subcategory": "",
    "one_liner_en": "AI apps for operational data",
    "one_liner_zh": "面向运营数据的 AI 应用",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B007"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC F24（未单列）",
+     "amount": "未披露",
+     "date": "2024",
+     "source_url": "https://www.ycombinator.com/companies/praxis-ai"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类工业 AI/预测性维护",
+    "寄云/昆仑数据",
+    "树根互联/PHM"
+   ],
+   "scene_tags": [
+    "制造推理Agent",
+    "工程copilot",
+    "预测防机器故障",
+    "降停机减废品",
+    "车间落地",
+    "生产制造"
+   ],
+   "archive": "companies/praxis-technologies.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 1011,
@@ -42555,14 +42900,39 @@
    "subcategory": "",
    "one_liner_en": "Mobile runtime platform for teams and agents",
    "one_liner_zh": "面向团队与智能体的移动运行时平台",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B007"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "预种子",
+     "amount": "$1.1M",
+     "date": "2024",
+     "source_url": "https://betakit.com/canadian-founded-yc-backed-revyl-closes-1-5-million-cad-to-help-companies-catch-bugs-with-ai/"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类移动测试/APM",
+    "WeTest/听云",
+    "Autosana/QualGent 类"
+   ],
+   "scene_tags": [
+    "移动运行时平台",
+    "自然语言E2E测试",
+    "可回放证据",
+    "运行时地图",
+    "主动可观测",
+    "AI基础设施"
+   ],
+   "archive": "companies/revyl.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 1012,
@@ -42763,14 +43133,45 @@
    "subcategory": "",
    "one_liner_en": "Agent-ready real-time TAM intelligence",
    "one_liner_zh": "面向智能体的实时 TAM 市场情报",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B007"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "种子",
+     "amount": "$1.3M",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/openfunnel"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "30 客户(美/欧/印),$100K ARR",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/openfunnel"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类销售情报/线索",
+    "企查查/水滴信号",
+    "Autumn AI/The Hog 类"
+   ],
+   "scene_tags": [
+    "实时TAM情报",
+    "购买触发浮现账户",
+    "信号Agent",
+    "GTM",
+    "B端拓客",
+    "营销销售客服"
+   ],
+   "archive": "companies/openfunnel.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 1019,
@@ -42782,14 +43183,39 @@
    "subcategory": "",
    "one_liner_en": "LLM protocol for image sensors",
    "one_liner_zh": "面向图像传感器的 LLM 协议",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B007"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC F24（未单列）",
+     "amount": "未披露",
+     "date": "2024",
+     "source_url": "https://www.ycombinator.com/companies/coblocks"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类机器视觉/智能相机",
+    "海康/华睿智能相机",
+    "VLM 边缘视觉"
+   ],
+   "scene_tags": [
+    "图像传感器LLM",
+    "相机理解世界",
+    "机器视觉",
+    "智能相机",
+    "视觉理解",
+    "AI基础设施"
+   ],
+   "archive": "companies/coblocks.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 1020,
@@ -42945,14 +43371,39 @@
    "subcategory": "",
    "one_liner_en": "Asynchronous coding agent workspace for developers",
    "one_liner_zh": "面向开发者的异步编码智能体工作空间",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B007"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC F24（未单列）",
+     "amount": "未披露",
+     "date": "2024",
+     "source_url": "https://www.ycombinator.com/companies/upshift"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类后台/异步编码 Agent",
+    "Omnara/Async 类",
+    "编码 Agent 工作空间"
+   ],
+   "scene_tags": [
+    "异步编码Agent",
+    "工作空间",
+    "任务异步外包",
+    "异步协作",
+    "研发提效",
+    "AI基础设施"
+   ],
+   "archive": "companies/upshift.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 1026,
@@ -43159,14 +43610,45 @@
    "subcategory": "",
    "one_liner_en": "Fully automated web data API",
    "one_liner_zh": "全自动的网页数据 API",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B007"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC F24（未单列）",
+     "amount": "未披露",
+     "date": "2024",
+     "source_url": "https://www.ycombinator.com/companies/riveter"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "OpenAI、Snap、Fermat",
+     "confidence": "高",
+     "source_url": "https://riveterhq.com/"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类数据采集/富化",
+    "八爪鱼/后羿采集",
+    "The Hog 类"
+   ],
+   "scene_tags": [
+    "网页数据API",
+    "全自动抓取结构化",
+    "Agent像研究员",
+    "实时无陈旧",
+    "市场供应链情报",
+    "AI基础设施"
+   ],
+   "archive": "companies/riveter-ai.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 1032,
@@ -43266,14 +43748,39 @@
    "subcategory": "",
    "one_liner_en": "Scroll-based AI app and site designer",
    "one_liner_zh": "滚动式的 AI 应用与网站设计器",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B007"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC F24（未单列）",
+     "amount": "未披露",
+     "date": "2024",
+     "source_url": "https://www.ycombinator.com/companies/variant"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类 AI 设计/生成",
+    "即时设计/MasterGo",
+    "Onlook/Rivet 类"
+   ],
+   "scene_tags": [
+    "AI设计器",
+    "无限滚动变体",
+    "产出HTML/React",
+    "设计灵感入口",
+    "数字产品设计",
+    "研发设计"
+   ],
+   "archive": "companies/variant.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   }
  ]
 }
