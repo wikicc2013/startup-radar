@@ -37586,14 +37586,39 @@
    "subcategory": "",
    "one_liner_en": "AI work assistant for onboarding and training",
    "one_liner_zh": "面向入职与培训的 AI 工作助手",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B007"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC F24（未单列）",
+     "amount": "未披露",
+     "date": "2024",
+     "source_url": "https://www.ycombinator.com/companies/andoria"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类产品引导(如 Pendo 类)",
+    "智能客服+引导",
+    "应用内新手引导"
+   ],
+   "scene_tags": [
+    "客户onboarding",
+    "应用内引导",
+    "代操作演示",
+    "走查生成",
+    "降上手门槛",
+    "客服支持"
+   ],
+   "archive": "companies/andoria.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 1033,
