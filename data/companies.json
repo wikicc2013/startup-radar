@@ -12184,14 +12184,45 @@
    "subcategory": "",
    "one_liner_en": "Agentic revenue growth for home service businesses",
    "one_liner_zh": "家政服务企业的智能体营收增长",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/robby"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "几家付费家政企业（每周六位数机会，未具名）",
+     "confidence": "低",
+     "source_url": "https://www.ycombinator.com/companies/robby"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类 FSM 现场服务管理",
+    "ServiceTitan 类",
+    "上门服务 SaaS"
+   ],
+   "scene_tags": [
+    "家政营收增长",
+    "线索生成",
+    "技师话术",
+    "现场增售",
+    "上门服务",
+    "营收触点"
+   ],
+   "archive": "companies/robby.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 344,
