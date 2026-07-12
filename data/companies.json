@@ -25921,14 +25921,39 @@
    "subcategory": "",
    "one_liner_en": "AI that optimizes performance at hardware speed",
    "one_liner_zh": "以硬件速度优化性能的 AI",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B004"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC S25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/herdora"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类 GPU 优化/编译",
+    "TVM/MLIR",
+    "无问芯穹/趋动"
+   ],
+   "scene_tags": [
+    "GPU kernel优化",
+    "Cursor for CUDA",
+    "自动提速",
+    "瓶颈定位",
+    "算力降本",
+    "AI基础设施"
+   ],
+   "archive": "companies/herdora.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 610,
@@ -26049,14 +26074,45 @@
    "subcategory": "",
    "one_liner_en": "AI geospatial intelligence for maps",
    "one_liner_zh": "面向地图的 AI 地理空间智能",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B004"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC S25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/monarcha"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "采矿/基建/土地情报团队(未具名)",
+     "confidence": "低",
+     "source_url": "https://www.ycombinator.com/companies/monarcha"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类 GIS/地理信息",
+    "超图 SuperMap/中地数码",
+    "ESRI/QGIS 类"
+   ],
+   "scene_tags": [
+    "AI原生GIS",
+    "地理空间智能",
+    "对话式分析",
+    "文档转GIS图层",
+    "选址基建",
+    "AI基础设施"
+   ],
+   "archive": "companies/monarcha.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 613,
@@ -26068,14 +26124,45 @@
    "subcategory": "",
    "one_liner_en": "Crowdsourced AI design benchmark",
    "one_liner_zh": "众包式的 AI 设计基准测试",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B004"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC S25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/design-arena"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "47K+ 用户覆盖 136 国(社区)",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/design-arena"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类模型评测/排行",
+    "LMArena/司南 OpenCompass",
+    "设计模型评测"
+   ],
+   "scene_tags": [
+    "AI设计基准",
+    "众包投票",
+    "Elo排行",
+    "模型评测",
+    "设计选型",
+    "AI基础设施"
+   ],
+   "archive": "companies/design-arena.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 614,
@@ -26106,14 +26193,39 @@
    "subcategory": "",
    "one_liner_en": "AI-driven app development on mobile devices",
    "one_liner_zh": "在移动设备上做 AI 应用开发",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B004"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "种子",
+     "amount": "$500K",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/bitrig"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类 AI 建站/无代码",
+    "Fastshot(RN)",
+    "应用公园类"
+   ],
+   "scene_tags": [
+    "移动AI开发",
+    "原生Swift",
+    "iPhone上开发",
+    "对话生成",
+    "高端iOS应用",
+    "AI基础设施"
+   ],
+   "archive": "companies/bitrig.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 616,
@@ -26214,14 +26326,39 @@
    "subcategory": "",
    "one_liner_en": "First agentic DevOps engineer for operations",
    "one_liner_zh": "首个面向运维的智能体 DevOps 工程师",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B004"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC S25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/datafruit"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类云治理/IaC",
+    "阿里云运维编排/腾讯云",
+    "FinOps 工具"
+   ],
+   "scene_tags": [
+    "智能体DevOps",
+    "云审计降本",
+    "配置漂移合规",
+    "PR改IaC",
+    "只读安全",
+    "AI基础设施"
+   ],
+   "archive": "companies/datafruit.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 619,
@@ -26405,14 +26542,45 @@
    "subcategory": "",
    "one_liner_en": "Human audio datasets for voice AI",
    "one_liner_zh": "面向语音 AI 的真人音频数据集",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B004"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC S25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/liva-ai"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "训练表现力语音基础模型的实验室(未具名)",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/liva-ai"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类语音数据/标注",
+    "海天瑞声/数据堂",
+    "Luel 类"
+   ],
+   "scene_tags": [
+    "真人语音数据",
+    "多模态",
+    "情感口音场景",
+    "版权清晰",
+    "语音AI训练",
+    "AI基础设施"
+   ],
+   "archive": "companies/liva-ai.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 624,
@@ -26467,14 +26635,39 @@
    "subcategory": "",
    "one_liner_en": "AI agents for autonomous bug detection",
    "one_liner_zh": "自主排查 bug 的 AI 智能体",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B004"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC S25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/ghostship"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类自动化测试",
+    "云测/Testin",
+    "Docket/Autosana 类"
+   ],
+   "scene_tags": [
+    "自主QA Agent",
+    "模拟用户",
+    "找边缘bug",
+    "CI检查",
+    "数字产品质量",
+    "AI基础设施"
+   ],
+   "archive": "companies/ghostship.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 626,
@@ -26574,14 +26767,39 @@
    "subcategory": "",
    "one_liner_en": "Open-source dev tool for AI coding & task mgmt",
    "one_liner_zh": "面向 AI 编码与任务管理的开源开发工具",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B004"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC S25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/async"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类研发协作/PM",
+    "PingCode/Coding",
+    "Linear 类"
+   ],
+   "scene_tags": [
+    "AI编码任务管理",
+    "研发一体化",
+    "任务+Agent+PR",
+    "开源",
+    "上下文连续",
+    "AI基础设施"
+   ],
+   "archive": "companies/async.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 629,
@@ -27272,14 +27490,39 @@
    "subcategory": "",
    "one_liner_en": "Synthetic users for QA and UX testing",
    "one_liner_zh": "面向 QA 与 UX 测试的合成用户",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B004"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC S25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/synthetic-society"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类测试/用户体验分析",
+    "热图/session replay",
+    "Ghostship 类"
+   ],
+   "scene_tags": [
+    "合成用户",
+    "QA与UX测试",
+    "端到端旅程",
+    "流失点分析",
+    "体验优化",
+    "AI基础设施"
+   ],
+   "archive": "companies/synthetic-society.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 645,
@@ -27291,14 +27534,39 @@
    "subcategory": "",
    "one_liner_en": "On-device AI with cloud fallback",
    "one_liner_zh": "端侧 AI、云端兜底",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B004"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "种子",
+     "amount": "约 $1M",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/cactus"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类端侧推理",
+    "MNN/NCNN",
+    "RunAnywhere 类"
+   ],
+   "scene_tags": [
+    "端侧AI",
+    "云端兜底",
+    "端云混合",
+    "低延迟隐私",
+    "跨平台SDK",
+    "AI基础设施"
+   ],
+   "archive": "companies/cactus.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 646,
@@ -27670,14 +27938,39 @@
    "subcategory": "",
    "one_liner_en": "AI-powered QA testing for real apps",
    "one_liner_zh": "面向真实应用的 AI 质量测试",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B005"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC X25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/docket"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类自动化测试",
+    "云测/Testin",
+    "Cypress/Playwright"
+   ],
+   "scene_tags": [
+    "AI质量测试",
+    "大白话E2E",
+    "真实会话维护",
+    "多模态Agent",
+    "数字产品质量",
+    "AI基础设施"
+   ],
+   "archive": "companies/docket.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 655,
@@ -28080,14 +28373,39 @@
    "subcategory": "",
    "one_liner_en": "AI lab for program verification",
    "one_liner_zh": "面向程序验证的 AI 实验室",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B005"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC X25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/theorem-2"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类形式化验证",
+    "航空/汽车功能安全工具",
+    "可信编译"
+   ],
+   "scene_tags": [
+    "程序验证",
+    "可信AI编码",
+    "形式化验证",
+    "安全关键",
+    "高正确性",
+    "AI基础设施"
+   ],
+   "archive": "companies/theorem.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 664,
@@ -28118,14 +28436,45 @@
    "subcategory": "",
    "one_liner_en": "AI-native GitHub Actions CI optimization",
    "one_liner_zh": "AI 原生的 GitHub Actions CI 优化",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B005"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC X25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/starsling"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "Mastra、Better Auth(CI 快 80%)",
+     "confidence": "中",
+     "source_url": "https://starsling.dev/"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类 CI/CD",
+    "云厂商流水线/CODING CI",
+    "GitHub Actions"
+   ],
+   "scene_tags": [
+    "AI原生CI",
+    "CI优化提速",
+    "自动优化流水线",
+    "microVM隔离",
+    "研发降本",
+    "AI基础设施"
+   ],
+   "archive": "companies/starsling.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 666,
@@ -28364,14 +28713,39 @@
    "subcategory": "",
    "one_liner_en": "Open-source MLOps for experiment tracking",
    "one_liner_zh": "面向实验追踪的开源 MLOps",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B005"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC X25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/mlop"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类 MLOps/实验追踪",
+    "W&B/MLflow",
+    "阿里 PAI/华为 ModelArts"
+   ],
+   "scene_tags": [
+    "开源MLOps",
+    "实验追踪",
+    "可自托管",
+    "Rust高性能",
+    "模型生命周期",
+    "AI基础设施"
+   ],
+   "archive": "companies/mlop.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 672,

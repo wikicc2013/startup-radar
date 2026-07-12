@@ -1,0 +1,33 @@
+<!doctype html><html lang="zh-CN"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Herdora · AI青梅创业公司数据库</title>
+<link rel="stylesheet" href="company.css">
+</head><body>
+<div class="wrap">
+<a class="back" href="../index.html">← 返回看板</a>
+<header class="hero">
+ <div class="htop"><span class="badge a2">B</span><span class="badge batch">B004 · YC Summer 2025 (S25)</span><span class="badge ok">已深研</span><span class="badge auto">AI 自动通过</span></div>
+ <h1>Herdora</h1>
+ <p class="oneliner">AI that optimizes performance at hardware speed</p>
+ <p class="oneliner-zh">以硬件速度优化性能的 AI</p>
+ <a class="site" href="https://www.ycombinator.com/companies/herdora" target="_blank" rel="noopener">官网 / 锚定 ↗</a>
+ <p class="triage">分诊理由：</p>
+</header>
+
+<section class="card"><h2>公司画像</h2><div class="picture"><div class="prow"><div class="pk">团队</div><div class="pv">（S25,创始人含 @technoabsurdist、@gpusteve）。</div></div><div class="prow"><div class="pk">成立/批次</div><div class="pv">2025</div></div><div class="prow"><div class="pk">地点</div><div class="pv">美国</div></div><div class="prow"><div class="pk">产品</div><div class="pv">以硬件速度优化性能的 AI / Cursor for CUDA：自动把 PyTorch 代码转成优化的 GPU kernel,免手写 CUDA;从生产流量学习自动实施优化,扫描/移植/基准/修补瓶颈,跨硬件最大化算力;性能退化时通知是哪次 commit 导致,定位瓶颈在模型代码/数据加载/内存 I/O/GPU-PCIe,给算子/kernel 的可视化性能地图。</div></div><div class="prow"><div class="pk">商业模式</div><div class="pv">面向 ML 团队的 GPU 性能优化平台,定价未披露。</div></div><div class="prow"><div class="pk">竞争格局</div><div class="pv">GPU 优化/编译赛道:SF Tensor、Luminal、各类 kernel 优化。差异点在于 Cursor for CUDA(PyTorch 自动转优化 kernel)+从生产流量学习+性能退化溯源。</div></div></div></section>
+
+<div class="grid2">
+ <section class="card"><h2>融资</h2><table class="tbl"><thead><tr><th>轮次</th><th>金额</th><th>时间</th><th>来源</th></tr></thead><tbody><tr><td>YC S25（未单列）</td><td class="amt">未披露</td><td>2025</td><td><a href="https://www.ycombinator.com/companies/herdora" target="_blank" rel="noopener">链接 ↗</a></td></tr></tbody></table></section>
+ <section class="card"><h2>早期客户信号</h2><table class="tbl"><thead><tr><th>客户</th><th>置信度</th><th>来源</th></tr></thead><tbody><tr><td>未见公开具名客户（极早期）</td><td>—</td><td>—</td></tr></tbody></table><p class="hint">置信度：<span class="conf hi">高</span>官方case study/可交叉验证　<span class="conf mid">中</span>logo墙/媒体点名　<span class="conf lo">低</span>推断</p></section>
+</div>
+
+<section class="card"><h2>转型有术判断</h2><div class="insights"><div class="insight"><div class="ihead"><span class="iico">🏭</span><h3>对制造业客户意味着什么</h3></div><p>对制造企业 AI 算力而言,Herdora 代表『自动 GPU kernel 优化(免手写 CUDA)』。制造企业跑训练/推理时,GPU 利用率低、优化需稀缺 CUDA 专家。Herdora 自动把 PyTorch 转优化 kernel、找吃性能的瓶颈。启示:制造企业 AI 负载可迁移『自动 GPU 优化(PyTorch 转优化 kernel+瓶颈定位)』在无 CUDA 专家下把训练/推理提速降本,如案例中延迟降 67%。</p></div><div class="insight"><div class="ihead"><span class="iico">🇨🇳</span><h3>国内对标厂商</h3></div><p>各类 GPU 优化/编译、TVM/MLIR、无问芯穹/趋动</p><blockquote>国内 GPU 优化多靠编译栈/人工。Herdora 差异在于 Cursor for CUDA(自动转优化 kernel)+从生产流量学习+退化溯源。对国内制造企业 AI 算力优化可对标。</blockquote></div><div class="insight"><div class="ihead"><span class="iico">🧩</span><h3>可迁移的干法 / 应进场景词典的词条</h3></div><p>GPU kernel优化、Cursor for CUDA、自动提速、瓶颈定位、算力降本、AI基础设施</p><blockquote>可迁移干法:AI 负载用『自动 GPU 优化(PyTorch 转优化 kernel+瓶颈定位)』无 CUDA 专家下提速降本。对制造企业 AI 算力适用。</blockquote></div><div class="insight"><div class="ihead"><span class="iico">⚠️</span><h3>风险与存疑点</h3></div><p>①GPU 优化竞争;②自动优化的通用性;③早期;④面向 ML 团队窄客群。</p></div></div>
+ <div class="tagrow"><span class="tlabel">国内对标</span><span class="chip">各类 GPU 优化/编译</span><span class="chip">TVM/MLIR</span><span class="chip">无问芯穹/趋动</span></div>
+ <div class="tagrow"><span class="tlabel">场景词条</span><span class="chip">GPU kernel优化</span><span class="chip">Cursor for CUDA</span><span class="chip">自动提速</span><span class="chip">瓶颈定位</span><span class="chip">算力降本</span><span class="chip">AI基础设施</span></div>
+</section>
+
+<section class="card"><h2>信息来源溯源</h2><table class="tbl"><thead><tr><th>标题</th><th>链接</th></tr></thead><tbody><tr><td>Herdora（Cursor for CUDA）| Y Combinator（S25）</td><td><a href="https://www.ycombinator.com/companies/herdora" target="_blank" rel="noopener">链接 ↗</a></td></tr><tr><td>Launch YC: Herdora - Fix slow ML inference with one line of code</td><td><a href="https://www.ycombinator.com/launches/O9x-herdora-fix-slow-ml-inference-with-one-line-of-code" target="_blank" rel="noopener">链接 ↗</a></td></tr></tbody></table></section>
+
+<footer class="foot">批次来源 B004 · YC Summer 2025 (S25) Launch　|　深研日期 2026-07-12　|　直通模式 auto：AI 生成、未经人工复核。数字与具名事实一律带来源，无来源者标「未披露」，未编造。<br>数据真源 <code>data/companies.json</code> · 原始档案 <code>companies/herdora.md</code></footer>
+</div>
+</body></html>
