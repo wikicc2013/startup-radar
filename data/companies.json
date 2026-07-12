@@ -7403,14 +7403,39 @@
    "subcategory": "",
    "one_liner_en": "Scaling formal verification to accelerate scientific discovery",
    "one_liner_zh": "规模化形式化验证以加速科学发现",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/cajal-technologies"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "形式化验证学术团队",
+    "华为等的形式化方法实践",
+    "安全关键系统验证"
+   ],
+   "scene_tags": [
+    "形式化验证",
+    "Lean4",
+    "可证明正确性",
+    "RL训练环境",
+    "安全关键系统",
+    "数学AI"
+   ],
+   "archive": "companies/cajal.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 206,
@@ -7422,14 +7447,39 @@
    "subcategory": "",
    "one_liner_en": "AI research lab focused on learning efficiency",
    "one_liner_zh": "专注学习效率的 AI 研究实验室",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/confluence-labs"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各大模型厂商研究团队",
+    "小样本学习/AutoML",
+    "工业小样本缺陷检测"
+   ],
+   "scene_tags": [
+    "学习效率",
+    "程序综合",
+    "数据稀疏建模",
+    "小样本学习",
+    "AI研究",
+    "假设生成"
+   ],
+   "archive": "companies/confluence-labs.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 207,
@@ -7441,14 +7491,45 @@
    "subcategory": "",
    "one_liner_en": "AI-powered automation for internal audit workflows",
    "one_liner_zh": "内审工作流的 AI 自动化",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/oxus"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "头部薪酬服务商、上市生物科技公司（未具名）",
+     "confidence": "低",
+     "source_url": "https://www.ycombinator.com/companies/oxus"
+    }
+   ],
+   "cn_benchmarks": [
+    "致同等审计数字化",
+    "用友/金蝶内控",
+    "各类 GRC 软件"
+   ],
+   "scene_tags": [
+    "内审自动化",
+    "流程图生成",
+    "证据审阅",
+    "财务合规",
+    "Pre-IPO/上市",
+    "GRC"
+   ],
+   "archive": "companies/oxus.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 208,
@@ -7479,14 +7560,45 @@
    "subcategory": "",
    "one_liner_en": "AI-powered hotel employees",
    "one_liner_zh": "AI 酒店员工",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/lance"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "50+ 酒店（Marriott/Hilton/Hyatt 品牌，未具名单店）",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/lance"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类酒店 PMS（石基）",
+    "智能语音前台",
+    "酒店 SaaS"
+   ],
+   "scene_tags": [
+    "酒店运营Agent",
+    "AI前台",
+    "销售资格化",
+    "运营协调",
+    "多Agent一体",
+    "服务业运营"
+   ],
+   "archive": "companies/lance.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 210,
@@ -7498,14 +7610,39 @@
    "subcategory": "",
    "one_liner_en": "AI-native operating system for medspas",
    "one_liner_zh": "医美机构的 AI 原生操作系统",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/tepali"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "美业 SaaS（美团医美/博卡）",
+    "诊所管理系统",
+    "垂直行业 ERP"
+   ],
+   "scene_tags": [
+    "医美OS",
+    "机构运营整合",
+    "前台/临床/增长Agent",
+    "POS/EMR/CRM",
+    "库存/营销",
+    "AI原生ERP"
+   ],
+   "archive": "companies/tepali.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 211,
@@ -7604,14 +7741,45 @@
    "subcategory": "",
    "one_liner_en": "AI revenue engine for the equipment industry",
    "one_liner_zh": "设备行业的 AI 营收引擎",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/chasi"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "美欧多家设备企业（未具名）",
+     "confidence": "低",
+     "source_url": "https://www.ycombinator.com/companies/chasi"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类设备经销 DMS",
+    "工程机械后市场（三一/徐工的数字化）",
+    "设备租赁 SaaS"
+   ],
+   "scene_tags": [
+    "设备营收引擎",
+    "经销商AI",
+    "销售/租赁/服务一体",
+    "报价/续约/派工",
+    "设备后市场",
+    "营收自动化"
+   ],
+   "archive": "companies/chasi.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 213,
@@ -7760,14 +7928,45 @@
    "subcategory": "",
    "one_liner_en": "AI that watches session replays to detect bugs",
    "one_liner_zh": "自动看回放录像抓 bug 的 AI",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "种子/早期",
+     "amount": "200 万美元",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/lucent"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "Reducto、Julius、Finta、Happenstance 等 30+ YC 公司",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/lucent"
+    }
+   ],
+   "cn_benchmarks": [
+    "神策/GrowingIO——用户行为分析",
+    "观测云等可观测",
+    "会话回放工具"
+   ],
+   "scene_tags": [
+    "会话回放AI",
+    "自动抓bug",
+    "UX问题检测",
+    "产品可观测",
+    "主动质量",
+    "开发工具"
+   ],
+   "archive": "companies/lucent.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 217,
@@ -7779,14 +7978,45 @@
    "subcategory": "",
    "one_liner_en": "Agentic AI for patent attorneys",
    "one_liner_zh": "专利律师的智能体 AI",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "Seed（种子轮）",
+     "amount": "1050 万美元",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/stilta"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "欧美头部 IP 律所与企业内部 IP 团队（未具名）",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/stilta"
+    }
+   ],
+   "cn_benchmarks": [
+    "智慧芽（PatSnap）——专利检索分析",
+    "incoPat/合享——专利数据库",
+    "幂律智能等法律 AI"
+   ],
+   "scene_tags": [
+    "专利AI",
+    "IP智能体",
+    "在先技术检索",
+    "侵权监测",
+    "组合分析",
+    "法务后台"
+   ],
+   "archive": "companies/stilta.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 218,
@@ -7852,14 +8082,39 @@
    "subcategory": "",
    "one_liner_en": "Dynamic pricing for businesses that sell time slots",
    "one_liner_zh": "按时段售卖业务的动态定价",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/booko"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类收益管理（酒店 RMS）",
+    "设备租赁定价",
+    "SaaS 定价工具"
+   ],
+   "scene_tags": [
+    "动态定价",
+    "营收管理",
+    "时段业务",
+    "利用率定价",
+    "产能优化",
+    "营收提升"
+   ],
+   "archive": "companies/booko.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 220,
@@ -7871,14 +8126,45 @@
    "subcategory": "",
    "one_liner_en": "AI-native revenue engine, starting with B2B partnerships",
    "one_liner_zh": "从 B2B 合作切入的 AI 原生营收引擎",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/arzule"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "通过合作做到数百万 ARR 的设计伙伴（未具名）",
+     "confidence": "低",
+     "source_url": "https://www.ycombinator.com/companies/arzule"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类渠道/经销商管理(DMS)",
+    "伙伴关系 PRM 新锐",
+    "生态合作平台"
+   ],
+   "scene_tags": [
+    "伙伴营收",
+    "生态增长",
+    "PRM",
+    "渠道营收预测",
+    "联合营销/集成",
+    "B2B合作"
+   ],
+   "archive": "companies/arzule.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 221,
@@ -7951,14 +8237,39 @@
    "subcategory": "",
    "one_liner_en": "RL environments for non-deterministic work",
    "one_liner_zh": "面向非确定性工作的强化学习环境",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/traverse"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类 RLHF/数据标注",
+    "专家经验数字化",
+    "工业知识工程"
+   ],
+   "scene_tags": [
+    "主观领域训练环境",
+    "非可验证工作",
+    "人类判断捕捉",
+    "专家经验数据化",
+    "RL环境",
+    "AI训练数据"
+   ],
+   "archive": "companies/traverse.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 223,
@@ -7970,14 +8281,45 @@
    "subcategory": "",
    "one_liner_en": "The intelligence layer for the physical world",
    "one_liner_zh": "物理世界的智能层",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/librar-labs"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "图书馆/学校（单月新增 27 所学校，未具名）",
+     "confidence": "低",
+     "source_url": "https://www.ycombinator.com/companies/librar-labs"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类企业知识库/RAG",
+    "智能文档管理",
+    "图书馆 ILS 系统"
+   ],
+   "scene_tags": [
+    "非结构化数据基础设施",
+    "知识底座",
+    "AI可导航知识",
+    "图书馆智能",
+    "自愈数据库",
+    "知识管理"
+   ],
+   "archive": "companies/librar-labs.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 224,
@@ -7989,14 +8331,39 @@
    "subcategory": "",
    "one_liner_en": "The AI toolkit for risk teams",
    "one_liner_zh": "风控团队的 AI 工具箱",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/mousecat"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "同盾/顶象——反欺诈",
+    "蚂蚁风控",
+    "各类交易监控"
+   ],
+   "scene_tags": [
+    "AI欺诈调查",
+    "风控工具箱",
+    "交易后分析",
+    "反欺诈Agent",
+    "风控后台",
+    "持续学习"
+   ],
+   "archive": "companies/mousecat.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 225,
@@ -8008,14 +8375,45 @@
    "subcategory": "",
    "one_liner_en": "The AI workspace for architects",
    "one_liner_zh": "建筑师的 AI 工作空间",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/avoice"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "事务所（管理约 $300M 在建项目，未具名）",
+     "confidence": "低",
+     "source_url": "https://www.ycombinator.com/companies/avoice"
+    }
+   ],
+   "cn_benchmarks": [
+    "广联达/PKPM——建筑软件",
+    "各类 AEC 协同",
+    "建筑文档/规格工具"
+   ],
+   "scene_tags": [
+    "建筑师工作空间",
+    "非设计工作自动化",
+    "规格/文档/协调",
+    "合规工作流",
+    "专业后台",
+    "AEC生产力"
+   ],
+   "archive": "companies/avoice.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 226,
