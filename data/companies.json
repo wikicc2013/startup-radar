@@ -12918,14 +12918,39 @@
    "subcategory": "",
    "one_liner_en": "Mimic users in production to catch agent failures",
    "one_liner_zh": "在生产环境模拟用户以捕捉智能体失败",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/ashr"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类 AI 评测/测试",
+    "大厂 Agent eval",
+    "软件测试向 AI 延伸"
+   ],
+   "scene_tags": [
+    "智能体测试",
+    "模拟用户",
+    "抓失败/幻觉",
+    "多模态评测",
+    "上线前测试",
+    "AI质量保障"
+   ],
+   "archive": "companies/ashr.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 363,
@@ -12937,14 +12962,39 @@
    "subcategory": "",
    "one_liner_en": "Find anyone in open source and across companies",
    "one_liner_zh": "在开源与各公司中找到任何人才",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/skillsync"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类协作编码/知识库",
+    "团队知识管理",
+    "coding agent 工具"
+   ],
+   "scene_tags": [
+    "协作编码",
+    "团队知识捕捉",
+    "共享记忆",
+    "工程知识沉淀",
+    "研发效能",
+    "coding agent"
+   ],
+   "archive": "companies/skillsync.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 364,
@@ -13706,14 +13756,45 @@
    "subcategory": "",
    "one_liner_en": "AI agents for back-office operations",
    "one_liner_zh": "后台运营的 AI 智能体",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B003"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC F25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/clicks"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "招聘/高管猎头公司（未具名）",
+     "confidence": "低",
+     "source_url": "https://www.ycombinator.com/companies/clicks"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类 BPO/共享服务",
+    "来也/影刀 RPA",
+    "财务/数据外包"
+   ],
+   "scene_tags": [
+    "AI原生BPO",
+    "后台运营",
+    "操作既有工具",
+    "合规(SOC2/HIPAA)",
+    "流程自动化",
+    "职能后台"
+   ],
+   "archive": "companies/clicks.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 384,
@@ -14033,14 +14114,39 @@
    "subcategory": "",
    "one_liner_en": "AI-powered legal platform for law firms",
    "one_liner_zh": "面向律所的 AI 法律平台",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B003"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC F25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.relaw.ai/"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "幂律智能/法大大——合同AI",
+    "WPS AI 法律场景",
+    "各类法律文档自动化"
+   ],
+   "scene_tags": [
+    "法律AI平台",
+    "Word内起草",
+    "会议记录",
+    "客户intake",
+    "文档自动化",
+    "法务后台"
+   ],
+   "archive": "companies/relaw.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 394,
@@ -14150,14 +14256,45 @@
    "subcategory": "",
    "one_liner_en": "Computer agents for finance operations",
    "one_liner_zh": "财务运营的电脑操作智能体",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B003"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "种子/早期",
+     "amount": "360 万美元",
+     "date": "2026-03",
+     "source_url": "https://www.ycombinator.com/companies/zalos"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "湾区财务经理（NetSuite 用户，公司信用卡对账，未具名）",
+     "confidence": "低",
+     "source_url": "https://www.ycombinator.com/companies/zalos"
+    }
+   ],
+   "cn_benchmarks": [
+    "用友/金蝶——财务软件",
+    "来也/影刀 RPA",
+    "财务共享中心"
+   ],
+   "scene_tags": [
+    "财务运营Agent",
+    "电脑操作",
+    "对账/分类",
+    "无需改系统",
+    "ERP自动化",
+    "职能后台"
+   ],
+   "archive": "companies/zalos.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 397,
@@ -14296,14 +14433,45 @@
    "subcategory": "",
    "one_liner_en": "AI patent intelligence for monetization",
    "one_liner_zh": "面向专利变现的 AI 专利情报",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B003"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC F25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/patent-watch"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "个人发明家到财富/全球 500 强（NDA，未具名）",
+     "confidence": "低",
+     "source_url": "https://www.ycombinator.com/companies/patent-watch"
+    }
+   ],
+   "cn_benchmarks": [
+    "智慧芽（PatSnap）——专利分析",
+    "incoPat——专利数据",
+    "知识产权运营机构"
+   ],
+   "scene_tags": [
+    "专利侵权检测",
+    "claim chart",
+    "专利变现",
+    "在先技术/无效",
+    "IP情报",
+    "法务后台"
+   ],
+   "archive": "companies/patent-watch.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 400,
@@ -14437,14 +14605,45 @@
    "subcategory": "",
    "one_liner_en": "AI-powered platform for legal workflow automation",
    "one_liner_zh": "法律工作流自动化的 AI 平台",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B003"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC F25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/lexi"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "200+ 机构与律所（未具名）",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/lexi"
+    }
+   ],
+   "cn_benchmarks": [
+    "幂律智能——合同AI",
+    "阿里/百度法律大模型",
+    "各类法务 SaaS"
+   ],
+   "scene_tags": [
+    "法律AI OS",
+    "合同redline",
+    "法律研究/起草",
+    "翻译",
+    "知识管理",
+    "法务后台"
+   ],
+   "archive": "companies/lexi.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 405,
@@ -14761,14 +14960,45 @@
    "subcategory": "",
    "one_liner_en": "AI research assistant for citation-backed writing",
    "one_liner_zh": "可溯源引用的 AI 科研写作助手",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B003"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC F25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/answerthis"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "20 万+ 研究者（未具名）",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/answerthis"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类文献工具（知网AI）",
+    "Elicit/Consensus 类",
+    "科研情报平台"
+   ],
+   "scene_tags": [
+    "科研文献",
+    "可溯源引用",
+    "文献综述",
+    "技术调研",
+    "研发情报",
+    "科研写作"
+   ],
+   "archive": "companies/answerthis.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 413,
@@ -14799,14 +15029,39 @@
    "subcategory": "",
    "one_liner_en": "AI agents for construction back-office",
    "one_liner_zh": "建筑后台的 AI 智能体",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B003"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC F25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/semble-ai"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "来也/影刀——RPA+AI",
+    "各类垂直运营 SaaS",
+    "制造运营数字化"
+   ],
+   "scene_tags": [
+    "定制运营Agent",
+    "制造/物流后台",
+    "既有工具集成",
+    "流程自动化",
+    "传统行业AI",
+    "职能后台"
+   ],
+   "archive": "companies/semble-ai.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 415,
@@ -14917,14 +15172,45 @@
    "subcategory": "",
    "one_liner_en": "AI back office for CPA firms",
    "one_liner_zh": "会计师事务所的 AI 后台",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B003"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC F25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/cranston-ai"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "约十来家事务所（未具名）",
+     "confidence": "低",
+     "source_url": "https://www.ycombinator.com/companies/cranston-ai"
+    }
+   ],
+   "cn_benchmarks": [
+    "慧算账/云账房——代账",
+    "金蝶/用友税务",
+    "各类税务 SaaS"
+   ],
+   "scene_tags": [
+    "AI税务",
+    "记账自动化",
+    "CPA事务所",
+    "报表准备",
+    "对账",
+    "财务后台"
+   ],
+   "archive": "companies/cranston-ai.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 420,
@@ -15919,14 +16205,39 @@
    "subcategory": "",
    "one_liner_en": "AI workforce for customer engagement",
    "one_liner_zh": "面向客户触达的 AI 数字员工",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B003"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC F25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/boom-ai"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类 SCRM/营销自动化",
+    "短信/WhatsApp 触达",
+    "电商挽回工具"
+   ],
+   "scene_tags": [
+    "电商AI增长",
+    "客户触达",
+    "营收挽回",
+    "多渠道对话",
+    "弃购挽回",
+    "数字员工"
+   ],
+   "archive": "companies/boom.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 448,
@@ -16016,14 +16327,39 @@
    "subcategory": "",
    "one_liner_en": "AI agents for back-office automation",
    "one_liner_zh": "后台自动化的 AI 智能体",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B003"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC F25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/mantle"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类 code search/RAG",
+    "编码 Agent 上下文",
+    "RPA 后台自动化"
+   ],
+   "scene_tags": [
+    "代码上下文搜索",
+    "潜空间搜索",
+    "编码Agent",
+    "后台自动化",
+    "研发效能",
+    "开发者工具"
+   ],
+   "archive": "companies/mantle.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 452,
@@ -16134,14 +16470,45 @@
    "subcategory": "",
    "one_liner_en": "AI-native residential appraisal network",
    "one_liner_zh": "AI 原生的住宅估价网络",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B003"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC F25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/automax-ai"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "全美大型估价机构（早期工具，未具名）",
+     "confidence": "低",
+     "source_url": "https://www.ycombinator.com/companies/automax-ai"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类房产估价/AVM",
+    "资产评估机构数字化",
+    "LiDAR 三维采集"
+   ],
+   "scene_tags": [
+    "AI房产估价",
+    "LiDAR+CV采集",
+    "合规估值报告",
+    "资产估值",
+    "valuation",
+    "金融后台"
+   ],
+   "archive": "companies/automax-ai.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 456,
@@ -16172,14 +16539,45 @@
    "subcategory": "",
    "one_liner_en": "AI Excel agent for advisors",
    "one_liner_zh": "面向顾问的 AI Excel 智能体",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B003"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC F25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/crunched"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "六个欧洲国家的公司（未具名）",
+     "confidence": "低",
+     "source_url": "https://www.ycombinator.com/companies/crunched"
+    }
+   ],
+   "cn_benchmarks": [
+    "WPS AI——表格 AI",
+    "各类 Excel copilot",
+    "金融建模工具"
+   ],
+   "scene_tags": [
+    "Excel AI分析师",
+    "财务建模",
+    "工作簿查错",
+    "数据提取链接",
+    "咨询/金融",
+    "知识工作"
+   ],
+   "archive": "companies/crunched.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 458,
