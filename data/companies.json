@@ -28810,14 +28810,39 @@
    "subcategory": "",
    "one_liner_en": "Autonomous browser agents for QA testing",
    "one_liner_zh": "面向 QA 测试的自主浏览器智能体",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B005"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "种子",
+     "amount": "$500K",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/propolis"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类自动化测试",
+    "云测/Testin",
+    "Ghostship/Docket 类"
+   ],
+   "scene_tags": [
+    "自主浏览器QA",
+    "Agent群协作",
+    "像真实用户",
+    "全流覆盖",
+    "带复现报告",
+    "AI基础设施"
+   ],
+   "archive": "companies/propolis.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 674,
@@ -29239,14 +29264,45 @@
    "subcategory": "",
    "one_liner_en": "AI diagnostics for engineering bottlenecks",
    "one_liner_zh": "面向工程瓶颈的 AI 诊断",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B005"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC X25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/mesmer"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "数百工程团队(首季度提效 2x+)",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/mesmer"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类研发效能/管理",
+    "思码逸/merico",
+    "Nivara/LinearB 类"
+   ],
+   "scene_tags": [
+    "工程管理OS",
+    "实时组织画像",
+    "瓶颈诊断",
+    "效能提升",
+    "CTO决策",
+    "职能后台"
+   ],
+   "archive": "companies/mesmer.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 683,
@@ -29547,14 +29603,39 @@
    "subcategory": "",
    "one_liner_en": "AI-driven solutions for data transformation",
    "one_liner_zh": "面向数据转换的 AI 方案",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B005"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "ARIA 资助(英国政府发明机构)",
+     "amount": "£2.5M",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/morphoai"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类生成式设计/CAD",
+    "国产 CAD(中望/华天)",
+    "拓扑优化/仿真"
+   ],
+   "scene_tags": [
+    "生成式硬件设计",
+    "机器人机械设计",
+    "任务约束到设计",
+    "研发周期减半",
+    "可制造验证",
+    "研发设计"
+   ],
+   "archive": "companies/morphoai.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 692,
@@ -29701,14 +29782,39 @@
    "subcategory": "",
    "one_liner_en": "Scalable GPU-era Spark and SQL",
    "one_liner_zh": "面向 GPU 时代的可扩展 Spark 与 SQL",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B005"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC X25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/paraquery"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类数据仓库/Spark",
+    "阿里 MaxCompute/腾讯",
+    "Databricks/BigQuery"
+   ],
+   "scene_tags": [
+    "GPU加速数据仓库",
+    "Spark/SQL兼容",
+    "2x速度半价",
+    "无需迁移",
+    "大数据分析",
+    "AI基础设施"
+   ],
+   "archive": "companies/paraquery.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 696,
@@ -29720,14 +29826,45 @@
    "subcategory": "",
    "one_liner_en": "Live environments for AI agent training",
    "one_liner_zh": "面向 AI 智能体训练的实时环境",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B005"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC X25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/klavis-ai"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "前沿 AI 实验室(未具名)",
+     "confidence": "低",
+     "source_url": "https://www.ycombinator.com/companies/klavis-ai"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类 Agent 环境/MCP",
+    "阿里/腾讯 Agent 平台",
+    "工具使用数据"
+   ],
+   "scene_tags": [
+    "Agent训练环境",
+    "MCP环境",
+    "长程工具使用",
+    "工具选择引导",
+    "agentic数据",
+    "AI基础设施"
+   ],
+   "archive": "companies/klavis-ai.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 697,
@@ -29890,14 +30027,39 @@
    "subcategory": "",
    "one_liner_en": "RL environments for frontier model training",
    "one_liner_zh": "面向前沿模型训练的强化学习环境",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B005"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC X25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/jazzberry"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类 RL 环境/训练",
+    "强化学习平台",
+    "Klavis/RunRL 类"
+   ],
+   "scene_tags": [
+    "强化学习环境",
+    "前沿模型训练",
+    "可验证任务",
+    "bug排查Agent",
+    "形式化方法",
+    "AI基础设施"
+   ],
+   "archive": "companies/jazzberry.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 701,
@@ -30016,14 +30178,45 @@
    "subcategory": "",
    "one_liner_en": "AI-native product analytics from session replays",
    "one_liner_zh": "基于回放录像的 AI 原生产品分析",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B005"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "种子",
+     "amount": "$5M",
+     "date": "2025",
+     "source_url": "https://techcrunch.com/2025/09/03/these-20-and-22-year-olds-raised-5m-from-yc-general-catalyst-to-study-online-behavior-using-vision-ai/"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "快速成长的 A/B 轮创业公司(未具名)",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/human-behavior"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类产品分析/会话回放",
+    "神策/GrowingIO",
+    "诸葛IO/Hotjar 类"
+   ],
+   "scene_tags": [
+    "产品分析",
+    "视觉AI看回放",
+    "免埋点",
+    "转化留存洞察",
+    "增长",
+    "营销销售客服"
+   ],
+   "archive": "companies/human-behavior.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 704,
@@ -30035,14 +30228,39 @@
    "subcategory": "",
    "one_liner_en": "Autonomous QA agent for mobile apps",
    "one_liner_zh": "面向移动应用的自主 QA 智能体",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B005"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC X25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/qualgent"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类移动测试/云真机",
+    "WeTest/Testin",
+    "Autosana 类"
+   ],
+   "scene_tags": [
+    "自主移动QA",
+    "云端真机",
+    "像真人测试",
+    "自愈",
+    "全生命周期",
+    "AI基础设施"
+   ],
+   "archive": "companies/qualgent.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 705,
@@ -30566,14 +30784,39 @@
    "subcategory": "",
    "one_liner_en": "Reinforcement learning for LLM improvement",
    "one_liner_zh": "面向 LLM 提升的强化学习",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B005"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC X25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/runrl"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类模型微调/RL",
+    "强化学习平台",
+    "LLaMA-Factory 类"
+   ],
+   "scene_tags": [
+    "RL微调",
+    "专家模型",
+    "小模型胜前沿",
+    "即服务",
+    "专业AI",
+    "AI基础设施"
+   ],
+   "archive": "companies/runrl.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 718,
@@ -30868,14 +31111,39 @@
    "subcategory": "",
    "one_liner_en": "AI agents for people intelligence",
    "one_liner_zh": "面向人脉情报的 AI 智能体",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B005"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC X25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/sixtyfour"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类企业/人脉情报",
+    "企查查/天眼查",
+    "Clay/ZoomInfo 类"
+   ],
+   "scene_tags": [
+    "人脉实体情报",
+    "跨源调查",
+    "实体解析关系映射",
+    "销售研究工作流",
+    "B端拓客",
+    "营销销售客服"
+   ],
+   "archive": "companies/sixtyfour.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 726,
@@ -30887,14 +31155,39 @@
    "subcategory": "",
    "one_liner_en": "AI tool for building custom internal software",
    "one_liner_zh": "面向定制内部软件的 AI 工具",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B005"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC X25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/odapt"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类低代码/内部工具",
+    "钉钉宜搭/腾讯微搭",
+    "Retool 类"
+   ],
+   "scene_tags": [
+    "AI内部工具",
+    "大白话搭建",
+    "连现有系统",
+    "agentic工作流",
+    "职能自助",
+    "职能后台"
+   ],
+   "archive": "companies/odapt.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 727,
@@ -31215,14 +31508,39 @@
    "subcategory": "",
    "one_liner_en": "Specialized post-training for production agents",
    "one_liner_zh": "面向生产级智能体的专用后训练",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B005"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "种子",
+     "amount": "$3.6M",
+     "date": "2025",
+     "source_url": "https://startupintros.com/orgs/the-llm-data-company"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类后训练/评估",
+    "模型评估平台",
+    "Sylvian/Klavis 类"
+   ],
+   "scene_tags": [
+    "专用后训练",
+    "帕累托占优专家",
+    "评估工作区doteval",
+    "关键领域",
+    "低成本胜前沿",
+    "AI基础设施"
+   ],
+   "archive": "companies/the-llm-data-company.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 735,
@@ -31234,14 +31552,39 @@
    "subcategory": "",
    "one_liner_en": "Agentic AI for complex risk decisions",
    "one_liner_zh": "面向复杂风险决策的智能体 AI",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B005"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC X25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/parsewise"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类文档智能/IDP",
+    "合合信息/达观数据",
+    "KYC/风控自动化"
+   ],
+   "scene_tags": [
+    "风险文档处理",
+    "多文档到决策",
+    "风控合规",
+    "Agent监督可追溯",
+    "供应商尽调",
+    "职能后台"
+   ],
+   "archive": "companies/parsewise.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 736,
@@ -31297,14 +31640,45 @@
    "subcategory": "",
    "one_liner_en": "QA platform for AI agents",
    "one_liner_zh": "面向 AI 智能体的 QA 平台",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B005"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "种子",
+     "amount": "$4M",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/bluejay"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "Google、11x、Zocdoc",
+     "confidence": "高",
+     "source_url": "https://www.ycombinator.com/companies/bluejay"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类对话/语音测试",
+    "语音质检",
+    "Coval 类"
+   ],
+   "scene_tags": [
+    "语音AgentQA",
+    "数字人客户模拟",
+    "压缩时间测试",
+    "全指标评估",
+    "对话质量",
+    "AI基础设施"
+   ],
+   "archive": "companies/bluejay.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 738,
