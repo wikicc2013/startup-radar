@@ -79,14 +79,39 @@
    "subcategory": "",
    "one_liner_en": "Autonomous customer operations",
    "one_liner_zh": "自主化客户运营",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC X26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/akkari"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "销售易/纷享销客——CRM+客户运营",
+    "循环智能——对话智能",
+    "智齿/网易七鱼——客服工单"
+   ],
+   "scene_tags": [
+    "客户运营自动化",
+    "客户成功",
+    "全渠道监听",
+    "承诺追踪",
+    "续约扩张",
+    "RevOps"
+   ],
+   "archive": "companies/akkari.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 2,
@@ -136,14 +161,38 @@
    "subcategory": "",
    "one_liner_en": "The first AI founder: a virtual human who runs his own companies",
    "one_liner_zh": "首位 AI 创始人：自己经营公司的虚拟人",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC X26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/thomas"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类自主 Agent 框架（国内大模型厂商的 agent）",
+    "AI 数字员工/数字人创业",
+    "RPA+LLM 自动化厂商"
+   ],
+   "scene_tags": [
+    "自主AI创始人",
+    "autonomous agent",
+    "AI自营业务",
+    "数字人",
+    "前沿实验"
+   ],
+   "archive": "companies/thomas.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 5,
@@ -155,14 +204,44 @@
    "subcategory": "Finance",
    "one_liner_en": "Your public equities agentic teammate",
    "one_liner_zh": "你的二级市场股票智能体队友",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC X26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/cohesion"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "10+ 基本面股票基金（合计 AUM $10Bn+，未具名）",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/cohesion"
+    }
+   ],
+   "cn_benchmarks": [
+    "同花顺/万得——金融数据与研究",
+    "AlphaSense 类投研工具",
+    "通联数据——AI 投研"
+   ],
+   "scene_tags": [
+    "投资研究自动化",
+    "多源信息合成",
+    "市场情报",
+    "知识工作自动化",
+    "竞对情报"
+   ],
+   "archive": "companies/cohesion.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 6,
@@ -338,14 +417,65 @@
    "subcategory": "",
    "one_liner_en": "Full-stack AI agents accelerating biopharma R&D",
    "one_liner_zh": "加速生物制药研发的全栈 AI 智能体",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC X26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/enjamb-labs"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "Johnson & Johnson",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/enjamb-labs"
+    },
+    {
+     "name": "AbbVie",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/enjamb-labs"
+    },
+    {
+     "name": "Bristol Myers Squibb",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/enjamb-labs"
+    },
+    {
+     "name": "Merck",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/enjamb-labs"
+    },
+    {
+     "name": "Sanofi",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/enjamb-labs"
+    }
+   ],
+   "cn_benchmarks": [
+    "晶泰科技/英矽智能——AI 制药",
+    "太美医疗——临床试验数字化",
+    "药明康德数字化——CRO"
+   ],
+   "scene_tags": [
+    "AI制药",
+    "药物研发全流程",
+    "临床试验设计",
+    "监管文档自动化",
+    "证据合成",
+    "遗留系统接入"
+   ],
+   "archive": "companies/enjamb-labs.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 13,
@@ -512,14 +642,55 @@
    "subcategory": "",
    "one_liner_en": "AI agents for property management",
    "one_liner_zh": "物业管理 AI 智能体",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC X26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/centralcoms"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "Nvidia",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/centralcoms"
+    },
+    {
+     "name": "Cushman & Wakefield",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/centralcoms"
+    },
+    {
+     "name": "NASA JPL",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/centralcoms"
+    }
+   ],
+   "cn_benchmarks": [
+    "万物云/明源云——物业管理数字化",
+    "蘑菇物联——设备后勤 IoT",
+    "各类工单/EAM 系统"
+   ],
+   "scene_tags": [
+    "物业管理AI",
+    "设施维修协调",
+    "派单/验收自动化",
+    "既有系统集成",
+    "后勤运营",
+    "工单自动化"
+   ],
+   "archive": "companies/centralcoms.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 19,
@@ -672,14 +843,39 @@
    "subcategory": "",
    "one_liner_en": "Agents that accelerate clinical trials",
    "one_liner_zh": "加速临床试验的智能体",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC X26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/astraea"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "太美医疗——临床数据管理",
+    "泰格医药数字化——CRO",
+    "经方医药等生物统计服务"
+   ],
+   "scene_tags": [
+    "临床生物统计",
+    "CDISC/SDTM自动化",
+    "监管产出自动化",
+    "QC工作流",
+    "药物研发",
+    "合规文档自动化"
+   ],
+   "archive": "companies/astraea.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 25,
@@ -869,14 +1065,45 @@
    "subcategory": "",
    "one_liner_en": "AI recruiters for staffing agencies",
    "one_liner_zh": "面向人力中介的 AI 招聘官",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC X26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/asendia-ai"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "美国头部人力中介（未具名）",
+     "confidence": "低",
+     "source_url": "https://www.ycombinator.com/companies/asendia-ai"
+    }
+   ],
+   "cn_benchmarks": [
+    "Moka/北森——招聘 HR SaaS",
+    "智联/BOSS 直聘 AI 招聘",
+    "近屿智能等 AI 面试"
+   ],
+   "scene_tags": [
+    "AI招聘官",
+    "HR自动化",
+    "候选人寻源筛选",
+    "全渠道触达",
+    "蓝领招聘",
+    "人力中介"
+   ],
+   "archive": "companies/asendia-ai.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 30,
@@ -951,14 +1178,39 @@
    "subcategory": "Finance",
    "one_liner_en": "AI agents that automate SOX control testing",
    "one_liner_zh": "自动化 SOX 内控测试的 AI 智能体",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC X26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/arden"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "致同/慧算账等审计数字化",
+    "用友/金蝶内控模块",
+    "各类 GRC/内控软件"
+   ],
+   "scene_tags": [
+    "内审自动化",
+    "SOX内控测试",
+    "审计取证",
+    "工作底稿生成",
+    "财务合规",
+    "GRC"
+   ],
+   "archive": "companies/arden.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 33,
@@ -1008,14 +1260,45 @@
    "subcategory": "",
    "one_liner_en": "Brand layer for AI-native commerce",
    "one_liner_zh": "AI 原生电商的品牌层",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC X26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/kinect"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "11 家（健康/时尚/运动/消费品，未具名）",
+     "confidence": "低",
+     "source_url": "https://www.ycombinator.com/companies/kinect"
+    }
+   ],
+   "cn_benchmarks": [
+    "阿里星辰/京东言犀——电商 AI 导购",
+    "各类 SCRM/智能客服导购",
+    "品牌 GEO/AI 搜索优化新锐"
+   ],
+   "scene_tags": [
+    "AI电商导购",
+    "品牌数据层",
+    "GEO生成引擎优化",
+    "实时商品页",
+    "AI原生电商",
+    "消费品牌"
+   ],
+   "archive": "companies/kinect.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 36,
@@ -1501,14 +1784,38 @@
    "subcategory": "Productivity",
    "one_liner_en": "The first AI-native AI research lab",
    "one_liner_zh": "首个 AI 原生的 AI 研究实验室",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC X26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/asterlab"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各大模型厂商的 multi-agent 研究",
+    "AI-for-Science 新锐",
+    "科研自动化平台"
+   ],
+   "scene_tags": [
+    "自主研究实验室",
+    "多智能体编排",
+    "开放式研究",
+    "AI科学家",
+    "研发自动化前沿"
+   ],
+   "archive": "companies/aster.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 49,
@@ -1520,14 +1827,39 @@
    "subcategory": "",
    "one_liner_en": "Let AI sell your stuff on autopilot",
    "one_liner_zh": "让 AI 自动帮你卖货",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC X26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/amboras"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "店匠/SHOPLINE——独立站 SaaS",
+    "易仓/店小秘——跨境电商",
+    "各类 CRO/AI 建站工具"
+   ],
+   "scene_tags": [
+    "AI原生电商",
+    "自主建站",
+    "转化优化CRO",
+    "自动A/B测试",
+    "独立站",
+    "出海DTC"
+   ],
+   "archive": "companies/amboras.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 50,
@@ -1539,14 +1871,39 @@
    "subcategory": "",
    "one_liner_en": "Forward-deployed AI agents",
    "one_liner_zh": "前置部署的 AI 智能体",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC X26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/hessian"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "来也科技/影刀——RPA+AI",
+    "实在智能——Agent RPA",
+    "各类流程挖掘+自动化"
+   ],
+   "scene_tags": [
+    "业务运营自动化",
+    "前置部署FDE",
+    "定制AI Agent",
+    "流程自动化",
+    "跨系统操作",
+    "后台数字化"
+   ],
+   "archive": "companies/hessian.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 51,
@@ -1925,14 +2282,45 @@
    "subcategory": "",
    "one_liner_en": "Self-healing prompt injection defense",
    "one_liner_zh": "自愈式提示词注入防御",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC X26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/silmaril"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "头部生产力/分析/法律公司（未具名）",
+     "confidence": "低",
+     "source_url": "https://www.ycombinator.com/companies/silmaril"
+    }
+   ],
+   "cn_benchmarks": [
+    "蚁盾/瑞莱智慧——AI 安全",
+    "各大模型厂商的安全护栏",
+    "传统安全厂商向 AI 延伸"
+   ],
+   "scene_tags": [
+    "AI运行时安全",
+    "提示注入防御",
+    "自愈式防御",
+    "Agent安全护栏",
+    "越权防护",
+    "AI安全治理"
+   ],
+   "archive": "companies/silmaril.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 64,
@@ -2087,14 +2475,39 @@
    "subcategory": "Productivity",
    "one_liner_en": "The cloud agent operating system for knowledge work",
    "one_liner_zh": "面向知识工作的云端智能体操作系统",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "早期（USV、Lightspeed、Jeff Dean、Collison 兄弟等）",
+     "amount": "2000 万美元",
+     "date": "2026",
+     "source_url": "https://sacra.com/c/tasklet/"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "影刀/来也——RPA+AI",
+    "钉钉 AI 助理/飞书多维表自动化",
+    "各类 iPaaS+AI"
+   ],
+   "scene_tags": [
+    "知识工作自动化",
+    "云端Agent OS",
+    "自然语言自动化",
+    "跨工具集成",
+    "邮件/报表/CRM自动化",
+    "无代码Agent"
+   ],
+   "archive": "companies/tasklet.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 69,
