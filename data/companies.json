@@ -9003,14 +9003,41 @@
    "subcategory": "",
    "one_liner_en": "Custom aerospace-grade battery pack factory",
    "one_liner_zh": "定制航天级电池包工厂",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-11",
+   "funding": [
+    {
+     "round": "Y Combinator（W26）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/kyten-technologies"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "亿纬锂能 / 欣旺达等 PACK 及特种电池能力（工业与特种场景定制电池包，但航天级鉴定与周级定制交付非其主线）",
+    "国内航天电源体系（如航天科技/科工旗下电源院所、上海空间电源研究所 811 所等——航天级电池权威，但体制内、周期长，正是 Kyten 对标要颠覆的『legacy 供应链』角色）",
+    "低空/无人机电源与 PACK 厂（如格瑞普 GREPOW、道通/大疆生态供应商等，做无人机高倍率电池包，接近『多品种快交付』形态但航天鉴定级别不同）"
+   ],
+   "scene_tags": [
+    "航天级电池包",
+    "定制电源快交付",
+    "自适应/平台化架构",
+    "软件定义制造",
+    "自建鉴定测试",
+    "多品种小批量柔性量产",
+    "无人机/潜航器/卫星电源",
+    "低空经济供应链"
+   ],
+   "archive": "companies/kyten-technologies.md",
+   "researched_at": "2026-07-11",
+   "research_status": "researched"
   },
   {
    "num": 308,
@@ -9391,14 +9418,41 @@
    "subcategory": "",
    "one_liner_en": "AI-powered uranium exploration",
    "one_liner_zh": "AI 铀矿勘探",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-11",
+   "funding": [
+    {
+     "round": "YC W26 + 种子（pre-seed/seed，早期）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/terranox-ai"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "东方地球物理（BGP，中石油旗下）——物探数据采集处理龙头，正推进 AI 地震资料解释与智能勘探，是「传统物探 + AI」的国内主力，但未做铀矿垂直整合创业",
+    "中核集团 / 核工业北京地质研究院——国内铀矿勘查国家队，掌握找矿模型与数据，AI 化多在体制内推进，非市场化 AI 公司",
+    "矿冶科技集团 / 部分高校地质 AI 团队（如中国地质大学成矿预测方向）——做 AI 成矿预测、大数据找矿，多为科研或服务性质，缺 Terranox 式「AI 团队自营勘探资产」的商业闭环"
+   ],
+   "scene_tags": [
+    "AI找矿",
+    "成矿潜力制图",
+    "多模态地学数据",
+    "序贯决策优化",
+    "勘探数据结构化",
+    "垂直整合资源开发",
+    "数据飞轮",
+    "核燃料上游"
+   ],
+   "archive": "companies/terranox-ai.md",
+   "researched_at": "2026-07-11",
+   "research_status": "researched"
   },
   {
    "num": 323,
@@ -9410,14 +9464,58 @@
    "subcategory": "",
    "one_liner_en": "Energy OS for reliable, cheap, sustainable electricity",
    "one_liner_zh": "让电力可靠、便宜、可持续的能源操作系统",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-11",
+   "funding": [
+    {
+     "round": "YC W26（加速器）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/condor-energy"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "一家头部数据中心运营商（a leading data center operator，未具名）",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/condor-energy"
+    },
+    {
+     "name": "大型零售连锁（large retail chains，未具名）",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/condor-energy"
+    },
+    {
+     "name": "欧洲工业企业（European industrial companies，未具名）",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/condor-energy"
+    }
+   ],
+   "cn_benchmarks": [
+    "远景智能 EnOS（工商业能碳管理/能源物联平台，侧重能源资产接入与能碳）",
+    "国网系/南网系虚拟电厂与需求响应平台（用电柔性聚合与调度，偏电网侧）",
+    "朗新科技/恒华/远光等能源 IT（电力营销与能源管理软件）",
+    "特斯联/协鑫能科等综合能源服务商的能碳管理 SaaS"
+   ],
+   "scene_tags": [
+    "企业能源采购",
+    "电力套保对冲",
+    "工商业能源管理EMS",
+    "数据中心用能优化",
+    "表后储能光伏投资规划",
+    "用电柔性/需求响应",
+    "PPA绿电合同管理",
+    "能源OS/决策支持"
+   ],
+   "archive": "companies/condor-energy.md",
+   "researched_at": "2026-07-11",
+   "research_status": "researched"
   },
   {
    "num": 324,
@@ -9657,14 +9755,43 @@
    "subcategory": "",
    "one_liner_en": "Building the first hotel on the Moon",
    "one_liner_zh": "建造月球上的第一家酒店",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-11",
+   "funding": [
+    {
+     "round": "YC W26 + 天使",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/galactic-resource-utilization-space-inc-gru-space"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "华中科技大学丁烈云院士团队「月壶尊/超级泥瓦匠」——月壤原位 3D 打印建造，随嫦娥八号（规划 2028 前后）开展月面原位建造实验，是国内月壤原位建造最直接对标",
+    "中国探月工程 / 嫦娥八号国际月球科研站（ILRS）——月面基础设施与原位资源利用国家级路线",
+    "深蓝航天 / 蓝箭航天 / 星际荣耀——商业可回收火箭与运载，对标 GRU 上游所依赖的低成本落月运力（GRU 本身不造火箭）",
+    "东方空间 / 中科宇航——商业运载与载荷交付",
+    "地表侧：中建/中材等地聚合物混凝土、免烧砖与固废资源化产线——GRU「月壤地聚合物制砖」在地球的成熟工程镜像"
+   ],
+   "scene_tags": [
+    "原位资源利用ISRU",
+    "地聚合物免烧固化",
+    "就地增材建造",
+    "可充气可展开结构",
+    "工厂预制现场部署",
+    "数字孪生工艺验证",
+    "固废/本地散料资源化",
+    "极端环境制造"
+   ],
+   "archive": "companies/galactic-resource-utilization-space.md",
+   "researched_at": "2026-07-11",
+   "research_status": "researched"
   },
   {
    "num": 337,
@@ -9676,14 +9803,47 @@
    "subcategory": "",
    "one_liner_en": "Space solar arrays that grow to football-field size in orbit",
    "one_liner_zh": "在轨可展开至足球场大小的太空太阳能阵列",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-11",
+   "funding": [
+    {
+     "round": "Pre-seed / YC W26",
+     "amount": "未披露",
+     "date": "2026-01",
+     "source_url": "https://www.ycombinator.com/companies/beyond-reach-labs"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "多家航天公司（意向书 LOI，合计逾 1.75 亿美元，未具名）",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/launches/PUY-beyond-reach-labs-solar-panels-in-space-the-size-of-football-fields"
+    }
+   ],
+   "cn_benchmarks": [
+    "银河航天（GalaxySpace）——已实现卫星柔性可折叠太阳翼（灵犀03星等），量产型低轨卫星平台",
+    "中国空间技术研究院（航天五院）/航天八院——卫星大型可展开太阳翼、空间大型结构主力研制单位",
+    "重庆大学「逐日工程」、西安电子科技大学「逐日工程 ESP」——空间太阳能电站地面验证系统，聚焦大尺度在轨发电与无线传能",
+    "钙钛矿/柔性光伏（纤纳光电、协鑫光电等）——地面柔性/轻质光伏，非空间用，仅在『柔性高比功率』维度可类比"
+   ],
+   "scene_tags": [
+    "可展开结构",
+    "空间太阳能",
+    "柔性太阳翼",
+    "在轨数据中心供电",
+    "高收纳比机构",
+    "折纸/剪式桁架",
+    "商业航天硬件"
+   ],
+   "archive": "companies/beyond-reach-labs.md",
+   "researched_at": "2026-07-11",
+   "research_status": "researched"
   },
   {
    "num": 338,
@@ -10009,14 +10169,41 @@
    "subcategory": "",
    "one_liner_en": "Robots that run autonomous depots for autonomous fleets",
    "one_liner_zh": "为自动驾驶车队运营无人站点的机器人",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-11",
+   "funding": [
+    {
+     "round": "YC W26（加速器批次）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/robodock"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "国自机器人/新松等 AGV·AMR 厂商的自动充电对接方案（工业车辆自动补能，属产线内运维自动化，但多为专机专用而非通用巡检）",
+    "优艾智合/斯坦德等工业移动机器人运维平台（做机队调度与状态监控，偏软件与调度，硬件级『代人插枪+热成像点检』尚不重合）",
+    "始途科技/挚途等自动驾驶（矿卡/港口/干线）车队方，其站点补能与车辆点检需求与 RoboDock 场景直接对标",
+    "面向 EV 的自动充电机器人（如国内充电机械臂/自动充电桩创业，解决『代人插枪』，但少了统一的行程后检闭环）"
+   ],
+   "scene_tags": [
+    "车队站点运维自动化",
+    "自动充电对接",
+    "行程后自动巡检",
+    "视觉+热成像点检",
+    "零改造retrofit",
+    "设备补能无人化",
+    "车辆在线率uptime"
+   ],
+   "archive": "companies/robodock.md",
+   "researched_at": "2026-07-11",
+   "research_status": "researched"
   },
   {
    "num": 350,
@@ -10028,14 +10215,41 @@
    "subcategory": "",
    "one_liner_en": "Energy-independent data centers with solar & reused batteries",
    "one_liner_zh": "用光伏与梯次电池实现能源自给的数据中心",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-11",
+   "funding": [
+    {
+     "round": "Seed（含 YC 标准投资）",
+     "amount": "约 $12M（聚合源 startuphub/thesaasnews 标注，因与同名工业安全 AI 公司 Voxel 存在混淆风险，仅中低置信；官方一手金额未披露）",
+     "date": "未披露（YC W26，2026 初）",
+     "source_url": "https://www.startuphub.ai/startups/voxel-energy"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "阳光电源 / 华为数字能源——光储一体与数据中心供电、储能变流器与微电网，绿电供数据中心的主力方案商",
+    "宁德时代（含时代电服/换电与梯次业务）、比亚迪——梯次 EV 电池与储能系统的最大潜在供给方",
+    "格林美 / 邦普 / 天奇股份——动力电池回收与梯次利用产业链，对应 Voxel『二手电池再利用』的上游",
+    "秦淮数据 / 万国数据 / 世纪互联——绿电/自建电源数据中心运营，对标其『Power-included 数据中心』商业形态"
+   ],
+   "scene_tags": [
+    "离网数据中心",
+    "光储微电网",
+    "梯次EV电池",
+    "DC直流微电网",
+    "time-to-power",
+    "behind-the-meter供电",
+    "算力园区自供电"
+   ],
+   "archive": "companies/voxel-energy.md",
+   "researched_at": "2026-07-11",
+   "research_status": "researched"
   },
   {
    "num": 351,
@@ -10345,14 +10559,51 @@
    "subcategory": "",
    "one_liner_en": "Manipulate-anything robots",
    "one_liner_zh": "能抓取任意物体的机器人",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-11",
+   "funding": [
+    {
+     "round": "未披露（YC W26 在营，通常含 YC 标准投资）",
+     "amount": "未披露",
+     "date": "",
+     "source_url": "https://www.ycombinator.com/companies/origami-robotics"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "Amazon（作为 Physical AI Lab 客户采购其机器手）",
+     "confidence": "中",
+     "source_url": "https://www.startuphub.ai/ai-news/claudes-corner/2026/claudes-corner-origami-robotics-yc-w2026"
+    },
+    {
+     "name": "RLWRLD（创始人称已向其售出机器手；名称拼写以官方为准）",
+     "confidence": "低",
+     "source_url": "https://www.ycombinator.com/launches/Pcl-origami-robotics-make-ai-to-learn-physical-skills-easier-than-ever"
+    }
+   ],
+   "cn_benchmarks": [
+    "因时机器人 RobotEra/因时（灵巧手硬件本体，国产腱驱/直驱路线，供研究与工业集成）",
+    "强脑 BrainCo / 傲意 OYMotion（灵巧手硬件与手部数据/肌电采集）",
+    "智元机器人、宇树（具身智能整机，含灵巧操作与真实数据采集飞轮）",
+    "银河通用 / 星海图 / 千寻智能等具身操作模型公司（做通用操作策略与数据驱动 manipulation）"
+   ],
+   "scene_tags": [
+    "灵巧手操作",
+    "具身智能数据采集",
+    "人手示范迁移",
+    "通用操作模型",
+    "工厂/物流真实数据飞轮",
+    "直驱关节电机"
+   ],
+   "archive": "companies/origami-robotic.md",
+   "researched_at": "2026-07-11",
+   "research_status": "researched"
   },
   {
    "num": 366,
@@ -10406,14 +10657,39 @@
    "subcategory": "",
    "one_liner_en": "Radars for end-to-end autonomy",
    "one_liner_zh": "面向端到端自动驾驶的雷达",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-11",
+   "funding": [
+    {
+     "round": "Seed（含 YC W26 标准投资）",
+     "amount": "约 500K 美元（第三方估算，疑即 YC 标准投资，未经一手确认）",
+     "date": "2026-01（Tracxn 记为 2026-01-01）",
+     "source_url": "https://tracxn.com/d/companies/congruent/__emlZnY8CVdRf7jwCQ9reIs2gcIa2alJyAHae_pzk0uI"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "4D 毫米波成像雷达赛道：如 Arbe（以色列）在华的对标——国内木牛科技、几何伙伴、华域汽车、森思泰克（Sensortech）、承泰科技、楚航科技等 4D 成像雷达/车载雷达厂商",
+    "自动驾驶感知/世界模型仿真：如毫末智行、地平线、以及做自动驾驶仿真的 51WORLD、腾讯 TAD Sim 等（对标其世界模型雷达仿真器一侧）"
+   ],
+   "scene_tags": [
+    "AI原生传感器",
+    "4D毫米波雷达",
+    "端到端自动驾驶",
+    "世界模型仿真",
+    "原始数据可训练化",
+    "多传感器融合",
+    "车规级感知硬件"
+   ],
+   "archive": "companies/congruent.md",
+   "researched_at": "2026-07-11",
+   "research_status": "researched"
   },
   {
    "num": 368,
@@ -10444,14 +10720,69 @@
    "subcategory": "",
    "one_liner_en": "AI benchmarks that measure general intelligence",
    "one_liner_zh": "衡量通用智能的 AI 基准测试",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-11",
+   "funding": [
+    {
+     "round": "非营利捐赠/赞助（Nonprofit donations & sponsorship）",
+     "amount": "未披露",
+     "date": "2025-01 起募资",
+     "source_url": "https://arcprize.org/donate"
+    },
+    {
+     "round": "AI 实验室赞助（支持 ARC-AGI-3）",
+     "amount": "未披露（5 家前沿 AI 实验室赞助，含 xAI、Google 等）",
+     "date": "2025",
+     "source_url": "https://arcprize.org/blog/arc-prize-2025"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "OpenAI",
+     "confidence": "高",
+     "source_url": "https://arcprize.org/arc-agi"
+    },
+    {
+     "name": "Anthropic",
+     "confidence": "高",
+     "source_url": "https://arcprize.org/arc-agi"
+    },
+    {
+     "name": "Google DeepMind",
+     "confidence": "高",
+     "source_url": "https://arcprize.org/arc-agi"
+    },
+    {
+     "name": "xAI",
+     "confidence": "高",
+     "source_url": "https://arcprize.org/blog/arc-prize-2025"
+    }
+   ],
+   "cn_benchmarks": [
+    "SuperCLUE（中文通用大模型综合评测榜，含推理/安全等多维，最接近的中立第三方评测定位）",
+    "C-Eval / CMMLU（中文知识与学科能力基准，偏知识记忆，与 ARC 抗知识依赖取向相反，恰成对照）",
+    "OpenCompass（上海人工智能实验室司南评测体系，多任务多模态开源评测底座，接近『评测基础设施』定位）",
+    "FlagEval（智源研究院大模型评测平台）"
+   ],
+   "scene_tags": [
+    "评测基准",
+    "能力评估",
+    "AGI 度量",
+    "流体智能/泛化",
+    "私有评测集抗数据污染",
+    "AI 竞赛众筹研究",
+    "智能体交互式评测",
+    "非营利治理独立性"
+   ],
+   "archive": "companies/arc-prize-foundation.md",
+   "researched_at": "2026-07-11",
+   "research_status": "researched"
   },
   {
    "num": 370,
@@ -10463,14 +10794,51 @@
    "subcategory": "",
    "one_liner_en": "Robotics & vision to automate fish farming",
    "one_liner_zh": "用机器人与视觉自动化养鱼",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-11",
+   "funding": [
+    {
+     "round": "YC W26（种子前/加速器）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/octapulse"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "Riverence（北美最大鳟鱼生产商，美国爱达荷州）",
+     "confidence": "高",
+     "source_url": "https://www.ycombinator.com/companies/octapulse"
+    },
+    {
+     "name": "另两家养殖场（2026 年初计划部署，未具名）",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/octapulse"
+    }
+   ],
+   "cn_benchmarks": [
+    "国内智慧渔业/水产 AI 视觉：如以水下摄像+AI 做鱼群计数、生物量估算、投喂决策与病害识别的一批企业（对标其「养殖过程 AI 视觉」定位，但多聚焦成鱼养殖水面/水下监测，较少切入孵化场表型与畸形检验这一细分）",
+    "农业/食品机器视觉分级：国内果蔬/水产/禽蛋的机器视觉自动分级、缺陷剔除产线设备商（对标其「以 CV 替代人工分级质检」的工艺环节）",
+    "工业机器视觉质检厂商：如做工业缺陷检测的 AI 视觉公司（对标其底层技术栈——CV 缺陷/形态识别 + 机械臂/产线集成）"
+   ],
+   "scene_tags": [
+    "机器视觉质检",
+    "自动分级/表型",
+    "缺陷早筛",
+    "水产养殖自动化",
+    "孵化场QA/QC",
+    "农业机器人",
+    "生命周期数据化"
+   ],
+   "archive": "companies/octapulse.md",
+   "researched_at": "2026-07-11",
+   "research_status": "researched"
   },
   {
    "num": 371,
@@ -10583,14 +10951,46 @@
    "subcategory": "",
    "one_liner_en": "Robot cowboys that herd cattle with AI drones",
    "one_liner_zh": "用 AI 无人机放牧的机器人牛仔",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-11",
+   "funding": [
+    {
+     "round": "Pre-seed",
+     "amount": "1,200,000 美元",
+     "date": "2026-01",
+     "source_url": "https://agfundernews.com/robot-cowboys-grazemate-bets-on-fully-autonomous-cattle-mustering-drones"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "昆士兰 + 新南威尔士两座试点农场（合计约 170 万英亩，每周驱赶数千头牛；农场名未披露）",
+     "confidence": "中",
+     "source_url": "https://agfundernews.com/robot-cowboys-grazemate-bets-on-fully-autonomous-cattle-mustering-drones"
+    }
+   ],
+   "cn_benchmarks": [
+    "极飞科技 XAG（农业无人机龙头，播撒/植保/测绘，向智慧农业平台延伸，但主攻种植而非畜牧驱赶）",
+    "大疆农业 DJI Agriculture（GrazeMate 硬件即用 DJI，国内农业无人机基础设施提供方）",
+    "丰疆智能/中科原动力等农机自动驾驶（自主农机作业，场景相邻）",
+    "智慧畜牧类：京东农牧/阿里数字农业的养殖数字化、以及睿畜科技（畜牧 IoT+AI 监测体重/健康，偏舍饲监测而非草原驱赶）"
+   ],
+   "scene_tags": [
+    "自主放牧无人机",
+    "强化学习群体控制",
+    "无人化农牧作业",
+    "空中巡检+数据采集",
+    "RaaS 无人机即服务",
+    "隐性技艺产品化"
+   ],
+   "archive": "companies/grazemate.md",
+   "researched_at": "2026-07-11",
+   "research_status": "researched"
   },
   {
    "num": 376,
@@ -11042,14 +11442,41 @@
    "subcategory": "",
    "one_liner_en": "Stratospheric aircraft for persistent coverage",
    "one_liner_zh": "用于持续覆盖的平流层飞行器",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B003"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-11",
+   "funding": [
+    {
+     "round": "YC + 天使",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/icarus"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "中国航天科技/科工体系的临近空间飞艇与浮空器项目（『圆梦』号平流层飞艇等）——国家队路线，偏飞艇/气球构型",
+    "光启技术（旗下『旅行者』号临近空间飞行器/浮空平台）——民企背景的临近空间探索",
+    "北京航空航天大学等高校的太阳能无人机/HAPS 验证机（如『启明星』系列长航时太阳能无人机）",
+    "零重空间/未来宇航等商业浮空与临近空间创业公司（生态位相近，构型与商业模式各异）"
+   ],
+   "scene_tags": [
+    "临近空间持久平台",
+    "太阳能长航时无人机(HAPS)",
+    "国防ISR即服务",
+    "伪卫星pseudo-satellite",
+    "低成本可量产航空硬件",
+    "直连设备安全通信",
+    "复材+柔性光伏+储能集成制造"
+   ],
+   "archive": "companies/icarus.md",
+   "researched_at": "2026-07-11",
+   "research_status": "researched"
   },
   {
    "num": 389,
