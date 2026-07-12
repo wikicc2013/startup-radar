@@ -8425,14 +8425,45 @@
    "subcategory": "",
    "one_liner_en": "Automates admin for aircraft technicians",
    "one_liner_zh": "自动化飞机维修技师的文书工作",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/zymbly"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "一家大型全球航司（design partner，未具名）",
+     "confidence": "低",
+     "source_url": "https://www.ycombinator.com/companies/zymbly"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类 MRO/EAM 系统",
+    "设备巡检 App",
+    "语音工单"
+   ],
+   "scene_tags": [
+    "MRO文书自动化",
+    "维修合规文档",
+    "语音转工单",
+    "设备维修",
+    "航空维修",
+    "职能后台"
+   ],
+   "archive": "companies/zymbly.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 227,
@@ -8444,14 +8475,39 @@
    "subcategory": "",
    "one_liner_en": "Let users control your app through chat",
    "one_liner_zh": "让用户用对话操控你的应用",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/crow"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类 in-app AI 助手",
+    "ERP/MES 智能助手",
+    "command bar 工具"
+   ],
+   "scene_tags": [
+    "对话式交互",
+    "应用操控Agent",
+    "自然语言操作",
+    "in-app copilot",
+    "降操作门槛",
+    "API/UI导航"
+   ],
+   "archive": "companies/crow.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 228,
@@ -8463,14 +8519,45 @@
    "subcategory": "",
    "one_liner_en": "AI-native platform for protein characterization",
    "one_liner_zh": "蛋白质表征的 AI 原生平台",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/10x-science"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "企业药企客户（未具名）",
+     "confidence": "低",
+     "source_url": "https://www.ycombinator.com/companies/10x-science"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类生物信息/蛋白分析软件",
+    "药明生物数字化",
+    "质谱/色谱数据分析"
+   ],
+   "scene_tags": [
+    "蛋白质表征",
+    "生物研发",
+    "分析报告自动化",
+    "仪器数据处理",
+    "生物制造",
+    "AI分析"
+   ],
+   "archive": "companies/10x-science.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 229,
@@ -8572,14 +8659,45 @@
    "subcategory": "",
    "one_liner_en": "The AI scheduling assistant that truly knows you",
    "one_liner_zh": "真正懂你的 AI 日程助手",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/vela"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "企业招聘者、初创 CEO（未具名）",
+     "confidence": "低",
+     "source_url": "https://www.ycombinator.com/companies/vela"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类日程/会议助手",
+    "飞书/钉钉日程",
+    "智能助理"
+   ],
+   "scene_tags": [
+    "AI日程助手",
+    "会议协调",
+    "自主排期",
+    "外联/确认",
+    "行政助理",
+    "优先级排序"
+   ],
+   "archive": "companies/vela.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 232,
@@ -8591,14 +8709,39 @@
    "subcategory": "",
    "one_liner_en": "The AI R&D engineer",
    "one_liner_zh": "AI 研发工程师",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/aemon"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "天洑软件——AI 工业优化",
+    "各类 AutoML/优化",
+    "仿真+优化平台"
+   ],
+   "scene_tags": [
+    "AI研发工程师",
+    "工程优化",
+    "方案自动搜索",
+    "参数/配方优化",
+    "研发自动化",
+    "SOTA工程解"
+   ],
+   "archive": "companies/aemon.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 233,
@@ -8610,14 +8753,39 @@
    "subcategory": "",
    "one_liner_en": "Build and run AI vision applications",
    "one_liner_zh": "构建并运行 AI 视觉应用",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/overshoot"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类机器视觉平台（海康/凌云）",
+    "阿里/百度视觉云",
+    "边缘视觉盒子"
+   ],
+   "scene_tags": [
+    "实时视觉AI",
+    "VLM基础设施",
+    "低延迟视觉",
+    "视频流接入",
+    "机器视觉",
+    "视觉应用开发"
+   ],
+   "archive": "companies/overshoot.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 234,
@@ -8648,14 +8816,45 @@
    "subcategory": "",
    "one_liner_en": "Always know what the FDA thinks",
    "one_liner_zh": "实时掌握 FDA 的监管动向",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/rhizome-ai"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "临床期 biotech、多产品 biotech 监管事务 VP、药械公司工程师（未具名）",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/rhizome-ai"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类药械注册咨询",
+    "法规数据库（药智网）",
+    "合规 RegTech"
+   ],
+   "scene_tags": [
+    "监管研究Agent",
+    "FDA/EMA合规",
+    "无幻觉带引用",
+    "药械注册",
+    "生命科学合规",
+    "法规研究"
+   ],
+   "archive": "companies/rhizome-ai.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 236,
@@ -8667,14 +8866,39 @@
    "subcategory": "",
    "one_liner_en": "Global upload acceleration for 1GB–100TB files",
    "one_liner_zh": "1GB–100TB 大文件的全球上传加速",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/byteport"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "Aspera 类加速",
+    "各类专线/CDN",
+    "镭速(Raysync)等国产传输"
+   ],
+   "scene_tags": [
+    "大文件传输",
+    "传输加速",
+    "DART协议",
+    "弱网优化",
+    "跨境传输",
+    "数据基础设施"
+   ],
+   "archive": "companies/byteport.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 237,
@@ -8752,14 +8976,55 @@
    "subcategory": "",
    "one_liner_en": "The AI-native recruiting operating system",
    "one_liner_zh": "AI 原生的招聘操作系统",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/perfectly"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "Giga",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/perfectly"
+    },
+    {
+     "name": "LlamaIndex",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/perfectly"
+    },
+    {
+     "name": "Porter",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/perfectly"
+    }
+   ],
+   "cn_benchmarks": [
+    "Moka/北森——招聘 SaaS",
+    "BOSS 直聘 AI",
+    "近屿智能"
+   ],
+   "scene_tags": [
+    "招聘OS",
+    "AI寻源筛选",
+    "招聘Agent",
+    "候选人匹配",
+    "HR自动化",
+    "一体化招聘"
+   ],
+   "archive": "companies/perfectly.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 239,
@@ -10685,14 +10950,39 @@
    "subcategory": "",
    "one_liner_en": "An AI employee for finance and accounting teams",
    "one_liner_zh": "财务会计团队的 AI 员工",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/fullseam"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "用友/金蝶——财务软件",
+    "汇联易/每刻——费用/应付",
+    "各类财务共享中心"
+   ],
+   "scene_tags": [
+    "AI会计",
+    "AP/AR自动化",
+    "对账",
+    "供应商沟通",
+    "财务后台",
+    "既有系统集成"
+   ],
+   "archive": "companies/fullseam.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 309,
@@ -10723,14 +11013,39 @@
    "subcategory": "",
    "one_liner_en": "Full-stack AI accounting",
    "one_liner_zh": "全栈 AI 会计",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/getbalance"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "慧算账/云账房——代账 SaaS",
+    "金蝶精斗云——中小财务",
+    "各类代理记账"
+   ],
+   "scene_tags": [
+    "全栈AI会计",
+    "AI+真人混合",
+    "记账/对账/报表",
+    "IM财务问答",
+    "中小企业财务",
+    "代账升级"
+   ],
+   "archive": "companies/balance.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 311,
@@ -10761,14 +11076,39 @@
    "subcategory": "",
    "one_liner_en": "AI agents for mortgage origination",
    "one_liner_zh": "房贷发放的 AI 智能体",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/copperlane"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类信贷/助贷系统",
+    "供应链金融平台",
+    "设备融资租赁数字化"
+   ],
+   "scene_tags": [
+    "房贷发放Agent",
+    "信贷自动化",
+    "文档处理",
+    "资格核验",
+    "金融后台",
+    "档案汇总"
+   ],
+   "archive": "companies/copperlane.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 313,
@@ -10780,14 +11120,39 @@
    "subcategory": "",
    "one_liner_en": "Tools in the finance and accounting space",
    "one_liner_zh": "财务会计领域工具",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/q2q"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类并购/FA 数据",
+    "探迹类线索发现",
+    "销售外联自动化"
+   ],
+   "scene_tags": [
+    "并购线索",
+    "AI outbound",
+    "目标寻源",
+    "个性化外联",
+    "PE/BD",
+    "自动约会"
+   ],
+   "archive": "companies/q2q.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 314,
@@ -10799,14 +11164,39 @@
    "subcategory": "",
    "one_liner_en": "The AI agent inside every app",
    "one_liner_zh": "嵌入每个应用的 AI 智能体",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/o11"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类 Office AI 插件",
+    "金融 AI copilot",
+    "WPS AI"
+   ],
+   "scene_tags": [
+    "定制金融AI",
+    "Office嵌入",
+    "公司特有工作流",
+    "建模/报告自动化",
+    "知识工作",
+    "职能后台"
+   ],
+   "archive": "companies/o11.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 315,
