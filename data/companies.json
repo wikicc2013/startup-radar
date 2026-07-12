@@ -10490,14 +10490,39 @@
    "subcategory": "",
    "one_liner_en": "Fast and safe cloud computing infrastructure",
    "one_liner_zh": "快速安全的云计算基础设施",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC P26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/bits-2"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类云沙箱/函数计算",
+    "E2B 类",
+    "容器/隔离执行"
+   ],
+   "scene_tags": [
+    "Agent云基础设施",
+    "安全云执行",
+    "沙箱隔离",
+    "快速部署",
+    "AI基础设施",
+    "卖铲子"
+   ],
+   "archive": "companies/bits.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 278,
@@ -11220,14 +11245,39 @@
    "subcategory": "",
    "one_liner_en": "World models for VLA evals and training",
    "one_liner_zh": "用于 VLA 评测与训练的世界模型",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/one-robot"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类机器人仿真(如 MuJoCo 生态)",
+    "具身智能训练平台",
+    "数字孪生仿真"
+   ],
+   "scene_tags": [
+    "机器人世界模型",
+    "VLA训练评测",
+    "仿真环境",
+    "柔性操作",
+    "减少真机依赖",
+    "机器人学习"
+   ],
+   "archive": "companies/onerobot.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 306,
@@ -11374,14 +11424,39 @@
    "subcategory": "",
    "one_liner_en": "Crypto/fintech compliance simplified",
    "one_liner_zh": "简化加密/金融科技合规",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/payna"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类金融牌照咨询",
+    "合规 RegTech",
+    "监管科技"
+   ],
+   "scene_tags": [
+    "牌照合规",
+    "金融科技合规",
+    "申报/续期自动化",
+    "监管跟进",
+    "受监管行业",
+    "合规治理"
+   ],
+   "archive": "companies/payna.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 310,
@@ -11437,14 +11512,39 @@
    "subcategory": "",
    "one_liner_en": "AI-powered reconciliation for high-volume payments",
    "one_liner_zh": "面向高交易量支付公司的 AI 对账",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/end-close"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "用友/金蝶——对账",
+    "各类支付对账",
+    "财务共享中心"
+   ],
+   "scene_tags": [
+    "支付对账",
+    "AI持续对账",
+    "异常自动处理",
+    "实时资金",
+    "财务运营",
+    "职能后台"
+   ],
+   "archive": "companies/end-close.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 312,
@@ -11933,14 +12033,45 @@
    "subcategory": "",
    "one_liner_en": "AI security guards",
    "one_liner_zh": "AI 保安",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/lexius"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "7-Eleven、Erewhon、Prada",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/lexius"
+    }
+   ],
+   "cn_benchmarks": [
+    "海康/大华——安防",
+    "各类 AI 视频安防",
+    "视频结构化搜索"
+   ],
+   "scene_tags": [
+    "视频安防",
+    "AI保安",
+    "异常检测",
+    "视频可搜索",
+    "无需换硬件",
+    "物理安全"
+   ],
+   "archive": "companies/lexius.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 325,
@@ -11952,14 +12083,39 @@
    "subcategory": "",
    "one_liner_en": "Agentic offensive security at scale",
    "one_liner_zh": "规模化的智能体攻防安全",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/hex-security"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类渗透测试/众测",
+    "漏洞扫描",
+    "知道创宇/长亭等安全"
+   ],
+   "scene_tags": [
+    "智能体渗透测试",
+    "持续攻防",
+    "漏洞发现验证",
+    "比攻击者先黑",
+    "网络安全",
+    "AI安全"
+   ],
+   "archive": "companies/hex-security.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 326,
@@ -11971,14 +12127,39 @@
    "subcategory": "",
    "one_liner_en": "Turning passive surveillance into proactive intelligence",
    "one_liner_zh": "把被动监控变成主动情报",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/protent"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "海康/大华——安防",
+    "各类视频结构化/搜索",
+    "关键基础设施安防"
+   ],
+   "scene_tags": [
+    "实时视频情报",
+    "主动安防",
+    "威胁高亮",
+    "跨画面搜索",
+    "关键基础设施",
+    "物理安全"
+   ],
+   "archive": "companies/protent.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 327,
@@ -11990,14 +12171,45 @@
    "subcategory": "",
    "one_liner_en": "Stopping scams before they reach your customers",
    "one_liner_zh": "在诈骗触达客户前拦截",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/beesafe-ai"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "金融服务与政务机构(未具名)",
+     "confidence": "低",
+     "source_url": "https://www.ycombinator.com/companies/beesafe-ai"
+    }
+   ],
+   "cn_benchmarks": [
+    "同盾/顶象——反欺诈",
+    "各类反诈系统",
+    "AML 合规"
+   ],
+   "scene_tags": [
+    "反社工诈骗",
+    "卧底AI钓骗子",
+    "交易前拦截",
+    "mule账户检测",
+    "AML",
+    "AI安全"
+   ],
+   "archive": "companies/beesafe-ai.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 328,
@@ -12373,14 +12585,39 @@
    "subcategory": "",
    "one_liner_en": "Foundation models for 24/7 Earth observation",
    "one_liner_zh": "面向全天候对地观测的基础模型",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/axionorbital-space"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "长光卫星/中科星图——遥感",
+    "各类卫星影像分析",
+    "地理空间 AI"
+   ],
+   "scene_tags": [
+    "对地观测",
+    "全天候遥感",
+    "SAR转光学",
+    "基础模型",
+    "大宗商品监测",
+    "供应链情报"
+   ],
+   "archive": "companies/axionorbital-space.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 339,
@@ -14391,14 +14628,39 @@
    "subcategory": "",
    "one_liner_en": "AI audit tools for internal auditors",
    "one_liner_zh": "面向内审人员的 AI 审计工具",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B003"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "Seed（Base10、Shine Capital 领投）",
+     "amount": "410 万美元",
+     "date": "2025",
+     "source_url": "https://news.crunchbase.com/venture/yc-backed-denki-raise-financial-audit-automation-ai/"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "致同等审计数字化",
+    "用友/金蝶内控",
+    "各类 GRC"
+   ],
+   "scene_tags": [
+    "AI财务审计",
+    "内审自动化",
+    "SOX持续保证",
+    "取证/走查",
+    "既有系统运行",
+    "财务后台"
+   ],
+   "archive": "companies/denki.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 390,
@@ -15035,14 +15297,45 @@
    "subcategory": "",
    "one_liner_en": "Agentic compliance platform for enterprises",
    "one_liner_zh": "企业级的智能体合规平台",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B003"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC F25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/complydo"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "全球头部企业(未具名)",
+     "confidence": "低",
+     "source_url": "https://www.ycombinator.com/companies/complydo"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类合规/GRC 平台",
+    "ISO 认证咨询",
+    "等保/网络安全合规"
+   ],
+   "scene_tags": [
+    "企业合规",
+    "智能体合规",
+    "ISO/NIS2/PCI/DORA",
+    "证据自动收集",
+    "市场准入",
+    "合规治理"
+   ],
+   "archive": "companies/complydo.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 406,
@@ -15648,14 +15941,39 @@
    "subcategory": "",
    "one_liner_en": "Automated offensive security for high-stakes industries",
    "one_liner_zh": "面向高风险行业的自动化攻防安全",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B003"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "Seed（种子轮）",
+     "amount": "320 万美元",
+     "date": "2026",
+     "source_url": "https://www.startuphub.ai/ai-news/funding-round/2026/veria-labs-raises-3-2m"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类渗透测试/众测",
+    "知道创宇/长亭",
+    "工控安全厂商"
+   ],
+   "scene_tags": [
+    "自动化攻防",
+    "持续渗透测试",
+    "完整攻击路径",
+    "高风险行业",
+    "漏洞修复",
+    "AI安全"
+   ],
+   "archive": "companies/veria-labs.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 422,
@@ -16368,14 +16686,39 @@
    "subcategory": "",
    "one_liner_en": "AI trade compliance for global tariffs",
    "one_liner_zh": "面向全球关税的 AI 贸易合规",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B003"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "Seed",
+     "amount": "约 100 万美元",
+     "date": "2025",
+     "source_url": "https://www.extruct.ai/hub/markittrade-com/"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类报关/关务软件",
+    "HS 编码归类工具",
+    "进出口合规服务"
+   ],
+   "scene_tags": [
+    "贸易合规",
+    "关税/HS编码",
+    "进出口",
+    "报关自动化",
+    "供应链合规",
+    "供应链采购"
+   ],
+   "archive": "companies/markit.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 442,
@@ -17597,14 +17940,45 @@
    "subcategory": "",
    "one_liner_en": "Expert-built AI evaluation data",
    "one_liner_zh": "专家构建的 AI 评测数据",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B003"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC F25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/sciloop"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "前沿 AI 实验室(未具名)",
+     "confidence": "低",
+     "source_url": "https://www.ycombinator.com/companies/sciloop"
+    }
+   ],
+   "cn_benchmarks": [
+    "海天瑞声/数据堂——训练数据",
+    "各类专家标注",
+    "科学推理数据集"
+   ],
+   "scene_tags": [
+    "专家推理数据",
+    "STEM训练/评测数据",
+    "前沿基准",
+    "SFT/RLHF",
+    "奥赛级专家",
+    "AI训练数据"
+   ],
+   "archive": "companies/sciloop.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 475,
