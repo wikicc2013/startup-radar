@@ -1915,14 +1915,45 @@
    "subcategory": "Security",
    "one_liner_en": "App security at AI speed",
    "one_liner_zh": "以 AI 速度做应用安全",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC P26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/raspire"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "银行/金融科技应用（20M+ 用户，未具名）",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/raspire"
+    }
+   ],
+   "cn_benchmarks": [
+    "梆梆安全/爱加密——App加固",
+    "顶象——业务安全",
+    "各类 RASP/加固"
+   ],
+   "scene_tags": [
+    "运行时应用安全",
+    "RASP",
+    "无代码保护",
+    "防逆向/API滥用",
+    "反欺诈",
+    "AI安全"
+   ],
+   "archive": "companies/raspire.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 52,
@@ -2679,14 +2710,39 @@
    "subcategory": "Engineering",
    "one_liner_en": "Monitor and optimize the agent experience",
    "one_liner_zh": "监控并优化智能体体验",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC P26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/armature"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类 API 可观测",
+    "Agent 测试工具",
+    "MCP 生态工具"
+   ],
+   "scene_tags": [
+    "Agent体验AX",
+    "Agent可观测",
+    "MCP测试",
+    "自动修复",
+    "API可用性",
+    "AI基础设施"
+   ],
+   "archive": "companies/armature.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 74,
@@ -3154,14 +3210,39 @@
    "subcategory": "Retail",
    "one_liner_en": "Vanta for physical products",
    "one_liner_zh": "实体产品版的 Vanta（合规）",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC P26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/complir"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类出海合规/认证服务",
+    "CCC/CE 认证咨询",
+    "产品合规 RegTech"
+   ],
+   "scene_tags": [
+    "产品合规",
+    "跨境上市",
+    "法规/认证文档",
+    "审计就绪",
+    "出海合规",
+    "合规治理"
+   ],
+   "archive": "companies/complir.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 89,
@@ -4977,14 +5058,39 @@
    "subcategory": "Engineering",
    "one_liner_en": "Observability that installs itself and fixes the bugs it finds",
    "one_liner_zh": "自我安装并修复所发现 bug 的可观测性工具",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC P26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/superlog"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "观测云/云智慧——可观测",
+    "博睿数据——APM",
+    "各类监控"
+   ],
+   "scene_tags": [
+    "可观测性",
+    "自装埋点",
+    "自愈修复",
+    "OpenTelemetry",
+    "故障排查",
+    "研发效能"
+   ],
+   "archive": "companies/superlog.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 138,
@@ -6279,14 +6385,45 @@
    "subcategory": "Infrastructure",
    "one_liner_en": "Privacy compliance, enforced in code",
    "one_liner_zh": "以代码强制执行的隐私合规",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC P26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/inth"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "Zed、Infisical、Expo（c15t 用户）",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/inth"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类隐私合规工具",
+    "同意管理平台(CMP)",
+    "数据合规 SaaS"
+   ],
+   "scene_tags": [
+    "隐私合规",
+    "代码原生治理",
+    "同意管理",
+    "数据主体请求",
+    "审计证据",
+    "合规治理"
+   ],
+   "archive": "companies/inth.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 175,
@@ -6336,14 +6473,45 @@
    "subcategory": "Infrastructure",
    "one_liner_en": "AI-native observability for fast-moving engineering teams",
    "one_liner_zh": "面向快节奏工程团队的 AI 原生可观测性",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "Seed（种子轮）",
+     "amount": "800 万美元",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/sazabi"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "闭测 50 个团队(2 周)",
+     "confidence": "低",
+     "source_url": "https://www.ycombinator.com/companies/sazabi"
+    }
+   ],
+   "cn_benchmarks": [
+    "观测云/云智慧",
+    "博睿数据",
+    "各类 APM"
+   ],
+   "scene_tags": [
+    "AI原生可观测",
+    "日志单一真源",
+    "主动检测调查",
+    "故障解决",
+    "研发效能",
+    "AI基础设施"
+   ],
+   "archive": "companies/sazabi.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 178,
@@ -6446,14 +6614,39 @@
    "subcategory": "",
    "one_liner_en": "Vanta for hardware",
    "one_liner_zh": "硬件版的 Vanta（合规）",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC P26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/fuchsia"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "华测检测/广电计量——第三方检测认证",
+    "SGS/TUV 中国",
+    "各类 CCC/CE 认证服务"
+   ],
+   "scene_tags": [
+    "硬件合规认证",
+    "RF/EMC/安规测试",
+    "设计到上市",
+    "机器人/医疗/IoT",
+    "认证一体化",
+    "合规治理"
+   ],
+   "archive": "companies/fuchsia.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 182,
@@ -8640,14 +8833,39 @@
    "subcategory": "",
    "one_liner_en": "AI compliance officer",
    "one_liner_zh": "AI 合规官",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "Seed",
+     "amount": "约 100 万美元",
+     "date": "2026",
+     "source_url": "https://www.extruct.ai/hub/veriad-com/"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类广告合规审查",
+    "品牌合规工具",
+    "内容审核"
+   ],
+   "scene_tags": [
+    "AI合规官",
+    "内容合规",
+    "品牌/法律合规",
+    "营销宣称审查",
+    "发布提速",
+    "合规治理"
+   ],
+   "archive": "companies/veriad.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 231,
@@ -9036,14 +9254,45 @@
    "subcategory": "",
    "one_liner_en": "Multilingual voice agents with safe human escalation",
    "one_liner_zh": "可安全转人工的多语种语音智能体",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/samora-ai"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "金融/招聘/医疗/消费/汽车/政务付费客户(120万+通话)",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/samora-ai"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类智能语音客服",
+    "容联云/思必驰——语音",
+    "呼叫中心 AI"
+   ],
+   "scene_tags": [
+    "多语种语音客服",
+    "语音Agent",
+    "呼入呼出",
+    "安全转人工",
+    "合规护栏",
+    "出海客服"
+   ],
+   "archive": "companies/samora-ai.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 240,
@@ -9105,14 +9354,39 @@
    "subcategory": "",
    "one_liner_en": "Production monitoring for AI products",
    "one_liner_zh": "AI 产品的生产环境监控",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/sentrial"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各大模型厂商 Agent 监控",
+    "LangSmith 类",
+    "AI 可观测新锐"
+   ],
+   "scene_tags": [
+    "Agent生产监控",
+    "行为异常检测",
+    "幻觉/循环/误用工具",
+    "根因诊断",
+    "AI可靠性",
+    "AI治理"
+   ],
+   "archive": "companies/sentrial.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 242,
@@ -9331,14 +9605,39 @@
    "subcategory": "",
    "one_liner_en": "Algorithmic safety validation tools for autonomy",
    "one_liner_zh": "自动驾驶的算法安全验证工具",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/valgo"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类自动驾驶仿真测试(51WORLD等)",
+    "机器人安全验证",
+    "功能安全认证"
+   ],
+   "scene_tags": [
+    "算法安全验证",
+    "自主系统安全",
+    "仿真找罕见失败",
+    "安全认证",
+    "物理AI保险",
+    "AI安全治理"
+   ],
+   "archive": "companies/valgo.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 249,
@@ -9512,14 +9811,39 @@
    "subcategory": "",
    "one_liner_en": "Protect, monitor and defend your internet presence",
    "one_liner_zh": "保护、监控并防御你的互联网资产",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/crosslayer-labs"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类攻击面管理(ASM)",
+    "DNS/证书监控",
+    "知道创宇等安全"
+   ],
+   "scene_tags": [
+    "互联网资产安全",
+    "跨层监控",
+    "DNS/BGP/TLS",
+    "攻击面管理",
+    "防冒充劫持",
+    "网络安全"
+   ],
+   "archive": "companies/crosslayer-labs.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 256,
@@ -9759,14 +10083,39 @@
    "subcategory": "",
    "one_liner_en": "Making autonomous intelligence safe & reliable",
    "one_liner_zh": "让自主智能安全可靠",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/cascade"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类 AI 护栏/安全",
+    "瑞莱智慧——AI安全",
+    "大模型安全护栏"
+   ],
+   "scene_tags": [
+    "AI安全可靠",
+    "护栏",
+    "测试框架",
+    "自我改进安全",
+    "威胁/失败预防",
+    "AI安全治理"
+   ],
+   "archive": "companies/cascade.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 265,
@@ -10091,14 +10440,45 @@
    "subcategory": "",
    "one_liner_en": "All-in-one identity platform for fast human verification",
    "one_liner_zh": "一体化身份平台,快速验证真人",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "Seed（种子轮）",
+     "amount": "750 万美元",
+     "date": "2026",
+     "source_url": "https://news.ycombinator.com/item?id=47324296"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "1500+ B2B 客户(月百万级验证)",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/didit"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类实名认证/KYC",
+    "天眼查/企查查——KYB",
+    "同盾/顶象——反欺诈"
+   ],
+   "scene_tags": [
+    "身份验证",
+    "KYC/KYB/AML",
+    "反欺诈",
+    "生物识别",
+    "一个API",
+    "身份基础设施"
+   ],
+   "archive": "companies/didit.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 277,
