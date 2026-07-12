@@ -5827,14 +5827,45 @@
    "subcategory": "",
    "one_liner_en": "Agent harnesses for asset managers",
    "one_liner_zh": "面向资管机构的智能体框架",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC X26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/withai"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "4 家对冲基金（未具名）",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/withai"
+    }
+   ],
+   "cn_benchmarks": [
+    "万得/同花顺——金融数据",
+    "通联数据——AI 投研",
+    "AlphaSense 类工具"
+   ],
+   "scene_tags": [
+    "资管投研",
+    "投研Agent",
+    "知识统一",
+    "组合管理",
+    "知识工作自动化",
+    "隐性知识"
+   ],
+   "archive": "companies/withai.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 162,
@@ -5911,14 +5942,39 @@
    "subcategory": "",
    "one_liner_en": "Training data for frontier AI labs",
    "one_liner_zh": "为前沿 AI 实验室提供训练数据",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC X26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/perfectbit"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "海天瑞声/数据堂——训练数据",
+    "各类合成数据",
+    "仿真数据生成"
+   ],
+   "scene_tags": [
+    "可验证训练数据",
+    "构造即正确",
+    "物理/证明oracle",
+    "AI for Science",
+    "机器人数据",
+    "数据质量"
+   ],
+   "archive": "companies/perfectbit.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 164,
@@ -6129,14 +6185,39 @@
    "subcategory": "",
    "one_liner_en": "Brand infrastructure for AI",
    "one_liner_zh": "面向 AI 的品牌基础设施",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "种子/早期（Guillermo Rauch、Nebular VC）",
+     "amount": "约 100 万美元",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/launches/Qd6-bloom-the-brand-layer-for-agents"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类品牌 DAM/VI 管理",
+    "阿里鹿班/创意 AI",
+    "MAKA/稿定设计等内容工具"
+   ],
+   "scene_tags": [
+    "品牌基础设施",
+    "品牌唯一真源",
+    "AI内容生成",
+    "在品牌调性内",
+    "营销素材规模化",
+    "MCP/API"
+   ],
+   "archive": "companies/bloom.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 173,
@@ -6148,14 +6229,45 @@
    "subcategory": "Legal",
    "one_liner_en": "The source of truth for global and local regulation",
    "one_liner_zh": "全球与本地法规的权威事实源",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC X26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/regbase"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "全球制造商、防护设备销售商（示例，未具名）",
+     "confidence": "低",
+     "source_url": "https://www.ycombinator.com/companies/regbase"
+    }
+   ],
+   "cn_benchmarks": [
+    "合规科技（RegTech）新锐",
+    "各类出海合规咨询",
+    "标准/认证信息服务"
+   ],
+   "scene_tags": [
+    "全球合规监测",
+    "法规变化追踪",
+    "出海合规",
+    "认证/标准跟踪",
+    "RegTech",
+    "法务后台"
+   ],
+   "archive": "companies/regbase.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 174,
@@ -6431,14 +6543,50 @@
    "subcategory": "",
    "one_liner_en": "Turn your website into your company's growth engine",
    "one_liner_zh": "把官网变成公司的增长引擎",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC X26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/ploy"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "Hex",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/ploy"
+    },
+    {
+     "name": "Clay",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/ploy"
+    }
+   ],
+   "cn_benchmarks": [
+    "建站+营销（有赞/微盟）",
+    "各类 SEO/SEM 工具",
+    "AI 营销内容平台"
+   ],
+   "scene_tags": [
+    "官网增长引擎",
+    "AI营销Agent",
+    "programmatic SEO",
+    "ABM页面",
+    "文案/活动自动化",
+    "B2B获客"
+   ],
+   "archive": "companies/ploy.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 186,
@@ -6450,14 +6598,45 @@
    "subcategory": "",
    "one_liner_en": "AI-native operating system for long-term care providers",
    "one_liner_zh": "长期护理机构的 AI 原生操作系统",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC X26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/takecareos"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "6 家护理机构（200+ 员工，试点，未具名）",
+     "confidence": "低",
+     "source_url": "https://www.ycombinator.com/companies/takecareos"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类养老/护理 SaaS",
+    "排班/考勤系统",
+    "行业垂直 ERP"
+   ],
+   "scene_tags": [
+    "护理机构OS",
+    "运营后台整合",
+    "排班/账单/文档",
+    "合规自动化",
+    "劳动密集运营",
+    "AI原生ERP"
+   ],
+   "archive": "companies/takecareos.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 187,
@@ -6469,14 +6648,39 @@
    "subcategory": "Recruiting & Talent",
    "one_liner_en": "AI-native recruiting agency",
    "one_liner_zh": "AI 原生的招聘代理机构",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC X26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/tryprism"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "猎聘/猎必得——猎头平台",
+    "BOSS 直聘 AI 招聘",
+    "各类 AI sourcing"
+   ],
+   "scene_tags": [
+    "AI招聘代理",
+    "成功付费招聘",
+    "人才sourcing",
+    "端到端招聘",
+    "HR",
+    "猎头替代"
+   ],
+   "archive": "companies/prism.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 188,
@@ -6711,14 +6915,45 @@
    "subcategory": "",
    "one_liner_en": "AI to collect and analyze real estate data",
    "one_liner_zh": "用 AI 采集与分析房地产数据",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/travo"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "精品 PE（off-market RV 营地发现）、$200B+ 基金（未具名）",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/travo"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类地产数据（中指/克而瑞）",
+    "天眼查类企业数据",
+    "供应链数据聚合"
+   ],
+   "scene_tags": [
+    "地产数据基础设施",
+    "多渠道数据聚合",
+    "off-market数据",
+    "垂直数据API",
+    "资产分析",
+    "数据底座"
+   ],
+   "archive": "companies/travo.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 196,
@@ -6730,14 +6965,45 @@
    "subcategory": "",
    "one_liner_en": "AI Copilot for electrical estimating",
    "one_liner_zh": "电气工程预算的 AI 副驾",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/bidflow"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "湾区设计伙伴（未具名）",
+     "confidence": "低",
+     "source_url": "https://www.ycombinator.com/companies/bidflow"
+    }
+   ],
+   "cn_benchmarks": [
+    "广联达安装算量",
+    "博微/鹏业——机电算量",
+    "各类电气设计算量"
+   ],
+   "scene_tags": [
+    "电气算量",
+    "视觉读图takeoff",
+    "投标估算",
+    "符号计数",
+    "按图供货",
+    "机电供应链"
+   ],
+   "archive": "companies/bidflow.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 197,
@@ -6749,14 +7015,39 @@
    "subcategory": "",
    "one_liner_en": "AI-generated proposals for residential construction",
    "one_liner_zh": "住宅建筑项目的 AI 自动生成标书",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/scout-out"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "广联达——算量计价",
+    "品茗——投标",
+    "鹏业软件"
+   ],
+   "scene_tags": [
+    "建筑标书生成",
+    "AI算量估算",
+    "投标自动化",
+    "图纸/照片输入",
+    "承包商工具",
+    "按图报价"
+   ],
+   "archive": "companies/scout-out.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 198,
@@ -6814,14 +7105,39 @@
    "subcategory": "",
    "one_liner_en": "Agentic video editor",
    "one_liner_zh": "智能体视频剪辑器",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/cardboard"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "剪映/必剪——视频剪辑",
+    "腾讯智影/度加——AI 视频",
+    "Opus Clip 类"
+   ],
+   "scene_tags": [
+    "AI视频剪辑",
+    "营销视频",
+    "智能体剪辑",
+    "内容规模化",
+    "短视频",
+    "增长团队"
+   ],
+   "archive": "companies/cardboard.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 200,
@@ -6833,14 +7149,39 @@
    "subcategory": "",
    "one_liner_en": "Automating RL environment generation",
    "one_liner_zh": "自动化生成强化学习训练环境",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/polymath"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各大模型厂商的 Agent 训练/评测",
+    "仿真环境/数字孪生",
+    "OpenCompass 类基准"
+   ],
+   "scene_tags": [
+    "Agent训练环境",
+    "长程任务仿真",
+    "RL环境",
+    "Agent评测基准",
+    "工具使用仿真",
+    "AI训练基础设施"
+   ],
+   "archive": "companies/polymath.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 201,
@@ -6852,14 +7193,45 @@
    "subcategory": "",
    "one_liner_en": "AI DevOps engineer",
    "one_liner_zh": "AI 运维工程师",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/mendral"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "PostHog",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/mendral"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类 CI/CD（Jenkins/GitLab）",
+    "嘉为蓝鲸——DevOps",
+    "AIOps 厂商"
+   ],
+   "scene_tags": [
+    "AI DevOps",
+    "CI/CD自动管理",
+    "flaky测试处理",
+    "研发效能",
+    "自主运维",
+    "软件交付"
+   ],
+   "archive": "companies/mendral.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 202,
@@ -6947,14 +7319,39 @@
    "subcategory": "",
    "one_liner_en": "Personalized notifications & attribution for consumer/self-serve apps",
    "one_liner_zh": "面向消费/自助应用的个性化推送与归因",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/polymorph"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "神策/GrowingIO——增长分析",
+    "各类 A/B 实验平台",
+    "AI 增长优化新锐"
+   ],
+   "scene_tags": [
+    "增长实验",
+    "产品优化",
+    "Agent实验",
+    "规模化A/B",
+    "消费应用",
+    "品牌增长"
+   ],
+   "archive": "companies/polymorph.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 204,
