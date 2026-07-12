@@ -2698,14 +2698,45 @@
    "subcategory": "",
    "one_liner_en": "AI-native construction cost estimation and analytics",
    "one_liner_zh": "AI 原生的建筑造价估算与分析",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC X26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/plan0-ai"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "平台累计 $20B 项目（聚合，未具名）",
+     "confidence": "低",
+     "source_url": "https://www.ycombinator.com/companies/plan0-ai"
+    }
+   ],
+   "cn_benchmarks": [
+    "广联达——造价/算量",
+    "品茗股份——投标造价",
+    "鹏业软件——安装算量"
+   ],
+   "scene_tags": [
+    "建筑造价估算",
+    "视觉读图",
+    "成本市场分析",
+    "投标估算",
+    "按图供货",
+    "采购决策"
+   ],
+   "archive": "companies/plan0-ai.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 75,
@@ -2736,14 +2767,39 @@
    "subcategory": "Productivity",
    "one_liner_en": "The self-driving IDE for software teams",
    "one_liner_zh": "软件团队的自动驾驶式 IDE",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC X26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/ara"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "通义灵码/百度 Comate——编码助手",
+    "MarsCode（字节）——AI IDE",
+    "各类 coding agent"
+   ],
+   "scene_tags": [
+    "编码Agent",
+    "自动驾驶IDE",
+    "研发效能",
+    "computer use",
+    "后台Agent",
+    "开发者工具"
+   ],
+   "archive": "companies/ara.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 77,
@@ -3608,14 +3664,45 @@
    "subcategory": "",
    "one_liner_en": "Automated forward-deployed engineers (AI FDEs)",
    "one_liner_zh": "自动化的前置部署工程师（AI FDE）",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC X26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/lab0"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "Adobe",
+     "confidence": "低",
+     "source_url": "https://www.ycombinator.com/companies/lab0"
+    }
+   ],
+   "cn_benchmarks": [
+    "汉得信息/神州数码——ERP 实施",
+    "用友/金蝶实施生态",
+    "各类低代码配置平台"
+   ],
+   "scene_tags": [
+    "软件实施自动化",
+    "AI FDE",
+    "售后交付",
+    "配置/测试/上线",
+    "企业系统落地",
+    "交付提速"
+   ],
+   "archive": "companies/lab0.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 105,
@@ -3949,14 +4036,45 @@
    "subcategory": "Legal",
    "one_liner_en": "End-to-end case workups for personal injury firms",
    "one_liner_zh": "人身伤害律所的端到端案件梳理",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC X26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/andco"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "美国多家 PI 律所（高量律所，未具名）",
+     "confidence": "低",
+     "source_url": "https://www.ycombinator.com/companies/andco"
+    }
+   ],
+   "cn_benchmarks": [
+    "华宇/通达海——法律科技",
+    "幂律智能——合同/法律 AI",
+    "各类企业法务合同管理"
+   ],
+   "scene_tags": [
+    "legaltech",
+    "案件梳理自动化",
+    "跨渠道取证",
+    "诉前工作流",
+    "法务后台",
+    "证据整理"
+   ],
+   "archive": "companies/andco.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 116,
@@ -4141,14 +4259,50 @@
    "subcategory": "",
    "one_liner_en": "Turn more website visitors into customers",
    "one_liner_zh": "把更多网站访客转化为客户",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC X26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/sherpa"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "Lindy",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/sherpa"
+    },
+    {
+     "name": "Gauge",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/sherpa"
+    }
+   ],
+   "cn_benchmarks": [
+    "神策/GrowingIO——数字化增长分析",
+    "各类 A/B 测试平台",
+    "AI 落地页优化新锐"
+   ],
+   "scene_tags": [
+    "转化率优化CRO",
+    "自动A/B测试",
+    "网站自优化",
+    "落地页",
+    "品牌变体设计",
+    "营销转化"
+   ],
+   "archive": "companies/sherpa.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 120,
@@ -4255,14 +4409,45 @@
    "subcategory": "Recruiting & Talent",
    "one_liner_en": "Agentic hiring marketplace",
    "one_liner_zh": "智能体招聘市场",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC X26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/standout"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "60+ 初创（P26 到 Series B/独角兽，未具名）",
+     "confidence": "低",
+     "source_url": "https://www.ycombinator.com/companies/standout"
+    }
+   ],
+   "cn_benchmarks": [
+    "BOSS 直聘/拉勾——技术招聘",
+    "牛客/CodeTop——技术评测",
+    "近屿智能等 AI 面试"
+   ],
+   "scene_tags": [
+    "智能体招聘市场",
+    "技术人才匹配",
+    "真实技能评测",
+    "双边Agent",
+    "HR招聘",
+    "开发者招聘"
+   ],
+   "archive": "companies/standout.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 123,
@@ -4455,14 +4640,45 @@
    "subcategory": "",
    "one_liner_en": "Collaborative AI app builder for teams",
    "one_liner_zh": "面向团队的协作式 AI 应用搭建器",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC X26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/deep-interactions"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "12 家企业（未具名，5万+ 使用）",
+     "confidence": "低",
+     "source_url": "https://www.ycombinator.com/companies/deep-interactions"
+    }
+   ],
+   "cn_benchmarks": [
+    "钉钉宜搭/飞书多维表——低代码",
+    "阿里魔搭/各类 AI 建站",
+    "简道云等低代码"
+   ],
+   "scene_tags": [
+    "AI应用搭建",
+    "协作式开发",
+    "低代码",
+    "内部工具",
+    "human-in-the-loop",
+    "团队同步"
+   ],
+   "archive": "companies/deep-interactions.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 128,
@@ -4531,14 +4747,45 @@
    "subcategory": "",
    "one_liner_en": "AI reservation system for restaurants",
    "one_liner_zh": "餐厅 AI 订位系统",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC X26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/elyra"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "头部餐厅集团（未具名）",
+     "confidence": "低",
+     "source_url": "https://www.ycombinator.com/companies/elyra"
+    }
+   ],
+   "cn_benchmarks": [
+    "美团/大众点评订位",
+    "各类餐饮 SaaS（客如云）",
+    "智能语音客服厂商"
+   ],
+   "scene_tags": [
+    "餐厅AI订位",
+    "语音客服Agent",
+    "资源智能分配",
+    "漏接挽回",
+    "预订自动化",
+    "服务业客服"
+   ],
+   "archive": "companies/elyra.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 132,
@@ -4787,14 +5034,39 @@
    "subcategory": "",
    "one_liner_en": "The API for real-world training data",
    "one_liner_zh": "真实世界训练数据的 API",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "种子/早期",
+     "amount": "约 170 万美元",
+     "date": "2026",
+     "source_url": "https://www.founderland.ai/articles/hubxyz-launches-training-data-api-as-ai-runs-out-of-internet-mpjigbgt"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "海天瑞声/数据堂——AI 训练数据",
+    "云测数据——数据标注",
+    "各类众包数据平台"
+   ],
+   "scene_tags": [
+    "真实世界训练数据",
+    "数据API",
+    "具身/机器人数据",
+    "第一人称视频",
+    "众包合规采集",
+    "AI数据底座"
+   ],
+   "archive": "companies/hub-xyz.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 141,
@@ -4863,14 +5135,45 @@
    "subcategory": "Operations",
    "one_liner_en": "The platform where short-term rentals run themselves",
    "one_liner_zh": "让短租房自运营的平台",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC X26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/trellistech"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "35 家短租物业管理者（3000 房源，未具名）",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/trellistech"
+    }
+   ],
+   "cn_benchmarks": [
+    "订单来了/订单最多——短租 PMS",
+    "各类物业运营数字化",
+    "保洁/维修调度平台"
+   ],
+   "scene_tags": [
+    "短租自运营",
+    "物业运营Agent",
+    "调度协调",
+    "端到端运营",
+    "碎片化栈整合",
+    "少人化运营"
+   ],
+   "archive": "companies/trellis.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 144,
@@ -4882,14 +5185,38 @@
    "subcategory": "",
    "one_liner_en": "The last agent your company will ever need",
    "one_liner_zh": "你公司需要的最后一个智能体",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC X26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/the-company-company"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类横向 Agent 平台",
+    "数字员工/AI 助理平台",
+    "RPA+LLM 编排"
+   ],
+   "scene_tags": [
+    "公司运营Agent",
+    "横向Agent基建",
+    "数字员工",
+    "前沿实验",
+    "企业自动化"
+   ],
+   "archive": "companies/the-company-company.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 145,
@@ -5110,14 +5437,39 @@
    "subcategory": "",
    "one_liner_en": "Behavioral intelligence infrastructure for anti-fraud",
    "one_liner_zh": "反欺诈的行为智能基础设施",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC X26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/incandor"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "同盾科技/顶象——设备指纹反欺诈",
+    "蚂蚁风控——行为风控",
+    "瑞莱智慧等 AI 风控"
+   ],
+   "scene_tags": [
+    "行为反欺诈",
+    "行为生物识别",
+    "账户盗用检测",
+    "风控基础设施",
+    "金融科技",
+    "设备行为"
+   ],
+   "archive": "companies/incandor.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 151,
@@ -5129,14 +5481,39 @@
    "subcategory": "",
    "one_liner_en": "iMessage infrastructure for trusted communication at scale",
    "one_liner_zh": "规模化可信通信的 iMessage 基础设施",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC X26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/chert"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "容联云/玄武——通信云",
+    "阿里云通信——短信/RCS",
+    "各类 CPaaS"
+   ],
+   "scene_tags": [
+    "iMessage基础设施",
+    "通信API",
+    "可信触达",
+    "客户通知/营销",
+    "CPaaS",
+    "出海触达"
+   ],
+   "archive": "companies/chert.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 152,
@@ -5148,14 +5525,39 @@
    "subcategory": "Recruiting & Talent",
    "one_liner_en": "Helping your company find 10x engineers",
    "one_liner_zh": "帮你公司找到 10 倍工程师",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B001"
    ],
-   "updated": "2026-07-06"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC X26（Afore Capital 参投）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/saffron"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "牛客/CodeTop——技术评测",
+    "赛码/ShowMeBug——在线编程测评",
+    "近屿智能等 AI 面试"
+   ],
+   "scene_tags": [
+    "技术评测",
+    "AI原生工程能力",
+    "真实代码库测评",
+    "招聘筛选",
+    "HR技术岗",
+    "10x工程师"
+   ],
+   "archive": "companies/saffron.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 153,
