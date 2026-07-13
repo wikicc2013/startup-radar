@@ -860,6 +860,13 @@
     "seeing-systems": "prod",
     "fort": "prod",
     "mantis-biotechnology": "aiinfra",
-    "grade": "corp"
+    "grade": "corp",
+    "pocket": "prod",
+    "voltair": "prod",
+    "dronetector": "prod",
+    "wardstone": "prod",
+    "lunabill": "corp",
+    "sellraze": "sales",
+    "flick-ai": "sales"
   }
 }

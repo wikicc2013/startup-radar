@@ -17329,14 +17329,45 @@
    "subcategory": "",
    "one_liner_en": "The world's best AI note-taking device and app",
    "one_liner_zh": "全球最好的 AI 笔记硬件与应用",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "种子",
+     "amount": "$11M",
+     "date": "2026",
+     "source_url": "https://techcrunch.com/2026/06/29/pocket-raises-11m-in-bet-on-rising-demand-for-ai-note-taking-devices/"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "13 万+台售出",
+     "confidence": "高",
+     "source_url": "https://www.startuphub.ai/ai-news/claudes-corner/2026/claudes-corner-pocket-yc-w2026"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类 AI 录音笔/可穿戴",
+    "科大讯飞录音笔",
+    "Plaud/字节"
+   ],
+   "scene_tags": [
+    "AI笔记硬件",
+    "硬件+AI+软件",
+    "消费电子",
+    "一次买断",
+    "可穿戴",
+    "生产制造"
+   ],
+   "archive": "companies/pocket.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 362,
@@ -17436,14 +17467,39 @@
    "subcategory": "",
    "one_liner_en": "The first AI-native messaging platform",
    "one_liner_zh": "首个 AI 原生即时通讯平台",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/resonate"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类即时通讯",
+    "微信/钉钉",
+    "AI 沟通工具"
+   ],
+   "scene_tags": [
+    "AI原生即时通讯",
+    "语音摘要情绪",
+    "生成式UI",
+    "消费通讯",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/resonate.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 365,
@@ -17772,14 +17828,39 @@
    "subcategory": "",
    "one_liner_en": "AI for mergers and acquisitions",
    "one_liner_zh": "并购(M&A)的 AI",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/maywood"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类投行/尽调工具",
+    "并购研究",
+    "尽调自动化"
+   ],
+   "scene_tags": [
+    "并购AI",
+    "投行执行层",
+    "尽调自动化",
+    "风险标记",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/maywood.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 372,
@@ -17791,14 +17872,45 @@
    "subcategory": "",
    "one_liner_en": "Satellite imagery verification for insurance",
    "one_liner_zh": "用卫星影像为保险做核验",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/verdex"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "某最大作物保险商(保 1 亿+英亩)",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/verdex"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类卫星遥感/监测",
+    "高景/长光卫星影像",
+    "遥感监测服务"
+   ],
+   "scene_tags": [
+    "卫星保险核验",
+    "遥感监测",
+    "实时数字审计",
+    "替代现场查勘",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/verdex.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 373,
@@ -17854,14 +17966,39 @@
    "subcategory": "",
    "one_liner_en": "Cross-border personal finance on stablecoins",
    "one_liner_zh": "基于稳定币的跨境个人金融",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/spotpay"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类跨境支付/neobank",
+    "Wise/连连",
+    "稳定币支付"
+   ],
+   "scene_tags": [
+    "稳定币跨境金融",
+    "无国界账户",
+    "个人neobank",
+    "跨境收付",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/spotpay.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 375,
@@ -17924,14 +18061,39 @@
    "subcategory": "",
    "one_liner_en": "Self-charging drones",
    "one_liner_zh": "自充电无人机",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/voltair"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类工业巡检无人机",
+    "大疆行业/电力巡检",
+    "无人机充电网络"
+   ],
+   "scene_tags": [
+    "自充电无人机",
+    "电网巡检",
+    "持续巡检",
+    "感应充电",
+    "工业巡检",
+    "生产制造"
+   ],
+   "archive": "companies/voltair.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 377,
@@ -17943,14 +18105,39 @@
    "subcategory": "",
    "one_liner_en": "Technology to detect and track hostile drones",
    "one_liner_zh": "侦测并追踪敌方无人机的技术",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/dronetector"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类反无人机/雷达",
+    "毫米波雷达",
+    "安防探测"
+   ],
+   "scene_tags": [
+    "反无人机探测",
+    "毫米波雷达",
+    "传感硬件",
+    "减误报",
+    "关键基础设施",
+    "生产制造"
+   ],
+   "archive": "companies/dronetector.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 378,
@@ -18414,14 +18601,45 @@
    "subcategory": "",
    "one_liner_en": "AI voice agents for medical billing",
    "one_liner_zh": "医疗账单的 AI 语音智能体",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B003"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "种子",
+     "amount": "$100K",
+     "date": "2025",
+     "source_url": "https://www.trysignalbase.com/news/funding/lunabill-secures-100k-seed-round"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "UC health systems、Mayo、Experian Health",
+     "confidence": "高",
+     "source_url": "https://www.lunabill.com/"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类智能外呼/语音催收",
+    "阿里/腾讯语音外呼",
+    "财务共享呼叫"
+   ],
+   "scene_tags": [
+    "医疗账单语音Agent",
+    "AI外呼",
+    "应收催收对账",
+    "收入循环",
+    "财务后台",
+    "职能后台"
+   ],
+   "archive": "companies/lunabill.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 387,
@@ -19145,14 +19363,39 @@
    "subcategory": "",
    "one_liner_en": "AI storytelling for personalized children's cartoons",
    "one_liner_zh": "个性化儿童动画的 AI 故事创作",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B003"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC F25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/pixley-ai"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类儿童内容/AI动画",
+    "AI 视频生成",
+    "品牌动画"
+   ],
+   "scene_tags": [
+    "儿童AI动画",
+    "个性化生成",
+    "家庭共创",
+    "B2B品牌视频",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/pixley.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 402,
@@ -19229,14 +19472,45 @@
    "subcategory": "",
    "one_liner_en": "AI software for insurance brokers automating admin",
    "one_liner_zh": "自动化保险经纪行政工作的 AI 软件",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B003"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "种子",
+     "amount": "$2.5M",
+     "date": "2025",
+     "source_url": "https://startupintros.com/orgs/casey"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "美/澳/UAE 经纪试点(月数千投保单)",
+     "confidence": "低",
+     "source_url": "https://www.ycombinator.com/companies/casey"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类文档自动化/RPA",
+    "投标/单据组装",
+    "保险经纪软件"
+   ],
+   "scene_tags": [
+    "保险经纪行政",
+    "文档包组装",
+    "多Agent补件",
+    "标准文档",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/casey.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 404,
@@ -19414,14 +19688,45 @@
    "subcategory": "",
    "one_liner_en": "Recovery community with a 24/7 AI sponsor",
    "one_liner_zh": "配备 7×24 AI 互助者的戒瘾社区",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B003"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC F25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/sunflower"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "10 万月活(6 个月)",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/sunflower"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类心理健康/戒瘾App",
+    "消费健康",
+    "行为改变App"
+   ],
+   "scene_tags": [
+    "AI戒瘾社区",
+    "24/7 AI互助者",
+    "进度追踪",
+    "行为改变",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/sunflower.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 408,
@@ -19709,14 +20014,45 @@
    "subcategory": "",
    "one_liner_en": "Cross-listing app for marketplace sellers",
    "one_liner_zh": "面向二手卖家的多平台一键上架应用",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B003"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC F25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/sellraze"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "每天 2500+ 物品上架($32.6 万库存值)",
+     "confidence": "中",
+     "source_url": "https://www.sellraze.com/"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类多平台电商 ERP",
+    "聚水潭/旺店通",
+    "跨平台刊登工具"
+   ],
+   "scene_tags": [
+    "多平台上架",
+    "AI生成刊登定价",
+    "跨平台电商",
+    "库存发货一体",
+    "电商运营",
+    "营销销售客服"
+   ],
+   "archive": "companies/sellraze.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 414,
@@ -19772,14 +20108,39 @@
    "subcategory": "",
    "one_liner_en": "AI filmmaking canvas for visual stories",
    "one_liner_zh": "面向视觉叙事的 AI 影像创作画布",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B003"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC F25 / GV/True/Lightspeed（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/flick"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类 AI 视频/影视",
+    "可灵/即梦",
+    "Martini 类"
+   ],
+   "scene_tags": [
+    "AI影视制作",
+    "节点式画布",
+    "多模型集成",
+    "角色一致性",
+    "品牌营销视频",
+    "营销销售客服"
+   ],
+   "archive": "companies/flick-ai.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 416,
@@ -19841,14 +20202,39 @@
    "subcategory": "",
    "one_liner_en": "Space-based missile defense interceptors",
    "one_liner_zh": "天基导弹防御拦截器",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B003"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "种子",
+     "amount": "$5M",
+     "date": "2026",
+     "source_url": "https://www.theia.global/article/wardstone-secures-5m-for-space-based-missile-defense-interceptor-development-37ba24fd"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类商业航天/卫星",
+    "导弹防御",
+    "红外跟踪"
+   ],
+   "scene_tags": [
+    "天基导弹防御",
+    "卫星拦截器",
+    "红外CV跟踪",
+    "航天硬件",
+    "国防",
+    "生产制造"
+   ],
+   "archive": "companies/wardstone.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 418,
