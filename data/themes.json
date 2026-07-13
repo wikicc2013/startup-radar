@@ -885,6 +885,8 @@
     "epicenter": "aiinfra",
     "louiza-labs": "aiinfra",
     "perseus-defense": "prod",
-    "albacore": "prod"
+    "albacore": "prod",
+    "qualify-bot": "sales",
+    "closera": "sales"
   }
 }

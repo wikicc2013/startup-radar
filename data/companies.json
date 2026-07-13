@@ -29016,14 +29016,39 @@
    "subcategory": "",
    "one_liner_en": "Operating system for healthcare AI agents",
    "one_liner_zh": "医疗 AI 智能体的操作系统",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B004"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "pre-seed",
+     "amount": "$500K",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/wedge"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类医疗 RCM/后台",
+    "AI Agent 治理",
+    "财务对账自动化"
+   ],
+   "scene_tags": [
+    "医疗后台Agent",
+    "AI治理层",
+    "理赔付款对账",
+    "驻场监控",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/wedge.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 592,
@@ -29035,14 +29060,45 @@
    "subcategory": "",
    "one_liner_en": "AI-powered EMS documentation and compliance",
    "one_liner_zh": "面向急救(EMS)的 AI 文书与合规",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B004"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "pre-seed",
+     "amount": "$500K",
+     "date": "2025",
+     "source_url": "https://www.stjohns.edu/news-media/news/2025-07-21/local-students-earn-500000-develop-tech-platform-emts"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "4 家救护机构(生产环境)",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/careswift"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类文书/记录 AI",
+    "现场记录合规",
+    "质检文书"
+   ],
+   "scene_tags": [
+    "EMS文书",
+    "实时QA标错",
+    "合规审计",
+    "不改流程",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/careswift.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 593,
@@ -29148,14 +29204,39 @@
    "subcategory": "",
    "one_liner_en": "Frontier AI for actuaries",
    "one_liner_zh": "面向精算师的前沿 AI",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B004"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC S25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/tesora"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类精算/承保软件",
+    "专业建模 AI",
+    "可审计工作流"
+   ],
+   "scene_tags": [
+    "精算AI",
+    "承保工作流",
+    "可复现审计",
+    "替代表格邮件",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/tesora.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 596,
@@ -29693,14 +29774,39 @@
    "subcategory": "",
    "one_liner_en": "AI voice for commercial loan brokerage",
    "one_liner_zh": "面向商业贷款经纪的语音 AI",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B004"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "种子",
+     "amount": "$1M",
+     "date": "2025",
+     "source_url": "https://www.extruct.ai/hub/qualify-bot/"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类外呼/语音销售",
+    "线索转化",
+    "AI 电话销售"
+   ],
+   "scene_tags": [
+    "贷款语音AI",
+    "线索再触达",
+    "资格问询",
+    "收集组档",
+    "营销销售客服",
+    "营销销售客服"
+   ],
+   "archive": "companies/qualify-bot.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 608,
@@ -30010,14 +30116,45 @@
    "subcategory": "",
    "one_liner_en": "AI-powered voice solution for local government",
    "one_liner_zh": "面向地方政府的 AI 语音方案",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B004"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC S25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/effigov"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "某 16 万人口县、佛州 Sumter County",
+     "confidence": "中",
+     "source_url": "https://www.effigov.com/news/sumter-county-launch"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类语音客服/呼叫中心",
+    "智能话务",
+    "工单路由"
+   ],
+   "scene_tags": [
+    "政府语音客服",
+    "7×24接线",
+    "建工单路由",
+    "多语言",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/effigov.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 615,
@@ -30359,14 +30496,45 @@
    "subcategory": "",
    "one_liner_en": "AI-powered pharmacy assistant",
    "one_liner_zh": "AI 药房助手",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B004"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC S25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/pharmie-ai"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "4 家药房(生产环境)",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/launches/O8s-pharmie-ai-your-ai-pharmacy-technician"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类语音客服/呼叫",
+    "订单热线自动化",
+    "智能话务"
+   ],
+   "scene_tags": [
+    "药房语音助手",
+    "7×24接来电",
+    "全自动处理",
+    "插既有系统",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/pharmie-ai.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 623,
@@ -30714,14 +30882,39 @@
    "subcategory": "",
    "one_liner_en": "AI investment analyst for decision-making",
    "one_liner_zh": "面向投资决策的 AI 分析师",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B004"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC S25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/gaus"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类投资/理财 AI",
+    "行情监控",
+    "趋势分析"
+   ],
+   "scene_tags": [
+    "散户投资AI",
+    "7×24监控",
+    "趋势机会发掘",
+    "定制分析",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/gaus.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 631,
@@ -30733,14 +30926,39 @@
    "subcategory": "",
    "one_liner_en": "AI RNA models for precision oncology",
    "one_liner_zh": "面向精准肿瘤学的 AI RNA 模型",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B004"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "种子",
+     "amount": "$7.2M",
+     "date": "2025",
+     "source_url": "https://www.genomeweb.com/informatics/blank-bio-raises-72m-seed-funding-rna-foundation-model-development"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类生物/基因组 AI",
+    "RNA 模型",
+    "领域基础模型"
+   ],
+   "scene_tags": [
+    "RNA基础模型",
+    "精准肿瘤",
+    "高质量测序数据",
+    "领域大模型",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/blank-bio.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 632,
@@ -31173,14 +31391,39 @@
    "subcategory": "",
    "one_liner_en": "AI shopping agent for online stores",
    "one_liner_zh": "面向网店的 AI 购物智能体",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B004"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC S25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/closera"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类电商导购/客服",
+    "AI 导购",
+    "转化优化"
+   ],
+   "scene_tags": [
+    "电商购物Agent",
+    "智能导购",
+    "选品答疑",
+    "促成交转化",
+    "营销销售客服",
+    "营销销售客服"
+   ],
+   "archive": "companies/closera.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 640,
@@ -31288,14 +31531,45 @@
    "subcategory": "",
    "one_liner_en": "AI language practice partner",
    "one_liner_zh": "AI 语言练习搭子",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B004"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC S25（$20 万 MRR）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/pingo-ai"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "30 万+用户",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/pingo-ai"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类语言学习 App",
+    "AI 陪练",
+    "员工培训"
+   ],
+   "scene_tags": [
+    "AI语言陪练",
+    "真实场景对话",
+    "实时纠错",
+    "订阅制",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/pingo-ai.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 643,
@@ -31307,14 +31581,39 @@
    "subcategory": "",
    "one_liner_en": "Sell items effortlessly through text and photos",
    "one_liner_zh": "用文字和照片轻松卖闲置",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B004"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC S25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/rid"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类二手/代卖",
+    "闲鱼",
+    "资产处置"
+   ],
+   "scene_tags": [
+    "AI代卖闲置",
+    "一句话全托管",
+    "多平台挂牌",
+    "议价配送",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/rid.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 644,
@@ -31458,14 +31757,45 @@
    "subcategory": "",
    "one_liner_en": "Narrative intelligence for investors",
    "one_liner_zh": "面向投资者的叙事情报",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B004"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC S25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/serafis"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "12 家机构(管理 $700 亿+)",
+     "confidence": "中",
+     "source_url": "https://x.com/ycombinator/status/2064769566044295507"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类另类数据/舆情",
+    "知识图谱",
+    "市场情报"
+   ],
+   "scene_tags": [
+    "投资叙事情报",
+    "非结构化数据",
+    "叙事知识图谱",
+    "拐点识别",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/serafis.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 648,
@@ -31926,14 +32256,39 @@
    "subcategory": "",
    "one_liner_en": "AI denial management for healthcare",
    "one_liner_zh": "医疗拒赔管理的 AI",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B005"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC X25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/aegis"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类医疗 RCM",
+    "拒赔申诉",
+    "账款追回"
+   ],
+   "scene_tags": [
+    "医疗拒赔申诉",
+    "监控标错",
+    "自动取证起草",
+    "提交跟踪",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/aegis.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 658,
@@ -32253,14 +32608,45 @@
    "subcategory": "",
    "one_liner_en": "Social AI for group chats",
    "one_liner_zh": "面向群聊的社交 AI",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B005"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC X25（SV Angel/Pioneer 等参投,金额未披露）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/text-ai"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "50 万+试用者、2500 万+消息",
+     "confidence": "中",
+     "source_url": "https://www.text.ai/about"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类社交/群聊 AI",
+    "群机器人",
+    "协作助手"
+   ],
+   "scene_tags": [
+    "群聊社交AI",
+    "何时回何时沉默",
+    "跨平台",
+    "无需新App",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/text-ai.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 665,
