@@ -892,6 +892,10 @@
     "morphik": "corp",
     "bramante-biologics": "prod",
     "eloquent-ai": "sales",
-    "labric": "rnd"
+    "labric": "rnd",
+    "synthiolabs": "sales",
+    "atlog": "sales",
+    "willow": "corp",
+    "mentra": "prod"
   }
 }

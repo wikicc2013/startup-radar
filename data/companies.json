@@ -36654,14 +36654,45 @@
    "subcategory": "",
    "one_liner_en": "AI tutor for college students",
    "one_liner_zh": "面向大学生的 AI 家教",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B005"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC X25（$70K MRR）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/youlearn"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "15 万月活学生",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/youlearn"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类学习/家教App",
+    "AI 培训",
+    "员工培训"
+   ],
+   "scene_tags": [
+    "AI家教",
+    "上传即笔记测验",
+    "可对话学习",
+    "自适应测验",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/youlearn.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 747,
@@ -36946,14 +36977,39 @@
    "subcategory": "",
    "one_liner_en": "Instant bank transfer payments for luxury brands",
    "one_liner_zh": "面向奢侈品牌的即时银行转账支付",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B005"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC X25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/zenobia-pay"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类支付/收单",
+    "pay-by-bank",
+    "数字凭证溯源"
+   ],
+   "scene_tags": [
+    "奢侈品支付",
+    "pay-by-bank降费",
+    "数字购买凭证",
+    "二手溢价",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/zenobia-pay.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 753,
@@ -37211,14 +37267,39 @@
    "subcategory": "",
    "one_liner_en": "AI revenue platform for post-acute care",
    "one_liner_zh": "面向急性后期护理的 AI 营收平台",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B005"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "种子",
+     "amount": "$4.4M",
+     "date": "2026-01",
+     "source_url": "https://www.businesswire.com/news/home/20260121240981/en/Claim-Health-Launches-AI-Powered-Revenue-Infrastructure-for-Post-Acute-Care-with-$4.4M-Seed-Funding"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类医疗 RCM",
+    "应收/回款管理",
+    "对账自动化"
+   ],
+   "scene_tags": [
+    "居家护理营收",
+    "受理核验对账",
+    "修复拒付",
+    "现金流可预测",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/claim-health.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 759,
@@ -37317,14 +37398,39 @@
    "subcategory": "",
    "one_liner_en": "Mortgage education and comparison tools",
    "one_liner_zh": "房贷科普与比价工具",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B005"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC X25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/approval-ai"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类房贷/比价",
+    "采购比价",
+    "智能议价"
+   ],
+   "scene_tags": [
+    "AI房贷经纪",
+    "一表比价",
+    "自动议价",
+    "省息",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/approval-ai.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 762,
@@ -37401,14 +37507,39 @@
    "subcategory": "",
    "one_liner_en": "AI medical mentor for clinicians",
    "one_liner_zh": "面向临床医生的 AI 医学导师",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B005"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC X25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/galen-ai"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类健康助手",
+    "可穿戴数据",
+    "设备健康(范式)"
+   ],
+   "scene_tags": [
+    "个人健康助手",
+    "接病历可穿戴",
+    "持续个性化",
+    "多源数据",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/galen-ai.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 764,
@@ -37420,14 +37551,45 @@
    "subcategory": "",
    "one_liner_en": "Voice AI platform for life sciences",
    "one_liner_zh": "面向生命科学的语音 AI 平台",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B005"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "种子",
+     "amount": "$5M",
+     "date": "2025",
+     "source_url": "https://www.businesswire.com/news/home/20251119509940/en/Synthio-Labs-Raises-$5-Million-to-Build-the-Voice-AI-Operating-System-for-Life-Sciences-Customer-Engagement"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "多家 Top 10 药企",
+     "confidence": "中",
+     "source_url": "https://synthiolabs.com/"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类销售赋能/CRM",
+    "全渠道触达",
+    "现场团队 copilot"
+   ],
+   "scene_tags": [
+    "生命科学语音AI",
+    "现场团队copilot",
+    "全渠道客户触达",
+    "客户数字孪生",
+    "营销销售客服",
+    "营销销售客服"
+   ],
+   "archive": "companies/synthiolabs.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 765,
@@ -37674,14 +37836,45 @@
    "subcategory": "",
    "one_liner_en": "AI agents for insurance claims operations",
    "one_liner_zh": "面向保险理赔运营的 AI 智能体",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B005"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "种子",
+     "amount": "$4.6M",
+     "date": "2025",
+     "source_url": "https://www.businesswire.com/news/home/20251106838494/en/Avallon-Secures-$4.6-Million-Scales-AI-Agents-to-Automate-Insurance-Claims-Operations"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "Athens Administrators 等美欧 TPA",
+     "confidence": "中",
+     "source_url": "https://www.alleywatch.com/2025/11/avallon-insurance-claims-automation-ai-agents-tpa-cornelius-schramm/"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类理赔运营/RPA",
+    "单据自动化",
+    "文档抽取"
+   ],
+   "scene_tags": [
+    "保险理赔运营",
+    "处理电话文档",
+    "抽数据填系统",
+    "免手工录入",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/avallon-ai.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 770,
@@ -38148,14 +38341,39 @@
    "subcategory": "",
    "one_liner_en": "AI infrastructure for real-world evidence",
    "one_liner_zh": "面向真实世界证据(RWE)的 AI 基础设施",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B005"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC X25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/frekil"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类临床数据/RWE",
+    "数据统一治理",
+    "可复现流水线"
+   ],
+   "scene_tags": [
+    "RWE基础设施",
+    "碎片数据统一",
+    "懂医学本体",
+    "端到端监管级证据",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/frekil.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 781,
@@ -38167,14 +38385,39 @@
    "subcategory": "",
    "one_liner_en": "AI mortgage lender with underwritten preapprovals",
    "one_liner_zh": "带核保预批的 AI 房贷机构",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B005"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC X25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/chestnut"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类房贷/核保",
+    "智能审批",
+    "授信"
+   ],
+   "scene_tags": [
+    "AI房贷放贷",
+    "2分钟核保预批",
+    "跨100+比价",
+    "自动化99%",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/chestnut.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 782,
@@ -38186,14 +38429,39 @@
    "subcategory": "",
    "one_liner_en": "24/7 brokerless futures exchange",
    "one_liner_zh": "7×24 无经纪商期货交易所",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B005"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "种子",
+     "amount": "$9.5M",
+     "date": "2026-03",
+     "source_url": "https://fintech.global/2026/03/05/qfex-launches-with-9-5m-seed-round-to-disrupt-global-trading/"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类交易所/期货",
+    "高频结算",
+    "实时信号"
+   ],
+   "scene_tags": [
+    "24/7交易所",
+    "无经纪永续",
+    "每小时资金费率",
+    "高频信号",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/qfex.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 783,
@@ -38266,14 +38534,39 @@
    "subcategory": "",
    "one_liner_en": "TCPA-compliant voice AI for collections",
    "one_liner_zh": "面向催收、符合 TCPA 的语音 AI",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B005"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC X25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/atlog"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类催收/客服语音",
+    "外呼合规",
+    "AI 催收"
+   ],
+   "scene_tags": [
+    "合规催收语音",
+    "外呼回款",
+    "客服自动化",
+    "内建合规",
+    "营销销售客服",
+    "营销销售客服"
+   ],
+   "archive": "companies/atlog.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 785,
@@ -38285,14 +38578,39 @@
    "subcategory": "",
    "one_liner_en": "Character chat bots with sourced opinions",
    "one_liner_zh": "带可溯源观点的角色聊天机器人",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B005"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC X25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/waffle"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类角色聊天/AI人物",
+    "可溯源问答",
+    "知识引用"
+   ],
+   "scene_tags": [
+    "角色聊天机器人",
+    "可溯源观点",
+    "来源引用",
+    "无代码(存歧义)",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/waffle.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 786,
@@ -38400,14 +38718,39 @@
    "subcategory": "",
    "one_liner_en": "AI voice dictation for fast writing",
    "one_liner_zh": "面向快速写作的 AI 语音听写",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B005"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "种子",
+     "amount": "$4.5M",
+     "date": "2025",
+     "source_url": "https://techcrunch.com/2025/11/12/willows-voice-keyboard-lets-you-type-across-all-your-ios-apps-and-actually-edit-what-you-said/"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类语音输入/听写",
+    "讯飞输入法",
+    "AI 听写"
+   ],
+   "scene_tags": [
+    "AI语音听写",
+    "看上下文识术语",
+    "自动纠错格式化",
+    "跨平台可离线",
+    "职能后台",
+    "职能后台"
+   ],
+   "archive": "companies/willow.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 789,
@@ -38572,14 +38915,39 @@
    "subcategory": "",
    "one_liner_en": "Open-source smart glasses with AI tools",
    "one_liner_zh": "带 AI 工具的开源智能眼镜",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "种子",
+     "amount": "$8M",
+     "date": "2025",
+     "source_url": "https://www.forbes.com/sites/charliefink/2025/07/01/mentra-raises-8-million-to-launch-open-source-os-for-smart-glasses/"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类工业 AR/智能眼镜",
+    "Rokid/亮亮视野",
+    "远程协助"
+   ],
+   "scene_tags": [
+    "智能眼镜OS",
+    "开源SDK应用商店",
+    "一线免手作业",
+    "远程专家协助",
+    "生产制造",
+    "生产制造"
+   ],
+   "archive": "companies/mentra.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 793,
