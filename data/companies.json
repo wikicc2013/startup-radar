@@ -43882,14 +43882,39 @@
    "subcategory": "",
    "one_liner_en": "Medicare voice AI for agencies",
    "one_liner_zh": "面向代理机构的 Medicare 语音 AI",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "种子",
+     "amount": "$2M",
+     "date": "2025",
+     "source_url": "https://www.upstartsmedia.com/p/carecycle-startup-ai-voice-medicare"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类外呼/语音销售",
+    "多Agent协作",
+    "线索跟进"
+   ],
+   "scene_tags": [
+    "Medicare语音AI",
+    "多Agent团队",
+    "择时回拨热转",
+    "提转化留存",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/carecycle.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 890,
@@ -44201,14 +44226,39 @@
    "subcategory": "",
    "one_liner_en": "AI health coach for workouts and recovery",
    "one_liner_zh": "面向训练与恢复的 AI 健康教练",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/vora-ai"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类健康健身App",
+    "可穿戴数据",
+    "预测性维护(范式)"
+   ],
+   "scene_tags": [
+    "AI健康教练",
+    "多源可穿戴融合",
+    "疲劳建模",
+    "实时适配",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/vora-ai.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 896,
@@ -44315,14 +44365,39 @@
    "subcategory": "",
    "one_liner_en": "Independent insurance agency",
    "one_liner_zh": "独立保险代理机构",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/general-agency-company"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类保险代理科技",
+    "insurtech",
+    "自然语言操作"
+   ],
+   "scene_tags": [
+    "AI保险代理",
+    "大白话变操作",
+    "代理工作流自动化",
+    "insurtech",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/general-agency-company.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 899,
@@ -44438,14 +44513,39 @@
    "subcategory": "",
    "one_liner_en": "AI dental insurance verification and billing",
    "one_liner_zh": "面向牙科的 AI 保险核验与计费",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/toothy-ai"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类 RCM/账单自动化",
+    "财务后台",
+    "语音催款"
+   ],
+   "scene_tags": [
+    "牙科保险核验",
+    "全RCM自动化",
+    "语音打保险电话",
+    "砍后台人力",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/toothy-ai.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 902,
@@ -44841,14 +44941,39 @@
    "subcategory": "",
    "one_liner_en": "Digital analyst for law enforcement",
    "one_liner_zh": "面向执法的数字分析师",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/closure"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类取证/eDiscovery",
+    "多源数据统一",
+    "跨语言检索"
+   ],
+   "scene_tags": [
+    "执法数字分析",
+    "跨13语言转写翻译",
+    "多源证据统一",
+    "加速结案",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/closure.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 910,
@@ -44904,14 +45029,39 @@
    "subcategory": "",
    "one_liner_en": "AI-native SIS for California schools",
    "one_liner_zh": "面向加州学校的 AI 原生学籍系统",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/scout-4"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类合规上报/GRC",
+    "数据上报自动化",
+    "持续合规监控"
+   ],
+   "scene_tags": [
+    "AI学籍系统",
+    "合规上报管线",
+    "持续合规监控",
+    "上报从月到小时",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/scout.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 912,
@@ -44973,14 +45123,39 @@
    "subcategory": "",
    "one_liner_en": "AI voice solutions for healthcare communication",
    "one_liner_zh": "面向医疗沟通的 AI 语音方案",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "种子",
+     "amount": "$500K",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/vocality-health"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类实时翻译/口译",
+    "医疗翻译",
+    "跨语言协作"
+   ],
+   "scene_tags": [
+    "医疗语言口译",
+    "实时语音视频",
+    "医学准确合规",
+    "集成工作流",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/vocality-health.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 914,
@@ -45100,14 +45275,39 @@
    "subcategory": "",
    "one_liner_en": "[Extruct 配到加拿大个人贷款,可能与实际 YC 公司不符]",
    "one_liner_zh": "[此条 Extruct 富集疑似错配,待核实]",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W25（种子）",
+     "amount": "$500K",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/karoo"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类消费信贷/风控",
+    "替代数据授信",
+    "小微授信"
+   ],
+   "scene_tags": [
+    "AI消费信贷",
+    "服务不足人群",
+    "AI原生授信",
+    "替代数据",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/karoo-extruct.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 917,
@@ -45163,14 +45363,39 @@
    "subcategory": "",
    "one_liner_en": "Real-time video avatars for AI companions",
    "one_liner_zh": "面向 AI 伴侣的实时视频虚拟形象",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/dollyglot"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类数字人/AI化身",
+    "实时视频化身",
+    "多语言TTS"
+   ],
+   "scene_tags": [
+    "AI伴侣视频化身",
+    "照片生成实时化身",
+    "多语言TTS",
+    "实时视频通话",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/dollyglot.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 919,
@@ -45182,14 +45407,39 @@
    "subcategory": "",
    "one_liner_en": "AI study tutor for exam prep",
    "one_liner_zh": "面向备考的 AI 学习家教",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/alice"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类备考/家教App",
+    "AI 培训",
+    "个性化学习"
+   ],
+   "scene_tags": [
+    "AI备考家教",
+    "个性化辅导",
+    "生成练习",
+    "即时反馈",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/alice.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 920,
@@ -45201,14 +45451,39 @@
    "subcategory": "",
    "one_liner_en": "AI secretary for email and calendar",
    "one_liner_zh": "面向邮件与日历的 AI 秘书",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/stamp"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类邮件/日历 AI",
+    "AI 秘书",
+    "办公助手"
+   ],
+   "scene_tags": [
+    "AI邮件日历秘书",
+    "自动摘要分类",
+    "以口吻回信",
+    "追踪待办",
+    "职能后台",
+    "职能后台"
+   ],
+   "archive": "companies/stamp.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 921,
@@ -45220,14 +45495,39 @@
    "subcategory": "",
    "one_liner_en": "Autonomous surface vessels for maritime missions",
    "one_liner_zh": "面向海上任务的自主水面无人艇",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/splash-inc"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类无人艇/USV",
+    "海洋工程装备",
+    "模块化装备"
+   ],
+   "scene_tags": [
+    "自主水面无人艇",
+    "软硬件全自研",
+    "模块化任务载荷",
+    "快速迭代",
+    "生产制造",
+    "生产制造"
+   ],
+   "archive": "companies/splash.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 922,
@@ -45283,14 +45583,45 @@
    "subcategory": "",
    "one_liner_en": "DeFi trading gateway",
    "one_liner_zh": "DeFi 交易网关",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "pre-seed",
+     "amount": "$500K",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/axiom"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "65 万+钱包($150 亿+交易额)",
+     "confidence": "中",
+     "source_url": "https://www.forbes.com/sites/boazsobrado/2026/02/26/axiom-became-ycs-biggest-hit-then-someone-was-watching/"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类 DeFi/交易终端",
+    "聚合器",
+    "统一入口"
+   ],
+   "scene_tags": [
+    "DeFi交易网关",
+    "跨链任意资产",
+    "聚合流动性",
+    "隐藏复杂度",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/axiom.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 924,
@@ -45391,14 +45722,45 @@
    "subcategory": "",
    "one_liner_en": "AI tutoring and lesson tools for schools",
    "one_liner_zh": "面向学校的 AI 辅导与备课工具",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/excellence-learning"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "法国顶尖院校",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/excellence-learning"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类数理家教/AI辅导",
+    "个性化学习",
+    "员工培训"
+   ],
+   "scene_tags": [
+    "数理AI家教",
+    "颗粒化个性化",
+    "多模态讲解",
+    "B2B2C卖学校",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/excellence-ai.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 927,

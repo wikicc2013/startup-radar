@@ -897,6 +897,8 @@
     "atlog": "sales",
     "willow": "corp",
     "mentra": "prod",
-    "cenote": "sales"
+    "cenote": "sales",
+    "stamp": "corp",
+    "splash": "prod"
   }
 }
