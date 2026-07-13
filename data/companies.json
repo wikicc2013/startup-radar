@@ -26140,14 +26140,45 @@
    "subcategory": "",
    "one_liner_en": "AI notebook for notes, videos, quizzes",
    "one_liner_zh": "集笔记/视频/测验于一体的 AI 笔记本",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B004"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "pre-seed",
+     "amount": "$850K",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/opennote"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "5.5 万+学生",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/opennote"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类学习/笔记App",
+    "Notion AI",
+    "AI 学习工具"
+   ],
+   "scene_tags": [
+    "AI学习笔记本",
+    "文件变视频测验",
+    "AI导师",
+    "行内闪卡",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/opennote.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 534,
@@ -26474,14 +26505,39 @@
    "subcategory": "",
    "one_liner_en": "AI claims auditing for health plans",
    "one_liner_zh": "面向健康险计划的 AI 理赔审核",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B004"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "pre-seed",
+     "amount": "$500K",
+     "date": "2025",
+     "source_url": "https://startupintros.com/orgs/avelis-health"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类账单审计/费控",
+    "医疗控费",
+    "费用审计"
+   ],
+   "scene_tags": [
+    "理赔审核",
+    "账单审计",
+    "抓多付追回",
+    "自保雇主",
+    "财务审计",
+    "职能后台"
+   ],
+   "archive": "companies/avelis-health.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 541,
@@ -26581,14 +26637,39 @@
    "subcategory": "",
    "one_liner_en": "AI investment monitoring for private equity",
    "one_liner_zh": "面向私募的 AI 投资监控平台",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B004"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC S25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/palace"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类投资/组合监控",
+    "私募 IR 系统",
+    "集团经营监控"
+   ],
+   "scene_tags": [
+    "私募投资监控",
+    "组合监控报告",
+    "统一分散数据",
+    "无维度",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/palace.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 544,
@@ -26827,14 +26908,45 @@
    "subcategory": "",
    "one_liner_en": "Agentic AI for higher education campuses",
    "one_liner_zh": "面向高校的智能体 AI",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B004"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC S25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/risely-ai"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "私立学院/大型公立系统/在线大学",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/risely-ai"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类 RPA/流程自动化",
+    "数字员工",
+    "AI 员工"
+   ],
+   "scene_tags": [
+    "高校AI员工",
+    "后台工作流自动化",
+    "集成既有系统",
+    "学机构流程",
+    "职能后台",
+    "职能后台"
+   ],
+   "archive": "companies/risely-ai.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 549,
@@ -27000,14 +27112,39 @@
    "subcategory": "",
    "one_liner_en": "AI voice assistant for email and calendar",
    "one_liner_zh": "邮件与日历的 AI 语音助手",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B004"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC S25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/april"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类办公助手/语音",
+    "钉钉/飞书语音",
+    "AI 行政助理"
+   ],
+   "scene_tags": [
+    "邮件日历语音助手",
+    "纯语音免手",
+    "移动办公",
+    "行政提效",
+    "办公提效",
+    "职能后台"
+   ],
+   "archive": "companies/april.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 553,
@@ -27246,14 +27383,45 @@
    "subcategory": "",
    "one_liner_en": "AI data analyst for biology labs",
    "one_liner_zh": "面向生物实验室的 AI 数据分析师",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B004"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC S25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/novaflow"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "UCSF、Mount Sinai、UC Berkeley、Harvard",
+     "confidence": "高",
+     "source_url": "https://www.ycombinator.com/companies/novaflow"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类数据分析/BI",
+    "实验数据分析",
+    "生信平台"
+   ],
+   "scene_tags": [
+    "实验数据分析",
+    "大白话提问",
+    "自动推断工作流",
+    "出图表报告",
+    "研发实验室",
+    "研发设计"
+   ],
+   "archive": "companies/novaflow.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 559,
@@ -27265,14 +27433,45 @@
    "subcategory": "",
    "one_liner_en": "Counter-UAS micro-missile defense systems",
    "one_liner_zh": "反无人机微型导弹防御系统",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B004"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "种子",
+     "amount": "$6M",
+     "date": "2026",
+     "source_url": "https://www.tectonicdefense.com/exclusive-yc-backed-perseus-defense-closes-6m-seed-round/"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "美国陆军(演习实弹验证)",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/perseus-defense"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类反无人机/拦截",
+    "精密制导",
+    "低成本量产国防"
+   ],
+   "scene_tags": [
+    "反无人机微导弹",
+    "可量产",
+    "成本降2数量级",
+    "精密制导",
+    "国防",
+    "生产制造"
+   ],
+   "archive": "companies/perseus-defense.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 560,
@@ -27284,14 +27483,39 @@
    "subcategory": "",
    "one_liner_en": "AI agents for clinical trial oversight",
    "one_liner_zh": "临床试验监管的 AI 智能体",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B004"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC S25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/phases"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类临床试验/CRO",
+    "流程监控",
+    "药明康德/泰格"
+   ],
+   "scene_tags": [
+    "临床试验监控",
+    "AI Agent监控",
+    "检测风险自主解决",
+    "审计就绪",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/phases.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 561,
@@ -27303,14 +27527,39 @@
    "subcategory": "",
    "one_liner_en": "AI for insurance claims outcomes",
    "one_liner_zh": "面向保险理赔结果的 AI",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B004"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC S25（$24.5 万 ARR）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/solva"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类理赔/审核自动化",
+    "费控/风控",
+    "反欺诈"
+   ],
+   "scene_tags": [
+    "保险理赔自动化",
+    "防错付",
+    "检测欺诈违约",
+    "减渗漏",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/solva-technology.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 562,
@@ -27322,14 +27571,39 @@
    "subcategory": "",
    "one_liner_en": "Mass-producible long-range drone submarines",
    "one_liner_zh": "可量产的远程无人潜航器",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B004"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "种子",
+     "amount": "$6.5M",
+     "date": "2025",
+     "source_url": "https://www.tectonicdefense.com/exclusive-yc-backed-albacore-swims-into-6-5m-seed-round/"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类 UUV/水下机器人",
+    "海洋工程装备",
+    "模块化装备"
+   ],
+   "scene_tags": [
+    "无人潜航器UUV",
+    "COTS可量产",
+    "模块化载荷",
+    "储能推进",
+    "海洋装备",
+    "生产制造"
+   ],
+   "archive": "companies/albacore.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 563,
@@ -27341,14 +27615,39 @@
    "subcategory": "",
    "one_liner_en": "Personalized children's storybooks with AI",
    "one_liner_zh": "AI 个性化儿童绘本",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B004"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC S25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/goriff"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类儿童内容/AI绘本",
+    "AI 故事",
+    "个性化内容"
+   ],
+   "scene_tags": [
+    "儿童AI绘本",
+    "个性化故事",
+    "带音乐",
+    "孩子为主角",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/riff.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 564,
@@ -27735,14 +28034,39 @@
    "subcategory": "",
    "one_liner_en": "Local-first open-source apps with shared memory",
    "one_liner_zh": "共享记忆的本地优先开源应用",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B004"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "种子",
+     "amount": "$1M",
+     "date": "2025",
+     "source_url": "https://www.extruct.ai/hub/epicenter-so/"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类 PKM/知识库",
+    "Notion/语雀",
+    "本地优先应用"
+   ],
+   "scene_tags": [
+    "本地优先",
+    "共享记忆",
+    "数据自主",
+    "可选模型",
+    "开源",
+    "AI基础设施"
+   ],
+   "archive": "companies/epicenter.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 573,
@@ -27942,14 +28266,45 @@
    "subcategory": "",
    "one_liner_en": "AI chemical synthesis platform",
    "one_liner_zh": "AI 化学合成平台",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B004"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC S25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/b12-labs"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "两大药企(付费试点)",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/b12-labs"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类化学 AI/逆合成",
+    "实验室自动化",
+    "计算化学"
+   ],
+   "scene_tags": [
+    "AI化学合成",
+    "合成规划",
+    "条件优化",
+    "机器人执行",
+    "化工材料研发",
+    "研发设计"
+   ],
+   "archive": "companies/b12-labs.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 577,
@@ -28178,14 +28533,39 @@
    "subcategory": "",
    "one_liner_en": "Simulative biology platform for advanced research",
    "one_liner_zh": "面向前沿研究的仿真生物学平台",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B004"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "种子",
+     "amount": "$5M+",
+     "date": "2025",
+     "source_url": "https://bioe.uw.edu/mab-alumnus-raises-5-million-to-build-autonomous-surgical-robotics/"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类物理仿真/数字孪生",
+    "医疗器械仿真",
+    "合成数据"
+   ],
+   "scene_tags": [
+    "仿真生物学",
+    "物理驱动仿真",
+    "合成数据",
+    "仿真替代真实测试",
+    "医疗设备机器人",
+    "AI基础设施"
+   ],
+   "archive": "companies/louiza-labs.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 582,

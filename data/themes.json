@@ -876,6 +876,15 @@
     "munify": "corp",
     "perspectives-health": "corp",
     "locata": "corp",
-    "aircaps": "prod"
+    "aircaps": "prod",
+    "april": "corp",
+    "avelis-health": "corp",
+    "risely-ai": "corp",
+    "novaflow": "rnd",
+    "b12-labs": "rnd",
+    "epicenter": "aiinfra",
+    "louiza-labs": "aiinfra",
+    "perseus-defense": "prod",
+    "albacore": "prod"
   }
 }
