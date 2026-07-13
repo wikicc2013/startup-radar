@@ -42382,14 +42382,39 @@
    "subcategory": "",
    "one_liner_en": "HIPAA-compliant AI sales agents",
    "one_liner_zh": "符合 HIPAA 的 AI 销售智能体",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/cenote"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类营销自动化/挽回",
+    "弃单召回",
+    "AI 销售 Agent"
+   ],
+   "scene_tags": [
+    "医疗销售Agent",
+    "弃单挽回",
+    "赢回老客",
+    "跨渠道触达",
+    "营销销售客服",
+    "营销销售客服"
+   ],
+   "archive": "companies/cenote.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 860,
@@ -42401,14 +42426,39 @@
    "subcategory": "",
    "one_liner_en": "AI credentialing for healthcare teams",
    "one_liner_zh": "面向医疗团队的 AI 资质认证",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "种子",
+     "amount": "$500K",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/harbera"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类资质/证照管理",
+    "合规监控",
+    "供应商资质"
+   ],
+   "scene_tags": [
+    "医疗资质认证",
+    "持续监控有效期",
+    "主动重认证",
+    "防失效",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/harbera.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 861,
@@ -42508,14 +42558,39 @@
    "subcategory": "",
    "one_liner_en": "AI powered by an evolving Taste Model",
    "one_liner_zh": "由进化口味模型驱动的 AI",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "种子",
+     "amount": "$4.35M",
+     "date": "2025",
+     "source_url": "https://en.wowtale.net/2025/06/05/231265/"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类 AI 化身/数字人",
+    "个性化模型",
+    "数字分身"
+   ],
+   "scene_tags": [
+    "AI化身",
+    "口味模型个性化",
+    "6秒扫脸",
+    "持久代理",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/pickle.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 864,
@@ -42804,14 +42879,39 @@
    "subcategory": "",
    "one_liner_en": "Zero-fee crypto exchange with λ API",
    "one_liner_zh": "零手续费、带 λ API 的加密交易所",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/pax-markets"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类交易所/HFT",
+    "边缘计算",
+    "工业实时控制"
+   ],
+   "scene_tags": [
+    "零费加密交易所",
+    "交易所HFT同芯",
+    "纳秒级延迟",
+    "λ事件API",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/pax-markets.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 870,
@@ -42823,14 +42923,39 @@
    "subcategory": "",
    "one_liner_en": "AI-curated daily stories app",
    "one_liner_zh": "AI 甄选的每日故事应用",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/olive"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类资讯/内容甄选",
+    "AI 简报",
+    "信息精选"
+   ],
+   "scene_tags": [
+    "AI每日故事",
+    "内容甄选",
+    "值得花时间",
+    "精选",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/olive.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 871,
@@ -42886,14 +43011,45 @@
    "subcategory": "",
    "one_liner_en": "AI financial analyst for investors",
    "one_liner_zh": "面向投资者的 AI 金融分析师",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/finbar"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "多家 Top 20 AUM 对冲基金",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/finbar"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类投研/金融数据",
+    "Wind/Choice",
+    "财务建模自动化"
+   ],
+   "scene_tags": [
+    "AI金融分析师",
+    "自动抽取数据",
+    "Excel插件秒更",
+    "快100倍",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/finbar.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 873,
@@ -42992,14 +43148,45 @@
    "subcategory": "",
    "one_liner_en": "AI radiology reports from scan data",
    "one_liner_zh": "基于影像数据的 AI 放射报告",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "种子",
+     "amount": "$4.1M",
+     "date": "2025",
+     "source_url": "https://technews180.com/funding-news/yc-backed-mecha-health-secures-4-1m-seed-round/"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "全美最大私营放射科、跨国远程放射公司",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/mecha-health"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类工业视觉/AOI",
+    "工业CT探伤",
+    "医疗影像AI(范式)"
+   ],
+   "scene_tags": [
+    "放射影像基础模型",
+    "小模型胜大厂",
+    "自动出报告草稿",
+    "读片提速",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/mecha-health.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 875,
@@ -43011,14 +43198,45 @@
    "subcategory": "",
    "one_liner_en": "AI teaching assistant for grading student work",
    "one_liner_zh": "面向批改作业的 AI 助教",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "种子",
+     "amount": "$500K+",
+     "date": "2025",
+     "source_url": "https://startup-seeker.com/company/gradewiz~ai"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "12 所大学(批改 3 万+份)",
+     "confidence": "中",
+     "source_url": "https://x.com/ycombinator/status/1893375109416570883"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类 AI 批改/评审",
+    "计算机视觉判读",
+    "rubric 评审"
+   ],
+   "scene_tags": [
+    "AI批改助教",
+    "计算机视觉",
+    "按rubric评审",
+    "可改进反馈",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/gradewiz.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 876,
@@ -43030,14 +43248,45 @@
    "subcategory": "",
    "one_liner_en": "AI patient matching for clinical trials",
    "one_liner_zh": "面向临床试验的 AI 患者匹配",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "种子",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/healthkey"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "数十家付费诊所/站点",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/healthkey"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类临床招募/匹配",
+    "条件筛选",
+    "病历/记录处理"
+   ],
+   "scene_tags": [
+    "临床试验患者匹配",
+    "预筛入排标准",
+    "分钟级查病历",
+    "成功收费",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/healthkey.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 877,
@@ -43049,14 +43298,39 @@
    "subcategory": "",
    "one_liner_en": "Private-markets intelligence for private equity",
    "one_liner_zh": "面向私募的私募市场情报",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/operand"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类尽调/咨询 AI",
+    "私募情报",
+    "运营诊断"
+   ],
+   "scene_tags": [
+    "私募市场情报",
+    "AI尽调",
+    "价值创造分析",
+    "替代咨询",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/operand.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 878,
@@ -43156,14 +43430,39 @@
    "subcategory": "",
    "one_liner_en": "Private local AI computer for personal data",
    "one_liner_zh": "面向个人数据的本地隐私 AI 电脑",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/oki"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类本地/私有 AI",
+    "端侧 AI",
+    "私有化部署"
+   ],
+   "scene_tags": [
+    "本地隐私AI电脑",
+    "数据留设备",
+    "完全私有",
+    "消费设备",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/oki.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 881,
@@ -43297,14 +43596,39 @@
    "subcategory": "",
    "one_liner_en": "Recovery-aware training coach for runners",
    "one_liner_zh": "面向跑者、感知恢复的训练教练",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/amby-health"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类质量审查/账单自动化",
+    "EMS后台",
+    "后台人力替代"
+   ],
+   "scene_tags": [
+    "EMS质量审查",
+    "账单自动化",
+    "替代后台团队",
+    "分钟级",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/amby-health.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 884,
@@ -43316,14 +43640,37 @@
    "subcategory": "",
    "one_liner_en": "[Extruct 配到 Nucleus Software:数字放贷与交易银行平台,可能与实际 YC 公司不符]",
    "one_liner_zh": "[此条 Extruct 富集疑似错配,待核实]",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "未确证",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies?batch=Winter%202025"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "（数据错配未确证,暂无对标）"
+   ],
+   "scene_tags": [
+    "数据错配待核实",
+    "建议人工核实或剔除",
+    "无维度",
+    "无维度",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/nucleus-extruct.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 885,
@@ -43385,14 +43732,39 @@
    "subcategory": "",
    "one_liner_en": "Fleet cards and EV charging",
    "one_liner_zh": "车队卡与电动车充电",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/rally-3"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类车队卡/ETC",
+    "车队费控",
+    "加油/充电管理"
+   ],
+   "scene_tags": [
+    "车队金融卡",
+    "燃油充电停车一卡",
+    "实时费控",
+    "按车辆策略",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/rally.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 887,
