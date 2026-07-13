@@ -20428,14 +20428,45 @@
    "subcategory": "",
    "one_liner_en": "Agentic AI filmmaking for script-to-video",
    "one_liner_zh": "剧本转视频的智能体 AI 影视创作",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B003"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC F25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/koyal"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "环球音乐、T-Series、宝莱坞工作室、22 家 YC 公司",
+     "confidence": "高",
+     "source_url": "https://www.ycombinator.com/companies/koyal"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类 AI 视频/影视",
+    "可灵/即梦",
+    "Flick/Martini 类"
+   ],
+   "scene_tags": [
+    "剧本转视频",
+    "AI影视创作",
+    "多角色一致",
+    "多语种",
+    "品牌营销视频",
+    "营销销售客服"
+   ],
+   "archive": "companies/koyal.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 423,
@@ -20529,14 +20560,45 @@
    "subcategory": "",
    "one_liner_en": "AI job app with swipe-based auto-apply",
    "one_liner_zh": "刷卡式自动投递的 AI 求职应用",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B003"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC F25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/sorce"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "1000+ 人入职(SpaceX/Anduril/NVIDIA/OpenAI)",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/sorce"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类求职App",
+    "BOSS直聘/智联",
+    "自动投递工具"
+   ],
+   "scene_tags": [
+    "AI求职",
+    "滑卡自动投递",
+    "Agent代填表",
+    "定制求职信",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/sorce.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 426,
@@ -20655,14 +20717,45 @@
    "subcategory": "",
    "one_liner_en": "UK's fastest payment platform with low fees",
    "one_liner_zh": "英国低费率、极速到账的支付平台",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B003"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC F25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/zavo"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "400+ 商家(咖啡店到餐厅)",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/zavo"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类餐饮/零售 POS",
+    "美团/客如云",
+    "收银 SaaS"
+   ],
+   "scene_tags": [
+    "餐饮零售POS",
+    "agentic POS",
+    "支付一体",
+    "门店OS",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/zavo.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 429,
@@ -20746,14 +20839,45 @@
    "subcategory": "",
    "one_liner_en": "Spanish learning app with short-form video",
    "one_liner_zh": "用短视频学西班牙语的应用",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B003"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC F25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/parrot"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "44 万+学习者",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/parrot"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类语言学习App",
+    "多邻国/流利说",
+    "Doomersion 类"
+   ],
+   "scene_tags": [
+    "短视频学语言",
+    "可理解输入",
+    "沉浸式",
+    "消费教育",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/parrot-2.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 431,
@@ -20916,14 +21040,39 @@
    "subcategory": "",
    "one_liner_en": "24/7 AI voice agent for pharmacies",
    "one_liner_zh": "药房的 7×24 AI 语音智能体",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B003"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "种子/早期",
+     "amount": "$12M",
+     "date": "2025",
+     "source_url": "https://startupintros.com/orgs/remedy"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类语音客服/外呼",
+    "智能客服",
+    "药房管理系统"
+   ],
+   "scene_tags": [
+    "药房语音Agent",
+    "7×24来电处理",
+    "续订跟进",
+    "后台自动化",
+    "职能后台",
+    "职能后台"
+   ],
+   "archive": "companies/remedy-technologies.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 435,
@@ -20935,14 +21084,45 @@
    "subcategory": "",
    "one_liner_en": "Music mashup app for instant blends",
    "one_liner_zh": "即时混音的音乐 mashup 应用",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B003"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC F25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/mixy"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "150 万+用户(1800 万+ mashup)",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/mixy"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类音乐/混音App",
+    "AI 音乐",
+    "端侧生成"
+   ],
+   "scene_tags": [
+    "音乐mashup",
+    "本地模型实时",
+    "原生署名溯源",
+    "消费音乐",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/mixy.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 436,
@@ -21024,14 +21204,45 @@
    "subcategory": "",
    "one_liner_en": "Business insurance brokerage with COI tools",
    "one_liner_zh": "带保险凭证工具的商业保险经纪",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B003"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "pre-seed",
+     "amount": "$1.5M",
+     "date": "2025",
+     "source_url": "https://www.trysignalbase.com/news/funding/fernstone-secures-15m-pre-seed-funding"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "建筑/安保/技工等 100+ 企业",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/fernstone"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类保险经纪",
+    "商业保险科技",
+    "保险凭证管理"
+   ],
+   "scene_tags": [
+    "商业保险经纪",
+    "保险凭证COI",
+    "续保理赔",
+    "建筑技工",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/fernstone.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 438,
@@ -21508,14 +21719,39 @@
    "subcategory": "",
    "one_liner_en": "Marketplace for tabletop miniatures",
    "one_liner_zh": "桌游模型(微缩兵人)交易市场",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B003"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "种子",
+     "amount": "$3.5M",
+     "date": "2025",
+     "source_url": "https://app.dealroom.co/news/feed/miniswap-raises-3-5m-for-warhammer-miniatures-marketplace-in-ai-dominated-yc-batch"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类垂直交易市场",
+    "收藏/二手平台",
+    "AI 商品识别"
+   ],
+   "scene_tags": [
+    "桌游微缩市场",
+    "AI建完整目录",
+    "拍照生成刊登",
+    "复杂SKU",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/miniswap.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 449,
@@ -21527,14 +21763,39 @@
    "subcategory": "",
    "one_liner_en": "Clinical navigation for employer health plans",
    "one_liner_zh": "面向雇主健康计划的临床导航",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B003"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC F25 / Lightspeed 等（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/rovi-health"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类企业健康/福利",
+    "雇主医疗管理",
+    "医疗比价"
+   ],
+   "scene_tags": [
+    "雇主医疗导航",
+    "就医比价",
+    "降医疗支出",
+    "员工福利",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/rovi-health.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 450,
@@ -21691,14 +21952,39 @@
    "subcategory": "",
    "one_liner_en": "The intelligence layer for trusts & legacies",
    "one_liner_zh": "面向信托与传承的智能层",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B003"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC F25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/savahq"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类信托/财富传承",
+    "家族办公室",
+    "信托服务"
+   ],
+   "scene_tags": [
+    "信托传承",
+    "agentic信托公司",
+    "AI全栈",
+    "财富传承",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/sava.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 454,
@@ -22043,14 +22329,39 @@
    "subcategory": "",
    "one_liner_en": "Autonomous mosquito-killing drones for homes",
    "one_liner_zh": "家用自主灭蚊无人机",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B003"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "资助",
+     "amount": "$2.8 万",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/tornyol"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类微型无人机/消费硬件",
+    "汽车超声传感器",
+    "DIY 无人机"
+   ],
+   "scene_tags": [
+    "灭蚊微型无人机",
+    "回声定位",
+    "现成部件重组",
+    "降本创新",
+    "消费硬件",
+    "生产制造"
+   ],
+   "archive": "companies/tornyol.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 462,
@@ -22062,14 +22373,39 @@
    "subcategory": "",
    "one_liner_en": "Automated cancer diagnostics for CT scans",
    "one_liner_zh": "面向 CT 影像的自动化癌症诊断",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B003"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "种子",
+     "amount": "$4M",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/nucleo"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类工业CT/影像检测",
+    "医疗影像AI",
+    "缺陷分割"
+   ],
+   "scene_tags": [
+    "CT癌症诊断",
+    "影像自动分割",
+    "指标提取",
+    "高一致提速",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/nucleo.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 463,
@@ -22152,14 +22488,39 @@
    "subcategory": "",
    "one_liner_en": "Menopause decision support for clinicians",
    "one_liner_zh": "面向临床医生的更年期决策支持",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B003"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC F25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/play-health"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类女性健康/femtech",
+    "专科决策支持",
+    "健康管理"
+   ],
+   "scene_tags": [
+    "围绝经期护理",
+    "临床决策支持",
+    "多源数据洞察",
+    "女性健康",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/play-health.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 465,
@@ -22171,14 +22532,39 @@
    "subcategory": "",
    "one_liner_en": "An AI bank",
    "one_liner_zh": "AI 银行",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B003"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC F25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/selfin"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类 neobank/个人金融",
+    "AI 理财",
+    "一体化金融平台"
+   ],
+   "scene_tags": [
+    "AI银行",
+    "neobank",
+    "连所有金融产品",
+    "个性化优化",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/selfin.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 466,
