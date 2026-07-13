@@ -22880,14 +22880,39 @@
    "subcategory": "",
    "one_liner_en": "AI language buddy inside Minecraft",
    "one_liner_zh": "在 Minecraft 里的 AI 语言伙伴",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B003"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "种子",
+     "amount": "$1M",
+     "date": "2025",
+     "source_url": "https://www.extruct.ai/hub/alephlab-ai/"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类儿童教育/语言",
+    "叽里呱啦/多邻国",
+    "游戏化学习"
+   ],
+   "scene_tags": [
+    "游戏内语言学习",
+    "AI语言伙伴",
+    "语音陪练",
+    "实时纠错",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/aleph-kids.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 472,
@@ -23167,14 +23192,45 @@
    "subcategory": "",
    "one_liner_en": "AI-driven basketball analytics platform",
    "one_liner_zh": "AI 篮球数据分析平台",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B003"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC F25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/playvision"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "SEC/BIG 10/BIG EAST 球队",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/playvision"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类视频分析/CV",
+    "工业视频分析",
+    "体育分析"
+   ],
+   "scene_tags": [
+    "篮球数据分析",
+    "视频CV标注",
+    "多维指标",
+    "自动分析",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/play-vision.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 478,
@@ -23186,14 +23242,39 @@
    "subcategory": "",
    "one_liner_en": "AI care management for healthcare teams",
    "one_liner_zh": "面向医疗团队的 AI 照护管理",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B003"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "种子",
+     "amount": "$1M",
+     "date": "2025",
+     "source_url": "https://www.extruct.ai/hub/kaigohealth-ai/"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类智能外呼/回访",
+    "客户成功系统",
+    "语音随访"
+   ],
+   "scene_tags": [
+    "照护管理",
+    "语音Agent随访",
+    "持续监测",
+    "回报洞察",
+    "客户经营",
+    "职能后台"
+   ],
+   "archive": "companies/kaigo-health.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 479,
@@ -23205,14 +23286,45 @@
    "subcategory": "",
    "one_liner_en": "AI operations for skilled nursing facilities",
    "one_liner_zh": "面向专业护理机构的 AI 运营",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B003"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC F25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/norra"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "护理机构(租赁支出降 70%,年省 $10 万+)",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/norra"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类资产追踪/RTLS",
+    "设备管理(EAM)",
+    "数字孪生"
+   ],
+   "scene_tags": [
+    "设备运营",
+    "数字孪生",
+    "设备实时可见",
+    "降浪费",
+    "资产管理",
+    "职能后台"
+   ],
+   "archive": "companies/norra.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 480,
@@ -23662,14 +23774,45 @@
    "subcategory": "",
    "one_liner_en": "Smart glasses for live captions",
    "one_liner_zh": "实时字幕智能眼镜",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B003"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC F25（10 月营收 $9.3 万）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/aircaps"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "聋/听障用户+早期消费者(10 月 $9.3 万营收)",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/aircaps"
+    }
+   ],
+   "cn_benchmarks": [
+    "Rokid/雷鸟——AR 眼镜",
+    "智能眼镜",
+    "实时翻译眼镜"
+   ],
+   "scene_tags": [
+    "实时字幕眼镜",
+    "AR智能眼镜",
+    "实时翻译",
+    "软硬件合作",
+    "工业AR",
+    "生产制造"
+   ],
+   "archive": "companies/aircaps.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 489,
@@ -23783,14 +23926,39 @@
    "subcategory": "",
    "one_liner_en": "AI-native social operating system",
    "one_liner_zh": "AI 原生的社交操作系统",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B003"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC F25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/digipals"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类社交/群聊",
+    "微信/群协作",
+    "AI 社交"
+   ],
+   "scene_tags": [
+    "AI社交OS",
+    "环境Agent",
+    "上下文组件",
+    "线下协调",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/digipals.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 492,
@@ -23802,14 +23970,39 @@
    "subcategory": "",
    "one_liner_en": "Personal health AI from wearables and labs",
    "one_liner_zh": "基于可穿戴与化验数据的个人健康 AI",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B003"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC F25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/nori"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类健康App/可穿戴",
+    "华为健康/薄荷",
+    "消费健康 AI"
+   ],
+   "scene_tags": [
+    "个人健康AI",
+    "多源数据聚合",
+    "每日计划",
+    "通俗解读",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/nori.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 493,
@@ -23929,14 +24122,39 @@
    "subcategory": "",
    "one_liner_en": "ChatGPT-powered voice assistant for iPhone",
    "one_liner_zh": "由 ChatGPT 驱动的 iPhone 语音助手",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B004"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC S25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/blue"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类语音助手/输入法",
+    "讯飞输入法",
+    "Siri 类"
+   ],
+   "scene_tags": [
+    "手机语音助手",
+    "控制每个App",
+    "智能听写",
+    "推断本意",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/blue.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 495,
@@ -24036,14 +24254,45 @@
    "subcategory": "",
    "one_liner_en": "Matched friendship groups for women 21+",
    "one_liner_zh": "为 21 岁以上女性匹配的交友小组",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B004"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC S25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/realroots"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "150+ 城市(美/加/英)",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/realroots"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类交友/社群App",
+    "线下社群运营",
+    "兴趣匹配"
+   ],
+   "scene_tags": [
+    "女性交友",
+    "有意图匹配",
+    "线下小组",
+    "体验系列",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/realroots.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 498,
@@ -24268,14 +24517,39 @@
    "subcategory": "",
    "one_liner_en": "AI agents for consumer lending services",
    "one_liner_zh": "消费信贷服务的 AI 智能体",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B004"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC S25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/veritus"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类智能催收",
+    "语音催收",
+    "应收管理"
+   ],
+   "scene_tags": [
+    "消费信贷催收",
+    "全渠道语音Agent",
+    "应收催收",
+    "可调谈判",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/veritus.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 503,
@@ -24529,14 +24803,45 @@
    "subcategory": "",
    "one_liner_en": "Borderless banking for cross-border payments",
    "one_liner_zh": "面向跨境支付的无国界银行",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B004"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "种子",
+     "amount": "$4.5M",
+     "date": "2025",
+     "source_url": "https://techcrunch.com/2025/08/29/microsoft-and-uber-alum-raises-3m-for-yc-backed-munify-a-neobank-for-the-egyptian-diaspora/"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "中型/企业客户(预计月跨境量 $5000 万+)",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/munify"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类跨境支付",
+    "连连/PingPong",
+    "Wise/HEVN 类"
+   ],
+   "scene_tags": [
+    "跨境支付",
+    "无国界银行",
+    "稳定币轨道",
+    "企业跨境API",
+    "出口收付",
+    "职能后台"
+   ],
+   "archive": "companies/munify.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 509,
@@ -24709,14 +25014,45 @@
    "subcategory": "",
    "one_liner_en": "AI for behavioral health approvals",
    "one_liner_zh": "面向行为健康审批的 AI",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B004"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC S25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/perspectives-health"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "11 家诊所+一大企业系统(每天省 2-3 小时)",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/perspectives-health"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类文档审计/质检",
+    "合规审查",
+    "EMR 助手"
+   ],
+   "scene_tags": [
+    "行为健康审批",
+    "提交前审计",
+    "防拒付",
+    "无需换系统",
+    "医疗行政",
+    "职能后台"
+   ],
+   "archive": "companies/perspectives-health.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 513,
@@ -25596,14 +25932,45 @@
    "subcategory": "",
    "one_liner_en": "AI referral management for primary care",
    "one_liner_zh": "面向全科医疗的 AI 转诊管理",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B004"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC S25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/locata"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "一大区域健康中心(首月省 100+ 小时)",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/locata"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类流程自动化/RPA",
+    "跨门户申报",
+    "转诊管理"
+   ],
+   "scene_tags": [
+    "转诊管理",
+    "跨门户自动化",
+    "智能映射表单",
+    "语音随访",
+    "医疗行政",
+    "职能后台"
+   ],
+   "archive": "companies/locata.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 530,
@@ -25659,14 +26026,39 @@
    "subcategory": "",
    "one_liner_en": "AI agents for drug sourcing and diligence",
    "one_liner_zh": "药物寻源与尽调的 AI 智能体",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B004"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC",
+     "amount": "$500K",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/convexia"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类寻源/尽调工具",
+    "供应商/技术寻源",
+    "AI 药物 BD"
+   ],
+   "scene_tags": [
+    "药物寻源尽调",
+    "AI药企",
+    "寻源+尽调Agent",
+    "匹配买家",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/convexia.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 532,
