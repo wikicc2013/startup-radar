@@ -901,6 +901,12 @@
     "stamp": "corp",
     "splash": "prod",
     "youshift": "corp",
-    "friday": "corp"
+    "friday": "corp",
+    "consus": "aigov",
+    "collectwise": "sales",
+    "symphony": "sales",
+    "raycaster": "corp",
+    "durate": "corp",
+    "astrix-health": "scm"
   }
 }

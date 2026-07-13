@@ -47599,14 +47599,39 @@
    "subcategory": "",
    "one_liner_en": "On-demand RCM workforce using AI agents",
    "one_liner_zh": "用 AI 智能体提供按需的收入周期(RCM)用工",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B007"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC F24（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/chorrie"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类 RCM/按需用工",
+    "免集成 Agent",
+    "后台自动化"
+   ],
+   "scene_tags": [
+    "按需RCM用工",
+    "EHR门户内干活",
+    "免API集成",
+    "HIPAA合规",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/chorrie.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 967,
@@ -47814,14 +47839,39 @@
    "subcategory": "",
    "one_liner_en": "AI gateway for defense contractors",
    "one_liner_zh": "面向国防承包商的 AI 网关",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B007"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC F24（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/consus"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类 AI 网关/合规",
+    "数据合规/涉密",
+    "私有化 AI"
+   ],
+   "scene_tags": [
+    "受控数据AI网关",
+    "ITAR/CUI合规",
+    "路由合规基建",
+    "规范真源",
+    "AI安全治理",
+    "AI安全治理"
+   ],
+   "archive": "companies/consus.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 972,
@@ -47833,14 +47883,39 @@
    "subcategory": "",
    "one_liner_en": "Generative AI for debt collection",
    "one_liner_zh": "面向催收的生成式 AI",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B007"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC F24（$200 万年化）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://startup-seeker.com/company/collectwise~co"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类催收/账款回收",
+    "AI 催收",
+    "应收管理"
+   ],
+   "scene_tags": [
+    "AI催收",
+    "资产调查",
+    "诉前个性化外联",
+    "分级执行",
+    "营销销售客服",
+    "营销销售客服"
+   ],
+   "archive": "companies/collectwise.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 973,
@@ -48600,14 +48675,39 @@
    "subcategory": "",
    "one_liner_en": "Platform for buying beers online for friends",
    "one_liner_zh": "在线给朋友买啤酒的平台",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B007"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC F24（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/beerme"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类 P2P/稳定币支付",
+    "跨境小额",
+    "社交支付"
+   ],
+   "scene_tags": [
+    "USDC趣味支付",
+    "即时全球免费",
+    "P2P",
+    "任意平台",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/beerme.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 991,
@@ -48619,14 +48719,39 @@
    "subcategory": "",
    "one_liner_en": "Hybrid training app for runners",
    "one_liner_zh": "面向跑者的混合训练应用",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B007"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC F24（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/hybrd"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类运动训练App",
+    "多源数据统一",
+    "归一化评分"
+   ],
+   "scene_tags": [
+    "混合训练App",
+    "多源数据统一",
+    "归一化Elo分数",
+    "拍照录入",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/hybrd.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 992,
@@ -48778,14 +48903,45 @@
    "subcategory": "",
    "one_liner_en": "AI compliance agent for KYB and AML",
    "one_liner_zh": "面向 KYB/AML 的 AI 合规智能体",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B007"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "种子",
+     "amount": "$7.1M",
+     "date": "2026",
+     "source_url": "https://www.biometricupdate.com/202602/sphinx-raises-7-1m-to-expand-ai-powered-compliance-agents"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "8 国银行/上市公司/fintech",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/sphinx"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类 KYB/AML/合规",
+    "反洗钱",
+    "供应商合规尽调"
+   ],
+   "scene_tags": [
+    "KYB/AML合规Agent",
+    "浏览器原生",
+    "既有工具内干",
+    "审计留痕",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/sphinx-labs.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 996,
@@ -48847,14 +49003,39 @@
    "subcategory": "",
    "one_liner_en": "AI due diligence for private equity",
    "one_liner_zh": "面向私募的 AI 尽职调查",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B007"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "种子",
+     "amount": "$5M",
+     "date": "2025",
+     "source_url": "https://accessfund.vc/news/keye-funding-announcement"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类尽调 AI/数据室",
+    "并购尽调",
+    "供应商审查"
+   ],
+   "scene_tags": [
+    "私募AI尽调",
+    "分析数据室",
+    "30分钟出80%",
+    "更早说不",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/keye.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 998,
@@ -48866,14 +49047,39 @@
    "subcategory": "",
    "one_liner_en": "AI-native startup insurance broker",
    "one_liner_zh": "面向初创的 AI 原生保险经纪",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B007"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "种子",
+     "amount": "$500K",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/riskcube"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类保险经纪科技",
+    "保单比对",
+    "初创保险"
+   ],
+   "scene_tags": [
+    "AI保险经纪",
+    "供应商就绪险",
+    "PolicyAI比对",
+    "数百页秒析",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/riskcube.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 999,
@@ -48964,14 +49170,45 @@
    "subcategory": "",
    "one_liner_en": "IB/MYP revision platform with AI grading",
    "one_liner_zh": "带 AI 批改的 IB/MYP 复习平台",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B007"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "种子",
+     "amount": "$3.4M",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/revisiondojo"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "180+ 国 50 万+师生",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/revisiondojo"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类备考/AI学习",
+    "间隔重复",
+    "岗位培训"
+   ],
+   "scene_tags": [
+    "IB备考平台",
+    "课纲专属题库",
+    "间隔重复",
+    "专训AI家教",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/studydojo.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 1001,
@@ -48983,14 +49220,39 @@
    "subcategory": "",
    "one_liner_en": "Realtime AI voice tutor for languages",
    "one_liner_zh": "面向语言学习的实时 AI 语音家教",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B007"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "种子",
+     "amount": "$500K",
+     "date": "2025",
+     "source_url": "https://startupintros.com/orgs/issen"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类语言学习App",
+    "AI 语音陪练",
+    "员工外语培训"
+   ],
+   "scene_tags": [
+    "实时语音家教",
+    "自研语音管线",
+    "50+语言",
+    "SRS闪卡",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/issen.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 1002,
@@ -49092,14 +49354,39 @@
    "subcategory": "",
    "one_liner_en": "Embryo screening using existing IVF data",
    "one_liner_zh": "用既有试管婴儿数据做胚胎筛选",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B007"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC F24（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/reticular"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类基因检测/PGT",
+    "多因子风险模型",
+    "质量/可靠性(范式)"
+   ],
+   "scene_tags": [
+    "胚胎筛选",
+    "多基因预测",
+    "既有IVF数据",
+    "量化细微风险",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/reticular.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 1005,
@@ -49111,14 +49398,45 @@
    "subcategory": "",
    "one_liner_en": "Data products for healthcare provider insights",
    "one_liner_zh": "面向医疗机构洞察的数据产品",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B007"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC F24（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/astrix-health"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "10 家诊所(平均省 20%)",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/launches/MK1-astrix-ai-purchasing-agents-for-healthcare-providers"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类采购/SRM",
+    "智能比价",
+    "MRO/间接采购"
+   ],
+   "scene_tags": [
+    "AI采购Agent",
+    "多因子比价",
+    "择时自动下单",
+    "省采购成本",
+    "供应链采购",
+    "供应链采购"
+   ],
+   "archive": "companies/astrix-health.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 1006,
@@ -49450,14 +49768,39 @@
    "subcategory": "",
    "one_liner_en": "AI workspace for regulated biopharma documents",
    "one_liner_zh": "面向受监管生物制药文档的 AI 工作空间",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B007"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC F24（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/raycaster"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类文档管理/QMS",
+    "法规申报/eCTD",
+    "变更控制文档"
+   ],
+   "scene_tags": [
+    "受监管文档工作空间",
+    "跨数百文档起草",
+    "参数变更全追溯",
+    "法规问答引用",
+    "职能后台",
+    "职能后台"
+   ],
+   "archive": "companies/raycaster.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 1014,
@@ -49557,14 +49900,39 @@
    "subcategory": "",
    "one_liner_en": "AI agents for financial compliance",
    "one_liner_zh": "面向金融合规的 AI 智能体",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B007"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "pre-seed",
+     "amount": "$2.1M",
+     "date": "2025",
+     "source_url": "https://techcrunch.com/2025/09/16/y-combinator-backed-rulebase-wants-to-be-the-ai-co-worker-for-fintech/"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类客服质检/QA",
+    "全量质检",
+    "合规监控"
+   ],
+   "scene_tags": [
+    "金融交互质检",
+    "评100%交互",
+    "跨渠道标合规质量",
+    "触发跟进",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/rulebase.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 1017,
@@ -49576,14 +49944,39 @@
    "subcategory": "",
    "one_liner_en": "Insurance-covered telehealth physical therapy",
    "one_liner_zh": "医保覆盖的远程理疗",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B007"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC F24（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/healthspark"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类执业/开店 SaaS",
+    "business-in-a-box",
+    "小微后台"
+   ],
+   "scene_tags": [
+    "理疗独立执业",
+    "business-in-a-box",
+    "资质计费文书排班",
+    "医保在网",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/healthspark.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 1018,
@@ -49731,14 +50124,39 @@
    "subcategory": "",
    "one_liner_en": "Secondhand shopping platform for hidden gems",
    "one_liner_zh": "淘好物的二手购物平台",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B007"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "pre-seed（Battery/Crane 等参投,金额未披露）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://techcrunch.com/2024/11/10/encore-is-an-ai-powered-search-engine-for-your-thrifting-needs/"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类二手/购物搜索",
+    "以图搜物",
+    "跨源比价"
+   ],
+   "scene_tags": [
+    "二手购物搜索",
+    "对话式跨平台",
+    "以图搜物",
+    "精筛",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/encore.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 1022,
@@ -49750,14 +50168,39 @@
    "subcategory": "",
    "one_liner_en": "AI assistant for Medicare policy details",
    "one_liner_zh": "面向 Medicare 政策细节的 AI 助手",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B007"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC F24（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/summed-ai"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类销售检索/copilot",
+    "产品知识库",
+    "合规应答"
+   ],
+   "scene_tags": [
+    "Medicare检索copilot",
+    "超快搜福利细节",
+    "提销售合规",
+    "已pivot",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/summed-ai.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 1023,
@@ -49814,14 +50257,39 @@
    "subcategory": "",
    "one_liner_en": "Healthcare scheduling on autopilot",
    "one_liner_zh": "自动驾驶式的医疗排程",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B007"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC F24（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/durate"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类排班/WFM",
+    "工厂排班",
+    "复杂约束优化"
+   ],
+   "scene_tags": [
+    "自动排班",
+    "消除覆盖缺口",
+    "处理复杂规则",
+    "数秒优化",
+    "职能后台",
+    "职能后台"
+   ],
+   "archive": "companies/durate.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 1025,
@@ -49923,14 +50391,45 @@
    "subcategory": "",
    "one_liner_en": "AI-powered insurance operations platform",
    "one_liner_zh": "AI 保险运营平台",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B007"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC F24（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/symphony"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "北美 Top 10 车险中 4 家",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/symphony"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类销售/客服培训",
+    "语音情景模拟",
+    "员工赋能"
+   ],
+   "scene_tags": [
+    "员工语音AI培训",
+    "真实场景模拟",
+    "客服销售赋能",
+    "上岗前练习",
+    "营销销售客服",
+    "营销销售客服"
+   ],
+   "archive": "companies/symphony.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 1028,
@@ -49999,14 +50498,39 @@
    "subcategory": "",
    "one_liner_en": "AI clinical documentation for dental practices",
    "one_liner_zh": "面向牙科诊所的 AI 临床文书",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B007"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC F24（自举,$110K ARR）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://getlatka.com/companies/tryshowandtell.com"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类患者/客户运营",
+    "交互式方案讲解",
+    "回访促复购"
+   ],
+   "scene_tags": [
+    "牙科患者运营",
+    "交互式方案讲解",
+    "可对话答疑",
+    "回访促复诊",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/showandtell.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 1030,
