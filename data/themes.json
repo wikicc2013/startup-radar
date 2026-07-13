@@ -887,6 +887,11 @@
     "perseus-defense": "prod",
     "albacore": "prod",
     "qualify-bot": "sales",
-    "closera": "sales"
+    "closera": "sales",
+    "zero": "corp",
+    "morphik": "corp",
+    "bramante-biologics": "prod",
+    "eloquent-ai": "sales",
+    "labric": "rnd"
   }
 }

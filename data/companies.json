@@ -32708,14 +32708,39 @@
    "subcategory": "",
    "one_liner_en": "Browser-native gaming with zero input lag",
    "one_liner_zh": "零延迟的浏览器原生游戏",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B005"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "种子",
+     "amount": "$4.3M",
+     "date": "2025",
+     "source_url": "https://www.prunderground.com/yc-backed-wavedash-raises-4-3m-to-bring-high-end-pc-games-to-the-browser-launches-public-beta-with-walaber/00369787/"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类云游戏",
+    "WebGPU 应用",
+    "网页重型工具"
+   ],
+   "scene_tags": [
+    "浏览器云游戏",
+    "WebAssembly/WebGPU",
+    "免下载零延迟",
+    "原生性能",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/wavedash.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 667,
@@ -33699,14 +33724,39 @@
    "subcategory": "",
    "one_liner_en": "Open-source email app prioritizing privacy",
    "one_liner_zh": "隐私优先的开源邮件应用",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B005"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC X25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/launches/NTI-zero-ai-native-email"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类邮件客户端/AI",
+    "Superhuman",
+    "AI 收件箱"
+   ],
+   "scene_tags": [
+    "AI原生邮件",
+    "自动整理摘要",
+    "起草回复",
+    "开源隐私优先",
+    "职能后台",
+    "职能后台"
+   ],
+   "archive": "companies/zero.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 687,
@@ -33768,14 +33818,39 @@
    "subcategory": "",
    "one_liner_en": "Life sciences instruments for automated labs",
    "one_liner_zh": "面向自动化实验室的生命科学仪器",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B005"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC X25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/bramante-biologics"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类生命科学仪器",
+    "GMP 生物制造/CDMO",
+    "模块化产能"
+   ],
+   "scene_tags": [
+    "生命科学仪器",
+    "仪器带API/SDK/MCP",
+    "模块化GMP pod",
+    "本土小批量制造",
+    "生产制造",
+    "生产制造"
+   ],
+   "archive": "companies/bramante-biologics.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 689,
@@ -33787,14 +33862,45 @@
    "subcategory": "",
    "one_liner_en": "AI agentic trading desk",
    "one_liner_zh": "AI 智能体交易台",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B005"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC X25（$7.4 万 MRR）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/scalar-field"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "约 800 付费交易者",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/scalar-field"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类交易终端/量化",
+    "BI 看板",
+    "决策 Agent"
+   ],
+   "scene_tags": [
+    "AI交易台",
+    "市场研究回测",
+    "连券商执行",
+    "验证想法",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/scalar-field.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 690,
@@ -33806,14 +33912,39 @@
    "subcategory": "",
    "one_liner_en": "AI operator for regulated financial services",
    "one_liner_zh": "面向受监管金融服务的 AI 操盘手",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B005"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "种子",
+     "amount": "$7.4M",
+     "date": "2025",
+     "source_url": "https://hyper.ai/en/headlines/d69f481d915f53b228a4cb9eb496faa1"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类客服/客户运营自动化",
+    "RPA/computer-use",
+    "智能客服"
+   ],
+   "scene_tags": [
+    "金融客户运营",
+    "观察SOP学操作",
+    "无需API",
+    "自动化复杂流程",
+    "营销销售客服",
+    "营销销售客服"
+   ],
+   "archive": "companies/eloquent-ai.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 691,
@@ -34538,14 +34669,39 @@
    "subcategory": "",
    "one_liner_en": "AI employees for medical clinics",
    "one_liner_zh": "面向诊所的 AI 数字员工",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B005"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "种子",
+     "amount": "$3.1M",
+     "date": "2025",
+     "source_url": "https://www.thevccorner.com/p/novoflow-ai-healthcare-startup"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类语音客服/数字员工",
+    "EHR 集成",
+    "预约挽回"
+   ],
+   "scene_tags": [
+    "诊所数字员工",
+    "语音Agent接来去电",
+    "computer-use操作老系统",
+    "挽回流失",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/novoflow.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 707,
@@ -34787,14 +34943,51 @@
    "subcategory": "",
    "one_liner_en": "Biological health companion with lab testing",
    "one_liner_zh": "带化验的生物健康伴侣",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B005"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "A 轮",
+     "amount": "€17.3M（约 $20M）",
+     "date": "2026-05",
+     "source_url": "https://www.eu-startups.com/2026/05/yc-backed-french-preventive-health-platform-lucis-raises-e17-3-million-series-a-led-by-singular/"
+    },
+    {
+     "round": "种子",
+     "amount": "$8.5M",
+     "date": "2025-12",
+     "source_url": "https://pathfounders.com/p/general-catalyst-backs-lucis-raise-8-5-million"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "1 万+用户",
+     "confidence": "中",
+     "source_url": "https://tech.eu/2026/05/26/lucis-raises-20m-series-a-to-expand-ai-driven-preventive-healthcare-platform/"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类健康管理/体检",
+    "预防健康",
+    "预测性维护(范式)"
+   ],
+   "scene_tags": [
+    "预防健康",
+    "110+血液标志物",
+    "AI健康伴侣",
+    "个性化建议",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/lucis.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 712,
@@ -34987,14 +35180,39 @@
    "subcategory": "",
    "one_liner_en": "AI back-office automation for senior care",
    "one_liner_zh": "面向养老护理的 AI 后台自动化",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B005"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC X25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/morphik"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类财务自动化/RPA",
+    "应付账款/催收",
+    "数字员工"
+   ],
+   "scene_tags": [
+    "养老后台自动化",
+    "应付账款催收",
+    "薪资自动化",
+    "跨多机构",
+    "职能后台",
+    "职能后台"
+   ],
+   "archive": "companies/morphik.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 717,
@@ -35050,14 +35268,45 @@
    "subcategory": "",
    "one_liner_en": "AI-powered ticket marketplace for sellers",
    "one_liner_zh": "面向卖家的 AI 票务市场",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B005"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC X25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/ticket-wallet"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "100+ 付费卖家、$300 万+ 库存",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/ticket-wallet"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类动态定价/多渠道",
+    "票务转售",
+    "智能定价"
+   ],
+   "scene_tags": [
+    "AI票务转售",
+    "动态重定价",
+    "跨全平台挂牌",
+    "实时需求",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/ticket-wallet.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 719,
@@ -35267,14 +35516,45 @@
    "subcategory": "",
    "one_liner_en": "Scientific data platform for research labs",
    "one_liner_zh": "面向科研实验室的科学数据平台",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B005"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC X25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/labric"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "企业、学术实验室、DOE 国家实验室",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/labric"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类 LIMS/ELN",
+    "实验室数据平台",
+    "仪器数据采集"
+   ],
+   "scene_tags": [
+    "科研数据层",
+    "仪器数据采集",
+    "统一数据中枢",
+    "集成AI保可复现",
+    "研发设计",
+    "研发设计"
+   ],
+   "archive": "companies/labric.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 724,
@@ -35586,14 +35866,39 @@
    "subcategory": "",
    "one_liner_en": "Grammarly for math writing",
    "one_liner_zh": "数学写作版的 Grammarly",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B005"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC X25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/chiron"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类数学学习/AI辅导",
+    "符号计算",
+    "公式校验"
+   ],
+   "scene_tags": [
+    "数学写作辅助",
+    "笔迹转LaTeX",
+    "符号逻辑判对错",
+    "不依赖LLM",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/chiron.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 731,
@@ -35667,14 +35972,45 @@
    "subcategory": "",
    "one_liner_en": "AI call center for healthcare concierge support",
    "one_liner_zh": "面向医疗礼宾支持的 AI 呼叫中心",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B005"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC X25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/trapeze"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "140+ 医生、100 万+患者",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/trapeze"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类语音客服/呼叫中心",
+    "智能话务",
+    "预约排期"
+   ],
+   "scene_tags": [
+    "医疗AI呼叫中心",
+    "7×24语音Agent",
+    "克隆最佳话务",
+    "获客排期",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/trapeze.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 733,
@@ -36057,14 +36393,39 @@
    "subcategory": "",
    "one_liner_en": "AI constituent services for government teams",
    "one_liner_zh": "面向政府团队的 AI 选民服务",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B005"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC X25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/caucus"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类政府 CRM/客服",
+    "工单路由",
+    "情绪趋势看板"
+   ],
+   "scene_tags": [
+    "政府选民服务",
+    "聊天语音Agent",
+    "个案受理路由",
+    "情绪趋势看板",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/caucus.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 742,
@@ -36243,14 +36604,45 @@
    "subcategory": "",
    "one_liner_en": "AI essay grader for educational platforms",
    "one_liner_zh": "面向教育平台的 AI 作文批改",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B005"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC X25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/vibegrade"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "教师(省 500+ 校日、批改 1.2 万篇)",
+     "confidence": "中",
+     "source_url": "https://x.com/ycombinator/status/1914348403611312140"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类 AI 批改/评审",
+    "作文批改",
+    "rubric 评审"
+   ],
+   "scene_tags": [
+    "AI作文批改",
+    "内嵌Classroom/Canvas",
+    "学教师风格",
+    "rubric评审",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/vibegrade.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 746,
