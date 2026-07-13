@@ -38959,14 +38959,39 @@
    "subcategory": "",
    "one_liner_en": "Stablecoin API for global payments",
    "one_liner_zh": "面向全球支付的稳定币 API",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "种子",
+     "amount": "$3.3M",
+     "date": "2025",
+     "source_url": "https://www.linkedin.com/posts/bernardosm_blindpay-yc-w25-raised-33m-in-a-seed-activity-7358876030717112320-Bqhi"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类跨境支付/稳定币",
+    "拉美支付",
+    "跨境收款"
+   ],
+   "scene_tags": [
+    "稳定币支付API",
+    "直连拉美本地轨",
+    "数秒到账",
+    "降成本80%",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/blindpay.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 794,
@@ -38978,14 +39003,39 @@
    "subcategory": "",
    "one_liner_en": "AI coverage intelligence for brokers",
    "one_liner_zh": "面向保险经纪的 AI 承保情报",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/vantel"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类合同/文档比对",
+    "保险经纪 AI",
+    "条款审查"
+   ],
+   "scene_tags": [
+    "保险承保情报",
+    "多保单比对",
+    "合同校验找缺口",
+    "省时",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/vantel.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 795,
@@ -39491,14 +39541,45 @@
    "subcategory": "",
    "one_liner_en": "AI-powered emoji generation for messaging",
    "one_liner_zh": "面向即时通讯的 AI 表情生成",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/emojiscom"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "250 万用户",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/emojiscom"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类 AI 图形/表情",
+    "设计工具",
+    "品牌素材生成"
+   ],
+   "scene_tags": [
+    "AI表情生成",
+    "跨消息平台",
+    "图形设计copilot",
+    "社区发现",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/emojis-com.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 804,
@@ -39784,14 +39865,45 @@
    "subcategory": "",
    "one_liner_en": "AI voice agents for healthcare phone lines",
    "one_liner_zh": "面向医疗电话线的 AI 语音智能体",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "种子",
+     "amount": "约 $3.5M",
+     "date": "2025",
+     "source_url": "https://stanforddaily.com/2025/12/01/stanford-founders-yc-backed-startup-automates-clinic-operations-with-ai-voice-agents/"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "1000+ 诊所",
+     "confidence": "中",
+     "source_url": "https://www.paratushealth.com/"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类语音客服/前台",
+    "智能话务",
+    "EHR/ERP 集成"
+   ],
+   "scene_tags": [
+    "医疗语音前台",
+    "7×24接来电",
+    "受理核验",
+    "集成EHR",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/paratus-health.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 810,
@@ -40270,14 +40382,37 @@
    "subcategory": "",
    "one_liner_en": "Single-note scents for every occasion",
    "one_liner_zh": "适配各种场合的单一调香水",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/demeter"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "（存歧义,暂无可靠对标）"
+   ],
+   "scene_tags": [
+    "存歧义待补证",
+    "无维度",
+    "无维度",
+    "无维度",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/demeter.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 820,
@@ -40533,14 +40668,39 @@
    "subcategory": "",
    "one_liner_en": "Vintage personal shopper with AI curation",
    "one_liner_zh": "带 AI 甄选的古着私人买手",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/retrofit"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类二手/古着市场",
+    "AI 选品",
+    "智能推荐"
+   ],
+   "scene_tags": [
+    "AI甄选古着",
+    "私人买手",
+    "风格尺码匹配",
+    "二手市场",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/retrofit.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 826,
@@ -40552,14 +40712,39 @@
    "subcategory": "",
    "one_liner_en": "FedRAMP and StateRAMP compliance automation",
    "one_liner_zh": "FedRAMP/StateRAMP 合规自动化",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/archon"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类合规/GRC 自动化",
+    "认证准备",
+    "安全合规"
+   ],
+   "scene_tags": [
+    "FedRAMP合规自动化",
+    "预建合规基建",
+    "自动合规文档",
+    "持续监控",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/archon.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 827,
@@ -40819,14 +41004,39 @@
    "subcategory": "",
    "one_liner_en": "AI exam prep tutor with practice analytics",
    "one_liner_zh": "带练习分析的 AI 备考家教",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/miyagi-labs"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类备考/家教App",
+    "AI 培训",
+    "视频变课程"
+   ],
+   "scene_tags": [
+    "AI备考家教",
+    "视频变课程",
+    "练习分析",
+    "定位薄弱点",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/miyagi-labs.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 832,
@@ -40984,14 +41194,39 @@
    "subcategory": "",
    "one_liner_en": "Stablecoin payments for global businesses",
    "one_liner_zh": "面向全球企业的稳定币支付",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/infinite"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类跨境 B2B 支付/稳定币",
+    "跨境收付",
+    "贸易结算"
+   ],
+   "scene_tags": [
+    "B2B稳定币支付",
+    "全球收付",
+    "更快更省",
+    "跨境结算",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/infinite.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 836,
@@ -41235,14 +41470,45 @@
    "subcategory": "",
    "one_liner_en": "AI-assisted commercial insurance brokerage",
    "one_liner_zh": "AI 辅助的商业保险经纪",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "A 轮+种子",
+     "amount": "$46.8M",
+     "date": "2026-02",
+     "source_url": "https://techcrunch.com/2026/02/25/ai-insurance-brokerage-harper-raises-45m-series-a-and-seed/"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "5000+ 中小企业客户",
+     "confidence": "中",
+     "source_url": "https://techcrunch.com/2026/02/25/ai-insurance-brokerage-harper-raises-45m-series-a-and-seed/"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类保险经纪/科技",
+    "商业保险",
+    "AI 经纪"
+   ],
+   "scene_tags": [
+    "AI商业保险经纪",
+    "匹配160+保司",
+    "人效30-50倍",
+    "中小企业",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/harper.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 842,
@@ -41344,14 +41610,39 @@
    "subcategory": "",
    "one_liner_en": "Global dollar accounts for emerging markets",
    "one_liner_zh": "面向新兴市场的全球美元账户",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/karsa"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类稳定币/美元账户",
+    "新兴市场金融",
+    "跨境资金"
+   ],
+   "scene_tags": [
+    "新兴市场美元账户",
+    "稳定币储蓄",
+    "对冲本币贬值",
+    "P2P供给",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/karsa.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 845,
@@ -41458,14 +41749,45 @@
    "subcategory": "",
    "one_liner_en": "AI city-planning tools for municipalities",
    "one_liner_zh": "面向市政的 AI 城市规划工具",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/waypoint-transit"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "10+ 市政(Santa Fe MPO/Teton/Marin 等)",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/waypoint-transit"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类规划/咨询 AI",
+    "城市规划",
+    "产线/物流规划(范式)"
+   ],
+   "scene_tags": [
+    "AI城市规划",
+    "生成规划研究",
+    "成本降70%",
+    "周期数年到数月",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/waypoint-transit.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 848,
@@ -41672,14 +41994,45 @@
    "subcategory": "",
    "one_liner_en": "Anonymous hedge fund debate library",
    "one_liner_zh": "匿名的对冲基金辩论库",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "种子",
+     "amount": "$500K",
+     "date": "2025-03",
+     "source_url": "https://www.ycombinator.com/companies/trata"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "125+ 家基金(管理 $1750 亿+)",
+     "confidence": "中",
+     "source_url": "https://x.com/ycombinator/status/2001354278028612082"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类专家网络/投研",
+    "另类数据",
+    "情报知识库"
+   ],
+   "scene_tags": [
+    "对冲基金研究库",
+    "匿名辩论策展",
+    "AI采访抽信号",
+    "人工核验买方",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/trata.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 853,
@@ -41815,14 +42168,39 @@
    "subcategory": "",
    "one_liner_en": "Healthcare commercial intelligence for life sciences",
    "one_liner_zh": "面向生命科学的医疗商业情报",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "种子",
+     "amount": "$500K",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/g-lnk"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类医疗商业情报",
+    "IQVIA",
+    "客户/专家画像"
+   ],
+   "scene_tags": [
+    "医疗商业情报",
+    "920万医生画像",
+    "匹配排名专家",
+    "统一数据流",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/g-lnk.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 856,
