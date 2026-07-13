@@ -46225,22 +46225,47 @@
   },
   {
    "num": 936,
-   "name": "RADA (Extruct 误配)",
+   "name": "Rada",
    "slug": "rada-extruct",
    "batch": "B006",
    "source": "YC Winter 2025 (W25) Launch",
-   "category": "Industrials",
+   "category": "Fintech · Insurance",
    "subcategory": "",
-   "one_liner_en": "[Extruct 配到美国本土刀具,可能与实际 YC 公司不符]",
-   "one_liner_zh": "[此条 Extruct 富集疑似错配,待核实]",
-   "tier": "C",
+   "one_liner_en": "Automating insurance calls with voice AI (real company; corrected from Extruct cutting-tools mismatch)",
+   "one_liner_zh": "自动化保险电话的语音 AI（真实公司，已纠正 Extruct 刀具误配）",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies?batch=Winter%202025"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类保险语音/呼叫",
+    "智能话务",
+    "客服自动化"
+   ],
+   "scene_tags": [
+    "保险语音AI",
+    "电话自动化",
+    "原刀具误配已纠正",
+    "公开细节有限",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/rada-extruct.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 937,
