@@ -13577,14 +13577,39 @@
    "subcategory": "",
    "one_liner_en": "AI agents for financial crime compliance",
    "one_liner_zh": "金融犯罪合规的 AI 智能体",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/fenrock-ai-yc-w26"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类合规/风控",
+    "反洗钱系统",
+    "合规自动化"
+   ],
+   "scene_tags": [
+    "金融犯罪合规",
+    "合规AI智能体",
+    "防弹审计",
+    "整合SOP",
+    "合规职能",
+    "职能后台"
+   ],
+   "archive": "companies/fenrock-ai.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 283,
@@ -13745,14 +13770,39 @@
    "subcategory": "",
    "one_liner_en": "Evolutionary therapies for autoimmune disease",
    "one_liner_zh": "针对自身免疫病的进化疗法",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/ditto-biosciences"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类自免疫/生物药",
+    "AI 药物发现",
+    "创新药企"
+   ],
+   "scene_tags": [
+    "自免疫疗法",
+    "寄生生物学",
+    "AI识别天然蛋白",
+    "进化疗法",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/ditto-biosciences.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 287,
@@ -13764,14 +13814,39 @@
    "subcategory": "",
    "one_liner_en": "AI for safer cell & gene therapies",
    "one_liner_zh": "让细胞与基因疗法更安全的 AI",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/origin-bio"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类基因/细胞疗法 AI",
+    "AlphaGenome",
+    "生物 AI 模型"
+   ],
+   "scene_tags": [
+    "细胞基因疗法",
+    "调控DNA设计",
+    "专有验证数据集",
+    "超通用模型",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/origin.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 288,
@@ -13783,14 +13858,45 @@
    "subcategory": "",
    "one_liner_en": "The agentic drug company simulating human biology",
    "one_liner_zh": "仿真人体生物学的智能体药企",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/celltype"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "Senhwa Biosciences、Top10 药企(inbound)",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/celltype"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类 AI 药物发现/仿真",
+    "生物基础模型",
+    "计算生物"
+   ],
+   "scene_tags": [
+    "仿真生物学",
+    "智能体药企",
+    "仿真替代实验",
+    "生物基础模型",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/celltype.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 289,
@@ -13802,14 +13908,39 @@
    "subcategory": "",
    "one_liner_en": "AI agents for primary care",
    "one_liner_zh": "全科医疗的 AI 智能体",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/beacon-health"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类 RPA/流程自动化",
+    "医疗运营系统",
+    "AI 员工/数字员工"
+   ],
+   "scene_tags": [
+    "AI员工",
+    "后台流程自动化",
+    "直插既有系统",
+    "端到端",
+    "医疗运营",
+    "职能后台"
+   ],
+   "archive": "companies/beacon-health.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 290,
@@ -13821,14 +13952,45 @@
    "subcategory": "",
    "one_liner_en": "The autonomous operating system for healthcare",
    "one_liner_zh": "医疗的自主化操作系统",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/eos-ai"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "早期诊所(3x 行政效率、37% 收入回收)",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/eos-ai"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类数据中台/集成",
+    "医疗 HIE",
+    "数据协调平台"
+   ],
+   "scene_tags": [
+    "自主运营OS",
+    "跨源数据协调",
+    "统一索引数据留原处",
+    "行政自动化",
+    "职能后台",
+    "职能后台"
+   ],
+   "archive": "companies/eos-ai.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 291,
@@ -13840,14 +14002,39 @@
    "subcategory": "",
    "one_liner_en": "An AI-native medico-legal firm",
    "one_liner_zh": "AI 原生的医疗法律事务所",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/docura-health"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类文档审查/法务AI",
+    "病历/文档整理",
+    "审计报告自动化"
+   ],
+   "scene_tags": [
+    "医疗法律事务所",
+    "病历审查",
+    "结构化摘要报告",
+    "文档法务",
+    "职能后台",
+    "职能后台"
+   ],
+   "archive": "companies/docura-health.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 292,
@@ -13859,14 +14046,45 @@
    "subcategory": "",
    "one_liner_en": "AI voice agent for patient calls & admin",
    "one_liner_zh": "处理患者来电与行政事务的 AI 语音智能体",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W26（$50K MRR,$180 万增量收入）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/patientdeskai"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "牙科诊所(带来 $180 万增量收入)",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/patientdeskai"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类语音客服/呼叫中心",
+    "智能外呼",
+    "诊所管理系统"
+   ],
+   "scene_tags": [
+    "AI语音前后台",
+    "处理来电",
+    "排程核验账单",
+    "一体化运营",
+    "职能后台",
+    "职能后台"
+   ],
+   "archive": "companies/patientdesk-ai.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 293,
@@ -13878,14 +14096,39 @@
    "subcategory": "",
    "one_liner_en": "AI-native platform for regulatory document submission",
    "one_liner_zh": "监管文件申报的 AI 原生平台",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/ritivel"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类监管/文档写作",
+    "Veeva",
+    "医学写作服务"
+   ],
+   "scene_tags": [
+    "监管文档申报",
+    "AI起草",
+    "遵格式带溯源",
+    "连文档系统",
+    "合规监管",
+    "职能后台"
+   ],
+   "archive": "companies/ritivel.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 294,
@@ -13897,14 +14140,45 @@
    "subcategory": "",
    "one_liner_en": "AI-powered medical billing",
    "one_liner_zh": "AI 医疗账单处理",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/overdrive-health"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "20+ 救护车提供方(年 $5000 万+理赔)",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/overdrive-health"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类财务/RCM",
+    "账单外包",
+    "财务共享中心"
+   ],
+   "scene_tags": [
+    "医疗账单RCM",
+    "收入循环自动化",
+    "核验催收",
+    "收购+AI化",
+    "财务后台",
+    "职能后台"
+   ],
+   "archive": "companies/overdrive.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 295,
@@ -13916,14 +14190,45 @@
    "subcategory": "",
    "one_liner_en": "Adaptive healthcare admin agents",
    "one_liner_zh": "自适应的医疗行政智能体",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/zatanna"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "高流量消费平台/物流等运营敏感行业(未具名)",
+     "confidence": "低",
+     "source_url": "https://www.ycombinator.com/companies/zatanna"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类 RPA/集成",
+    "接口逆向/爬虫",
+    "Agent 集成层"
+   ],
+   "scene_tags": [
+    "软件转AgentAPI",
+    "请求层重建",
+    "可靠API",
+    "对接无API系统",
+    "转型",
+    "AI基础设施"
+   ],
+   "archive": "companies/zatanna.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 296,
@@ -13935,14 +14240,45 @@
    "subcategory": "",
    "one_liner_en": "Help clinics get patients on biologics faster",
    "one_liner_zh": "帮诊所更快让患者用上生物制剂",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/ruma-care"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "加州/内华达输注诊所(付费,55% 拒付降低)",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/ruma-care"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类审批/申报自动化",
+    "政务/资质申报",
+    "RPA 审批"
+   ],
+   "scene_tags": [
+    "预授权自动化",
+    "按规则提取标准",
+    "自动填表",
+    "跨门户一体",
+    "医疗行政",
+    "职能后台"
+   ],
+   "archive": "companies/ruma-care.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 297,
@@ -13954,14 +14290,39 @@
    "subcategory": "",
    "one_liner_en": "Curated multimodal datasets for biology AI",
    "one_liner_zh": "为生物 AI 精选的多模态数据集",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/strand-ai"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类多模态/数据补全",
+    "生物数据平台",
+    "BioStack 类"
+   ],
+   "scene_tags": [
+    "多模态生物数据",
+    "数据补全",
+    "预测未测模态",
+    "稀疏变完整",
+    "生物数据层",
+    "AI基础设施"
+   ],
+   "archive": "companies/strand-ai.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 298,
@@ -13973,14 +14334,39 @@
    "subcategory": "",
    "one_liner_en": "An AI primary care doctor in your pocket",
    "one_liner_zh": "口袋里的 AI 全科医生",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/prana-health"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类互联网医疗",
+    "预测性维护(工业类比)",
+    "消费健康"
+   ],
+   "scene_tags": [
+    "AI全科医生",
+    "持续监测",
+    "临床漂移预警",
+    "消费医疗",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/prana.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 299,

@@ -844,6 +844,16 @@
     "surtr-defense-systems": "prod",
     "9-mothers": "prod",
     "drafted": "rnd",
-    "panta": "corp"
+    "panta": "corp",
+    "fenrock-ai": "corp",
+    "eos-ai": "corp",
+    "patientdesk-ai": "corp",
+    "ritivel": "corp",
+    "ruma-care": "corp",
+    "beacon-health": "corp",
+    "docura-health": "corp",
+    "overdrive": "corp",
+    "strand-ai": "aiinfra",
+    "zatanna": "aiinfra"
   }
 }
