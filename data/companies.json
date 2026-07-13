@@ -14378,14 +14378,45 @@
    "subcategory": "",
    "one_liner_en": "Solving language barriers in healthcare",
    "one_liner_zh": "破解医疗中的语言障碍",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/opalite-health"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "10+ 州医院/社区健康中心/诊所",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/opalite-health"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类实时翻译/口译",
+    "讯飞翻译/时空壶",
+    "AI 同传"
+   ],
+   "scene_tags": [
+    "医疗口译",
+    "实时语音翻译",
+    "150+语言",
+    "准确性保障",
+    "多语种沟通",
+    "营销销售客服"
+   ],
+   "archive": "companies/opalite-health.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 300,
@@ -14397,14 +14428,45 @@
    "subcategory": "",
    "one_liner_en": "Simulating orthopedic surgeries based on CT scans",
    "one_liner_zh": "基于 CT 仿真骨科手术",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W26（8 位数 LOI,申 FDA 510(k)）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/mango-medical-inc"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "某顶级骨科公司(8 位数 LOI)",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/mango-medical-inc"
+    }
+   ],
+   "cn_benchmarks": [
+    "威高/大博/春立——骨科植入物",
+    "3D 打印导板",
+    "手术规划软件"
+   ],
+   "scene_tags": [
+    "骨科手术规划",
+    "CT仿真",
+    "植入物规划",
+    "驱动3D打印导板",
+    "医疗器械",
+    "生产制造"
+   ],
+   "archive": "companies/mango-medical.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 301,
@@ -14416,14 +14478,45 @@
    "subcategory": "",
    "one_liner_en": "AI drone systems for defence",
    "one_liner_zh": "国防 AI 无人机系统",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/seeing-systems"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "英国皇家海军陆战队突击队+4 个 NATO 部队",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/seeing-systems"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类无人机/模块化设计",
+    "大疆行业无人机",
+    "军用无人机"
+   ],
+   "scene_tags": [
+    "模块化无人机",
+    "可换组件",
+    "agentic控制",
+    "生命周期降本",
+    "国防",
+    "生产制造"
+   ],
+   "archive": "companies/seeing-systems.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 302,
@@ -15201,14 +15294,39 @@
    "subcategory": "",
    "one_liner_en": "Smarter, faster trade execution for digital assets",
    "one_liner_zh": "数字资产更智能更快的交易执行",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "种子/早期",
+     "amount": "约 $20M",
+     "date": "2026",
+     "source_url": "https://app.dealroom.co/companies/sequence_markets"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类交易执行/SOR",
+    "加密交易基础设施",
+    "智能路由"
+   ],
+   "scene_tags": [
+    "数字资产执行",
+    "智能订单路由",
+    "低延迟",
+    "跨场所",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/sequence-markets.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 319,
@@ -15220,14 +15338,39 @@
    "subcategory": "",
    "one_liner_en": "Support direct billing to avoid the 30% app store tax",
    "one_liner_zh": "支持应用内直接计费,规避 30% 应用商店抽成",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/zerosettle"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类支付 SDK/聚合支付",
+    "应用内支付",
+    "MoR 服务"
+   ],
+   "scene_tags": [
+    "应用内直接计费",
+    "绕30%抽成",
+    "即插SDK",
+    "MoR",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/zerosettle.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 320,
@@ -15239,14 +15382,45 @@
    "subcategory": "",
    "one_liner_en": "Payroll for performance",
    "one_liner_zh": "按绩效发薪",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W26（$100 万+处理）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/grade"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "具名客户(首月 $8 万创作者付款)",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/grade"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类薪酬/计件系统",
+    "HR SaaS",
+    "绩效工资系统"
+   ],
+   "scene_tags": [
+    "绩效薪酬",
+    "按结果付款",
+    "计件工资",
+    "自动算付款",
+    "薪酬职能",
+    "职能后台"
+   ],
+   "archive": "companies/grade.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 321,
@@ -15258,14 +15432,39 @@
    "subcategory": "",
    "one_liner_en": "The first regulated exchange to trade on attention",
    "one_liner_zh": "首个可交易'注意力'的受监管交易所",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/forum"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类预测市场/舆情指数",
+    "品牌热度指数",
+    "社交媒体监测"
+   ],
+   "scene_tags": [
+    "注意力交易",
+    "文化注意力指数",
+    "预测市场",
+    "搜索社交指标",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/forum.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 322,
@@ -15574,14 +15773,45 @@
    "subcategory": "",
    "one_liner_en": "Maximizing the thrill of collecting trading cards",
    "one_liner_zh": "放大集换式卡牌收藏的乐趣",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W26（$13K MRR）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/catchback-cards"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "700 用户($13K MRR)",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/catchback-cards"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类卡牌/盲盒平台",
+    "泡泡玛特/集卡",
+    "gacha 平台"
+   ],
+   "scene_tags": [
+    "集换卡牌",
+    "个性化卡包",
+    "密码学可信随机",
+    "数字+实体",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/catchback-cards.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 329,
@@ -15593,14 +15823,39 @@
    "subcategory": "",
    "one_liner_en": "Physics-enhanced datasets for low-resource ML",
    "one_liner_zh": "面向低资源机器学习的物理增强数据集",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "种子",
+     "amount": "$7.4M",
+     "date": "2026",
+     "source_url": "https://www.startuphub.ai/ai-news/claudes-corner/2026/claudes-corner-mantis-biotech-yc-w2026"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类合成数据/数字孪生",
+    "工业仿真(CAE)",
+    "物理仿真生成数据"
+   ],
+   "scene_tags": [
+    "物理增强数据集",
+    "数字孪生",
+    "LLM+物理仿真",
+    "合成训练数据",
+    "低资源ML",
+    "AI基础设施"
+   ],
+   "archive": "companies/mantis-biotechnology.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 330,
@@ -15612,14 +15867,45 @@
    "subcategory": "",
    "one_liner_en": "Anyone can create real games with AI",
    "one_liner_zh": "人人都能用 AI 做出真正的游戏",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/codewisp"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "1.7 万+游戏创建、2000+ 周活创作者",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/codewisp"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类 AI 游戏创作",
+    "微信小游戏",
+    "Playabl/Pops 类"
+   ],
+   "scene_tags": [
+    "AI游戏创作",
+    "prompt生成游戏",
+    "2D3D多人",
+    "可精修",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/codewisp.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 331,
@@ -15631,14 +15917,45 @@
    "subcategory": "",
    "one_liner_en": "The first AI-powered grand strategy sandbox game",
    "one_liner_zh": "首款 AI 驱动的大战略沙盒游戏",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/pax-historia"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "3.5 万日活、2000 万+对局",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/pax-historia"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类策略/沙盒游戏",
+    "AI 游戏",
+    "情景推演"
+   ],
+   "scene_tags": [
+    "AI大战略游戏",
+    "沙盒",
+    "AI驱动角色反应",
+    "情景推演",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/pax-historia.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 332,
@@ -16343,14 +16660,45 @@
    "subcategory": "",
    "one_liner_en": "Autonomous loan servicing and collections",
    "one_liner_zh": "自主化贷后服务与催收",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "种子",
+     "amount": "约 $1M",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/proximitty"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "4 家大机构(处理 $20 亿+逾期贷款)",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/proximitty"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类财务/应收管理",
+    "无代码流程自动化",
+    "财务共享中心"
+   ],
+   "scene_tags": [
+    "贷后服务催收",
+    "无代码Agent",
+    "跨系统自动化",
+    "应收预警催收",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/proximitty.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 348,
@@ -16887,14 +17235,39 @@
    "subcategory": "",
    "one_liner_en": "A strength tracking wearable",
    "one_liner_zh": "力量训练追踪可穿戴设备",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/fort"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类运动可穿戴",
+    "华为/小米手环",
+    "动作识别传感"
+   ],
+   "scene_tags": [
+    "力量追踪可穿戴",
+    "端侧ML动作识别",
+    "无屏硬件",
+    "多佩戴方式",
+    "工业可穿戴",
+    "生产制造"
+   ],
+   "archive": "companies/fort.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 360,
@@ -16906,14 +17279,45 @@
    "subcategory": "",
    "one_liner_en": "Doomscroll to learn languages",
    "one_liner_zh": "边刷边学外语",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B002"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W26（未单列）",
+     "amount": "未披露",
+     "date": "2026",
+     "source_url": "https://www.ycombinator.com/companies/doomersion"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "1.5 万下载(两周)",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/doomersion"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类语言学习App",
+    "多邻国/流利说",
+    "短视频学习"
+   ],
+   "scene_tags": [
+    "边刷边学",
+    "语言学习",
+    "水平匹配渐进",
+    "嵌入高频行为",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/doomersion.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 361,

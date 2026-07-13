@@ -854,6 +854,12 @@
     "docura-health": "corp",
     "overdrive": "corp",
     "strand-ai": "aiinfra",
-    "zatanna": "aiinfra"
+    "zatanna": "aiinfra",
+    "opalite-health": "sales",
+    "mango-medical": "prod",
+    "seeing-systems": "prod",
+    "fort": "prod",
+    "mantis-biotechnology": "aiinfra",
+    "grade": "corp"
   }
 }
