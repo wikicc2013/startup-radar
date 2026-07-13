@@ -45885,14 +45885,45 @@
    "subcategory": "",
    "one_liner_en": "AI veterinary scribe and copilot",
    "one_liner_zh": "面向兽医的 AI 病历助手与副驾",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/vetnio"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "IVC Evidensia 等兽医连锁",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/vetnio"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类 AI Scribe/语音病历",
+    "现场记录自动化",
+    "工单生成"
+   ],
+   "scene_tags": [
+    "兽医病历副驾",
+    "录会话生成记录",
+    "诊断随访发票",
+    "省记录时间",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/vetnio.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 930,
@@ -45955,14 +45986,39 @@
    "subcategory": "",
    "one_liner_en": "Smart camera technology for sports tracking",
    "one_liner_zh": "面向运动追踪的智能摄像头技术",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC（未单列,存歧义）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/trace-2"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类体育摄像/智能相机",
+    "目标追踪",
+    "工业视觉(范式)"
+   ],
+   "scene_tags": [
+    "体育智能摄像头",
+    "自动追踪全场",
+    "AI自动剪辑",
+    "存同名歧义",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/trace-2.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 932,
@@ -46083,14 +46139,39 @@
    "subcategory": "",
    "one_liner_en": "AI essay grading for senior English",
    "one_liner_zh": "面向高年级英语的 AI 作文批改",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/edexia"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类 AI 批改/评审",
+    "学风格评审",
+    "可解释评分"
+   ],
+   "scene_tags": [
+    "英语作文批改",
+    "学教师风格",
+    "可视化rubric",
+    "随纠正更新",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/edexia.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 935,
@@ -46215,14 +46296,39 @@
    "subcategory": "",
    "one_liner_en": "AI drug discovery for neurotherapeutics",
    "one_liner_zh": "面向神经疗法的 AI 药物发现",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W25（种子,用不到一半 YC 资金即达多个里程碑）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/exin-therapeutics"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类 AI 药物发现",
+    "高通量筛选",
+    "数据驱动研发"
+   ],
+   "scene_tags": [
+    "神经药物发现",
+    "高通量小鼠数据",
+    "多模态AI引导",
+    "电路级基因疗法",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/exin-therapeutics.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 939,
@@ -46234,14 +46340,39 @@
    "subcategory": "",
    "one_liner_en": "Rare disease therapeutics for underlying causes",
    "one_liner_zh": "面向罕见病根因的疗法",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "pre-seed",
+     "amount": "$500K",
+     "date": "2025",
+     "source_url": "https://startupintros.com/orgs/uncommon-therapeutics"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类罕见病/生物科技",
+    "根因分析",
+    "组合疗法(范式)"
+   ],
+   "scene_tags": [
+    "罕见病疗法",
+    "针对根因",
+    "多手段组合",
+    "基因编辑ASO小分子",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/uncommon-therapeutics.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 940,
@@ -46253,14 +46384,45 @@
    "subcategory": "",
    "one_liner_en": "AI shift scheduling for healthcare teams",
    "one_liner_zh": "面向医疗团队的 AI 排班",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC W25（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/youshift"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "欧美 1000+ 医生",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/youshift"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类排班/劳动力管理",
+    "工厂排班",
+    "WFM"
+   ],
+   "scene_tags": [
+    "AI排班",
+    "优化算法",
+    "兼顾需求偏好合规",
+    "劳动力管理",
+    "职能后台",
+    "职能后台"
+   ],
+   "archive": "companies/youshift.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 941,
@@ -46316,14 +46478,39 @@
    "subcategory": "",
    "one_liner_en": "AI agents for insurance workflow automation",
    "one_liner_zh": "面向保险流程自动化的 AI 智能体",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B006"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "种子",
+     "amount": "$500K",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/egress-health"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类 RCM/流程自动化",
+    "审批自动化",
+    "付款登记"
+   ],
+   "scene_tags": [
+    "牙科RCM",
+    "保险核验",
+    "事前授权",
+    "EOB登记",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/egress-health.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 943,
@@ -46335,14 +46522,39 @@
    "subcategory": "",
    "one_liner_en": "AI clinic for medical practices",
    "one_liner_zh": "面向医疗机构的 AI 诊所",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B007"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "种子",
+     "amount": "$4.4M",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/asha-health"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类数字健康/慢病管理",
+    "客户成功",
+    "持续触达"
+   ],
+   "scene_tags": [
+    "AI诊所",
+    "慢病持续支持",
+    "填护理缺口",
+    "自动创收",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/asha-health.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 944,
@@ -46545,14 +46757,39 @@
    "subcategory": "",
    "one_liner_en": "Autonomous AI workforce for care coordination",
    "one_liner_zh": "面向照护协调的自主 AI 数字员工",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B007"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC F24（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/helpcare-ai"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类数字员工/RPA",
+    "免集成外呼",
+    "多语言客服"
+   ],
+   "scene_tags": [
+    "医疗数字员工",
+    "免系统集成",
+    "跨门户操作",
+    "29语言外呼",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/helpcare.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 949,
@@ -46608,14 +46845,39 @@
    "subcategory": "",
    "one_liner_en": "Revenue cycle AI for healthcare denials",
    "one_liner_zh": "面向医疗拒赔的收入周期 AI",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B007"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "种子(累计 $43.5M)",
+     "amount": "$4.3M（种子）",
+     "date": "2025",
+     "source_url": "https://x.com/ycombinator/status/1991265495274922349"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类医疗 RCM/编码",
+    "源头防错",
+    "账款追回"
+   ],
+   "scene_tags": [
+    "医疗营收周期",
+    "源头防拒付",
+    "自主编码98%准",
+    "追回漏收",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/ember-copilot.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 951,
@@ -46681,14 +46943,39 @@
    "subcategory": "",
    "one_liner_en": "AI assistant for Gmail inboxes",
    "one_liner_zh": "面向 Gmail 收件箱的 AI 助手",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B007"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "种子",
+     "amount": "$2.6M",
+     "date": "2024",
+     "source_url": "https://startupintros.com/orgs/friday"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类邮件 AI/收件箱助手",
+    "Stamp/Zero",
+    "办公助手"
+   ],
+   "scene_tags": [
+    "Gmail AI助手",
+    "大白话定规则",
+    "自动处理邮件",
+    "紧急短信通知",
+    "职能后台",
+    "职能后台"
+   ],
+   "archive": "companies/friday.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 953,
@@ -46975,14 +47262,39 @@
    "subcategory": "",
    "one_liner_en": "AI platform for digital health clinics",
    "one_liner_zh": "面向数字健康诊所的 AI 平台",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B007"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC F24（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/futureclinic"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类数字诊所/EHR",
+    "流程自动化",
+    "人机分工"
+   ],
+   "scene_tags": [
+    "数字诊所EHR",
+    "AI处理99%",
+    "语音采史医学推理",
+    "人工1%确认",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/openclinic.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 960,
@@ -47038,14 +47350,39 @@
    "subcategory": "",
    "one_liner_en": "Estate settlement for grieving families",
    "one_liner_zh": "面向丧亲家庭的遗产清算",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B007"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC F24（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/sunset"
+    }
+   ],
+   "early_customers": [],
+   "cn_benchmarks": [
+    "各类遗产/probate",
+    "资产盘点",
+    "跨机构搜索"
+   ],
+   "scene_tags": [
+    "遗产清算",
+    "跨1300机构搜资产",
+    "县级文件生成",
+    "家庭免费",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/sunset-software.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 962,
@@ -47101,14 +47438,45 @@
    "subcategory": "",
    "one_liner_en": "Private market intelligence for M&A teams",
    "one_liner_zh": "面向并购团队的私募市场情报",
-   "tier": "C",
+   "tier": "B",
    "triage_reason": "",
-   "status": "named",
-   "review": "none",
+   "status": "reviewed",
+   "review": "auto",
    "appeared_in": [
     "B007"
    ],
-   "updated": "2026-07-07"
+   "updated": "2026-07-12",
+   "funding": [
+    {
+     "round": "YC F24（未单列）",
+     "amount": "未披露",
+     "date": "2025",
+     "source_url": "https://www.ycombinator.com/companies/revi"
+    }
+   ],
+   "early_customers": [
+    {
+     "name": "KPMG 及 KKR/Nordic/ICG 被投企业",
+     "confidence": "中",
+     "source_url": "https://www.ycombinator.com/companies/revi"
+    }
+   ],
+   "cn_benchmarks": [
+    "各类并购情报/项目源",
+    "供应商/客户挖掘",
+    "私募情报"
+   ],
+   "scene_tags": [
+    "并购项目源",
+    "私募市场情报",
+    "agentic复刻流程",
+    "精准可规模化",
+    "无维度",
+    "无维度"
+   ],
+   "archive": "companies/revi.md",
+   "researched_at": "2026-07-12",
+   "research_status": "researched"
   },
   {
    "num": 964,
