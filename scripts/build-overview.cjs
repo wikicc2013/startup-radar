@@ -221,6 +221,9 @@ const STYLE = `:root{--gz:#0d9488;--gz-2:#0f766e;--gz-soft:#effcf9;--gz-line:#cd
 .ph h2{margin:0;font-size:21px;letter-spacing:-.3px}
 .ph .pcount{font-size:13px;color:#fff;background:var(--pc);font-weight:800;padding:2px 11px;border-radius:999px}
 .ph .pdesc{font-size:12.5px;color:var(--sub);margin-left:auto;max-width:46ch;text-align:right}
+.topiclink{display:block;margin:12px 0 2px;padding:11px 15px;background:var(--gz-soft);border:1px solid var(--gz-line);border-left:3px solid var(--gz);border-radius:12px;font-size:13.5px;font-weight:700;color:var(--gz-2)}
+.topiclink:hover{text-decoration:none;border-color:var(--gz);filter:brightness(1.02)}
+.topiclink .tt{font-size:11.5px;color:var(--sub);font-weight:600;margin-left:6px}
 .scenehd{display:flex;align-items:center;gap:9px;margin:22px 0 2px;scroll-margin-top:12px}
 .scenehd .sdot{width:7px;height:7px;border-radius:50%;background:var(--pc)}
 .scenehd h3{margin:0;font-size:15.5px;font-weight:800;letter-spacing:-.2px}
@@ -264,7 +267,7 @@ function buildHtml() {
   h += `<header class="ohero">\n<div class="kicker">转型有术 · STARTUP RADAR · 价值链视角</div>\n<h1>深研档案 · 价值链全景</h1>\n`;
   h += `<p class="lead">业务 × 价值链 × 场景 × 深研 —— YC 新锐 AI 创业公司数据库中已完成联网深研的 <b>${reviewed.length}</b> 家公司，按「企业价值链」重构为 <b>${PARENTS.length}</b> 个环节、<b>${sceneCount}</b> 个细分场景。点任意场景跳转，点卡片进入该公司深研详情。</p>\n`;
   h += `<span class="updated">数据更新：${DATA_DATE}</span>\n`;
-  h += `<div class="opills"><a class="pri" href="#toc">价值链导航</a><a href="benchmarks.html">国内对标索引</a><a href="rankings.html">融资/客户榜单</a><a href="trends.html">趋势洞察</a><a href="investors.html">投资版图</a></div>\n`;
+  h += `<div class="opills"><a class="pri" href="#toc">价值链导航</a><a href="专题-L4工程图纸.html">📐 L4 图纸专题</a><a href="benchmarks.html">国内对标索引</a><a href="rankings.html">融资/客户榜单</a><a href="trends.html">趋势洞察</a><a href="investors.html">投资版图</a></div>\n`;
   h += `<div class="statgrid">`
     + `<div class="stile"><div class="sn">${reviewed.length}</div><div class="sl">深研档案</div></div>`
     + `<div class="stile"><div class="sn">${PARENTS.length}</div><div class="sl">价值链环节</div></div>`
@@ -288,6 +291,7 @@ function buildHtml() {
   PARENTS.forEach(p => {
     if (!grouped[p.id].total) return;
     h += `<section class="psec p-${p.id}"><div class="ph" id="${p.id}"><span class="pemoji">${p.emoji}</span><h2>${esc(p.title)}</h2><span class="pcount">${grouped[p.id].total}</span><span class="pdesc">${esc(p.desc)}</span></div>\n`;
+    if (p.id === 'rnd') h += `<a class="topiclink" href="专题-L4工程图纸.html">📐 专题 · L4 工程图纸与三维模型 —— 15 场景 × 库内厂商 × 案例<span class="tt">打泡/FAI · text-to-CAD · GD&T · CAD Copilot · 图纸→报价 · 覆盖 vs 缺口 →</span></a>\n`;
     scenesOf(p.id).forEach(sc => {
       h += `<div class="scenehd p-${p.id}" id="${sc.id}"><span class="sdot"></span><h3>${esc(sc.label)}</h3><span class="scount">${sc.rows.length}</span></div>`;
       h += `<div class="cogrid">` + sc.rows.slice().sort((a, b) => a.num - b.num).map(x => card(x, p.id)).join('') + `</div>\n`;
