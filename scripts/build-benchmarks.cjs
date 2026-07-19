@@ -29,7 +29,7 @@ const ALIAS = {
 };
 const norm = t => ALIAS[t] || t;
 // 精确丢弃的泛词（非具体厂商）
-const STOP = new Set(['国内', '身份认证', '浏览器', '低代码', '采购', '记忆基座', 'MES', 'RPA', 'IAM',
+const STOP = new Set(['国内', '各类', '身份认证', '浏览器', '低代码', '采购', '记忆基座', 'MES', 'RPA', 'IAM',
   'DLP', 'CAE', 'EDA', 'OCR', 'ERP', 'CRM', 'SCRM', 'AI防火墙', '向量数据库', '大模型', '知识库',
   '国产EDA', '国产CAD', '云厂商', 'iPaaS', 'AI', 'Agent', '海外']);
 // 含这些描述性词的候选丢弃

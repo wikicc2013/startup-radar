@@ -12,12 +12,14 @@
    d. 对新公司按 SKILL.md 第三节判据分诊为 A1/A2/B/C，写明 triage_reason；
    e. 分配新批次号 B{NNN}（现有最大值+1），文件移入 batches/ 并按规范重命名。
 3. 更新三个数据文件（保持一致性）：
-   - data/companies.json：追加新公司、更新 meta.batches、meta.updated；
+   - data/companies.json：追加新公司、更新 meta.batches、meta.updated；来源分类先写 category/subcategory，随后由重分类脚本转存为 source_category/source_subcategory；
    - data/queue.json：新 A 档公司以 status=pending 追加进队列；
    - registry.md：批次索引加一行，A/B 档表格追加条目。
 4. 生成批次快报 reports/B{NNN}-快报.md：漏斗数字（总数→A/B/C）、A 档清单及分诊理由、
    3 个最值得写的内容钩子。
-5. 单次 commit + push，信息格式：`ingest(B{NNN}): {来源} {总数}→A{n}/B{n}/C{n}`。
+5. 运行 `node scripts/reclassify.cjs --write` 按分类体系 2.0 写入统一的一级业务域与二级产品赛道；再运行 `node scripts/build-all.cjs` 刷新全部派生页和离线快照，然后运行
+   `node scripts/validate.cjs` 与 `node scripts/build-all.cjs --check`；任一失败都不得提交。
+6. 单次 commit + push，信息格式：`ingest(B{NNN}): {来源} {总数}→A{n}/B{n}/C{n}`。
 
 约束：本 Routine 只做抽取+分诊+建卡，禁止对任何公司启动深度搜索研究（那是深研 Routine 的事）。
 单文件超过 300 家时拆成多个批次号。抽取总数与文件声称数量不符时，在快报中显著标注差异。

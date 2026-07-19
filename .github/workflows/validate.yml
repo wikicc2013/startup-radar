@@ -1,0 +1,22 @@
+name: validate-radar
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: 校验数据与档案一致性
+        run: node scripts/validate.cjs
+      - name: 校验全部生成物为最新
+        run: node scripts/build-all.cjs --check

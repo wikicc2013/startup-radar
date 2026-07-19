@@ -1,9 +1,8 @@
 #!/usr/bin/env node
 /*
  * build-overview.cjs —— 深研总览三件套构建脚本（观止风格 · 价值链两级重构）
- * 单一真源：data/companies.json（结构化数据） + data/themes.json（价值链 7 维归属）
- * 组织：价值链两级 —— 8 个环节（7 维 + 跨行业垂直）× 细分场景（~28）。
- *      细分场景由 scene_tags/一句话关键词自动聚类，仅供导航。
+ * 单一真源：data/companies.json（公司分类） + data/taxonomy.json（分类定义）
+ * 组织：业务分类两级 —— 8 个一级业务域 × 28 个二级产品赛道。
  * 产物：深研总览.md、overview.html、深研总览.html（后两者内容相同）
  * 用法：node scripts/build-overview.cjs
  * 铁律：这三个文件是「生成物」，请勿手改；改数据后重跑本脚本。
@@ -14,8 +13,9 @@ const REPO = path.resolve(__dirname, '..');
 
 const data = JSON.parse(fs.readFileSync(path.join(REPO, 'data/companies.json'), 'utf8'));
 const list = Array.isArray(data) ? data : data.companies;
-const { themes, assign } = JSON.parse(fs.readFileSync(path.join(REPO, 'data/themes.json'), 'utf8'));
-const DATA_DATE = '2026-07-13';
+const { categories } = require('./lib/taxonomy.cjs');
+const DATA_DATE = [data.meta?.updated, ...list.flatMap(x => [x.updated, x.researched_at])]
+  .filter(Boolean).sort().at(-1) || '未标注';
 
 // ---------- 工具 ----------
 const esc = s => String(s == null ? '' : s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
@@ -53,73 +53,27 @@ function cnCell(x) {
   return bs.join('、') || '—';
 }
 
-// ---------- 价值链两级体系 ----------
-// 8 个环节（父）：7 维 + 跨行业垂直。父配色用于导航彩点。
-const VERTICAL = { id: 'vertical', emoji: '🧭', title: '跨行业垂直', desc: '医疗/金融/消费/教育/政务等垂直应用（价值链弱相关，仅升档并标注可迁移范式）' };
-const PARENTS = [...themes, VERTICAL];
+// ---------- 业务分类两级体系 ----------
+const EMOJI = { rnd: '🔬', prod: '🏭', scm: '🔗', sales: '📣', corp: '🧾', aiinfra: '🛠️', aigov: '🛡️', vertical: '🧭' };
+const PARENTS = categories.map(category => ({
+  id: category.id,
+  emoji: EMOJI[category.id] || '•',
+  title: category.label,
+  desc: category.description,
+}));
 const PCOLOR = { rnd: '#8b5cf6', prod: '#0d9488', scm: '#0ea5e9', sales: '#f59e0b', corp: '#6366f1', aiinfra: '#10b981', aigov: '#ef4444', vertical: '#64748b' };
-
-// 细分场景：父 → [{id,label,kw[],def?}]。展示按数组顺序（主场景在前）；
-// 分类时先按数组顺序试「非默认」场景的关键词，均不命中才落入 def 默认场景（兜底）。
-const SCENES = {
-  rnd: [
-    { id: 'rnd-design', label: '研发设计', kw: ['CAD', '仿真', 'EDA', '芯片', '半导体', '材料', '设计', '测试', '建模', '原型', 'PCB', '结构', '光学', '算法研发'], def: true },
-    { id: 'rnd-plm', label: '产品生命周期/工艺', kw: ['工艺', '配方', 'PLM', '实验数据', '实验室', '合成', '中试', '试验', '表征', '小试', '化学', '研发数据'] },
-  ],
-  prod: [
-    { id: 'prod-mfg', label: '生产执行', kw: ['产线', '生产', '制造', '装配', 'MES', '车间', '产能', '量产', '焊', '注塑', '无人', '装备', '仪器'], def: true },
-    { id: 'prod-qc', label: '质量管理', kw: ['质检', '质量', '缺陷', 'AOI', '探伤', '视觉检', '良率', '验货', '品控', '影像检'] },
-    { id: 'prod-maint', label: '设备运维', kw: ['设备', '运维', '维护', '预测性', '数字孪生', 'OEE', '点检', '维保', '故障', '传感器'] },
-    { id: 'prod-ehs', label: '安全环保', kw: ['安全环保', 'EHS', '排放', '职业健康', '应急', '危化', '消防', '环保'] },
-    { id: 'prod-energy', label: '能源管理', kw: ['能源', '电力', '碳', '用能', '节能', '储能', '电网'] },
-  ],
-  scm: [
-    { id: 'scm-sourcing', label: '采购寻源', kw: ['采购', '寻源', '比价', '供应商', '招标', '询价', 'sourcing', 'purchas', '议价', 'MRO'] },
-    { id: 'scm-plan', label: '计划排产', kw: ['排产', '排程', '需求预测', 'APS', '产销', 'S&OP', '排班优化'] },
-    { id: 'scm-wms', label: '仓储物流', kw: ['仓储', '物流', '配送', '库存', '运输', 'WMS', 'TMS', '履约', '货运', '仓库', '海运', '港口'] },
-    { id: 'scm-collab', label: '供应链协同', kw: ['供应链', '协同', '溯源', '贸易', '关务', '进出口', '跨境', '分销', '经销'], def: true },
-  ],
-  sales: [
-    { id: 'sales-mkt', label: '销售营销', kw: ['营销', '销售', '线索', 'CRM', '获客', '转化', '报价', '电商', '导购', '增长', 'GTM', 'SDR', '商机', '广告', '内容营销', '品牌'], def: true },
-    { id: 'sales-svc', label: '客服售后', kw: ['客服', '售后', '工单', '呼叫', '催收', '客户支持', '投诉', '热线', '退换', '现场服务', '客户成功', '客户运营', '话务', '接线', '语音'] },
-  ],
-  corp: [
-    { id: 'corp-fin', label: '财务成本', kw: ['财务', '对账', '费用', '账款', '税', '结算', '开票', '报销', '应收', '应付', '成本', '薪资', 'RCM', '营收', '账单', '审计'] },
-    { id: 'corp-hr', label: '人力资源', kw: ['人力', '招聘', '排班', '人事', '入职', '员工', '劳动力', '考勤', '绩效'] },
-    { id: 'corp-legal', label: '法务合规', kw: ['法务', '合同', '合规', '法律', '条款', '监管', '认证', 'GRC', 'KYC', 'KYB', 'AML', '尽调', '资质'] },
-    { id: 'corp-office', label: '协同办公', kw: ['邮件', '日历', '文档', '会议', '办公', '日程', '协作', '秘书', '纪要', '待办', '写作', '听写', '翻译', '文书'] },
-    { id: 'corp-km', label: '知识管理', kw: ['知识', '问答', '培训', '手册', 'SOP', '企业搜索'] },
-    { id: 'corp-bi', label: '经营决策', kw: ['决策', 'BI', '经营', '情报', '洞察', '看板', '指标', '报表', '战略'], def: true },
-  ],
-  aiinfra: [
-    { id: 'aiinfra-dev', label: '信息技术/开发', kw: ['开发', '代码', 'devtool', 'Agent', '运行时', 'SDK', 'API', '部署', '编排', '工作流', 'ops', '软件', '编程', 'coding', '浏览器', 'computer-use', '数据', '数据库', 'ETL', '标注', '数据集', '集成'], def: true },
-    { id: 'aiinfra-base', label: '通用底座', kw: ['基础模型', '大模型', '算力', '向量', '记忆层', 'RAG', '推理引擎', '训练数据', 'GPU', 'embedding', 'LLM', '中间件', '语音AI数据', '多模态模型'] },
-  ],
-  aigov: [
-    { id: 'aigov-safe', label: 'AI 安全治理', kw: ['安全', '护栏', '评测', '可观测', '合规', '授权', '治理', '风险', '监控', '审计', '防护', '幻觉', '对齐', '红队', '水印', '版权', '保险', '认证', '访问控制'], def: true },
-  ],
-  vertical: [
-    { id: 'v-health', label: '医疗健康', kw: ['医疗', '健康', '诊所', '医院', '患者', '护理', '药', '生物', '临床', '医生', '兽医', '牙科', '放射', '医保', '理疗', '康复', '基因', '制药', 'pharma', 'health', 'medical', 'clinic', 'bio', 'EMS', '急救', '试管', '胚胎'] },
-    { id: 'v-fin', label: '金融保险', kw: ['保险', '金融', '支付', '信贷', '放贷', '交易', '投资', '私募', '对冲', '并购', '稳定币', '加密', 'defi', '银行', '理赔', '承保', '经纪', 'fintech', 'payment', '账户', '美元', '房贷', '精算', 'RWE'] },
-    { id: 'v-consumer', label: '消费生活', kw: ['消费', '购物', '二手', '社交', '游戏', '健身', '旅行', '时尚', '美食', '音乐', '视频', '内容', '伴侣', '表情', '约会', '家庭', '儿童', '娱乐', '宠物', '香水', '古着', '票务', '故事'] },
-    { id: 'v-edu', label: '教育科研', kw: ['教育', '家教', '备考', '批改', '课程', '学生', '学校', '高校', 'edtech', 'tutor', '语言学习', '作文'] },
-    { id: 'v-gov', label: '政务公共', kw: ['政府', '市政', '执法', '选民', '公共', 'govtech', '城市规划', '公民', '国防', '军'] },
-    { id: 'v-other', label: '其他垂直', kw: [], def: true },
-  ],
-};
-
-// 分类器：公司 → {parent, scene}。具体场景优先命中，均不中落入 def 默认场景。
-function parentOf(x) { return assign[x.slug] || 'vertical'; }
-const DIM_TITLES = new Set(themes.map(t => t.title.replace(/\s/g, ''))); // 剔除维度标签本身，避免污染场景匹配
+const SCENES = Object.fromEntries(categories.map(category => [category.id,
+  category.subcategories.map(item => ({ id: item.id, label: item.label }))
+]));
+const categoryIdByLabel = new Map(categories.map(category => [category.label, category.id]));
+const subcategoryIdByLabel = new Map(categories.flatMap(category =>
+  category.subcategories.map(item => [item.label, { id: item.id, categoryId: category.id, label: item.label }])
+));
+function parentOf(x) { return categoryIdByLabel.get(x.category) || 'vertical'; }
 function sceneOf(x, parent) {
-  const scenes = SCENES[parent] || [{ id: parent + '-x', label: '其他', kw: [], def: true }];
-  const tags = (x.scene_tags || []).filter(s => !DIM_TITLES.has(String(s).replace(/\s/g, '')));
-  const hay = [...tags, x.one_liner_zh, x.one_liner_en, x.category, x.subcategory, x.name].join(' ').toLowerCase();
-  for (const sc of scenes) {
-    if (sc.def) continue;
-    if (sc.kw.some(k => hay.includes(String(k).toLowerCase()))) return sc;
-  }
-  return scenes.find(s => s.def) || scenes[0];
+  const scene = subcategoryIdByLabel.get(x.subcategory);
+  if (scene?.categoryId === parent) return scene;
+  return SCENES[parent][0];
 }
 
 // ---------- 数据聚合 ----------
@@ -157,7 +111,7 @@ function scenesOf(pid) {
 function buildMd() {
   let s = `# 深研档案总览 · 价值链视角 · AI青梅创业公司数据库\n\n`;
   s += `> 数据源：\`data/companies.json\`（本文件由 \`scripts/build-overview.cjs\` 自动生成，**请勿手改**；改数据后重跑）。\n`;
-  s += `> 覆盖：全部 **${reviewed.length}** 家已深研入正式档案的公司。按「企业价值链」两级组织：**${PARENTS.length}** 个环节 × **${sceneCount}** 个细分场景。场景由 scene_tags 关键词自动聚类，仅供导航。\n\n`;
+  s += `> 覆盖：全部 **${reviewed.length}** 家已深研入正式档案的公司。按分类体系 2.0 组织为 **${PARENTS.length}** 个一级业务域 × **${sceneCount}** 个二级产品赛道。\n\n`;
   s += `## 一、概览统计\n\n| 指标 | 数值 |\n|---|---|\n`;
   s += `| 深研档案总数 | ${reviewed.length} |\n| 价值链环节 | ${PARENTS.length} |\n| 细分场景 | ${sceneCount} |\n| 有具体金额披露 | ${funded.length} |\n| 有具名早期客户 | ${withCust.length}（含高置信 ${hiCust.length}） |\n| 已关停 / 被收购 | ${dead.length} |\n\n`;
   s += `### 各环节 × 场景分布\n| 环节 | 家数 | 细分场景（家数） |\n|---|---|---|\n`;
@@ -178,7 +132,7 @@ function buildMd() {
       s += `\n`;
     });
   });
-  s += `---\n> 本总览由 \`scripts/build-overview.cjs\` 从 \`data/companies.json\` 生成。价值链场景为自动聚类，仅供导航。直通模式 auto：AI 生成、未经人工复核。\n`;
+  s += `---\n> 本总览由 \`scripts/build-overview.cjs\` 从 \`data/companies.json\` 与 \`data/taxonomy.json\` 生成。直通模式 auto：AI 生成、未经人工复核。\n`;
   return s;
 }
 
@@ -265,7 +219,7 @@ function buildHtml() {
 
   // hero
   h += `<header class="ohero">\n<div class="kicker">转型有术 · STARTUP RADAR · 价值链视角</div>\n<h1>深研档案 · 价值链全景</h1>\n`;
-  h += `<p class="lead">业务 × 价值链 × 场景 × 深研 —— YC 新锐 AI 创业公司数据库中已完成联网深研的 <b>${reviewed.length}</b> 家公司，按「企业价值链」重构为 <b>${PARENTS.length}</b> 个环节、<b>${sceneCount}</b> 个细分场景。点任意场景跳转，点卡片进入该公司深研详情。</p>\n`;
+  h += `<p class="lead">业务 × 价值链 × 产品赛道 × 深研 —— YC 新锐 AI 创业公司数据库中已完成联网深研的 <b>${reviewed.length}</b> 家公司，按分类体系 2.0 重构为 <b>${PARENTS.length}</b> 个一级业务域、<b>${sceneCount}</b> 个二级产品赛道。点任意赛道跳转，点卡片进入公司深研详情。</p>\n`;
   h += `<span class="updated">数据更新：${DATA_DATE}</span>\n`;
   h += `<div class="opills"><a class="pri" href="#toc">价值链导航</a><a href="专题-L4工程图纸.html">📐 L4 图纸专题</a><a href="benchmarks.html">国内对标索引</a><a href="rankings.html">融资/客户榜单</a><a href="trends.html">趋势洞察</a><a href="investors.html">投资版图</a></div>\n`;
   h += `<div class="statgrid">`
@@ -309,7 +263,7 @@ function buildHtml() {
     (dead.length ? dead.map(x => `<li><a href="companies/${x.slug}.html"><b>${esc(x.name)}</b></a> — ${esc(lifeText[x.lifecycle] || x.lifecycle)}</li>`).join('') : '<li>（暂无）</li>') + `</ul></div>\n`;
   h += `</section>\n`;
 
-  h += `<footer class="foot" style="margin-top:34px;color:var(--sub);font-size:12.5px">价值链两级为自动聚类（父=data/themes.json 7 维 + 跨行业垂直；子场景由 scene_tags 关键词归类），仅供导航 · 直通模式 auto：AI 生成、未经人工复核 · 数据更新后重跑 <code>node scripts/build-overview.cjs</code> 刷新</footer>\n`;
+  h += `<footer class="foot" style="margin-top:34px;color:var(--sub);font-size:12.5px">分类体系 2.0：8 个一级业务域 × 28 个二级产品赛道，定义见 data/taxonomy.json · 直通模式 auto：AI 生成、未经人工复核 · 数据更新后重跑 <code>node scripts/build-overview.cjs</code> 刷新</footer>\n`;
   h += `</div></body></html>`;
   return h;
 }
@@ -319,5 +273,5 @@ fs.writeFileSync(path.join(REPO, '深研总览.md'), buildMd(), 'utf8');
 const html = buildHtml();
 fs.writeFileSync(path.join(REPO, 'overview.html'), html, 'utf8');
 fs.writeFileSync(path.join(REPO, '深研总览.html'), html, 'utf8');
-console.log(`✅ 观止风格价值链总览：${reviewed.length} 深研 | ${PARENTS.length} 环节 × ${sceneCount} 场景 | ${funded.length} 有金额 | ${withCust.length}/${hiCust.length} 客户 | ${dead.length} 关停`);
+console.log(`✅ 分类体系 2.0 总览：${reviewed.length} 深研 | ${PARENTS.length} 一级业务域 × ${sceneCount} 二级赛道 | ${funded.length} 有金额 | ${withCust.length}/${hiCust.length} 客户 | ${dead.length} 关停`);
 PARENTS.forEach(p => console.log(`   ${p.emoji} ${p.title}: ${grouped[p.id].total}  [${scenesOf(p.id).map(s => s.label + ' ' + s.rows.length).join(' / ')}]`));

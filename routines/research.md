@@ -15,10 +15,11 @@
    status → reviewed，review → "auto"，补 funding / early_customers / cn_benchmarks /
    scene_tags / archive 字段；queue.json 该条 status → done；
    registry.md 深研状态 → ✅ 自动通过。
-4. **刷新派生页**（均为生成物，勿手改）：先为本次每家新公司在 `data/themes.json` 的 `assign`
-   里补一条主题归属（10 簇之一，见文件顶部 themes 列表；实在归不进就填 `t9` 其他），再依次重跑：
-   `node scripts/build-overview.cjs` → `build-benchmarks.cjs` → `build-rankings.cjs` → `build-trends.cjs`
-   （补了投资方 investors 数据的话再跑 `build-investors.cjs`）。
+4. **刷新派生页**（均为生成物，勿手改）：先为本次公司在 `data/themes.json` 的 `assign`
+   里补一条价值链归属；确属行业垂直、无法归入 7 维时允许留空。随后运行
+   `node scripts/reclassify.cjs --write`，把研究结论同步为分类体系 2.0 的一级业务域与二级产品赛道。
+   然后运行 `node scripts/build-all.cjs`，再运行 `node scripts/validate.cjs` 与
+   `node scripts/build-all.cjs --check`；任一失败都不得提交。
 5. 单次 commit + push：`research({slug1},{slug2},{slug3}): 深研完成，自动通过`
    （含 companies.json、companies/*、data/themes.json 及刷新后的 overview/benchmarks/rankings/深研总览.*）。
 
@@ -30,5 +31,5 @@
   priority 降到 999，在提交信息中说明；
 - 发现公司已关停/被收购照常建档并标注状态；
 - 单家公司搜索预算 15-30 轮，够用即止，不为凑轮次而搜；
-- `overview.html` / `benchmarks.html` / `rankings.html` / `深研总览.*` 均为 `scripts/build-*.cjs`
-  的生成物，**一律不得手改**；任何对 companies.json 的改动都必须重跑三脚本刷新，勿手工同步。
+- `index.html` 的离线数据块及所有 overview/benchmarks/rankings/trends/investors/专题页均为生成物，
+  **一律不得手改生成区**；任何对 companies.json 的改动都必须运行 `node scripts/build-all.cjs`。

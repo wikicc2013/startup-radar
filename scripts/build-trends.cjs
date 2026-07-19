@@ -1,56 +1,55 @@
 #!/usr/bin/env node
 /*
  * build-trends.cjs —— AI 创业趋势洞察页
- * 单一真源：data/companies.json + data/themes.json
- * 产物：trends.html —— 全盘 738（含记名）× 深研 160（高置信）双口径，按 7 价值链维度出洞察
+ * 单一真源：data/companies.json + data/taxonomy.json
+ * 产物：trends.html —— 全库 × 已深研双口径，按 8 个一级业务域出洞察
  * 用法：node scripts/build-trends.cjs
  */
 const fs = require('fs');
 const path = require('path');
+const { parseUsd } = require('./lib/money.cjs');
+const { categories } = require('./lib/taxonomy.cjs');
 const REPO = path.resolve(__dirname, '..');
 const d = JSON.parse(fs.readFileSync(REPO + '/data/companies.json', 'utf8'));
 const list = (Array.isArray(d) ? d : d.companies);
-const { themes, assign } = JSON.parse(fs.readFileSync(REPO + '/data/themes.json', 'utf8'));
 const esc = s => String(s == null ? '' : s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 
-const inScope = list.filter(x => assign[x.slug]); // 有维度归属 = 数据库盘子
+const EMOJI = { rnd: '🔬', prod: '🏭', scm: '🔗', sales: '📣', corp: '🧾', aiinfra: '🛠️', aigov: '🛡️', vertical: '🧭' };
+const dimensions = categories.map(category => ({ ...category, title: category.label, emoji: EMOJI[category.id] || '•' }));
+const dimensionIdByLabel = new Map(dimensions.map(item => [item.label, item.id]));
+const dimensionOf = x => dimensionIdByLabel.get(x.category) || 'vertical';
+const inScope = list;
 const reviewed = inScope.filter(x => x.status === 'reviewed');
-function parseAmt(a) {
-  if (!a) return 0; const s = String(a).replace(/,/g, '').replace(/\s/g, ''); let m;
-  if (m = s.match(/([\d.]+)亿/)) return parseFloat(m[1]) * 1e8;
-  if (m = s.match(/([\d.]+)万美元/)) return parseFloat(m[1]) * 1e4;
-  if (m = s.match(/([\d.]+)百万/)) return parseFloat(m[1]) * 1e6;
-  if (m = s.match(/([\d.]+)万/)) return parseFloat(m[1]) * 1e4;
-  if (m = s.match(/[\$€¥]?([\d.]+)M/i)) return parseFloat(m[1]) * 1e6;
-  if (m = s.match(/[\$€¥]?([\d.]+)K/i)) return parseFloat(m[1]) * 1e3;
-  if (m = s.match(/[\$€¥]([\d.]+)/)) return parseFloat(m[1]); return 0;
-}
-function bestUsd(x) { let v = 0; for (const f of (x.funding || [])) { if (/并购|收购|退出|acquired|IPO/i.test(f.round || '')) continue; v = Math.max(v, parseAmt(f.amount)); } return v; }
+function bestUsd(x) { let v = 0; for (const f of (x.funding || [])) { if (/并购|收购|退出|acquired|IPO|LOI|意向书|估值|valuation/i.test(`${f.round || ''} ${f.amount || ''}`)) continue; v = Math.max(v, parseUsd(f.amount)); } return v; }
 
 // 各维度统计
-const stat = themes.map(t => {
-  const allN = inScope.filter(x => assign[x.slug] === t.id).length;
-  const revN = reviewed.filter(x => assign[x.slug] === t.id).length;
-  const funded = reviewed.filter(x => assign[x.slug] === t.id && bestUsd(x) > 0);
+const stat = dimensions.map(t => {
+  const allN = inScope.filter(x => dimensionOf(x) === t.id).length;
+  const revN = reviewed.filter(x => dimensionOf(x) === t.id).length;
+  const funded = reviewed.filter(x => dimensionOf(x) === t.id && bestUsd(x) > 0);
   const totalUsd = funded.reduce((s, x) => s + bestUsd(x), 0);
   return { t, allN, revN, ratio: revN ? +(allN / revN).toFixed(1) : 0, fundN: funded.length, totalUsd };
 });
 const totAll = inScope.length, totRev = reviewed.length;
+const hasDepthGap = totRev < totAll;
 const byAll = [...stat].sort((a, b) => b.allN - a.allN);
 const maxAll = Math.max(...stat.map(s => s.allN));
 const enableAll = stat.filter(s => s.t.id === 'aiinfra' || s.t.id === 'aigov').reduce((s, e) => s + e.allN, 0);
 const appAll = totAll - enableAll;
 const chain = stat.filter(s => ['rnd', 'prod', 'scm'].includes(s.t.id)).reduce((s, e) => s + e.allN, 0);
-const topAmp = [...stat].filter(s => s.revN >= 3).sort((a, b) => b.ratio - a.ratio)[0];
+const topAmp = hasDepthGap ? [...stat].filter(s => s.revN >= 3).sort((a, b) => b.ratio - a.ratio)[0] : null;
+const densest = byAll[0];
 const leanest = [...stat].sort((a, b) => a.allN - b.allN)[0];
-const pct = n => Math.round(n / totAll * 100);
+const pct = n => totAll ? Math.round(n / totAll * 100) : 0;
 
 // 洞察卡
 const insights = [
-  { icon: '⚙️', t: '近四成在"卖铲子"', b: `AI 基础设施 + 安全治理共 <b>${enableAll}</b> 家（占 <b>${pct(enableAll)}%</b>），仍在给别的 Agent 做底座；真正落到具体业务价值链的应用侧 ${appAll} 家（${pct(appAll)}%）。` },
+  { icon: '⚙️', t: `${pct(enableAll)}% 在“卖铲子”`, b: `AI 基础设施 + 安全治理共 <b>${enableAll}</b> 家（占 <b>${pct(enableAll)}%</b>）；应用侧与跨行业垂直共 ${appAll} 家（${pct(appAll)}%）。` },
   { icon: '🏭', t: '制造+供应链是应用侧腹地', b: `研发/生产/供应链三个环节共 <b>${chain}</b> 家——转型有术的核心腹地，也是海外新锐扎堆颠覆的地方。` },
-  { icon: '📣', t: `${topAmp ? esc(topAmp.t.title) : ''} 最同质`, b: topAmp ? `深研 ${topAmp.revN} 家，全盘却有 ${topAmp.allN} 家（放大 <b>${topAmp.ratio}×</b>）——记名档里大量同质公司扎堆，红海信号。` : '' },
-  { icon: '🔬', t: `${esc(leanest.t.title)} 是蓝海`, b: `全盘仅 <b>${leanest.allN}</b> 家（${pct(leanest.allN)}%），是 7 个维度里最薄的一块——AI 进这个环节还很早，机会窗口。` },
+  hasDepthGap
+    ? { icon: '📣', t: `${topAmp ? esc(topAmp.t.title) : ''} 待深研最多`, b: topAmp ? `已深研 ${topAmp.revN} 家，全盘 ${topAmp.allN} 家（覆盖差 <b>${topAmp.ratio}×</b>），应优先补齐研究。` : '' }
+    : { icon: '📣', t: `${esc(densest.t.title)} 样本最多`, b: `当前全库已完成自动深研；该维度共 <b>${densest.allN}</b> 家。样本密集只表示本库观察到的创业供给多，不直接等同“红海”。` },
+  { icon: '🔬', t: `${esc(leanest.t.title)} 样本最少`, b: `全盘 <b>${leanest.allN}</b> 家（${pct(leanest.allN)}%）。这表示当前样本覆盖较薄，不直接推断为“蓝海”或机会窗口。` },
 ];
 
 const STYLE = `.twrap{max-width:1120px;margin:0 auto;padding:24px 20px 60px}
@@ -88,7 +87,7 @@ ${STYLE}
 <header class="thero">
  <div class="kicker">转型有术 · STARTUP RADAR · 趋势洞察</div>
  <h1>AI 创业趋势洞察</h1>
- <p>把 <b>${totAll}</b> 家 AI 创业公司（其中 <b>${totRev}</b> 家已深度调研）按「企业价值链 7 维度」聚合——看清 AI 正在从哪个环节切入、哪里扎堆红海、哪里还是蓝海。深浅两色分别代表「全盘（含记名）」与「已深研」。</p>
+ <p>把 <b>${totAll}</b> 家 AI 创业公司（其中 <b>${totRev}</b> 家已完成自动深研）按分类体系 2.0 的 8 个一级业务域聚合，观察 AI 创业供给正从哪些业务环节切入。${hasDepthGap ? '深浅两色分别代表全盘与已深研。' : '当前全库均已深研，图表仅展示样本分布，不把样本多少直接解释为红海或蓝海。'}</p>
 </header>
 
 <div class="igrid">
@@ -97,8 +96,8 @@ ${insights.map(i => `<div class="icard"><div class="ih">${i.icon} ${esc(i.t)}</d
 
 <section class="sec"><h2>📊 价值链分布</h2><p class="sub">全盘 ${totAll} 家 × 已深研 ${totRev} 家，按维度家数降序。</p>
 <div class="bars">
-${byAll.map(s => `<div class="brow"><span class="bl">${s.t.emoji} ${esc(s.t.title)}</span><span class="btrack"><span class="bfill" style="width:${Math.round(s.allN / maxAll * 100)}%"></span><span class="bfill rev" style="width:${Math.round(s.revN / maxAll * 100)}%"></span></span><span class="bn"><b>${s.allN}</b> 全盘 · ${s.revN} 深研</span></div>`).join('')}
-<div class="legend"><span class="sw" style="background:linear-gradient(90deg,var(--accent),var(--hi))"></span>全盘（含记名档）<span class="sw" style="background:var(--accent);opacity:.5"></span>已深研（高置信）</div>
+${byAll.map(s => `<div class="brow"><span class="bl">${s.t.emoji} ${esc(s.t.title)}</span><span class="btrack"><span class="bfill" style="width:${Math.round(s.allN / maxAll * 100)}%"></span>${hasDepthGap ? `<span class="bfill rev" style="width:${Math.round(s.revN / maxAll * 100)}%"></span>` : ''}</span><span class="bn"><b>${s.allN}</b>${hasDepthGap ? ` 全盘 · ${s.revN} 深研` : ' 家'}</span></div>`).join('')}
+<div class="legend">${hasDepthGap ? '<span class="sw" style="background:linear-gradient(90deg,var(--accent),var(--hi))"></span>全盘 <span class="sw" style="background:var(--accent);opacity:.5"></span>已深研' : '当前全部样本均已完成自动深研'}</div>
 </div></section>
 
 <section class="sec"><h2>⚙️ 卖铲子 vs 干活</h2><p class="sub">AI 使能层（给别的 Agent 做底座）与应用侧（落到具体业务）的比例。</p>
@@ -107,12 +106,12 @@ ${byAll.map(s => `<div class="brow"><span class="bl">${s.t.emoji} ${esc(s.t.titl
  <div class="seg" style="width:${pct(appAll)}%;background:var(--hi)">应用侧 ${appAll}（${pct(appAll)}%）</div>
 </div></section>
 
-<section class="sec"><h2>💰 各维度融资（已深研档）</h2><p class="sub">仅统计有具体金额披露的深研公司；记名档无融资数据。</p>
+<section class="sec"><h2>💰 各维度融资（已深研档）</h2><p class="sub">仅汇总可保守解析的美元口径；其他币种因缺少汇率日期不参与跨币种合计。</p>
 <div class="bars">
 ${[...stat].sort((a, b) => b.totalUsd - a.totalUsd).map(s => `<div class="brow"><span class="bl">${s.t.emoji} ${esc(s.t.title)}</span><span class="btrack"><span class="bfill" style="width:${Math.round(s.totalUsd / Math.max(1, Math.max(...stat.map(e => e.totalUsd))) * 100)}%"></span></span><span class="bn"><b>$${(s.totalUsd / 1e6).toFixed(1)}M</b> · ${s.fundN} 家</span></div>`).join('')}
 </div></section>
 
-<footer class="foot" style="margin-top:30px">由 <code>node scripts/build-trends.cjs</code> 从 data/companies.json + themes.json 生成 · 全盘含 C 档记名（低置信自动归类），深研档为人工复核 · 仅供导航</footer>
+<footer class="foot" style="margin-top:30px">由 <code>node scripts/build-trends.cjs</code> 从 data/companies.json + taxonomy.json 生成 · 分类体系 2.0 为 8 个一级业务域 × 28 个二级产品赛道 · auto 档为 AI 生成、未经人工复核 · 仅供导航</footer>
 </div></body></html>`;
 
 fs.writeFileSync(REPO + '/trends.html', h, 'utf8');

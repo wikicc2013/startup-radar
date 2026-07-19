@@ -17,7 +17,7 @@ GitHub 只负责存储和看板展示。云端自动化（Routines/Actions）已
    ```
 2. **开看板**：仓库 Settings → Pages → Source 选 `main` / `/(root)`。
    几分钟后 `https://你的用户名.github.io/startup-radar/` 随时可查，手机存书签。
-   本地预览：直接双击 index.html（已内嵌数据兜底）。
+   本地预览：直接双击 index.html（离线快照由 `node scripts/build-all.cjs` 自动同步）。
 
 部署完成。没有第 3 步。
 
@@ -34,21 +34,40 @@ GitHub 只负责存储和看板展示。云端自动化（Routines/Actions）已
 
 push 之后刷新看板即见最新状态。队列排完会提示"队列已清空"。
 
+数据或档案修改后，统一执行：
+
+```bash
+node scripts/build-all.cjs
+node scripts/validate.cjs
+node scripts/build-all.cjs --check
+```
+
+第一条刷新全部页面与离线快照；后两条是提交前检查，任何数据、队列、档案或生成物漂移都会返回失败。
+
 ## 目录结构
 
 ```
 inbox/        入口，处理后自动清空
 batches/      批次原始名单存档
-companies/    A 档深研档案（Markdown）
+companies/    单公司深研档案（Markdown + 派生 HTML）
 data/         companies.json（真源）+ queue.json（深研队列）
 reports/      批次快报
 routines/     研究流程提示词（本地命令与云端 Routine 共用同一套）
-registry.md   人读主索引
-index.html    查询看板（永不因数据更新而改，只读 JSON）
+registry.md   人读的批次与初始分诊索引
+index.html    查询看板（在线读 JSON + 自动同步的离线快照）
 CLAUDE.md     仓库宪法：状态机、铁律、提交规范
 .claude/
   commands/   /ingest 与 /research 本地命令
   skills/ai-startup-radar/   分诊判据与研究方法（唯一判据来源）
+```
+
+公司分类采用 `data/taxonomy.json` 定义的分类体系 2.0：8 个一级业务域、28 个二级产品赛道。
+`category/subcategory` 保存统一分类，`source_category/source_subcategory` 保留来源原文。新增公司或调整分类规则后运行：
+
+人读版的分类原则、边界与当前分布见 [`分类体系.md`](分类体系.md)。
+
+```bash
+node scripts/reclassify.cjs --write
 ```
 
 ## 以后想升级云端全自动？

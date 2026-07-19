@@ -7,35 +7,21 @@
  */
 const fs = require('fs');
 const path = require('path');
+const { parseUsd } = require('./lib/money.cjs');
+const { categories } = require('./lib/taxonomy.cjs');
 const REPO = path.resolve(__dirname, '..');
 const data = JSON.parse(fs.readFileSync(path.join(REPO, 'data/companies.json'), 'utf8'));
 const list = (Array.isArray(data) ? data : data.companies);
-let themesCfg = { themes: [], assign: {} };
-try { themesCfg = JSON.parse(fs.readFileSync(path.join(REPO, 'data/themes.json'), 'utf8')); } catch (e) {}
 const reviewed = list.filter(x => x.status === 'reviewed');
 const esc = s => String(s == null ? '' : s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 const badgeClass = tier => (tier === 'A1' ? 'a1' : 'a2');
 
-// 金额 → USD 约数（用于排序；€/¥ 粗按等值处理，展示仍用原文）
-function parseAmt(a) {
-  if (!a) return 0;
-  const s = String(a).replace(/,/g, '').replace(/\s/g, '');
-  let m;
-  if (m = s.match(/([\d.]+)亿/)) return parseFloat(m[1]) * 1e8;
-  if (m = s.match(/([\d.]+)万美元/)) return parseFloat(m[1]) * 1e4;
-  if (m = s.match(/([\d.]+)百万/)) return parseFloat(m[1]) * 1e6;
-  if (m = s.match(/([\d.]+)万/)) return parseFloat(m[1]) * 1e4;
-  if (m = s.match(/[\$€¥]?([\d.]+)M/i)) return parseFloat(m[1]) * 1e6;
-  if (m = s.match(/[\$€¥]?([\d.]+)K/i)) return parseFloat(m[1]) * 1e3;
-  if (m = s.match(/[\$€¥]([\d.]+)/)) return parseFloat(m[1]);
-  return 0;
-}
 const amountLabel = a => String(a || '').split(/[（(]/)[0].trim();
 function bestFunding(x) { // 取金额最大的一条「融资轮」（排除并购/收购/退出对价，避免把退出价当融资）
   let best = null, bv = -1;
   for (const f of (x.funding || [])) {
-    if (/并购|收购|退出|acquired|acquisition|IPO|上市/i.test(f.round || '')) continue;
-    const v = parseAmt(f.amount); if (v > bv) { bv = v; best = f; }
+    if (/并购|收购|退出|acquired|acquisition|IPO|上市|LOI|意向书|估值|valuation/i.test(`${f.round || ''} ${f.amount || ''}`)) continue;
+    const v = parseUsd(f.amount); if (v > bv) { bv = v; best = f; }
   }
   return best && bv > 0 ? { f: best, usd: bv } : null;
 }
@@ -46,10 +32,14 @@ const fundRank = reviewed.map(x => { const b = bestFunding(x); return b && b.usd
 const beacon = reviewed.filter(x => (x.early_customers || []).some(u => u.confidence === '高'))
   .map(x => ({ x, cust: (x.early_customers || []).find(u => u.confidence === '高') }))
   .sort((a, b) => a.x.num - b.x.num);
-// 赛道热度榜（只数已深研档，与 overview 口径一致；C 档全盘趋势见 trends 页）
-const revTheme = {}; themesCfg.themes.forEach(t => revTheme[t.id] = 0);
-reviewed.forEach(x => { const id = themesCfg.assign[x.slug]; if (id && revTheme[id] != null) revTheme[id]++; });
-const themeCount = themesCfg.themes.map(t => ({ t, n: revTheme[t.id] })).sort((a, b) => b.n - a.n);
+// 二级赛道样本分布（分类体系 2.0）
+const revTheme = {};
+categories.forEach(category => category.subcategories.forEach(item => { revTheme[item.label] = 0; }));
+reviewed.forEach(x => { if (x.subcategory in revTheme) revTheme[x.subcategory]++; });
+const themeCount = categories.flatMap(category => category.subcategories.map(item => ({
+  t: { title: item.label, emoji: '' },
+  n: revTheme[item.label],
+}))).filter(item => item.n).sort((a, b) => b.n - a.n);
 const maxTheme = Math.max(1, ...themeCount.map(e => e.n));
 const csvCell = x => `"${String(x).replace(/"/g, '""')}"`;
 const CSV = '﻿排名,公司,档,金额,轮次,批次\n' + fundRank.map((e, i) =>
@@ -98,7 +88,7 @@ ${STYLE}
 <header class="rhero">
  <div class="kicker">转型有术 · STARTUP RADAR · 榜单</div>
  <h1>深研榜单</h1>
- <p>从 ${reviewed.length} 份深研档案自动生成的三张榜：谁拿了最多钱、谁签下了可交叉验证的灯塔客户、哪条赛道最拥挤。金额取各公司已披露的最大一轮，币种以原文为准（€/¥ 仅按等值粗排）。</p>
+ <p>从 ${reviewed.length} 份深研档案自动生成的三张榜：谁拿了最多钱、谁签下了可交叉验证的灯塔客户、哪条赛道样本最多。金额取各公司可解析的最大一轮；没有汇率日期时只对美元口径排序，其他币种保留原文但不做跨币种硬排。</p>
 </header>
 
 <section class="rsec"><h2>💰 融资榜</h2><p class="sub">${fundRank.length} 家有可解析金额，按已披露最大一轮降序。</p>
@@ -111,12 +101,12 @@ ${fundRows(fundRank)}
 ${beacon.map((e, i) => `<tr><td class="rk">${i + 1}</td><td class="rname"><a href="companies/${e.x.slug}.html"><span class="badge ${badgeClass(e.x.tier)}">${esc(e.x.tier)}</span> ${esc(e.x.name)}</a></td><td>${esc(e.cust.name)}</td><td>${esc(e.x.batch)}</td></tr>`).join('')}
 </tbody></table></section>
 
-<section class="rsec"><h2>🔥 赛道热度榜</h2><p class="sub">10 个主题簇按深研家数排序（聚类见 data/themes.json）。</p>
+<section class="rsec"><h2>🧭 二级赛道样本分布</h2><p class="sub">分类体系 2.0 的 ${themeCount.length} 个二级产品赛道按深研家数排序；样本数不直接等同市场热度。</p>
 <div class="bars">
 ${themeCount.map(e => `<div class="bar"><span class="bl">${e.t.emoji} ${esc(e.t.title.split('·')[0])}</span><span class="btrack"><span class="bfill" style="width:${Math.round(e.n / maxTheme * 100)}%"></span></span><span class="bn">${e.n}</span></div>`).join('')}
 </div></section>
 
-<footer class="foot" style="margin-top:30px">由 <code>node scripts/build-rankings.cjs</code> 从 data/companies.json 生成 · 金额解析用于排序，展示以原文为准 · 直通模式 auto，仅供导航</footer>
+<footer class="foot" style="margin-top:30px">由 <code>node scripts/build-rankings.cjs</code> 从 data/companies.json 生成 · 仅美元口径参与金额排序，展示以原文为准 · 直通模式 auto，仅供导航</footer>
 ${EXPORT_JS}
 </div></body></html>`;
 

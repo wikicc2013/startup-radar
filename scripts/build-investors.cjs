@@ -1,21 +1,22 @@
 #!/usr/bin/env node
 /*
  * build-investors.cjs —— 投资版图页
- * 单一真源：data/companies.json 的 x.investors（领投/跟投）+ data/themes.json（价值链维度）
+ * 单一真源：data/companies.json 的 x.investors（领投/跟投）+ data/taxonomy.json（一级业务域）
  * 产物：investors.html —— 投资机构 → 投了哪些新锐 × 哪个价值链环节
  * 用法：node scripts/build-investors.cjs
  * 说明：排除 Y Combinator（它投了全部样本，无区分度）；聚焦其余机构的下注版图。
  */
 const fs = require('fs');
 const path = require('path');
+const { categories } = require('./lib/taxonomy.cjs');
 const REPO = path.resolve(__dirname, '..');
 const d = JSON.parse(fs.readFileSync(REPO + '/data/companies.json', 'utf8'));
 const list = (Array.isArray(d) ? d : d.companies);
-const { themes, assign } = JSON.parse(fs.readFileSync(REPO + '/data/themes.json', 'utf8'));
 const esc = s => String(s == null ? '' : s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 const badgeClass = tier => (tier === 'A1' ? 'a1' : 'a2');
-const emojiOf = {}; themes.forEach(t => emojiOf[t.id] = t.emoji);
-const titleOf = {}; themes.forEach(t => titleOf[t.id] = t.title);
+const EMOJI = { rnd: '🔬', prod: '🏭', scm: '🔗', sales: '📣', corp: '🧾', aiinfra: '🛠️', aigov: '🛡️', vertical: '🧭' };
+const emojiOf = {}, titleOf = {}, categoryIdByLabel = new Map();
+categories.forEach(category => { emojiOf[category.id] = EMOJI[category.id]; titleOf[category.id] = category.label; categoryIdByLabel.set(category.label, category.id); });
 
 const EXCLUDE = /^(y ?combinator|yc)$/i;
 const ALIAS = { 'liquid 2 ventures': 'Liquid2 Ventures', 'liquid2 ventures': 'Liquid2 Ventures', 'sv angel': 'SV Angel' };
@@ -32,7 +33,7 @@ for (const x of withInv) {
   leadSet.forEach(nm => set.set(nm, true));
   for (const [nm, isLead] of set) {
     if (EXCLUDE.test(nm)) continue;
-    (vc[nm] = vc[nm] || []).push({ slug: x.slug, name: x.name, tier: x.tier, dim: assign[x.slug], liner: x.one_liner_zh, lead: isLead });
+    (vc[nm] = vc[nm] || []).push({ slug: x.slug, name: x.name, tier: x.tier, dim: categoryIdByLabel.get(x.category), liner: x.one_liner_zh, lead: isLead });
   }
 }
 const all = Object.entries(vc).map(([v, arr]) => ({ v, arr: arr.sort((a, b) => a.name.localeCompare(b.name)) })).sort((a, b) => b.arr.length - a.arr.length || a.v.localeCompare(b.v));

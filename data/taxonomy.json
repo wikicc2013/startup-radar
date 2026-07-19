@@ -1,0 +1,91 @@
+{
+  "version": "2.0",
+  "updated": "2026-07-19",
+  "principle": "一级按企业价值链与服务对象划分，二级按核心产品与购买场景划分；技术形态仅在决定购买对象时进入分类。",
+  "categories": [
+    {
+      "id": "rnd",
+      "label": "研发与产品",
+      "description": "产品定义、工程设计、仿真验证、工艺与研发数据",
+      "subcategories": [
+        { "id": "rnd-design", "label": "产品研发与工程设计", "description": "CAD/CAE/EDA、仿真、生成式设计、测试验证" },
+        { "id": "rnd-lifecycle", "label": "工艺与产品生命周期", "description": "PLM/BOM、配方、实验室、工艺知识与研发数据" }
+      ]
+    },
+    {
+      "id": "prod",
+      "label": "生产与运营",
+      "description": "工厂生产、质量、设备、安全、能源与现场运营",
+      "subcategories": [
+        { "id": "prod-execution", "label": "生产执行与工厂运营", "description": "MES/MOM、产线、装配、车间与制造自动化" },
+        { "id": "prod-quality", "label": "质量管理与视觉检测", "description": "质量体系、机器视觉、缺陷检测、良率与检测设备" },
+        { "id": "prod-assets", "label": "设备运维与资产管理", "description": "预测性维护、点检、维保、OEE、数字孪生与工业物联" },
+        { "id": "prod-sustainability", "label": "能源安全与可持续", "description": "能源管理、节能、碳管理、EHS、环保与生产安全" }
+      ]
+    },
+    {
+      "id": "scm",
+      "label": "供应链与履约",
+      "description": "从供应商到交付的计划、采购、仓储、物流与协同",
+      "subcategories": [
+        { "id": "scm-sourcing", "label": "采购寻源与供应商", "description": "SRM、寻源、询报价、招投标、供应商与 MRO" },
+        { "id": "scm-planning", "label": "计划排程与供应链协同", "description": "APS、S&OP、需求预测、计划排程、协同与溯源" },
+        { "id": "scm-logistics", "label": "仓储物流与履约", "description": "WMS/TMS、库存、运输、配送、货运与履约" }
+      ]
+    },
+    {
+      "id": "sales",
+      "label": "营销与客户",
+      "description": "获客、销售、增长、客户服务、售后与现场服务",
+      "subcategories": [
+        { "id": "sales-growth", "label": "销售营销与增长", "description": "CRM、营销、广告、内容、商机、报价、电商与增长" },
+        { "id": "sales-service", "label": "客服成功与现场服务", "description": "客服、呼叫中心、客户成功、售后、工单与现场服务" }
+      ]
+    },
+    {
+      "id": "corp",
+      "label": "企业管理",
+      "description": "企业职能后台、组织协同、知识与经营管理",
+      "subcategories": [
+        { "id": "corp-finance", "label": "财务税务与经营成本", "description": "财务、税务、报销、对账、审计、成本与结算" },
+        { "id": "corp-hr", "label": "人力资源与劳动力", "description": "招聘、人事、排班、考勤、绩效与员工服务" },
+        { "id": "corp-legal", "label": "法务合规与风险", "description": "合同、法务、资质、监管、尽调与企业风险" },
+        { "id": "corp-collaboration", "label": "办公协同与知识管理", "description": "文档、会议、邮件、知识库、培训、搜索与办公助手" },
+        { "id": "corp-operations", "label": "企业运营与流程自动化", "description": "ITSM、RPA、企业流程、共享服务、内部运营与数字员工" },
+        { "id": "corp-decision", "label": "经营分析与决策", "description": "BI、经营分析、情报、指标、报表与管理决策" }
+      ]
+    },
+    {
+      "id": "aiinfra",
+      "label": "AI 技术底座",
+      "description": "开发者、AI 团队与智能体应用所需的技术基础设施",
+      "subcategories": [
+        { "id": "aiinfra-dev", "label": "开发工具与软件工程", "description": "AI 编程、测试、代码质量、DevOps、API 与开发工具" },
+        { "id": "aiinfra-agent", "label": "Agent 平台与流程自动化", "description": "Agent 框架、工作流、RPA、浏览器执行、MCP 与运行时" },
+        { "id": "aiinfra-data", "label": "数据基础设施与分析", "description": "数据库、数据集成、ETL、数据质量、标注与分析平台" },
+        { "id": "aiinfra-model", "label": "模型算力与多模态底座", "description": "基础模型、训练推理、GPU、RAG、语音视觉与多模态能力" }
+      ]
+    },
+    {
+      "id": "aigov",
+      "label": "安全与治理",
+      "description": "AI 系统与数字基础设施的安全、评测、身份和治理",
+      "subcategories": [
+        { "id": "aigov-ai", "label": "AI 安全评测与治理", "description": "模型与 Agent 评测、护栏、可观测、红队、对齐与治理" },
+        { "id": "aigov-cyber", "label": "网络身份与数据安全", "description": "网络安全、IAM/PAM、权限、隐私、数据安全与安全运营" }
+      ]
+    },
+    {
+      "id": "vertical",
+      "label": "行业垂直应用",
+      "description": "围绕特定行业专业流程构建、难以直接归入通用价值链的产品",
+      "subcategories": [
+        { "id": "vertical-health", "label": "医疗健康与生命科学", "description": "医疗服务、制药、生物科技、临床、护理与健康管理" },
+        { "id": "vertical-finance", "label": "金融保险与支付", "description": "银行、保险、支付、信贷、投资、交易与金融基础设施" },
+        { "id": "vertical-consumer", "label": "消费内容与社交", "description": "消费产品、内容、游戏、社交、生活方式与个人服务" },
+        { "id": "vertical-public", "label": "教育与科研", "description": "教育、科研、学校、课程、学习与人才培养" },
+        { "id": "vertical-industry", "label": "政务与专业行业", "description": "政府、市政、公共服务，以及地产建筑、农业、航空航天等专业行业" }
+      ]
+    }
+  ]
+}
